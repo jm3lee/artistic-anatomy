@@ -1,0 +1,24 @@
+<table>
+<tbody>
+<tr>
+  <th>Origin</th>
+  <td>
+  <ol>
+  <li></li>
+  </ol>
+  </td>
+</tr>
+<tr>
+  <th>Insertion</th>
+  <td></td>
+</tr>
+<tr>
+  <th>Actions</th>
+  <td>
+  <ol>
+  <li></li>
+  </ol>
+  </td>
+</tr>
+</tbody>
+</table>

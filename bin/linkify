@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sed '
+s/\<humerus\>/<humerus>/g;
+s/\<Humerus\>/<Humerus>/g;
+s/\<ulna\>/<ulna>/g;
+s/\<Ulna\>/<Ulna>/g;
+s/\<brachialis\>/<brc>/g;
+s/\<Brachialis\>/<Brc>/g;
+'

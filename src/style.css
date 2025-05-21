@@ -179,28 +179,85 @@ img.thumbnail {
     }
 }
 
-nav:not(#TOC) ul {
-    list-style-type: none;
-    padding-left: 0;
+.inline-block {
+    display: inline-block
 }
 
-nav:not(#TOC) ul li {
-    display: inline-block;
-    padding-right: 0.5rem;
-    text-transform: uppercase;
+figure {
+  margin: 0 auto var(--space-lg);
+  text-align: center;
+  max-width: var(--max-figure-width);
 }
 
-/* Direct children of #TOC as decimal; adjust selectors for deeper nesting
-* if needed */
-#TOC > ul, #TOC ul {
-    list-style-type: decimal;
-    margin-left: 1.5em; /* optional indentation adjustment */
+figcaption {
+  font-size: 0.5em;
 }
+
+/* ==========================================================================
+   BLOCKQUOTES
+   ========================================================================== */
+
+blockquote {
+  border-left: 4px solid var(--color-text);
+  padding-left: var(--space-md);
+}
+
+/* ==========================================================================
+   DETAILS / SUMMARY
+   ========================================================================== */
+
+details {
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: var(--space-sm) var(--space-sm) 0;
+  margin-bottom: var(--space-lg);
+  background: #eee;
+}
+
+summary {
+  margin: calc(-1 * var(--space-sm)) calc(-1 * var(--space-sm)) 0;
+  padding: var(--space-sm);
+}
+
+details[open] {
+  padding: var(--space-sm);
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: var(--space-sm);
+}
+
+details p {
+  margin: 0;
+  display: inline-block;
+}
+
+details + p {
+  margin-top: 2em;
+}
+
+/* ==========================================================================
+   FOOTER & LINKS
+   ========================================================================== */
 
 .footer {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    text-align: center;
+  text-align: center;
+  padding: var(--space-lg) 0;
+}
+
+.footnote {
+  font-size: smaller;
+}
+
+.pubdate {
+  font-size: 0.8em;
+  color: darkgray;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .pubdate {

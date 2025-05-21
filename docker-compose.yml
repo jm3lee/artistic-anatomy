@@ -9,10 +9,7 @@ services:
     restart: unless-stopped
 
   nginx-dev:
-    build:
-      context: .
-      dockerfile: app/nginx/Dockerfile
-    container_name: nginx-dev
+    image: press-nginx-dev
     ports:
       - "80:80"
       - "443:443"
@@ -39,21 +36,21 @@ services:
     volumes:
       - ./s3:/s3
 
-  service-framework:
-    build: app/service-framework
-
   webp:
-    build: app/webp
+    image: press-webp
     entrypoint: ["/app/bin/service"]
     volumes:
       - ./app/webp/input:/app/input
-      - ./app/webp/output:/app/output
+      - ./s3/richer:/app/output
       - ./log:/app/log
 
   shell:
-    build: app/shell
+    image: press-shell
     entrypoint: ["bash"]
     environment:
       OPENAI_API_KEY: "${OPENAI_API_KEY}"
     volumes:
       - ./:/data
+      - ./app/shell/bin:/app/bin
+      - ./app/shell/mk:/app/mk
+      - ./dep.mk:/app/mk/dep.mk

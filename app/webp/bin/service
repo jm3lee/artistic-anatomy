@@ -35,12 +35,14 @@ while true; do
         # If it's a regular file, process it
         if [ -f "$input_file" ]; then
             echo "service: Processing $input_file"
+            set -x
             stem=$(basename "$input_file" .jpg)
             stem=$(basename "$stem" .png)
             chmod a-x "$input_file"
             convert "$input_file" "/app/output/${stem}.webp"
             rm "$input_file"
-            echo "$input_file -> /app/output/${stem}.webp" >> /app/log/webp.txt
+            echo "$input_file -> /app/output/${stem}.webp" >> /app/logs/webp.txt
+            set +x
             # Separator for readability in logs or stdout
             echo "---"
         fi

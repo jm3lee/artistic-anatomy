@@ -19,6 +19,10 @@ RUN apt update -qq
 # Install locales package first (changes less often than other tools,
 # so placing it early saves rebuild time when other layers change).
 RUN apt install -y --no-install-recommends locales
+RUN apt install -y --no-install-recommends make
+RUN apt install -y --no-install-recommends minify
+RUN apt install -y --no-install-recommends python3-jinja2
+RUN rm -rf /var/lib/apt/lists/*
 
 # -------------------------------------------------------------------
 # Locale configuration

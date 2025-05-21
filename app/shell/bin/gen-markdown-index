@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+
+import sys
+import yaml
+
+def get_url(filename):
+    if filename.startswith("src/"):
+        url = filename[4:]
+        url = "/" + url.replace(".md", ".html")
+        return url
+
+def get_frontmatter(filename):
+    with open(filename, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+        if lines and lines[0].startswith("---"):
+            yaml_lines = []
+            for line in lines[1:]:
+                if line.startswith("---"):
+                    break
+                yaml_lines.append(line)
+            front_matter = yaml.safe_load("".join(yaml_lines))
+            return front_matter
+
+index = []
+for filename in sorted(sys.argv[1:]):
+    frontmatter = get_frontmatter(filename)
+    title = frontmatter["title"]
+    url = get_url(filename)
+    print(f"- [{title}]({url})")

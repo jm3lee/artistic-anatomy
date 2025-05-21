@@ -12,7 +12,8 @@
 
 ```
 alias r='make -f redo.mk'
-r setup
+r seed
+r up
 ```
 
 ### webp converter

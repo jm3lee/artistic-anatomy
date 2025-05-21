@@ -58,11 +58,14 @@ CSS := $(patsubst src/%.css,build/%.css, $(CSS))
 
 # Define the default target to build everything
 .PHONY: all
-all: | build $(BUILD_SUBDIRS)
+all: | $(BUILD_SUBDIRS)
+all: prebuild
 all: $(HTMLS)
 all: $(CSS)
 all: build/.minify
-all: build/static/index.json
+
+.PHONY: prebuild
+prebuild: build/static/index.json
 
 .PRECIOUS: build/static/index.json
 build/static/index.json: $(MARKDOWNS) $(YAMLS) | build/static
@@ -77,21 +80,12 @@ build/.minify: $(HTMLS) $(CSS)
 test: $(HTMLS) $(CSS) | log
 	$(CHECKLINKS_CMD) http://nginx-dev 2>&1 | tee log/checklinks.txt
 
-# Create necessary build directories
-build: | $(BUILD_SUBDIRS)
-
-# Create each build subdirectory if it doesn't exist
-$(BUILD_SUBDIRS):
-	mkdir -p $@
-
 # Copy CSS files to the build directory
 build/%.css: %.css | build
 	cp $< $@
 
 # Include and preprocess Markdown files up to three levels deep
-build/%.md: | build
-build/%.md: build/static/index.json
-build/%.md: %.md
+build/%.md: %.md | prebuild build
 	preprocess $<
 
 # Generate HTML from processed Markdown using Pandoc
@@ -116,9 +110,13 @@ clean:
 # Optinally include user dependencies.
 -include /app/mk/dep.mk
 
-YAMLS := $(shell find src -name "*.yml")
+#---
+# Build directory rules must be here so the user can override BUILD_SUBDIRS.
+#---
 
-build/picasso.mk: $(YAMLS) | build
-	picasso > $@
+# Create necessary build directories
+build: | $(BUILD_SUBDIRS)
 
-include build/picasso.mk
+# Create each build subdirectory if it doesn't exist
+$(BUILD_SUBDIRS):
+	mkdir -p $@
