@@ -195,6 +195,7 @@ def create_env():
     env.globals["load_mc"] = load_mc
     env.globals["render_jinja"] = render_jinja
     env.globals["to_alpha_index"] = to_alpha_index
+    env.globals["read_json"] = read_json
     return env
 
 

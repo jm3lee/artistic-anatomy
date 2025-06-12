@@ -1,0 +1,74 @@
+{
+  "abduction": {
+    "term": "Abduction",
+    "def": "Movement of a limb or body part away from the midline.<br>Opposite: {{adduction|linktitle}}."
+  },
+  "adduction": {
+    "term": "Adduction",
+    "def": "Movement of a limb or body part toward the midline.<br>Opposite: {{abduction|linktitle}}."
+  },
+  "anterior": {
+    "term": "Anterior",
+    "def": "Front."
+  },
+  "dorsal": {
+    "term": "Dorsal",
+    "def": "Near or on the back."
+  },
+  "extension": {
+    "term": "Extension",
+    "def": "Increases the angle between two bones, moving a segment away from the neutral position.<br>Opposite: {{flexion|linktitle}}."
+  },
+  "flexion": {
+    "term": "Flexion",
+    "def": "Decreases the angle between two bones in the <a href=\"/background/key_terms.html#sagittal\">sagittal</a> plane (for example, bending the elbow).<br>Opposite: {{extension|linktitle}}."
+  },
+  "fossa": {
+    "term": "Fossa",
+    "def": "A hollow or depression in the surface of a bone."
+  },
+  "inferior": {
+    "term": "Inferior",
+    "def": "Below."
+  },
+  "insertion": {
+    "term": "Insertion",
+    "def": "The part of a muscle that moves when the muscle contracts. See <a href=\"muscle-origin-and-insertion.html\">Muscle Origin and Insertion</a>."
+  },
+  "lateral": {
+    "term": "Lateral",
+    "def": "Away from the midline."
+  },
+  "ligament": {
+    "term": "Ligament",
+    "def": "Strong tissue that connects bone to bone."
+  },
+  "medial": {
+    "term": "Medial",
+    "def": "Toward the midline."
+  },
+  "origin": {
+    "term": "Origin",
+    "def": "The part of a muscle that stays in place when the muscle contracts.<br>See <a href=\"muscle-origin-and-insertion.html\">Muscle Origin and Insertion</a>."
+  },
+  "posterior": {
+    "term": "Posterior",
+    "def": "Back."
+  },
+  "sagittal": {
+    "term": "Sagittal",
+    "def": "An anatomical plane running front to back, dividing the body into left and right sections."
+  },
+  "superior": {
+    "term": "Superior",
+    "def": "Above."
+  },
+  "tendon": {
+    "term": "Tendon",
+    "def": "Strong tissue that connects muscle to bone."
+  },
+  "ventral": {
+    "term": "Ventral",
+    "def": "Near or on the belly side."
+  }
+}

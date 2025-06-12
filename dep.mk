@@ -55,3 +55,8 @@ STUDY_JSONS := $(patsubst src/%,build/%,$(wildcard src/study/*.json))
 prebuild: $(STUDY_JSONS)
 build/study/%.json: study/%.json | build/static/index.json
 	python3 -m pie.render_study_json build/static/index.json $< > $@
+
+build/%.json: %.json
+	emojify < $< > $@
+
+build/background/key_terms.md: build/background/key_terms.json
