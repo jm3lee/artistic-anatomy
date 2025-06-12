@@ -1,7 +1,7 @@
 ---
 title: ":bone: Patella"
 id: patella
-linktext: patella
+citation: patella
 ---
 
 The patella, or kneecap, is a key anatomical landmark for defining the front
@@ -38,7 +38,7 @@ The term **patella** comes from Latin, where “patella” is a diminutive of
 ## References
 
 * [Patella (Wikipedia)](https://en.wikipedia.org/wiki/Patella)
-* {{gf}}
+* {{gf|linktitle}}
   * Patella, 35
     * movement of, 54
   * Patellar ligament, 229

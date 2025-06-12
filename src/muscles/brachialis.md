@@ -1,12 +1,6 @@
 ---
-title: ":muscle: Brachialis"
-author: Brian Lee
-pubdate: Sat May 10 2025
-id: brc
-linktext: brachialis
+title: "{{brc['icon']}} {{brc['name']|title}}"
 ---
-
-:robot:
 
 ## Summary
 
@@ -14,15 +8,14 @@ linktext: brachialis
   <tbody>
     <tr>
       <th>Origin</th>
-      <td>Distal half of anterior surface of the {{humerus}}</td>
+      <td>Distal half of anterior surface of the {{humerus|linkinternal}}</td>
     </tr>
     <tr>
       <th>Insertion</th>
       <td>
-        {{ulna|linktitle}}:
         <ol>
-          <li>{{ulnar_tuberosity}}</li>
-          <li>{{coronoid_process}}</li>
+          <li>{{ulnar_tuberosity|linkcap}} of ulna</li>
+          <li>{{coronoid_process|linkcap}} of ulna</li>
         </ol>
       </td>
     </tr>
@@ -53,4 +46,4 @@ JP</a>, via Wikimedia Commons
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Brachialis_muscle)
-- {{gf}}, 166-67
+- {{gf|linktitle}}, 166-67

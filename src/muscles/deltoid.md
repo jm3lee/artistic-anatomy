@@ -1,22 +1,8 @@
 ---
-title: ":muscle: Deltoid"
-author: Brian Lee
-id: dt
-linktext: deltoid
+title: "{{dt['icon']}} {{dt['name']|title}}"
 ---
 
 [🧑 AI Generated, Human Reviewed](../background/icons.html)
-
-The deltoid is a triangular shoulder muscle that defines the arm's connection to
-the torso. Composed of three sections—anterior, lateral (or middle), and
-posterior—it shapes the shoulder’s contour and shifts visibly with arm movement.
-This muscle covers the front, side, and back of the shoulder joint, playing a
-crucial role in shoulder mobility and strength.
-
-The deltoid's proximal attachment is U-shaped, resembling the distal insertion
-of the trapezius muscle. Artists often emphasize the deltoid to convey strength,
-width, and motion in the upper body, as its dynamic changes enhance the realism
-of the figure.
 
 ## Summary
 
@@ -28,13 +14,13 @@ of the figure.
         <ol>
           <li>Lateral third of the clavicle (anterior fibers)</li>
           <li>Acromion process of the scapula (middle fibers)</li>
-          <li>Spine of the {{scapula}} (posterior fibers)</li>
+          <li>Spine of the {{scapula|linkinternal}} (posterior fibers)</li>
         </ol>
       </td>
     </tr>
     <tr>
       <th>Insertion</th>
-      <td>{{deltoid_tuberosity|linkcap}} of the {{humerus}}</td>
+      <td>{{deltoid_tuberosity|linkcap}} of the {{humerus|linkinternal}}</td>
     </tr>
     <tr>
       <th>Actions</th>
@@ -60,10 +46,8 @@ of the figure.
 
 ## Translations
 
-| Language | Translation        | Notes                                                                   |
-| -------- | ------------------ | ----------------------------------------------------------------------- |
-| French   | deltoïde           | |
-| Russian  | дельтовидная мышца | |
+- {{flag_france['icon']}}: deltoïde
+- {{flag_russia['icon']}}: дельтовидная мышца
 
 ## Examples
 
@@ -75,19 +59,19 @@ of the figure.
 
 ## Study Questions
 
-```python
-include("src/study/deltoid.md")
-```
+{% from "templates/multiple_choice.jinja" import render_mc %}
+{{render_mc("src/study/deltoid.json")}}
 
 ## See Also
 
-[Arm Movements](../appendix/arm-movements.html)
+- [Arm Movements](../appendix/arm-movements.html)
+- {{infraclavicular_fossa|linktitle}}
 
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Deltoid_muscle)
 * Richer, Plate 49
-* Hale and Coyle 1977
+* {{hc77|linktitle}}
   * 26, 32, 106, 108, 114, 116, 118, 122-123, 126, 128, 130, 132, 134, 138, 144, 146, 148, 150, 152, 182, 250, 251, 253, 254, 255
-* {{gf}}
+* {{gf|linktitle}}
   * 156–58

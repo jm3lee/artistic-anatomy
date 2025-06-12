@@ -34,6 +34,6 @@ loading="lazy"/>
 ## References
 
 * [Medial Malleolus (Wikipedia)](https://en.wikipedia.org/wiki/Malleolus#Medial_malleolus)
-* {{gf}}
+* {{gf|linktitle}}
   * Malleolus
     medial, 37

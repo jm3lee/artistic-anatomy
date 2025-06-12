@@ -1,4 +1,6 @@
 build/
 *.swo
 *.swp
+*.swn
 .minify
+__pycache__/

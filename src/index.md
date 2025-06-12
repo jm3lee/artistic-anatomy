@@ -2,7 +2,7 @@
 title: Welcome to Artistic Anatomy Book!
 author: Brian Lee
 id: home
-linktext: home
+citation: home
 ---
 
 # Quickstart

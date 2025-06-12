@@ -17,29 +17,48 @@ resources/study-questions.md: $(wildcard src/study/*)
 src/deltoid.md: src/study/deltoid.md
 	touch $@
 
-toc.md: $(MARKDOWNS)
+toc.md: $(filter-out src/toc.md, $(MARKDOWNS))
 	touch $@
 
 build/.buildinfo: redo.mk dep.mk
 	rm -f %@
 
-build/spine.md: muscles/ld-trz-attachments.mdi
-build/muscles/latissimus-dorsi.md: muscles/ld-trz-attachments.mdi
-build/muscles/trapezius.md: muscles/ld-trz-attachments.mdi
+build/spine.md: muscles/ld_trz_attachments.mdi
+build/muscles/latissimus_dorsi.md: muscles/ld_trz_attachments.mdi
+build/muscles/trapezius.md: muscles/ld_trz_attachments.mdi
+
+YAMLS := $(shell find src -name "*.yml")
+
+build/picasso.mk: $(YAMLS) | build
+	picasso > $@
+
+include build/picasso.mk
 
 #-------------------
 # Index Generation
 #-------------------
 
-$(shell mkdir -p build/static/index/)
-
-all: build/static/index/muscles.html
+BUILD_SUBDIRS += build/static/index
 
 prebuild: build/static/index/muscles.md
+prebuild: src/resources/anatomy-lessons-from-the-great-masters.md
+
+build/static/index/muscles.json: | build/static/index
+	build-index -o $@ src/muscles 2> log/build-index.muscles
 
 build/static/index/muscles.md: | build/static/index
-build/static/index/muscles.md: $(wildcard src/muscles/*.md)
-	gen-markdown-index $^ | tee $@
+build/static/index/muscles.md: build/static/index/muscles.json
+	gen-markdown-index $^ > $@
 	emojify < $@ > $@.tmp
 	mv $@.tmp $@
-	cat $@
+
+src/resources/anatomy-lessons-from-the-great-masters.md: /app/references/src/hc77.yml
+	/app/references/bin/build.py $< /app/references/src reference.jinja | tee $@
+
+build/resources/study-questions.md: study/triceps.json
+
+BUILD_SUBDIRS += build/study
+STUDY_JSONS := $(patsubst src/%,build/%,$(wildcard src/study/*.json))
+prebuild: $(STUDY_JSONS)
+build/study/%.json: study/%.json | build/static/index.json
+	python3 -m pie.render_study_json build/static/index.json $< > $@

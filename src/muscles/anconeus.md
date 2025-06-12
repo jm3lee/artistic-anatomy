@@ -1,9 +1,5 @@
 ---
-title: ":muscle: Anconeus"
-author: Brian Lee
-pubdate: Sat May 10 2025
-id: anc
-linktext: anconeus
+title: "{{anc['icon']}} {{anc['name']|title}}"
 ---
 
 ## Summary
@@ -14,11 +10,11 @@ linktext: anconeus
   <tbody>
     <tr>
       <th>Origin</th>
-      <td>Posterior aspect of lateral epicondyle of the {{humerus}}</td>
+      <td>Posterior aspect of lateral epicondyle of the {{humerus|linkinternal}}</td>
     </tr>
     <tr>
       <th>Insertion</th>
-      <td>Lateral surface of olecranon process and proximal posterior {{ulna}}</td>
+      <td>Lateral surface of olecranon process and proximal posterior {{ulna|linkinternal}}</td>
     </tr>
     <tr>
       <th>Actions</th>
@@ -68,4 +64,4 @@ They are closely connected and often work as a team for elbow extension and stab
 
 ## References
 
-* [Anconues (Wikipedia)](https://en.wikipedia.org/wiki/Anconeus_muscle)
+* [Wikipedia](https://en.wikipedia.org/wiki/Anconeus_muscle)

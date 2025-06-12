@@ -1,31 +1,22 @@
 ---
-title: ":muscle: Coracobrachialis"
+title: "{{coracobrachialis['icon']}} {{coracobrachialis['name']}}"
 ---
 
 ## Summary
 
-<table>
-<tbody>
-<tr>
-  <th>Origin</th>
-  <td>Coracoid process of the scapula</td>
-  </td>
-</tr>
-<tr>
-  <th>Insertion</th>
-  <td>Medial surface of mid-humeral shaft</td>
-</tr>
-<tr>
-  <th>Actions</th>
-  <td>
-  <ol>
-  <li>Flexes the shoulder</li>
-  <li>Adducts the shoulder</li>
-  </ol>
-  </td>
-</tr>
-</tbody>
-</table>
+### Origins
+{{coracoid_process|linkcap}} of the scapula
+
+### Insertions
+Medial surface of mid-humeral shaft
+
+### Actions
+<ol>
+<li>Flexes the shoulder</li>
+<li>Adducts the shoulder</li>
+</ol>
+
+## Illustrations
 
 <img
 src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/cb-0000.0000.jpg"
@@ -59,6 +50,6 @@ loading="lazy"/>
 
 ## References
 
-* [Coracobrachialis](https://en.wikipedia.org/wiki/Coracobrachialis_muscle)
+* [Wikipedia](https://en.wikipedia.org/wiki/Coracobrachialis_muscle)
 * TGB 5th, p99; Flashcard p23
-* Hale and Coyle; p130, 140, 256
+* {{hc77|linktitle}}, 130, 140, 256.

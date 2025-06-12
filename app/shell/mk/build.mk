@@ -45,6 +45,7 @@ VPATH := src
 
 # Find all Markdown files excluding specified directories
 MARKDOWNS := $(shell find src/ -name '*.md')
+YAMLS := $(shell find src/ -name '*.yml')
 
 # Define the corresponding HTML and PDF output files
 HTMLS := $(patsubst src/%.md, build/%.html, $(MARKDOWNS))
@@ -91,6 +92,7 @@ build/%.md: %.md | prebuild build
 # Generate HTML from processed Markdown using Pandoc
 build/%.html: build/%.md $(PANDOC_TEMPLATE) | build
 	$(PANDOC_CMD) $(PANDOC_OPTS) -o $@ $<
+	python3 -m pie.error_on_python_dict $@
 
 # Generate PDF from processed Markdown using Pandoc
 build/%.pdf: %.md | build

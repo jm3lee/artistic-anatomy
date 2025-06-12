@@ -1,9 +1,5 @@
 ---
-title: ":muscle: Brachioradialis"
-author: Brian Lee
-pubdate: Sat May 10 2025
-id: brr
-linktext: brachioradialis
+title: "{{brr['icon']}} {{brr['name']|title}}"
 ---
 
 ## Summary
@@ -12,7 +8,7 @@ linktext: brachioradialis
 <tbody>
 <tr>
   <th>Origin</th>
-  <td>Proximal two-thirds of the lateral supracondylar ridge of {{humerus}}</td>
+  <td>Proximal two-thirds of the lateral supracondylar ridge of {{humerus|linkinternal}}</td>
 </tr>
 <tr>
   <th>Insertion</th>
@@ -32,14 +28,12 @@ linktext: brachioradialis
 
 ## Translations
 
-| Language | Translation | Notes |
-|---|---|---|
-| Russian | Плече-лучевая мышца | Russian Book, 40, item 3 |
+- {{flag_russia['icon']}}: Плече-лучевая мышца
 
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Brachioradialis)
-* {{gf}}, p193
+* {{gf|linktitle}}, p193
 * Russian Book, 40, item 3.
 * [TGB](../resources/trail-guide-to-the-body-flashcards.html) 5th p133, Flashcard p29
 

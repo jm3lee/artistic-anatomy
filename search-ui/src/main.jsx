@@ -10,7 +10,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import SearchIndex from './SearchIndex'
+import Quiz from './Quiz'
 
 /**
  * Bootstraps and renders the SearchIndex component into the DOM.
@@ -31,7 +31,7 @@ function initializeSearchIndex() {
   const root = createRoot(mount)
   root.render(
     <StrictMode>
-      <SearchIndex name={mount.getAttribute('data-name')} />
+      <Quiz src={mount.getAttribute('data-src')} />
     </StrictMode>
   )
 }

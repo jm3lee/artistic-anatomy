@@ -1,34 +1,21 @@
 ---
-title: ":muscle: Trapezius"
-author: Brian Lee
-id: trz
-linktext: trapezius
+title: "{{trz['icon']}} {{trz['name']|title}}"
 ---
 
 ## Summary
 
-<table>
-<tbody>
-<tr>
-  <th>Origin</th>
-  <td>
+### Origins
 1. Occipital bone
 1. Spinous processes of <a href="/spine.html">C7-T12</a>
-  </td>
-</tr>
-<tr>
-  <th>Insertion</th>
-  <td>Clavicle, acromion, spine of scapula</td>
-</tr>
-<tr>
-  <th>Actions</th>
-  <td>
+
+### Insertions
+1. Clavicle
+1. {{acromion_process|linktitle}} of scapula
+1. Spine of {{scapula|linktitle}}
+
+### Actions
 Elevation, retraction, depression & upward rotation of scapula; neck extension &
 lateral flexion
-  </td>
-</tr>
-</tbody>
-</table>
 
 ## Illustrations
 
@@ -51,12 +38,10 @@ Richer, Plate 54
 
 ## Translations
 
-| Language | Translation | Notes |
-|---|---|---|
-| Russian | Трапециевидная мышца (капюшонная) | |
+- {{flag_russia['icon']}}: Трапециевидная мышца (капюшонная)
 
 ```python
-include("src/muscles/ld-trz-attachments.mdi")
+include("src/muscles/ld_trz_attachments.mdi")
 ```
 
 ## See also
@@ -66,8 +51,8 @@ include("src/muscles/ld-trz-attachments.mdi")
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Trapezius)
-* {{gf}}, 148-150.
-* {{hc}}
+* {{gf|linktitle}}, 148-150.
+* {{hc77|linktitle}}
   * **20**: Raphael. The left arm activates trapezius and other related muscles.  
     <img class="thumbnail inline-block" src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/ue8qfowmfep6nvqsq3gn.webp"
 alt="Raphael, Three Standing Men, c. 1514–16" loading="lazy"/>

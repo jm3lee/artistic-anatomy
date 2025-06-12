@@ -1,6 +1,8 @@
 ---
 title: Tendon vs. Ligament
 author: Brian Lee
+id: tendon_vs_ligament
+citation: tendon vs. ligament
 ---
 
 :robot:

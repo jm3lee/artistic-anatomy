@@ -18,4 +18,4 @@ title: 🏋️Hammer Curl
 * **Deltoid (front)** - Stabilizes the shoulder.
 
 **Why Hammer Curls Target the {{brc|linktitle}}:**\
-The neutral grip reduces the role of the biceps and shifts focus to the {{brc}}, making it a great exercise for arm thickness and strength.
+The neutral grip reduces the role of the biceps and shifts focus to the {{brc|linkinternal}}, making it a great exercise for arm thickness and strength.

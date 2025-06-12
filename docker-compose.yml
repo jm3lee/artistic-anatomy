@@ -40,8 +40,8 @@ services:
     image: press-webp
     entrypoint: ["/app/bin/service"]
     volumes:
-      - ./app/webp/input:/app/input
-      - ./s3/richer:/app/output
+      - /home/brian/Downloads/webp:/app/input
+      - ./staging:/app/output
       - ./log:/app/log
 
   shell:
@@ -53,4 +53,6 @@ services:
       - ./:/data
       - ./app/shell/bin:/app/bin
       - ./app/shell/mk:/app/mk
+      - ./app/shell/py/pie:/press/py/pie
       - ./dep.mk:/app/mk/dep.mk
+      - ./app/references/:/app/references

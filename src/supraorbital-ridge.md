@@ -1,7 +1,7 @@
 ---
 title: ":star: Supraorbital Ridge"
 id: supor
-linktext: supraorbital ridge
+citation: supraorbital ridge
 ---
 
 ## References

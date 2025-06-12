@@ -1,0 +1,28 @@
+[
+  {
+    "q": "Which rotator‑cuff muscle inserts on the anterior aspect of the {{humerus|linkinternal}}?",
+    "c": [
+      "{{sups|linktitle}}",
+      "{{infs|linktitle}}",
+      "{{trsmin|linktitle}}",
+      "{{subscp|linktitle}}"
+    ],
+    "a": [
+      3,
+      ""
+    ]
+  },
+  {
+    "q": "Is the {{trsmin|linkinternal}} muscle generally visible on the surface?",
+    "c": [
+      "Always visible",
+      "Usually hidden",
+      "Visible only when the arm is abducted and externally rotated",
+      "Visible only after significant hypertrophy"
+    ],
+    "a": [
+      2,
+      "{{trsmin|linktitle}} is one of the four {{rotator_cuff|linkinternal}} muscles. It sits deep beneath the {{dt|linkinternal}} and {{trz|linkinternal}} and is covered by dense fascia along with {{infs|linkinternal}}. In most individuals and most positions, it is not visible on the surface."
+    ]
+  }
+]

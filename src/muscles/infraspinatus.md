@@ -1,36 +1,20 @@
 ---
-title: ":muscle: Infraspinatus"
-id: infs
-linktext: infraspinatus
+title: "{{infs['icon']}} {{infs['name']|title}}"
 ---
 
 ## Summary
 
-<body>
-  <table>
-    <tbody>
-      <tr>
-        <th>Origin</th>
-        <td>Infraspinous fossa of the scapula</td>
-      </tr>
-      <tr>
-        <th>Insertion</th>
-        <td>Middle facet of the greater tubercle of the
-        humerus</td>
-      </tr>
-      <tr>
-        <th>Actions</th>
-        <td>
-          <ul>
-            <li>External (lateral) rotation of the shoulder</li>
-            <li>Shoulder stabilization as a part of the [rotator cuff](rotator-cuff.md) muscle group</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</body>
-</html>
+### Origins
+Infraspinous fossa of the {{scapula|linkinternal}}
+
+### Insertions
+Middle facet of the greater tubercle of the humerus
+
+### Actions
+<ol>
+<li>External (lateral) rotation of the shoulder</li>
+<li>Shoulder stabilization as a part of {{rotator_cuff|linkinternal}} muscle group</li>
+</ol>
 
 ## Illustrations
 
@@ -54,21 +38,19 @@ loading="lazy"/>
 
 ## Translations
 
-| Language | Translation     |
-|----------|-----------------|
-| French  | sous-épineux |
-| Russian  | Подостная мышца |
+- {{flag_france['icon']}}: sous-épineux
+- {{flag_russia['icon']}}: Подостная мышца
 
 ## References
 
 - [Glenohumeral Joint](/scapula/glenohumeral-joint.md)
-- [Rotator Cuff](rotator-cuff.md)
-- [Wikipedia](https://en.wikipedia.org/wiki/Infraspinatus_muscle)
-- {{gf}}, 160.
-- [HC](/resources/anatomy-lessons-from-the-great-masters.md) 1977
+- {{rotator_cuff|linkinternal}}
+- {{gf|linktitle}}, 160.
+- {{hc77|linktitle}}
   - **108: Rubens, Study of a River God for the Four Rivers**
     - "The supraspinatus (I) and the *infraspinatus (J)* steady the head of the humerus ... and assist ... the outward rotation and abduction of the arm."
   - **110: Michelangelo, Standing Nude, Seen from the Back**
     - "Below, we can see the *infraspinatus (L)*, ..."
     - Left shoulder flexion with external rotation.
   - 114-115, 126, 132, 138, 252 TODO
+- [Wikipedia](https://en.wikipedia.org/wiki/Infraspinatus_muscle)

@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+render build/static/index.json "$1" > "$2.$$"
+mv "$2.$$" "$2"

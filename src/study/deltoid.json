@@ -1,0 +1,41 @@
+[
+  {
+    "q": "Which of the following is the correct insertion point of the {{dt['name']|lower}} muscle?",
+    "c": [
+      "Greater tubercle of the {{humerus['name']|lower}}",
+      "Deltoid tuberosity of the {{humerus['name']|lower}}",
+      "Acromion process of the {{scapula['name']|lower}}",
+      "Lateral lip of the {{bicipital_groove['name']|lower}}"
+    ],
+    "a": [
+      1,
+      ""
+    ]
+  },
+  {
+    "q": "The anterior (clavicular) head of the {{dt['name']|lower}} originates from which bony landmark?",
+    "c": [
+      "Spine of the {{scapula['name']|lower}}",
+      "Acromion process",
+      "Lateral third of the clavicle",
+      "Medial border of the {{scapula['name']|lower}}"
+    ],
+    "a": [
+      2,
+      ""
+    ]
+  },
+  {
+    "q": "Which action is primarily performed by the middle (acromial) fibers of the {{dt['name']|lower}}?",
+    "c": [
+      "Shoulder {{flexion['name']|lower}}",
+      "Shoulder {{abduction['name']|lower}}",
+      "Shoulder {{extension['name']|lower}}",
+      "Shoulder medial rotation"
+    ],
+    "a": [
+      1,
+      ""
+    ]
+  }
+]

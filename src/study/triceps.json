@@ -1,0 +1,67 @@
+[
+  {
+    "q": "Which {{trc|linkinternal}} head forms the lateral bulge when you extend your arm?",
+    "c": [
+      "Medial head",
+      "Anconeus",
+      "Lateral head",
+      "Long head"
+    ],
+    "a": [
+      2,
+      ""
+    ]
+  },
+  {
+    "q": "All three {{trc|linkinternal}} heads insert on which bony landmark?",
+    "c": [
+      "Radial tuberosity",
+      "Coronoid process of the ulna",
+      "Medial epicondyle of the humerus",
+      "Olecranon of the ulna"
+    ],
+    "a": [
+      3,
+      ""
+    ]
+  },
+  {
+    "q": "The long head of the {{trc|linkinternal}} originates from which scapular feature?",
+    "c": [
+      "Supraglenoid tubercle",
+      "Infraglenoid tubercle",
+      "Coracoid process",
+      "Acromion"
+    ],
+    "a": [
+      1,
+      ""
+    ]
+  },
+  {
+    "q": "The medial head of the {{trc|linkinternal}} arises from which part of the humerus?",
+    "c": [
+      "Posterior shaft below the radial groove",
+      "Deltoid tuberosity",
+      "Lateral epicondyle",
+      "Intertubercular sulcus"
+    ],
+    "a": [
+      0,
+      ""
+    ]
+  },
+  {
+    "q": "The radial groove, used to trace the lateral head’s form, runs along which bone?",
+    "c": [
+      "Anterior humerus",
+      "Posterior humerus",
+      "Posterior ulna",
+      "Lateral radius"
+    ],
+    "a": [
+      1,
+      ""
+    ]
+  }
+]

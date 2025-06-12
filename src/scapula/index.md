@@ -1,7 +1,5 @@
 ---
-title: ":bone: Scapula"
-author: Brian Lee
-pubdate: Sat May 10 2025
+title: "{{scapula['icon']}} {{scapula['name']|title}}"
 ---
 
 ## Illustrations
@@ -17,11 +15,7 @@ Carter</a>, Public domain, via Wikimedia Commons
 </figcaption>
 </figure>
 
-## Movements
-
-### References
-
-- {{bk_3d}} 17, 27
+## Movements {{'{#movements}'}}
 
 ### Example Actions
 
@@ -42,12 +36,16 @@ Carter</a>, Public domain, via Wikimedia Commons
 
 | **Movement**        | **Related Muscles**                                                          |
 |---------------------|------------------------------------------------------------------------------|
-| **Retraction**      | Rhomboid Major, Rhomboid Minor, Middle {{trz|linktitle}} |
-| **Protraction**     | Serratus Anterior, Pectoralis Minor                                          |
-| **Elevation**       | Upper Trapezius, Levator Scapulae                                            |
-| **Depression**      | Lower Trapezius, Pectoralis Minor, Latissimus Dorsi                          |
-| **Upward Rotation** | Upper Trapezius, Lower Trapezius, Serratus Anterior                          |
-| **Downward Rotation** | Rhomboid Major, Rhomboid Minor, Levator Scapulae, Pectoralis Minor         |
+| **Retraction**      | {{rhmaj|linktitle}}, {{rhmin|linktitle}}, Middle {{trz|linktitle}} |
+| **Protraction**     | {{sa|linktitle}}, {{pecmin|linktitle}} |
+| **Elevation**       | Upper {{trz|linktitle}}, Levator Scapulae                                            |
+| **Depression**      | Lower {{trz|linktitle}}, {{pecmin|linktitle}}, {{ld|linktitle}} |
+| **Upward Rotation** | Upper {{trz|linktitle}}, Lower {{trz|linktitle}}, {{sa|linktitle}}                          |
+| **Downward Rotation** | {{rhmaj|linktitle}}, {{rhmin|linktitle}}, Levator Scapulae, {{pecmin|linktitle}}|
+
+### References
+
+- {{bk_3d|linktitle}} 17, 27
 
 ## :star: Bony Landmarks
 
@@ -62,7 +60,7 @@ Carter</a>, Public domain, via Wikimedia Commons
    * Articulates with the clavicle at the acromioclavicular joint.
 3. **Coracoid Process**
    * A hook-like structure on the anterior aspect of the scapula.
-   * Provides attachment for muscles such as the **pectoralis minor**, **coracobrachialis**, and **short head of the biceps brachii**.
+   * Provides attachment for muscles such as the **{{pecmin|linkinternal}}**, **coracobrachialis**, and **short head of the biceps brachii**.
 4. **Glenoid Cavity (Fossa)**
    * A shallow depression that forms the socket for the head of the humerus.
    * Part of the **glenohumeral joint** (shoulder joint).
@@ -104,6 +102,6 @@ loading="lazy"/>
 ## References
 
 * [Scapula (Wikipedia)](https://en.wikipedia.org/wiki/Scapula)
-* {{gf}}
+* {{gf|linktitle}}
   * **152** Scapula peeks out from the back.
 Below is an expanded scapular‐movements table that incorporates the requested synonyms (adduction/abduction) and the primary (and where noted, secondary) muscle movers:

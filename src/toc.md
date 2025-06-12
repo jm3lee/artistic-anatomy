@@ -1,7 +1,16 @@
 ---
 title: Table of Contents
 toc: false
+id: toc
+citation: table of contents
 ---
+
+<style>
+ul {
+  list-style: none;
+  margin-left: 0;
+}
+</style>
 
 ## Background
 
@@ -21,20 +30,20 @@ toc: false
 ## Bones
 
 * [:bone: Glenohumeral Joint](scapula/glenohumeral-joint.md)
-* [:bone: Humerus](humerus.md)
+* [:bone: Humerus](/bones/humerus.md)
 * [:bone: Scapula](scapula/)
-  * [:star: Acromion Process](scapula/acromion-process.md)
+  * [:star: Acromion Process](scapula/acromion_process.md)
   * [:star: Inferior Angle of Scapula](scapula/inferior-angle-of-scapula.md)
   * [:star: Spine of Scapula](scapula/spine-of-scapula.md)
-* [:bone: Femur](femur.md)
+* [:bone: Femur](/bones/femur.md)
 * [:bone: Foot](foot.md)
 * [:bone: Patella](patella.md)
-* [:bone: Radius](radius.md)
+* [:bone: Radius](/bones/radius.md)
 * [:bone: Spine](spine.md)
 * [:bone: Tibia](tibia/)
   * [:star: Medial Malleolus](tibia/medial-malleolus.md)
   * [:star: Tibial Tuberosity](tibia/tibial-tuberosity.md)
-* [:bone: Ulna](ulna.md)
+* [:bone: Ulna](/bones/ulna.md)
 * [:bone: Pelvis](pelvis.md)
   * [:star: Anterior Superior Iliac Spine (ASIS)](anterior-superior-iliac-spine-asis.md)
   * [:star: Posterior Superior Iliac Spine (PSIS)](posterior-superior-iliac-spine-psis.md)
@@ -53,6 +62,11 @@ include("build/static/index/muscles.md")
 ## Tendons and Ligaments
 
 * [:link: Iliotibial (IT) Band](iliotibial-it-band.md)
+* [:link: Linea Alba](linea_alba.md)
+
+## Misc. Landmarks
+
+* [:round_pushpin: Infraclavicular Fossa](infraclavicular_fossa.md)
 
 ## Movements
 
@@ -68,7 +82,6 @@ include("build/static/index/muscles.md")
 * [:notebook: Elbow Flexors](elbow-flexors.md)
 * [:notebook: Key Terms](appendix/key-terms.md)
 * [:notebook: Muscle Checklist](appendix/muscle-checklist.md)
-* [:notebook: Rotator Cuff](muscles/rotator-cuff.md)
 * [:notebook: Warm Areas](appendix/warm-areas.md)
 * [:notebook: Warm and Cool](appendix/warm-and-cool.md)
 * [:notebook: Wrist Flexor Group](wrist-flexor-group.md)

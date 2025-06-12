@@ -1,9 +1,5 @@
 ---
-title: ":muscle: Biceps"
-author: Brian Lee
-pubdate: May 12 2025
-id: bc
-linktext: biceps
+title: "{{bc['icon']}} {{bc['name']|title}}"
 ---
 
 ## Summary
@@ -14,8 +10,8 @@ linktext: biceps
   <th>Origin</th>
   <td>
   <ol>
-  <li>Short head: Coracoid process of {{scapula}}; see also [coracobrachialis](coracobrachialis.html)</li>
-  <li>Long head: Supraglenoid tubercle of {{scapula}}</li>
+  <li>Short head: Coracoid process of {{scapula|linkinternal}}</li>
+  <li>Long head: Supraglenoid tubercle of {{scapula|linkinternal}}</li>
   </ol>
   </td>
 </tr>
@@ -23,7 +19,7 @@ linktext: biceps
   <th>Insertion</th>
   <td>
   <ol>
-  <li>[Radial tuberosity](/radius.html)</li>
+  <li>[Radial tuberosity](/bones/radius.html)</li>
   <li>Bicipital aponeurosis</li>
   </ol>
   </td>
@@ -45,10 +41,8 @@ linktext: biceps
 
 ## Translations
 
-| Language | Translation                                | Notes                                                      |
-|---|--------------------------------------------|------------------------------------------------------------|
-| French  | biceps brachial                          | |
-| Russian | двуглавая мышца плеча                     | |
+- {{flag_france['icon']}}: biceps brachial
+- {{flag_russia['icon']}}: двуглавая мышца плеча
 
 ## Examples
 
@@ -58,4 +52,4 @@ linktext: biceps
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Biceps)
 * TGB 5th p95, Flashcard p21
-* {{gf}}, p168-170
+* {{gf|linktitle}}, 168-170.

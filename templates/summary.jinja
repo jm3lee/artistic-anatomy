@@ -1,0 +1,27 @@
+{% macro origins_list(name) %}
+{% for i in get_origins(name) -%}
+- {{i|linktitle}}
+{% endfor %}
+{% endmacro %}
+
+{% macro insertions_list(name) %}
+{% for i in get_insertions(name) -%}
+- {{i|linktitle}}
+{% endfor %}
+{% endmacro %}
+
+{% macro summary(name) %}
+## Summary
+
+### Origins
+{{origins_list(name)}}
+
+### Insertions
+{{insertions_list(name)}}
+
+### Actions
+
+{% for i in get_actions(name) -%}
+- {{i}}
+{% endfor %}
+{% endmacro %}

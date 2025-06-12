@@ -4,3 +4,6 @@
 [submodule "app/shell/py/xmera"]
 	path = app/shell/py/xmera
 	url = git@github.com:onlyartists/xmera.git
+[submodule "app/references"]
+	path = app/references
+	url = git@github.com:onlyartists/references.git

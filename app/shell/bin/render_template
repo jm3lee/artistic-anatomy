@@ -25,7 +25,7 @@ _WHITESPACE_WORD_PATTERN = re.compile(r"(\S+)")
 _LINK_PATTERN = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
 # Default link map entries
-linkmap: Dict[str, str] = {
+citation_map: Dict[str, str] = {
     "home": "[home](/index.html)",
     "flag_france": "\U0001F1EB\U0001F1F7",
     "flag_russia": "\U0001F1F7\U0001F1FA",
@@ -115,14 +115,15 @@ def main(argv: list[str]) -> None:
     env.filters["linkcap"] = linkcap
 
     with open(metadata_path, "r", encoding="utf-8") as metadata_file:
+        print(metadata_path)
         metadata: Mapping[str, Mapping[str, str]] = json.load(metadata_file)
         for key, meta in metadata.items():
-            text = meta.get("linktext", "")
+            text = meta.get("citation", "")
             url = meta.get("url", "")
-            linkmap[key] = f"[{text}]({url})"
+            citation_map[key] = f"[{citation}]({url})"
 
     template = env.get_template(template_name)
-    rendered = template.render(**linkmap)
+    rendered = template.render(**citation_map)
     print(rendered)
 
 

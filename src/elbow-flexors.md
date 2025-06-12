@@ -2,7 +2,7 @@
 title: ":notebook: Elbow Flexors"
 author: Brian Lee
 id: elbow_flexors
-linktext: elbow flexors
+citation: elbow flexors
 ---
 
 1. {{bc|linktitle}}

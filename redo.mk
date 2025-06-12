@@ -24,7 +24,6 @@ MAKE_CMD := docker compose run --rm --entrypoint make -u $(shell id -u) -T --bui
 build/.buildinfo: $(MARKDOWNS) $(CSS) redo.mk src/pandoc-template.html | build
 build/.buildinfo: build/static/js/bundle.js
 	$(MAKE_CMD) -f /app/mk/build.mk
-	./app/shell/bin/index.py src/background && mv build/static/index.json build/static/background.json
 
 build/static/js/bundle.js: $(REACT_SRC)
 	cd search-ui; npx vite build
@@ -47,23 +46,25 @@ docker: test
 	docker push registry.digitalocean.com/artisticanatomy/book:latest
 
 .PHONY: test
-test: $(HTMLS)
-	$(CHECKLINKS_CMD) http://localhost 2>&1 | tee logs/log.test
+test:
+	$(MAKE_CMD) -f /app/mk/build.mk test
 
 # Target to bring up the development Nginx container
 .PHONY: up
 up:
-	docker compose up nginx-dev to-webp sync --build --remove-orphans
+	docker compose up $(SERVICES) --build --remove-orphans
 
 .PHONY: upd
 upd:
-	docker compose up nginx-dev to-webp sync --build --remove-orphans -d
+	docker compose up $(SERVICES) --build --remove-orphans -d
 
 .PHONY: down
 down:
 	docker compose down
 
 # Clean the build directory by removing all build artifacts
+# Avoid removing build/. Not ideal, but saves us from restarting nginx container
+# after a clean build.
 .PHONY: clean
 clean:
 	-rm -rf build/*
@@ -95,6 +96,9 @@ shell:
 	docker compose run --build --rm shell
 
 .PHONY: rmi
-
 rmi:
 	./bin/docker-rmi-pattern 'press-*'
+
+.PHONY: tags
+tags:
+	ctags -R app/shell/py

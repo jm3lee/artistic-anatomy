@@ -1,0 +1,15 @@
+[
+  {
+    "q": "Which of the following best describes the {{sagittal['name']|lower}} plane?",
+    "c": [
+      "Divides the body into anterior and posterior portions",
+      "Divides the body into superior and inferior portions",
+      "Divides the body into left and right portions",
+      "Divides the body into medial and lateral portions"
+    ],
+    "a": [
+      2,
+      "The sagittal plane is a vertical plane that runs front to back, splitting the body into left and right sections. The midsagittal (median) plane creates equal halves, while parasagittal planes create unequal left and right parts."
+    ]
+  }
+]

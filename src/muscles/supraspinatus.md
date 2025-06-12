@@ -16,14 +16,15 @@ title: ":muscle: Supraspinatus"
       <tr>
         <th>Insertion</th>
         <td>Superior facet of the greater tubercle of the
-        {{humerus_insertion}}</td>
+        {{humerus_insertion|linkinternal}}</td>
       </tr>
       <tr>
         <th>Actions</th>
         <td>
           <ol>
             <li>Initiation of shoulder abduction (first ~15°)</li>
-            <li>Stabilization of the glenohumeral joint; see [rotator cuff](rotator-cuff.md)</li>
+            <li>Stabilization of the glenohumeral joint; see
+{{rotator_cuff|linkinternal}}</li>
           </ol>
         </td>
       </tr>
@@ -39,4 +40,4 @@ loading="lazy"/>
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Supraspinatus_muscle)
-* {{gf}} 159
+* {{gf|link_icon_title}} 159

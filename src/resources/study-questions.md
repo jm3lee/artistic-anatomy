@@ -1,6 +1,8 @@
 ---
 title: Study Questions
 author: Brian Lee
+pubdate: Jun 03, 2025
+status: Reviewed
 ---
 
 <style>
@@ -9,40 +11,16 @@ ol {
 }
 </style>
 
+{% from "templates/multiple_choice.jinja" import render_mc %}
+
 ## Key Terms
-
-**Which of the following best describes the {{sagittal}} plane?**
-
-a. Divides the body into anterior and posterior portions
-a. Divides the body into superior and inferior portions
-a. Divides the body into left and right portions
-a. Divides the body into medial and lateral portions
-
-<details>
-<summary>Answer</summary>
-c. Divides the body into left and right portions
-
-The sagittal plane is a vertical plane that runs front to back, splitting the body into left and right sections. The midsagittal (median) plane creates equal halves, while parasagittal planes create unequal left and right parts.
-</details>
+{{render_mc("src/study/key_terms.json")}}
 
 ## Rotator Cuff
-
-```python
-include("src/study/rotator-cuff-000.md")
-```
-
-```python
-include("src/study/rotator-cuff-001.md")
-```
+{{render_mc("src/study/rotator_cuff.json")}}
 
 ## Deltoid
-
-```python
-include("src/study/deltoid.md")
-```
+{{render_mc("src/study/deltoid.json")}}
 
 ## Triceps
-
-```python
-include("src/study/triceps.md")
-```
+{{render_mc("src/study/triceps.json")}}

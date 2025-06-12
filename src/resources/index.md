@@ -9,7 +9,10 @@ pubdate: Fri May  9 18:36:36 PDT 2025
 **Acronyms in bold are used to refer to books when it is clear from the
 context.**
 
-- <span id="hc"></span>{{hc}}
+I'm in the process of creating one page per book with my reviews and other
+notes.
+
+- {{hc77|linktitle}}
 
 ### 3D {{'{#3d}'}}
 
