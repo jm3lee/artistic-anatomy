@@ -87,6 +87,16 @@ def linkinternal(desc):
     return f"""<a href="{url}" class="internal-link">{citation}</a>"""
 
 
+def link(desc):
+    """
+    Capitalize the first character of each word in the string,
+    preserving ALL whitespace (spaces, tabs, newlines).
+    """
+    citation = desc["citation"]
+    url = desc["url"]
+    return f"""<a href="{url}">{citation}</a>"""
+
+
 def extract_front_matter(file_path: str) -> dict | None:
     """
     Read a Markdown file and return its YAML front matter as a dict,
@@ -184,6 +194,7 @@ def to_alpha_index(i):
 
 def create_env():
     env = Environment(loader=FileSystemLoader("/data"), undefined=StrictUndefined)
+    env.filters["link"] = link
     env.filters["linktitle"] = linktitle
     env.filters["linkcap"] = linkcap
     env.filters["link_icon_title"] = link_icon_title

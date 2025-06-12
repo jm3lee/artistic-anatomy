@@ -1,35 +1,42 @@
 ---
 title: Muscle Origin and Insertion
+author: Brian Lee
+pubdate: Jun 11, 2025
+status: Reviewed
 ---
 
 In anatomy, the **origin** and **insertion** of a muscle refer to the points
 where the muscle attaches to bones or other structures in the body. These terms
 help describe the function of the muscle and how it contributes to movement.
 
-## Muscle Origin
+## Movement
+<dl>
+  <dt>**Origin**</dt>
+  <dd>Stationary during action</dd>
+  <dt>**Insertion**</dt>
+  <dd>Moves during action</dd>
+</dl>
 
-* **Definition**: The origin is the fixed attachment point of the muscle. It typically remains stationary during muscle contraction.
-* **Location**: Usually located on the more stable bone or closer to the center of the body (proximal).
-* **Function**: Provides a stable anchor for the muscle to pull from during movement.
+## Location
+<dl>
+  <dt>**Origin**</dt>
+  <dd>Proximal (closer to center)</dd>
+  <dt>**Insertion**</dt>
+  <dd>Distal (further from center)</dd>
+</dl>
 
-## Muscle Insertion
-
-* **Definition**: The insertion is the movable attachment point of the muscle. It is where the muscle exerts force to produce movement.
-* **Location**: Generally found on the more mobile bone or further from the center of the body (distal).
-* **Function**: Moves closer to the origin when the muscle contracts, causing joint movement.
-
-## Key Differences
-
-| Feature            | **Origin**                  | **Insertion**                |
-| ------------------ | --------------------------- | ---------------------------- |
-| **Movement**       | Stationary during action    | Moves during action          |
-| **Location**       | Proximal (closer to center) | Distal (further from center) |
-| **Role in Action** | Anchor for contraction      | Site of force application    |
+## Role in Action
+<dl>
+  <dt>**Origin**</dt>
+  <dd>Anchor for contraction</dd>
+  <dt>**Insertion**</dt>
+  <dd>Site of force application</dd>
+</dl>
 
 ## Example
 
-**Biceps Brachii (Arm Muscle)**
+{{bc|linktitle}}
 
-* **Origin**: The biceps brachii originates at the scapula (shoulder blade).
-* **Insertion**: It inserts into the radius (forearm bone).
-* **Action**: When the biceps contract, the insertion (radius) moves closer to the origin (scapula), bending the elbow.
+* **Origin**: The biceps brachii originates at the {{scapula|link}} (shoulder blade).
+* **Insertion**: It inserts into the {{radius|link}} (forearm bone).
+* **Action**: When the biceps contract, the insertion ({{radius|link}}) moves closer to the origin ({{scapula|link}}), bending the elbow.
