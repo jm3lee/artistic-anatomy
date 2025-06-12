@@ -27,13 +27,6 @@ build/spine.md: muscles/ld_trz_attachments.mdi
 build/muscles/latissimus_dorsi.md: muscles/ld_trz_attachments.mdi
 build/muscles/trapezius.md: muscles/ld_trz_attachments.mdi
 
-YAMLS := $(shell find src -name "*.yml")
-
-build/picasso.mk: $(YAMLS) | build
-	picasso > $@
-
-include build/picasso.mk
-
 #-------------------
 # Index Generation
 #-------------------
