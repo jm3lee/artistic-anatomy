@@ -44,7 +44,7 @@ loading="lazy"/>
 ## References
 
 - [Glenohumeral Joint](/scapula/glenohumeral-joint.md)
-- {{rotator_cuff|linkinternal}}
+- {{rotator_cuff|linktitle}}
 - {{gf|linktitle}}, 160.
 - {{hc77|linktitle}}
   - **108: Rubens, Study of a River God for the Four Rivers**
