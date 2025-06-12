@@ -10,7 +10,7 @@ Gluteal surface of ilium between posterior and anterior gluteal lines
 
 ### Insertions
 
-Lateral aspect of greater trochanter of [femur](/femur.html)
+Lateral aspect of greater trochanter of {{femur|linkinternal}}
 
 ### Actions
 

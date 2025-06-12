@@ -122,3 +122,10 @@ build: | $(BUILD_SUBDIRS)
 # Create each build subdirectory if it doesn't exist
 $(BUILD_SUBDIRS):
 	mkdir -p $@
+
+YAMLS := $(shell find src -name "*.yml")
+
+build/picasso.mk: $(YAMLS) | build
+	picasso > $@
+
+include build/picasso.mk
