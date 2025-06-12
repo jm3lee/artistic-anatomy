@@ -2,38 +2,25 @@
 title: "{{dt['icon']}} {{dt['name']|title}}"
 ---
 
-[🧑 AI Generated, Human Reviewed](../background/icons.html)
-
 ## Summary
 
-<table>
-  <tbody>
-    <tr>
-      <th>Origin</th>
-      <td>
-        <ol>
-          <li>Lateral third of the clavicle (anterior fibers)</li>
-          <li>Acromion process of the scapula (middle fibers)</li>
-          <li>Spine of the {{scapula|linkinternal}} (posterior fibers)</li>
-        </ol>
-      </td>
-    </tr>
-    <tr>
-      <th>Insertion</th>
-      <td>{{deltoid_tuberosity|linkcap}} of the {{humerus|linkinternal}}</td>
-    </tr>
-    <tr>
-      <th>Actions</th>
-      <td>
-        <ol>
-          <li>Shoulder abduction (middle fibers)</li>
-          <li>Shoulder flexion &amp; medial rotation (anterior fibers)</li>
-          <li>Shoulder extension &amp; lateral rotation (posterior fibers)</li>
-        </ol>
-      </td>
-    </tr>
-  </tbody>
-</table>
+### Origins
+
+<ol>
+<li>Lateral third of the clavicle (anterior fibers)</li>
+<li>Acromion process of the scapula (middle fibers)</li>
+<li>Spine of the {{scapula|linkinternal}} (posterior fibers)</li>
+</ol>
+
+### Insertions
+{{deltoid_tuberosity|linkcap}} of the {{humerus|linkinternal}}
+
+### Actions
+<ol>
+<li>Shoulder abduction (middle fibers)</li>
+<li>Shoulder flexion &amp; medial rotation (anterior fibers)</li>
+<li>Shoulder extension &amp; lateral rotation (posterior fibers)</li>
+</ol>
 
 ## Illustrations
 
@@ -59,8 +46,8 @@ title: "{{dt['icon']}} {{dt['name']|title}}"
 
 ## Study Questions
 
-{% from "templates/multiple_choice.jinja" import render_mc %}
-{{render_mc("src/study/deltoid.json")}}
+<div id="search-root" data-src="/study/deltoid.json"></div>
+<script type="module" src="/static/js/bundle.js" defer></script>
 
 ## See Also
 
