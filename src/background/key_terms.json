@@ -19,6 +19,10 @@
     "term": "Extension",
     "def": "Increases the angle between two bones, moving a segment away from the neutral position.<br>Opposite: {{flexion|linktitle}}."
   },
+  "epicondyle": {
+    "term": "Epicondyle",
+    "def": "A bony prominence on the distal end of a long bone, typically serving as an attachment point for muscles and ligaments.<br>Common examples include the medial and lateral epicondyles of the {{humerus|linkinternal}} and {{femur|linkinternal}}."
+  },
   "flexion": {
     "term": "Flexion",
     "def": "Decreases the angle between two bones in the {{sagittal|linkinternal}} plane (for example, bending the elbow).<br>Opposite: {{extension|linktitle}}."

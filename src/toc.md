@@ -8,7 +8,6 @@ citation: table of contents
 <style>
 ul {
   list-style: none;
-  margin-left: 0;
 }
 </style>
 
