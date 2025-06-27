@@ -2,7 +2,7 @@
 
 ### Origins
 
-Medial epicondyle of the {{humerus|linkinternal}} via the common flexor
+Medial {{epicondyle|link}} of the {{humerus|linkinternal}} via the common flexor
 tendon
 
 ### Insertions
