@@ -43,7 +43,7 @@ Carter</a>, Public domain, via Wikimedia Commons
 
 - {{bk_3d|linktitle}} 17, 27
 
-## :star: Bony Landmarks
+## :round_pushpin: Bony Landmarks
 
 [:robot: AI Generated](../../background/icons.html)
 

@@ -1,5 +1,5 @@
 ---
-title: ":star: Spine of Scapula"
+title: ":round_pushpin: Spine of Scapula"
 author: Brian Lee
 ---
 
