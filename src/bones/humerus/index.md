@@ -101,12 +101,12 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 * **Lesser tubercle**: anterior surface
   * Subscapularis
 
-* **Intertubercular (bicipital) groove**
+* <span id="bicipital_groove"></span>**Intertubercular (bicipital) groove**
   * Pectoralis major (lateral lip)
   * Latissimus dorsi (floor)
   * Teres major (medial lip)
 
-* **Deltoid tuberosity**
+* <span id="deltoid_tuberosity"></span>**Deltoid tuberosity**
   * Deltoid
 
 * **Shaft (medial mid‑shaft)**
