@@ -13,8 +13,14 @@
 ```
 alias r='make -f redo.mk'
 r seed
+r shell-up   # start build container
 r up
 ```
+
+The `shell-up` target launches the `shell` service in the background so that
+subsequent builds use `docker compose exec` rather than starting a fresh
+container each time. The shell image now runs `bash -c \"sleep infinity\"` by
+default so the container remains alive for these `exec` calls.
 
 ## template params
 

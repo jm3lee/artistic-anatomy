@@ -1,5 +1,3 @@
 #!/bin/bash
-MAKE_CMD="docker compose run
---rm --entrypoint make -u $(id -u) -T --build
-shell"
-$MAKE_CMD -f /app/mk/build.mk $*
+MAKE_CMD="docker compose exec -T -u $(id -u) shell make"
+$MAKE_CMD -f /app/mk/build.mk "$@"

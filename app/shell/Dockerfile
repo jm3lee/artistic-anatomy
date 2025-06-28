@@ -85,3 +85,7 @@ ENV PATH="/app/bin:${PATH}"
 
 # Copy custom Makefile fragments into /app/mk
 COPY ./mk/ /app/mk
+
+# Keep container running when launched via `docker compose up -d shell`
+# This allows subsequent build commands to use `docker compose exec`.
+CMD ["-c", "sleep infinity"]

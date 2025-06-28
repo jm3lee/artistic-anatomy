@@ -9,7 +9,7 @@ override MAKEFLAGS += --warn-undefined-variables  \
 export MAKEFLAGS
 
 # Default services to run
-SERVICES := nginx-dev sync webp
+SERVICES := nginx-dev sync webp shell
 
 VPATH := src
 
@@ -18,7 +18,7 @@ MARKDOWNS := $(shell find src/ -name '*.md')
 CSS := $(shell find src/ -name '*.css')
 REACT_SRC := $(wildcard search-ui/* search-ui/src/*)
 
-MAKE_CMD := docker compose run --rm --entrypoint make -u $(shell id -u) -T --build shell
+MAKE_CMD := docker compose exec -T -u $(shell id -u) shell make
 
 # Define the default target to build everything
 build/.buildinfo: $(MARKDOWNS) $(CSS) redo.mk src/pandoc-template.html | build
@@ -93,7 +93,11 @@ webp:
 
 .PHONY: shell
 shell:
-	docker compose run --build --rm shell
+	docker compose exec shell
+
+.PHONY: shell-up
+shell-up:
+	docker compose up -d shell
 
 .PHONY: rmi
 rmi:
