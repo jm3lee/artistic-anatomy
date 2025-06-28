@@ -1,7 +1,3 @@
----
-title: ✴️ Tibial Tuberosity
----
-
 Also known as the **tuberosity of the tibia** or the **tibial tubercle**.
 
 The tibial tuberosity is a bony bump on the front of the shinbone, just below

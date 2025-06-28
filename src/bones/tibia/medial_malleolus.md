@@ -1,7 +1,3 @@
----
-title: ✴️ Medial Malleolus
----
-
 The medial malleolus is the bony bump on the inner side of the ankle, formed by
 the tibia. For artists, it’s an important landmark when drawing or sculpting the
 leg and foot.

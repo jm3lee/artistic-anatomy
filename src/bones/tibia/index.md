@@ -1,10 +1,3 @@
----
-title: ":bone: Tibia"
-author: Brian Lee
----
-
-:robot:
-
 ## Illustrations
 
 <figure>

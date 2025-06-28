@@ -1,7 +1,3 @@
----
-title: ✴️ Anterior Superior Iliac Spine (ASIS)
----
-
 ## Examples
 
 <img src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/bones/asis-0000.jpg"

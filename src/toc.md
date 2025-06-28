@@ -31,13 +31,6 @@ ul {
 * [:bone: Foot](foot.md)
 * [:bone: Patella](patella.md)
 * [:bone: Spine](spine.md)
-* [:bone: Tibia](tibia/)
-  * [:star: Medial Malleolus](tibia/medial-malleolus.md)
-  * [:star: Tibial Tuberosity](tibia/tibial-tuberosity.md)
-* [:bone: Ulna](/bones/ulna.md)
-* [:bone: Pelvis](pelvis.md)
-  * [:star: Anterior Superior Iliac Spine (ASIS)](anterior-superior-iliac-spine-asis.md)
-  * [:star: Posterior Superior Iliac Spine (PSIS)](posterior-superior-iliac-spine-psis.md)
 
 ## New
 
@@ -55,17 +48,20 @@ ul {
 
 ```{=html}
 <ul>
-{{render_list(read_yaml("build/bones/femur/toc.yml"))}}
-{{render_list(read_yaml("build/bones/humerus/toc.yml"))}}
-{{render_list(read_yaml("build/bones/radius/toc.yml"))}}
-{{render_list(read_yaml("build/bones/scapula/toc.yml"))}}
+{{render_list(read_yaml("src/bones/femur/toc.yml"))}}
+{{render_list(read_yaml("src/bones/humerus/toc.yml"))}}
+{{render_list(read_yaml("src/bones/pelvis/toc.yml"))}}
+{{render_list(read_yaml("src/bones/radius/toc.yml"))}}
+{{render_list(read_yaml("src/bones/scapula/toc.yml"))}}
+{{render_list(read_yaml("src/bones/tibia/toc.yml"))}}
+{{render_list(read_yaml("src/bones/ulna/toc.yml"))}}
 </ul>
 ```
 
 ## Joints
 
 * {{glenohumeral_joint|linktitle}}
-* [:bone: Radioulnar Joints](radio-ulnar-joints.md)
+* {{radioulnar_joints|linktitle}}
 
 ## Muscles
 
