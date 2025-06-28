@@ -381,3 +381,13 @@ ol + details.answer {
   font-size: 1rem;
   cursor: pointer;
 }
+
+dt {
+  font-weight: bold;
+}
+dd + dt {
+  margin-top: 1em;
+}
+ul.examples {
+  list-style: none;
+}

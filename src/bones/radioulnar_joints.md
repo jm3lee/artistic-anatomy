@@ -1,10 +1,32 @@
-Here are the three articulations connecting the radius and ulna along the length of the forearm:
+## Proximal Radioulnar Joint
 
-| Joint                              | Location                         | Anatomical Type        | Degrees of Freedom | Primary Motion            |
-|------------------------------------|----------------------------------|------------------------|--------------------|---------------------------|
-| **Proximal radioulnar joint**      | Elbow region (radial head & radial notch of ulna) | Synovial pivot        | 1                  | Pronation / Supination    |
-| **Middle radioulnar syndesmosis**  | Interosseous membrane between shafts | Fibrous syndesmosis   | ~0 (slight)        | Minimal gliding (stabilizes) |
-| **Distal radioulnar joint**        | Wrist region (ulnar notch of radius & head of ulna) | Synovial pivot        | 1                  | Pronation / Supination    |
+<dl>
+<dt>Location</dt>
+<dd>Elbow region (radial head & radial notch of ulna)</dd>
+<dt>Type</dt>
+<dd>Synovial pivot</dd>
+<dt>Degrees of Freedom</dt>
+<dd>1</dd>
+<dt>Primary Motion</dt>
+<dd>Pronation / Supination</dd>
+</dl>
 
-- The **proximal** and **distal radioulnar joints** are true pivot joints, each permitting the radius to rotate around the ulna for pronation and supination.  
-- The **interosseous membrane** is a fibrous “joint” (syndesmosis) that binds the shafts, transmitting load and maintaining alignment, with only very slight movement.
+## Distal Radioulnar Joint
+
+<dl>
+<dt>Location</dt>
+<dd>Wrist region (ulnar notch of radius & head of ulna)</dd>
+<dt>Type</dt>
+<dd>Synovial pivot</dd>
+<dt>Degrees of Freedom</dt>
+<dd>1</dd>
+<dt>Primary Motion</dt>
+<dd>Pronation / Supination</dd>
+</dl>
+
+## References
+
+* [Proximal Radioulnar
+  Joint](https://en.wikipedia.org/wiki/Proximal_radioulnar_articulation)
+* [Distal Radioulnar Joint
+  (Wikipedia)](https://en.wikipedia.org/wiki/Distal_radioulnar_articulation)

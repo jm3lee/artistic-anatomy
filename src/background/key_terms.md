@@ -13,18 +13,6 @@ work.
 
 ## Terms
 
-<style>
-dt {
-  font-weight: bold;
-}
-dd + dt {
-  margin-top: 1em;
-}
-ul.examples {
-  list-style: none;
-}
-</style>
-
 <dl>
 {% for k, v in read_json("build/background/key_terms.json").items() %}
   <dt id="{{k}}">{{v['term']}}</dt>
