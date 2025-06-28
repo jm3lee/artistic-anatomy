@@ -7,7 +7,7 @@ title: "{{ld['icon']}} {{ld['name']|title}}"
 ### Origins
 
 <ol>
-<li>Spinous processes of [T6 to T12 (thoracic vertebrae)](/spine.md)</li>
+<li>Spinous processes of [T6 to T12 (thoracic vertebrae)](/bones/spine/)</li>
 <li>Last three or four ribs</li>
 <li>Thoracolumbar fascia</li>
 <li>Posterior iliac crest</li>

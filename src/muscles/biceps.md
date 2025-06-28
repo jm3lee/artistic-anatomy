@@ -19,7 +19,7 @@ title: "{{bc['icon']}} {{bc['name']|title}}"
   <th>Insertion</th>
   <td>
   <ol>
-  <li>[Radial tuberosity](/bones/radius.html)</li>
+  <li>[Radial tuberosity](/bones/radius/)</li>
   <li>Bicipital aponeurosis</li>
   </ol>
   </td>

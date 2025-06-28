@@ -1,7 +1,3 @@
----
-title: "{{radius['icon']}} {{radius['name']|title}}"
----
-
 ## Muscles Insertions
 
 {{bc|linktitle}}
