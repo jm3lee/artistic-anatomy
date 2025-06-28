@@ -42,6 +42,7 @@ ul {
 
 ```{=html}
 <ul>
+{{render_list(read_yaml("src/bones/clavicle/toc.yml"))}}
 {{render_list(read_yaml("src/bones/femur/toc.yml"))}}
 {{render_list(read_yaml("src/bones/foot/toc.yml"))}}
 {{render_list(read_yaml("src/bones/humerus/toc.yml"))}}
