@@ -28,10 +28,6 @@ ul {
 
 ## Bones
 
-* [:bone: Foot](foot.md)
-
-## New
-
 {% macro render_list(items) %}
   {% for item in items %}
     {% if item is string %}
