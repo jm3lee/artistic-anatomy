@@ -30,6 +30,8 @@ def linktitle(desc):
 
     def cap_match(m):
         word = m.group(1)
+        if word in ('of',):
+            return word
         return word[0].upper() + word[1:]
 
     citation = _whitespace_word_pattern.sub(cap_match, citation)
