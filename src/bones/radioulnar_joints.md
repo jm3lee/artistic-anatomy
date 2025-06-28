@@ -27,6 +27,6 @@
 ## References
 
 * [Proximal Radioulnar
-  Joint](https://en.wikipedia.org/wiki/Proximal_radioulnar_articulation)
+  Joint (Wikipedia)](https://en.wikipedia.org/wiki/Proximal_radioulnar_articulation)
 * [Distal Radioulnar Joint
   (Wikipedia)](https://en.wikipedia.org/wiki/Distal_radioulnar_articulation)
