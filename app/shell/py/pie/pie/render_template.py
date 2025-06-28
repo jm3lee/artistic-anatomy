@@ -5,14 +5,13 @@ import logging
 import os
 import re
 import sys
+import yaml
+from jinja2 import Environment, FileSystemLoader, StrictUndefined
+from xmera.utils import read_json, read_utf8
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("render")
 index_json = None  # See main().
-
-import yaml
-from jinja2 import Environment, FileSystemLoader, StrictUndefined
-from xmera.utils import read_json
 
 _whitespace_word_pattern = re.compile(r"(\S+)")
 
@@ -191,6 +190,10 @@ def render_jinja(snippet):
 def to_alpha_index(i):
     return ("a", "b", "c", "d")[i]
 
+def read_yaml(filename):
+    y = yaml.safe_load(read_utf8(filename))
+    logging.info(y['toc'])
+    yield from y['toc']
 
 def create_env():
     env = Environment(loader=FileSystemLoader("/data"), undefined=StrictUndefined)
@@ -207,6 +210,7 @@ def create_env():
     env.globals["render_jinja"] = render_jinja
     env.globals["to_alpha_index"] = to_alpha_index
     env.globals["read_json"] = read_json
+    env.globals["read_yaml"] = read_yaml
     return env
 
 

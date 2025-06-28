@@ -183,13 +183,16 @@ def build_index(source_dir: str, file_pattern: str = "**/*.md") -> Dict[str, Any
     for filepath in glob.glob(pattern, recursive=True):
         _, ext = os.path.splitext(filepath)
         ext_lower = ext.lower()
-        logger.debug("Processing file", filename=filepath)
+        logger.info("Processing file", filename=filepath)
 
         metadata: Optional[Dict[str, Any]] = None
 
         if ext_lower == ".md":
             metadata = process_markdown(filepath)
         elif ext_lower in (".yml", ".yaml"):
+            if filepath.endswith("toc.yml") or filepath.endswith("toc.yaml"):
+                # These have a special handling. Skip it for now.
+                continue
             metadata = process_yaml(filepath)
         else:
             # Skip files that are neither Markdown nor YAML

@@ -1,10 +1,3 @@
----
-title: ":bone: Radioulnar Joints"
-author: Brian Lee
----
-
-:robot:
-
 Here are the three articulations connecting the radius and ulna along the length of the forearm:
 
 | Joint                              | Location                         | Anatomical Type        | Degrees of Freedom | Primary Motion            |

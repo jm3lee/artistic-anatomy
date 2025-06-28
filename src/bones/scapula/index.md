@@ -1,7 +1,3 @@
----
-title: "{{scapula['icon']}} {{scapula['name']|title}}"
----
-
 ## Illustrations
 
 <figure>

@@ -60,3 +60,8 @@ build/%.json: %.json
 	emojify < $< > $@
 
 build/background/key_terms.md: build/background/key_terms.json
+
+build/%.yml: %.yml | $(patsubst src/%,build/%,$(dir $@))
+	cp $< $@
+
+build/toc.html: build/bones/scapula/toc.yml

@@ -1,7 +1,3 @@
----
-title: "{{acromion_process['icon']}} {{acromion_process['name']|title}}"
----
-
 The **acromion process** is a bony projection on the scapula (shoulder blade).
 It extends laterally over the shoulder joint and forms the highest point of the
 shoulder. The acromion serves as an attachment point for muscles and ligaments

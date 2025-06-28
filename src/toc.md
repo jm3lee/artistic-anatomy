@@ -28,16 +28,8 @@ ul {
 
 ## Bones
 
-* [:bone: Glenohumeral Joint](scapula/glenohumeral-joint.md)
-* [:bone: Humerus](/bones/humerus.md)
-* [:bone: Scapula](scapula/)
-  * [:star: Acromion Process](scapula/acromion_process.md)
-  * [:star: Inferior Angle of Scapula](scapula/inferior-angle-of-scapula.md)
-  * [:star: Spine of Scapula](scapula/spine-of-scapula.md)
-* [:bone: Femur](/bones/femur.md)
 * [:bone: Foot](foot.md)
 * [:bone: Patella](patella.md)
-* [:bone: Radius](/bones/radius.md)
 * [:bone: Spine](spine.md)
 * [:bone: Tibia](tibia/)
   * [:star: Medial Malleolus](tibia/medial-malleolus.md)
@@ -47,9 +39,32 @@ ul {
   * [:star: Anterior Superior Iliac Spine (ASIS)](anterior-superior-iliac-spine-asis.md)
   * [:star: Posterior Superior Iliac Spine (PSIS)](posterior-superior-iliac-spine-psis.md)
 
+## New
+
+{% macro render_list(items) %}
+  {% for item in items %}
+    {% if item is string %}
+      <li>{{ render_jinja(item) }}</li>
+    {% elif item is iterable %}
+      <li>
+        <ul>{{ render_list(item) }}</ul>
+      </li>
+    {% endif %}
+  {% endfor %}
+{% endmacro %}
+
+```{=html}
+<ul>
+{{render_list(read_yaml("build/bones/femur/toc.yml"))}}
+{{render_list(read_yaml("build/bones/humerus/toc.yml"))}}
+{{render_list(read_yaml("build/bones/radius/toc.yml"))}}
+{{render_list(read_yaml("build/bones/scapula/toc.yml"))}}
+</ul>
+```
+
 ## Joints
 
-* [:bone: Glenohumeral Joint](scapula/glenohumeral-joint.md)
+* {{glenohumeral_joint|linktitle}}
 * [:bone: Radioulnar Joints](radio-ulnar-joints.md)
 
 ## Muscles
