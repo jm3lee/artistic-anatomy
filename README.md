@@ -7,6 +7,8 @@
 4. Optionally customize `src/pandoc-template.html` for your project.
 5. Edit `docker` rule in `redo.mk` if you'd like to push docker images to a
    container registry.
+6. Use [`bin/docker-remake`](docs/docker-remake.md) to delete build artifacts
+   and rerun `make` inside Docker when a clean rebuild is needed.
 
 ### General Setup
 

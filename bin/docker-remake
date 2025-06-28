@@ -1,3 +1,21 @@
-#!/bin/bash
-bin=$(dirname "$0")
-rm -rf $*; $bin/docker-make $*
+#!/usr/bin/env bash
+# docker-remake - remove targets and rebuild them inside Docker
+set -euo pipefail
+
+bin_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
+
+usage() {
+  cat <<EOF
+Usage: $(basename "$0") TARGET...
+
+Delete each TARGET and then run docker-make with the same arguments.
+EOF
+  exit 1
+}
+
+if [[ $# -eq 0 ]]; then
+  usage
+fi
+
+rm -rf -- "$@"
+exec "$bin_dir/docker-make" "$@"
