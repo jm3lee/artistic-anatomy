@@ -15,7 +15,7 @@ Inferior facet of the greater tubercle of the {{humerus|linkinternal}}
 <ol>
 <li>External (lateral) rotation of the humerus</li>
 <li>Weak adduction of the humerus</li>
-<li>Assists in stabilizing the [glenohumeral (shoulder) joint](/scapula/glenohumeral-joint.md) as part of the rotator cuff</li>
+<li>Assists in stabilizing the {{glenohumeral_joint|linkinternal}} as part of the rotator cuff</li>
 </ol>
 
 ## Illustrations

@@ -1,9 +1,3 @@
----
-title: "{{ulna['icon']}} {{ulna['name']|title}}"
----
-
-:robot:
-
 ## Illustrations
 
 <figure>

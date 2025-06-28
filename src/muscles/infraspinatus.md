@@ -43,7 +43,7 @@ loading="lazy"/>
 
 ## References
 
-- [Glenohumeral Joint](/scapula/glenohumeral-joint.md)
+- {{glenohumeral_joint|linktitle}}
 - {{rotator_cuff|linktitle}}
 - {{gf|linktitle}}, 160.
 - {{hc77|linktitle}}
