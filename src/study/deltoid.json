@@ -65,19 +65,6 @@
     ]
   },
   {
-    "q": "Which nerve innervates the {{dt['name']|lower}}?",
-    "c": [
-      "Radial nerve",
-      "Axillary nerve",
-      "Musculocutaneous nerve",
-      "Median nerve"
-    ],
-    "a": [
-      1,
-      ""
-    ]
-  },
-  {
     "q": "Which muscle helps initiate {{abduction['name']|lower}} of the shoulder before the {{dt['name']|lower}} takes over?",
     "c": [
       "{{sups|linktitle}}",
