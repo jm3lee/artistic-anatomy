@@ -60,6 +60,7 @@ ul {
 
 * {{glenohumeral_joint|linktitle}}
 * {{radioulnar_joints|linktitle}}
+* {{synovial_joints|linktitle}}
 
 ## Muscles
 
