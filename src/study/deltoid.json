@@ -37,5 +37,96 @@
       1,
       ""
     ]
+  },
+  {
+    "q": "The posterior (spinal) head of the {{dt['name']|lower}} originates from which bony landmark?",
+    "c": [
+      "{{coracoid_process['name']|lower}}",
+      "{{acromion_process['name']|lower}}",
+      "{{spine_of_scapula['name']|lower}}",
+      "Supraglenoid tubercle"
+    ],
+    "a": [
+      2,
+      ""
+    ]
+  },
+  {
+    "q": "Which bony landmark serves as the origin for the middle (acromial) fibers of the {{dt['name']|lower}}?",
+    "c": [
+      "{{acromion_process['name']|lower}}",
+      "{{spine_of_scapula['name']|lower}}",
+      "Lateral third of the clavicle",
+      "{{coracoid_process['name']|lower}}"
+    ],
+    "a": [
+      0,
+      ""
+    ]
+  },
+  {
+    "q": "Which nerve innervates the {{dt['name']|lower}}?",
+    "c": [
+      "Radial nerve",
+      "Axillary nerve",
+      "Musculocutaneous nerve",
+      "Median nerve"
+    ],
+    "a": [
+      1,
+      ""
+    ]
+  },
+  {
+    "q": "Which muscle helps initiate {{abduction['name']|lower}} of the shoulder before the {{dt['name']|lower}} takes over?",
+    "c": [
+      "{{sups|linktitle}}",
+      "{{trc|linktitle}}",
+      "{{infs|linktitle}}",
+      "{{trsmin|linktitle}}"
+    ],
+    "a": [
+      0,
+      ""
+    ]
+  },
+  {
+    "q": "The name {{dt['name']|lower}} is derived from which Greek letter because of the muscle's triangular shape?",
+    "c": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Delta"
+    ],
+    "a": [
+      3,
+      ""
+    ]
+  },
+  {
+    "q": "Where on the {{humerus['name']|lower}} is the {{deltoid_tuberosity['name']|lower}} located?",
+    "c": [
+      "Proximal medial shaft",
+      "Proximal lateral shaft",
+      "Distal medial shaft",
+      "Distal posterior shaft"
+    ],
+    "a": [
+      1,
+      ""
+    ]
+  },
+  {
+    "q": "Which of the following actions is NOT performed by the {{dt['name']|lower}}?",
+    "c": [
+      "Shoulder {{extension['name']|lower}}",
+      "Shoulder {{abduction['name']|lower}}",
+      "Forearm pronation",
+      "Shoulder {{flexion['name']|lower}}"
+    ],
+    "a": [
+      2,
+      ""
+    ]
   }
 ]
