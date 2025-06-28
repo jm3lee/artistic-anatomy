@@ -12,7 +12,7 @@ title: "{{ld['icon']}} {{ld['name']|title}}"
 <li>Thoracolumbar fascia</li>
 <li>Posterior iliac crest</li>
 <li>Inferior angle of scapula; see Variable Attachment to
-<a href="/scapula/inferior-angle-of-scapula.html">Inferior Angle of Scapula</a>.</li>
+{{inferior_angle_of_scapula|link}}.</li>
 </ol>
 
 ### Insertions
