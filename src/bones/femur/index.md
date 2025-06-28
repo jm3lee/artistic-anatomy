@@ -3,7 +3,7 @@
 ## Illustrations
 
 <figure>
-<a href="https:///artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate26.webp">
+<a href="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate26.webp">
 <img
 src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate26.webp"
 alt="Richer, Plate 26 showing femur"
@@ -134,4 +134,4 @@ Distal lateral articular prominence; origin site for gastrocnemius (lateral head
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Femur)
 * {{gf|linktitle}}, 32–34
-* [Richer, Plate 26](https:///artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate26.webp)
+* [Richer, Plate 26](https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate26.webp)
