@@ -29,8 +29,6 @@ ul {
 ## Bones
 
 * [:bone: Foot](foot.md)
-* [:bone: Patella](patella.md)
-* [:bone: Spine](spine.md)
 
 ## New
 
@@ -50,9 +48,11 @@ ul {
 <ul>
 {{render_list(read_yaml("src/bones/femur/toc.yml"))}}
 {{render_list(read_yaml("src/bones/humerus/toc.yml"))}}
+{{render_list(read_yaml("src/bones/patella/toc.yml"))}}
 {{render_list(read_yaml("src/bones/pelvis/toc.yml"))}}
 {{render_list(read_yaml("src/bones/radius/toc.yml"))}}
 {{render_list(read_yaml("src/bones/scapula/toc.yml"))}}
+{{render_list(read_yaml("src/bones/spine/toc.yml"))}}
 {{render_list(read_yaml("src/bones/tibia/toc.yml"))}}
 {{render_list(read_yaml("src/bones/ulna/toc.yml"))}}
 </ul>

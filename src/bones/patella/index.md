@@ -1,9 +1,3 @@
----
-title: ":bone: Patella"
-id: patella
-citation: patella
----
-
 The patella, or kneecap, is a key anatomical landmark for defining the front
 plane of the leg. Its triangular shape helps artists divide the thigh and shin,
 observe surface anatomy, and capture movement. When the leg is extended, the

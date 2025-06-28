@@ -1,10 +1,3 @@
----
-title: Spine
-author: Brian Lee
----
-
-:robot:
-
 | Column Section   | Abbreviation | Vertebrae (typical) | Notes                                   |
 |------------------|--------------|---------------------|-----------------------------------------|
 | Cervical         | C1–C7        | 7                   | Includes atlas (C1) and axis (C2)       |
