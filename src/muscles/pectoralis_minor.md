@@ -12,8 +12,8 @@ Anterior surfaces of the 3rd to 5th ribs near their costal cartilages
 
 ### Actions
 <ol>
-<li>[Scapular protraction](/scapula/#movements) (pulls scapula forward and downward)</li>
-<li>[Scapular depression](/scapula/#movements)</li>
+<li>[Scapular protraction](/bones/scapula/#movements) (pulls scapula forward and downward)</li>
+<li>[Scapular depression](/bones/scapula/#movements)</li>
 <li>Stabilizes scapula against thoracic wall</li>
 </ol>
 

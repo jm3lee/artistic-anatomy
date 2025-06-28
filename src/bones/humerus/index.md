@@ -1,9 +1,3 @@
----
-title: "{{humerus['icon']}} {{humerus['name']|title}}"
----
-
-:robot:
-
 ## Illustrations
 
 <figure>
