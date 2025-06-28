@@ -20,12 +20,27 @@ dt {
 dd + dt {
   margin-top: 1em;
 }
+ul.examples {
+  list-style: none;
+}
 </style>
 
 <dl>
 {% for k, v in read_json("build/background/key_terms.json").items() %}
   <dt id="{{k}}">{{v['term']}}</dt>
-  <dd>{{render_jinja(v['def'])}}</dd>
+  <dd>
+    {{render_jinja(v['def'])}}
+  </dd>
+  {% if 'ex' in v %}
+  <dd>
+    Examples:
+    <ul class="examples">
+    {% for ex in v['ex'] %}
+      <li>{{render_jinja(ex)}}</li>
+    {% endfor %}
+    </ul>
+  </dd>
+  {% endif %}
 {% endfor %}
 </dl>
 

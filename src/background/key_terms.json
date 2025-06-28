@@ -21,7 +21,11 @@
   },
   "epicondyle": {
     "term": "Epicondyle",
-    "def": "A bony prominence on the distal end of a long bone, typically serving as an attachment point for muscles and ligaments.<br>Common examples include the medial and lateral epicondyles of the {{humerus|linkinternal}} and {{femur|linkinternal}}."
+    "def": "A bony prominence on the distal end of a long bone, typically serving as an attachment point for muscles and ligaments.",
+    "ex": [
+      "{{humerus|linktitle}}: medial and lateral epicondyle",
+      "{{femur|linktitle}}: medial and lateral epicondyle"
+    ]
   },
   "flexion": {
     "term": "Flexion",
@@ -29,7 +33,10 @@
   },
   "fossa": {
     "term": "Fossa",
-    "def": "A hollow or depression in the surface of a bone."
+    "def": "A hollow or depression in the surface of a bone.",
+    "ex": [
+      "{{infraclavicular_fossa|linktitle}}"
+    ]
   },
   "inferior": {
     "term": "Inferior",
