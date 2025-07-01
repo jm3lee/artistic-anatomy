@@ -91,33 +91,34 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 
 ## Muscle Insertions {{'{#insertion}'}}
 
-### By Bony Landmarks
+### Greater Tubercle
+<ol>
+<li>{{sups|linktitle}}</li>
+<li>{{infs|linktitle}}</li>
+<li>{{trsmin|linktitle}}</li>
+</ol>
 
-* **Greater tubercle**: lateral surface
-  * {{sups|linktitle}}
-  * {{infs|linktitle}}
-  * {{trsmin|linktitle}}
+### Lesser Tubercle
+<ol>
+<li>{{subscp|linktitle}}</li>
+</ol>
 
-* **Lesser tubercle**: anterior surface
-  * Subscapularis
+### Intertubercular (Bicipital) Groove and Crests {{'{#bicipital_groove}'}}
+<ol>
+<li>{{pecmaj|linktitle}} – lateral lip</li>
+<li>{{ld|linktitle}} – floor</li>
+<li>{{trsmaj|linktitle}} – medial lip</li>
+</ol>
 
-* <span id="bicipital_groove"></span>**Intertubercular (bicipital) groove**
-  * Pectoralis major (lateral lip)
-  * Latissimus dorsi (floor)
-  * Teres major (medial lip)
+### Deltoid Tuberosity {{'{#deltoid_tuberosity}'}}
+<ol>
+<li>{{dt|linktitle}}</li>
+</ol>
 
-* <span id="deltoid_tuberosity"></span>**Deltoid tuberosity**
-  * Deltoid
-
-* **Shaft (medial mid‑shaft)**
-  * Coracobrachialis
-
-* **Shaft (distal anterior, just above trochlea)**
-  * {{brc|linktitle}}
-
-* **Lateral supracondylar ridge**
-  * Brachioradialis (proximal)
-  * Extensor carpi radialis longus
+### Medial Shaft of Humerus
+<ol>
+<li>{{coracobrachialis|linktitle}}</li>
+</ol>
 
 ## Translations
 
