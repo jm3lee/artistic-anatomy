@@ -62,7 +62,7 @@ author: Brian Lee
 1. Soleus
 1. Spinalis
 1. Splenius Capitis
-1. Sternocleoidmastoid
+1. Sternocleidomastoid
 1. Sternohyoid
 1. Supraspinatus
 1. Temporalis
