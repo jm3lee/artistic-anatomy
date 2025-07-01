@@ -1,12 +1,12 @@
 {% macro origins_list(name) %}
 {% for i in get_origins(name) -%}
-- {{render_jinja(i)|linktitle}}
+- {{render_jinja(i)}}
 {% endfor %}
 {% endmacro %}
 
 {% macro insertions_list(name) %}
 {% for i in get_insertions(name) -%}
-- {{render_jinja(i)|linktitle}}
+- {{render_jinja(i)}}
 {% endfor %}
 {% endmacro %}
 
@@ -20,7 +20,6 @@
 {{insertions_list(name)}}
 
 ### Actions
-
 {% for i in get_actions(name) -%}
 - {{render_jinja(i)}}
 {% endfor %}

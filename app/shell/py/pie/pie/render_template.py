@@ -5,11 +5,15 @@ import logging
 import os
 import re
 import sys
+
 import yaml
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from xmera.utils import read_json, read_utf8
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(name)s - %(funcName)s - %(message)s",
+)
 logger = logging.getLogger("render")
 index_json = None  # See main().
 
@@ -30,7 +34,7 @@ def linktitle(desc):
 
     def cap_match(m):
         word = m.group(1)
-        if word in ('of',):
+        if word in ("of",):
             return word
         return word[0].upper() + word[1:]
 
@@ -149,7 +153,6 @@ def process_directory(root_dir: str) -> None:
 
 
 def get_origins(name):
-    env = create_env()
     j = index_json[name]
     for i in j["origins"]:
         if i in index_json:
@@ -185,17 +188,19 @@ def load_mc(filename):
 
 
 def render_jinja(snippet):
-    env = create_env()
+    logger.info(snippet)
     return env.from_string(snippet).render(**index_json)
 
 
 def to_alpha_index(i):
     return ("a", "b", "c", "d")[i]
 
+
 def read_yaml(filename):
     y = yaml.safe_load(read_utf8(filename))
-    logging.info(y['toc'])
-    yield from y['toc']
+    logging.info(y["toc"])
+    yield from y["toc"]
+
 
 def create_env():
     env = Environment(loader=FileSystemLoader("/data"), undefined=StrictUndefined)
@@ -216,10 +221,12 @@ def create_env():
     return env
 
 
+env = create_env()
+
+
 def main():
     global index_json
     index_json = read_json(sys.argv[1])
-    env = create_env()
     template = env.get_template(sys.argv[2])
     print(template.render(**index_json))
 

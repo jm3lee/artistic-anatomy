@@ -4,7 +4,7 @@ pubdate: "May 30, 2025"
 origins:
   - "External surfaces of ribs 5–12"
 insertions:
-  - linea_alba
+  - "{{linea_alba|linktitle}}"
   - "[:star: Pubic tubercle](/bones/pelvis/)"
   - "Anterior half of iliac crest"
 actions:

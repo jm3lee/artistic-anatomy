@@ -1,8 +1,8 @@
 title: ":round_pushpin: Coracoid Process"
 name: Coracoid Process
 origins:
-  - coracobrachialis
-  - bc
+  - "{{coracobrachialis|linktitle}}"
+  - "{{bc|linktitle}}"
 insertions:
-  - pecmin
+  - "{{pecmin|linktitle}}"
 icon: ":round_pushpin:"
