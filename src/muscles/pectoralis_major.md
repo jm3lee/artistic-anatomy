@@ -6,14 +6,14 @@ title: "{{pecmaj['icon']}} {{pecmaj['name']|title}}"
 
 ### Origins
 <ol>
-<li>Medial half of {{clavicle|linkinternal}}</li>
+<li>Medial half of {{clavicle|linkicon}}</li>
 <li>Sternum</li>
 <li>costal cartilages of ribs 1–6 (sometimes 1–7)</li>
 </ol>
 
 ### Insertions
 Crest of the greater tubercle of the humerus (lateral lip of
-{{bicipital_groove|linkinternal}})
+{{bicipital_groove|linkicon}})
 
 ### Actions
 <ol>

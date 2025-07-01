@@ -17,7 +17,7 @@
 
 {{brr|linktitle}}
 
-- Styloid process of {{radius|linkinternal}}
+- Styloid process of {{radius|linkicon}}
 - Flexion of the forearm at the elbow
 
 &ast; Supinator is a _deep_ muscle and shown here for completeness.

@@ -6,12 +6,12 @@ title: "{{protrs['icon']}} {{protrs['name']|title}}"
 
 ### Origins
 <ol>
-<li>Common flexor tendon attached to medial epicondyle of {{humerus|linkinternal}}</li>
-<li>{{coronoid_process|linkcap}} of the {{ulna|linkinternal}}</li>
+<li>Common flexor tendon attached to medial epicondyle of {{humerus|linkicon}}</li>
+<li>{{coronoid_process|linkcap}} of the {{ulna|linkicon}}</li>
 </ol>
 
 ### Insertions
-Middle of lateral surface of the {{radius|linkinternal}}
+Middle of lateral surface of the {{radius|linkicon}}
 
 ### Actions
 <ol>

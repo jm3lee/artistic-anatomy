@@ -9,11 +9,11 @@ title: "{{dt['icon']}} {{dt['name']|title}}"
 <ol>
 <li>Lateral third of the clavicle (anterior fibers)</li>
 <li>Acromion process of the scapula (middle fibers)</li>
-<li>Spine of the {{scapula|linkinternal}} (posterior fibers)</li>
+<li>Spine of the {{scapula|linkicon}} (posterior fibers)</li>
 </ol>
 
 ### Insertions
-{{deltoid_tuberosity|linkcap}} of the {{humerus|linkinternal}}
+{{deltoid_tuberosity|linkcap}} of the {{humerus|linkicon}}
 
 ### Actions
 <ol>

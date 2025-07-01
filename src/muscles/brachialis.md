@@ -8,7 +8,7 @@ title: "{{brc['icon']}} {{brc['name']|title}}"
   <tbody>
     <tr>
       <th>Origin</th>
-      <td>Distal half of anterior surface of the {{humerus|linkinternal}}</td>
+      <td>Distal half of anterior surface of the {{humerus|linkicon}}</td>
     </tr>
     <tr>
       <th>Insertion</th>

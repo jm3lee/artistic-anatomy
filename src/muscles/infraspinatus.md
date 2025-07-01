@@ -5,7 +5,7 @@ title: "{{infs['icon']}} {{infs['name']|title}}"
 ## Summary
 
 ### Origins
-Infraspinous fossa of the {{scapula|linkinternal}}
+Infraspinous fossa of the {{scapula|linkicon}}
 
 ### Insertions
 Middle facet of the greater tubercle of the humerus
@@ -13,7 +13,7 @@ Middle facet of the greater tubercle of the humerus
 ### Actions
 <ol>
 <li>External (lateral) rotation of the shoulder</li>
-<li>Shoulder stabilization as a part of {{rotator_cuff|linkinternal}} muscle group</li>
+<li>Shoulder stabilization as a part of {{rotator_cuff|linkicon}} muscle group</li>
 </ol>
 
 ## Illustrations

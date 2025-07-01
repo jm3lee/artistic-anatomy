@@ -56,7 +56,7 @@ Carter</a>, Public domain, via Wikimedia Commons
    * Articulates with the clavicle at the acromioclavicular joint.
 3. **Coracoid Process**
    * A hook-like structure on the anterior aspect of the scapula.
-   * Provides attachment for muscles such as the **{{pecmin|linkinternal}}**, **coracobrachialis**, and **short head of the biceps brachii**.
+   * Provides attachment for muscles such as the **{{pecmin|linkicon}}**, **coracobrachialis**, and **short head of the biceps brachii**.
 4. **Glenoid Cavity (Fossa)**
    * A shallow depression that forms the socket for the head of the humerus.
    * Part of the **glenohumeral joint** (shoulder joint).

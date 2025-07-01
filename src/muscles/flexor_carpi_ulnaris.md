@@ -9,8 +9,8 @@ A part of the [Wrist Flexor Group](/wrist-flexor-group.html).
 ### Origins
 
 <ol>
-  <li>Humeral head: medial epicondyle of the {{humerus|linkinternal}} via the common flexor tendon</li>
-  <li>Ulnar head: {{olecranon_process|linkinternal}} and posterior border of the {{ulna|linkinternal}}</li>
+  <li>Humeral head: medial epicondyle of the {{humerus|linkicon}} via the common flexor tendon</li>
+  <li>Ulnar head: {{olecranon_process|linkicon}} and posterior border of the {{ulna|linkicon}}</li>
 </ol>
 
 ### Insertions
@@ -24,7 +24,7 @@ A part of the [Wrist Flexor Group](/wrist-flexor-group.html).
 ### Actions
 
 <ol>
-  <li>Wrist {{flexion|linkinternal}}</li>
+  <li>Wrist {{flexion|linkicon}}</li>
   <li>Ulnar deviation (adduction) of the wrist</li>
 </ol>
 
@@ -40,4 +40,4 @@ A part of the [Wrist Flexor Group](/wrist-flexor-group.html).
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Flexor_carpi_ulnaris_muscle)
-* {{hc77|linkinternal}}, 156, 160, 178, 182, 253, 254, 255, 256.
+* {{hc77|linkicon}}, 156, 160, 178, 182, 253, 254, 255, 256.

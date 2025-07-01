@@ -8,7 +8,7 @@ title: "{{brr['icon']}} {{brr['name']|title}}"
 <tbody>
 <tr>
   <th>Origin</th>
-  <td>Proximal two-thirds of the lateral supracondylar ridge of {{humerus|linkinternal}}</td>
+  <td>Proximal two-thirds of the lateral supracondylar ridge of {{humerus|linkicon}}</td>
 </tr>
 <tr>
   <th>Insertion</th>

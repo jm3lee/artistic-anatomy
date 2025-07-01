@@ -10,8 +10,8 @@ title: "{{bc['icon']}} {{bc['name']|title}}"
   <th>Origin</th>
   <td>
   <ol>
-  <li>Short head: Coracoid process of {{scapula|linkinternal}}</li>
-  <li>Long head: Supraglenoid tubercle of {{scapula|linkinternal}}</li>
+  <li>Short head: Coracoid process of {{scapula|linkicon}}</li>
+  <li>Long head: Supraglenoid tubercle of {{scapula|linkicon}}</li>
   </ol>
   </td>
 </tr>

@@ -6,16 +6,16 @@ title: "{{trsmin['icon']}} {{trsmin['name']|title}}"
 
 ### Origins
 Upper two‑thirds of the lateral (axillary) border of the
-{{scapula|linkinternal}}
+{{scapula|linkicon}}
 
 ### Insertions
-Inferior facet of the greater tubercle of the {{humerus|linkinternal}}
+Inferior facet of the greater tubercle of the {{humerus|linkicon}}
 
 ### Actions
 <ol>
 <li>External (lateral) rotation of the humerus</li>
 <li>Weak adduction of the humerus</li>
-<li>Assists in stabilizing the {{glenohumeral_joint|linkinternal}} as part of the rotator cuff</li>
+<li>Assists in stabilizing the {{glenohumeral_joint|linkicon}} as part of the rotator cuff</li>
 </ol>
 
 ## Illustrations
@@ -44,11 +44,11 @@ Inferior facet of the greater tubercle of the {{humerus|linkinternal}}
 ## Notes
 
 The teres minor muscle is usually not visible because it blends with the
-{{infs|linkinternal}} muscle. Both are covered by thick fascia. However, the teres minor
+{{infs|linkicon}} muscle. Both are covered by thick fascia. However, the teres minor
 may become visible if the arm is held straight out to the side, rotated outward,
 and pushed downward and backward against resistance.
 
-One of the {{rotator_cuff|linkinternal}} muscles.
+One of the {{rotator_cuff|linkicon}} muscles.
 
 ```python
 include('src/muscles/teres_major_minor_insertion.mdi')
@@ -58,11 +58,11 @@ include('src/muscles/teres_major_minor_insertion.mdi')
 
 - {{gf|linktitle}}
   - **161**
-    - Usually not visible on the surface, blends with {{infs|linkinternal}}. Both muscles are covered by dense fascia.
+    - Usually not visible on the surface, blends with {{infs|linkicon}}. Both muscles are covered by dense fascia.
     - May become visible when the arm is held horizontally, laterally rotated, and pushed downward and backward against resistance.
 - {{hc77|linktitle}}
   - **114: Anthony Van Dyck, Studies of a Woman Sleeping**
-    - "The mass (A) of the {{infs|linkinternal}} and the *teres minor* beneath it ...
+    - "The mass (A) of the {{infs|linkicon}} and the *teres minor* beneath it ...
       which are outward rotators, are inactive."
   - **252: Richer Plate 21, Lateral Aspect**
 - {{infs|linktitle}}
