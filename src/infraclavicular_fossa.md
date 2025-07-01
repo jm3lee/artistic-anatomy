@@ -1,7 +1,7 @@
 ## Summary
 
 The infraclavicular {{fossa|link}} is a small, triangular depression just below
-the lateral third of the {{clavicle|link}}, between the {{pecmaj|linkicon}}
+the lateral third of the {{clavicle|linkicon}}, between the {{pecmaj|linkicon}}
 and {{dt|linkicon}} muscles.  It marks the uppermost part of the
 deltopectoral groove and is most visible when the arm is slightly abducted.
 
