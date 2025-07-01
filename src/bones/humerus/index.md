@@ -16,10 +16,10 @@ Richer, Artistic Anatomy, Plate 19
 <a href="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray207.png">
 <img
 src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray207.png"
-alt="Gray's Anatomy: Muscle attaachment points on humerus"
+alt="Gray's Anatomy: Muscle attachment points on humerus"
 loading="lazy"/>
 <figcaption>
-Gray's Anatomy: Muscle attaachment points on humerus
+Gray's Anatomy: Muscle attachment points on humerus
 </figcaption>
 </a>
 </figure>
@@ -60,108 +60,97 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 
 ## Muscle Origins {{'{#origins}'}}
 
-### By Bony Landmarks
+### Medial epicondyle (common flexor origin)
+* Pronator teres (humeral head)
+* Flexor carpi radialis
+* Palmaris longus
+* Flexor carpi ulnaris (humeral head)
+* Flexor digitorum superficialis (humeral head)
 
-* **Medial epicondyle (common flexor origin):**
-  * Pronator teres (humeral head)
-  * Flexor carpi radialis
-  * Palmaris longus
-  * Flexor carpi ulnaris (humeral head)
-  * Flexor digitorum superficialis (humeral head)
+### Lateral epicondyle (common extensor origin)
+* Extensor carpi radialis brevis
+* Extensor digitorum
+* Extensor digiti minimi
+* Extensor carpi ulnaris
+* Supinator
 
-* **Lateral epicondyle (common extensor origin):**
-  * Extensor carpi radialis brevis
-  * Extensor digitorum
-  * Extensor digiti minimi
-  * Extensor carpi ulnaris
-  * Supinator
+### Lateral supracondylar ridge
+* {{brr|linktitle}}
+* Extensor carpi radialis longus
 
-* **Lateral supracondylar ridge:**
-  * Brachioradialis
-  * Extensor carpi radialis longus
+### Anterior shaft (distal half)
+* {{brc|linktitle}}
 
-* **Anterior shaft (distal half):**
-  * {{brc|linktitle}}
+### Posterior shaft (radial groove region)
+* {{trc|linktitle}} (lateral and medial heads)
 
-* **Posterior shaft (radial groove region):**
-  * Triceps brachii (lateral head originates lateral to the radial groove; medial head originates medial and distal to the radial groove)
-
-* **Infraglenoid tubercle (though on scapula, sometimes grouped with humeral region):**
-  * Triceps brachii (long head)
+### Infraglenoid Tubercle
+* {{trc|linktitle}} (long head)
 
 ## Muscle Insertions {{'{#insertion}'}}
 
 ### Greater Tubercle
-<ol>
-<li>{{sups|linktitle}}</li>
+<ul>
 <li>{{infs|linktitle}}</li>
+<li>{{sups|linktitle}}</li>
 <li>{{trsmin|linktitle}}</li>
-</ol>
+</ul>
 
 ### Lesser Tubercle
-<ol>
+<ul>
 <li>{{subscp|linktitle}}</li>
-</ol>
+</ul>
 
 ### Intertubercular (Bicipital) Groove and Crests {{'{#bicipital_groove}'}}
-<ol>
-<li>{{pecmaj|linktitle}} – lateral lip</li>
+<ul>
 <li>{{ld|linktitle}} – floor</li>
+<li>{{pecmaj|linktitle}} – lateral lip</li>
 <li>{{trsmaj|linktitle}} – medial lip</li>
-</ol>
+</ul>
 
 ### Deltoid Tuberosity {{'{#deltoid_tuberosity}'}}
-<ol>
+<ul>
 <li>{{dt|linktitle}}</li>
-</ol>
+</ul>
 
 ### Medial Shaft of Humerus
-<ol>
+<ul>
 <li>{{coracobrachialis|linktitle}}</li>
-</ol>
+</ul>
 
 ## Translations
 
-<table>
-  <thead>
-    <tr>
-      <th>Language</th>
-      <th>Translation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>French</td>
-      <td>
-- **Greater tubercle** – tubercule majeur  
-- **Lesser tubercle** – tubercule mineur  
-- **Intertubercular (bicipital) groove** – sillon intertuberculaire  
-- **Deltoid tuberosity** – tubérosité deltoïdienne  
-- **Medial epicondyle** – épicondyle médial  
-- **Lateral epicondyle** – épicondyle latéral  
-- **Lateral supracondylar ridge** – crête supracondylienne latérale  
-- **Radial (spiral) groove** – gouttière radiale  
-- **Infraglenoid tubercle** – tubercule infraglénoïdal  
-      </td>
-    </tr>
-    <tr>
-      <td>Russian</td>
-      <td>
-- **Greater tubercle** – большой бугорок  
-- **Lesser tubercle** – малый бугорок  
-- **Intertubercular (bicipital) groove** – межбугорковая борозда  
-- **Deltoid tuberosity** – дельтовидная бугристость  
-- **Medial epicondyle** – медиальный надмыщелок  
-- **Lateral epicondyle** – латеральный надмыщелок  
-- **Lateral supracondylar ridge** – латеральная надмыщелковая гребень  
-- **Radial (spiral) groove** – спиральная борозда  
-- **Infraglenoid tubercle** – подсуставной бугорок  
-      </td>
-    </tr>
-  </tbody>
-</table>
+### French
+<dl>
+<dt>Deltoid Tuberosity</dt><dd>tubérosité deltoïdienne</dd>
+<dt>Greater Tubercle</dt><dd>tubercule majeur</dd>
+<dt>Infraglenoid Tubercle</dt><dd>tubercule infraglénoïdal</dd>
+<dt>Intertubercular (Bicipital) Groove</dt><dd>sillon intertuberculaire</dd>
+<dt>Lateral Epicondyle</dt><dd>épicondyle latéral</dd>
+<dt>Lateral Supracondylar Ridge</dt><dd>crête supracondylienne latérale</dd>
+<dt>Lesser Tubercle</dt><dd>tubercule mineur</dd>
+<dt>Medial Epicondyle</dt><dd>épicondyle médial</dd>
+<dt>Radial (Spiral) Groove</dt><dd>gouttière radiale</dd>
+</dl>
+
+### Russian
+<dl>
+<dt>Deltoid Tuberosity</dt><dd>дельтовидная бугристость</dd>
+<dt>Greater Tubercle</dt><dd>большой бугорок</dd>
+<dt>Infraglenoid Tubercle</dt><dd>подсуставной бугорок</dd>
+<dt>Intertubercular (Bicipital) Groove</dt><dd>межбугорковая борозда</dd>
+<dt>Lateral Epicondyle</dt><dd>латеральный надмыщелок</dd>
+<dt>Lateral Supracondylar Ridge</dt><dd>латеральная надмыщелковая гребень</dd>
+<dt>Lesser Tubercle</dt><dd>малый бугорок</dd>
+<dt>Medial Epicondyle</dt><dd>медиальный надмыщелок</dd>
+<dt>Radial (Spiral) Groove</dt><dd>спиральная борозда</dd>
+</dl>
 
 ## Notes
 
 {{subscp|linktitle}} is the only {{rotator_cuff|linktitle}} muscle that inserts on the anterior
 surface of the humerus.
+
+## References
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Humerus)

@@ -22,6 +22,27 @@ title: "{{trc['icon']}} {{trc['name']|title}}"
   <li>Stabilization of the shoulder joint</li>
 </ol>
 
+## Illustrations
+
+<figure>
+<a title="Anatomography, CC BY-SA 2.1 JP
+&lt;https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en&gt;, via Wikimedia
+Commons"
+href="https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle06.png"><img
+width="512" alt="Triceps brachii muscle06"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Triceps_brachii_muscle06.png/512px-Triceps_brachii_muscle06.png?20130727010753"></a>
+<figcaption>
+<a
+href="https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle06.png">Anatomography</a>,
+<a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en">CC BY-SA 2.1
+JP</a>, via Wikimedia Commons
+</figcaption>
+</figure>
+
+- Red: Long head
+- Yellow: Lateral head
+- Green: Medial head
+
 ## Examples
 
 ### Triceps Tendon
