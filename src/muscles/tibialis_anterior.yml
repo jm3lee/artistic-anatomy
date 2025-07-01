@@ -1,0 +1,17 @@
+name: Tibialis Anterior
+author: Brian Lee
+id: tiba
+icon: ":muscle:"
+status: Review Pending
+pubdate: Jul 01, 2025
+origins:
+  - "Lateral condyle of tibia"
+  - "Proximal, lateral surface of tibia"
+  - "Interosseous membrane"
+insertions:
+  - "Medial cuneiform"
+  - "Base of the first metatarsal"
+actions:
+  - "Inverts the foot"
+  - "Dorsiflexes the ankle"
+  - "Walk cycle: controls heel-to-toe movement"

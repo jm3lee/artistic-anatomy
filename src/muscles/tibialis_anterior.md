@@ -1,42 +1,10 @@
 ---
-title: 💪 Tibialis Anterior
+title: "{{tiba['icon']}} {{tiba['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-<table>
-<tbody>
-<tr>
-  <th>Origin</th>
-  <td>
-  <ol>
-  <li>Lateral condyle of tibia</li>
-  <li>Proximal, lateral surface of tibia</li>
-  <li>Interosseous membrane</li>
-  </ol>
-  </td>
-</tr>
-<tr>
-  <th>Insertion</th>
-  <td>
-  <ol>
-  <li>Medial cuneiform</li>
-  <li>Base of the first metatarsal</li>
-  </ol>
-  </td>
-</tr>
-<tr>
-  <th>Actions</th>
-  <td>
-  <ol>
-  <li>Inverts the foot</li>
-  <li>Dorsiflexes the ankle</li>
-  </ol>
-  Walk cycle: controls heel-to-toe movement.
-  </td>
-</tr>
-</tbody>
-</table>
+{{summary("tiba")}}
 
 ## Translations
 
