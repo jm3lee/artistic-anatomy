@@ -108,7 +108,7 @@ Distal lateral articular prominence; origin site for gastrocnemius (lateral head
 #### Adductor tubercle (distal medial femur)
 * Hamstring part of adductor magnus
 
-## Muscles Origins
+## Muscle Origins
 
 ### By Bony Landmark
 

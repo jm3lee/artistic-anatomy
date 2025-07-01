@@ -1,7 +1,3 @@
----
-title: "{{scm['icon']}} {{scm['name']|title}}"
----
-
 {% from "templates/summary.jinja" import summary %}
 
 {{summary("scm")}}
