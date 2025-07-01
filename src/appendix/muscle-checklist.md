@@ -6,8 +6,6 @@ author: Brian Lee
 1. Abductor Pollicis Longus
 1. Adductor Longus
 1. Adductor Magnus
-1. Anconeus
-1. Biceps Brachii
 1. Biceps Femoris
 1. {{brc|linktitle}}
 1. Brachioradialis
@@ -54,7 +52,6 @@ author: Brian Lee
 1. Rectus Femoris
 1. Rhomboids
 1. Risorius
-1. <Sartorius>
 1. Semimembranosus
 1. Semispinalis Capitis
 1. Semitendinosus
@@ -67,11 +64,7 @@ author: Brian Lee
 1. Supraspinatus
 1. Temporalis
 1. Tensor Fasciae Latae
-1. Teres Major
-1. Teres Minor
 1. Tibialis Anterior
-1. Trapezius
-1. Triceps
 1. Vastus Lateralis
 1. Vastus Medialis
 1. Zygomaticus Major
