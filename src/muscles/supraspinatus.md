@@ -16,7 +16,7 @@ title: ":muscle: Supraspinatus"
       <tr>
         <th>Insertion</th>
         <td>Superior facet of the greater tubercle of the
-        {{humerus_insertion|linkinternal}}</td>
+        {{humerus_insertion|linkicon}}</td>
       </tr>
       <tr>
         <th>Actions</th>
@@ -24,7 +24,7 @@ title: ":muscle: Supraspinatus"
           <ol>
             <li>Initiation of shoulder abduction (first ~15°)</li>
             <li>Stabilization of the glenohumeral joint; see
-{{rotator_cuff|linkinternal}}</li>
+{{rotator_cuff|linkicon}}</li>
           </ol>
         </td>
       </tr>

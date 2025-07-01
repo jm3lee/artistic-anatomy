@@ -8,7 +8,7 @@ title: "{{rhmaj['icon']}} {{rhmaj['name']|title}}"
 Spinous processes of T2 to T5 vertebrae
 
 ### Insertions
-Medial border of {{scapula|linkinternal}} (from spine to inferior angle)
+Medial border of {{scapula|linkicon}} (from spine to inferior angle)
 
 ### Actions
 Scapular retraction, elevation, and downward rotation

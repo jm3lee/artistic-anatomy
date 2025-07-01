@@ -8,7 +8,7 @@ title: "{{sa['icon']}} {{sa['name']|title}}"
 External surfaces of the upper 8–9 ribs
 
 ### Insertions
-Anterior (costal) surface of medial border of {{scapula|linkinternal}}
+Anterior (costal) surface of medial border of {{scapula|linkicon}}
 
 ### Actions
 <ol>

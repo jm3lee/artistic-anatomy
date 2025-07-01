@@ -6,13 +6,13 @@ title: "{{trsmaj['icon']}} {{trsmaj['name']|title}}"
 
 ### Origins
 <ol>
-<li>Posterior surface of inferior angle of {{scapula|linkinternal}}</li>
-<li>Lower one‑third of lateral border of {{scapula|linkinternal}}</li>
+<li>Posterior surface of inferior angle of {{scapula|linkicon}}</li>
+<li>Lower one‑third of lateral border of {{scapula|linkicon}}</li>
 <li>Blends with the deep surface of latissimus dorsi via the thoracolumbar fascia</li>
 </ol>
 
 ### Insertions
-Medial lip of intertubercular (bicipital) sulcus of {{humerus|linkinternal}}
+Medial lip of intertubercular (bicipital) sulcus of {{humerus|linkicon}}
 
 ### Actions
 <ol>

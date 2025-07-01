@@ -10,11 +10,11 @@ title: "{{anc['icon']}} {{anc['name']|title}}"
   <tbody>
     <tr>
       <th>Origin</th>
-      <td>Posterior aspect of lateral epicondyle of the {{humerus|linkinternal}}</td>
+      <td>Posterior aspect of lateral epicondyle of the {{humerus|linkicon}}</td>
     </tr>
     <tr>
       <th>Insertion</th>
-      <td>Lateral surface of olecranon process and proximal posterior {{ulna|linkinternal}}</td>
+      <td>Lateral surface of olecranon process and proximal posterior {{ulna|linkicon}}</td>
     </tr>
     <tr>
       <th>Actions</th>

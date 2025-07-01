@@ -9,7 +9,7 @@ the human figure or studying shoulder mechanics.
 
 1. **Location**: The acromion is part of the scapula and articulates with the clavicle (collarbone) at the acromioclavicular joint.
 2. **Function**:
-   * Provides attachment for the {{dt|linkinternal}} and {{trz|linkinternal}} muscles.
+   * Provides attachment for the {{dt|linkicon}} and {{trz|linkicon}} muscles.
    * Protects the shoulder joint.
    * Assists in shoulder abduction and elevation.
 

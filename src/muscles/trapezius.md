@@ -6,7 +6,7 @@ title: "{{trz['icon']}} {{trz['name']|title}}"
 
 ### Origins
 1. Occipital bone
-1. Spinous processes of {{spine|linkinternal}}
+1. Spinous processes of {{spine|linkicon}}
 
 ### Insertions
 1. Clavicle
