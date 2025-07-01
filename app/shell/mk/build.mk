@@ -123,8 +123,6 @@ build: | $(BUILD_SUBDIRS)
 $(BUILD_SUBDIRS):
 	mkdir -p $@
 
-YAMLS := $(shell find src -name "*.yml")
-
 build/picasso.mk: $(YAMLS) | build
 	picasso > $@
 
