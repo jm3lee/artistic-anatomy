@@ -81,7 +81,7 @@ title: 📓Bony Landmarks
   * Tibial tuberosity (front bump below the kneecap)
   * Medial malleolus (inner ankle)
 * Fibula:
-  * Lateral malleolus (outer ankle)
+  * {{lateral_malleolus|linktitle}} (outer ankle)
 
 ## Hands
 

@@ -53,6 +53,7 @@ ul {
 {{render_list(read_yaml("src/bones/spine/toc.yml"))}}
 {{render_list(read_yaml("src/bones/sternum/toc.yml"))}}
 {{render_list(read_yaml("src/bones/tibia/toc.yml"))}}
+{{render_list(read_yaml("src/bones/fibula/toc.yml"))}}
 {{render_list(read_yaml("src/bones/ulna/toc.yml"))}}
 </ul>
 ```
