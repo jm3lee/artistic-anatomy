@@ -2,11 +2,11 @@ name: Tibialis Anterior
 author: Brian Lee
 id: tiba
 icon: ":muscle:"
-status: Review Pending
-pubdate: Jul 01, 2025
+status: Reviewed
+pubdate: Jul 02, 2025
 origins:
-  - "Lateral condyle of tibia"
-  - "Proximal, lateral surface of tibia"
+  - "Lateral condyle of {{tibia|linkicon}}"
+  - "Proximal, lateral surface of {{tibia|linkicon}}"
   - "Interosseous membrane"
 insertions:
   - "Medial cuneiform"
