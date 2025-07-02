@@ -14,6 +14,6 @@ title: "{{tiba['icon']}} {{tiba['name']|title}}"
 
 ## References
 
-* [Tibialis Anterior (Wikipedia)](https://en.wikipedia.org/wiki/Tibialis_anterior_muscle)
+* [Wikipedia](https://en.wikipedia.org/wiki/Tibialis_anterior_muscle)
 * Goldfinger p260–61
 * [TGB 5th](../resources/trail-guide-to-the-body-flashcards.html) p378, Flashcard p165
