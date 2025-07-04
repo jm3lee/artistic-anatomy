@@ -9,6 +9,6 @@ origins:
 insertions:
   - "{{coracoid_process|linkcap}} of the scapula"
 actions:
-  - "[Scapular protraction](/bones/scapula/#movements) (pulls scapula forward and downward)"
-  - "[Scapular depression](/bones/scapula/#movements)"
+  - "{{scapular_protraction|linkcap}} (pulls scapula forward and downward)"
+  - "{{scapular_depression|linkcap}}"
   - "Stabilizes scapula against thoracic wall"

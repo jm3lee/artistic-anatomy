@@ -5,7 +5,7 @@ id: ld
 icon: ":muscle:"
 status: Reviewed
 origins:
-  - "Spinous processes of [T6 to T12 (thoracic vertebrae)](/bones/spine/)"
+  - "Spinous processes of T6 to T12 {{thoracic_vertebrae|linkicon}}"
   - "Last three or four ribs"
   - "Thoracolumbar fascia"
   - "Posterior iliac crest"
