@@ -3,3 +3,14 @@ author: Brian Lee
 pubdate: May 12, 2025
 id: bc
 icon: ":muscle:"
+status: Review Pending
+origins:
+  - "Short head: Coracoid process of the {{scapula|linkicon}}"
+  - "Long head: Supraglenoid tubercle of the {{scapula|linkicon}}"
+insertions:
+  - "{{radial_tuberosity|linkcap}} of {{radius|linkicon}}"
+  - "Bicipital aponeurosis"
+actions:
+  - "Elbow flexion"
+  - "Supinates the forearm"
+  - "Flexes the shoulder"
