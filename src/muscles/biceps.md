@@ -2,42 +2,12 @@
 title: "{{bc['icon']}} {{bc['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-<table>
-<tbody>
-<tr>
-  <th>Origin</th>
-  <td>
-  <ol>
-  <li>Short head: Coracoid process of {{scapula|linkicon}}</li>
-  <li>Long head: Supraglenoid tubercle of {{scapula|linkicon}}</li>
-  </ol>
-  </td>
-</tr>
-<tr>
-  <th>Insertion</th>
-  <td>
-  <ol>
-  <li>[Radial tuberosity](/bones/radius/)</li>
-  <li>Bicipital aponeurosis</li>
-  </ol>
-  </td>
-</tr>
-<tr>
-  <th>Actions</th>
-  <td>
-  <ol>
-  <li>Elbow flexion</li>
-  <li>Supinates the forearm &ast;</li>
-  <li>Flexes the shoulder</li>
-  </ol>
-  </td>
-</tr>
-</tbody>
-</table>
+{{summary("bc")}}
 
-&ast; Supination is the most powerful when the arm is flexed at 90 degrees.
+Supination is most powerful when the arm is flexed at 90 degrees.
+
 
 ## Translations
 
