@@ -6,19 +6,19 @@ Disc-shaped proximal epiphysis that articulates with the humerus and ulna.
 ### Neck {{'{#neck}'}}
 Narrow region just distal to the head; common fracture site.
 
-### Radial tuberosity {{'{#radial_tuberosity}'}}
+### Radial Tuberosity {{'{#radial_tuberosity}'}}
 Rough anterior projection on the proximal radius where {{bc|linkicon}} inserts.
 
-### Interosseous border {{'{#interosseous_border}'}}
+### Interosseous Border {{'{#interosseous_border}'}}
 Sharp {{medial|link}} edge along the shaft for attachment of the interosseous membrane.
 
-### Ulnar notch {{'{#ulnar_notch}'}}
+### Ulnar Notch {{'{#ulnar_notch}'}}
 Distal {{medial|link}} concavity articulating with the head of the ulna.
 
-### Dorsal tubercle {{'{#dorsal_tubercle}'}}
+### Dorsal Tubercle {{'{#dorsal_tubercle}'}}
 Posterior distal bump (Lister's tubercle) guiding externsor pollicis longus tendon.
 
-### Styloid process {{'{#styloid_process}'}}
+### Styloid Process {{'{#styloid_process}'}}
 Pointed distal projection that anchors the radial collateral ligament and {{brr|linkicon}}.
 
 ## Muscles Insertions
