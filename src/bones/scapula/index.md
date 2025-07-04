@@ -48,14 +48,14 @@ Carter</a>, Public domain, via Wikimedia Commons
 [:robot: AI Generated](../../background/icons.html)
 
 1. **Spine of the Scapula**
-   * A prominent ridge running across the posterior surface of the scapula.
+   * A prominent ridge running across the {{posterior|link}} surface of the scapula.
    * Separates the **supraspinous fossa** from the **infraspinous fossa**.
    * Ends laterally at the **acromion process**.
 2. **Acromion Process**
-   * A flat, bony projection at the lateral end of the spine.
+   * A flat, bony projection at the {{lateral|link}} end of the spine.
    * Articulates with the clavicle at the acromioclavicular joint.
 3. **Coracoid Process**
-   * A hook-like structure on the anterior aspect of the scapula.
+   * A hook-like structure on the {{anterior|link}} aspect of the scapula.
    * Provides attachment for muscles such as the **{{pecmin|linkicon}}**, **coracobrachialis**, and **short head of the biceps brachii**.
 4. **Glenoid Cavity (Fossa)**
    * A shallow depression that forms the socket for the head of the humerus.
@@ -67,7 +67,7 @@ Carter</a>, Public domain, via Wikimedia Commons
    * A larger concave surface below the spine.
    * Houses the **infraspinatus muscle**.
 7. **Subscapular Fossa**
-   * A broad, shallow depression on the anterior surface of the scapula.
+   * A broad, shallow depression on the {{anterior|link}} surface of the scapula.
    * Serves as the attachment site for the **subscapularis muscle**.
 8. **Medial (Vertebral) Border**
    * The long, thin edge closest to the spine.
@@ -79,14 +79,14 @@ Carter</a>, Public domain, via Wikimedia Commons
     * The shortest border of the scapula, located near the neck.
     * Contains the **suprascapular notch**, which allows passage of the **suprascapular nerve**.
 11. **Inferior Angle**
-    * The lower tip of the scapula, where the medial and lateral borders meet.
+    * The lower tip of the scapula, where the {{medial|link}} and {{lateral|link}} borders meet.
     * Serves as an attachment point for the **teres major** muscle.
 12. **Superior Angle**
-    * The upper tip of the scapula, where the superior and medial borders meet.
+    * The upper tip of the scapula, where the {{superior|link}} and {{medial|link}} borders meet.
     * Provides attachment for part of the **levator scapulae muscle**.
 13. **Suprascapular Notch**
-    * A small notch on the superior border.
-    * Transmits the **suprascapular nerve** (covered by the **superior transverse scapular ligament**).
+    * A small notch on the {{superior|link}} border.
+    * Transmits the **suprascapular nerve** (covered by the **{{superior|link}} transverse scapular ligament**).
 
 ## 🖼️ Examples
 
