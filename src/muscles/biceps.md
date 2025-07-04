@@ -3,16 +3,15 @@ title: "{{bc['icon']}} {{bc['name']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}
+{% from "templates/translations.jinja" import translations %}
 
 {{summary("bc")}}
 
 Supination is most powerful when the arm is flexed at 90 degrees.
 
-
 ## Translations
 
-- {{flag_france['icon']}}: biceps brachial
-- {{flag_russia['icon']}}: двуглавая мышца плеча
+{{translations('bc')}}
 
 ## Examples
 

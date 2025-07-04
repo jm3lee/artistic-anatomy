@@ -175,6 +175,16 @@ def get_actions(name):
     yield from j["actions"]
 
 
+def get_translations(name):
+    j = index_json[name]
+    for i in j["translations"].items():
+        logger.info(i)
+        if i in index_json:
+            yield index_json[i]
+        else:
+            yield i
+
+
 def get_desc(name):
     d = index_json.get(name)
     if d:
@@ -213,6 +223,7 @@ def create_env():
     env.globals["get_origins"] = get_origins
     env.globals["get_insertions"] = get_insertions
     env.globals["get_actions"] = get_actions
+    env.globals["get_translations"] = get_translations
     env.globals["load_mc"] = load_mc
     env.globals["render_jinja"] = render_jinja
     env.globals["to_alpha_index"] = to_alpha_index

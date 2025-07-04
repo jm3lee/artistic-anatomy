@@ -1,0 +1,11 @@
+{% macro translations(name) %}
+```{=html}
+<dl>
+{% for k, v in get_translations(name) -%}
+    <dt>{{render_jinja(k)|title}}</dt>
+    <dd>{{render_jinja(v)}}</dd>
+{% endfor %}
+</dl>
+```
+{% endmacro %}
+
