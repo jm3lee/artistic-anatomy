@@ -2,25 +2,10 @@
 title: "{{dt['icon']}} {{dt['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
+{% from "templates/translations.jinja" import translations %}
 
-### Origins
-
-<ol>
-<li>Lateral third of the clavicle (anterior fibers)</li>
-<li>Acromion process of the scapula (middle fibers)</li>
-<li>Spine of the {{scapula|linkicon}} (posterior fibers)</li>
-</ol>
-
-### Insertions
-{{deltoid_tuberosity|linkcap}} of the {{humerus|linkicon}}
-
-### Actions
-<ol>
-<li>Shoulder abduction (middle fibers)</li>
-<li>Shoulder flexion &amp; medial rotation (anterior fibers)</li>
-<li>Shoulder extension &amp; lateral rotation (posterior fibers)</li>
-</ol>
+{{summary("dt")}}
 
 ## Illustrations
 
@@ -33,8 +18,7 @@ title: "{{dt['icon']}} {{dt['name']|title}}"
 
 ## Translations
 
-- {{flag_france['icon']}}: deltoïde
-- {{flag_russia['icon']}}: дельтовидная мышца
+{{translations("dt")}}
 
 ## Examples
 
