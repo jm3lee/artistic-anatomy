@@ -6,3 +6,24 @@ icon: ":bone:"
 url: /bones/humerus/
 id: humerus
 pubdate: Jul 01, 2025
+translations:
+  french:
+    Deltoid Tuberosity: tubérosité deltoïdienne
+    Greater Tubercle: tubercule majeur
+    Infraglenoid Tubercle: tubercule infraglénoïdal
+    Intertubercular (Bicipital) Groove: sillon intertuberculaire
+    Lateral Epicondyle: épicondyle latéral
+    Lateral Supracondylar Ridge: crête supracondylienne latérale
+    Lesser Tubercle: tubercule mineur
+    Medial Epicondyle: épicondyle médial
+    Radial (Spiral) Groove: gouttière radiale
+  russian:
+    Deltoid Tuberosity: дельтовидная бугристость
+    Greater Tubercle: большой бугорок
+    Infraglenoid Tubercle: подсуставной бугорок
+    Intertubercular (Bicipital) Groove: межбугорковая борозда
+    Lateral Epicondyle: латеральный надмыщелок
+    Lateral Supracondylar Ridge: латеральная надмыщелковая гребень
+    Lesser Tubercle: малый бугорок
+    Medial Epicondyle: медиальный надмыщелок
+    Radial (Spiral) Groove: спиральная борозда

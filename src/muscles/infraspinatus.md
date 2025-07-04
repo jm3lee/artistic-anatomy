@@ -2,6 +2,8 @@
 title: "{{infs['icon']}} {{infs['name']|title}}"
 ---
 
+{% from "templates/translations.jinja" import translations %}
+
 ## Summary
 
 ### Origins
@@ -36,10 +38,7 @@ alt="Infraspinatus, Richer"
 loading="lazy"/>
 </figure>
 
-## Translations
-
-- {{flag_france['icon']}}: sous-épineux
-- {{flag_russia['icon']}}: Подостная мышца
+{{translations('infs')}}
 
 ## References
 

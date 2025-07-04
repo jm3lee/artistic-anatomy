@@ -2,6 +2,8 @@
 title: "{{protrs['icon']}} {{protrs['name']|title}}"
 ---
 
+{% from "templates/translations.jinja" import translations %}
+
 ## Summary
 
 ### Origins
@@ -19,9 +21,7 @@ Middle of lateral surface of the {{radius|linkicon}}
 <li>Assists elbow flexion; see [elbow flexors](/elbow-flexors.html)</li>
 </ol>
 
-## Translations
-
-- {{flag_russia['icon']}}: Круглый пронатор
+{{translations('protrs')}}
 
 ## References
 

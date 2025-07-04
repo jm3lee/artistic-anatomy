@@ -1,3 +1,5 @@
+{% from "templates/translations.jinja" import translations %}
+
 ## Illustrations
 
 <figure>
@@ -118,33 +120,7 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 <li>{{coracobrachialis|linktitle}}</li>
 </ul>
 
-## Translations
-
-### French
-<dl>
-<dt>Deltoid Tuberosity</dt><dd>tubérosité deltoïdienne</dd>
-<dt>Greater Tubercle</dt><dd>tubercule majeur</dd>
-<dt>Infraglenoid Tubercle</dt><dd>tubercule infraglénoïdal</dd>
-<dt>Intertubercular (Bicipital) Groove</dt><dd>sillon intertuberculaire</dd>
-<dt>Lateral Epicondyle</dt><dd>épicondyle latéral</dd>
-<dt>Lateral Supracondylar Ridge</dt><dd>crête supracondylienne latérale</dd>
-<dt>Lesser Tubercle</dt><dd>tubercule mineur</dd>
-<dt>Medial Epicondyle</dt><dd>épicondyle médial</dd>
-<dt>Radial (Spiral) Groove</dt><dd>gouttière radiale</dd>
-</dl>
-
-### Russian
-<dl>
-<dt>Deltoid Tuberosity</dt><dd>дельтовидная бугристость</dd>
-<dt>Greater Tubercle</dt><dd>большой бугорок</dd>
-<dt>Infraglenoid Tubercle</dt><dd>подсуставной бугорок</dd>
-<dt>Intertubercular (Bicipital) Groove</dt><dd>межбугорковая борозда</dd>
-<dt>Lateral Epicondyle</dt><dd>латеральный надмыщелок</dd>
-<dt>Lateral Supracondylar Ridge</dt><dd>латеральная надмыщелковая гребень</dd>
-<dt>Lesser Tubercle</dt><dd>малый бугорок</dd>
-<dt>Medial Epicondyle</dt><dd>медиальный надмыщелок</dd>
-<dt>Radial (Spiral) Groove</dt><dd>спиральная борозда</dd>
-</dl>
+{{translations('humerus')}}
 
 ## Notes
 

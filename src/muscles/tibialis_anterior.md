@@ -3,6 +3,7 @@ title: "{{tiba['icon']}} {{tiba['name']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}
+{% from "templates/translations.jinja" import translations %}
 
 {{summary("tiba")}}
 
@@ -25,17 +26,7 @@ JP</a>, via Wikimedia Commons
 </figcaption>
 </figure>
 
-## Translations
-
-### French
-<dl>
-<dt>Tibialis Anterior</dt><dd>tibial antérieur</dd>
-</dl>
-
-### Russian
-<dl>
-<dt>Tibialis Anterior</dt><dd>Передняя большеберцовая мышца</dd>
-</dl>
+{{translations('tiba')}}
 
 ## References
 

@@ -2,6 +2,8 @@
 title: "{{trsmin['icon']}} {{trsmin['name']|title}}"
 ---
 
+{% from "templates/translations.jinja" import translations %}
+
 ## Summary
 
 ### Origins
@@ -36,10 +38,7 @@ Inferior facet of the greater tubercle of the {{humerus|linkicon}}
   </figcaption>
 </figure>
 
-## Translations
-
-- {{flag_france['icon']}}: petit rond
-- {{flag_russia['icon']}}: Большая круглая мышца
+{{translations('trsmin')}}
 
 ## Notes
 
