@@ -4,3 +4,15 @@ id: pecmaj
 pubdate: May 21, 2025
 icon: ":muscle:"
 status: Review Pending
+title: ":muscle: Pectoralis Major"
+origins:
+  - "Medial half of {{clavicle|linkicon}}"
+  - "Sternum"
+  - "Costal cartilages of ribs 1\u20136 (sometimes 1\u20137)"
+insertions:
+  - "Crest of the greater tubercle of the humerus (lateral lip of {{bicipital_groove|linkicon}})"
+actions:
+  - "Flexes the shoulder (especially the clavicular head)"
+  - "Adducts the shoulder"
+  - "Medially rotates the shoulder"
+  - "Assists in extending the shoulder from a flexed position (sternal head)"
