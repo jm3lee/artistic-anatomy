@@ -177,12 +177,7 @@ def get_actions(name):
 
 def get_translations(name):
     j = index_json[name]
-    for i in j["translations"].items():
-        logger.info(i)
-        if i in index_json:
-            yield index_json[i]
-        else:
-            yield i
+    yield from j["translations"].items()
 
 
 def get_desc(name):
