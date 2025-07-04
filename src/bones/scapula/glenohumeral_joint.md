@@ -1,10 +1,3 @@
----
-title: ":bone: Glenohumeral Joint"
-author: Brian Lee
----
-
-:robot:
-
 | Movement                         | Plane of Movement          | Axis of Rotation                         | Axis Orientation     | Example Action                            |
 |----------------------------------|----------------------------|------------------------------------------|----------------------|-------------------------------------------|
 | **Flexion / Extension**          | Sagittal                   | Mediolateral (frontal) axis              | Runs side‑to‑side    | Raising arm forward / lowering behind     |
