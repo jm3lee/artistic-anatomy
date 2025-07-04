@@ -13,6 +13,25 @@ Carter</a>, Public domain, via Wikimedia Commons
 
 ## Movements {{'{#movements}'}}
 
+### Scapular Movements {{'{#scapular_movements}'}}
+
+The scapula moves freely across the rib cage, allowing the arm to position itself in space. Its primary motions are summarized below.
+
+<dl>
+<dt id="scapular_elevation">Scapular Elevation</dt>
+<dd>Raising the shoulder blade toward the ears.</dd>
+<dt id="scapular_depression">{{scapular_depression|linktitle}}</dt>
+<dd>Lowering the shoulder blade away from the ears.</dd>
+<dt id="scapular_protraction">{{scapular_protraction|linktitle}}</dt>
+<dd>Sliding the shoulder blade forward around the rib cage.</dd>
+<dt id="scapular_retraction">Scapular Retraction</dt>
+<dd>Drawing the shoulder blade back toward the spine.</dd>
+<dt id="scapular_upward_rotation">Scapular Upward Rotation</dt>
+<dd>Rotating the scapula so the glenoid cavity faces upward.</dd>
+<dt id="scapular_downward_rotation">Scapular Downward Rotation</dt>
+<dd>Returning the scapula from an upwardly rotated position.</dd>
+</dl>
+
 ### Example Actions
 
 [:man: Reviewed](../../background/icons.html)
@@ -100,4 +119,3 @@ loading="lazy"/>
 * [Scapula (Wikipedia)](https://en.wikipedia.org/wiki/Scapula)
 * {{gf|linktitle}}
   * **152** Scapula peeks out from the back.
-Below is an expanded scapular‐movements table that incorporates the requested synonyms (adduction/abduction) and the primary (and where noted, secondary) muscle movers:
