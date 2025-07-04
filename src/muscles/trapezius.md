@@ -4,20 +4,9 @@ title: "{{trz['icon']}} {{trz['name']|title}}"
 
 {% from "templates/translations.jinja" import translations %}
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-1. Occipital bone
-1. Spinous processes of {{spine|linkicon}}
-
-### Insertions
-1. Clavicle
-1. {{acromion_process|linktitle}} of scapula
-1. Spine of {{scapula|linktitle}}
-
-### Actions
-Elevation, retraction, depression & upward rotation of scapula; neck extension &
-lateral flexion
+{{summary("trz")}}
 
 ## Illustrations
 

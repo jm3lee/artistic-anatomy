@@ -2,3 +2,13 @@ name: Flexor Carpi Ulnaris
 author: Brian Lee
 id: fcu
 icon: ":muscle:"
+origins:
+  - "Humeral head: medial epicondyle of the {{humerus|linkicon}} via the common flexor tendon"
+  - "Ulnar head: {{olecranon_process|linkicon}} and posterior border of the {{ulna|linkicon}}"
+insertions:
+  - "Pisiform bone"
+  - "Hook of the hamate"
+  - "Base of the 5th metacarpal"
+actions:
+  - "Wrist {{flexion|linkicon}}"
+  - "Ulnar deviation (adduction) of the wrist"

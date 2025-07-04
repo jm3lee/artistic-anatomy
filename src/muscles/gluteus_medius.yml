@@ -1,3 +1,14 @@
 name: Gluteus Medius
 id: gmed
 icon: ":muscle:"
+origins:
+  - "Gluteal surface of ilium between posterior and anterior gluteal lines"
+insertions:
+  - "Lateral aspect of greater trochanter of {{femur|linkicon}}"
+actions:
+  - "Abducts the hip"
+  - "Flexes the hip (anterior fibers)"
+  - "Medially rotates the hip (anterior fibers)"
+  - "Extends the hip (posterior fibers)"
+  - "Laterally rotates the hip (posterior fibers)"
+  - "Keeps the pelvis horizontal in the middle of the walk cycle"

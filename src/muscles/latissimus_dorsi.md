@@ -2,30 +2,9 @@
 title: "{{ld['icon']}} {{ld['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-
-<ol>
-<li>Spinous processes of [T6 to T12 (thoracic vertebrae)](/bones/spine/)</li>
-<li>Last three or four ribs</li>
-<li>Thoracolumbar fascia</li>
-<li>Posterior iliac crest</li>
-<li>Inferior angle of scapula; see Variable Attachment to
-{{inferior_angle_of_scapula|link}}.</li>
-</ol>
-
-### Insertions
-
-{{humerus|linktitle}}, intertubercular groove
-
-### Actions
-
-<ol>
-<li>Extends the shoulder</li>
-<li>Adducts the shoulder</li>
-<li>Medially rotates the shoulder</li>
-</ol>
+{{summary("ld")}}
 
 ## Illustrations
 

@@ -3,30 +3,9 @@ title: "{{brr['icon']}} {{brr['name']|title}}"
 ---
 
 {% from "templates/translations.jinja" import translations %}
+{% from "templates/summary.jinja" import summary %}
 
-## Summary
-
-<table>
-<tbody>
-<tr>
-  <th>Origin</th>
-  <td>Proximal two-thirds of the lateral supracondylar ridge of {{humerus|linkicon}}</td>
-</tr>
-<tr>
-  <th>Insertion</th>
-  <td>Styloid processs of radius</td>
-</tr>
-<tr>
-  <th>Actions</th>
-  <td>
-  <ol>
-  <li>Elbow flexion</li>
-  <li>Assists pronation ands upination of the forearm when movements are resisted</li>
-  </ol>
-  </td>
-</tr>
-</tbody>
-</table>
+{{summary("brr")}}
 
 {{translations('brr')}}
 

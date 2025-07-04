@@ -2,21 +2,9 @@
 title: "{{sa['icon']}} {{sa['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-External surfaces of the upper 8–9 ribs
-
-### Insertions
-Anterior (costal) surface of medial border of {{scapula|linkicon}}
-
-### Actions
-<ol>
-<li>Protracts (abducts) the scapula</li>
-<li>Upward rotation of the scapula</li>
-<li>Holds scapula against thoracic wall</li>
-<li>Accessory muscle of inspiration (elevates ribs)</li>
-</ol>
+{{summary("sa")}}
 
 ## References
 

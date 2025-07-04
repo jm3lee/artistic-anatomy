@@ -4,22 +4,9 @@ title: "{{protrs['icon']}} {{protrs['name']|title}}"
 
 {% from "templates/translations.jinja" import translations %}
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-<ol>
-<li>Common flexor tendon attached to medial epicondyle of {{humerus|linkicon}}</li>
-<li>{{coronoid_process|linkcap}} of the {{ulna|linkicon}}</li>
-</ol>
-
-### Insertions
-Middle of lateral surface of the {{radius|linkicon}}
-
-### Actions
-<ol>
-<li>Pronates the forearm</li>
-<li>Assists elbow flexion; see [elbow flexors](/elbow-flexors.html)</li>
-</ol>
+{{summary("protrs")}}
 
 {{translations('protrs')}}
 

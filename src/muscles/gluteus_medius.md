@@ -2,36 +2,9 @@
 title: "{{gmed['icon']}} {{gmed['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-
-Gluteal surface of ilium between posterior and anterior gluteal lines
-
-### Insertions
-
-Lateral aspect of greater trochanter of {{femur|linkicon}}
-
-### Actions
-
-All fibers:
-<ol>
-<li>Abducts the hip</li>
-</ol>
-
-Anterior fibers:
-<ol>
-<li>Flexes the hip</li>
-<li>Medially rotates the hip</li>
-</ol>
-
-Posterior fibers:
-<ol>
-<li>Extends the hip</li>
-<li>Laterally rotates the hip</li>
-</ol>
-
-Keeps the pelvis horizontal in the middle of the walk cycle.
+{{summary("gmed")}}
 
 ## Illustrations
 

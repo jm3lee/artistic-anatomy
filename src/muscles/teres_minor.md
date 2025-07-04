@@ -4,21 +4,9 @@ title: "{{trsmin['icon']}} {{trsmin['name']|title}}"
 
 {% from "templates/translations.jinja" import translations %}
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-Upper two‑thirds of the lateral (axillary) border of the
-{{scapula|linkicon}}
-
-### Insertions
-Inferior facet of the greater tubercle of the {{humerus|linkicon}}
-
-### Actions
-<ol>
-<li>External (lateral) rotation of the humerus</li>
-<li>Weak adduction of the humerus</li>
-<li>Assists in stabilizing the {{glenohumeral_joint|linkicon}} as part of the rotator cuff</li>
-</ol>
+{{summary("trsmin")}}
 
 ## Illustrations
 

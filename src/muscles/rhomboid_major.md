@@ -2,16 +2,9 @@
 title: "{{rhmaj['icon']}} {{rhmaj['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-Spinous processes of T2 to T5 vertebrae
-
-### Insertions
-Medial border of {{scapula|linkicon}} (from spine to inferior angle)
-
-### Actions
-Scapular retraction, elevation, and downward rotation
+{{summary("rhmaj")}}
 
 ## Illustrations
 

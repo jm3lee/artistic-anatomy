@@ -2,19 +2,9 @@
 title: "{{coracobrachialis['icon']}} {{coracobrachialis['name']}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-{{coracoid_process|linkcap}} of the scapula
-
-### Insertions
-Medial surface of mid-humeral shaft
-
-### Actions
-<ol>
-<li>Flexes the shoulder</li>
-<li>Adducts the shoulder</li>
-</ol>
+{{summary("coracobrachialis")}}
 
 ## Illustrations
 

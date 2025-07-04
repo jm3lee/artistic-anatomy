@@ -4,3 +4,10 @@ id: fcr
 icon: ":muscle:"
 pubdate: Jun 27, 2025
 status: Reviewed
+origins:
+  - "Medial {{epicondyle|link}} of the {{humerus|linkicon}} via the common flexor tendon"
+insertions:
+  - "Base of the second and third metacarpals"
+actions:
+  - "Wrist flexion"
+  - "Wrist abduction"

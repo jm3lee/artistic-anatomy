@@ -2,20 +2,9 @@
 title: "{{pecmin['icon']}} {{pecmin['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-Anterior surfaces of the 3rd to 5th ribs near their costal cartilages
-
-### Insertions
-{{coracoid_process|linkcap}} of the scapula
-
-### Actions
-<ol>
-<li>[Scapular protraction](/bones/scapula/#movements) (pulls scapula forward and downward)</li>
-<li>[Scapular depression](/bones/scapula/#movements)</li>
-<li>Stabilizes scapula against thoracic wall</li>
-</ol>
+{{summary("pecmin")}}
 
 ## References
 

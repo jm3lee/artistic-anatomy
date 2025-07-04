@@ -2,3 +2,16 @@ name: Gluteus Maximus
 author: Brian Lee
 id: gmax
 icon: ":muscle:"
+origins:
+  - "Coccyx"
+  - "Edge of sacrum"
+  - "Posterior iliac crest"
+  - "Sacrotuberous and sacroiliac ligaments"
+insertions:
+  - "Iliotibial tract (upper fibers)"
+  - "Gluteal tuberosity (lower fibers)"
+actions:
+  - "Extends the hip"
+  - "Laterally rotates the hip"
+  - "Abducts the hip"
+  - "Adducts the hip (lower fibers)"

@@ -2,29 +2,9 @@
 title: "{{brc['icon']}} {{brc['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-<table>
-  <tbody>
-    <tr>
-      <th>Origin</th>
-      <td>Distal half of anterior surface of the {{humerus|linkicon}}</td>
-    </tr>
-    <tr>
-      <th>Insertion</th>
-      <td>
-        <ol>
-          <li>{{ulnar_tuberosity|linkcap}} of ulna</li>
-          <li>{{coronoid_process|linkcap}} of ulna</li>
-        </ol>
-      </td>
-    </tr>
-    <tr>
-      <th>Actions</th>
-      <td>Flexion of the elbow joint</td>
-    </tr>
-  </tbody>
-</table>
+{{summary("brc")}}
 
 ## Illustrations
 

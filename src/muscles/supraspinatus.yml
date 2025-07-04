@@ -2,3 +2,10 @@ id: sups
 name: Supraspinatus
 url: /muscles/supraspinatus.html
 icon: ":muscle:"
+origins:
+  - "Supraspinous fossa of the scapula"
+insertions:
+  - "Superior facet of the greater tubercle of the {{humerus_insertion|linkicon}}"
+actions:
+  - "Initiation of shoulder abduction (first ~15°)"
+  - "Stabilization of the glenohumeral joint; see {{rotator_cuff|linkicon}}"
