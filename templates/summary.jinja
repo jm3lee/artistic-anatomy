@@ -1,26 +1,42 @@
 {% macro origins_list(name) %}
-{% for i in get_origins(name) -%}
-- {{render_jinja(i)}}
-{% endfor %}
+    <ul>
+        {% for i in get_origins(name) %}
+            <li>{{render_jinja(i)}}</li>
+        {% endfor %}
+    </ul>
 {% endmacro %}
 
 {% macro insertions_list(name) %}
-{% for i in get_insertions(name) -%}
-- {{render_jinja(i)}}
-{% endfor %}
+    <ul>
+        {% for i in get_insertions(name) %}
+            <li>{{render_jinja(i)}}</li>
+        {% endfor %}
+    </ul>
 {% endmacro %}
 
 {% macro summary(name) %}
 ## Summary
 
-### Origins
+```{=html}
+<dl>
+    <dt>Origins</dt>
+    <dd>
 {{origins_list(name)}}
+    </dd>
 
-### Insertions
+    <dt>Insertions</dt>
+    <dd>
 {{insertions_list(name)}}
+    </dd>
 
-### Actions
-{% for i in get_actions(name) -%}
-- {{render_jinja(i)}}
-{% endfor %}
+    <dt>Actions</dt>
+    <dd>
+        <ul>
+            {% for i in get_actions(name) %}
+                <li>{{render_jinja(i)}}</li>
+            {% endfor %}
+        </ul>
+    </dd>
+</dl>
+```
 {% endmacro %}

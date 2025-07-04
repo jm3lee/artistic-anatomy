@@ -26,11 +26,6 @@ title: "{{dt['icon']}} {{dt['name']|title}}"
 
 ![Diana and Cupid by Pompeo Batoni, 1761](https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/images/0/20241208%20435622%20deltoid.jpg)
 
-## Study Questions
-
-<div id="search-root" data-src="/study/deltoid.json"></div>
-<script type="module" src="/static/js/bundle.js" defer></script>
-
 ## See Also
 
 - [Arm Movements](../appendix/arm-movements.html)
