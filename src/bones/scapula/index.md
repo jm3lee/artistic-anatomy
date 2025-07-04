@@ -13,50 +13,40 @@ Carter</a>, Public domain, via Wikimedia Commons
 
 ## Movements {{'{#movements}'}}
 
-### Scapular Movements {{'{#scapular_movements}'}}
-
-The scapula moves freely across the rib cage, allowing the arm to position itself in space. Its primary motions are summarized below.
+The scapula moves freely across the rib cage, allowing the arm to position
+itself in space. Its primary motions are summarized below.
 
 <dl>
-<dt id="scapular_elevation">Scapular Elevation</dt>
-<dd>Raising the shoulder blade toward the ears.</dd>
-<dt id="scapular_depression">{{scapular_depression|linktitle}}</dt>
-<dd>Lowering the shoulder blade away from the ears.</dd>
-<dt id="scapular_protraction">{{scapular_protraction|linktitle}}</dt>
-<dd>Sliding the shoulder blade forward around the rib cage.</dd>
-<dt id="scapular_retraction">Scapular Retraction</dt>
-<dd>Drawing the shoulder blade back toward the spine.</dd>
-<dt id="scapular_upward_rotation">Scapular Upward Rotation</dt>
-<dd>Rotating the scapula so the glenoid cavity faces upward.</dd>
-<dt id="scapular_downward_rotation">Scapular Downward Rotation</dt>
-<dd>Returning the scapula from an upwardly rotated position.</dd>
+  <dt id="scapular_depression">Depression</dt>
+  <dd>Lowering the shoulder blade away from the ears.</dd>
+  <dd>Ring or bar dip: driving your shoulders downward as you lower your body.</dd>
+  <dd>Lower {{trz|linktitle}}, {{pecmin|linktitle}}, {{ld|linktitle}}</dd>
+
+  <dt id="scapular_elevation">Elevation</dt>
+  <dd>Raising the shoulder blade toward the ears.</dd>
+  <dd>Dumbbell shrug: lifting your shoulders straight up toward your ears.</dd>
+  <dd>Upper {{trz|linktitle}}, Levator Scapulae</dd>
+
+  <dt id="scapular_protraction">Protraction</dt>
+  <dd>Sliding the shoulder blade forward around the rib cage.</dd>
+  <dd>Push‑up plus: at the top of a push‑up, actively thrusting your chest away from the floor to spread the shoulder blades.</dd>
+  <dd>{{sa|linktitle}}, {{pecmin|linktitle}}</dd>
+
+  <dt id="scapular_retraction">Retraction</dt>
+  <dd>Drawing the shoulder blade back toward the spine.</dd>
+  <dd>Performing a seated row: pulling the handles toward your torso, squeezing shoulder blades together.</dd>
+  <dd>{{rhmaj|linktitle}}, {{rhmin|linktitle}}, Middle {{trz|linktitle}}</dd>
+
+  <dt id="scapular_downward_rotation">Rotation (Downward)</dt>
+  <dd>Returning the scapula from an upwardly rotated position.</dd>
+  <dd>Lowering a heavy overhead load: bringing your arms from overhead back to your sides, guiding the shoulder blades back down.</dd>
+  <dd>{{rhmaj|linktitle}}, {{rhmin|linktitle}}, Levator Scapulae, {{pecmin|linktitle}}</dd>
+
+  <dt id="scapular_upward_rotation">Rotation (Upward)</dt>
+  <dd>Rotating the scapula so the glenoid cavity faces upward.</dd>
+  <dd>Overhead press or high‑five: raising your arms overhead while the shoulder blade’s lower angle pivots upward.</dd>
+  <dd>Upper {{trz|linktitle}}, Lower {{trz|linktitle}}, {{sa|linktitle}}</dd>
 </dl>
-
-### Example Actions
-
-[:man: Reviewed](../../background/icons.html)
-
-| **Movement**        | **Example Action**                                                   |
-|---------------------|----------------------------------------------------------------------|
-| **Retraction**      | Performing a seated row: pulling the handles toward your torso, squeezing shoulder blades together. |
-| **Protraction**     | Push‑up plus: at the top of a push‑up, actively thrusting your chest away from the floor to spread the shoulder blades. |
-| **Elevation**       | Dumbbell shrug: lifting your shoulders straight up toward your ears. |
-| **Depression**      | Ring or bar dip: driving your shoulders downward as you lower your body. |
-| **Upward Rotation** | Overhead press or high‑five: raising your arms overhead while the shoulder blade’s lower angle pivots upward. |
-| **Downward Rotation** | Lowering a heavy overhead load: bringing your arms from overhead back to your sides, guiding the shoulder blades back down. |
-
-### Related Muscles
-
-[:robot: AI Generated](../../background/icons.html)
-
-| **Movement**        | **Related Muscles**                                                          |
-|---------------------|------------------------------------------------------------------------------|
-| **Retraction**      | {{rhmaj|linktitle}}, {{rhmin|linktitle}}, Middle {{trz|linktitle}} |
-| **Protraction**     | {{sa|linktitle}}, {{pecmin|linktitle}} |
-| **Elevation**       | Upper {{trz|linktitle}}, Levator Scapulae                                            |
-| **Depression**      | Lower {{trz|linktitle}}, {{pecmin|linktitle}}, {{ld|linktitle}} |
-| **Upward Rotation** | Upper {{trz|linktitle}}, Lower {{trz|linktitle}}, {{sa|linktitle}}                          |
-| **Downward Rotation** | {{rhmaj|linktitle}}, {{rhmin|linktitle}}, Levator Scapulae, {{pecmin|linktitle}}|
 
 ### References
 
