@@ -59,4 +59,4 @@ build/study/%.json: study/%.json | build/static/index.json
 build/%.json: %.json
 	emojify < $< > $@
 
-build/background/key_terms.md: build/background/key_terms.json
+build/keyterms/index.md: build/keyterms/index.json

@@ -14,7 +14,7 @@ work.
 ## Terms
 
 <dl>
-{% for k, v in read_json("build/background/key_terms.json").items() %}
+{% for k, v in read_json("build/keyterms/index.json").items() %}
   <dt id="{{k}}">{{v['term']}}</dt>
   <dd>
     {{render_jinja(v['def'])}}
