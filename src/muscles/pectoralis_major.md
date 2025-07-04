@@ -1,7 +1,3 @@
----
-title: "{{pecmaj['icon']}} {{pecmaj['name']|title}}"
----
-
 {% from "templates/summary.jinja" import summary %}
 
 {{summary("pecmaj")}}
