@@ -7,8 +7,8 @@ status: Review Pending
 title: ":muscle: Pectoralis Major"
 origins:
   - "Medial half of {{clavicle|linkicon}}"
-  - "Sternum"
-  - "Costal cartilages of ribs 1\u20136 (sometimes 1\u20137)"
+  - "{{sternum|linktitle}}"
+  - "Costal cartilages of ribs 1-6 (sometimes 1-7)"
 insertions:
   - "Crest of the greater tubercle of the humerus (lateral lip of {{bicipital_groove|linkicon}})"
 actions:
