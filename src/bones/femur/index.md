@@ -1,4 +1,5 @@
 :robot:
+{% from "templates/translations.jinja" import translations %}
 
 ## Illustrations
 
@@ -61,9 +62,7 @@ Oblique ridge running from the lesser trochanter toward the linea aspera; attach
 Vertical ridge on the posterior shaft with medial and lateral lips; attachments for adductor brevis, adductor longus, adductor part of adductor magnus, and origins of vastus lateralis and vastus medialis.
 
 #### Translations
-- {{flag_usa['icon']}}: linea aspera
-- {{flag_france['icon']}}: ligne âpre
-- {{flag_russia['icon']}}: шероховатая линия
+{{translations('linea_aspera')}}
 
 #### References
 

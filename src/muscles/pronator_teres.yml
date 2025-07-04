@@ -2,3 +2,5 @@ name: Pronator Teres
 id: protrs
 icon: ":muscle:"
 author: Brian Lee
+translations:
+  russian: Круглый пронатор

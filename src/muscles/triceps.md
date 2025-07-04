@@ -2,6 +2,8 @@
 title: "{{trc['icon']}} {{trc['name']|title}}"
 ---
 
+{% from "templates/translations.jinja" import translations %}
+
 ## Summary
 
 ### Origins
@@ -52,17 +54,7 @@ src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/triceps-000
 alt="David and Goliath, Caravaggio, 1599"
 loading="lazy"/>
 
-## Translations
-
-### French
-<dl>
-<dt>Triceps</dt><dd>triceps brachial</dd>
-</dl>
-
-### Russian
-<dl>
-<dt>Triceps</dt><dd>трёхглавая мышца плеча</dd>
-</dl>
+{{translations('trc')}}
 
 ## References
 

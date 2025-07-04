@@ -15,3 +15,6 @@ actions:
   - "Inverts the foot"
   - "Dorsiflexes the ankle"
   - "Walk cycle: controls heel-to-toe movement"
+translations:
+  french: tibial antérieur
+  russian: Передняя большеберцовая мышца

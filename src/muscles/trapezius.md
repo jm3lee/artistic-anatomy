@@ -2,6 +2,8 @@
 title: "{{trz['icon']}} {{trz['name']|title}}"
 ---
 
+{% from "templates/translations.jinja" import translations %}
+
 ## Summary
 
 ### Origins
@@ -36,9 +38,7 @@ Richer, Plate 54
 </figcaption>
 </figure>
 
-## Translations
-
-- {{flag_russia['icon']}}: Трапециевидная мышца (капюшонная)
+{{translations('trz')}}
 
 ```python
 include("src/muscles/ld_trz_attachments.mdi")

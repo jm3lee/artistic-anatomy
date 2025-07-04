@@ -2,6 +2,8 @@
 title: "{{brr['icon']}} {{brr['name']|title}}"
 ---
 
+{% from "templates/translations.jinja" import translations %}
+
 ## Summary
 
 <table>
@@ -26,9 +28,7 @@ title: "{{brr['icon']}} {{brr['name']|title}}"
 </tbody>
 </table>
 
-## Translations
-
-- {{flag_russia['icon']}}: Плече-лучевая мышца
+{{translations('brr')}}
 
 ## References
 

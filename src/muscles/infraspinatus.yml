@@ -2,3 +2,6 @@ name: Infraspinatus
 id: infs
 icon: ":muscle:"
 author: Brian Lee
+translations:
+  french: sous-épineux
+  russian: Подостная мышца
