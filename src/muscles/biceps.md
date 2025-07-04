@@ -9,8 +9,6 @@ title: "{{bc['icon']}} {{bc['name']|title}}"
 
 Supination is most powerful when the arm is flexed at 90 degrees.
 
-## Translations
-
 {{translations('bc')}}
 
 ## Examples

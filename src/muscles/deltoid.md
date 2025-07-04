@@ -16,8 +16,6 @@ title: "{{dt['icon']}} {{dt['name']|title}}"
 </figcaption>
 </figure>
 
-## Translations
-
 {{translations("dt")}}
 
 ## Examples
