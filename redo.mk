@@ -48,6 +48,7 @@ docker: test
 .PHONY: test
 test:
 	$(MAKE_CMD) -f /app/mk/build.mk test
+	pytest tests
 
 # Target to bring up the development Nginx container
 .PHONY: up
