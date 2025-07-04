@@ -1,20 +1,10 @@
-## Summary
+---
+title: "{{fcr['icon']}} {{fcr['name']|title}}"
+---
 
-### Origins
+{% from "templates/summary.jinja" import summary %}
 
-Medial {{epicondyle|link}} of the {{humerus|linkicon}} via the common flexor
-tendon
-
-### Insertions
-
-Base of the second and third metacarpals
-
-### Actions
-
-<ol>
-<li>Wrist flexion</li>
-<li>Wrist abduction</li>
-</ol>
+{{summary("fcr")}}
 
 ## Illustrations
 

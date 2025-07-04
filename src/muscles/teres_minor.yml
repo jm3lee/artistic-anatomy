@@ -5,3 +5,11 @@ icon: ":muscle:"
 translations:
   french: petit rond
   russian: Большая круглая мышца
+origins:
+  - "Upper two‑thirds of the lateral (axillary) border of the {{scapula|linkicon}}"
+insertions:
+  - "Inferior facet of the greater tubercle of the {{humerus|linkicon}}"
+actions:
+  - "External (lateral) rotation of the humerus"
+  - "Weak adduction of the humerus"
+  - "Assists in stabilizing the {{glenohumeral_joint|linkicon}} as part of the rotator cuff"

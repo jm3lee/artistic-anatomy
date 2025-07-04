@@ -4,34 +4,9 @@ title: ":muscle: Supraspinatus"
 
 [:man: Reviewed](../background/icons.md)
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-<body>
-  <table>
-    <tbody>
-      <tr>
-        <th>Origin</th>
-        <td>Supraspinous fossa of the scapula</td>
-      </tr>
-      <tr>
-        <th>Insertion</th>
-        <td>Superior facet of the greater tubercle of the
-        {{humerus_insertion|linkicon}}</td>
-      </tr>
-      <tr>
-        <th>Actions</th>
-        <td>
-          <ol>
-            <li>Initiation of shoulder abduction (first ~15°)</li>
-            <li>Stabilization of the glenohumeral joint; see
-{{rotator_cuff|linkicon}}</li>
-          </ol>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</body>
-</html>
+{{summary("sups")}}
 
 <img src="https://brianleeart.sfo3.cdn.digitaloceanspaces.com/richer/supraspinatus.jpg"
 alt="Supraspinatus, Richer"

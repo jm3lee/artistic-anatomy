@@ -4,29 +4,9 @@ title: "{{fcu['icon']}} {{fcu['name']|title}}"
 
 A part of the [Wrist Flexor Group](/wrist-flexor-group.html).
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-
-<ol>
-  <li>Humeral head: medial epicondyle of the {{humerus|linkicon}} via the common flexor tendon</li>
-  <li>Ulnar head: {{olecranon_process|linkicon}} and posterior border of the {{ulna|linkicon}}</li>
-</ol>
-
-### Insertions
-
-<ol>
-  <li>Pisiform bone</li>
-  <li>Hook of the hamate</li>
-  <li>Base of the 5th metacarpal</li>
-</ol>
-
-### Actions
-
-<ol>
-  <li>Wrist {{flexion|linkicon}}</li>
-  <li>Ulnar deviation (adduction) of the wrist</li>
-</ol>
+{{summary("fcu")}}
 
 ## Illustrations
 

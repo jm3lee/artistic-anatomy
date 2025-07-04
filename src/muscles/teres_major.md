@@ -2,24 +2,9 @@
 title: "{{trsmaj['icon']}} {{trsmaj['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-<ol>
-<li>Posterior surface of inferior angle of {{scapula|linkicon}}</li>
-<li>Lower one‑third of lateral border of {{scapula|linkicon}}</li>
-<li>Blends with the deep surface of latissimus dorsi via the thoracolumbar fascia</li>
-</ol>
-
-### Insertions
-Medial lip of intertubercular (bicipital) sulcus of {{humerus|linkicon}}
-
-### Actions
-<ol>
-<li>Extends the shoulder</li>
-<li>Adducts the shoulder</li>
-<li>Medially rotates the shoulder</li>
-</ol>
+{{summary("trsmaj")}}
 
 ## Illustrations
 

@@ -3,3 +3,12 @@ author: Brian Lee
 pubdate: May 10, 2025
 id: anc
 icon: ":muscle:"
+status: Reviewed
+origins:
+  - "Posterior aspect of lateral epicondyle of the {{humerus|linkicon}}"
+insertions:
+  - "Lateral surface of olecranon process and proximal posterior {{ulna|linkicon}}"
+actions:
+  - "Assists triceps brachii in elbow extension"
+  - "Stabilizes the elbow joint"
+  - "Abducts the ulna during forearm pronation"

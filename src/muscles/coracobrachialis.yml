@@ -1,2 +1,10 @@
 name: Coracobrachialis
+id: coracobrachialis
 icon: ":muscle:"
+origins:
+  - "{{coracoid_process|linkcap}} of the scapula"
+insertions:
+  - "Medial surface of mid-humeral shaft"
+actions:
+  - "Flexes the shoulder"
+  - "Adducts the shoulder"

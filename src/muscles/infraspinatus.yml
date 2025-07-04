@@ -5,3 +5,10 @@ author: Brian Lee
 translations:
   french: sous-épineux
   russian: Подостная мышца
+origins:
+  - "Infraspinous fossa of the {{scapula|linkicon}}"
+insertions:
+  - "Middle facet of the greater tubercle of the humerus"
+actions:
+  - "External (lateral) rotation of the shoulder"
+  - "Shoulder stabilization as a part of {{rotator_cuff|linkicon}} muscle group"

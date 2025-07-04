@@ -4,19 +4,9 @@ title: "{{infs['icon']}} {{infs['name']|title}}"
 
 {% from "templates/translations.jinja" import translations %}
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-Infraspinous fossa of the {{scapula|linkicon}}
-
-### Insertions
-Middle facet of the greater tubercle of the humerus
-
-### Actions
-<ol>
-<li>External (lateral) rotation of the shoulder</li>
-<li>Shoulder stabilization as a part of {{rotator_cuff|linkicon}} muscle group</li>
-</ol>
+{{summary("infs")}}
 
 ## Illustrations
 

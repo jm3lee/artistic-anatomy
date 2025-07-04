@@ -2,37 +2,9 @@
 title: "{{gmax['icon']}} {{gmax['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-
-<ol>
-<li>Coccyx</li>
-<li>Edge of sacrum</li>
-<li>Posterior iliac crest</li>
-<li>Sacrotuberous adn sacroilian ligaments</li>
-</ol>
-
-### Insertions
-
-<ol>
-<li>Iliotibial tract (upper fibers)</li>
-<li>Gluteal tuberosity (lower fibers)</li>
-</ol>
-
-### Actions
-
-All fibers:
-<ol>
-<li>Extends the hip</li>
-<li>Laterally rotates the hip</li>
-<li>Abducts the hip</li>
-</ol>
-
-Lower fibers:
-<ol>
-<li>Adducts the hip</li>
-</ol>
+{{summary("gmax")}}
 
 ## Illustrations
 

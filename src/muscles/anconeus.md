@@ -2,32 +2,9 @@
 title: "{{anc['icon']}} {{anc['name']|title}}"
 ---
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-:robot:
-
-<table>
-  <tbody>
-    <tr>
-      <th>Origin</th>
-      <td>Posterior aspect of lateral epicondyle of the {{humerus|linkicon}}</td>
-    </tr>
-    <tr>
-      <th>Insertion</th>
-      <td>Lateral surface of olecranon process and proximal posterior {{ulna|linkicon}}</td>
-    </tr>
-    <tr>
-      <th>Actions</th>
-      <td>
-        <ol>
-          <li>Assists triceps brachii in elbow extension</li>
-          <li>Stabilizes the elbow joint</li>
-          <li>Abducts the ulna during forearm pronation</li>
-        </ol>
-      </td>
-    </tr>
-  </tbody>
-</table>
+{{summary("anc")}}
 
 ## Illustrations
 

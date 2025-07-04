@@ -4,3 +4,10 @@ pubdate: May 10, 2025
 id: brc
 icon: ":muscle:"
 status: Review Pending
+origins:
+  - "Distal half of anterior surface of the {{humerus|linkicon}}"
+insertions:
+  - "{{ulnar_tuberosity|linkcap}} of ulna"
+  - "{{coronoid_process|linkcap}} of ulna"
+actions:
+  - "Flexion of the elbow joint"

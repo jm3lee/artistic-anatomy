@@ -4,3 +4,13 @@ pubdate: May 10, 2025
 id: sartorius
 icon: ":muscle:"
 status: Review Pending
+origins:
+  - "Anterior superior iliac spine (ASIS) of the pelvic bone"
+insertions:
+  - "Medial surface of proximal tibia (pes anserinus area)"
+actions:
+  - "Flexion of the hip"
+  - "Abduction of the hip"
+  - "Lateral (external) rotation of the hip"
+  - "Flexion of the knee"
+  - "Medial rotation of the tibia on the femur (when knee is flexed)"

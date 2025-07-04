@@ -4,25 +4,9 @@ title: "{{trc['icon']}} {{trc['name']|title}}"
 
 {% from "templates/translations.jinja" import translations %}
 
-## Summary
+{% from "templates/summary.jinja" import summary %}
 
-### Origins
-<ol>
-  <li><strong>Long head:</strong> Infraglenoid tubercle of the
-{{scapula|linktitle}}</li>
-  <li><strong>Lateral head:</strong> Posterior humerus, above the radial groove</li>
-  <li><strong>Medial head:</strong> Posterior humerus, below the radial groove</li>
-</ol>
-
-### Insertions
-{{olecranon_process|linkcap}} of the ulna
-
-### Actions
-<ol>
-  <li>Extension of the forearm at the elbow</li>
-  <li>Long head: assists in extension and adduction of the arm at the shoulder</li>
-  <li>Stabilization of the shoulder joint</li>
-</ol>
+{{summary("trc")}}
 
 ## Illustrations
 

@@ -4,3 +4,11 @@ status: Reviewed
 author: Brian Lee
 pubdate: May 27, 2025
 icon: ":muscle:"
+origins:
+  - "Anterior surfaces of the 3rd to 5th ribs near their costal cartilages"
+insertions:
+  - "{{coracoid_process|linkcap}} of the scapula"
+actions:
+  - "[Scapular protraction](/bones/scapula/#movements) (pulls scapula forward and downward)"
+  - "[Scapular depression](/bones/scapula/#movements)"
+  - "Stabilizes scapula against thoracic wall"
