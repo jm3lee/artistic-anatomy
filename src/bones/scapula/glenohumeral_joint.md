@@ -1,3 +1,9 @@
+## Joint Type
+
+Ball-and-socket
+
+## Movements
+
 <dl>
   <dt>{{flexion|linktitle}} / {{extension|linktitle}}</dt>
   <dd>
@@ -41,7 +47,7 @@
     </dl>
   </dd>
 
-  <dt>Horizontal {{adduction|link}} / {{abduction|link}}</dt>
+  <dt>Horizontal {{adduction|linktitle}} / {{abduction|linktitle}}</dt>
   <dd>
     <dl>
       <dt>Plane of Movement</dt>
@@ -60,3 +66,5 @@
 
 - {{anaplanes|linktitle}}
 - {{keyterms|linktitle}}
+- {{synovial_joints|linktitle}}
+- [Wikipedia](https://en.wikipedia.org/wiki/Shoulder_joint)
