@@ -395,28 +395,27 @@ ol + details.answer {
 /* Medical: Clean, clinical look with blue tones */
 dl {
   margin: 0;
-  padding: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--color-secondary); /* soft blue */
+  background-color: var(--color-light);
+  border-radius: 4px;
+}
+
+dd > dl {
+  margin-left: 1rem;            /* Indent nested lists */
 }
 
 dt {
   font-weight: bold;
-  color: #1976d2; /* medical blue */
+  color: var(--color-primary);   /* medical blue */
   font-size: 1.1em;
   margin-top: 1.2rem;
 }
 
 dl > dd {
   margin-bottom: 1.2rem;
-}
-
-dd > dl {
-  margin-left: 1rem;
-  padding-left: 1rem;
-  border-left: 3px solid #bbdefb; /* soft blue */
-  background-color: #eef6fc;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-radius: 4px;
 }
 
 dd > dl > dt {
