@@ -13,24 +13,27 @@ work.
 
 ## Terms
 
+```{=html}
 <dl>
-{% for k, v in read_json("build/keyterms/index.json").items() %}
-  <dt id="{{k}}">{{v['term']}}</dt>
+{% set keyterms = read_json("build/keyterms/index.json") %}
+{% for k, v in keyterms.items() | sort %}
+  <dt id="{{ k }}">{{ v['term'] }}</dt>
   <dd>
-    {{render_jinja(v['def'])}}
+    {{ render_jinja(v['def']) }}
   </dd>
   {% if 'ex' in v %}
   <dd>
     Examples:
     <ul class="examples">
     {% for ex in v['ex'] %}
-      <li>{{render_jinja(ex)}}</li>
+      <li>{{ render_jinja(ex) }}</li>
     {% endfor %}
     </ul>
   </dd>
   {% endif %}
 {% endfor %}
 </dl>
+```
 
 ## References
 
