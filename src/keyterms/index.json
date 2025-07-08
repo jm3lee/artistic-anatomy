@@ -70,6 +70,18 @@
     "term": "Sagittal",
     "def": "An anatomical plane running front to back, dividing the body into left and right sections."
   },
+  "coronal": {
+    "term": "Coronal",
+    "def": "An anatomical plane running side to side, dividing the body into anterior and posterior sections."
+  },
+  "transverse": {
+    "term": "Transverse",
+    "def": "A horizontal plane dividing the body into superior and inferior sections."
+  },
+  "oblique": {
+    "term": "Oblique",
+    "def": "Any anatomical plane that is not parallel to the coronal, sagittal, or transverse planes."
+  },
   "superior": {
     "term": "Superior",
     "def": "Above."
