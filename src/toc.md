@@ -13,7 +13,7 @@ ul {
 
 ## Background
 
-* [:notebook: Anatomical Planes](background/anatomical-planes.md)
+* {{anaplanes|linktitle}}
 * [:notebook: Icons](background/icons.md)
 * [:notebook: Key Terms](keyterms/index.md)
 * [:notebook: Muscle Origin vs. Insertion](keyterms/muscle-origin-and-insertion.md)
