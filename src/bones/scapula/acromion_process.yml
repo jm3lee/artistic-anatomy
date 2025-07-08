@@ -3,4 +3,8 @@ name: Acromion Process
 author: Brian Lee
 icon: ":round_pushpin:"
 status: Reviewed
-pubdate: Jun 06, 2025
+pubdate: Jul 08, 2025
+origins:
+  - "{{dt|linktitle}}"
+insertions:
+  - "{{trz|linktitle}}"

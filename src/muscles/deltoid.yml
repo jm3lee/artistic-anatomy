@@ -1,19 +1,20 @@
+title: ":muscle: Deltoid"
 name: Deltoid
 author: Brian Lee
 id: dt
 icon: ":muscle:"
 status: Reviewed
-pubdate: Jun 11, 2025
+pubdate: Jul 08, 2025
 origins:
-  - "Lateral third of the clavicle (anterior fibers)"
-  - "Acromion process of the {{scapula|linkicon}} (middle fibers)"
-  - "Spine of the {{scapula|linkicon}} (posterior fibers)"
+  - "Lateral third of the {{clavicle|link}} ({{anterior|link}} fibers)"
+  - "{{acromion_process|linkcap}} of the {{scapula|linkicon}} (middle fibers)"
+  - "Spine of the {{scapula|linkicon}} ({{posterior|link}} fibers)"
 insertions:
   - "{{deltoid_tuberosity|linkcap}} of the {{humerus|linkicon}}"
 actions:
-  - "Shoulder abduction (middle fibers)"
-  - "Shoulder flexion & medial rotation (anterior fibers)"
-  - "Shoulder extension & lateral rotation (posterior fibers)"
+  - "Shoulder {{abduction|link}} (middle fibers)"
+  - "Shoulder {{flexion|link}} & {{medial|link}} rotation (anterior fibers)"
+  - "Shoulder {{extension|link}} & {{lateral|link}} rotation (posterior fibers)"
 translations:
   french: deltoïde
   russian: дельтовидная мышца
