@@ -15,7 +15,7 @@ ul {
 
 * {{anaplanes|linktitle}}
 * [:notebook: Icons](background/icons.md)
-* [:notebook: Key Terms](keyterms/index.md)
+* {{keyterms|linktitle}}
 * [:notebook: Muscle Origin vs. Insertion](keyterms/muscle-origin-and-insertion.md)
 * [:notebook: Reponsible Use of Artificial Intelligence (AI)](background/responsible-use-of-ai.md)
 * [:notebook: Tendon vs. Ligament](background/tendon-vs-ligament.md)

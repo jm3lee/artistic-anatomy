@@ -1,9 +1,3 @@
----
-title: Key Terms
-author: Brian Lee
-pubdate: Sat May 10 2025
----
-
 There are numerous anatomical terms in medical texts, but not all are relevant
 to artistic anatomy. Since artists focus on superficial muscles and bones—those
 visible on the surface—only certain terms are necessary. Most of the time,
