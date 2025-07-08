@@ -1,11 +1,11 @@
 <dl>
-  <dt>Flexion / Extension</dt>
+  <dt>{{flexion|linktitle}} / {{extension|linktitle}}</dt>
   <dd>
     <dl>
       <dt>Plane of Movement</dt>
-      <dd>Sagittal</dd>
+      <dd>{{sagittal|linktitle}}</dd>
       <dt>Axis of Rotation</dt>
-      <dd>Mediolateral (frontal) axis</dd>
+      <dd>Mediolateral ({{coronal|link}}) axis</dd>
       <dt>Axis Orientation</dt>
       <dd>Runs side‑to‑side</dd>
       <dt>Example Action</dt>
@@ -13,13 +13,13 @@
     </dl>
   </dd>
 
-  <dt>Abduction / Adduction</dt>
+  <dt>{{abduction|linktitle}} / {{adduction|linktitle}}</dt>
   <dd>
     <dl>
       <dt>Plane of Movement</dt>
-      <dd>Frontal (Coronal)</dd>
+      <dd>Frontal ({{coronal|link}})</dd>
       <dt>Axis of Rotation</dt>
-      <dd>Anteroposterior (sagittal) axis</dd>
+      <dd>Anteroposterior ({{sagittal|link}}) axis</dd>
       <dt>Axis Orientation</dt>
       <dd>Runs front‑to‑back</dd>
       <dt>Example Action</dt>
@@ -31,7 +31,7 @@
   <dd>
     <dl>
       <dt>Plane of Movement</dt>
-      <dd>Transverse (Horizontal)</dd>
+      <dd>{{transverse|linktitle}} (Horizontal)</dd>
       <dt>Axis of Rotation</dt>
       <dd>Longitudinal (vertical) axis</dd>
       <dt>Axis Orientation</dt>
@@ -41,11 +41,11 @@
     </dl>
   </dd>
 
-  <dt>Horizontal Adduction / Abduction</dt>
+  <dt>Horizontal {{adduction|link}} / {{abduction|link}}</dt>
   <dd>
     <dl>
       <dt>Plane of Movement</dt>
-      <dd>Transverse (Horizontal)</dd>
+      <dd>{{transverse|linktitle}} (Horizontal)</dd>
       <dt>Axis of Rotation</dt>
       <dd>Longitudinal (vertical) axis</dd>
       <dt>Axis Orientation</dt>
