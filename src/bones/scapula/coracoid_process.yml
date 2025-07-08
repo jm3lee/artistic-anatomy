@@ -2,7 +2,10 @@ title: ":round_pushpin: Coracoid Process"
 name: Coracoid Process
 origins:
   - "{{coracobrachialis|linktitle}}"
-  - "{{bc|linktitle}}"
+  - "{{bc|linktitle}} (short head)"
 insertions:
   - "{{pecmin|linktitle}}"
 icon: ":round_pushpin:"
+author: Brian Lee
+status: Reviewed
+pubdate: Jul 08, 2025

@@ -1,25 +1,12 @@
----
-title: "{{coracoid_process['icon']}} {{coracoid_process['name']|title}}"
----
+{% from "templates/summary.jinja" import summary_bones %}
 
-{% from "templates/summary.jinja" import origins_list, insertions_list %}
+{{summary_bones("coracoid_process")}}
 
 ## Illustrations
 
-<figure>
-<a title="Henry Vandyke Carter, Public domain, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Gray203.png"><img width="512"
-alt="Gray203"
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Gray203.png/512px-Gray203.png?20070123172303"></a>
-<figcaption>
-<a href="https://commons.wikimedia.org/wiki/File:Gray203.png">Henry Vandyke
-Carter</a>, Public domain, via Wikimedia Commons
-</figcaption>
-</figure>
+<figure> <a title="BodyParts3D is made by DBCLS., CC BY-SA 2.1 JP &lt;https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Coracoid_process_of_left_scapula_-_animation01.gif"><img class="figure" width="256" alt="Coracoid process of left scapula - animation01" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Coracoid_process_of_left_scapula_-_animation01.gif?20130524092809"></a> <figcaption> <a href="https://commons.wikimedia.org/wiki/File:Coracoid_process_of_left_scapula_-_animation01.gif">BodyParts3D is made by DBCLS.</a>, <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en">CC BY-SA 2.1 JP</a>, via Wikimedia Commons </figcaption> </figure>
 
+## References
 
-## Muscle Origins
-{{origins_list("coracoid_process")}}
-
-## Muscle Insertions
-{{insertions_list("coracoid_process")}}
+- {{scapula|linktitle}}
+- [Wikipedia](https://en.wikipedia.org/wiki/Coracoid_process)

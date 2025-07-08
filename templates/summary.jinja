@@ -1,42 +1,40 @@
-{% macro origins_list(name) %}
-    <ul>
-        {% for i in get_origins(name) %}
-            <li>{{render_jinja(i)}}</li>
-        {% endfor %}
-    </ul>
+{#--
+  Macro: def_list
+  Renders a <dt>/<dd> list for any label + sequence of items.
+  - label: the term to show in <dt>
+  - items: sequence of objects to render via render_jinja()
+--#}
+{% macro def_list(label, items) %}
+    <dt>{{ label }}</dt>
+    {% for item in items %}
+        <dd>{{ render_jinja(item) }}</dd>
+    {% endfor %}
 {% endmacro %}
 
-{% macro insertions_list(name) %}
-    <ul>
-        {% for i in get_insertions(name) %}
-            <li>{{render_jinja(i)}}</li>
-        {% endfor %}
-    </ul>
-{% endmacro %}
-
+{#--
+  Macro: summary
+  Outputs a Markdown “Summary” section with an HTML <dl> of Origins,
+  Insertions, and Actions for the given name.
+--#}
 {% macro summary(name) %}
 ## Summary
 
 ```{=html}
 <dl>
-    <dt>Origins</dt>
-    <dd>
-{{origins_list(name)}}
-    </dd>
+    {{ def_list("Origins",     get_origins(name)) }}
+    {{ def_list("Insertions",  get_insertions(name)) }}
+    {{ def_list("Actions",     get_actions(name)) }}
+</dl>
+```
+{% endmacro %}
 
-    <dt>Insertions</dt>
-    <dd>
-{{insertions_list(name)}}
-    </dd>
+{% macro summary_bones(name) %}
+## Summary
 
-    <dt>Actions</dt>
-    <dd>
-        <ul>
-            {% for i in get_actions(name) %}
-                <li>{{render_jinja(i)}}</li>
-            {% endfor %}
-        </ul>
-    </dd>
+```{=html}
+<dl>
+    {{ def_list("Origins",     get_origins(name)) }}
+    {{ def_list("Insertions",  get_insertions(name)) }}
 </dl>
 ```
 {% endmacro %}

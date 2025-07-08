@@ -172,6 +172,11 @@ img.thumbnail {
     height: auto;
 }
 
+img.figure {
+    max-height: 600px;
+    width: auto;
+}
+
 @media (max-width: 1080px) {
     img.thumbnail {
         max-width: 100%;
@@ -387,6 +392,9 @@ dt {
 }
 dd + dt {
   margin-top: 1em;
+}
+dd + dd {
+  margin-top: 0.5em;
 }
 ul.examples {
   list-style: none;
