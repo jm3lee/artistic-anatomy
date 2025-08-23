@@ -7,3 +7,6 @@
 [submodule "app/references"]
 	path = app/references
 	url = git@github.com:onlyartists/references.git
+[submodule "press"]
+	path = press
+	url = git@github.com:jm3lee/press.git
