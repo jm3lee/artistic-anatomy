@@ -1,5 +1,5 @@
 ---
-title: "{{pecmin['icon']}} {{pecmin['name']|title}}"
+title: "{{get_desc('pecmin')['icon']}} {{get_desc('pecmin')['name']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}

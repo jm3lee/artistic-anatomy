@@ -15,7 +15,7 @@ Example from `src/study/key_terms.json`:
 ```json
 [
   {
-    "q": "Which of the following best describes the {{sagittal['name']|lower}} plane?",
+    "q": "Which of the following best describes the {{get_desc('sagittal')['name']|lower}} plane?",
     "c": [
       "Divides the body into anterior and posterior portions",
       "Divides the body into superior and inferior portions",
@@ -81,18 +81,18 @@ The macro loads the JSON with `load_mc` and expands each question into an ordere
 <ol>
     {% for mc in load_mc(filename) %}
         <li>
-            <p class="question">{{render_jinja(mc["q"])}}</p>
+            <p class="question">{{render_jinja(get_desc('mc')["q"])}}</p>
             <ol type="a">
-            {% for c in mc["c"] %}
+            {% for c in get_desc('mc')["c"] %}
                 <li>{{render_jinja(c)}}</li>
             {% endfor %}
             </ol>
             <details class="answer">
                 <summary>Answer</summary>
                 <p>
-                {{to_alpha_index(mc["a"][0])}}. {{render_jinja(mc["c"][mc["a"][0]])}}
+                {{to_alpha_index(get_desc('mc')["a"][0])}}. {{render_jinja(get_desc('mc')["c"][get_desc('mc')["a"][0]])}}
                 <hr/>
-                {{render_jinja(mc["a"][1])}}
+                {{render_jinja(get_desc('mc')["a"][1])}}
                 </p>
             </details>
         </li>
