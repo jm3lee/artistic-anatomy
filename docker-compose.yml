@@ -2,14 +2,18 @@ services:
   nginx:
     build:
       context: .
-      dockerfile: app/nginx/Dockerfile
+      dockerfile: ./app/nginx/Dockerfile
+      args:
+        NGINX_CONF: app/nginx/prod.conf
     ports:
       - "80:80"
       - "443:443"
     restart: unless-stopped
 
   nginx-dev:
-    image: press-nginx-dev
+    build:
+      context: .
+      dockerfile: ./app/nginx/Dockerfile
     ports:
       - "80:80"
       - "443:443"
