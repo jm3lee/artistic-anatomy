@@ -30,7 +30,7 @@ Richer, Plate 54
 {{translations('trz')}}
 
 ```python
-include("src/muscles/ld_trz_attachments.mdi")
+include("build/muscles/ld_trz_attachments.md")
 ```
 
 ## See also

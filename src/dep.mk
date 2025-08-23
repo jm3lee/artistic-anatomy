@@ -23,10 +23,6 @@ toc.md: $(filter-out src/toc.md, $(MARKDOWNS))
 build/.buildinfo: redo.mk dep.mk
 	rm -f %@
 
-build/spine.md: muscles/ld_trz_attachments.mdi
-build/muscles/latissimus_dorsi.md: muscles/ld_trz_attachments.mdi
-build/muscles/trapezius.md: muscles/ld_trz_attachments.mdi
-
 #-------------------
 # Index Generation
 #-------------------
