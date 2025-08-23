@@ -7,7 +7,7 @@ id: scm
 icon: ":muscle:"
 origins:
   - "Manubrium of sternum"
-  - "Medial third of {{ linkicon('clavicle') }}"
+  - 'Medial third of {{ linkicon("clavicle") }}'
 insertions:
   - "Mastoid process of the temporal bone"
   - "Superior nuchal line"

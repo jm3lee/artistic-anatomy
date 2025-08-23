@@ -6,15 +6,15 @@ icon: ":muscle:"
 status: Reviewed
 pubdate: Jul 08, 2025
 origins:
-  - "Lateral third of the {{ link('clavicle') }} ({{ link('anterior') }} fibers)"
-  - "{{ linkcap('acromion_process') }} of the {{ linkicon('scapula') }} (middle fibers)"
-  - "Spine of the {{ linkicon('scapula') }} ({{ link('posterior') }} fibers)"
+  - 'Lateral third of the {{ link("clavicle") }} ({{ link("anterior") }} fibers)'
+  - '{{ linkcap("acromion_process") }} of the {{ linkicon("scapula") }} (middle fibers)'
+  - 'Spine of the {{ linkicon("scapula") }} ({{ link("posterior") }} fibers)'
 insertions:
-  - "{{ linkcap('deltoid_tuberosity') }} of the {{ linkicon('humerus') }}"
+  - '{{ linkcap("deltoid_tuberosity") }} of the {{ linkicon("humerus") }}'
 actions:
-  - "Shoulder {{ link('abduction') }} (middle fibers)"
-  - "Shoulder {{ link('flexion') }} & {{ link('medial') }} rotation (anterior fibers)"
-  - "Shoulder {{ link('extension') }} & {{ link('lateral') }} rotation (posterior fibers)"
+  - 'Shoulder {{ link("abduction") }} (middle fibers)'
+  - 'Shoulder {{ link("flexion") }} & {{ link("medial") }} rotation (anterior fibers)'
+  - 'Shoulder {{ link("extension") }} & {{ link("lateral") }} rotation (posterior fibers)'
 translations:
   french: deltoïde
   russian: дельтовидная мышца

@@ -1,4 +1,4 @@
 toc:
-  - "{{ linktitle('humerus') }}"
-  - - "{{ linktitle('bicipital_groove') }}"
-  - - "{{ linktitle('deltoid_tuberosity') }}"
+  - '{{ linktitle("humerus") }}'
+  - - '{{ linktitle("bicipital_groove") }}'
+  - - '{{ linktitle("deltoid_tuberosity") }}'

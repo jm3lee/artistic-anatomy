@@ -1,2 +1,2 @@
 toc:
-  - "{{ linktitle('foot') }}"
+  - '{{ linktitle("foot") }}'

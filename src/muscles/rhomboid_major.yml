@@ -7,6 +7,6 @@ icon: ":muscle:"
 origins:
   - "Spinous processes of T2 to T5 vertebrae"
 insertions:
-  - "Medial border of {{ linkicon('scapula') }} (from spine to inferior angle)"
+  - 'Medial border of {{ linkicon("scapula") }} (from spine to inferior angle)'
 actions:
   - "Scapular retraction, elevation, and downward rotation"

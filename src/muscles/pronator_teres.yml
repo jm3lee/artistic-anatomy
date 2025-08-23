@@ -6,10 +6,10 @@ author: Brian Lee
 translations:
   russian: Круглый пронатор
 origins:
-  - "Common flexor tendon attached to medial epicondyle of {{ linkicon('humerus') }}"
-  - "{{ linkcap('coronoid_process') }} of the {{ linkicon('ulna') }}"
+  - 'Common flexor tendon attached to medial epicondyle of {{ linkicon("humerus") }}'
+  - '{{ linkcap("coronoid_process") }} of the {{ linkicon("ulna") }}'
 insertions:
-  - "Middle of lateral surface of the {{ linkicon('radius') }}"
+  - 'Middle of lateral surface of the {{ linkicon("radius") }}'
 actions:
   - "Pronates the forearm"
-  - "Assists elbow flexion; see {{ linkicon('elbow_flexors') }}"
+  - 'Assists elbow flexion; see {{ linkicon("elbow_flexors") }}'

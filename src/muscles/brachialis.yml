@@ -5,9 +5,9 @@ id: brc
 icon: ":muscle:"
 status: Review Pending
 origins:
-  - "Distal half of anterior surface of the {{ linkicon('humerus') }}"
+  - 'Distal half of anterior surface of the {{ linkicon("humerus") }}'
 insertions:
-  - "{{ linkcap('ulnar_tuberosity') }} of ulna"
-  - "{{ linkcap('coronoid_process') }} of ulna"
+  - '{{ linkcap("ulnar_tuberosity") }} of ulna'
+  - '{{ linkcap("coronoid_process") }} of ulna'
 actions:
   - "Flexion of the elbow joint"
