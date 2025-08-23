@@ -17,9 +17,6 @@ resources/study-questions.md: $(wildcard src/study/*)
 src/deltoid.md: src/study/deltoid.md
 	touch $@
 
-toc.md: $(filter-out src/toc.md, $(MARKDOWNS))
-	touch $@
-
 build/.buildinfo: redo.mk dep.mk
 	rm -f %@
 
@@ -29,17 +26,17 @@ build/.buildinfo: redo.mk dep.mk
 
 BUILD_SUBDIRS += build/static/index
 
-prebuild: build/static/index/muscles.md
+#prebuild: build/static/index/muscles.md
 prebuild: src/resources/anatomy-lessons-from-the-great-masters.md
 
-build/static/index/muscles.json: | build/static/index
-	build-index -o $@ src/muscles 2> log/build-index.muscles
-
-build/static/index/muscles.md: | build/static/index
-build/static/index/muscles.md: build/static/index/muscles.json
-	gen-markdown-index $^ > $@
-	emojify < $@ > $@.tmp
-	mv $@.tmp $@
+#build/static/index/muscles.json: | build/static/index
+#	build-index -o $@ src/muscles 2> log/build-index.muscles
+#
+#build/static/index/muscles.md: | build/static/index
+#build/static/index/muscles.md: build/static/index/muscles.json
+#	gen-markdown-index $^ > $@
+#	emojify < $@ > $@.tmp
+#	mv $@.tmp $@
 
 src/resources/anatomy-lessons-from-the-great-masters.md: /app/references/src/hc77.yml
 	/app/references/bin/build.py $< /app/references/src reference.jinja | tee $@

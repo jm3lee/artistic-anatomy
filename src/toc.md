@@ -66,9 +66,7 @@ ul {
 
 ## Muscles
 
-```python
-include("build/static/index/muscles.md")
-```
+TODO
 
 ## Tendons and Ligaments
 
