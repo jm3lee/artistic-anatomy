@@ -1,5 +1,5 @@
 ---
-title: "{{sa['icon']}} {{sa['name']|title}}"
+title: "{{get_desc('sa')['icon']}} {{get_desc('sa')['name']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}

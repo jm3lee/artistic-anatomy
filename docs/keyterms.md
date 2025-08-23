@@ -32,15 +32,15 @@ This rule produces `build/keyterms/index.json` from `src/keyterms/index.json`.
 ```
 {% set keyterms = read_json("build/keyterms/index.json") %}
 {% for k, v in keyterms.items() | sort %}
-  <dt id="{{ k }}">{{ v['term'] }}</dt>
+  <dt id="{{ k }}">{{ get_desc('v')['term'] }}</dt>
   <dd>
-    {{ render_jinja(v['def']) }}
+    {{ render_jinja(get_desc('v')['def']) }}
   </dd>
   {% if 'ex' in v %}
   <dd>
     Examples:
     <ul class="examples">
-    {% for ex in v['ex'] %}
+    {% for ex in get_desc('v')['ex'] %}
       <li>{{ render_jinja(ex) }}</li>
     {% endfor %}
     </ul>

@@ -1,5 +1,5 @@
 ---
-title: "{{trsmaj['icon']}} {{trsmaj['name']|title}}"
+title: "{{get_desc('trsmaj')['icon']}} {{get_desc('trsmaj')['name']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}

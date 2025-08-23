@@ -1,5 +1,5 @@
 ---
-title: "{{infs['icon']}} {{infs['name']|title}}"
+title: "{{get_desc('infs')['icon']}} {{get_desc('infs')['name']|title}}"
 ---
 
 {% from "templates/translations.jinja" import translations %}

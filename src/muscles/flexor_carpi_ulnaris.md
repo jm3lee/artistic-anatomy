@@ -1,5 +1,5 @@
 ---
-title: "{{fcu['icon']}} {{fcu['name']|title}}"
+title: "{{get_desc('fcu')['icon']}} {{get_desc('fcu')['name']|title}}"
 ---
 
 A part of the [Wrist Flexor Group](/wrist-flexor-group.html).

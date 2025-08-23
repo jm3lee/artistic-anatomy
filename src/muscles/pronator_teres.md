@@ -1,5 +1,5 @@
 ---
-title: "{{protrs['icon']}} {{protrs['name']|title}}"
+title: "{{get_desc('protrs')['icon']}} {{get_desc('protrs')['name']|title}}"
 ---
 
 {% from "templates/translations.jinja" import translations %}

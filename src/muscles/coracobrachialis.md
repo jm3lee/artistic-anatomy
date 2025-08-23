@@ -1,5 +1,5 @@
 ---
-title: "{{coracobrachialis['icon']}} {{coracobrachialis['name']}}"
+title: "{{get_desc('coracobrachialis')['icon']}} {{get_desc('coracobrachialis')['name']}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}

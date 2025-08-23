@@ -1,5 +1,5 @@
 ---
-title: "{{bc['icon']}} {{bc['name']|title}}"
+title: "{{get_desc('bc')['icon']}} {{get_desc('bc')['name']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}
