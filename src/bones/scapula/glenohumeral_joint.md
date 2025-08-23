@@ -5,13 +5,13 @@ Ball-and-socket
 ## Movements
 
 <dl>
-  <dt>{{flexion|linktitle}} / {{extension|linktitle}}</dt>
+  <dt>{{ linktitle('flexion') }} / {{ linktitle('extension') }}</dt>
   <dd>
     <dl>
       <dt>Plane of Movement</dt>
-      <dd>{{sagittal|linktitle}}</dd>
+      <dd>{{ linktitle('sagittal') }}</dd>
       <dt>Axis of Rotation</dt>
-      <dd>Mediolateral ({{coronal|link}}) axis</dd>
+      <dd>Mediolateral ({{ link('coronal') }}) axis</dd>
       <dt>Axis Orientation</dt>
       <dd>Runs side‑to‑side</dd>
       <dt>Example Action</dt>
@@ -19,13 +19,13 @@ Ball-and-socket
     </dl>
   </dd>
 
-  <dt>{{abduction|linktitle}} / {{adduction|linktitle}}</dt>
+  <dt>{{ linktitle('abduction') }} / {{ linktitle('adduction') }}</dt>
   <dd>
     <dl>
       <dt>Plane of Movement</dt>
-      <dd>Frontal ({{coronal|link}})</dd>
+      <dd>Frontal ({{ link('coronal') }})</dd>
       <dt>Axis of Rotation</dt>
-      <dd>Anteroposterior ({{sagittal|link}}) axis</dd>
+      <dd>Anteroposterior ({{ link('sagittal') }}) axis</dd>
       <dt>Axis Orientation</dt>
       <dd>Runs front‑to‑back</dd>
       <dt>Example Action</dt>
@@ -37,7 +37,7 @@ Ball-and-socket
   <dd>
     <dl>
       <dt>Plane of Movement</dt>
-      <dd>{{transverse|linktitle}} (Horizontal)</dd>
+      <dd>{{ linktitle('transverse') }} (Horizontal)</dd>
       <dt>Axis of Rotation</dt>
       <dd>Longitudinal (vertical) axis</dd>
       <dt>Axis Orientation</dt>
@@ -47,11 +47,11 @@ Ball-and-socket
     </dl>
   </dd>
 
-  <dt>Horizontal {{adduction|linktitle}} / {{abduction|linktitle}}</dt>
+  <dt>Horizontal {{ linktitle('adduction') }} / {{ linktitle('abduction') }}</dt>
   <dd>
     <dl>
       <dt>Plane of Movement</dt>
-      <dd>{{transverse|linktitle}} (Horizontal)</dd>
+      <dd>{{ linktitle('transverse') }} (Horizontal)</dd>
       <dt>Axis of Rotation</dt>
       <dd>Longitudinal (vertical) axis</dd>
       <dt>Axis Orientation</dt>
@@ -64,7 +64,7 @@ Ball-and-socket
 
 ## References
 
-- {{anaplanes|linktitle}}
-- {{keyterms|linktitle}}
-- {{synovial_joints|linktitle}}
+- {{ linktitle('anaplanes') }}
+- {{ linktitle('keyterms') }}
+- {{ linktitle('synovial_joints') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Shoulder_joint)

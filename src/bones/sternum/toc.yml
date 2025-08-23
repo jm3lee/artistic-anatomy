@@ -1,2 +1,2 @@
 toc:
-  - "{{sternum|linktitle}}"
+  - "{{ linktitle('sternum') }}"

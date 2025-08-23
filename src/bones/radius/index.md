@@ -7,28 +7,28 @@ Disc-shaped proximal epiphysis that articulates with the humerus and ulna.
 Narrow region just distal to the head; common fracture site.
 
 ### Radial Tuberosity {{'{#radial_tuberosity}'}}
-Rough anterior projection on the proximal radius where {{bc|linkicon}} inserts.
+Rough anterior projection on the proximal radius where {{ linkicon('bc') }} inserts.
 
 ### Interosseous Border {{'{#interosseous_border}'}}
-Sharp {{medial|link}} edge along the shaft for attachment of the interosseous membrane.
+Sharp {{ link('medial') }} edge along the shaft for attachment of the interosseous membrane.
 
 ### Ulnar Notch {{'{#ulnar_notch}'}}
-Distal {{medial|link}} concavity articulating with the head of the ulna.
+Distal {{ link('medial') }} concavity articulating with the head of the ulna.
 
 ### Dorsal Tubercle {{'{#dorsal_tubercle}'}}
 Posterior distal bump (Lister's tubercle) guiding externsor pollicis longus tendon.
 
 ### Styloid Process {{'{#styloid_process}'}}
-Pointed distal projection that anchors the radial collateral ligament and {{brr|linkicon}}.
+Pointed distal projection that anchors the radial collateral ligament and {{ linkicon('brr') }}.
 
 ## Muscles Insertions
 
-{{bc|linktitle}}
+{{ linktitle('bc') }}
 
 - Radial tuberosity, bicipital aponeurosis
 - Supination of the forearm and elbow flexion
 
-{{protrs|linktitle}}
+{{ linktitle('protrs') }}
 
 - Lateral surface of the radius (midshaft)
 - Pronates and weakly flexes the forearm
@@ -38,9 +38,9 @@ Pointed distal projection that anchors the radial collateral ligament and {{brr|
 - Proximal lateral radius
 - Supination of the forearm
 
-{{brr|linktitle}}
+{{ linktitle('brr') }}
 
-- Styloid process of {{radius|linkicon}}
+- Styloid process of {{ linkicon('radius') }}
 - Flexion of the forearm at the elbow
 
 &ast; Supinator is a _deep_ muscle and shown here for completeness.
@@ -48,4 +48,4 @@ Pointed distal projection that anchors the radial collateral ligament and {{brr|
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Radius_(bone))
-* {{gf|linktitle}}, 24-25.
+* {{ linktitle('gf') }}, 24-25.

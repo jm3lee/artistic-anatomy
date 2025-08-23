@@ -6,10 +6,10 @@ status: Reviewed
 id: bfem
 icon: ":muscle:"
 origins:
-  - "Long head: Ischial tuberosity of the {{pelvis|linkicon}}"
-  - "Short head: Linea aspera of the {{femur|linkicon}}"
+  - "Long head: Ischial tuberosity of the {{ linkicon('pelvis') }}"
+  - "Short head: Linea aspera of the {{ linkicon('femur') }}"
 insertions:
-  - "Head of the {{fibula|linkicon}}"
+  - "Head of the {{ linkicon('fibula') }}"
 actions:
   - "Flexes the knee"
   - "Extends the hip (long head)"

@@ -8,4 +8,4 @@ title: "{{pecmin['icon']}} {{pecmin['name']|title}}"
 
 ## References
 
-- {{scapula|linktitle}}
+- {{ linktitle('scapula') }}

@@ -16,7 +16,7 @@ title: "{{trsmaj['icon']}} {{trsmaj['name']|title}}"
 </figure>
 
 ```python
-include('src/muscles/teres_major_minor_insertion.mdi')
+include('build/muscles/teres_major_minor_insertion.md')
 ```
 
 ## Etymology
@@ -36,5 +36,5 @@ extension of the humerus.
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Teres_major_muscle)
-* {{trsmin|linktitle}}
-* {{gf|linktitle}}, 162–63
+* {{ linktitle('trsmin') }}
+* {{ linktitle('gf') }}, 162–63

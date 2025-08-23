@@ -5,7 +5,7 @@ id: elbow_flexors
 citation: elbow flexors
 ---
 
-1. {{bc|linktitle}}
-1. {{brc|linktitle}}
-1. {{brr|linktitle}}
-1. {{protrs|linktitle}}: Not an upper arm muscle. Supports the above muscles.
+1. {{ linktitle('bc') }}
+1. {{ linktitle('brc') }}
+1. {{ linktitle('brr') }}
+1. {{ linktitle('protrs') }}: Not an upper arm muscle. Supports the above muscles.

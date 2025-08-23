@@ -23,9 +23,9 @@ loading="lazy"/>
 
 ### General
 
-- Hides behind erector spinae in 3/4 view ({{hc77|linkicon}}, 20).
-- Superior to {{trsmaj|linktitle}} with a slight overlap. "The teres major (I) bulges out
-  over the edge of the latissimus dorsi" ({{hc77|linkicon}}, 22).
+- Hides behind erector spinae in 3/4 view ({{ linkicon('hc77') }}, 20).
+- Superior to {{ linktitle('trsmaj') }} with a slight overlap. "The teres major (I) bulges out
+  over the edge of the latissimus dorsi" ({{ linkicon('hc77') }}, 22).
 
 ### Variable Attachment to Inferior Angle of Scapula
 
@@ -65,4 +65,4 @@ humans.](https://josr-online.biomedcentral.com/articles/10.1186/s13018-024-04659
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Latissimus_dorsi_muscle)
 * TGB p71, Flashcards p8
-* {{gf|linktitle}}, 145–47.
+* {{ linktitle('gf') }}, 145–47.

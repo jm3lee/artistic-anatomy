@@ -11,4 +11,4 @@ title: ":muscle: Subscapularis"
 
 * Goldfinger
   * p163 Teres major cross-section shows the location of subscapularis.
-    Subscapularis and {{sa|linkicon}} are side-by-side.
+    Subscapularis and {{ linkicon('sa') }} are side-by-side.

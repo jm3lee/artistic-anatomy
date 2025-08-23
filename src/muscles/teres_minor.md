@@ -31,27 +31,27 @@ title: "{{trsmin['icon']}} {{trsmin['name']|title}}"
 ## Notes
 
 The teres minor muscle is usually not visible because it blends with the
-{{infs|linkicon}} muscle. Both are covered by thick fascia. However, the teres minor
+{{ linkicon('infs') }} muscle. Both are covered by thick fascia. However, the teres minor
 may become visible if the arm is held straight out to the side, rotated outward,
 and pushed downward and backward against resistance.
 
-One of the {{rotator_cuff|linkicon}} muscles.
+One of the {{ linkicon('rotator_cuff') }} muscles.
 
 ```python
-include('src/muscles/teres_major_minor_insertion.mdi')
+include('build/muscles/teres_major_minor_insertion.md')
 ```
 
 ## References
 
-- {{gf|linktitle}}
+- {{ linktitle('gf') }}
   - **161**
-    - Usually not visible on the surface, blends with {{infs|linkicon}}. Both muscles are covered by dense fascia.
+    - Usually not visible on the surface, blends with {{ linkicon('infs') }}. Both muscles are covered by dense fascia.
     - May become visible when the arm is held horizontally, laterally rotated, and pushed downward and backward against resistance.
-- {{hc77|linktitle}}
+- {{ linktitle('hc77') }}
   - **114: Anthony Van Dyck, Studies of a Woman Sleeping**
-    - "The mass (A) of the {{infs|linkicon}} and the *teres minor* beneath it ...
+    - "The mass (A) of the {{ linkicon('infs') }} and the *teres minor* beneath it ...
       which are outward rotators, are inactive."
   - **252: Richer Plate 21, Lateral Aspect**
-- {{infs|linktitle}}
-- {{rotator_cuff|linktitle}}
+- {{ linktitle('infs') }}
+- {{ linktitle('rotator_cuff') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Teres_minor_muscle)

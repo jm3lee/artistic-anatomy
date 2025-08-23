@@ -8,15 +8,15 @@ author: Brian Lee
 * A prominent ridge running transversely across the posterior surface.
 * Divides the [supraspinous fossa](https://en.wikipedia.org/wiki/Supraspinous_fossa) (above)
   and the [infraspinous fossa](https://en.wikipedia.org/wiki/Infraspinous_fossa) (below).
-* {{dt|linktitle}} origin
-* {{trz|linktitle}} insertion
+* {{ linktitle('dt') }} origin
+* {{ linktitle('trz') }} insertion
 
 ## Examples
 
 ## Related Muscles
 
-* {{dt|linktitle}}
-* {{trz|linktitle}}
+* {{ linktitle('dt') }}
+* {{ linktitle('trz') }}
 
 ## References
 

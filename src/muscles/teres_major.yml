@@ -5,11 +5,11 @@ icon: ":muscle:"
 status: Review Pending
 pubdate: Jun 06, 2025
 origins:
-  - "Posterior surface of inferior angle of {{scapula|linkicon}}"
-  - "Lower one‑third of lateral border of {{scapula|linkicon}}"
+  - "Posterior surface of inferior angle of {{ linkicon('scapula') }}"
+  - "Lower one‑third of lateral border of {{ linkicon('scapula') }}"
   - "Blends with the deep surface of latissimus dorsi via the thoracolumbar fascia"
 insertions:
-  - "Medial lip of intertubercular (bicipital) sulcus of {{humerus|linkicon}}"
+  - "Medial lip of intertubercular (bicipital) sulcus of {{ linkicon('humerus') }}"
 actions:
   - "Extends the shoulder"
   - "Adducts the shoulder"

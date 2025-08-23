@@ -25,5 +25,5 @@ loading="lazy"/>
 ## References
 
 * [Gastrocnemius](https://en.wikipedia.org/wiki/Gastrocnemius_muscle)
-* {{gf|linktitle}}
+* {{ linktitle('gf') }}
   * Gastrocnemius, 256–57

@@ -35,8 +35,8 @@ help describe the function of the muscle and how it contributes to movement.
 
 ## Example
 
-{{bc|linktitle}}
+{{ linktitle('bc') }}
 
-* **Origin**: The biceps brachii originates at the {{scapula|link}} (shoulder blade).
-* **Insertion**: It inserts into the {{radius|link}} (forearm bone).
-* **Action**: When the biceps contract, the insertion ({{radius|link}}) moves closer to the origin ({{scapula|link}}), bending the elbow.
+* **Origin**: The biceps brachii originates at the {{ link('scapula') }} (shoulder blade).
+* **Insertion**: It inserts into the {{ link('radius') }} (forearm bone).
+* **Action**: When the biceps contract, the insertion ({{ link('radius') }}) moves closer to the origin ({{ link('scapula') }}), bending the elbow.

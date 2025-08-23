@@ -28,12 +28,12 @@ src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/res
 alt="Raphael, The Three Graces c.1517-18"
 loading="lazy"/>
 <figcaption>
-[Raphael, The Three Graces c.1517-18](https://www.rct.uk/collection/912754/the-three-graces). See also {{hc77|linktitle}}, 50 (J).
+[Raphael, The Three Graces c.1517-18](https://www.rct.uk/collection/912754/the-three-graces). See also {{ linktitle('hc77') }}, 50 (J).
 </figcaption>
 </figure>
 
 ## References
 
-* {{hc77|linktitle}}, 40, 44, 48-49.
+* {{ linktitle('hc77') }}, 40, 44, 48-49.
   * **38**: Rubens. (A). Back view.
   * **50**: Raphael, the Three Graces, (D). 3/4 back view.

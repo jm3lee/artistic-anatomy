@@ -15,4 +15,4 @@ loading="lazy"/>
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Supraspinatus_muscle)
-* {{gf|link_icon_title}} 159
+* {{ link_icon_title('gf') }} 159

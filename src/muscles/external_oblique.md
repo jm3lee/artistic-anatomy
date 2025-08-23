@@ -32,8 +32,8 @@ to those of the external oblique. The terminology describes both position
 
 ## References
 
-- {{gf|linktitle}}, 139-140.
-- {{hc77|linktitle}}
+- {{ linktitle('gf') }}, 139-140.
+- {{ linktitle('hc77') }}
   - **22**: Raphael. (Q). Profile view. Male.<br><a href="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/257520-1587134858.webp">
 <div class="image-container">
 <img src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/resized/400x/257520-1587134858.webp" alt="" loading="lazy"/>

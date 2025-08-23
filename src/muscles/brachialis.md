@@ -26,4 +26,4 @@ JP</a>, via Wikimedia Commons
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Brachialis_muscle)
-- {{gf|linktitle}}, 166-67
+- {{ linktitle('gf') }}, 166-67

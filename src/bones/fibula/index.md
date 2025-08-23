@@ -55,7 +55,7 @@ Distal projection forming the outer ankle and attachment point for the fibular c
 ## Muscle Insertions
 
 ### Head
-* {{bfem|linktitle}}
+* {{ linktitle('bfem') }}
 
 ## References
 * [Wikipedia](https://en.wikipedia.org/wiki/Fibula)

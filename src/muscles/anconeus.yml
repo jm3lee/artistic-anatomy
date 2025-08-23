@@ -5,9 +5,9 @@ id: anc
 icon: ":muscle:"
 status: Reviewed
 origins:
-  - "Posterior aspect of lateral epicondyle of the {{humerus|linkicon}}"
+  - "Posterior aspect of lateral epicondyle of the {{ linkicon('humerus') }}"
 insertions:
-  - "Lateral surface of olecranon process and proximal posterior {{ulna|linkicon}}"
+  - "Lateral surface of olecranon process and proximal posterior {{ linkicon('ulna') }}"
 actions:
   - "Assists triceps brachii in elbow extension"
   - "Stabilizes the elbow joint"

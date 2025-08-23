@@ -200,6 +200,6 @@ clean:
 
 $(BUILD_DIR)/picasso.mk: $(YAMLS) | $(BUILD_DIR)
 	$(call status,Generate picasso rules)
-	$(Q)picasso --src $(SRC_DIR) --build $(BUILD_DIR) > $@
+	$(Q)picasso -v -l log/picasso.txt --src $(SRC_DIR) --build $(BUILD_DIR) > $@
 
 include $(BUILD_DIR)/picasso.mk

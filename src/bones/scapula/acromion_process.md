@@ -14,7 +14,7 @@
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Acromion)
-* {{gf|linktitle}}
+* {{ linktitle('gf') }}
   * Acromial angle, 19
   * Acromioclavicular joint, 46–48
   * Acromion, 19

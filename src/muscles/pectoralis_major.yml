@@ -6,11 +6,11 @@ icon: ":muscle:"
 status: Reviewed
 title: ":muscle: Pectoralis Major"
 origins:
-  - "Medial half of {{clavicle|linkicon}}"
-  - "{{sternum|linktitle}}"
+  - "Medial half of {{ linkicon('clavicle') }}"
+  - "{{ linktitle('sternum') }}"
   - "Costal cartilages of ribs 1-6 (sometimes 1-7)"
 insertions:
-  - "Crest of the greater tubercle of the humerus (lateral lip of {{bicipital_groove|linkicon}})"
+  - "Crest of the greater tubercle of the humerus (lateral lip of {{ linkicon('bicipital_groove') }})"
 actions:
   - "Flexes the shoulder (especially the clavicular head)"
   - "Adducts the shoulder"

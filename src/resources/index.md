@@ -12,7 +12,7 @@ context.**
 I'm in the process of creating one page per book with my reviews and other
 notes.
 
-- {{hc77|linktitle}}
+- {{ linktitle('hc77') }}
 
 ### 3D {{'{#3d}'}}
 

@@ -4,12 +4,12 @@ author: Brian Lee
 id: fcu
 icon: ":muscle:"
 origins:
-  - "Humeral head: medial epicondyle of the {{humerus|linkicon}} via the common flexor tendon"
-  - "Ulnar head: {{olecranon_process|linkicon}} and posterior border of the {{ulna|linkicon}}"
+  - "Humeral head: medial epicondyle of the {{ linkicon('humerus') }} via the common flexor tendon"
+  - "Ulnar head: {{ linkicon('olecranon_process') }} and posterior border of the {{ linkicon('ulna') }}"
 insertions:
   - "Pisiform bone"
   - "Hook of the hamate"
   - "Base of the 5th metacarpal"
 actions:
-  - "Wrist {{flexion|linkicon}}"
+  - "Wrist {{ linkicon('flexion') }}"
   - "Ulnar deviation (adduction) of the wrist"

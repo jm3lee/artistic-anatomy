@@ -1,6 +1,6 @@
 toc:
-  - "{{ulna|linktitle}}"
-  - - "{{coronoid_process|linktitle}}"
-  - - "{{olecranon_process|linktitle}}"
-  - - "{{radioulnar_joints|linktitle}}"
-  - - "{{ulnar_tuberosity|linktitle}}"
+  - "{{ linktitle('ulna') }}"
+  - - "{{ linktitle('coronoid_process') }}"
+  - - "{{ linktitle('olecranon_process') }}"
+  - - "{{ linktitle('radioulnar_joints') }}"
+  - - "{{ linktitle('ulnar_tuberosity') }}"

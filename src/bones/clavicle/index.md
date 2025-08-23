@@ -22,17 +22,17 @@ JP</a>, via Wikimedia Commons
 ## Bony Landmarks
 
 - Sternal End – Medial end that articulates with the sternum.
-- Acromial End – Lateral end that articulates with the {{scapula|linkicon}} at the acromioclavicular joint.
+- Acromial End – Lateral end that articulates with the {{ linkicon('scapula') }} at the acromioclavicular joint.
 - Shaft – The middle portion with a gentle S-curve.
-- Deltoid Tubercle – Rough area on the lateral third for attachment of the {{dt|linkicon}}.
+- Deltoid Tubercle – Rough area on the lateral third for attachment of the {{ linkicon('dt') }}.
 
 ## Related Muscles
 
-- {{dt|linktitle}}
-- {{pecmaj|linktitle}}
-- {{trz|linktitle}}
+- {{ linktitle('dt') }}
+- {{ linktitle('pecmaj') }}
+- {{ linktitle('trz') }}
 
 ## References
 
-* {{gf|linktitle}}, 17
+* {{ linktitle('gf') }}, 17
 * [Wikipedia](https://en.wikipedia.org/wiki/Clavicle)

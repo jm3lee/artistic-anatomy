@@ -25,13 +25,13 @@
 ## See Also
 
 - [Arm Movements](../appendix/arm-movements.html)
-- {{infraclavicular_fossa|linktitle}}
+- {{ linktitle('infraclavicular_fossa') }}
 
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Deltoid_muscle)
 * Richer, Plate 49
-* {{hc77|linktitle}}
+* {{ linktitle('hc77') }}
   * 26, 32, 106, 108, 114, 116, 118, 122-123, 126, 128, 130, 132, 134, 138, 144, 146, 148, 150, 152, 182, 250, 251, 253, 254, 255
-* {{gf|linktitle}}
+* {{ linktitle('gf') }}
   * 156–58

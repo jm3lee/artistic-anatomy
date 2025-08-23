@@ -132,5 +132,5 @@ Distal lateral articular prominence; origin site for gastrocnemius (lateral head
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Femur)
-* {{gf|linktitle}}, 32–34
+* {{ linktitle('gf') }}, 32–34
 * [Richer, Plate 26](https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate26.webp)

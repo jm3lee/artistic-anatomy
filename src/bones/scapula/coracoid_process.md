@@ -8,5 +8,5 @@
 
 ## References
 
-- {{scapula|linktitle}}
+- {{ linktitle('scapula') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Coracoid_process)

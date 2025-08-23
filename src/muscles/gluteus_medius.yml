@@ -6,7 +6,7 @@ icon: ":muscle:"
 origins:
   - "Gluteal surface of ilium between posterior and anterior gluteal lines"
 insertions:
-  - "Lateral aspect of greater trochanter of {{femur|linkicon}}"
+  - "Lateral aspect of greater trochanter of {{ linkicon('femur') }}"
 actions:
   - "Abducts the hip"
   - "Flexes the hip (anterior fibers)"

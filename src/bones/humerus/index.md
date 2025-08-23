@@ -77,54 +77,54 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 * Supinator
 
 ### Lateral supracondylar ridge
-* {{brr|linktitle}}
+* {{ linktitle('brr') }}
 * Extensor carpi radialis longus
 
 ### Anterior shaft (distal half)
-* {{brc|linktitle}}
+* {{ linktitle('brc') }}
 
 ### Posterior shaft (radial groove region)
-* {{trc|linktitle}} (lateral and medial heads)
+* {{ linktitle('trc') }} (lateral and medial heads)
 
 ### Infraglenoid Tubercle
-* {{trc|linktitle}} (long head)
+* {{ linktitle('trc') }} (long head)
 
 ## Muscle Insertions {{'{#insertion}'}}
 
 ### Greater Tubercle
 <ul>
-<li>{{infs|linktitle}}</li>
-<li>{{sups|linktitle}}</li>
-<li>{{trsmin|linktitle}}</li>
+<li>{{ linktitle('infs') }}</li>
+<li>{{ linktitle('sups') }}</li>
+<li>{{ linktitle('trsmin') }}</li>
 </ul>
 
 ### Lesser Tubercle
 <ul>
-<li>{{subscp|linktitle}}</li>
+<li>{{ linktitle('subscp') }}</li>
 </ul>
 
 ### Intertubercular (Bicipital) Groove and Crests {{'{#bicipital_groove}'}}
 <ul>
-<li>{{ld|linktitle}} – floor</li>
-<li>{{pecmaj|linktitle}} – lateral lip</li>
-<li>{{trsmaj|linktitle}} – medial lip</li>
+<li>{{ linktitle('ld') }} – floor</li>
+<li>{{ linktitle('pecmaj') }} – lateral lip</li>
+<li>{{ linktitle('trsmaj') }} – medial lip</li>
 </ul>
 
 ### Deltoid Tuberosity {{'{#deltoid_tuberosity}'}}
 <ul>
-<li>{{dt|linktitle}}</li>
+<li>{{ linktitle('dt') }}</li>
 </ul>
 
 ### Medial Shaft of Humerus
 <ul>
-<li>{{coracobrachialis|linktitle}}</li>
+<li>{{ linktitle('coracobrachialis') }}</li>
 </ul>
 
 {{translations('humerus')}}
 
 ## Notes
 
-{{subscp|linktitle}} is the only {{rotator_cuff|linktitle}} muscle that inserts on the anterior
+{{ linktitle('subscp') }} is the only {{ linktitle('rotator_cuff') }} muscle that inserts on the anterior
 surface of the humerus.
 
 ## References

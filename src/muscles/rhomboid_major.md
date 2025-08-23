@@ -17,5 +17,5 @@ title: "{{rhmaj['icon']}} {{rhmaj['name']|title}}"
 
 ## References
 
-- {{scapula|linktitle}}
+- {{ linktitle('scapula') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Rhomboid_major_muscle)

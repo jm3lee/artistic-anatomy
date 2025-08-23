@@ -5,8 +5,8 @@ icon: ":muscle:"
 status: Reviewed
 pubdate: Jul 02, 2025
 origins:
-  - "Lateral condyle of {{tibia|linkicon}}"
-  - "Proximal, lateral surface of {{tibia|linkicon}}"
+  - "Lateral condyle of {{ linkicon('tibia') }}"
+  - "Proximal, lateral surface of {{ linkicon('tibia') }}"
   - "Interosseous membrane"
 insertions:
   - "Medial cuneiform"

@@ -7,8 +7,8 @@ icon: ":muscle:"
 origins:
   - "Anterior surfaces of the 3rd to 5th ribs near their costal cartilages."
 insertions:
-  - "{{coracoid_process|linkcap}} of the scapula."
+  - "{{ linkcap('coracoid_process') }} of the scapula."
 actions:
-  - "{{scapular_protraction|linkcap}} (pulls scapula forward and downward)."
-  - "{{scapular_depression|linkcap}}."
+  - "{{ linkcap('scapular_protraction') }} (pulls scapula forward and downward)."
+  - "{{ linkcap('scapular_depression') }}."
   - "Stabilizes scapula against thoracic wall."

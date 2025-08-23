@@ -8,11 +8,11 @@ translations:
   russian: Трапециевидная мышца (капюшонная)
 origins:
   - "Occipital bone"
-  - "Spinous processes of {{spine|linkicon}}"
+  - "Spinous processes of {{ linkicon('spine') }}"
 insertions:
   - "Clavicle"
-  - "{{acromion_process|linktitle}} of scapula"
-  - "Spine of {{scapula|linktitle}}"
+  - "{{ linktitle('acromion_process') }} of scapula"
+  - "Spine of {{ linktitle('scapula') }}"
 actions:
   - "Elevation, retraction, depression & upward rotation of scapula"
   - "Neck extension & lateral flexion"

@@ -5,10 +5,10 @@ id: bc
 icon: ":muscle:"
 status: Reviewed
 origins:
-  - "Short head: Coracoid process of the {{scapula|linkicon}}"
-  - "Long head: Supraglenoid tubercle of the {{scapula|linkicon}}"
+  - "Short head: Coracoid process of the {{ linkicon('scapula') }}"
+  - "Long head: Supraglenoid tubercle of the {{ linkicon('scapula') }}"
 insertions:
-  - "{{radial_tuberosity|linkcap}} of {{radius|linkicon}}"
+  - "{{ linkcap('radial_tuberosity') }} of {{ linkicon('radius') }}"
   - "Bicipital aponeurosis"
 actions:
   - "Elbow flexion"

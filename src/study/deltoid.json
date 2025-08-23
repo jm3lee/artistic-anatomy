@@ -67,10 +67,10 @@
   {
     "q": "Which muscle helps initiate {{abduction['name']|lower}} of the shoulder before the {{dt['name']|lower}} takes over?",
     "c": [
-      "{{sups|linktitle}}",
-      "{{trc|linktitle}}",
-      "{{infs|linktitle}}",
-      "{{trsmin|linktitle}}"
+      "{{ linktitle('sups') }}",
+      "{{ linktitle('trc') }}",
+      "{{ linktitle('infs') }}",
+      "{{ linktitle('trsmin') }}"
     ],
     "a": [
       0,

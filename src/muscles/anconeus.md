@@ -28,7 +28,7 @@ loading="lazy"/>
 * Extensor carpi ulnaris (ECU)
 * Extensor digitorum (ED)
 * Flexor digitorum profundus (FDP)
-* {{trc|linktitle}}
+* {{ linktitle('trc') }}
 
 ## Relationship between triceps and anconeus
 

@@ -4,7 +4,7 @@ status: Review Pending
 id: coracobrachialis
 icon: ":muscle:"
 origins:
-  - "{{coracoid_process|linkcap}} of the scapula"
+  - "{{ linkcap('coracoid_process') }} of the scapula"
 insertions:
   - "Medial surface of mid-humeral shaft"
 actions:

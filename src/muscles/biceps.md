@@ -19,4 +19,4 @@ Supination is most powerful when the arm is flexed at 90 degrees.
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Biceps)
 * TGB 5th p95, Flashcard p21
-* {{gf|linktitle}}, 168-170.
+* {{ linktitle('gf') }}, 168-170.

@@ -32,10 +32,10 @@ loading="lazy"/>
 
 ## References
 
-- {{glenohumeral_joint|linktitle}}
-- {{rotator_cuff|linktitle}}
-- {{gf|linktitle}}, 160.
-- {{hc77|linktitle}}
+- {{ linktitle('glenohumeral_joint') }}
+- {{ linktitle('rotator_cuff') }}
+- {{ linktitle('gf') }}, 160.
+- {{ linktitle('hc77') }}
   - **108: Rubens, Study of a River God for the Four Rivers**
     - "The supraspinatus (I) and the *infraspinatus (J)* steady the head of the humerus ... and assist ... the outward rotation and abduction of the arm."
   - **110: Michelangelo, Standing Nude, Seen from the Back**

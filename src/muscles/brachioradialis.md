@@ -12,14 +12,14 @@ title: "{{brr['icon']}} {{brr['name']|title}}"
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Brachioradialis)
-* {{gf|linktitle}}, p193
+* {{ linktitle('gf') }}, p193
 * Russian Book, 40, item 3.
 * [TGB](../resources/trail-guide-to-the-body-flashcards.html) 5th p133, Flashcard p29
 
 ## Related Muscles
 
-* {{trc|linktitle}}
-* {{brc|linktitle}}
+* {{ linktitle('trc') }}
+* {{ linktitle('brc') }}
 * Extensor carpi radialis longus
 * Pronator teres
 * Flexor carpi radialis

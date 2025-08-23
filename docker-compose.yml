@@ -61,6 +61,8 @@ services:
       BASE_URL: ${BASE_URL:-http://localhost}
     volumes:
       - ./:/data
+      - ./press/app/shell/mk/build.mk:/app/mk/build.mk
+      - ./press/app/shell/py/pie/pie:/press/py/pie/pie
       - ./app/references:/app/references
       - ./src/dep.mk:/app/mk/dep.mk
 
@@ -78,6 +80,8 @@ services:
       - "${SSH_PORT:-2230}:22"
     volumes:
       - ./:/data
+      - ./press/app/shell/mk/build.mk:/app/mk/build.mk
+      - ./press/app/shell/py/pie/pie:/press/py/pie/pie
       - ./app/references:/app/references
       - ./src/dep.mk:/app/mk/dep.mk
       - ~/.ssh/id_rsa.pub:/tmp/id_rsa.pub:ro

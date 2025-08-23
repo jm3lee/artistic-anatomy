@@ -1,4 +1,4 @@
 toc:
-  - "{{radius|linktitle}}"
-  - - "{{radial_tuberosity|linktitle}}"
-  - - "{{radioulnar_joints|linktitle}}"
+  - "{{ linktitle('radius') }}"
+  - - "{{ linktitle('radial_tuberosity') }}"
+  - - "{{ linktitle('radioulnar_joints') }}"

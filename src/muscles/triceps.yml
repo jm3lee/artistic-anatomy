@@ -8,11 +8,11 @@ translations:
   french: triceps brachial
   russian: трёхглавая мышца плеча
 origins:
-  - "Long head: Infraglenoid tubercle of the {{scapula|linktitle}}"
+  - "Long head: Infraglenoid tubercle of the {{ linktitle('scapula') }}"
   - "Lateral head: Posterior humerus, above the radial groove"
   - "Medial head: Posterior humerus, below the radial groove"
 insertions:
-  - "{{olecranon_process|linkcap}} of the ulna"
+  - "{{ linkcap('olecranon_process') }} of the ulna"
 actions:
   - "Extension of the forearm at the elbow"
   - "Long head: assists in extension and adduction of the arm at the shoulder"

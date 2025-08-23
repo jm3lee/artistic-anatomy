@@ -5,8 +5,8 @@ pubdate: "May 30, 2025"
 origins:
   - "External surfaces of ribs 5–12"
 insertions:
-  - "{{linea_alba|linktitle}}"
-  - "{{pubic_tubercle|linktitle}}"
+  - "{{ linktitle('linea_alba') }}"
+  - "{{ linktitle('pubic_tubercle') }}"
   - "Anterior half of iliac crest"
 actions:
   - "Compresses abdominal contents; flexes and rotates trunk (contralateral rotation)"

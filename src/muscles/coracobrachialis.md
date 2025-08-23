@@ -42,4 +42,4 @@ loading="lazy"/>
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Coracobrachialis_muscle)
 * TGB 5th, p99; Flashcard p23
-* {{hc77|linktitle}}, 130, 140, 256.
+* {{ linktitle('hc77') }}, 130, 140, 256.

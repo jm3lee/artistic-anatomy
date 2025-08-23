@@ -7,7 +7,7 @@ icon: ":muscle:"
 origins:
   - "External surfaces of the upper 8–9 ribs"
 insertions:
-  - "Anterior (costal) surface of medial border of {{scapula|linkicon}}"
+  - "Anterior (costal) surface of medial border of {{ linkicon('scapula') }}"
 actions:
   - "Protracts (abducts) the scapula"
   - "Upward rotation of the scapula"

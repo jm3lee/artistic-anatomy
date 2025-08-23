@@ -17,5 +17,5 @@ Carter</a>, Public domain, via Wikimedia Commons
 
 ## References
 
-- {{infraclavicular_fossa|linktitle}}
+- {{ linktitle('infraclavicular_fossa') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Pectoralis_major)
