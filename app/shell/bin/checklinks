@@ -1,9 +1,0 @@
-#!/bin/bash -x
-wget \
-    --spider \
-    --recursive \
-    --no-verbose \
-    --level=3 \
-    --no-directories \
-    --hsts-file=/dev/null \
-    "$1"
