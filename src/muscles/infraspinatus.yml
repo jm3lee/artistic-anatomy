@@ -12,4 +12,5 @@ insertions:
   - "Middle facet of the greater tubercle of the humerus"
 actions:
   - "External (lateral) rotation of the shoulder"
-  - 'Shoulder stabilization as a part of {{ linkicon("rotator_cuff") }} muscle group'
+  - |
+    Shoulder stabilization as a part of {{ linkicon("rotator_cuff") }} muscle group

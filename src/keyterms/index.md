@@ -8,6 +8,7 @@ work.
 ## Terms
 
 ```{=html}
+{#
 <dl>
 {% set keyterms = read_json("build/keyterms/index.json") %}
 {% for k, v in keyterms.items() | sort %}
@@ -27,6 +28,7 @@ work.
   {% endif %}
 {% endfor %}
 </dl>
+#}
 ```
 
 ## References

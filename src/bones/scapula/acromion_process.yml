@@ -5,6 +5,8 @@ icon: ":round_pushpin:"
 status: Reviewed
 pubdate: Jul 08, 2025
 origins:
-  - '{{ linktitle("dt") }}'
+  - |
+    {{ linktitle("dt") }}
 insertions:
-  - '{{ linktitle("trz") }}'
+  - |
+    {{ linktitle("trz") }}
