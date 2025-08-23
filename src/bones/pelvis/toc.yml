@@ -1,5 +1,5 @@
 toc:
-  - "{{ linktitle('pelvis') }}"
-  - - "{{ linktitle('asis') }}"
-  - - "{{ linktitle('psis') }}"
-  - - "{{ linktitle('pubic_tubercle') }}"
+  - '{{ linktitle("pelvis") }}'
+  - - '{{ linktitle("asis") }}'
+  - - '{{ linktitle("psis") }}'
+  - - '{{ linktitle("pubic_tubercle") }}'

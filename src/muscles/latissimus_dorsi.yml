@@ -5,13 +5,13 @@ id: ld
 icon: ":muscle:"
 status: Reviewed
 origins:
-  - "Spinous processes of T6 to T12 {{ linkicon('thoracic_vertebrae') }}"
+  - 'Spinous processes of T6 to T12 {{ linkicon("thoracic_vertebrae") }}'
   - "Last three or four ribs"
   - "Thoracolumbar fascia"
   - "Posterior iliac crest"
-  - "Inferior angle of scapula; see Variable Attachment to {{ link('inferior_angle_of_scapula') }}."
+  - 'Inferior angle of scapula; see Variable Attachment to {{ link("inferior_angle_of_scapula") }}.'
 insertions:
-  - "{{ linktitle('humerus') }}, intertubercular groove"
+  - '{{ linktitle("humerus") }}, intertubercular groove'
 actions:
   - "Extends the shoulder"
   - "Adducts the shoulder"

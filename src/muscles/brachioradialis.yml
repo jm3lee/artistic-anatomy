@@ -7,7 +7,7 @@ icon: ":muscle:"
 translations:
   russian: Плече-лучевая мышца
 origins:
-  - "Proximal two-thirds of the lateral supracondylar ridge of {{ linkicon('humerus') }}"
+  - 'Proximal two-thirds of the lateral supracondylar ridge of {{ linkicon("humerus") }}'
 insertions:
   - "Styloid processs of radius"
 actions:
