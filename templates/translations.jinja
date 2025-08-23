@@ -1,7 +1,7 @@
 {% macro translations(name) %}
 ## Translations
 ```{=html}
-{% for k, v in get_translations(name) -%}
+{% for k, v in get_desc(name)["translations"].items() -%}
     {% if v is mapping -%}
         <h3>{{render_jinja(k)|title}}</h3>
         <dl>
