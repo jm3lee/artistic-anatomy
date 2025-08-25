@@ -84,7 +84,7 @@ build/static/index/muscles-indextree.json: $(MUSCLE_YAMLS) | build/static/index
 	indextree-json src/muscles > $@
 
 build/static/index/tendons-indextree.json: $(TENDON_YAMLS) | build/static/index
-	(indextree-json -t tendon src; indextree-json -t ligament src) > $@
+	indextree-json -t tendon src/tendons > $@
 
 build/static/index/landmarks-indextree.json: $(LANDMARK_YAMLS) | build/static/index
 	indextree-json -t landmark src > $@
