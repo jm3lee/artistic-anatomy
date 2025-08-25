@@ -9,6 +9,11 @@ body {
   padding-top: calc(56px + env(safe-area-inset-top));
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Quiz */
 .quiz-container {
   max-width: 600px;
