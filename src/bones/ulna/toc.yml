@@ -1,7 +1,0 @@
-toc:
-  - '{{ linktitle("ulna") }}'
-  - - '{{ linktitle("coronoid_process") }}'
-  - - '{{ linktitle("olecranon_process") }}'
-  - - '{{ linktitle("radioulnar_joints") }}'
-  - - '{{ linktitle("ulnar_tuberosity") }}'
-title: Ulna Table of Contents
