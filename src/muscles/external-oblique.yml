@@ -2,6 +2,7 @@ actions:
 - Compresses abdominal contents; flexes and rotates trunk (contralateral rotation)
 author: Brian Lee
 icon: ':muscle:'
+id: extobl
 insertions:
 - '{{ linktitle("linea_alba") }}'
 - '{{ linktitle("pubic_tubercle") }}'
