@@ -2,6 +2,7 @@
 author: Brian Lee
 pubdate: Aug 25, 2025
 url: /muscles/teres-major-minor-insertion.html
+title: Teres Major and Minor Insertion
 ---
 ## Relative Positions of Teres Major and Minor Insertions
 
