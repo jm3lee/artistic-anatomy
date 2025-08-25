@@ -76,6 +76,7 @@ VPATH := $(SRC_DIR)
 # Find all Markdown files excluding specified directories
 MARKDOWNS := $(shell find $(SRC_DIR)/ -name '*.md')
 YAMLS := $(shell find $(SRC_DIR) -name "*.yml")
+BUILD_YAMLS := $(patsubst $(SRC_DIR)/%,$(BUILD_DIR)/%,$(YAMLS))
 
 # Define the corresponding HTML and PDF output files
 HTMLS := $(patsubst $(SRC_DIR)/%.md, $(BUILD_DIR)/%.html, $(MARKDOWNS))
@@ -122,6 +123,11 @@ $(BUILD_DIR)/.update-index: $(MARKDOWNS) $(YAMLS)
 	$(Q)update-index --host $(REDIS_HOST) --port $(REDIS_PORT) src
 	$(Q)touch $@
 
+$(BUILD_DIR)/.process-yamls: $(BUILD_YAMLS) | $(BUILD_DIR)
+	$(call status,Process YAML metadata)
+	$(Q)find $(BUILD_DIR) -name '*.yml' -print0 | xargs -0 process-yaml
+	$(Q)touch $@
+
 # Target to minify HTML and CSS files
 # Modifies file timestamps. The preserve option doesn't seem to work.
 # No touch at the end. Minify should always execute.
@@ -137,20 +143,8 @@ test: $(BUILD_DIR)/.minify check | $(LOG_DIR)
 
 .PHONY: check
 check:
-	$(call status,Check metadata authors)
-	$(Q)check-author $(SRC_DIR)
-	$(call status,Check for bad MathJax)
-	$(Q)check-bad-mathjax $(SRC_DIR)
-	$(call status,Check for unescaped dollar signs)
-	$(Q)check-unescaped-dollar $(SRC_DIR)
-	$(call status,Check page titles)
-	$(Q)check-page-title -x $(CFG_DIR)/check-page-title-exclude.yml $(BUILD_DIR)
-	$(call status,Check post-build artifacts)
-	$(Q)check-post-build -c $(CFG_DIR)/check-post-build.yml
-	$(call status,Check for unexpanded Jinja)
-	$(Q)check-unexpanded-jinja $(BUILD_DIR)
-	$(call status,Check for URL underscores)
-	$(Q)check-underscores $(BUILD_DIR)
+	$(call status,Run checks)
+	$(Q)check-all
 
 # Create necessary build directories
 $(BUILD_DIR): | $(BUILD_SUBDIRS)

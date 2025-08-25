@@ -35,6 +35,9 @@ else
 Q := @
 endif
 
+# Git version for cache busting
+BUILD_VER := $(shell git rev-parse --short HEAD)
+
 # Helper to print status messages
 status = @echo "==> $(1)"
 
@@ -46,11 +49,16 @@ status = @echo "==> $(1)"
 all: ## Build the site using the builder service
 	$(call status,Build site)
 	$(Q)$(DOCKER_COMPOSE) up -d dragonfly builder
-	$(Q)$(SSH_MAKE) VERBOSE=$(VERBOSE) SRC_DIR=$(SRC_DIR) BUILD_DIR=$(BUILD_DIR)
+	$(Q)$(SSH_MAKE) VERBOSE=$(VERBOSE) SRC_DIR=$(SRC_DIR) BUILD_DIR=$(BUILD_DIR) BUILD_VER=$(BUILD_VER)
 
 $(BUILD_DIR): ## Helper target used by other rules
 	$(call status,Prepare build directory $@)
 	$(Q)mkdir -p $@
+
+# Generate SVG diagrams from Mermaid source files
+$(BUILD_DIR)/%.svg: $(SRC_DIR)/%.mmd | $(dir $(BUILD_DIR)/%.svg)
+	$(call status,Render Mermaid $<)
+	$(Q)$(COMPOSE_RUN) -u `id -u` mermaid -i $< -o $@
 
 # Docker-related targets
 # Initialize Docker authentication and build the Nginx image
