@@ -1,5 +1,6 @@
 ---
 title: Hammer Curl
+author: Brian Lee
 ---
 
 🤖

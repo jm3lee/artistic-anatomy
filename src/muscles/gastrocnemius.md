@@ -1,5 +1,6 @@
 ---
-title: "Gastrocnemius"
+title: Gastrocnemius
+author: Brian Lee
 ---
 
 The **gastrocnemius**, or calf muscle, is an important muscle for artists to

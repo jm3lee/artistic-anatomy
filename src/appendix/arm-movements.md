@@ -1,5 +1,6 @@
 ---
 title: Arm Movements
+author: Brian Lee
 ---
 
 ## Artistic Anatomy by Paul Richer

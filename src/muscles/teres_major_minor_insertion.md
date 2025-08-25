@@ -1,3 +1,6 @@
+---
+author: Brian Lee
+---
 ## Relative Positions of Teres Major and Minor Insertions
 
 {{ linkcap('trsmaj') }} attaches just behind and above on the greater

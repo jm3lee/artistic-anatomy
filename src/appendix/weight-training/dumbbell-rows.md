@@ -1,5 +1,6 @@
 ---
 title: Dumbbell Rows
+author: Brian Lee
 ---
 
 ## Active Muscles

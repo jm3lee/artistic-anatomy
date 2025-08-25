@@ -1,5 +1,6 @@
 ---
-title: "Tensor Fasciae Latae"
+title: Tensor Fasciae Latae
+author: Brian Lee
 ---
 
 ## Examples

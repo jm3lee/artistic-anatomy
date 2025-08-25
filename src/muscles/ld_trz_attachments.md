@@ -1,3 +1,6 @@
+---
+author: Brian Lee
+---
 ## Latissimus Dorsi and Trapezius Attachments
 
 | V | LD | TRZ |

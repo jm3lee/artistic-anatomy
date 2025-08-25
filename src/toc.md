@@ -1,5 +1,5 @@
 ---
-author: ''
+author: Brian Lee
 citation: table of contents
 id: toc
 pubdate: Aug 25, 2025
