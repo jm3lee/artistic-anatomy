@@ -1,7 +1,3 @@
----
-title: Iliotibial (IT) Band
----
-
 ## Examples
 
 ## References
