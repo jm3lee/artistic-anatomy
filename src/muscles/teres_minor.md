@@ -38,7 +38,7 @@ and pushed downward and backward against resistance.
 One of the {{ linkicon('rotator_cuff') }} muscles.
 
 ```python
-#include('build/muscles/teres_major_minor_insertion.md')
+include('build/muscles/teres_major_minor_insertion.md')
 ```
 
 ## References

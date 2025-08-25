@@ -9,8 +9,7 @@ id: trsmin
 insertions:
 - Inferior facet of the greater tubercle of the {{ linkicon("humerus") }}
 origins:
-- "Upper two\u2011thirds of the lateral (axillary) border of the {{ linkicon(\"scapula\"\
-  ) }}"
+- Upper two thirds of the lateral (axillary) border of the {{ linkicon("scapula") }}
 pubdate: Aug 25, 2025
 status: Review Pending
 translations:

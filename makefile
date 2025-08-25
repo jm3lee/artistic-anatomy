@@ -50,13 +50,13 @@ PANDOC_TEMPLATE := $(SRC_DIR)/pandoc-template.html
 
 # Options for generating HTML output with Pandoc
 PANDOC_OPTS := \
-        --css '/css/style.css' \
-        --standalone \
-        -t html \
-        --toc \
-        --toc-depth=2 \
-        --filter pandoc-crossref \
-        --mathjax \
+	--css '/css/style.css?v=$(BUILD_VER)' \
+	--standalone \
+	-t html \
+	--toc \
+	--toc-depth=2 \
+	--filter pandoc-crossref \
+	--mathjax \
 
 # Options for generating PDF output with Pandoc
 PANDOC_OPTS_PDF := \
