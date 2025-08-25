@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    // output into search-ui/dist
-    outDir: '../build/static/js',
+    // output into build/static/js
+    outDir: '../../build/static/js',
     rollupOptions: {
       output: {
         // no hashes—always `bundle.js`
