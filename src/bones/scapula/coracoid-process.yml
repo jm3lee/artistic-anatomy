@@ -1,0 +1,14 @@
+author: Brian Lee
+icon: ':round_pushpin:'
+insertions:
+- '{{ linktitle("pecmin") }}'
+origins:
+- '{{ linktitle("coracobrachialis") }}'
+- '{{ linktitle("bc") }} (short head)'
+id: coracoid_process
+pubdate: Aug 25, 2025
+status: Reviewed
+title: Coracoid Process
+tags:
+- landmark
+url: /bones/scapula/coracoid-process.html

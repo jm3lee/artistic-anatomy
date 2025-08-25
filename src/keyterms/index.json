@@ -1,11 +1,11 @@
 {
   "abduction": {
     "term": "Abduction",
-    "def": "Movement of a limb or body part away from the midline.<br>Opposite: {{adduction|linktitle}}."
+    "def": "Movement of a limb or body part away from the midline.<br>Opposite: {{ linktitle('adduction') }}."
   },
   "adduction": {
     "term": "Adduction",
-    "def": "Movement of a limb or body part toward the midline.<br>Opposite: {{abduction|linktitle}}."
+    "def": "Movement of a limb or body part toward the midline.<br>Opposite: {{ linktitle('abduction') }}."
   },
   "anterior": {
     "term": "Anterior",
@@ -17,25 +17,25 @@
   },
   "extension": {
     "term": "Extension",
-    "def": "Increases the angle between two bones, moving a segment away from the neutral position.<br>Opposite: {{flexion|linktitle}}."
+    "def": "Increases the angle between two bones, moving a segment away from the neutral position.<br>Opposite: {{ linktitle('flexion') }}."
   },
   "epicondyle": {
     "term": "Epicondyle",
     "def": "A bony prominence on the distal end of a long bone, typically serving as an attachment point for muscles and ligaments.",
     "ex": [
-      "{{humerus|linktitle}}: medial and lateral epicondyle",
-      "{{femur|linktitle}}: medial and lateral epicondyle"
+      "{{ linktitle('humerus') }}: medial and lateral epicondyle",
+      "{{ linktitle('femur') }}: medial and lateral epicondyle"
     ]
   },
   "flexion": {
     "term": "Flexion",
-    "def": "Decreases the angle between two bones in the {{sagittal|linkicon}} plane (for example, bending the elbow).<br>Opposite: {{extension|linktitle}}."
+    "def": "Decreases the angle between two bones in the {{ linkicon('sagittal') }} plane (for example, bending the elbow).<br>Opposite: {{ linktitle('extension') }}."
   },
   "fossa": {
     "term": "Fossa",
     "def": "A hollow or depression in the surface of a bone.",
     "ex": [
-      "{{infraclavicular_fossa|linktitle}}"
+      "{{ linktitle('infraclavicular_fossa') }}"
     ]
   },
   "inferior": {

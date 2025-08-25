@@ -1,5 +1,5 @@
 ---
-title: "{{trc['icon']}} {{trc['name']|title}}"
+title: "{{get_desc('trc')['icon']}} {{get_desc('trc')['title']|title}}"
 ---
 
 {% from "templates/translations.jinja" import translations %}
@@ -43,17 +43,17 @@ loading="lazy"/>
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Triceps)
-* {{gf|linktitle}}, 172-175.
-* {{hc77|linktitle}}, 80, 112, 122, 138, 140, 144, 146, 148-149, 150-151, 152, 182, 253, 254, 255, 256.
+* {{ linktitle('gf') }}, 172-175.
+* {{ linktitle('hc77') }}, 80, 112, 122, 138, 140, 144, 146, 148-149, 150-151, 152, 182, 253, 254, 255, 256.
 
 ## Related Muscles
 
-* {{anc|linktitle}}
+* {{ linktitle('anc') }}
   The **triceps brachii** and **anconeus** are muscles that work together to straighten the elbow.
   * The **triceps** is the bigger muscle with three parts and does most of the work to extend the arm.
   * The **anconeus** is a smaller helper muscle near the elbow. It assists the triceps and helps stabilize the joint during movement.
 
   They are closely connected and often work as a team for elbow extension and stability.
-* {{trsmaj|linktitle}}
-* {{trsmin|linktitle}}
-* {{ld|linktitle}}
+* {{ linktitle('trsmaj') }}
+* {{ linktitle('trsmin') }}
+* {{ linktitle('ld') }}

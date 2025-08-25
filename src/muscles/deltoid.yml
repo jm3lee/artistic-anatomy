@@ -1,20 +1,20 @@
-title: ":muscle: Deltoid"
-name: Deltoid
-author: Brian Lee
-id: dt
-icon: ":muscle:"
-status: Reviewed
-pubdate: Jul 08, 2025
-origins:
-  - "Lateral third of the {{clavicle|link}} ({{anterior|link}} fibers)"
-  - "{{acromion_process|linkcap}} of the {{scapula|linkicon}} (middle fibers)"
-  - "Spine of the {{scapula|linkicon}} ({{posterior|link}} fibers)"
-insertions:
-  - "{{deltoid_tuberosity|linkcap}} of the {{humerus|linkicon}}"
 actions:
-  - "Shoulder {{abduction|link}} (middle fibers)"
-  - "Shoulder {{flexion|link}} & {{medial|link}} rotation (anterior fibers)"
-  - "Shoulder {{extension|link}} & {{lateral|link}} rotation (posterior fibers)"
+- Shoulder {{ link("abduction") }} (middle fibers)
+- Shoulder {{ link("flexion") }} & {{ link("medial") }} rotation (anterior fibers)
+- Shoulder {{ link("extension") }} & {{ link("lateral") }} rotation (posterior fibers)
+author: Brian Lee
+icon: ':muscle:'
+id: dt
+insertions:
+- '{{ linkcap("deltoid_tuberosity") }} of the {{ linkicon("humerus") }}'
+origins:
+- Lateral third of the {{ link("clavicle") }} ({{ link("anterior") }} fibers)
+- '{{ linkcap("acromion_process") }} of the {{ linkicon("scapula") }} (middle fibers)'
+- Spine of the {{ linkicon("scapula") }} ({{ link("posterior") }} fibers)
+pubdate: Aug 25, 2025
+status: Reviewed
+title: Deltoid
 translations:
-  french: deltoïde
-  russian: дельтовидная мышца
+  french: "delto\xEFde"
+  russian: "\u0434\u0435\u043B\u044C\u0442\u043E\u0432\u0438\u0434\u043D\u0430\u044F\
+    \ \u043C\u044B\u0448\u0446\u0430"

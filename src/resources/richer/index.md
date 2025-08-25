@@ -1,5 +1,5 @@
 ---
-title: ":closed_book: Artistic Anatomy by Paul Richer"
+title: "Artistic Anatomy by Paul Richer"
 author: Brian Lee
 ---
 

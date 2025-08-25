@@ -7,7 +7,7 @@ author: Brian Lee
 1. Adductor Longus
 1. Adductor Magnus
 1. Biceps Femoris
-1. {{brc|linktitle}}
+1. {{ linktitle('brc') }}
 1. Brachioradialis
 1. Coracobrachialis
 1. Deltoid

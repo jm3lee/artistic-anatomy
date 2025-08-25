@@ -107,4 +107,4 @@ With these comprehensive lists, you cover all common anatomical movements and jo
 
 ## References
 
-- {{anaplanes|linktitle}}
+- {{ linktitle('anaplanes') }}

@@ -1,5 +1,6 @@
 ---
-title: 📓Bony Landmarks
+title: Bony Landmarks
+author: Brian Lee
 ---
 
 [🤖 AI Generated](../background/icons.html)
@@ -81,7 +82,7 @@ title: 📓Bony Landmarks
   * Tibial tuberosity (front bump below the kneecap)
   * Medial malleolus (inner ankle)
 * Fibula:
-  * {{lateral_malleolus|linktitle}} (outer ankle)
+  * {{ linktitle('lateral_malleolus') }} (outer ankle)
 
 ## Hands
 

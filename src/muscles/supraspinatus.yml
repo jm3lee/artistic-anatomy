@@ -1,13 +1,15 @@
-id: sups
-author: Brian Lee
-status: Review Pending
-name: Supraspinatus
-url: /muscles/supraspinatus.html
-icon: ":muscle:"
-origins:
-  - "Supraspinous fossa of the scapula"
-insertions:
-  - "Superior facet of the greater tubercle of the {{humerus_insertion|linkicon}}"
 actions:
-  - "Initiation of shoulder abduction (first ~15°)"
-  - "Stabilization of the glenohumeral joint; see {{rotator_cuff|linkicon}}"
+- "Initiation of shoulder abduction (first ~15\xB0)"
+- 'Stabilization of the glenohumeral joint; see {{ linkicon("rotator_cuff") }}
+
+  '
+author: Brian Lee
+icon: ':muscle:'
+id: sups
+insertions:
+- Superior facet of the greater tubercle of the {{ linkicon("humerus_insertion") }}
+origins:
+- Supraspinous fossa of the scapula
+pubdate: Aug 25, 2025
+status: Review Pending
+title: Supraspinatus

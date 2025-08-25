@@ -1,5 +1,6 @@
 ---
 title: Icons
+author: Brian Lee
 ---
 
 This book is for artists, and naturally, we use icons! See below for what each

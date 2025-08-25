@@ -1,5 +1,6 @@
 ---
-title: Strength Training Anatomy by Frédéric Delavier
+title: "Strength Training Anatomy by Fr\xE9d\xE9ric Delavier"
+author: Brian Lee
 ---
 
 Delavier was trained in the French academic style, and his book covers a wide

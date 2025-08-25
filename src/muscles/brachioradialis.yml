@@ -1,15 +1,17 @@
-name: Brachioradialis
-status: Review Pending
-author: Brian Lee
-pubdate: May 10, 2025
-id: brr
-icon: ":muscle:"
-translations:
-  russian: Плече-лучевая мышца
-origins:
-  - "Proximal two-thirds of the lateral supracondylar ridge of {{humerus|linkicon}}"
-insertions:
-  - "Styloid processs of radius"
 actions:
-  - "Elbow flexion"
-  - "Assists pronation ands upination of the forearm when movements are resisted"
+- Elbow flexion
+- Assists pronation ands upination of the forearm when movements are resisted
+author: Brian Lee
+icon: ':muscle:'
+id: brr
+insertions:
+- Styloid processs of radius
+origins:
+- Proximal two-thirds of the lateral supracondylar ridge of {{ linkicon("humerus")
+  }}
+pubdate: Aug 25, 2025
+status: Review Pending
+translations:
+  russian: "\u041F\u043B\u0435\u0447\u0435-\u043B\u0443\u0447\u0435\u0432\u0430\u044F\
+    \ \u043C\u044B\u0448\u0446\u0430"
+title: Brachioradialis

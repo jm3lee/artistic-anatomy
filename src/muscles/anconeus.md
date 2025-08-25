@@ -1,5 +1,5 @@
 ---
-title: "{{anc['icon']}} {{anc['name']|title}}"
+title: "{{get_desc('anc')['icon']}} {{get_desc('anc')['title']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}
@@ -28,7 +28,7 @@ loading="lazy"/>
 * Extensor carpi ulnaris (ECU)
 * Extensor digitorum (ED)
 * Flexor digitorum profundus (FDP)
-* {{trc|linktitle}}
+* {{ linktitle('trc') }}
 
 ## Relationship between triceps and anconeus
 

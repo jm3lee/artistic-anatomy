@@ -1,18 +1,20 @@
-name: Trapezius
-status: Review Pending
-author: Brian Lee
-id: trz
-icon: ":muscle:"
-pubdate: Jun 06, 2025
-translations:
-  russian: Трапециевидная мышца (капюшонная)
-origins:
-  - "Occipital bone"
-  - "Spinous processes of {{spine|linkicon}}"
-insertions:
-  - "Clavicle"
-  - "{{acromion_process|linktitle}} of scapula"
-  - "Spine of {{scapula|linktitle}}"
 actions:
-  - "Elevation, retraction, depression & upward rotation of scapula"
-  - "Neck extension & lateral flexion"
+- Elevation, retraction, depression & upward rotation of scapula
+- Neck extension & lateral flexion
+author: Brian Lee
+icon: ':muscle:'
+id: trz
+insertions:
+- Clavicle
+- '{{ linktitle("acromion_process") }} of scapula'
+- Spine of {{ linktitle("scapula") }}
+origins:
+- Occipital bone
+- Spinous processes of {{ linkicon("spine") }}
+pubdate: Aug 25, 2025
+status: Review Pending
+translations:
+  russian: "\u0422\u0440\u0430\u043F\u0435\u0446\u0438\u0435\u0432\u0438\u0434\u043D\
+    \u0430\u044F \u043C\u044B\u0448\u0446\u0430 (\u043A\u0430\u043F\u044E\u0448\u043E\
+    \u043D\u043D\u0430\u044F)"
+title: Trapezius

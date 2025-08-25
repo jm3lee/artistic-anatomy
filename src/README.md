@@ -1,3 +1,6 @@
+---
+author: Brian Lee
+---
 `alias r='make -f redo.mk'`
 
 To start a local nginx to view pandoc output, run

@@ -9,7 +9,7 @@ author: Brian Lee
 
 | Action         | Plane/Axis             | Main Muscles                                      | Typical ROM      |
 |----------------|------------------------|---------------------------------------------------|------------------|
-| **Flexion**    | Sagittal / medial–lateral | Hamstrings, gastrocnemius, {{sartorius|linktitle}}, popliteus  | 0 → 135°         |
+| **Flexion**    | Sagittal / medial–lateral | Hamstrings, gastrocnemius, {{ linktitle('sartorius') }}, popliteus  | 0 → 135°         |
 | **Extension**  | Sagittal / medial–lateral | Quadriceps                                      | 135° → 0° (→5° hyperextension) |
 
 ## Knee Flexion  

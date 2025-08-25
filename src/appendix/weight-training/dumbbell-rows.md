@@ -1,18 +1,19 @@
 ---
-title: 🏋️ Dumbbell Rows
+title: Dumbbell Rows
+author: Brian Lee
 ---
 
 ## Active Muscles
 
-1. {{bc|linktitle}}
-1. {{brc|linktitle}}
-1. {{brr|linktitle}}
-1. {{dt|linktitle}} (posterior fibers)
-1. {{ld|linktitle}}
-1. {{rhmaj|linktitle}}
-1. {{rhmin|linktitle}}
-1. {{trsmaj|linktitle}}
-1. {{trz|linktitle}}
+1. {{ linktitle('bc') }}
+1. {{ linktitle('brc') }}
+1. {{ linktitle('brr') }}
+1. {{ linktitle('dt') }} (posterior fibers)
+1. {{ linktitle('ld') }}
+1. {{ linktitle('rhmaj') }}
+1. {{ linktitle('rhmin') }}
+1. {{ linktitle('trsmaj') }}
+1. {{ linktitle('trz') }}
 
 ## References
 

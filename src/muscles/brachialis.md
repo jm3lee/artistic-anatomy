@@ -1,5 +1,5 @@
 ---
-title: "{{brc['icon']}} {{brc['name']|title}}"
+title: "{{get_desc('brc')['icon']}} {{get_desc('brc')['title']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}
@@ -26,4 +26,4 @@ JP</a>, via Wikimedia Commons
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Brachialis_muscle)
-- {{gf|linktitle}}, 166-67
+- {{ linktitle('gf') }}, 166-67

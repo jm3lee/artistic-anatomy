@@ -1,5 +1,6 @@
 ---
-title: 📓Warm Areas
+title: Warm Areas
+author: Brian Lee
 ---
 
 [🤖 AI Generated](../background/icons.html)

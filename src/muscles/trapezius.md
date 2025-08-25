@@ -1,5 +1,5 @@
 ---
-title: "{{trz['icon']}} {{trz['name']|title}}"
+title: "{{get_desc('trz')['icon']}} {{get_desc('trz')['title']|title}}"
 ---
 
 {% from "templates/translations.jinja" import translations %}
@@ -30,18 +30,18 @@ Richer, Plate 54
 {{translations('trz')}}
 
 ```python
-include("src/muscles/ld_trz_attachments.mdi")
+include("build/muscles/ld-trz-attachments.md")
 ```
 
 ## See also
 
-* {{dt|linktitle}}
+* {{ linktitle('dt') }}
 
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Trapezius)
-* {{gf|linktitle}}, 148-150.
-* {{hc77|linktitle}}
+* {{ linktitle('gf') }}, 148-150.
+* {{ linktitle('hc77') }}
   * **20**: Raphael. The left arm activates trapezius and other related muscles.  
     <img class="thumbnail inline-block" src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/ue8qfowmfep6nvqsq3gn.webp"
 alt="Raphael, Three Standing Men, c. 1514–16" loading="lazy"/>

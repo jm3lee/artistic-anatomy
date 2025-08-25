@@ -1,8 +1,7 @@
-title: ":bone: Pelvis"
-status: Review Pending
-name: Pelvis
-icon: ":bone:"
 author: Brian Lee
-pubdate: May 30, 2025
-url: /bones/pelvis/
+icon: ':bone:'
 id: pelvis
+pubdate: Aug 25, 2025
+status: Review Pending
+title: Pelvis
+url: /bones/pelvis/

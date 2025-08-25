@@ -1,5 +1,6 @@
 ---
-title: 📓Warm and Cool
+title: Warm and Cool
+author: Brian Lee
 ---
 
 [Bony Landmarks ](bony-landmarks.html) are rendered cool.

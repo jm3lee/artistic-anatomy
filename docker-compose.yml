@@ -2,26 +2,26 @@ services:
   nginx:
     build:
       context: .
-      dockerfile: app/nginx/Dockerfile
-    ports:
-      - "80:80"
-      - "443:443"
+      dockerfile: ./app/nginx/Dockerfile
+      args:
+        NGINX_CONF: app/nginx/prod.conf
     restart: unless-stopped
 
+  # No ports are exposed so we can use a private instance to check for broken
+  # links. All scripts are executed within a container.
+  nginx-test:
+    build:
+      context: .
+      dockerfile: ./app/nginx/Dockerfile
+
   nginx-dev:
-    image: press-nginx-dev
+    build:
+      context: .
+      dockerfile: ./app/nginx/Dockerfile
     ports:
       - "80:80"
-      - "443:443"
     volumes:
-      # Mount your HTML files. Adjust path to match how your config is set up.
       - ./build:/usr/share/nginx/html
-
-      # Mount your custom NGINX config as /etc/nginx/conf.d/default.conf
-      # - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-
-      # If you're using certbot or any Let's Encrypt management inside/outside the container
-      # - /etc/letsencrypt:/etc/letsencrypt
     restart: unless-stopped
 
   sync:
@@ -40,19 +40,35 @@ services:
     image: press-webp
     entrypoint: ["/app/bin/service"]
     volumes:
-      - /home/brian/Downloads/webp:/app/input
-      - ./staging:/app/output
-      - ./log:/app/log
+      - ./app/webp/input:/app/input
+      - ./app/webp/output:/app/output
+      - ../log:/app/log
+
+  mermaid:
+    image: minlag/mermaid-cli
+    container_name: press-mermaid
+    volumes:
+      - ./:/data
+
+  # Default port is 6379. Not exposed to the host to avoid port conflicts.
+  # You can run redis-cli within this container.
+  #   docker compose exec dragonfly redis-cli
+  dragonfly:
+    image: docker.dragonflydb.io/dragonflydb/dragonfly
 
   shell:
-    image: press-shell
+    image: press-release
+    working_dir: /data
     entrypoint: ["bash"]
     environment:
       OPENAI_API_KEY: "${OPENAI_API_KEY}"
+      REDIS_HOST: dragonfly
+      REDIS_PORT: 6379
+      TEST_HOST_URL: ${TEST_HOST_URL:-http://nginx-test}
+      BASE_URL: ${BASE_URL:-https://anatomybook.art}
     volumes:
       - ./:/data
-      - ./app/shell/bin:/app/bin
-      - ./app/shell/mk:/app/mk
-      - ./app/shell/py/pie:/press/py/pie
-      - ./dep.mk:/app/mk/dep.mk
-      - ./app/references/:/app/references
+      - ./press/app/shell/bin:/app/bin
+      - ./press/app/shell/py/pie/pie:/press/py/pie/pie
+      - ./app/shell/py/pie/tests:/press/py/pie/tests
+      - ./app/references:/app/references

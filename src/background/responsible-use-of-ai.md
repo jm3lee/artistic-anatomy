@@ -1,5 +1,6 @@
 ---
-title: ℹ️ Reponsible Use of Artificial Intelligence (AI)
+title: Reponsible Use of Artificial Intelligence (AI)
+author: Brian Lee
 ---
 
 This book was created with the help of artificial intelligence (AI) to make

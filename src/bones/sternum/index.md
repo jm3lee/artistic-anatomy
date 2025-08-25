@@ -29,8 +29,8 @@ and serves as a reference plane for the chest muscles.
 ### Origins
 
 <ol>
-<li>{{pecmaj|linktitle}} (sternocostal head): Anterior surface of the sternum</li>
-<li>{{scm|linktitle}}: Manubrium of the sternum (sternal head)</li>
+<li>{{ linktitle('pecmaj') }} (sternocostal head): Anterior surface of the sternum</li>
+<li>{{ linktitle('scm') }}: Manubrium of the sternum (sternal head)</li>
 </ol>
 
 Other deep muscles also originate from the sternum, but they are typically not
