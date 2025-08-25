@@ -1,3 +1,5 @@
+include app/indextree/dep.mk
+
 build/study/%.html: build/study/%.md build/style-social.css | build
 	$(PANDOC_CMD) \
 		--css '/style-social.css' \

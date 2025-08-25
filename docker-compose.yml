@@ -57,7 +57,7 @@ services:
     image: docker.dragonflydb.io/dragonflydb/dragonfly
 
   shell:
-    image: press-shell
+    image: press-release
     working_dir: /data
     entrypoint: ["bash"]
     environment:
