@@ -7,8 +7,7 @@ id: fcr
 insertions:
 - Base of the second and third metacarpals
 origins:
-- Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }} via the common
-  flexor tendon
+- 'Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }} via the common flexor tendon'
 pubdate: Aug 25, 2025
 status: Reviewed
 title: Flexor Carpi Radialis

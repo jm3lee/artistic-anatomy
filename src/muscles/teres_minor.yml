@@ -1,15 +1,17 @@
 actions:
 - External (lateral) rotation of the humerus
 - Weak adduction of the humerus
-- Assists in stabilizing the {{ linkicon("glenohumeral_joint") }} as part of the rotator
-  cuff
+- |
+  Assists in stabilizing the {{ linkicon("glenohumeral_joint") }} as part of the rotator cuff
 author: Brian Lee
 icon: ':muscle:'
 id: trsmin
 insertions:
-- Inferior facet of the greater tubercle of the {{ linkicon("humerus") }}
+- |
+  Inferior facet of the greater tubercle of the {{ linkicon("humerus") }}
 origins:
-- Upper two thirds of the lateral (axillary) border of the {{ linkicon("scapula") }}
+- |
+  Upper two thirds of the lateral (axillary) border of the {{ linkicon("scapula") }}
 pubdate: Aug 25, 2025
 status: Review Pending
 translations:
