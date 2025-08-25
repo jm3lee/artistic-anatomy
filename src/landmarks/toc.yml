@@ -1,0 +1,6 @@
+author: ''
+title: Landmarks Table of Contents
+toc:
+  - "{{ linktitle('infraclavicular_fossa') }}"
+indextree:
+  show: false
