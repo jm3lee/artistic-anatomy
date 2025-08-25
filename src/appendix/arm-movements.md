@@ -1,5 +1,5 @@
 ---
-title: 📓Arm Movements
+title: Arm Movements
 ---
 
 ## Artistic Anatomy by Paul Richer

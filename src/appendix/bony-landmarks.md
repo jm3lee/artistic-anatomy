@@ -1,5 +1,5 @@
 ---
-title: 📓Bony Landmarks
+title: Bony Landmarks
 ---
 
 [🤖 AI Generated](../background/icons.html)

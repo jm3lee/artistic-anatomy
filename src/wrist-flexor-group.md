@@ -1,5 +1,5 @@
 ---
-title: 📓 Wrist Flexor Group
+title: Wrist Flexor Group
 ---
 
 [🤖 AI-Generated](../background/icons.html)

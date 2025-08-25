@@ -1,5 +1,5 @@
 ---
-title: ":notebook: Elbow Flexors"
+title: "Elbow Flexors"
 author: Brian Lee
 id: elbow_flexors
 citation: elbow flexors

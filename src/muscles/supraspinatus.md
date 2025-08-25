@@ -1,5 +1,5 @@
 ---
-title: ":muscle: Supraspinatus"
+title: "Supraspinatus"
 ---
 
 [:man: Reviewed](../background/icons.md)

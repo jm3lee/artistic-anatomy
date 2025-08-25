@@ -4,7 +4,7 @@ id: pecmaj
 pubdate: Jul 04, 2025
 icon: ":muscle:"
 status: Reviewed
-title: ":muscle: Pectoralis Major"
+title: "Pectoralis Major"
 origins:
   - 'Medial half of {{ linkicon("clavicle") }}'
   - '{{ linktitle("sternum") }}'

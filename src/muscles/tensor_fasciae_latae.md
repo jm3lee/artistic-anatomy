@@ -1,5 +1,5 @@
 ---
-title: ":muscle: Tensor Fasciae Latae"
+title: "Tensor Fasciae Latae"
 ---
 
 ## Examples

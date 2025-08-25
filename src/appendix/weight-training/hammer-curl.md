@@ -1,5 +1,5 @@
 ---
-title: 🏋️Hammer Curl
+title: Hammer Curl
 ---
 
 🤖

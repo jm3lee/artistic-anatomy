@@ -1,5 +1,5 @@
 ---
-title: ✴️ Temporal Ridge
+title: Temporal Ridge
 ---
 
 ## Examples
