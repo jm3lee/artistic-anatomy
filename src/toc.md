@@ -37,7 +37,7 @@ ul {
 
 <div id="tendons-indextree" class="indextree-root" data-src="/static/index/tendons-indextree.json"></div>
 
-## Misc. Landmarks
+## Landmarks
 
 <div id="landmarks-indextree" class="indextree-root" data-src="/static/index/landmarks-indextree.json"></div>
 

@@ -59,10 +59,10 @@ build/keyterms/index.md: build/keyterms/index.json
 BONES_YAMLS := $(shell find src/bones -name '*.yml')
 BACKGROUND_YAMLS := $(shell find src/background -name '*.yml')
 HEAD_YAMLS := $(shell find src/head -name '*.yml')
-JOINT_YAMLS := $(shell find src/joints -name '*.yml')
+JOINT_YAMLS := $(shell find src -name '*.yml')
 MUSCLE_YAMLS := $(shell find src/muscles -name '*.yml')
-TENDON_YAMLS := $(shell find src/tendons -name '*.yml')
-LANDMARK_YAMLS := $(shell find src/landmarks -name '*.yml')
+TENDON_YAMLS := $(shell find src -name '*.yml')
+LANDMARK_YAMLS := $(shell find src -name '*.yml')
 MOVEMENT_YAMLS := $(shell find src/movements -name '*.yml')
 APPENDIX_YAMLS := $(shell find src/appendix -name '*.yml')
 RESOURCE_YAMLS := $(shell find src/resources -name '*.yml')
@@ -84,8 +84,7 @@ build/static/index/muscles-indextree.json: $(MUSCLE_YAMLS) | build/static/index
 	indextree-json src/muscles > $@
 
 build/static/index/tendons-indextree.json: $(TENDON_YAMLS) | build/static/index
-	touch $@
-	#indextree-json src/tendons > $@
+	(indextree-json -t tendon src; indextree-json -t ligament src) > $@
 
 build/static/index/landmarks-indextree.json: $(LANDMARK_YAMLS) | build/static/index
 	indextree-json -t landmark src > $@
