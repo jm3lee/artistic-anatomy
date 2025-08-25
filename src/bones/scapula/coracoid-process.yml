@@ -5,6 +5,7 @@ insertions:
 origins:
 - '{{ linktitle("coracobrachialis") }}'
 - '{{ linktitle("bc") }} (short head)'
+id: coracoid_process
 pubdate: Aug 25, 2025
 status: Reviewed
 title: Coracoid Process
