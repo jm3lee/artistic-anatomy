@@ -1,5 +1,8 @@
-name: Deltoid Tuberosity
 author: Brian Lee
+icon: ':round_pushpin:'
+pubdate: Aug 25, 2025
 status: Review Pending
-icon: ":round_pushpin:"
 url: /bones/humerus/#deltoid_tuberosity
+title: Deltoid Tuberosity
+indextree:
+  show: false

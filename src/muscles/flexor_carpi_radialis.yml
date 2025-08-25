@@ -1,13 +1,13 @@
-name: Flexor Carpi Radialis
-author: Brian Lee
-id: fcr
-icon: ":muscle:"
-pubdate: Jun 27, 2025
-status: Reviewed
-origins:
-  - 'Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }} via the common flexor tendon'
-insertions:
-  - "Base of the second and third metacarpals"
 actions:
-  - "Wrist flexion"
-  - "Wrist abduction"
+- Wrist flexion
+- Wrist abduction
+author: Brian Lee
+icon: ':muscle:'
+id: fcr
+insertions:
+- Base of the second and third metacarpals
+origins:
+- Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }} via the common
+  flexor tendon
+pubdate: Aug 25, 2025
+status: Reviewed

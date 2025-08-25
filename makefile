@@ -1,8 +1,13 @@
 # Makefile for building and managing Press
-# Migrated from app/shell/mk/build.mk. Targets now run from the repository root.
+# Targets run from the repository root.
 
 export PATH := /app/bin:$(PATH)
-export BASE_URL := http://localhost
+
+# Allow the environment to override BASE_URL instead of forcing localhost.
+# This ensures tooling such as the sitemap generator picks up the value
+# provided via docker-compose or the user's shell.
+BASE_URL ?= https://anatomybook.art
+export BASE_URL
 
 # Override MAKEFLAGS (so your settings can’t be clobbered by the environment)
 # docker-make previously passed these flags inside the container; still useful.

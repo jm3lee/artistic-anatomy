@@ -89,7 +89,7 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 ### Infraglenoid Tubercle
 * {{ linktitle('trc') }} (long head)
 
-## Muscle Insertions {{'{#insertion}'}}
+## Muscle Insertions {{'{#insertions}'}}
 
 ### Greater Tubercle
 <ul>

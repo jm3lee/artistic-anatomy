@@ -1,12 +1,13 @@
-title: "Acromion Process"
-name: Acromion Process
 author: Brian Lee
-icon: ":round_pushpin:"
-status: Reviewed
-pubdate: Jul 08, 2025
-origins:
-  - |
-    {{ linktitle("dt") }}
+icon: ':round_pushpin:'
 insertions:
-  - |
-    {{ linktitle("trz") }}
+- '{{ linktitle("trz") }}
+
+  '
+origins:
+- '{{ linktitle("dt") }}
+
+  '
+pubdate: Aug 25, 2025
+status: Reviewed
+title: Acromion Process

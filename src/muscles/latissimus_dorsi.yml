@@ -1,18 +1,18 @@
-name: Latissimus Dorsi
-author: Brian Lee
-pubdate: May 10, 2025
-id: ld
-icon: ":muscle:"
-status: Reviewed
-origins:
-  - 'Spinous processes of T6 to T12 {{ linkicon("thoracic_vertebrae") }}'
-  - "Last three or four ribs"
-  - "Thoracolumbar fascia"
-  - "Posterior iliac crest"
-  - 'Inferior angle of scapula; see Variable Attachment to {{ link("inferior_angle_of_scapula") }}.'
-insertions:
-  - '{{ linktitle("humerus") }}, intertubercular groove'
 actions:
-  - "Extends the shoulder"
-  - "Adducts the shoulder"
-  - "Medially rotates the shoulder"
+- Extends the shoulder
+- Adducts the shoulder
+- Medially rotates the shoulder
+author: Brian Lee
+icon: ':muscle:'
+id: ld
+insertions:
+- '{{ linktitle("humerus") }}, intertubercular groove'
+origins:
+- Spinous processes of T6 to T12 {{ linkicon("thoracic_vertebrae") }}
+- Last three or four ribs
+- Thoracolumbar fascia
+- Posterior iliac crest
+- Inferior angle of scapula; see Variable Attachment to {{ link("inferior_angle_of_scapula")
+  }}.
+pubdate: Aug 25, 2025
+status: Reviewed

@@ -1,11 +1,12 @@
-name: Linea Aspera
 author: Brian Lee
-status: Review Pending
+icon: ':round_pushpin:'
 id: linea_aspera
-icon: ":round_pushpin:"
-url: /bones/femur/#linea-aspera
+pubdate: Aug 25, 2025
+status: Review Pending
+title: Linea Aspera
 translations:
   english: linea aspera
-  french: ligne âpre
-  russian: шероховатая линия
-
+  french: "ligne \xE2pre"
+  russian: "\u0448\u0435\u0440\u043E\u0445\u043E\u0432\u0430\u0442\u0430\u044F \u043B\
+    \u0438\u043D\u0438\u044F"
+url: /bones/femur/#linea-aspera

@@ -1,13 +1,12 @@
-name: External Oblique
-status: Review Pending
-author: "Brian Lee"
-pubdate: "May 30, 2025"
-origins:
-  - "External surfaces of ribs 5–12"
-insertions:
-  - '{{ linktitle("linea_alba") }}'
-  - '{{ linktitle("pubic_tubercle") }}'
-  - "Anterior half of iliac crest"
 actions:
-  - "Compresses abdominal contents; flexes and rotates trunk (contralateral rotation)"
-icon: ":muscle:"
+- Compresses abdominal contents; flexes and rotates trunk (contralateral rotation)
+author: Brian Lee
+icon: ':muscle:'
+insertions:
+- '{{ linktitle("linea_alba") }}'
+- '{{ linktitle("pubic_tubercle") }}'
+- Anterior half of iliac crest
+origins:
+- "External surfaces of ribs 5\u201312"
+pubdate: Aug 25, 2025
+status: Review Pending

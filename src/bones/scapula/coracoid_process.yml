@@ -1,14 +1,16 @@
-title: "Coracoid Process"
-name: Coracoid Process
-origins:
-  - |
-    {{ linktitle("coracobrachialis") }}
-  - |
-    {{ linktitle("bc") }} (short head)
-insertions:
-  - |
-    {{ linktitle("pecmin") }}
-icon: ":round_pushpin:"
 author: Brian Lee
+icon: ':round_pushpin:'
+insertions:
+- '{{ linktitle("pecmin") }}
+
+  '
+origins:
+- '{{ linktitle("coracobrachialis") }}
+
+  '
+- '{{ linktitle("bc") }} (short head)
+
+  '
+pubdate: Aug 25, 2025
 status: Reviewed
-pubdate: Jul 08, 2025
+title: Coracoid Process

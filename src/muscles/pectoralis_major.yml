@@ -1,18 +1,18 @@
-name: Pectoralis Major
-author: Brian Lee
-id: pecmaj
-pubdate: Jul 04, 2025
-icon: ":muscle:"
-status: Reviewed
-title: "Pectoralis Major"
-origins:
-  - 'Medial half of {{ linkicon("clavicle") }}'
-  - '{{ linktitle("sternum") }}'
-  - "Costal cartilages of ribs 1-6 (sometimes 1-7)"
-insertions:
-  - 'Crest of the greater tubercle of the humerus (lateral lip of {{ linkicon("bicipital_groove") }})'
 actions:
-  - "Flexes the shoulder (especially the clavicular head)"
-  - "Adducts the shoulder"
-  - "Medially rotates the shoulder"
-  - "Assists in extending the shoulder from a flexed position (sternal head)"
+- Flexes the shoulder (especially the clavicular head)
+- Adducts the shoulder
+- Medially rotates the shoulder
+- Assists in extending the shoulder from a flexed position (sternal head)
+author: Brian Lee
+icon: ':muscle:'
+id: pecmaj
+insertions:
+- Crest of the greater tubercle of the humerus (lateral lip of {{ linkicon("bicipital_groove")
+  }})
+origins:
+- Medial half of {{ linkicon("clavicle") }}
+- '{{ linktitle("sternum") }}'
+- Costal cartilages of ribs 1-6 (sometimes 1-7)
+pubdate: Aug 25, 2025
+status: Reviewed
+title: Pectoralis Major

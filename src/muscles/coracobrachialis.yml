@@ -1,12 +1,12 @@
-name: Coracobrachialis
-author: Brian Lee
-status: Review Pending
-id: coracobrachialis
-icon: ":muscle:"
-origins:
-  - '{{ linkcap("coracoid_process") }} of the scapula'
-insertions:
-  - "Medial surface of mid-humeral shaft"
 actions:
-  - "Flexes the shoulder"
-  - "Adducts the shoulder"
+- Flexes the shoulder
+- Adducts the shoulder
+author: Brian Lee
+icon: ':muscle:'
+id: coracobrachialis
+insertions:
+- Medial surface of mid-humeral shaft
+origins:
+- '{{ linkcap("coracoid_process") }} of the scapula'
+pubdate: Aug 25, 2025
+status: Review Pending

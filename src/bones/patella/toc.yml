@@ -1,2 +1,5 @@
+author: Brian Lee
+pubdate: Aug 25, 2025
+title: Patella Table of Contents
 toc:
-  - '{{ linktitle("patella") }}'
+- '{{ linktitle("patella") }}'

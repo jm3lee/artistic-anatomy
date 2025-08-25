@@ -1,16 +1,15 @@
-name: Teres Major
-author: Brian Lee
-id: trsmaj
-icon: ":muscle:"
-status: Review Pending
-pubdate: Jun 06, 2025
-origins:
-  - 'Posterior surface of inferior angle of {{ linkicon("scapula") }}'
-  - 'Lower one‑third of lateral border of {{ linkicon("scapula") }}'
-  - "Blends with the deep surface of latissimus dorsi via the thoracolumbar fascia"
-insertions:
-  - 'Medial lip of intertubercular (bicipital) sulcus of {{ linkicon("humerus") }}'
 actions:
-  - "Extends the shoulder"
-  - "Adducts the shoulder"
-  - "Medially rotates the shoulder"
+- Extends the shoulder
+- Adducts the shoulder
+- Medially rotates the shoulder
+author: Brian Lee
+icon: ':muscle:'
+id: trsmaj
+insertions:
+- Medial lip of intertubercular (bicipital) sulcus of {{ linkicon("humerus") }}
+origins:
+- Posterior surface of inferior angle of {{ linkicon("scapula") }}
+- "Lower one\u2011third of lateral border of {{ linkicon(\"scapula\") }}"
+- Blends with the deep surface of latissimus dorsi via the thoracolumbar fascia
+pubdate: Aug 25, 2025
+status: Review Pending

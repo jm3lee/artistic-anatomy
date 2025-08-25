@@ -1,18 +1,17 @@
-title: "Sternocleidomastoid"
-name: Sternocleidomastoid
-author: Brian Lee
-pubdate: Jul 01, 2025
-status: Reviewed
-id: scm
-icon: ":muscle:"
-origins:
-  - "Manubrium of sternum"
-  - 'Medial third of {{ linkicon("clavicle") }}'
-insertions:
-  - "Mastoid process of the temporal bone"
-  - "Superior nuchal line"
 actions:
-  - "Flexes neck when both sides contract"
-  - "Rotates head to opposite side"
-  - "Laterally flexes neck to same side"
-  - "Assist to elevate the rib cage during inhalation"
+- Flexes neck when both sides contract
+- Rotates head to opposite side
+- Laterally flexes neck to same side
+- Assist to elevate the rib cage during inhalation
+author: Brian Lee
+icon: ':muscle:'
+id: scm
+insertions:
+- Mastoid process of the temporal bone
+- Superior nuchal line
+origins:
+- Manubrium of sternum
+- Medial third of {{ linkicon("clavicle") }}
+pubdate: Aug 25, 2025
+status: Reviewed
+title: Sternocleidomastoid

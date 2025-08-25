@@ -1,20 +1,21 @@
-name: Tibialis Anterior
-author: Brian Lee
-id: tiba
-icon: ":muscle:"
-status: Reviewed
-pubdate: Jul 02, 2025
-origins:
-  - 'Lateral condyle of {{ linkicon("tibia") }}'
-  - 'Proximal, lateral surface of {{ linkicon("tibia") }}'
-  - "Interosseous membrane"
-insertions:
-  - "Medial cuneiform"
-  - "Base of the first metatarsal"
 actions:
-  - "Inverts the foot"
-  - "Dorsiflexes the ankle"
-  - "Walk cycle: controls heel-to-toe movement"
+- Inverts the foot
+- Dorsiflexes the ankle
+- 'Walk cycle: controls heel-to-toe movement'
+author: Brian Lee
+icon: ':muscle:'
+id: tiba
+insertions:
+- Medial cuneiform
+- Base of the first metatarsal
+origins:
+- Lateral condyle of {{ linkicon("tibia") }}
+- Proximal, lateral surface of {{ linkicon("tibia") }}
+- Interosseous membrane
+pubdate: Aug 25, 2025
+status: Reviewed
 translations:
-  french: tibial antérieur
-  russian: Передняя большеберцовая мышца
+  french: "tibial ant\xE9rieur"
+  russian: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u0431\u043E\u043B\u044C\
+    \u0448\u0435\u0431\u0435\u0440\u0446\u043E\u0432\u0430\u044F \u043C\u044B\u0448\
+    \u0446\u0430"
