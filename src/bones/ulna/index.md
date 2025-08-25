@@ -87,10 +87,10 @@ A roughened area just below the coronoid process on the {{ link('anterior') }} s
 * **Coronoid process and ulnar tuberosity**  
   * {{ linktitle('brc') }}  
 
-* **Lateral aspect of [olecranon process](#olecranon_process)**  
+* **Lateral aspect of [olecranon process](#olecranon-process)**  
   * {{ linktitle('anc') }}
 
-* **[Olecranon Process](#olecranon_process)**  
+* **[Olecranon Process](#olecranon-process)**  
   * {{ linktitle('trc') }} (all heads)  
 
 * **{{ linktitle('posterior') }} border of ulna**
