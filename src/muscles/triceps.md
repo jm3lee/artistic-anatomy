@@ -1,5 +1,5 @@
 ---
-title: "{{get_desc('trc')['icon']}} {{get_desc('trc')['name']|title}}"
+title: "{{get_desc('trc')['icon']}} {{get_desc('trc')['title']|title}}"
 ---
 
 {% from "templates/translations.jinja" import translations %}

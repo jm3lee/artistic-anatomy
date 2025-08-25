@@ -1,5 +1,5 @@
 ---
-title: "{{get_desc('external_oblique')['icon']}} {{get_desc('external_oblique')['name']|title}}"
+title: "{{get_desc('external_oblique')['icon']}} {{get_desc('external_oblique')['title']|title}}"
 ---
 {% from "templates/summary.jinja" import summary %}
 

@@ -1,5 +1,5 @@
 ---
-title: "{{get_desc('gmax')['icon']}} {{get_desc('gmax')['name']|title}}"
+title: "{{get_desc('gmax')['icon']}} {{get_desc('gmax')['title']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}
