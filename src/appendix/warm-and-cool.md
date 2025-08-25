@@ -1,5 +1,5 @@
 ---
-title: 📓Warm and Cool
+title: Warm and Cool
 ---
 
 [Bony Landmarks ](bony-landmarks.html) are rendered cool.

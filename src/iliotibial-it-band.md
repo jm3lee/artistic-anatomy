@@ -1,5 +1,5 @@
 ---
-title: 🔗Iliotibial (IT) Band
+title: Iliotibial (IT) Band
 ---
 
 ## Examples

@@ -1,5 +1,5 @@
 ---
-title: ":bone: Zygomatic Arch"
+title: "Zygomatic Arch"
 ---
 
 ## Examples

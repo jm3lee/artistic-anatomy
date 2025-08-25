@@ -1,5 +1,5 @@
 ---
-title: 📓Warm Areas
+title: Warm Areas
 ---
 
 [🤖 AI Generated](../background/icons.html)

@@ -1,5 +1,5 @@
 ---
-title: 🏋️ Dumbbell Rows
+title: Dumbbell Rows
 ---
 
 ## Active Muscles

@@ -1,5 +1,5 @@
 ---
-title: ":muscle: Subscapularis"
+title: "Subscapularis"
 ---
 
 ## References
