@@ -15,7 +15,7 @@ Example from `src/study/key_terms.json`:
 ```json
 [
   {
-    "q": "Which of the following best describes the {{get_desc('sagittal')['name']|lower}} plane?",
+    "q": "Which of the following best describes the {{get_desc('sagittal')['title']|lower}} plane?",
     "c": [
       "Divides the body into anterior and posterior portions",
       "Divides the body into superior and inferior portions",

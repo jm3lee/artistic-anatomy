@@ -1,5 +1,5 @@
 ---
-title: "{{get_desc('brc')['icon']}} {{get_desc('brc')['name']|title}}"
+title: "{{get_desc('brc')['icon']}} {{get_desc('brc')['title']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}
