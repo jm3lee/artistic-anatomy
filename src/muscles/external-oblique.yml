@@ -1,0 +1,14 @@
+actions:
+- Compresses abdominal contents; flexes and rotates trunk (contralateral rotation)
+author: Brian Lee
+icon: ':muscle:'
+insertions:
+- '{{ linktitle("linea_alba") }}'
+- '{{ linktitle("pubic_tubercle") }}'
+- Anterior half of iliac crest
+origins:
+- "External surfaces of ribs 5\u201312"
+pubdate: Aug 25, 2025
+status: Review Pending
+title: External Oblique
+url: /muscles/external-oblique.html

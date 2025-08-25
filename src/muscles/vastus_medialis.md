@@ -1,3 +1,0 @@
----
-author: Brian Lee
----
