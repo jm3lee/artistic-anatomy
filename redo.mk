@@ -74,13 +74,14 @@ docker: test ## Build and push the Nginx image after running test
 	$(call status,Build nginx image)
 	$(Q)$(DOCKER_COMPOSE) build nginx
 	$(call status,Tag image)
-	$(Q)docker tag koreanbriancom-nginx $(CONTAINER_REGISTRY)/koreanbrian.com:latest
+	$(Q)docker tag artistic-anatomy-nginx $(CONTAINER_REGISTRY)/book:latest
 	$(call status,Push image)
-	$(Q)docker push registry.digitalocean.com/artisticanatomy/koreanbrian.com:latest
+	$(Q)docker push registry.digitalocean.com/artisticanatomy/book:latest
 
 .PHONY: test
 test: ## Restart nginx-dev and run tests
 	$(call status,Run tests)
+	$(Q)$(DOCKER_COMPOSE) up -d --build nginx-test
 	$(Q)$(RUN_MAKE) VERBOSE=$(VERBOSE) SRC_DIR=$(SRC_DIR) BUILD_DIR=$(BUILD_DIR) test
 
 .PHONY: check
