@@ -1,5 +1,6 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-base: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--font-base);
   line-height: 1.5;
   font-weight: 400;
 
@@ -70,7 +71,7 @@ button:focus-visible {
 .quiz-container {
   max-width: 600px;
   margin: 2rem auto;
-  font-family: sans-serif;
+  font-family: var(--font-base);
 }
 
 .question-block {
