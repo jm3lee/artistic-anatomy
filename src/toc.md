@@ -1,8 +1,10 @@
 ---
+author: ''
+citation: table of contents
+id: toc
+pubdate: Aug 25, 2025
 title: Table of Contents
 toc: false
-id: toc
-citation: table of contents
 ---
 
 <style>
@@ -28,35 +30,8 @@ ul {
 
 ## Bones
 
-{% macro render_list(items) %}
-  {% for item in items %}
-    {% if item is string %}
-      <li>{{ render_jinja(item) }}</li>
-    {% elif item is iterable %}
-      <li>
-        <ul>{{ render_list(item) }}</ul>
-      </li>
-    {% endif %}
-  {% endfor %}
-{% endmacro %}
-
-```{=html}
-<ul>
-{{render_list(read_yaml("src/bones/clavicle/toc.yml"))}}
-{{render_list(read_yaml("src/bones/femur/toc.yml"))}}
-{{render_list(read_yaml("src/bones/foot/toc.yml"))}}
-{{render_list(read_yaml("src/bones/humerus/toc.yml"))}}
-{{render_list(read_yaml("src/bones/patella/toc.yml"))}}
-{{render_list(read_yaml("src/bones/pelvis/toc.yml"))}}
-{{render_list(read_yaml("src/bones/radius/toc.yml"))}}
-{{render_list(read_yaml("src/bones/scapula/toc.yml"))}}
-{{render_list(read_yaml("src/bones/spine/toc.yml"))}}
-{{render_list(read_yaml("src/bones/sternum/toc.yml"))}}
-{{render_list(read_yaml("src/bones/tibia/toc.yml"))}}
-{{render_list(read_yaml("src/bones/fibula/toc.yml"))}}
-{{render_list(read_yaml("src/bones/ulna/toc.yml"))}}
-</ul>
-```
+<div id="indextree-root" data-src="/static/index/bones-indextree.json"></div>
+<script type="module" src="/static/js/indextree.js" defer></script>
 
 ## Joints
 

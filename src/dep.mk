@@ -53,3 +53,15 @@ build/%.json: %.json
 	emojify < $< > $@
 
 build/keyterms/index.md: build/keyterms/index.json
+
+BONES_YAMLS := $(shell find src/bones -name '*.yml')
+
+build/static/index/bones-indextree.json: $(BONES_YAMLS) | build/static/index
+	indextree-json src/bones > $@
+
+build/toc.html: build/static/index/bones-indextree.json
+
+build/static/index:
+	mkdir -p $@
+
+V2_YAMLS = $(shell find src/v2 -name '*.yml')
