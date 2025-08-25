@@ -5,7 +5,6 @@ pubdate: May 21, 2025
 id: hc77
 toc: false
 citation: Hale and Coyle 1977
-icon: ":closed_book:"
 ---
 
 <img

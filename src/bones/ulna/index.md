@@ -33,7 +33,7 @@ The distal, rounded end that articulates with the ulnar notch of the radius and 
 ### Interosseous Border  
 The sharp {{ link('medial') }} ridge running along the shaft where the interosseous membrane attaches, linking ulna to radius.
 
-### Olecranon Process {{'{#olecranon_process}'}}
+### Olecranon Process {{'{#olecranon-process}'}}
 The large, {{ link('posterior') }} “hook” at the elbow that forms the point of the elbow and serves as the triceps’ {{ link('insertion') }} site.
 
 Origins:
