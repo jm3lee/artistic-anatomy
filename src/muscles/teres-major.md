@@ -16,7 +16,7 @@ title: "{{get_desc('trsmaj')['icon']}} {{get_desc('trsmaj')['title']|title}}"
 </figure>
 
 ```python
-include('src/muscles/teres_major_minor_insertion.md')
+include('src/muscles/teres-major-minor-insertion.md')
 ```
 
 ## Etymology
