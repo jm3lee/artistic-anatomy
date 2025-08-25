@@ -1,8 +1,0 @@
-author: ''
-title: Head Table of Contents
-toc:
-  - "{{ linktitle('zygomatic_arch') }}"
-  - "{{ linktitle('supraorbital_ridge') }}"
-  - "{{ linktitle('temporal_ridge') }}"
-indextree:
-  show: false

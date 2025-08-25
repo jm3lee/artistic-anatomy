@@ -1,8 +1,0 @@
-author: ''
-title: Joints Table of Contents
-toc:
-  - "{{ linktitle('glenohumeral_joint') }}"
-  - "{{ linktitle('radioulnar_joints') }}"
-  - "{{ linktitle('synovial_joints') }}"
-indextree:
-  show: false

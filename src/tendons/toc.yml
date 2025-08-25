@@ -1,7 +1,0 @@
-author: ''
-title: Tendons and Ligaments Table of Contents
-toc:
-  - "{{ linktitle('iliotibial_it_band') }}"
-  - "{{ linktitle('linea_alba') }}"
-indextree:
-  show: false

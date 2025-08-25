@@ -68,46 +68,50 @@ APPENDIX_YAMLS := $(shell find src/appendix -name '*.yml')
 RESOURCE_YAMLS := $(shell find src/resources -name '*.yml')
 
 build/static/index/background-indextree.json: $(BACKGROUND_YAMLS) | build/static/index
-        indextree-json src/background > $@
+	indextree-json src/background > $@
 
 build/static/index/head-indextree.json: $(HEAD_YAMLS) | build/static/index
-        indextree-json src/head > $@
+	touch $@
+	#indextree-json src/head > $@
 
 build/static/index/bones-indextree.json: $(BONES_YAMLS) | build/static/index
-        indextree-json src/bones > $@
+	indextree-json src/bones > $@
 
 build/static/index/joints-indextree.json: $(JOINT_YAMLS) | build/static/index
-        indextree-json src/joints > $@
+	touch $@
+	#indextree-json src/joints > $@
 
 build/static/index/muscles-indextree.json: $(MUSCLE_YAMLS) | build/static/index
-        indextree-json src/muscles > $@
+	indextree-json src/muscles > $@
 
 build/static/index/tendons-indextree.json: $(TENDON_YAMLS) | build/static/index
-        indextree-json src/tendons > $@
+	touch $@
+	#indextree-json src/tendons > $@
 
 build/static/index/landmarks-indextree.json: $(LANDMARK_YAMLS) | build/static/index
-        indextree-json src/landmarks > $@
+	touch $@
+	#indextree-json src/landmarks > $@
 
 build/static/index/movements-indextree.json: $(MOVEMENT_YAMLS) | build/static/index
-        indextree-json src/movements > $@
+	indextree-json src/movements > $@
 
 build/static/index/appendix-indextree.json: $(APPENDIX_YAMLS) | build/static/index
-        indextree-json src/appendix > $@
+	indextree-json src/appendix > $@
 
 build/static/index/resources-indextree.json: $(RESOURCE_YAMLS) | build/static/index
-        indextree-json src/resources > $@
+	indextree-json src/resources > $@
 
 build/toc.html: \
-        build/static/index/background-indextree.json \
-        build/static/index/head-indextree.json \
-        build/static/index/bones-indextree.json \
-        build/static/index/joints-indextree.json \
-        build/static/index/muscles-indextree.json \
-        build/static/index/tendons-indextree.json \
-        build/static/index/landmarks-indextree.json \
-        build/static/index/movements-indextree.json \
-        build/static/index/appendix-indextree.json \
-        build/static/index/resources-indextree.json
+	build/static/index/background-indextree.json \
+	build/static/index/head-indextree.json \
+	build/static/index/bones-indextree.json \
+	build/static/index/joints-indextree.json \
+	build/static/index/muscles-indextree.json \
+	build/static/index/tendons-indextree.json \
+	build/static/index/landmarks-indextree.json \
+	build/static/index/movements-indextree.json \
+	build/static/index/appendix-indextree.json \
+	build/static/index/resources-indextree.json
 
 build/static/index:
 	mkdir -p $@
