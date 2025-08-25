@@ -78,7 +78,7 @@ build/static/index/bones-indextree.json: $(BONES_YAMLS) | build/static/index
 	indextree-json src/bones > $@
 
 build/static/index/joints-indextree.json: $(JOINT_YAMLS) | build/static/index
-	indextree-json -l log/indextree-json.txt -v -t joint src/bones > $@
+	indextree-json -t joint src/bones > $@
 
 build/static/index/muscles-indextree.json: $(MUSCLE_YAMLS) | build/static/index
 	indextree-json src/muscles > $@
@@ -88,8 +88,7 @@ build/static/index/tendons-indextree.json: $(TENDON_YAMLS) | build/static/index
 	#indextree-json src/tendons > $@
 
 build/static/index/landmarks-indextree.json: $(LANDMARK_YAMLS) | build/static/index
-	touch $@
-	#indextree-json src/landmarks > $@
+	indextree-json -t landmark src > $@
 
 build/static/index/movements-indextree.json: $(MOVEMENT_YAMLS) | build/static/index
 	indextree-json src/movements > $@
