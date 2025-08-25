@@ -192,7 +192,7 @@ redis: ## Open redis-cli on the dragonfly service
 
 .PHONY: tags
 tags:
-	$(Q)ctags -R app/shell/py
+	$(Q)ctags -R press/app/shell/py
 
 .PHONY: release
 release:

@@ -78,7 +78,7 @@ build/static/index/bones-indextree.json: $(BONES_YAMLS) | build/static/index
 	indextree-json src/bones > $@
 
 build/static/index/joints-indextree.json: $(JOINT_YAMLS) | build/static/index
-	indextree-json -t joints src > $@
+	indextree-json -l log/indextree-json.txt -v -t joint src/bones > $@
 
 build/static/index/muscles-indextree.json: $(MUSCLE_YAMLS) | build/static/index
 	indextree-json src/muscles > $@
