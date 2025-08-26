@@ -15,3 +15,10 @@ It shares a common origin at the lateral epicondyle with
 {{ link('extensor-carpi-ulnaris') }} and {{ link('extensor-digiti-minimi') }}.
 The muscle is an antagonist to the
 {{ link('flexor-digitorum-superficialis') }}.
+
+## TODO
+
+Hale link
+
+## References
+- [Wikipedia](https://en.wikipedia.org/wiki/Extensor_digitorum_muscle)
