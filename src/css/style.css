@@ -238,6 +238,38 @@ main dd + dt {
     margin-top: 2rem;
 }
 
+/* Summary list */
+.summary {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.summary-list {
+  margin: 0;
+}
+
+.summary-list dt {
+  font-weight: 600;
+}
+
+.summary-list dd {
+  margin-left: 0;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .summary-list {
+    display: grid;
+    grid-template-columns: minmax(120px, 1fr) 2fr;
+    gap: 0.25rem 1rem;
+  }
+
+  .summary-list dd {
+    margin-bottom: 0;
+  }
+}
+
 /* Tables */
 table {
   width: 100%;
