@@ -1,8 +1,7 @@
 ## Codex
 
 - pytest dependencies: see `app/shell/py/pie/requirements.txt`
-- When asked to add content under src/, handle request as an expert financial
-  writer. Focus on educating beginners. Cross-link pages.
+- When asked to add content under src/, handle request as an expert fine aryist and an anatomist. Focus on educating beginners. Cross-link pages.
 - text formatting:
   - use 80 char columns for paragraphs only
 - metadata management:
