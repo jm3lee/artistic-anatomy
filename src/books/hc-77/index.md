@@ -8,5 +8,7 @@ review.
 ## Reading Notes
 
 <dl>
-{{ include_deflist_entry("src/books/hc-77", glob="p*.md") }}
+```python
+include_deflist_entry("src/books/hc-77", glob="p*.md")
+```
 </dl>
