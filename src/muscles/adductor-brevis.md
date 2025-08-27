@@ -1,7 +1,15 @@
 ---
-author: Brian Lee
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Adductor Brevis
-url: /muscles/adductor-brevis.html
+title: "{{get_desc('adductor-brevis')['icon']}} {{get_desc('adductor-brevis')['title']|title}}"
 ---
+
+{% from "templates/summary.jinja" import summary %}
+
+{{summary("adductor-brevis")}}
+
+The **adductor brevis** is a small muscle on the inner thigh. It sits
+between {{ link('adductor-longus') }} and {{ link('adductor-magnus') }},
+drawing the {{ linkicon('femur') }} toward the midline.
+
+## References
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Adductor_brevis_muscle)

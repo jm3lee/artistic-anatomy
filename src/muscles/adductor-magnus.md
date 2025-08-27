@@ -1,7 +1,16 @@
 ---
-author: Brian Lee
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Adductor Magnus
-url: /muscles/adductor-magnus.html
+title: "{{get_desc('adductor-magnus')['icon']}} {{get_desc('adductor-magnus')['title']|title}}"
 ---
+
+{% from "templates/summary.jinja" import summary %}
+
+{{summary("adductor-magnus")}}
+
+The **adductor magnus** forms the bulk of the inner thigh. Its wide fibers
+run from the {{ linkicon('pelvis') }} to the {{ linkicon('femur') }}, working
+with {{ link('adductor-longus') }} and {{ link('adductor-brevis') }} to draw
+the leg inward.
+
+## References
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Adductor_magnus_muscle)
