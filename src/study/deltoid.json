@@ -69,7 +69,7 @@
     "c": [
       "{{ linktitle('supraspinatus') }}",
       "{{ linktitle('trc') }}",
-      "{{ linktitle('infs') }}",
+      "{{ linktitle('infraspinatus') }}",
       "{{ linktitle('trsmin') }}"
     ],
     "a": [

@@ -1,12 +1,12 @@
 ---
-title: "{{get_desc('infs')['icon']}} {{get_desc('infs')['title']|title}}"
+title: "{{get_desc('infraspinatus')['icon']}} {{get_desc('infraspinatus')['title']|title}}"
 ---
 
 {% from "templates/translations.jinja" import translations %}
 
 {% from "templates/summary.jinja" import summary %}
 
-{{summary("infs")}}
+{{summary("infraspinatus")}}
 
 ## Illustrations
 
@@ -28,7 +28,7 @@ alt="Infraspinatus, Richer"
 loading="lazy"/>
 </figure>
 
-{{translations('infs')}}
+{{translations('infraspinatus')}}
 
 ## References
 
