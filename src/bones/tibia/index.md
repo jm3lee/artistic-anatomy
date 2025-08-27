@@ -1,4 +1,5 @@
 {% from "templates/insertions.jinja" import insertions %}
+{% from "templates/origins.jinja" import origins %}
 
 ## Illustrations
 
@@ -18,20 +19,7 @@
 
 ## Muscle Origins {{'{#origins}'}}
 
-### By Bony Landmarks
-
-* **Lateral condyle & proximal lateral tibial shaft:**
-  * Tibialis anterior
-  * Extensor digitorum longus (also from proximal fibula)
-
-* **Soleal line (posterior proximal tibia):**
-  * Soleus
-
-* **Posterior surface, inferior to soleal line (middle third):**
-  * Flexor digitorum longus
-
-* **Posterior surface & interosseous membrane (distal two‑thirds):**
-  * Tibialis posterior
+{{ origins('tibia') }}
 
 ## Muscle Insertions {{'{#insertions}'}}
 
@@ -39,8 +27,10 @@
 
 ## Notes
 
-No other major muscles insert directly on the tibia itself.  
-The **tibialis posterior** and **soleus** originate on the posterior surface of the tibia (and fibula/interosseous membrane) but insert primarily on the tarsal bones rather than the tibia.  
+No other major muscles insert directly on the tibia itself.
+The **tibialis posterior** and **soleus** originate on the posterior surface of
+the tibia (and fibula/interosseous membrane) but insert primarily on the tarsal
+bones rather than the tibia.
 
 ## References
 
