@@ -4,13 +4,12 @@ anatomy:
   - Stabilizes the elbow joint
   - Abducts the ulna during forearm pronation
   insertions:
-  - Lateral surface of olecranon process and proximal posterior {{ linkicon("ulna")
-    }}
+  - 'Lateral surface of olecranon process and proximal posterior {{ linkicon("ulna") }}'
   origins:
-  - Posterior aspect of lateral epicondyle of the {{ linkicon("humerus") }}
+  - 'Posterior aspect of lateral epicondyle of the {{ linkicon("humerus") }}'
 author: Brian Lee
 icon: ':muscle:'
 id: anc
 pubdate: Aug 27, 2025
 status: Reviewed
-title: Anconeus
+title: '{{ get_desc("anc")["icon"] }} {{ get_desc("anc")["title"]|title }}'

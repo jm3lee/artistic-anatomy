@@ -1,12 +1,3 @@
----
-author: Brian Lee
-citation: table of contents
-id: toc
-pubdate: Aug 25, 2025
-title: Table of Contents
-toc: false
----
-
 <style>
 ul {
   list-style: none;

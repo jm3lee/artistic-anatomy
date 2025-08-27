@@ -1,16 +1,16 @@
 anatomy:
   actions:
   - Extends digits two through five
-  - Assists wrist {{ link('extension') }}
+  - 'Assists wrist {{ link("extension") }}'
   insertions:
   - Extensor expansions of digits two through five
   origins:
-  - Lateral epicondyle of the {{ linkicon("humerus") }}
+  - 'Lateral epicondyle of the {{ linkicon("humerus") }}'
 author: Brian Lee
 description: Extends digits two through five and assists with wrist extension.
 icon: ':muscle:'
 id: extensor-digitorum
 pubdate: Aug 27, 2025
 status: Reviewed
-title: Extensor Digitorum
 url: /muscles/extensor-digitorum.html
+title: '{{ get_desc("extensor-digitorum")["icon"] }} {{ get_desc("extensor-digitorum")["title"]|title }}'

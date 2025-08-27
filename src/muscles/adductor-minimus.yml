@@ -12,5 +12,5 @@ icon: ':muscle:'
 id: adductor-minimus
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Adductor Minimus
 url: /muscles/adductor-minimus.html
+title: '{{ get_desc("adductor-minimus")["icon"] }} {{ get_desc("adductor-minimus")["title"]|title }}'

@@ -12,5 +12,5 @@ icon: ':muscle:'
 id: adductor-magnus
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Adductor Magnus
 url: /muscles/adductor-magnus.html
+title: '{{ get_desc("adductor-magnus")["icon"] }} {{ get_desc("adductor-magnus")["title"]|title }}'

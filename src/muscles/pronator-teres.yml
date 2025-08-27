@@ -1,19 +1,18 @@
 anatomy:
   actions:
   - Pronates the forearm
-  - Assists elbow flexion; see {{ linkicon("elbow-flexors") }}
+  - 'Assists elbow flexion; see {{ linkicon("elbow-flexors") }}'
   insertions:
-  - Middle of lateral surface of the {{ linkicon("radius") }}
+  - 'Middle of lateral surface of the {{ linkicon("radius") }}'
   origins:
-  - Common flexor tendon attached to medial epicondyle of {{ linkicon("humerus") }}
+  - 'Common flexor tendon attached to medial epicondyle of {{ linkicon("humerus") }}'
   - '{{ linkcap("coronoid-process") }} of the {{ linkicon("ulna") }}'
 author: Brian Lee
 icon: ':muscle:'
 id: protrs
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Pronator Teres
 translations:
-  russian: "\u041A\u0440\u0443\u0433\u043B\u044B\u0439 \u043F\u0440\u043E\u043D\u0430\
-    \u0442\u043E\u0440"
+  russian: "Круглый пронатор"
 url: /muscles/pronator-teres.html
+title: '{{ get_desc("protrs")["icon"] }} {{ get_desc("protrs")["title"]|title }}'

@@ -5,10 +5,10 @@ anatomy:
   insertions:
   - Clavicle
   - '{{ linktitle("acromion-process") }} of scapula'
-  - Spine of {{ linktitle("scapula") }}
+  - 'Spine of {{ linktitle("scapula") }}'
   origins:
   - Occipital bone
-  - Spinous processes of {{ linkicon("spine") }}
+  - 'Spinous processes of {{ linkicon("spine") }}'
 author: Brian Lee
 icon: ':muscle:'
 id: trz
@@ -16,8 +16,6 @@ pubdate: Aug 27, 2025
 status: Review Pending
 tags:
 - torso
-title: Trapezius
 translations:
-  russian: "\u0422\u0440\u0430\u043F\u0435\u0446\u0438\u0435\u0432\u0438\u0434\u043D\
-    \u0430\u044F \u043C\u044B\u0448\u0446\u0430 (\u043A\u0430\u043F\u044E\u0448\u043E\
-    \u043D\u043D\u0430\u044F)"
+  russian: "Трапециевидная мышца (капюшонная)"
+title: '{{ get_desc("trz")["icon"] }} {{ get_desc("trz")["title"]|title }}'

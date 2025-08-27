@@ -14,4 +14,4 @@ icon: ':muscle:'
 id: sartorius
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Sartorius
+title: '{{ get_desc("sartorius")["icon"] }} {{ get_desc("sartorius")["title"]|title }}'

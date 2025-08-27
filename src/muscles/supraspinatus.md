@@ -1,7 +1,3 @@
----
-title: "Supraspinatus"
----
-
 [:man: Reviewed](../background/icons.md)
 
 {% from "templates/summary.jinja" import summary %}

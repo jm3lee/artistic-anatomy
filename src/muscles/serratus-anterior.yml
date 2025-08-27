@@ -5,9 +5,9 @@ anatomy:
   - Holds scapula against thoracic wall
   - Accessory muscle of inspiration (elevates ribs)
   insertions:
-  - Anterior (costal) surface of medial border of {{ linkicon("scapula") }}
+  - 'Anterior (costal) surface of medial border of {{ linkicon("scapula") }}'
   origins:
-  - "External surfaces of the upper 8\u20139 ribs"
+  - "External surfaces of the upper 8–9 ribs"
 author: Brian Lee
 icon: ':muscle:'
 id: sa
@@ -15,5 +15,5 @@ pubdate: Aug 27, 2025
 status: Pending Review
 tags:
 - torso
-title: Serratus Anterior
 url: /muscles/serratus-anterior.html
+title: '{{ get_desc("sa")["icon"] }} {{ get_desc("sa")["title"]|title }}'

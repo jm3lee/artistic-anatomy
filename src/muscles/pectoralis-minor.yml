@@ -14,5 +14,5 @@ pubdate: Aug 27, 2025
 status: Reviewed
 tags:
 - torso
-title: Pectoralis Minor
 url: /muscles/pectoralis-minor.html
+title: '{{ get_desc("pecmin")["icon"] }} {{ get_desc("pecmin")["title"]|title }}'

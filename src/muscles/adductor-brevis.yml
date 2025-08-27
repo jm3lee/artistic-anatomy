@@ -12,5 +12,5 @@ icon: ':muscle:'
 id: adductor-brevis
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Adductor Brevis
 url: /muscles/adductor-brevis.html
+title: '{{ get_desc("adductor-brevis")["icon"] }} {{ get_desc("adductor-brevis")["title"]|title }}'

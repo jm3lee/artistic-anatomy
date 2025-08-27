@@ -1,9 +1,9 @@
 anatomy:
   actions:
   - External (lateral) rotation of the shoulder
-  - Shoulder stabilization as a part of {{ linkicon("rotator-cuff") }} muscle group
+  - 'Shoulder stabilization as a part of {{ linkicon("rotator-cuff") }} muscle group'
   origins:
-  - Infraspinous fossa of the {{ linkicon("scapula") }}
+  - 'Infraspinous fossa of the {{ linkicon("scapula") }}'
   insertions:
   - Middle facet of the greater tubercle of the humerus
 author: Brian Lee
@@ -11,8 +11,7 @@ icon: ':muscle:'
 id: infs
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Infraspinatus
 translations:
-  french: "sous-\xE9pineux"
-  russian: "\u041F\u043E\u0434\u043E\u0441\u0442\u043D\u0430\u044F \u043C\u044B\u0448\
-    \u0446\u0430"
+  french: "sous-épineux"
+  russian: "Подостная мышца"
+title: '{{ get_desc("infs")["icon"] }} {{ get_desc("infs")["title"]|title }}'

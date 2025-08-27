@@ -17,5 +17,5 @@ icon: ':muscle:'
 id: gmax
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Gluteus Maximus
 url: /muscles/gluteus-maximus.html
+title: '{{ get_desc("gmax")["icon"] }} {{ get_desc("gmax")["title"]|title }}'

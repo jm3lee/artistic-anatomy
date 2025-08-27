@@ -11,4 +11,4 @@ icon: ':muscle:'
 id: coracobrachialis
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Coracobrachialis
+title: '{{ get_desc("coracobrachialis")["icon"] }} {{ get_desc("coracobrachialis")["title"] }}'

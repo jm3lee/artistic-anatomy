@@ -5,10 +5,10 @@ anatomy:
   - '{{ linkcap("ulnar-tuberosity") }} of ulna'
   - '{{ linkcap("coronoid-process") }} of ulna'
   origins:
-  - Distal half of anterior surface of the {{ linkicon("humerus") }}
+  - 'Distal half of anterior surface of the {{ linkicon("humerus") }}'
 author: Brian Lee
 icon: ':muscle:'
 id: brc
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Brachialis
+title: '{{ get_desc("brc")["icon"] }} {{ get_desc("brc")["title"]|title }}'

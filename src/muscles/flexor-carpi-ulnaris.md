@@ -1,7 +1,3 @@
----
-title: "{{get_desc('fcu')['icon']}} {{get_desc('fcu')['title']|title}}"
----
-
 A part of the [Wrist Flexor Group](/wrist-flexor-group.html).
 
 {% from "templates/summary.jinja" import summary %}

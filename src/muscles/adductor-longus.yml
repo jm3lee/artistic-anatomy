@@ -12,5 +12,5 @@ icon: ':muscle:'
 id: adductor-longus
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Adductor Longus
 url: /muscles/adductor-longus.html
+title: '{{ get_desc("adductor-longus")["icon"] }} {{ get_desc("adductor-longus")["title"]|title }}'

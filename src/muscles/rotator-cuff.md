@@ -1,7 +1,3 @@
----
-title: "{{get_desc('rotator-cuff')['icon']}} {{get_desc('rotator-cuff')['title']|title}}"
----
-
 The rotator cuff comprises four scapular muscles that stabilize the
 {{ linktitle('glenohumeral-joint') }} and move the {{ linkicon('humerus') }}.
 

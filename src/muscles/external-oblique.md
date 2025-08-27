@@ -1,6 +1,3 @@
----
-title: "{{get_desc('external-oblique')['icon']}} {{get_desc('external-oblique')['title']|title}}"
----
 {% from "templates/summary.jinja" import summary %}
 
 {{summary("external-oblique")}}

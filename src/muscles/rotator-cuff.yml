@@ -3,5 +3,5 @@ icon: ':notebook:'
 id: rotator-cuff
 pubdate: Aug 25, 2025
 status: Review Pending
-title: Rotator Cuff
 url: /muscles/rotator-cuff.html
+title: '{{ get_desc("rotator-cuff")["icon"] }} {{ get_desc("rotator-cuff")["title"]|title }}'

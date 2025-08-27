@@ -2,19 +2,18 @@ anatomy:
   actions:
   - External (lateral) rotation of the humerus
   - Weak adduction of the humerus
-  - Assists in stabilizing the {{ linkicon("glenohumeral-joint") }} as part of the rotator cuff
+  - 'Assists in stabilizing the {{ linkicon("glenohumeral-joint") }} as part of the rotator cuff'
   insertions:
-  - Inferior facet of the greater tubercle of the {{ linkicon("humerus") }}
+  - 'Inferior facet of the greater tubercle of the {{ linkicon("humerus") }}'
   origins:
-  - Upper two thirds of the lateral (axillary) border of the {{ linkicon("scapula") }}
+  - 'Upper two thirds of the lateral (axillary) border of the {{ linkicon("scapula") }}'
 author: Brian Lee
 icon: ':muscle:'
 id: trsmin
 pubdate: Aug 27, 2025
 status: Review Pending
-title: Teres Minor
 translations:
   french: petit rond
-  russian: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043A\u0440\u0443\u0433\u043B\
-    \u0430\u044F \u043C\u044B\u0448\u0446\u0430"
+  russian: "Большая круглая мышца"
 url: /muscles/teres-minor.html
+title: '{{ get_desc("trsmin")["icon"] }} {{ get_desc("trsmin")["title"]|title }}'
