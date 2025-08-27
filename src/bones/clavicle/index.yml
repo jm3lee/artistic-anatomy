@@ -9,6 +9,21 @@ description: >
   The clavicle is a slender S-shaped bone connecting the sternum and scapula
   to brace the shoulder.
 anatomy:
+  bony_landmarks:
+  - name: 'Sternal end {{"{#sternal-end}"}}'
+    desc: >
+      Medial end that articulates with the sternum.
+  - name: 'Acromial end {{"{#acromial-end}"}}'
+    desc: >
+      Lateral end that articulates with the {{ linkicon('scapula') }} at the
+      acromioclavicular joint.
+  - name: 'Shaft {{"{#shaft}"}}'
+    desc: >
+      The middle portion with a gentle S-curve.
+  - name: 'Deltoid tubercle {{"{#deltoid-tubercle}"}}'
+    desc: >
+      Rough area on the lateral third for attachment of the
+      {{ linkicon('dt') }}.
   insertions:
   - name: Medial clavicle
     muscles:

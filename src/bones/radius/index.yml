@@ -5,3 +5,34 @@ pubdate: Aug 25, 2025
 status: Review Pending
 title: Radius
 url: /bones/radius/
+description: >
+  The radius is the lateral forearm bone that pivots around the ulna to
+  enable pronation and supination.
+anatomy:
+  bony_landmarks:
+  - name: 'Head {{"{#head}"}}'
+    desc: >
+      Disc-shaped proximal epiphysis that articulates with the humerus and
+      ulna.
+  - name: 'Neck {{"{#neck}"}}'
+    desc: >
+      Narrow region just distal to the head and a common fracture site.
+  - name: 'Radial tuberosity {{"{#radial-tuberosity}"}}'
+    desc: >
+      Rough anterior projection where {{ linkicon('bc') }} inserts.
+  - name: 'Interosseous border {{"{#interosseous-border}"}}'
+    desc: >
+      Sharp {{ link('medial') }} edge along the shaft for interosseous
+      membrane attachment.
+  - name: 'Ulnar notch {{"{#ulnar-notch}"}}'
+    desc: >
+      Distal {{ link('medial') }} concavity articulating with the head of the
+      {{ linkicon('ulna') }}.
+  - name: 'Dorsal tubercle {{"{#dorsal-tubercle}"}}'
+    desc: >
+      Posterior distal bump, also called Lister's tubercle, guiding extensor
+      pollicis longus.
+  - name: 'Styloid process {{"{#styloid-process}"}}'
+    desc: >
+      Pointed distal projection anchoring the radial collateral ligament and
+      {{ linkicon('brr') }}.

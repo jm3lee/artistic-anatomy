@@ -5,3 +5,45 @@ pubdate: Aug 25, 2025
 status: Review Pending
 title: Ulna
 url: /bones/ulna/
+description: >
+  The ulna is the medial forearm bone forming the elbow's hinge and
+  providing broad surfaces for muscle attachment.
+anatomy:
+  bony_landmarks:
+  - name: 'Coronoid process {{"{#coronoid-process}"}}'
+    desc: >
+      Anterior projection distal to the trochlear notch that helps form
+      the elbow joint and provides attachment for the {{ linktitle('brc') }}.
+  - name: 'Head of ulna {{"{#head}"}}'
+    desc: >
+      Distal rounded end articulating with the radius and the wrist's
+      fibrocartilage complex.
+  - name: 'Interosseous border {{"{#interosseous-border}"}}'
+    desc: >
+      Sharp {{ link('lateral') }} ridge along the shaft where the
+      interosseous membrane attaches, linking ulna to radius.
+  - name: 'Olecranon process {{"{#olecranon-process}"}}'
+    desc: >
+      Large {{ link('posterior') }} hook forming the elbow point; insertion
+      site for {{ linktitle('trc') }} and attachment for {{ linktitle('anc') }}
+      and {{ linktitle('fcu') }}.
+  - name: 'Radial notch {{"{#radial-notch}"}}'
+    desc: >
+      Shallow {{ link('lateral') }} depression receiving the head of the
+      {{ linkicon('radius') }} to form the proximal radioulnar joint.
+  - name: 'Styloid process {{"{#styloid-process}"}}'
+    desc: >
+      Pointed distal projection for the ulnar collateral {{ link('ligament') }}
+      of the wrist.
+  - name: 'Supinator crest {{"{#supinator-crest}"}}'
+    desc: >
+      Ridge on the proximal {{ link('lateral') }} ulna providing origin for
+      the supinator.
+  - name: 'Trochlear notch {{"{#trochlear-notch}"}}'
+    desc: >
+      C-shaped articular surface below the olecranon that grips the humeral
+      trochlea.
+  - name: 'Ulnar tuberosity {{"{#ulnar-tuberosity}"}}'
+    desc: >
+      Rough area below the coronoid process on the {{ link('anterior') }}
+      shaft where {{ linktitle('brc') }} and flexor digitorum profundus attach.

@@ -1,3 +1,5 @@
+{% from "templates/bony_landmarks.jinja" import bony_landmarks %}
+
 ## Illustrations
 
 <figure>
@@ -24,42 +26,7 @@ Carter</a>, Public domain, via Wikimedia Commons
 
 ## Bony Landmarks
 
-### Coronoid Process {{'{#coronoid-process}'}}
-The {{ link('anterior') }} projection just distal to the trochlear notch; it helps form the elbow joint and provides attachment for the {{ linktitle('brc') }}.
-
-### Head of the Ulna  
-The distal, rounded end that articulates with the ulnar notch of the radius and with the triangular fibrocartilage complex at the wrist.
-
-### Interosseous Border  
-The sharp {{ link('medial') }} ridge running along the shaft where the interosseous membrane attaches, linking ulna to radius.
-
-### Olecranon Process {{'{#olecranon-process}'}}
-The large, {{ link('posterior') }} “hook” at the elbow that forms the point of the elbow and serves as the triceps’ {{ link('insertion') }} site.
-
-Origins:
-
-- {{ linktitle('fcu') }}
-- {{ linktitle('trc') }}
-
-Insertions:
-
-- {{ linktitle('anc') }}
-
-### Radial Notch  
-A shallow depression on the {{ link('lateral') }} side of the coronoid process where the head of the radius rests, forming the proximal radioulnar joint.
-
-### Styloid Process  
-A pointed projection on the {{ link('medial') }} side of the ulnar head that serves as an attachment for the ulnar collateral {{ link('ligament') }} of the wrist.
-
-### Supinator Crest  
-A ridge on the {{ link('lateral') }} proximal ulna extending down from the radial notch; it provides {{ link('origin') }} for the supinator muscle.
-
-### Trochlear (Semilunar) Notch  
-The C-shaped articular surface just below the olecranon that grips the humeral trochlea.
-
-### Ulnar Tuberosity {{'{#ulnar-tuberosity}'}}
-A roughened area just below the coronoid process on the {{ link('anterior') }} shaft.
-{{ linktitle('brc') }} and flexor digitorum profundus attach here.
+{{ bony_landmarks('ulna') }}
 
 ## Muscle Origins
 

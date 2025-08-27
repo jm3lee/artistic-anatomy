@@ -1,4 +1,5 @@
 {% from "templates/insertions.jinja" import insertions %}
+{% from "templates/bony_landmarks.jinja" import bony_landmarks %}
 
 ## Summary
 
@@ -37,17 +38,7 @@ Hermann</a>, Public domain, via Wikimedia Commons
 
 ## Bony Landmarks
 
-### Head {{'{#head}'}}
-Rounded proximal end articulating with the {{ linkicon('tibia') }}.
-
-### Neck {{'{#neck}'}}
-Narrow region just distal to the head.
-
-### Shaft {{'{#shaft}'}}
-Long, thin body of the bone.
-
-### Lateral malleolus {{'{#lateral-malleolus}'}}
-Distal projection forming the outer ankle and attachment point for the fibular collateral ligament.
+{{ bony_landmarks('fibula') }}
 
 ## Muscle Origins
 * Fibularis longus and brevis — proximal lateral fibula

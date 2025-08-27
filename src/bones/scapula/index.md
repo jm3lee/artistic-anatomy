@@ -1,3 +1,5 @@
+{% from "templates/bony_landmarks.jinja" import bony_landmarks %}
+
 ## Illustrations
 
 <figure>
@@ -52,50 +54,9 @@ itself in space. Its primary motions are summarized below.
 
 - {{ linktitle('bk-3d') }} 17, 27
 
-## :round_pushpin: Bony Landmarks
+## Bony Landmarks
 
-[:robot: AI Generated](../../background/icons.html)
-
-1. **Spine of the Scapula**
-   * A prominent ridge running across the {{ link('posterior') }} surface of the scapula.
-   * Separates the **supraspinous fossa** from the **infraspinous fossa**.
-   * Ends laterally at the **acromion process**.
-2. **Acromion Process**
-   * A flat, bony projection at the {{ link('lateral') }} end of the spine.
-   * Articulates with the clavicle at the acromioclavicular joint.
-3. **Coracoid Process**
-   * A hook-like structure on the {{ link('anterior') }} aspect of the scapula.
-   * Provides attachment for muscles such as the **{{ linkicon('pecmin') }}**, **coracobrachialis**, and **short head of the biceps brachii**.
-4. **Glenoid Cavity (Fossa)**
-   * A shallow depression that forms the socket for the head of the humerus.
-   * Part of the **glenohumeral joint** (shoulder joint).
-5. **Supraspinous Fossa**
-   * A smooth concave area above the spine of the scapula.
-   * Houses the **supraspinatus muscle**.
-6. **Infraspinous Fossa**
-   * A larger concave surface below the spine.
-   * Houses the **infraspinatus muscle**.
-7. **Subscapular Fossa**
-   * A broad, shallow depression on the {{ link('anterior') }} surface of the scapula.
-   * Serves as the attachment site for the **subscapularis muscle**.
-8. **Medial (Vertebral) Border**
-   * The long, thin edge closest to the spine.
-   * Serves as an attachment for the **rhomboid** muscles and part of the **serratus anterior**.
-9. **Lateral (Axillary) Border**
-   * The edge closest to the armpit.
-   * Provides attachment for the **teres major** and **teres minor** muscles.
-10. **Superior Border**
-    * The shortest border of the scapula, located near the neck.
-    * Contains the **suprascapular notch**, which allows passage of the **suprascapular nerve**.
-11. **Inferior Angle**
-    * The lower tip of the scapula, where the {{ link('medial') }} and {{ link('lateral') }} borders meet.
-    * Serves as an attachment point for the **teres major** muscle.
-12. **Superior Angle**
-    * The upper tip of the scapula, where the {{ link('superior') }} and {{ link('medial') }} borders meet.
-    * Provides attachment for part of the **levator scapulae muscle**.
-13. **Suprascapular Notch**
-    * A small notch on the {{ link('superior') }} border.
-    * Transmits the **suprascapular nerve** (covered by the **{{ link('superior') }} transverse scapular ligament**).
+{{ bony_landmarks('scapula') }}
 
 ## 🖼️ Examples
 
