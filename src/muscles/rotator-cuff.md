@@ -21,7 +21,7 @@ The rotator cuff comprises four scapular muscles that stabilize the
   - Action: Laterally rotates the {{ linkicon('humerus') }}; stabilizes the
     {{ linktitle('glenohumeral-joint') }}
 
-- **{{ linktitle('trsmin') }}**
+- **{{ linktitle('teres-minor') }}**
   - Origin: Lateral border of the {{ linktitle('scapula') }}
   - Insertion: Inferior facet of the greater tubercle of the
     {{ linkicon('humerus') }}

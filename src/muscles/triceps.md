@@ -58,6 +58,6 @@ loading="lazy"/>
 
   They are closely connected and often work as a team for elbow extension and
   stability.
-* {{ linktitle('trsmaj') }}
-* {{ linktitle('trsmin') }}
+* {{ linktitle('teres-major') }}
+* {{ linktitle('teres-minor') }}
 * {{ linktitle('ld') }}

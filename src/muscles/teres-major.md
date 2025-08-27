@@ -1,10 +1,10 @@
 ---
-title: "{{get_desc('trsmaj')['icon']}} {{get_desc('trsmaj')['title']|title}}"
+title: "{{get_desc('teres-major')['icon']}} {{get_desc('teres-major')['title']|title}}"
 ---
 
 {% from "templates/summary.jinja" import summary %}
 
-{{summary("trsmaj")}}
+{{summary("teres-major")}}
 
 ## Illustrations
 
@@ -36,5 +36,5 @@ extension of the humerus.
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Teres_major_muscle)
-* {{ linktitle('trsmin') }}
+* {{ linktitle('teres-minor') }}
 * {{ linktitle('gf') }}, 162–63

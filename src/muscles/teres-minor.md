@@ -1,12 +1,12 @@
 ---
-title: "{{get_desc('trsmin')['icon']}} {{get_desc('trsmin')['title']|title}}"
+title: "{{get_desc('teres-minor')['icon']}} {{get_desc('teres-minor')['title']|title}}"
 ---
 
 {% from "templates/translations.jinja" import translations %}
 
 {% from "templates/summary.jinja" import summary %}
 
-{{summary("trsmin")}}
+{{summary("teres-minor")}}
 
 ## Illustrations
 
@@ -26,7 +26,7 @@ title: "{{get_desc('trsmin')['icon']}} {{get_desc('trsmin')['title']|title}}"
   </figcaption>
 </figure>
 
-{{translations('trsmin')}}
+{{translations('teres-minor')}}
 
 ## Notes
 
