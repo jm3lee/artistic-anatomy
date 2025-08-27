@@ -17,7 +17,7 @@ anatomy:
     desc: >
       A large, lateral projection just distal to the head that provides
       attachment for the {{ linktitle("supraspinatus") }},
-      {{ linktitle("infraspinatus") }}, and {{ linktitle("teres-minor") }}
+      {{ linktitle("infraspinatus") }}, and {{ linktitle("trsmin") }}
       muscles.
   - name: >
       Radial (Spiral) Groove {{"{#radial_spiral_groove}"}}
