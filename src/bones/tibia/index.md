@@ -1,3 +1,5 @@
+{% from "templates/insertions.jinja" import insertions %}
+
 ## Illustrations
 
 <figure>
@@ -33,12 +35,7 @@
 
 ## Muscle Insertions {{'{#insertions}'}}
 
-{% for section in get_desc('tibia')['anatomy']['insertions'] %}
-* **{{ section.name }}:**
-{% for muscle in section.muscles %}
-  * {{ render_jinja(muscle) }}
-{% endfor %}
-{% endfor %}
+{{ insertions('tibia') }}
 
 ## Notes
 

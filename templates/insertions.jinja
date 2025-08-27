@@ -1,0 +1,16 @@
+{#--
+  Macro: insertions
+  Render muscle insertions for a bone.
+  - name: bone identifier used with get_desc
+  Each insertion section is rendered as a heading followed by a bullet list.
+--#}
+{% macro insertions(name) %}
+{% for section in get_desc(name)['anatomy']['insertions'] %}
+### {{ section.name }}
+<ul>
+{% for muscle in section.muscles %}
+    <li>{{ render_jinja(muscle) }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+{% endmacro %}

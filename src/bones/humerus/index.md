@@ -1,4 +1,5 @@
 {% from "templates/translations.jinja" import translations %}
+{% from "templates/insertions.jinja" import insertions %}
 
 ## Illustrations
 
@@ -91,16 +92,9 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 
 ## Muscle Insertions {{'{#insertions}'}}
 
-{% for section in get_desc('humerus')['anatomy']['insertions'] %}
-### {{ section.name }}
-<ul>
-{% for muscle in section.muscles %}
-<li>{{ render_jinja(muscle) }}</li>
-{% endfor %}
-</ul>
-{% endfor %}
+{{ insertions('humerus') }}
 
-{{translations('humerus')}}
+{{ translations('humerus') }}
 
 ## Notes
 
