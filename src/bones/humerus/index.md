@@ -74,7 +74,7 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 
 ## Notes
 
-{{ linktitle('subscp') }} is the only {{ linktitle('rotator_cuff') }} muscle that inserts on the anterior
+{{ linktitle('subscp') }} is the only {{ linktitle('rotator-cuff') }} muscle that inserts on the anterior
 surface of the humerus.
 
 ## References

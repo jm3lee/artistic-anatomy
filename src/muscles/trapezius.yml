@@ -4,7 +4,7 @@ anatomy:
   - Neck extension & lateral flexion
   insertions:
   - Clavicle
-  - '{{ linktitle("acromion_process") }} of scapula'
+  - '{{ linktitle("acromion-process") }} of scapula'
   - Spine of {{ linktitle("scapula") }}
   origins:
   - Occipital bone

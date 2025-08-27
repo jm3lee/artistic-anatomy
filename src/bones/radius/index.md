@@ -6,7 +6,7 @@ Disc-shaped proximal epiphysis that articulates with the humerus and ulna.
 ### Neck {{'{#neck}'}}
 Narrow region just distal to the head; common fracture site.
 
-### Radial Tuberosity {{'{#radial_tuberosity}'}}
+### Radial Tuberosity {{'{#radial-tuberosity}'}}
 Rough anterior projection on the proximal radius where {{ linkicon('bc') }} inserts.
 
 ### Interosseous Border {{'{#interosseous_border}'}}

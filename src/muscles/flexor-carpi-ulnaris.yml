@@ -9,7 +9,7 @@ anatomy:
   origins:
   - 'Humeral head: medial epicondyle of the {{ linkicon("humerus") }} via the common
     flexor tendon'
-  - 'Ulnar head: {{ linkicon("olecranon_process") }} and posterior border of the {{
+  - 'Ulnar head: {{ linkicon("olecranon-process") }} and posterior border of the {{
     linkicon("ulna") }}'
 author: Brian Lee
 icon: ':muscle:'

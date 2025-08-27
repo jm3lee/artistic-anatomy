@@ -1,9 +1,9 @@
 ---
-title: "{{get_desc('external_oblique')['icon']}} {{get_desc('external_oblique')['title']|title}}"
+title: "{{get_desc('external-oblique')['icon']}} {{get_desc('external-oblique')['title']|title}}"
 ---
 {% from "templates/summary.jinja" import summary %}
 
-{{summary("external_oblique")}}
+{{summary("external-oblique")}}
 
 ## Illustrations
 
@@ -43,4 +43,4 @@ to those of the external oblique. The terminology describes both position
   - **24**: Pontormo. (A) and (D). Profile and 3/4 views. Male.
   - **28**: Tiepolo. (Q). Back view. Male.
   - **36**: Piombo. (E). Front view. Female.
-- [Wikipedia](https://en.wikipedia.org/wiki/Abdominal_external_oblique_muscle)
+- [Wikipedia](https://en.wikipedia.org/wiki/Abdominal_external-oblique_muscle)

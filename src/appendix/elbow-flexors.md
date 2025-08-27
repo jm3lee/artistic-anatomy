@@ -1,7 +1,7 @@
 ---
 title: "Elbow Flexors"
 author: Brian Lee
-id: elbow_flexors
+id: elbow-flexors
 citation: elbow flexors
 ---
 

@@ -6,11 +6,11 @@ anatomy:
   insertions:
   - '{{ linktitle("humerus") }} and intertubercular groove'
   origins:
-  - Spinous processes of T6 to T12 {{ linkicon("thoracic_vertebrae") }}
+  - Spinous processes of T6 to T12 {{ linkicon("thoracic-vertebrae") }}
   - Last three or four ribs
   - Thoracolumbar fascia
   - Posterior iliac crest
-  - Inferior angle of scapula; see Variable Attachment to {{ link("inferior_angle_of_scapula") }}
+  - Inferior angle of scapula; see Variable Attachment to {{ link("inferior-angle-of-scapula") }}
 author: Brian Lee
 icon: ':muscle:'
 id: ld

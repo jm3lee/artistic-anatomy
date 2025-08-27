@@ -1,6 +1,6 @@
 {% from "templates/summary.jinja" import summary_bones %}
 
-{{summary_bones("acromion_process")}}
+{{summary_bones("acromion-process")}}
 
 ## Illustrations
 

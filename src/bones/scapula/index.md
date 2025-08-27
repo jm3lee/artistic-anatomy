@@ -17,7 +17,7 @@ The scapula moves freely across the rib cage, allowing the arm to position
 itself in space. Its primary motions are summarized below.
 
 <dl>
-  <dt id="scapular_depression">Depression</dt>
+  <dt id="scapular-depression">Depression</dt>
   <dd>Lowering the shoulder blade away from the ears.</dd>
   <dd>Ring or bar dip: driving your shoulders downward as you lower your body.</dd>
   <dd>Lower {{ linktitle('trz') }}, {{ linktitle('pecmin') }}, {{ linktitle('ld') }}</dd>
@@ -27,7 +27,7 @@ itself in space. Its primary motions are summarized below.
   <dd>Dumbbell shrug: lifting your shoulders straight up toward your ears.</dd>
   <dd>Upper {{ linktitle('trz') }}, Levator Scapulae</dd>
 
-  <dt id="scapular_protraction">Protraction</dt>
+  <dt id="scapular-protraction">Protraction</dt>
   <dd>Sliding the shoulder blade forward around the rib cage.</dd>
   <dd>Push‑up plus: at the top of a push‑up, actively thrusting your chest away from the floor to spread the shoulder blades.</dd>
   <dd>{{ linktitle('sa') }}, {{ linktitle('pecmin') }}</dd>
@@ -50,7 +50,7 @@ itself in space. Its primary motions are summarized below.
 
 ### References
 
-- {{ linktitle('bk_3d') }} 17, 27
+- {{ linktitle('bk-3d') }} 17, 27
 
 ## :round_pushpin: Bony Landmarks
 

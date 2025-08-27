@@ -32,8 +32,8 @@ loading="lazy"/>
 
 ## References
 
-- {{ linktitle('glenohumeral_joint') }}
-- {{ linktitle('rotator_cuff') }}
+- {{ linktitle('glenohumeral-joint') }}
+- {{ linktitle('rotator-cuff') }}
 - {{ linktitle('gf') }}, 160.
 - {{ linktitle('hc77') }}
   - **108: Rubens, Study of a River God for the Four Rivers**

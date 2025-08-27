@@ -35,7 +35,7 @@ The teres minor muscle is usually not visible because it blends with the
 may become visible if the arm is held straight out to the side, rotated outward,
 and pushed downward and backward against resistance.
 
-One of the {{ linkicon('rotator_cuff') }} muscles.
+One of the {{ linkicon('rotator-cuff') }} muscles.
 
 ```python
 include('src/muscles/teres-major-minor-insertion.md')
@@ -53,5 +53,5 @@ include('src/muscles/teres-major-minor-insertion.md')
       which are outward rotators, are inactive."
   - **252: Richer Plate 21, Lateral Aspect**
 - {{ linktitle('infs') }}
-- {{ linktitle('rotator_cuff') }}
+- {{ linktitle('rotator-cuff') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Teres_minor_muscle)

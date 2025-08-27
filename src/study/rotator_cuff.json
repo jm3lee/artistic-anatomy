@@ -22,7 +22,7 @@
     ],
     "a": [
       2,
-      "{{ linktitle('trsmin') }} is one of the four {{ linkicon('rotator_cuff') }} muscles. It sits deep beneath the {{ linkicon('dt') }} and {{ linkicon('trz') }} and is covered by dense fascia along with {{ linkicon('infs') }}. In most individuals and most positions, it is not visible on the surface."
+      "{{ linktitle('trsmin') }} is one of the four {{ linkicon('rotator-cuff') }} muscles. It sits deep beneath the {{ linkicon('dt') }} and {{ linkicon('trz') }} and is covered by dense fascia along with {{ linkicon('infs') }}. In most individuals and most positions, it is not visible on the surface."
     ]
   }
 ]

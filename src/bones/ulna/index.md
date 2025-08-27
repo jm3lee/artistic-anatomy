@@ -24,7 +24,7 @@ Carter</a>, Public domain, via Wikimedia Commons
 
 ## Bony Landmarks
 
-### Coronoid Process {{'{#coronoid_process}'}}
+### Coronoid Process {{'{#coronoid-process}'}}
 The {{ link('anterior') }} projection just distal to the trochlear notch; it helps form the elbow joint and provides attachment for the {{ linktitle('brc') }}.
 
 ### Head of the Ulna  
@@ -57,7 +57,7 @@ A ridge on the {{ link('lateral') }} proximal ulna extending down from the radia
 ### Trochlear (Semilunar) Notch  
 The C-shaped articular surface just below the olecranon that grips the humeral trochlea.
 
-### Ulnar Tuberosity {{'{#ulnar_tuberosity}'}}
+### Ulnar Tuberosity {{'{#ulnar-tuberosity}'}}
 A roughened area just below the coronoid process on the {{ link('anterior') }} shaft.
 {{ linktitle('brc') }} and flexor digitorum profundus attach here.
 

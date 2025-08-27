@@ -29,9 +29,9 @@ anatomy:
     name: Medial epicondyle (common flexor origin)
   - muscles:
     - Extensor carpi radialis brevis
-    - '{{ linktitle("extensor_digitorum") }}'
+    - '{{ linktitle("extensor-digitorum") }}'
     - Extensor digiti minimi
-    - '{{ linktitle("extensor_carpi_ulnaris") }}'
+    - '{{ linktitle("extensor-carpi-ulnaris") }}'
     - Supinator
     name: Lateral epicondyle (common extensor origin)
   - muscles:

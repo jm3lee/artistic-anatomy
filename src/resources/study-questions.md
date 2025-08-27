@@ -17,7 +17,7 @@ ol {
 {#{render_mc("src/study/key_terms.json")}#}
 
 ## Rotator Cuff
-{#{render_mc("src/study/rotator_cuff.json")}#}
+{#{render_mc("src/study/rotator-cuff.json")}#}
 
 ## Deltoid
 {#{render_mc("src/study/deltoid.json")}#}
