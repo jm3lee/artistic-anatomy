@@ -63,6 +63,7 @@ JOINT_YAMLS := $(shell find src -name '*.yml')
 MUSCLE_YAMLS := $(shell find src/muscles -name '*.yml')
 TENDON_YAMLS := $(shell find src -name '*.yml')
 LANDMARK_YAMLS := $(shell find src -name '*.yml')
+TORSO_YAMLS := $(shell find src -name '*.yml')
 MOVEMENT_YAMLS := $(shell find src/movements -name '*.yml')
 APPENDIX_YAMLS := $(shell find src/appendix -name '*.yml')
 RESOURCE_YAMLS := $(shell find src/resources -name '*.yml')
@@ -91,6 +92,9 @@ build/static/index/landmarks-indextree.json: $(LANDMARK_YAMLS) | build/static/in
 build/static/index/movements-indextree.json: $(MOVEMENT_YAMLS) | build/static/index
 	indextree-json src/movements > $@
 
+build/static/index/torso-indextree.json: $(TORSO_YAMLS) | build/static/index
+	indextree-json -t torso src > $@
+
 build/static/index/appendix-indextree.json: $(APPENDIX_YAMLS) | build/static/index
 	indextree-json src/appendix > $@
 
@@ -105,6 +109,7 @@ build/toc.html: \
 	build/static/index/muscles-indextree.json \
 	build/static/index/tendons-indextree.json \
 	build/static/index/landmarks-indextree.json \
+	build/static/index/torso-indextree.json \
 	build/static/index/movements-indextree.json \
 	build/static/index/appendix-indextree.json \
 	build/static/index/resources-indextree.json
