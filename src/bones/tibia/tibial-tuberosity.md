@@ -16,7 +16,7 @@ loading="lazy"/>
 
 <img
 src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/bones/tibia-0001.jpg"
-alt="The Oath of Haratii, Jacques-Louis David, 1784"
+alt="The Oath of the Horatii, Jacques-Louis David, 1784"
 loading="lazy"/>
 
 ## References

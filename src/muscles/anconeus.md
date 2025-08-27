@@ -32,12 +32,16 @@ loading="lazy"/>
 
 ## Relationship between triceps and anconeus
 
-The **triceps brachii** and **anconeus** are muscles that work together to straighten the elbow.
+The **triceps brachii** and **anconeus** are muscles that work together to
+straighten the elbow.
 
-* The **triceps** is the bigger muscle with three parts and does most of the work to extend the arm.
-* The **anconeus** is a smaller helper muscle near the elbow. It assists the triceps and helps stabilize the joint during movement.
+* The **triceps** is the bigger muscle with three parts and does most of the
+  work to extend the arm.
+* The **anconeus** is a smaller helper muscle near the elbow. It assists the
+  triceps and helps stabilize the joint during movement.
 
-They are closely connected and often work as a team for elbow extension and stability.
+They are closely connected and often work as a team for elbow extension and
+stability.
 
 ## References
 
