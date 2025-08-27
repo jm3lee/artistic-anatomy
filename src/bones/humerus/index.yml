@@ -19,6 +19,34 @@ anatomy:
   - muscles:
     - '{{ linktitle("coracobrachialis") }}'
     name: Medial Shaft of Humerus
+  origins:
+  - muscles:
+    - '{{ linktitle("protrs") }} (humeral head)'
+    - '{{ linktitle("fcr") }}'
+    - Palmaris longus
+    - '{{ linktitle("fcu") }} (humeral head)'
+    - Flexor digitorum superficialis (humeral head)
+    name: Medial epicondyle (common flexor origin)
+  - muscles:
+    - Extensor carpi radialis brevis
+    - '{{ linktitle("extensor_digitorum") }}'
+    - Extensor digiti minimi
+    - '{{ linktitle("extensor_carpi_ulnaris") }}'
+    - Supinator
+    name: Lateral epicondyle (common extensor origin)
+  - muscles:
+    - '{{ linktitle("brr") }}'
+    - Extensor carpi radialis longus
+    name: Lateral supracondylar ridge
+  - muscles:
+    - '{{ linktitle("brc") }}'
+    name: Anterior shaft (distal half)
+  - muscles:
+    - '{{ linktitle("trc") }} (lateral and medial heads)'
+    name: Posterior shaft (radial groove region)
+  - muscles:
+    - '{{ linktitle("trc") }} (long head)'
+    name: Infraglenoid Tubercle
 author: Brian Lee
 icon: ':bone:'
 id: humerus

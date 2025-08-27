@@ -1,5 +1,6 @@
 {% from "templates/translations.jinja" import translations %}
 {% from "templates/insertions.jinja" import insertions %}
+{% from "templates/origins.jinja" import origins %}
 
 ## Illustrations
 
@@ -63,32 +64,7 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 
 ## Muscle Origins {{'{#origins}'}}
 
-### Medial epicondyle (common flexor origin)
-* Pronator teres (humeral head)
-* Flexor carpi radialis
-* Palmaris longus
-* Flexor carpi ulnaris (humeral head)
-* Flexor digitorum superficialis (humeral head)
-
-### Lateral epicondyle (common extensor origin)
-* Extensor carpi radialis brevis
-* Extensor digitorum
-* Extensor digiti minimi
-* Extensor carpi ulnaris
-* Supinator
-
-### Lateral supracondylar ridge
-* {{ linktitle('brr') }}
-* Extensor carpi radialis longus
-
-### Anterior shaft (distal half)
-* {{ linktitle('brc') }}
-
-### Posterior shaft (radial groove region)
-* {{ linktitle('trc') }} (lateral and medial heads)
-
-### Infraglenoid Tubercle
-* {{ linktitle('trc') }} (long head)
+{{ origins('humerus') }}
 
 ## Muscle Insertions {{'{#insertions}'}}
 
