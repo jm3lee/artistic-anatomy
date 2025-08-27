@@ -1,0 +1,18 @@
+{#--
+  Macro: origins
+  Render muscle origins for a bone.
+  - name: bone identifier used with get_desc
+  Each origin section is rendered as a heading followed by a bullet list.
+--#}
+{% macro origins(name) %}
+{% for section in get_desc(name)['anatomy']['origins'] %}
+### {{ section.name }}
+```{=html}
+<ul>
+{% for muscle in section.muscles %}
+    <li>{{ render_jinja(muscle) }}</li>
+{% endfor %}
+</ul>
+```
+{% endfor %}
+{% endmacro %}
