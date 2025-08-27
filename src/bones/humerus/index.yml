@@ -49,7 +49,7 @@ anatomy:
   insertions:
   - muscles:
     - '{{ linktitle("infs") }}'
-    - '{{ linktitle("sups") }}'
+    - '{{ linktitle("supraspinatus") }}'
     - '{{ linktitle("trsmin") }}'
     name: Greater Tubercle
   - muscles:

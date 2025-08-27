@@ -7,7 +7,7 @@ The rotator cuff comprises four scapular muscles that stabilize the
 
 ## Muscles
 
-- **{{ linktitle('sups') }}**
+- **{{ linktitle('supraspinatus') }}**
   - Origin: Supraspinous fossa of the {{ linktitle('scapula') }}
   - Insertion: Superior facet of the greater tubercle of the
     {{ linkicon('humerus') }}

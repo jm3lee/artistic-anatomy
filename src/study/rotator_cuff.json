@@ -2,7 +2,7 @@
   {
     "q": "Which rotator‑cuff muscle inserts on the anterior aspect of the {{ linkicon('humerus') }}?",
     "c": [
-      "{{ linktitle('sups') }}",
+      "{{ linktitle('supraspinatus') }}",
       "{{ linktitle('infs') }}",
       "{{ linktitle('trsmin') }}",
       "{{ linktitle('subscp') }}"
