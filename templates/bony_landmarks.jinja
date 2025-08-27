@@ -1,0 +1,13 @@
+{#--
+  Macro: bony_landmarks
+  Render bony landmarks for a bone.
+  - name: bone identifier used with get_desc
+  Each landmark is rendered as a heading followed by a paragraph.
+--#}
+{% macro bony_landmarks(name) %}
+{% for landmark in get_desc(name)['anatomy']['bony_landmarks'] %}
+### {{ render_jinja(landmark.name) }}
+{{ render_jinja(landmark.desc) }}
+
+{% endfor %}
+{% endmacro %}

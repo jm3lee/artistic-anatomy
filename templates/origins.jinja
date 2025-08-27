@@ -5,7 +5,7 @@
   Each origin section is rendered as a heading followed by a bullet list.
 --#}
 {% macro origins(name) %}
-{% for section in get_desc(name)['anatomy']['origins'] %}
+{% for section in get_desc(name)['anatomy']['origins'] | sort(attribute='name') %}
 ### {{ section.name }}
 ```{=html}
 <ul>

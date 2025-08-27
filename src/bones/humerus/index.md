@@ -1,6 +1,7 @@
 {% from "templates/translations.jinja" import translations %}
 {% from "templates/insertions.jinja" import insertions %}
 {% from "templates/origins.jinja" import origins %}
+{% from "templates/bony_landmarks.jinja" import bony_landmarks %}
 
 ## Illustrations
 
@@ -30,37 +31,10 @@ Gray's Anatomy: Muscle attachment points on humerus
 
 Source: [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/a/ad/Gray207.png)
 
+
 ## Bony Landmarks
 
-### Head of the Humerus {{'{#head_of_humerus}'}}
-The rounded, proximal articular surface that fits into the glenoid cavity of the scapula, forming the glenohumeral (shoulder) joint.
-
-### Anatomical Neck {{'{#anatomical_neck}'}}
-The slight constriction immediately distal to the head, marking the site of the epiphyseal plate in development and serving as the attachment for the joint capsule.
-
-### Surgical Neck {{'{#surgical_neck}'}}
-The narrower region distal to the tubercles; a common fracture site.
-
-### Greater Tubercle {{'{#greater_tubercle}'}}
-A large, lateral projection just distal to the head that provides attachment for the supraspinatus, infraspinatus, and teres minor muscles.
-
-### Radial (Spiral) Groove {{'{#radial_spiral_groove}'}}
-A shallow groove running obliquely down the posterior shaft, transmitting the radial nerve and deep brachial artery.
-
-### Nutrient (Oblique) Foramen {{'{#nutrient_foramen}'}}
-A small opening on the anteromedial shaft that allows nutrient vessels to enter the bone.
-
-### Medial Epicondyle {{'{#medial_epicondyle}'}}
-A prominent projection on the distal medial side, providing origin for the common flexor tendon (flexor-pronator muscles) and attachment of the ulnar collateral ligament of the elbow.
-
-### Lateral Epicondyle {{'{#lateral_epicondyle}'}}
-A smaller lateral projection that gives origin to the common extensor tendon (extensor-supinator muscles) and attachment for the radial collateral ligament.
-
-### Capitulum {{'{#capitulum}'}}
-A rounded eminence on the anterior, distal lateral humerus that articulates with the head of the radius.
-
-### Trochlea {{'{#trochlea}'}}
-A spool-shaped medial projection on the anterior distal humerus that articulates with the trochlear notch of the ulna.
+{{ bony_landmarks('humerus') }}
 
 ## Muscle Origins {{'{#origins}'}}
 

@@ -5,7 +5,7 @@
   Each insertion section is rendered as a heading followed by a bullet list.
 --#}
 {% macro insertions(name) %}
-{% for section in get_desc(name)['anatomy']['insertions'] %}
+{% for section in get_desc(name)['anatomy']['insertions'] | sort(attribute='name') %}
 ### {{ section.name }}
 ```{=html}
 <ul>
