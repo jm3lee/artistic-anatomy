@@ -4,12 +4,12 @@ anatomy:
   - Laterally rotates the hip
   - Abducts the hip
   - Adducts the hip (lower fibers)
+  insertions:
+  - Iliotibial tract (upper fibers)
+  - Gluteal tuberosity (lower fibers)
 author: Brian Lee
 icon: ':muscle:'
 id: gmax
-insertions:
-- Iliotibial tract (upper fibers)
-- Gluteal tuberosity (lower fibers)
 origins:
 - Coccyx
 - Edge of sacrum

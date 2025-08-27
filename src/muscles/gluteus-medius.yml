@@ -6,11 +6,11 @@ anatomy:
   - Extends the hip (posterior fibers)
   - Laterally rotates the hip (posterior fibers)
   - Keeps the pelvis horizontal in the middle of the walk cycle
+  insertions:
+  - Lateral aspect of greater trochanter of {{ linkicon("femur") }}
 author: Brian Lee
 icon: ':muscle:'
 id: gmed
-insertions:
-- Lateral aspect of greater trochanter of {{ linkicon("femur") }}
 origins:
 - Gluteal surface of ilium between posterior and anterior gluteal lines
 pubdate: Aug 25, 2025

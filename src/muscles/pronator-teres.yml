@@ -2,11 +2,11 @@ anatomy:
   actions:
   - Pronates the forearm
   - Assists elbow flexion; see {{ linkicon("elbow_flexors") }}
+  insertions:
+  - Middle of lateral surface of the {{ linkicon("radius") }}
 author: Brian Lee
 icon: ':muscle:'
 id: protrs
-insertions:
-- Middle of lateral surface of the {{ linkicon("radius") }}
 origins:
 - Common flexor tendon attached to medial epicondyle of {{ linkicon("humerus") }}
 - '{{ linkcap("coronoid_process") }} of the {{ linkicon("ulna") }}'

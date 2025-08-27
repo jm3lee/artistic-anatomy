@@ -4,12 +4,12 @@ anatomy:
   - Rotates head to opposite side
   - Laterally flexes neck to same side
   - Assist to elevate the rib cage during inhalation
+  insertions:
+  - Mastoid process of the temporal bone
+  - Superior nuchal line
 author: Brian Lee
 icon: ':muscle:'
 id: scm
-insertions:
-- Mastoid process of the temporal bone
-- Superior nuchal line
 origins:
 - Manubrium of sternum
 - Medial third of {{ linkicon("clavicle") }}

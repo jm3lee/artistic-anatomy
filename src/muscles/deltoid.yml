@@ -3,11 +3,11 @@ anatomy:
   - Shoulder {{ link("abduction") }} (middle fibers)
   - Shoulder {{ link("flexion") }} & {{ link("medial") }} rotation (anterior fibers)
   - Shoulder {{ link("extension") }} & {{ link("lateral") }} rotation (posterior fibers)
+  insertions:
+  - '{{ linkcap("deltoid_tuberosity") }} of the {{ linkicon("humerus") }}'
 author: Brian Lee
 icon: ':muscle:'
 id: dt
-insertions:
-- '{{ linkcap("deltoid_tuberosity") }} of the {{ linkicon("humerus") }}'
 origins:
 - Lateral third of the {{ link("clavicle") }} ({{ link("anterior") }} fibers)
 - '{{ linkcap("acromion_process") }} of the {{ linkicon("scapula") }} (middle fibers)'

@@ -2,11 +2,11 @@ anatomy:
   actions:
   - Elbow flexion
   - Assists pronation ands upination of the forearm when movements are resisted
+  insertions:
+  - Styloid processs of radius
 author: Brian Lee
 icon: ':muscle:'
 id: brr
-insertions:
-- Styloid processs of radius
 origins:
 - Proximal two-thirds of the lateral supracondylar ridge of {{ linkicon("humerus")
   }}

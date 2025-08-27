@@ -1,7 +1,8 @@
 author: Brian Lee
 icon: ':round_pushpin:'
-insertions:
-- '{{ linktitle("pecmin") }}'
+anatomy:
+  insertions:
+  - '{{ linktitle("pecmin") }}'
 origins:
 - '{{ linktitle("coracobrachialis") }}'
 - '{{ linktitle("bc") }} (short head)'

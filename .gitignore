@@ -1,4 +1,7 @@
-build/
+build/*
+!build/keyterms/
+build/keyterms/*
+!build/keyterms/index.html
 *.swo
 *.swp
 *.swn

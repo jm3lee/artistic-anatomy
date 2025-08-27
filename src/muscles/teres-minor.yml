@@ -6,13 +6,13 @@ anatomy:
   rotator cuff
 
   '
+  insertions:
+  - 'Inferior facet of the greater tubercle of the {{ linkicon("humerus") }}
+
+    '
 author: Brian Lee
 icon: ':muscle:'
 id: trsmin
-insertions:
-- 'Inferior facet of the greater tubercle of the {{ linkicon("humerus") }}
-
-  '
 origins:
 - 'Upper two thirds of the lateral (axillary) border of the {{ linkicon("scapula")
   }}

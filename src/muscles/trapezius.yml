@@ -2,13 +2,13 @@ anatomy:
   actions:
   - Elevation, retraction, depression & upward rotation of scapula
   - Neck extension & lateral flexion
+  insertions:
+  - Clavicle
+  - '{{ linktitle("acromion_process") }} of scapula'
+  - Spine of {{ linktitle("scapula") }}
 author: Brian Lee
 icon: ':muscle:'
 id: trz
-insertions:
-- Clavicle
-- '{{ linktitle("acromion_process") }} of scapula'
-- Spine of {{ linktitle("scapula") }}
 origins:
 - Occipital bone
 - Spinous processes of {{ linkicon("spine") }}

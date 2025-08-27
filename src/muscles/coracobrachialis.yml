@@ -2,11 +2,11 @@ anatomy:
   actions:
   - Flexes the shoulder
   - Adducts the shoulder
+  insertions:
+  - Medial surface of mid-humeral shaft
 author: Brian Lee
 icon: ':muscle:'
 id: coracobrachialis
-insertions:
-- Medial surface of mid-humeral shaft
 origins:
 - '{{ linkcap("coracoid_process") }} of the scapula'
 pubdate: Aug 25, 2025

@@ -4,11 +4,11 @@ anatomy:
   - 'Shoulder stabilization as a part of {{ linkicon("rotator_cuff") }} muscle group
 
   '
+  insertions:
+  - Middle facet of the greater tubercle of the humerus
 author: Brian Lee
 icon: ':muscle:'
 id: infs
-insertions:
-- Middle facet of the greater tubercle of the humerus
 origins:
 - Infraspinous fossa of the {{ linkicon("scapula") }}
 pubdate: Aug 25, 2025

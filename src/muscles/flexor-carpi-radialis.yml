@@ -2,11 +2,11 @@ anatomy:
   actions:
   - Wrist flexion
   - Wrist abduction
+  insertions:
+  - Base of the second and third metacarpals
 author: Brian Lee
 icon: ':muscle:'
 id: fcr
-insertions:
-- Base of the second and third metacarpals
 origins:
 - |
   Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }} via the common
