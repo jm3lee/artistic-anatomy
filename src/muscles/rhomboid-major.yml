@@ -1,5 +1,6 @@
-actions:
-- Scapular retraction, elevation, and downward rotation
+anatomy:
+  actions:
+  - Scapular retraction, elevation, and downward rotation
 author: Brian Lee
 icon: ':muscle:'
 id: rhmaj

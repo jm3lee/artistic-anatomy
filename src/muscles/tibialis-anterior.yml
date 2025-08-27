@@ -1,7 +1,8 @@
-actions:
-- Inverts the foot
-- Dorsiflexes the ankle
-- 'Walk cycle: controls heel-to-toe movement'
+anatomy:
+  actions:
+  - Inverts the foot
+  - Dorsiflexes the ankle
+  - 'Walk cycle: controls heel-to-toe movement'
 author: Brian Lee
 icon: ':muscle:'
 id: tiba

@@ -1,7 +1,8 @@
-actions:
-- Flexes the knee
-- Extends the hip (long head)
-- Laterally rotates the leg when the knee is flexed
+anatomy:
+  actions:
+  - Flexes the knee
+  - Extends the hip (long head)
+  - Laterally rotates the leg when the knee is flexed
 author: Brian Lee
 icon: ':muscle:'
 id: bfem

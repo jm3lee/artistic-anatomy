@@ -1,7 +1,8 @@
-actions:
-- Extends the shoulder
-- Adducts the shoulder
-- Medially rotates the shoulder
+anatomy:
+  actions:
+  - Extends the shoulder
+  - Adducts the shoulder
+  - Medially rotates the shoulder
 author: Brian Lee
 icon: ':muscle:'
 id: ld

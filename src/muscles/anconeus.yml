@@ -1,7 +1,8 @@
-actions:
-- Assists triceps brachii in elbow extension
-- Stabilizes the elbow joint
-- Abducts the ulna during forearm pronation
+anatomy:
+  actions:
+  - Assists triceps brachii in elbow extension
+  - Stabilizes the elbow joint
+  - Abducts the ulna during forearm pronation
 author: Brian Lee
 icon: ':muscle:'
 id: anc

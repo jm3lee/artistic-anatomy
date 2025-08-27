@@ -1,6 +1,7 @@
-actions:
-- Elevation, retraction, depression & upward rotation of scapula
-- Neck extension & lateral flexion
+anatomy:
+  actions:
+  - Elevation, retraction, depression & upward rotation of scapula
+  - Neck extension & lateral flexion
 author: Brian Lee
 icon: ':muscle:'
 id: trz

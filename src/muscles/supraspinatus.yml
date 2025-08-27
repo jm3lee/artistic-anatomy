@@ -1,6 +1,7 @@
-actions:
-- "Initiation of shoulder abduction (first ~15\xB0)"
-- 'Stabilization of the glenohumeral joint; see {{ linkicon("rotator_cuff") }}
+anatomy:
+  actions:
+  - "Initiation of shoulder abduction (first ~15\xB0)"
+  - 'Stabilization of the glenohumeral joint; see {{ linkicon("rotator_cuff") }}
 
   '
 author: Brian Lee

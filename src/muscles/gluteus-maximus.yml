@@ -1,8 +1,9 @@
-actions:
-- Extends the hip
-- Laterally rotates the hip
-- Abducts the hip
-- Adducts the hip (lower fibers)
+anatomy:
+  actions:
+  - Extends the hip
+  - Laterally rotates the hip
+  - Abducts the hip
+  - Adducts the hip (lower fibers)
 author: Brian Lee
 icon: ':muscle:'
 id: gmax

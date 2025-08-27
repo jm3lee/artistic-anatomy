@@ -1,7 +1,8 @@
-actions:
-- Elbow flexion
-- Supinates the forearm
-- Flexes the shoulder
+anatomy:
+  actions:
+  - Elbow flexion
+  - Supinates the forearm
+  - Flexes the shoulder
 author: Brian Lee
 icon: ':muscle:'
 id: bc

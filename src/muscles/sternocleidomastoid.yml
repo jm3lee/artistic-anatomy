@@ -1,8 +1,9 @@
-actions:
-- Flexes neck when both sides contract
-- Rotates head to opposite side
-- Laterally flexes neck to same side
-- Assist to elevate the rib cage during inhalation
+anatomy:
+  actions:
+  - Flexes neck when both sides contract
+  - Rotates head to opposite side
+  - Laterally flexes neck to same side
+  - Assist to elevate the rib cage during inhalation
 author: Brian Lee
 icon: ':muscle:'
 id: scm

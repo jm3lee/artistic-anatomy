@@ -1,6 +1,7 @@
-actions:
-- Extends digits two through five
-- Assists wrist {{ link('extension') }}
+anatomy:
+  actions:
+  - Extends digits two through five
+  - Assists wrist {{ link('extension') }}
 author: Brian Lee
 description: Extends digits two through five and assists with wrist extension.
 icon: ':muscle:'

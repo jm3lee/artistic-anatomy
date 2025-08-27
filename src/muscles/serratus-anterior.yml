@@ -1,8 +1,9 @@
-actions:
-- Protracts (abducts) the scapula
-- Upward rotation of the scapula
-- Holds scapula against thoracic wall
-- Accessory muscle of inspiration (elevates ribs)
+anatomy:
+  actions:
+  - Protracts (abducts) the scapula
+  - Upward rotation of the scapula
+  - Holds scapula against thoracic wall
+  - Accessory muscle of inspiration (elevates ribs)
 author: Brian Lee
 icon: ':muscle:'
 id: sa

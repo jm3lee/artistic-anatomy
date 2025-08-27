@@ -1,6 +1,7 @@
-actions:
-- Pronates the forearm
-- Assists elbow flexion; see {{ linkicon("elbow_flexors") }}
+anatomy:
+  actions:
+  - Pronates the forearm
+  - Assists elbow flexion; see {{ linkicon("elbow_flexors") }}
 author: Brian Lee
 icon: ':muscle:'
 id: protrs

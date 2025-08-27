@@ -1,6 +1,7 @@
-actions:
-- Elbow flexion
-- Assists pronation ands upination of the forearm when movements are resisted
+anatomy:
+  actions:
+  - Elbow flexion
+  - Assists pronation ands upination of the forearm when movements are resisted
 author: Brian Lee
 icon: ':muscle:'
 id: brr

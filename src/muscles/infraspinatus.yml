@@ -1,6 +1,7 @@
-actions:
-- External (lateral) rotation of the shoulder
-- 'Shoulder stabilization as a part of {{ linkicon("rotator_cuff") }} muscle group
+anatomy:
+  actions:
+  - External (lateral) rotation of the shoulder
+  - 'Shoulder stabilization as a part of {{ linkicon("rotator_cuff") }} muscle group
 
   '
 author: Brian Lee

@@ -1,5 +1,6 @@
-actions:
-- Flexion of the elbow joint
+anatomy:
+  actions:
+  - Flexion of the elbow joint
 author: Brian Lee
 icon: ':muscle:'
 id: brc

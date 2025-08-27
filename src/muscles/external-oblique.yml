@@ -1,5 +1,6 @@
-actions:
-- Compresses abdominal contents; flexes and rotates trunk (contralateral rotation)
+anatomy:
+  actions:
+  - Compresses abdominal contents; flexes and rotates trunk (contralateral rotation)
 author: Brian Lee
 icon: ':muscle:'
 id: external_oblique

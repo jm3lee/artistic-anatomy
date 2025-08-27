@@ -1,8 +1,9 @@
-actions:
-- Flexes the shoulder (especially the clavicular head)
-- Adducts the shoulder
-- Medially rotates the shoulder
-- Assists in extending the shoulder from a flexed position (sternal head)
+anatomy:
+  actions:
+  - Flexes the shoulder (especially the clavicular head)
+  - Adducts the shoulder
+  - Medially rotates the shoulder
+  - Assists in extending the shoulder from a flexed position (sternal head)
 author: Brian Lee
 icon: ':muscle:'
 id: pecmaj

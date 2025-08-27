@@ -1,6 +1,7 @@
-actions:
-- Flexes the shoulder
-- Adducts the shoulder
+anatomy:
+  actions:
+  - Flexes the shoulder
+  - Adducts the shoulder
 author: Brian Lee
 icon: ':muscle:'
 id: coracobrachialis

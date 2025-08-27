@@ -1,7 +1,8 @@
-actions:
-- '{{ linkcap("scapular_protraction") }} (pulls scapula forward and downward).'
-- '{{ linkcap("scapular_depression") }}.'
-- Stabilizes scapula against thoracic wall.
+anatomy:
+  actions:
+  - '{{ linkcap("scapular_protraction") }} (pulls scapula forward and downward).'
+  - '{{ linkcap("scapular_depression") }}.'
+  - Stabilizes scapula against thoracic wall.
 author: Brian Lee
 icon: ':muscle:'
 id: pecmin

@@ -1,7 +1,8 @@
-actions:
-- Shoulder {{ link("abduction") }} (middle fibers)
-- Shoulder {{ link("flexion") }} & {{ link("medial") }} rotation (anterior fibers)
-- Shoulder {{ link("extension") }} & {{ link("lateral") }} rotation (posterior fibers)
+anatomy:
+  actions:
+  - Shoulder {{ link("abduction") }} (middle fibers)
+  - Shoulder {{ link("flexion") }} & {{ link("medial") }} rotation (anterior fibers)
+  - Shoulder {{ link("extension") }} & {{ link("lateral") }} rotation (posterior fibers)
 author: Brian Lee
 icon: ':muscle:'
 id: dt

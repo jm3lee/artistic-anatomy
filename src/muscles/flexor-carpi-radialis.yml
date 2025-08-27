@@ -1,6 +1,7 @@
-actions:
-- Wrist flexion
-- Wrist abduction
+anatomy:
+  actions:
+  - Wrist flexion
+  - Wrist abduction
 author: Brian Lee
 icon: ':muscle:'
 id: fcr

@@ -1,6 +1,7 @@
-actions:
-- Wrist {{ linkicon("flexion") }}
-- Ulnar deviation (adduction) of the wrist
+anatomy:
+  actions:
+  - Wrist {{ linkicon("flexion") }}
+  - Ulnar deviation (adduction) of the wrist
 author: Brian Lee
 icon: ':muscle:'
 id: fcu
