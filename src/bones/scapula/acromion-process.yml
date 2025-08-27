@@ -3,8 +3,8 @@ icon: ':round_pushpin:'
 anatomy:
   insertions:
   - '{{ linktitle("trz") }}'
-origins:
-- '{{ linktitle("dt") }}'
+  origins:
+  - '{{ linktitle("dt") }}'
 id: acromion_process
 pubdate: Aug 25, 2025
 status: Reviewed

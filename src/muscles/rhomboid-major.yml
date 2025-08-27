@@ -3,11 +3,11 @@ anatomy:
   - Scapular retraction, elevation, and downward rotation
   insertions:
   - Medial border of {{ linkicon("scapula") }} (from spine to inferior angle)
+  origins:
+  - Spinous processes of T2 to T5 vertebrae
 author: Brian Lee
 icon: ':muscle:'
 id: rhmaj
-origins:
-- Spinous processes of T2 to T5 vertebrae
 pubdate: Aug 25, 2025
 status: Reviewed
 title: Rhomboid Major

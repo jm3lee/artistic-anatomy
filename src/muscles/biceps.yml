@@ -6,12 +6,12 @@ anatomy:
   insertions:
   - '{{ linkcap("radial_tuberosity") }} of {{ linkicon("radius") }}'
   - Bicipital aponeurosis
+  origins:
+  - 'Short head: Coracoid process of the {{ linkicon("scapula") }}'
+  - 'Long head: Supraglenoid tubercle of the {{ linkicon("scapula") }}'
 author: Brian Lee
 icon: ':muscle:'
 id: bc
-origins:
-- 'Short head: Coracoid process of the {{ linkicon("scapula") }}'
-- 'Long head: Supraglenoid tubercle of the {{ linkicon("scapula") }}'
 pubdate: Aug 25, 2025
 status: Reviewed
 title: Biceps

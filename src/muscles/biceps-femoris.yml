@@ -5,12 +5,12 @@ anatomy:
   - Laterally rotates the leg when the knee is flexed
   insertions:
   - Head of the {{ linkicon("fibula") }}
+  origins:
+  - 'Long head: Ischial tuberosity of the {{ linkicon("pelvis") }}'
+  - 'Short head: Linea aspera of the {{ linkicon("femur") }}'
 author: Brian Lee
 icon: ':muscle:'
 id: bfem
-origins:
-- 'Long head: Ischial tuberosity of the {{ linkicon("pelvis") }}'
-- 'Short head: Linea aspera of the {{ linkicon("femur") }}'
 pubdate: Aug 25, 2025
 status: Reviewed
 title: Biceps Femoris

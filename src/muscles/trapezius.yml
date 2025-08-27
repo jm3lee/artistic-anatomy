@@ -6,12 +6,12 @@ anatomy:
   - Clavicle
   - '{{ linktitle("acromion_process") }} of scapula'
   - Spine of {{ linktitle("scapula") }}
+  origins:
+  - Occipital bone
+  - Spinous processes of {{ linkicon("spine") }}
 author: Brian Lee
 icon: ':muscle:'
 id: trz
-origins:
-- Occipital bone
-- Spinous processes of {{ linkicon("spine") }}
 pubdate: Aug 25, 2025
 status: Review Pending
 translations:

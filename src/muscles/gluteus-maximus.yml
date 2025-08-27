@@ -7,14 +7,14 @@ anatomy:
   insertions:
   - Iliotibial tract (upper fibers)
   - Gluteal tuberosity (lower fibers)
+  origins:
+  - Coccyx
+  - Edge of sacrum
+  - Posterior iliac crest
+  - Sacrotuberous and sacroiliac ligaments
 author: Brian Lee
 icon: ':muscle:'
 id: gmax
-origins:
-- Coccyx
-- Edge of sacrum
-- Posterior iliac crest
-- Sacrotuberous and sacroiliac ligaments
 pubdate: Aug 25, 2025
 status: Review Pending
 title: Gluteus Maximus

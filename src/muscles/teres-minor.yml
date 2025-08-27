@@ -4,6 +4,8 @@ anatomy:
   - Weak adduction of the humerus
   - 'Assists in stabilizing the {{ linkicon("glenohumeral_joint") }} as part of the
   rotator cuff
+  origins:
+  - 'Upper two thirds of the lateral (axillary) border of the {{ linkicon("scapula")
 
   '
   insertions:
@@ -13,8 +15,6 @@ anatomy:
 author: Brian Lee
 icon: ':muscle:'
 id: trsmin
-origins:
-- 'Upper two thirds of the lateral (axillary) border of the {{ linkicon("scapula")
   }}
 
   '

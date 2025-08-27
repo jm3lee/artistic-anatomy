@@ -4,11 +4,11 @@ anatomy:
   - Wrist abduction
   insertions:
   - Base of the second and third metacarpals
+  origins:
+  - |
 author: Brian Lee
 icon: ':muscle:'
 id: fcr
-origins:
-- |
   Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }} via the common
   flexor tendon
 pubdate: Aug 25, 2025

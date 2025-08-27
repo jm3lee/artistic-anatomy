@@ -4,11 +4,11 @@ anatomy:
   - Assists pronation ands upination of the forearm when movements are resisted
   insertions:
   - Styloid processs of radius
+  origins:
+  - Proximal two-thirds of the lateral supracondylar ridge of {{ linkicon("humerus")
 author: Brian Lee
 icon: ':muscle:'
 id: brr
-origins:
-- Proximal two-thirds of the lateral supracondylar ridge of {{ linkicon("humerus")
   }}
 pubdate: Aug 25, 2025
 status: Review Pending
