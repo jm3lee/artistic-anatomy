@@ -5,3 +5,25 @@ pubdate: Aug 25, 2025
 status: Review Pending
 title: Tibia
 url: /bones/tibia/
+anatomy:
+  insertions:
+  - name: Tibial Tuberosity (via patellar ligament)
+    muscles:
+    - Rectus femoris
+    - Vastus lateralis
+    - Vastus medialis
+    - Vastus intermedius
+  - name: Pes anserinus (anteromedial proximal tibia, distal to medial condyle)
+    muscles:
+    - "{{ linktitle('sartorius') }}"
+    - Gracilis
+    - Semitendinosus
+  - name: Medial condyle / posterior medial tibia
+    muscles:
+    - Semimembranosus
+  - name: Lateral condyle / posterior lateral tibia
+    muscles:
+    - Popliteus
+  - name: Shaft (anteromedial surface, distal third)
+    muscles:
+    - "{{ linktitle('tiba') }} (distally on medial cuneiform & base of 1st metatarsal)"

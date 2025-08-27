@@ -33,27 +33,12 @@
 
 ## Muscle Insertions {{'{#insertions}'}}
 
-### By Bony Landmarks
-
-* **Tibial tuberosity (via patellar ligament):**
-  * Rectus femoris
-  * Vastus lateralis
-  * Vastus medialis
-  * Vastus intermedius
-
-* **Pes anserinus (anteromedial proximal tibia, distal to medial condyle):**
-  * <Sartorius>
-  * Gracilis
-  * Semitendinosus
-
-* **Medial condyle / posterior medial tibia:**
-  * Semimembranosus
-
-* **Lateral condyle / posterior lateral tibia:**
-  * Popliteus
-
-* **Shaft (anteromedial surface, distal third):**
-  * Tibialis anterior (note: inserts distally on medial cuneiform & base of 1st metatarsal)
+{% for section in get_desc('tibia')['anatomy']['insertions'] %}
+* **{{ section.name }}:**
+{% for muscle in section.muscles %}
+  * {{ muscle }}
+{% endfor %}
+{% endfor %}
 
 ## Notes
 

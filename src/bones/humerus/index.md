@@ -91,34 +91,14 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 
 ## Muscle Insertions {{'{#insertions}'}}
 
-### Greater Tubercle
+{% for section in get_desc('humerus')['anatomy']['insertions'] %}
+### {{ section.name }}
 <ul>
-<li>{{ linktitle('infs') }}</li>
-<li>{{ linktitle('sups') }}</li>
-<li>{{ linktitle('trsmin') }}</li>
+{% for muscle in section.muscles %}
+<li>{{ muscle }}</li>
+{% endfor %}
 </ul>
-
-### Lesser Tubercle
-<ul>
-<li>{{ linktitle('subscp') }}</li>
-</ul>
-
-### Intertubercular (Bicipital) Groove and Crests {{'{#bicipital_groove}'}}
-<ul>
-<li>{{ linktitle('ld') }} – floor</li>
-<li>{{ linktitle('pecmaj') }} – lateral lip</li>
-<li>{{ linktitle('trsmaj') }} – medial lip</li>
-</ul>
-
-### Deltoid Tuberosity {{'{#deltoid_tuberosity}'}}
-<ul>
-<li>{{ linktitle('dt') }}</li>
-</ul>
-
-### Medial Shaft of Humerus
-<ul>
-<li>{{ linktitle('coracobrachialis') }}</li>
-</ul>
+{% endfor %}
 
 {{translations('humerus')}}
 
