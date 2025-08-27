@@ -48,7 +48,7 @@ anatomy:
       articulates with the trochlear notch of the {{ linktitle("ulna") }}.
   insertions:
   - muscles:
-    - '{{ linktitle("infs") }}'
+    - '{{ linktitle("infraspinatus") }}'
     - '{{ linktitle("supraspinatus") }}'
     - '{{ linktitle("trsmin") }}'
     name: Greater Tubercle
