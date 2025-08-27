@@ -1,6 +1,6 @@
 {% from "templates/summary.jinja" import summary_bones %}
 
-{{summary_bones("coracoid_process")}}
+{{summary_bones("coracoid-process")}}
 
 ## Illustrations
 

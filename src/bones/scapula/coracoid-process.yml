@@ -6,7 +6,7 @@ anatomy:
   - '{{ linktitle("bc") }} (short head)'
 author: Brian Lee
 icon: ':round_pushpin:'
-id: coracoid_process
+id: coracoid-process
 pubdate: Aug 27, 2025
 status: Reviewed
 tags:

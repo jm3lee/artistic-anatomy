@@ -1,7 +1,7 @@
 ---
 title: Tendon vs. Ligament
 author: Brian Lee
-id: tendon_vs_ligament
+id: tendon-vs-ligament
 citation: tendon vs. ligament
 ---
 

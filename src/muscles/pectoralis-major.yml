@@ -5,7 +5,7 @@ anatomy:
   - Medially rotates the shoulder
   - Assists in extending the shoulder from a flexed position (sternal head)
   insertions:
-  - Crest of the greater tubercle of the humerus (lateral lip of {{ linkicon("bicipital_groove")
+  - Crest of the greater tubercle of the humerus (lateral lip of {{ linkicon("bicipital-groove")
     }})
   origins:
   - Medial half of {{ linkicon("clavicle") }}

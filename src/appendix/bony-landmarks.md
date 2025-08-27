@@ -82,7 +82,7 @@ author: Brian Lee
   * Tibial tuberosity (front bump below the kneecap)
   * Medial malleolus (inner ankle)
 * Fibula:
-  * {{ linktitle('lateral_malleolus') }} (outer ankle)
+  * {{ linktitle('lateral-malleolus') }} (outer ankle)
 
 ## Hands
 

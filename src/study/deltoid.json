@@ -5,7 +5,7 @@
       "Greater tubercle of the {{get_desc('humerus')['title']|lower}}",
       "Deltoid tuberosity of the {{get_desc('humerus')['title']|lower}}",
       "Acromion process of the {{get_desc('scapula')['title']|lower}}",
-      "Lateral lip of the {{get_desc('bicipital_groove')['title']|lower}}"
+      "Lateral lip of the {{get_desc('bicipital-groove')['title']|lower}}"
     ],
     "a": [
       1,
@@ -41,9 +41,9 @@
   {
     "q": "The posterior (spinal) head of the {{get_desc('dt')['title']|lower}} originates from which bony landmark?",
     "c": [
-      "{{get_desc('coracoid_process')['title']|lower}}",
-      "{{get_desc('acromion_process')['title']|lower}}",
-      "{{get_desc('spine_of_scapula')['title']|lower}}",
+      "{{get_desc('coracoid-process')['title']|lower}}",
+      "{{get_desc('acromion-process')['title']|lower}}",
+      "{{get_desc('spine-of-scapula')['title']|lower}}",
       "Supraglenoid tubercle"
     ],
     "a": [
@@ -54,10 +54,10 @@
   {
     "q": "Which bony landmark serves as the origin for the middle (acromial) fibers of the {{get_desc('dt')['title']|lower}}?",
     "c": [
-      "{{get_desc('acromion_process')['title']|lower}}",
-      "{{get_desc('spine_of_scapula')['title']|lower}}",
+      "{{get_desc('acromion-process')['title']|lower}}",
+      "{{get_desc('spine-of-scapula')['title']|lower}}",
       "Lateral third of the clavicle",
-      "{{get_desc('coracoid_process')['title']|lower}}"
+      "{{get_desc('coracoid-process')['title']|lower}}"
     ],
     "a": [
       0,
@@ -91,7 +91,7 @@
     ]
   },
   {
-    "q": "Where on the {{get_desc('humerus')['title']|lower}} is the {{get_desc('deltoid_tuberosity')['title']|lower}} located?",
+    "q": "Where on the {{get_desc('humerus')['title']|lower}} is the {{get_desc('deltoid-tuberosity')['title']|lower}} located?",
     "c": [
       "Proximal medial shaft",
       "Proximal lateral shaft",

@@ -4,7 +4,7 @@ anatomy:
   - Supinates the forearm
   - Flexes the shoulder
   insertions:
-  - '{{ linkcap("radial_tuberosity") }} of {{ linkicon("radius") }}'
+  - '{{ linkcap("radial-tuberosity") }} of {{ linkicon("radius") }}'
   - Bicipital aponeurosis
   origins:
   - 'Short head: Coracoid process of the {{ linkicon("scapula") }}'

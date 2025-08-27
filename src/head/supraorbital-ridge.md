@@ -1,6 +1,6 @@
 ---
 title: "Supraorbital Ridge"
-id: supraorbital_ridge
+id: supraorbital-ridge
 citation: supraorbital ridge
 ---
 

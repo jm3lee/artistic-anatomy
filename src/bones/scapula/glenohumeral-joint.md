@@ -66,5 +66,5 @@ Ball-and-socket
 
 - {{ linktitle('anaplanes') }}
 - {{ linktitle('keyterms') }}
-- {{ linktitle('synovial_joints') }}
+- {{ linktitle('synovial-joints') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Shoulder_joint)

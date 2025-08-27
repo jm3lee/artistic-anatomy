@@ -1,5 +1,5 @@
 ---
-title: "{{get_desc('rotator_cuff')['icon']}} {{get_desc('rotator_cuff')['title']|title}}"
+title: "{{get_desc('rotator-cuff')['icon']}} {{get_desc('rotator-cuff')['title']|title}}"
 ---
 
 ## Function

@@ -1,11 +1,11 @@
 anatomy:
   actions:
   - "Initiation of shoulder abduction (first ~15\xB0)"
-  - Stabilization of the glenohumeral joint; see {{ linkicon("rotator_cuff") }}
+  - Stabilization of the glenohumeral joint; see {{ linkicon("rotator-cuff") }}
   origins:
     - Supraspinous fossa of the scapula
   insertions:
-  - Superior facet of the greater tubercle of the {{ linkicon("humerus_insertion") }}
+  - Superior facet of the greater tubercle of the {{ linkicon("humerus-insertion") }}
 author: Brian Lee
 icon: ':muscle:'
 id: sups

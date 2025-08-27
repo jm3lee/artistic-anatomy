@@ -2,7 +2,7 @@
 
 The **linea alba** is a fibrous midline structure that runs vertically along the
 anterior abdominal wall. It forms where the aponeuroses of the left and right
-abdominal muscles ({{ linkicon('external_oblique') }}, internal oblique, and transversus
+abdominal muscles ({{ linkicon('external-oblique') }}, internal oblique, and transversus
 abdominis) interlace.
 
 It extends from the **xiphoid process** of the sternum to the **pubic
@@ -21,6 +21,6 @@ Latin, referring to its pale, tendinous appearance.
 
 ## References
 
-- {{ linktitle('external_oblique') }}
+- {{ linktitle('external-oblique') }}
 - {{ linktitle('gf') }}, 137.
 - [Wikipedia](https://en.wikipedia.org/wiki/Linea_alba_(abdomen))

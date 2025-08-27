@@ -4,7 +4,7 @@ anatomy:
   - 'Long head: assists in extension and adduction of the arm at the shoulder'
   - Stabilization of the shoulder joint
   insertions:
-  - '{{ linkcap("olecranon_process") }} of the ulna'
+  - '{{ linkcap("olecranon-process") }} of the ulna'
   origins:
   - 'Long head: Infraglenoid tubercle of the {{ linktitle("scapula") }}'
   - 'Lateral head: Posterior humerus, above the radial groove'

@@ -35,7 +35,7 @@
     "term": "Fossa",
     "def": "A hollow or depression in the surface of a bone.",
     "ex": [
-      "{{ linktitle('infraclavicular_fossa') }}"
+      "{{ linktitle('infraclavicular-fossa') }}"
     ]
   },
   "inferior": {

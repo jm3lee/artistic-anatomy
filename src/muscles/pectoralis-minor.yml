@@ -1,10 +1,10 @@
 anatomy:
   actions:
-  - '{{ linkcap("scapular_protraction") }} (pulls scapula forward and downward).'
-  - '{{ linkcap("scapular_depression") }}.'
+  - '{{ linkcap("scapular-protraction") }} (pulls scapula forward and downward).'
+  - '{{ linkcap("scapular-depression") }}.'
   - Stabilizes scapula against thoracic wall.
   insertions:
-  - '{{ linkcap("coracoid_process") }} of the scapula.'
+  - '{{ linkcap("coracoid-process") }} of the scapula.'
   origins:
   - Anterior surfaces of the 3rd to 5th ribs near their costal cartilages.
 author: Brian Lee

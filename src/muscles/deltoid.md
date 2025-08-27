@@ -25,7 +25,7 @@
 ## See Also
 
 - [Arm Movements](../appendix/arm-movements.html)
-- {{ linktitle('infraclavicular_fossa') }}
+- {{ linktitle('infraclavicular-fossa') }}
 
 ## References
 

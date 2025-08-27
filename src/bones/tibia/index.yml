@@ -23,7 +23,7 @@ anatomy:
   origins:
   - muscles:
     - '{{ linktitle("tiba") }}'
-    - '{{ linktitle("extensor_digitorum") }} (also from proximal fibula)'
+    - '{{ linktitle("extensor-digitorum") }} (also from proximal fibula)'
     name: Lateral condyle & proximal lateral tibial shaft
   - muscles:
     - Soleus

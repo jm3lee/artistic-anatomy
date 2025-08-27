@@ -1,7 +1,7 @@
 anatomy:
   actions:
   - External (lateral) rotation of the shoulder
-  - Shoulder stabilization as a part of {{ linkicon("rotator_cuff") }} muscle group
+  - Shoulder stabilization as a part of {{ linkicon("rotator-cuff") }} muscle group
   origins:
   - Infraspinous fossa of the {{ linkicon("scapula") }}
   insertions:
