@@ -1,8 +1,10 @@
+{% from "templates/insertions.jinja" import insertions %}
+
 ## Summary
 
 The fibula is the slender lateral bone of the leg that runs parallel to the
-tibia. It bears little weight but provides surfaces for muscle attachment and
-forms the outer part of the ankle joint.
+{{ linkicon('tibia') }}. It bears little weight but provides surfaces for
+muscle attachment and forms the outer part of the ankle joint.
 
 ## Illustrations
 
@@ -36,7 +38,7 @@ Hermann</a>, Public domain, via Wikimedia Commons
 ## Bony Landmarks
 
 ### Head {{'{#head}'}}
-Rounded proximal end articulating with the tibia.
+Rounded proximal end articulating with the {{ linkicon('tibia') }}.
 
 ### Neck {{'{#neck}'}}
 Narrow region just distal to the head.
@@ -54,8 +56,7 @@ Distal projection forming the outer ankle and attachment point for the fibular c
 
 ## Muscle Insertions
 
-### Head
-* {{ linktitle('bfem') }}
+{{ insertions('fibula') }}
 
 ## References
 * [Wikipedia](https://en.wikipedia.org/wiki/Fibula)

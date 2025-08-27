@@ -5,3 +5,48 @@ pubdate: Aug 25, 2025
 status: Review Pending
 title: Femur
 url: /bones/femur/
+description: >
+  The femur is the thigh bone and the body's longest, strongest bone connecting
+  the hip and knee joints.
+anatomy:
+  insertions:
+  - name: Greater trochanter
+    muscles:
+    - '{{ linktitle("gmed") }}'
+    - '{{ linktitle("gmin") }}'
+    - '{{ linktitle("piriformis") }}'
+    - '{{ linktitle("obturator_internus") }}'
+    - '{{ linktitle("obturator_externus") }}'
+    - '{{ linktitle("superior_gemellus") }}'
+    - '{{ linktitle("inferior_gemellus") }}'
+  - name: Gluteal tuberosity
+    muscles:
+    - '{{ linktitle("gmax") }}'
+  - name: Lesser trochanter
+    muscles:
+    - '{{ linktitle("iliopsoas") }}'
+  - name: Intertrochanteric crest
+    muscles:
+    - '{{ linktitle("quadratus_femoris") }}'
+  - name: Pectineal line
+    muscles:
+    - '{{ linktitle("pectineus") }}'
+  - name: Linea aspera
+    muscles:
+    - '{{ linktitle("adductor_brevis") }}'
+    - '{{ linktitle("adductor_longus") }}'
+    - '{{ linktitle("adductor_magnus") }}'
+    - '{{ linktitle("vastus_lateralis") }}'
+    - '{{ linktitle("vastus_medialis") }}'
+    - '{{ linktitle("biceps_femoris_short_head") }}'
+  - name: Adductor tubercle
+    muscles:
+    - '{{ linktitle("adductor_magnus") }}'
+  - name: Medial condyle
+    muscles:
+    - '{{ linktitle("gastrocnemius_medial_head") }}'
+  - name: Lateral condyle
+    muscles:
+    - '{{ linktitle("gastrocnemius_lateral_head") }}'
+    - '{{ linktitle("popliteus") }}'
+    - '{{ linktitle("plantaris") }}'

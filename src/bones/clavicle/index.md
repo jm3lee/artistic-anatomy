@@ -1,3 +1,5 @@
+{% from "templates/insertions.jinja" import insertions %}
+
 The clavicle, or collar bone, is a slender S-shaped bone that connects the
 sternum to the scapula. Acting as a strut, it keeps the upper limb away from the
 thorax and allows greater range of motion at the shoulder.
@@ -25,6 +27,10 @@ JP</a>, via Wikimedia Commons
 - Acromial End – Lateral end that articulates with the {{ linkicon('scapula') }} at the acromioclavicular joint.
 - Shaft – The middle portion with a gentle S-curve.
 - Deltoid Tubercle – Rough area on the lateral third for attachment of the {{ linkicon('dt') }}.
+
+## Muscle Insertions
+
+{{ insertions('clavicle') }}
 
 ## Related Muscles
 
