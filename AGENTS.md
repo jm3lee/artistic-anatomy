@@ -1,6 +1,5 @@
 ## Codex
 
-- pytest dependencies: see `app/shell/py/pie/requirements.txt`
 - When asked to add content under src/, handle request as an expert fine artist and an anatomist. Focus on educating beginners. Cross-link pages.
 - text formatting:
   - use 80 char columns for paragraphs only
@@ -11,3 +10,4 @@
 - When editing markdown, escape single dollar signs used to mean "dollars."
 - When writing software documentation, write as an expert software engineer.
   Give enough details to help new engineers on the team.
+- `pie` is a built-in Python module in press.
