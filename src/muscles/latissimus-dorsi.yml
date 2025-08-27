@@ -4,20 +4,19 @@ anatomy:
   - Adducts the shoulder
   - Medially rotates the shoulder
   insertions:
-  - '{{ linktitle("humerus") }}, intertubercular groove'
+  - '{{ linktitle("humerus") }} and intertubercular groove'
+  origins:
+  - Spinous processes of T6 to T12 {{ linkicon("thoracic_vertebrae") }}
+  - Last three or four ribs
+  - Thoracolumbar fascia
+  - Posterior iliac crest
+  - Inferior angle of scapula; see Variable Attachment to {{ link("inferior_angle_of_scapula") }}
 author: Brian Lee
 icon: ':muscle:'
 id: ld
-origins:
-- Spinous processes of T6 to T12 {{ linkicon("thoracic_vertebrae") }}
-- Last three or four ribs
-- Thoracolumbar fascia
-- Posterior iliac crest
-- Inferior angle of scapula; see Variable Attachment to {{ link("inferior_angle_of_scapula")
-  }}.
-pubdate: Aug 25, 2025
+pubdate: Aug 27, 2025
 status: Reviewed
-title: Latissimus Dorsi
 tags:
 - torso
+title: Latissimus Dorsi
 url: /muscles/latissimus-dorsi.html

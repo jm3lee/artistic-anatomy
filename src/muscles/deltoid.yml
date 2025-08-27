@@ -5,14 +5,14 @@ anatomy:
   - Shoulder {{ link("extension") }} & {{ link("lateral") }} rotation (posterior fibers)
   insertions:
   - '{{ linkcap("deltoid_tuberosity") }} of the {{ linkicon("humerus") }}'
+  origins:
+  - Lateral third of the {{ link("clavicle") }} ({{ link("anterior") }} fibers)
+  - '{{ linkcap("acromion_process") }} of the {{ linkicon("scapula") }} (middle fibers)'
+  - Spine of the {{ linkicon("scapula") }} ({{ link("posterior") }} fibers)
 author: Brian Lee
 icon: ':muscle:'
 id: dt
-origins:
-- Lateral third of the {{ link("clavicle") }} ({{ link("anterior") }} fibers)
-- '{{ linkcap("acromion_process") }} of the {{ linkicon("scapula") }} (middle fibers)'
-- Spine of the {{ linkicon("scapula") }} ({{ link("posterior") }} fibers)
-pubdate: Aug 25, 2025
+pubdate: Aug 27, 2025
 status: Reviewed
 title: Deltoid
 translations:

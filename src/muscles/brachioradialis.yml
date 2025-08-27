@@ -4,15 +4,14 @@ anatomy:
   - Assists pronation ands upination of the forearm when movements are resisted
   insertions:
   - Styloid processs of radius
+  origins:
+  - Proximal two-thirds of the lateral supracondylar ridge of {{ linkicon("humerus") }}
 author: Brian Lee
 icon: ':muscle:'
 id: brr
-origins:
-- Proximal two-thirds of the lateral supracondylar ridge of {{ linkicon("humerus")
-  }}
-pubdate: Aug 25, 2025
+pubdate: Aug 27, 2025
 status: Review Pending
+title: Brachioradialis
 translations:
   russian: "\u041F\u043B\u0435\u0447\u0435-\u043B\u0443\u0447\u0435\u0432\u0430\u044F\
     \ \u043C\u044B\u0448\u0446\u0430"
-title: Brachioradialis

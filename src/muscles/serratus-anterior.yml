@@ -6,14 +6,14 @@ anatomy:
   - Accessory muscle of inspiration (elevates ribs)
   insertions:
   - Anterior (costal) surface of medial border of {{ linkicon("scapula") }}
+  origins:
+  - "External surfaces of the upper 8\u20139 ribs"
 author: Brian Lee
 icon: ':muscle:'
 id: sa
-origins:
-- "External surfaces of the upper 8\u20139 ribs"
-pubdate: Aug 25, 2025
+pubdate: Aug 27, 2025
 status: Pending Review
-title: Serratus Anterior
 tags:
 - torso
+title: Serratus Anterior
 url: /muscles/serratus-anterior.html

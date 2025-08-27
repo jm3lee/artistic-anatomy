@@ -7,12 +7,12 @@ anatomy:
   insertions:
   - Mastoid process of the temporal bone
   - Superior nuchal line
+  origins:
+  - Manubrium of sternum
+  - Medial third of {{ linkicon("clavicle") }}
 author: Brian Lee
 icon: ':muscle:'
 id: scm
-origins:
-- Manubrium of sternum
-- Medial third of {{ linkicon("clavicle") }}
-pubdate: Aug 25, 2025
+pubdate: Aug 27, 2025
 status: Reviewed
 title: Sternocleidomastoid

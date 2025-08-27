@@ -7,16 +7,16 @@ anatomy:
   insertions:
   - Crest of the greater tubercle of the humerus (lateral lip of {{ linkicon("bicipital_groove")
     }})
+  origins:
+  - Medial half of {{ linkicon("clavicle") }}
+  - '{{ linktitle("sternum") }}'
+  - Costal cartilages of ribs 1-6 (sometimes 1-7)
 author: Brian Lee
 icon: ':muscle:'
 id: pecmaj
-origins:
-- Medial half of {{ linkicon("clavicle") }}
-- '{{ linktitle("sternum") }}'
-- Costal cartilages of ribs 1-6 (sometimes 1-7)
-pubdate: Aug 25, 2025
+pubdate: Aug 27, 2025
 status: Reviewed
-title: Pectoralis Major
 tags:
 - torso
+title: Pectoralis Major
 url: /muscles/pectoralis-major.html

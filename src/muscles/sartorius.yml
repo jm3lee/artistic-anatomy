@@ -7,11 +7,11 @@ anatomy:
   - Medial rotation of the tibia on the femur (when knee is flexed)
   insertions:
   - Medial surface of proximal tibia (pes anserinus area)
+  origins:
+  - Anterior superior iliac spine (ASIS) of the pelvic bone
 author: Brian Lee
 icon: ':muscle:'
 id: sartorius
-origins:
-- Anterior superior iliac spine (ASIS) of the pelvic bone
-pubdate: Aug 25, 2025
+pubdate: Aug 27, 2025
 status: Review Pending
 title: Sartorius

@@ -5,17 +5,17 @@ anatomy:
   - Stabilization of the shoulder joint
   insertions:
   - '{{ linkcap("olecranon_process") }} of the ulna'
+  origins:
+  - 'Long head: Infraglenoid tubercle of the {{ linktitle("scapula") }}'
+  - 'Lateral head: Posterior humerus, above the radial groove'
+  - 'Medial head: Posterior humerus, below the radial groove'
 author: Brian Lee
 icon: ':muscle:'
 id: trc
-origins:
-- 'Long head: Infraglenoid tubercle of the {{ linktitle("scapula") }}'
-- 'Lateral head: Posterior humerus, above the radial groove'
-- 'Medial head: Posterior humerus, below the radial groove'
-pubdate: Aug 25, 2025
+pubdate: Aug 27, 2025
 status: Reviewed
+title: Triceps
 translations:
   french: triceps brachial
   russian: "\u0442\u0440\u0451\u0445\u0433\u043B\u0430\u0432\u0430\u044F \u043C\u044B\
     \u0448\u0446\u0430 \u043F\u043B\u0435\u0447\u0430"
-title: Triceps

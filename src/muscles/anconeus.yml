@@ -6,11 +6,11 @@ anatomy:
   insertions:
   - Lateral surface of olecranon process and proximal posterior {{ linkicon("ulna")
     }}
+  origins:
+  - Posterior aspect of lateral epicondyle of the {{ linkicon("humerus") }}
 author: Brian Lee
 icon: ':muscle:'
 id: anc
-origins:
-- Posterior aspect of lateral epicondyle of the {{ linkicon("humerus") }}
-pubdate: Aug 25, 2025
+pubdate: Aug 27, 2025
 status: Reviewed
 title: Anconeus
