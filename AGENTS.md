@@ -10,4 +10,6 @@
 - When editing markdown, escape single dollar signs used to mean "dollars."
 - When writing software documentation, write as an expert software engineer.
   Give enough details to help new engineers on the team.
-- `pie` is a built-in Python module in press.
+- `pie` is a built-in Python module in press. This is available in
+  `press-release` docker image.
+  - Do not create any new code in pie unless explicitly instructed.
