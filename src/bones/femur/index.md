@@ -2,6 +2,7 @@
 {% from "templates/translations.jinja" import translations %}
 {% from "templates/insertions.jinja" import insertions %}
 {% from "templates/origins.jinja" import origins %}
+{% from "templates/bony_landmarks.jinja" import bony_landmarks %}
 
 ## Illustrations
 
@@ -19,32 +20,7 @@ Richer, Plate 26
 
 ## Bony Landmarks
 
-### Greater trochanter {{'{#greater-trochanter}'}}
-Large lateral projection of the proximal femur; attachment site for gluteus medius, gluteus minimus, piriformis, obturator internus and externus, superior gemellus, and inferior gemellus.
-
-### Lesser trochanter {{'{#lesser-trochanter}'}}
-Posteromedial conical eminence below the neck; insertion point for iliopsoas (psoas major and iliacus).
-
-### Intertrochanteric crest {{'{#intertrochanteric-crest}'}}
-Ridge connecting greater and lesser trochanters on the posterior femur; the quadrate tubercle on this crest is where quadratus femoris inserts.
-
-### Gluteal tuberosity {{'{#gluteal-tuberosity}'}}
-Roughened area on the posterior shaft just distal to the greater trochanter; insertion site for gluteus maximus.
-
-### Pectineal line {{'{#pectineal-line}'}}
-Oblique ridge running from the lesser trochanter toward the linea aspera; attachment site for pectineus.
-
-### Linea aspera {{'{#linea-aspera}'}}
-Vertical ridge on the posterior shaft with medial and lateral lips; attachments for adductor brevis, adductor longus, adductor part of adductor magnus, and origins of vastus lateralis and vastus medialis.
-
-### Adductor tubercle {{'{#adductor-tubercle}'}}
-Small elevation on the medial epicondyle; insertion site for the hamstring part of adductor magnus.
-
-### Medial condyle {{'{#medial-condyle}'}}
-Distal medial articular prominence; origin site for gastrocnemius (medial head).
-
-### Lateral condyle {{'{#lateral-condyle}'}}
-Distal lateral articular prominence; origin site for gastrocnemius (lateral head), popliteus, and plantaris.
+{{ bony_landmarks('femur') }}
 
 ## Muscle Insertions
 
