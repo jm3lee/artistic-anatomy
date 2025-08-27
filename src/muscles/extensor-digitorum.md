@@ -16,9 +16,7 @@ It shares a common origin at the lateral epicondyle with
 The muscle is an antagonist to the
 {{ link('flexor-digitorum-superficialis') }}.
 
-## TODO
-
-Hale link
-
 ## References
-- [Wikipedia](https://en.wikipedia.org/wiki/Extensor_digitorum_muscle)
+* {{ linktitle('hc77') }}
+  * **164**: Rubens. (B). Back view. Supination.
+* [Wikipedia](https://en.wikipedia.org/wiki/Extensor_digitorum_muscle)
