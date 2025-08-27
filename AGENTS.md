@@ -13,3 +13,5 @@
 - `pie` is a built-in Python module in press. This is available in
   `press-release` docker image.
   - Do not create any new code in pie unless explicitly instructed.
+- When editing metadata yaml, follow these rules.
+  - jinja macros must be quoted using a single quote. For example `'{{ linktitle("id") }}'`.
