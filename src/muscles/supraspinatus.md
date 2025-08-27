@@ -6,7 +6,7 @@ title: "Supraspinatus"
 
 {% from "templates/summary.jinja" import summary %}
 
-{{summary("sups")}}
+{{summary("supraspinatus")}}
 
 <img src="https://brianleeart.sfo3.cdn.digitaloceanspaces.com/richer/supraspinatus.jpg"
 alt="Supraspinatus, Richer"

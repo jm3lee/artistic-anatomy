@@ -12,7 +12,7 @@ Rotates and elevates the arm.
 
 1. {{ linktitle('infs') }}
 1. {{ linktitle('subscp') }}
-1. {{ linktitle('sups') }}
+1. {{ linktitle('supraspinatus') }}
 1. {{ linktitle('trsmin') }}
 
 ## Origins
