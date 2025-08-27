@@ -50,3 +50,24 @@ anatomy:
     - '{{ linktitle("gastrocnemius_lateral_head") }}'
     - '{{ linktitle("popliteus") }}'
     - '{{ linktitle("plantaris") }}'
+  origins:
+  - name: Greater trochanter and lateral linea aspera
+    muscles:
+    - '{{ linktitle("vastus_lateralis") }}'
+  - name: Intertrochanteric line and medial linea aspera
+    muscles:
+    - '{{ linktitle("vastus_medialis") }}'
+  - name: Anterior and lateral shaft of femur
+    muscles:
+    - '{{ linktitle("vastus_intermedius") }}'
+  - name: Linea aspera (lateral lip)
+    muscles:
+    - '{{ linktitle("biceps_femoris_short_head") }}'
+  - name: Medial condyle of femur
+    muscles:
+    - '{{ linktitle("gastrocnemius_medial_head") }}'
+  - name: Lateral condyle of femur
+    muscles:
+    - '{{ linktitle("gastrocnemius_lateral_head") }}'
+    - '{{ linktitle("popliteus") }}'
+    - '{{ linktitle("plantaris") }} (origin just above lateral condyle)'

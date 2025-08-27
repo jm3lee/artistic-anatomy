@@ -1,6 +1,7 @@
 :robot:
 {% from "templates/translations.jinja" import translations %}
 {% from "templates/insertions.jinja" import insertions %}
+{% from "templates/origins.jinja" import origins %}
 
 ## Illustrations
 
@@ -82,27 +83,9 @@ Distal lateral articular prominence; origin site for gastrocnemius (lateral head
 
 {{ insertions('femur') }}
 
-## Muscle Origins
+## Muscle Origins {{'{#origins}'}}
 
-### By Bony Landmark
-
-#### Greater trochanter & lateral linea aspera
-* Vastus lateralis
-
-#### Intertrochanteric line & medial linea aspera
-* Vastus medialis
-
-#### Anterior & lateral shaft of femur
-* Vastus intermedius
-
-#### Linea aspera (lateral lip)
-* Short head of biceps femoris
-
-#### Medial condyle of femur
-* Gastrocnemius (medial head)
-
-#### Lateral condyle of femur
-* Gastrocnemius (lateral head), Popliteus, Plantaris (origin just above lateral condyle)
+{{ origins('femur') }}
 
 ## References
 
