@@ -4,11 +4,11 @@ anatomy:
   - 'Stabilization of the glenohumeral joint; see {{ linkicon("rotator_cuff") }}
 
   '
+  insertions:
+  - Superior facet of the greater tubercle of the {{ linkicon("humerus_insertion") }}
 author: Brian Lee
 icon: ':muscle:'
 id: sups
-insertions:
-- Superior facet of the greater tubercle of the {{ linkicon("humerus_insertion") }}
 origins:
 - Supraspinous fossa of the scapula
 pubdate: Aug 25, 2025

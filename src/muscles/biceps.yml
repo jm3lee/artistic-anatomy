@@ -3,12 +3,12 @@ anatomy:
   - Elbow flexion
   - Supinates the forearm
   - Flexes the shoulder
+  insertions:
+  - '{{ linkcap("radial_tuberosity") }} of {{ linkicon("radius") }}'
+  - Bicipital aponeurosis
 author: Brian Lee
 icon: ':muscle:'
 id: bc
-insertions:
-- '{{ linkcap("radial_tuberosity") }} of {{ linkicon("radius") }}'
-- Bicipital aponeurosis
 origins:
 - 'Short head: Coracoid process of the {{ linkicon("scapula") }}'
 - 'Long head: Supraglenoid tubercle of the {{ linkicon("scapula") }}'

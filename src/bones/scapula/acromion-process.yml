@@ -1,13 +1,10 @@
 author: Brian Lee
 icon: ':round_pushpin:'
-insertions:
-- '{{ linktitle("trz") }}
-
-  '
+anatomy:
+  insertions:
+  - '{{ linktitle("trz") }}'
 origins:
-- '{{ linktitle("dt") }}
-
-  '
+- '{{ linktitle("dt") }}'
 id: acromion_process
 pubdate: Aug 25, 2025
 status: Reviewed
@@ -15,3 +12,4 @@ title: Acromion Process
 tags:
 - landmark
 url: /bones/scapula/acromion-process.html
+

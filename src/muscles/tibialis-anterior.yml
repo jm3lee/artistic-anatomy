@@ -3,12 +3,12 @@ anatomy:
   - Inverts the foot
   - Dorsiflexes the ankle
   - 'Walk cycle: controls heel-to-toe movement'
+  insertions:
+  - Medial cuneiform
+  - Base of the first metatarsal
 author: Brian Lee
 icon: ':muscle:'
 id: tiba
-insertions:
-- Medial cuneiform
-- Base of the first metatarsal
 origins:
 - Lateral condyle of {{ linkicon("tibia") }}
 - Proximal, lateral surface of {{ linkicon("tibia") }}

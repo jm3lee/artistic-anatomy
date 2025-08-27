@@ -3,11 +3,11 @@ anatomy:
   - Extends the shoulder
   - Adducts the shoulder
   - Medially rotates the shoulder
+  insertions:
+  - '{{ linktitle("humerus") }}, intertubercular groove'
 author: Brian Lee
 icon: ':muscle:'
 id: ld
-insertions:
-- '{{ linktitle("humerus") }}, intertubercular groove'
 origins:
 - Spinous processes of T6 to T12 {{ linkicon("thoracic_vertebrae") }}
 - Last three or four ribs

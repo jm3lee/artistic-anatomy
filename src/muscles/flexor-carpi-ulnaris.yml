@@ -2,13 +2,13 @@ anatomy:
   actions:
   - Wrist {{ linkicon("flexion") }}
   - Ulnar deviation (adduction) of the wrist
+  insertions:
+  - Pisiform bone
+  - Hook of the hamate
+  - Base of the 5th metacarpal
 author: Brian Lee
 icon: ':muscle:'
 id: fcu
-insertions:
-- Pisiform bone
-- Hook of the hamate
-- Base of the 5th metacarpal
 origins:
 - 'Humeral head: medial epicondyle of the {{ linkicon("humerus") }} via the common
   flexor tendon'

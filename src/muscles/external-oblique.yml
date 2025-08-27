@@ -1,13 +1,13 @@
 anatomy:
   actions:
   - Compresses abdominal contents; flexes and rotates trunk (contralateral rotation)
+  insertions:
+  - '{{ linktitle("linea_alba") }}'
+  - '{{ linktitle("pubic_tubercle") }}'
+  - Anterior half of iliac crest
 author: Brian Lee
 icon: ':muscle:'
 id: external_oblique
-insertions:
-- '{{ linktitle("linea_alba") }}'
-- '{{ linktitle("pubic_tubercle") }}'
-- Anterior half of iliac crest
 origins:
 - "External surfaces of ribs 5\u201312"
 pubdate: Aug 25, 2025

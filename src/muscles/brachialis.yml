@@ -1,12 +1,12 @@
 anatomy:
   actions:
   - Flexion of the elbow joint
+  insertions:
+  - '{{ linkcap("ulnar_tuberosity") }} of ulna'
+  - '{{ linkcap("coronoid_process") }} of ulna'
 author: Brian Lee
 icon: ':muscle:'
 id: brc
-insertions:
-- '{{ linkcap("ulnar_tuberosity") }} of ulna'
-- '{{ linkcap("coronoid_process") }} of ulna'
 origins:
 - Distal half of anterior surface of the {{ linkicon("humerus") }}
 pubdate: Aug 25, 2025

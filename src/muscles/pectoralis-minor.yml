@@ -3,11 +3,11 @@ anatomy:
   - '{{ linkcap("scapular_protraction") }} (pulls scapula forward and downward).'
   - '{{ linkcap("scapular_depression") }}.'
   - Stabilizes scapula against thoracic wall.
+  insertions:
+  - '{{ linkcap("coracoid_process") }} of the scapula.'
 author: Brian Lee
 icon: ':muscle:'
 id: pecmin
-insertions:
-- '{{ linkcap("coracoid_process") }} of the scapula.'
 origins:
 - Anterior surfaces of the 3rd to 5th ribs near their costal cartilages.
 pubdate: Aug 25, 2025

@@ -5,11 +5,11 @@ anatomy:
   - Lateral (external) rotation of the hip
   - Flexion of the knee
   - Medial rotation of the tibia on the femur (when knee is flexed)
+  insertions:
+  - Medial surface of proximal tibia (pes anserinus area)
 author: Brian Lee
 icon: ':muscle:'
 id: sartorius
-insertions:
-- Medial surface of proximal tibia (pes anserinus area)
 origins:
 - Anterior superior iliac spine (ASIS) of the pelvic bone
 pubdate: Aug 25, 2025
