@@ -95,7 +95,7 @@ A spool-shaped medial projection on the anterior distal humerus that articulates
 ### {{ section.name }}
 <ul>
 {% for muscle in section.muscles %}
-<li>{{ muscle }}</li>
+<li>{{ render_jinja(muscle) }}</li>
 {% endfor %}
 </ul>
 {% endfor %}

@@ -1,59 +1,49 @@
+anatomy:
+  insertions:
+  - muscles:
+    - '{{ linktitle("infs") }}'
+    - '{{ linktitle("sups") }}'
+    - '{{ linktitle("trsmin") }}'
+    name: Greater Tubercle
+  - muscles:
+    - '{{ linktitle("subscp") }}'
+    name: Lesser Tubercle
+  - muscles:
+    - '{{ linktitle("ld") }} – floor'
+    - '{{ linktitle("pecmaj") }} – lateral lip'
+    - '{{ linktitle("trsmaj") }} – medial lip'
+    name: Intertubercular (Bicipital) Groove and Crests
+  - muscles:
+    - '{{ linktitle("dt") }}'
+    name: Deltoid Tuberosity
+  - muscles:
+    - '{{ linktitle("coracobrachialis") }}'
+    name: Medial Shaft of Humerus
 author: Brian Lee
 icon: ':bone:'
 id: humerus
-pubdate: Aug 25, 2025
+pubdate: Aug 27, 2025
 status: More Review Required
 title: Humerus
 translations:
   french:
-    Deltoid Tuberosity: "tub\xE9rosit\xE9 delto\xEFdienne"
+    Deltoid Tuberosity: tubérosité deltoïdienne
     Greater Tubercle: tubercule majeur
-    Infraglenoid Tubercle: "tubercule infragl\xE9no\xEFdal"
+    Infraglenoid Tubercle: tubercule infraglénoïdal
     Intertubercular (Bicipital) Groove: sillon intertuberculaire
-    Lateral Epicondyle: "\xE9picondyle lat\xE9ral"
-    Lateral Supracondylar Ridge: "cr\xEAte supracondylienne lat\xE9rale"
+    Lateral Epicondyle: épicondyle latéral
+    Lateral Supracondylar Ridge: crête supracondylienne latérale
     Lesser Tubercle: tubercule mineur
-    Medial Epicondyle: "\xE9picondyle m\xE9dial"
-    Radial (Spiral) Groove: "goutti\xE8re radiale"
+    Medial Epicondyle: épicondyle médial
+    Radial (Spiral) Groove: gouttière radiale
   russian:
-    Deltoid Tuberosity: "\u0434\u0435\u043B\u044C\u0442\u043E\u0432\u0438\u0434\u043D\
-      \u0430\u044F \u0431\u0443\u0433\u0440\u0438\u0441\u0442\u043E\u0441\u0442\u044C"
-    Greater Tubercle: "\u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u0431\u0443\u0433\
-      \u043E\u0440\u043E\u043A"
-    Infraglenoid Tubercle: "\u043F\u043E\u0434\u0441\u0443\u0441\u0442\u0430\u0432\
-      \u043D\u043E\u0439 \u0431\u0443\u0433\u043E\u0440\u043E\u043A"
-    Intertubercular (Bicipital) Groove: "\u043C\u0435\u0436\u0431\u0443\u0433\u043E\
-      \u0440\u043A\u043E\u0432\u0430\u044F \u0431\u043E\u0440\u043E\u0437\u0434\u0430"
-    Lateral Epicondyle: "\u043B\u0430\u0442\u0435\u0440\u0430\u043B\u044C\u043D\u044B\
-      \u0439 \u043D\u0430\u0434\u043C\u044B\u0449\u0435\u043B\u043E\u043A"
-    Lateral Supracondylar Ridge: "\u043B\u0430\u0442\u0435\u0440\u0430\u043B\u044C\
-      \u043D\u0430\u044F \u043D\u0430\u0434\u043C\u044B\u0449\u0435\u043B\u043A\u043E\
-      \u0432\u0430\u044F \u0433\u0440\u0435\u0431\u0435\u043D\u044C"
-    Lesser Tubercle: "\u043C\u0430\u043B\u044B\u0439 \u0431\u0443\u0433\u043E\u0440\
-      \u043E\u043A"
-    Medial Epicondyle: "\u043C\u0435\u0434\u0438\u0430\u043B\u044C\u043D\u044B\u0439\
-      \ \u043D\u0430\u0434\u043C\u044B\u0449\u0435\u043B\u043E\u043A"
-    Radial (Spiral) Groove: "\u0441\u043F\u0438\u0440\u0430\u043B\u044C\u043D\u0430\
-      \u044F \u0431\u043E\u0440\u043E\u0437\u0434\u0430"
+    Deltoid Tuberosity: дельтовидная бугристость
+    Greater Tubercle: большой бугорок
+    Infraglenoid Tubercle: подсуставной бугорок
+    Intertubercular (Bicipital) Groove: межбугорковая борозда
+    Lateral Epicondyle: латеральный надмыщелок
+    Lateral Supracondylar Ridge: латеральная надмыщелковая гребень
+    Lesser Tubercle: малый бугорок
+    Medial Epicondyle: медиальный надмыщелок
+    Radial (Spiral) Groove: спиральная борозда
 url: /bones/humerus/
-anatomy:
-  insertions:
-  - name: Greater Tubercle
-    muscles:
-    - "{{ linktitle('infs') }}"
-    - "{{ linktitle('sups') }}"
-    - "{{ linktitle('trsmin') }}"
-  - name: Lesser Tubercle
-    muscles:
-    - "{{ linktitle('subscp') }}"
-  - name: Intertubercular (Bicipital) Groove and Crests
-    muscles:
-    - "{{ linktitle('ld') }} – floor"
-    - "{{ linktitle('pecmaj') }} – lateral lip"
-    - "{{ linktitle('trsmaj') }} – medial lip"
-  - name: Deltoid Tuberosity
-    muscles:
-    - "{{ linktitle('dt') }}"
-  - name: Medial Shaft of Humerus
-    muscles:
-    - "{{ linktitle('coracobrachialis') }}"
