@@ -20,11 +20,13 @@
 ## Summary
 
 ```{=html}
-<dl>
-    {{ def_list("Origins",     get_desc(name)["origins"]) }}
-    {{ def_list("Insertions",  get_desc(name)["insertions"]) }}
-    {{ def_list("Actions",     get_desc(name)["actions"]) }}
-</dl>
+<div class="summary">
+    <dl class="summary-list">
+        {{ def_list("Origins",     get_desc(name)["origins"]) }}
+        {{ def_list("Insertions",  get_desc(name)["insertions"]) }}
+        {{ def_list("Actions",     get_desc(name)["actions"]) }}
+    </dl>
+</div>
 ```
 {% endmacro %}
 
@@ -32,9 +34,11 @@
 ## Summary
 
 ```{=html}
-<dl>
-    {{ def_list("Origins",     get_desc(name)['origins']) }}
-    {{ def_list("Insertions",  get_desc(name)['insertions']) }}
-</dl>
+<div class="summary">
+    <dl class="summary-list">
+        {{ def_list("Origins",     get_desc(name)['origins']) }}
+        {{ def_list("Insertions",  get_desc(name)['insertions']) }}
+    </dl>
+</div>
 ```
 {% endmacro %}

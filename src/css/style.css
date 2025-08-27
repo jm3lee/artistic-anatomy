@@ -238,6 +238,18 @@ main dd + dt {
     margin-top: 2rem;
 }
 
+main dd {
+    margin-left: 1.5rem;
+}
+
+/* Summary list */
+.summary {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
 /* Tables */
 table {
   width: 100%;
