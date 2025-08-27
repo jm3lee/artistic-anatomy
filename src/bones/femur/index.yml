@@ -16,7 +16,7 @@ anatomy:
     - '{{ linktitle("iliopsoas") }}'
     name: Lesser trochanter
   - muscles:
-    - '{{ linktitle("quadratus_femoris") }}'
+    - '{{ linktitle("quadratus-femoris") }}'
     name: Intertrochanteric crest
   - muscles:
     - '{{ linktitle("pectineus") }}'
