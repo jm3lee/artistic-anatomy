@@ -1,6 +1,7 @@
 ---
 author: Brian Lee
 pubdate: Aug 25, 2025
-url: /muscles/flexor-digitorum-superficialis.html
+status: Review Pending
 title: Flexor Digitorum Superficialis
+url: /muscles/flexor-digitorum-superficialis.html
 ---

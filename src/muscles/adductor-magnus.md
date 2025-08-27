@@ -1,6 +1,7 @@
 ---
 author: Brian Lee
 pubdate: Aug 25, 2025
-url: /muscles/adductor-magnus.html
+status: Review Pending
 title: Adductor Magnus
+url: /muscles/adductor-magnus.html
 ---

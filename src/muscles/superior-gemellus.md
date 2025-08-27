@@ -1,6 +1,7 @@
 ---
 author: Brian Lee
 pubdate: Aug 25, 2025
-url: /muscles/superior-gemellus.html
+status: Review Pending
 title: Superior Gemellus
+url: /muscles/superior-gemellus.html
 ---

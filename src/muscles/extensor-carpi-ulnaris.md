@@ -1,6 +1,7 @@
 ---
 author: Brian Lee
 pubdate: Aug 25, 2025
-url: /muscles/extensor-carpi-ulnaris.html
+status: Review Pending
 title: Extensor Carpi Ulnaris
+url: /muscles/extensor-carpi-ulnaris.html
 ---

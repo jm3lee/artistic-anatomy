@@ -1,6 +1,7 @@
 ---
 author: Brian Lee
 pubdate: Aug 25, 2025
-url: /muscles/adductor-minimus.html
+status: Review Pending
 title: Adductor Minimus
+url: /muscles/adductor-minimus.html
 ---

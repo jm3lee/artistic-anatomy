@@ -1,8 +1,9 @@
 ---
 author: Brian Lee
 pubdate: Aug 25, 2025
-url: /muscles/ld-trz-attachments.html
+status: Review Pending
 title: Latissimus Dorsi and Trapezius Attachments
+url: /muscles/ld-trz-attachments.html
 ---
 ## Latissimus Dorsi and Trapezius Attachments
 

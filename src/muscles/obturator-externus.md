@@ -1,6 +1,7 @@
 ---
 author: Brian Lee
 pubdate: Aug 25, 2025
-url: /muscles/obturator-externus.html
+status: Review Pending
 title: Obturator Externus
+url: /muscles/obturator-externus.html
 ---

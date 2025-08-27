@@ -1,6 +1,7 @@
 ---
 author: Brian Lee
 pubdate: Aug 25, 2025
-url: /muscles/vastus-medialis.html
+status: Review Pending
 title: Vastus Medialis
+url: /muscles/vastus-medialis.html
 ---
