@@ -20,6 +20,20 @@ anatomy:
   - muscles:
     - '{{ linktitle("tiba") }} (distally on medial cuneiform & base of 1st metatarsal)'
     name: Shaft (anteromedial surface, distal third)
+  origins:
+  - muscles:
+    - '{{ linktitle("tiba") }}'
+    - '{{ linktitle("extensor_digitorum") }} (also from proximal fibula)'
+    name: Lateral condyle & proximal lateral tibial shaft
+  - muscles:
+    - Soleus
+    name: Soleal line (posterior proximal tibia)
+  - muscles:
+    - Flexor digitorum longus
+    name: Posterior surface, inferior to soleal line (middle third)
+  - muscles:
+    - Tibialis posterior
+    name: Posterior surface & interosseous membrane (distal two-thirds)
 author: Brian Lee
 icon: ':bone:'
 id: tibia
