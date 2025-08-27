@@ -22,7 +22,7 @@
 ```{=html}
 <div class="summary">
     <dl class="summary-list">
-        {{ def_list("Origins",     get_desc(name)["origins"]) }}
+        {{ def_list("Origins",     get_desc(name)['anatomy']['origins']) }}
         {{ def_list("Insertions",  get_desc(name)['anatomy']['insertions']) }}
         {{ def_list("Actions",     get_desc(name)["anatomy"]["actions"]) }}
     </dl>
@@ -36,7 +36,7 @@
 ```{=html}
 <div class="summary">
     <dl class="summary-list">
-        {{ def_list("Origins",     get_desc(name)['origins']) }}
+        {{ def_list("Origins",     get_desc(name)['anatomy']['origins']) }}
         {{ def_list("Insertions",  get_desc(name)['anatomy']['insertions']) }}
     </dl>
 </div>
