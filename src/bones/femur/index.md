@@ -1,5 +1,6 @@
 :robot:
 {% from "templates/translations.jinja" import translations %}
+{% from "templates/insertions.jinja" import insertions %}
 
 ## Illustrations
 
@@ -77,35 +78,9 @@ Distal medial articular prominence; origin site for gastrocnemius (medial head).
 ### Lateral condyle {{'{#lateral-condyle}'}}
 Distal lateral articular prominence; origin site for gastrocnemius (lateral head), popliteus, and plantaris.
 
-## Muscles Insertions
+## Muscle Insertions
 
-### By Bony Landmark
-
-#### Gluteal tuberosity
-* Gluteus maximus
-
-#### Greater trochanter
-* Lateral surface: Gluteus medius  
-* Anterior surface: Gluteus minimus  
-* Superior border: Piriformis  
-* Trochanteric fossa (medial aspect): Obturator internus, Obturator externus, Superior gemellus, Inferior gemellus
-
-#### Intertrochanteric crest
-* Quadrate tubercle: Quadratus femoris
-
-#### Lesser trochanter
-* Iliopsoas (psoas major + iliacus)
-
-#### Pectineal line (just inferior to the lesser trochanter)
-* Pectineus
-
-#### Linea aspera
-* Proximal (upper third): Adductor brevis  
-* Middle third: Adductor longus, Adductor minimus (upper fibers of adductor magnus)  
-* Throughout: Adductor part of adductor magnus
-
-#### Adductor tubercle (distal medial femur)
-* Hamstring part of adductor magnus
+{{ insertions('femur') }}
 
 ## Muscle Origins
 

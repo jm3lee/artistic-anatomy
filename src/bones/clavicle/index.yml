@@ -5,3 +5,16 @@ pubdate: Aug 25, 2025
 status: Review Pending
 title: Clavicle
 url: /bones/clavicle
+description: >
+  The clavicle is a slender S-shaped bone connecting the sternum and scapula
+  to brace the shoulder.
+anatomy:
+  insertions:
+  - name: Medial clavicle
+    muscles:
+    - '{{ linktitle("pecmaj") }}'
+    - '{{ linktitle("scm") }}'
+  - name: Deltoid tubercle
+    muscles:
+    - '{{ linktitle("dt") }}'
+    - '{{ linktitle("trz") }}'
