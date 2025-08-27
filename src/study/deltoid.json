@@ -70,7 +70,7 @@
       "{{ linktitle('supraspinatus') }}",
       "{{ linktitle('trc') }}",
       "{{ linktitle('infraspinatus') }}",
-      "{{ linktitle('trsmin') }}"
+      "{{ linktitle('teres-minor') }}"
     ],
     "a": [
       0,

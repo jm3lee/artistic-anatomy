@@ -4,7 +4,7 @@
     "c": [
       "{{ linktitle('supraspinatus') }}",
       "{{ linktitle('infraspinatus') }}",
-      "{{ linktitle('trsmin') }}",
+      "{{ linktitle('teres-minor') }}",
       "{{ linktitle('subscp') }}"
     ],
     "a": [
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "q": "Is the {{ linkicon('trsmin') }} muscle generally visible on the surface?",
+    "q": "Is the {{ linkicon('teres-minor') }} muscle generally visible on the surface?",
     "c": [
       "Always visible",
       "Usually hidden",
@@ -22,7 +22,7 @@
     ],
     "a": [
       2,
-      "{{ linktitle('trsmin') }} is one of the four {{ linkicon('rotator-cuff') }} muscles. It sits deep beneath the {{ linkicon('dt') }} and {{ linkicon('trz') }} and is covered by dense fascia along with {{ linkicon('infraspinatus') }}. In most individuals and most positions, it is not visible on the surface."
+      "{{ linktitle('teres-minor') }} is one of the four {{ linkicon('rotator-cuff') }} muscles. It sits deep beneath the {{ linkicon('dt') }} and {{ linkicon('trz') }} and is covered by dense fascia along with {{ linkicon('infraspinatus') }}. In most individuals and most positions, it is not visible on the surface."
     ]
   }
 ]

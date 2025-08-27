@@ -12,7 +12,7 @@ author: Brian Lee
 1. {{ linktitle('ld') }}
 1. {{ linktitle('rhmaj') }}
 1. {{ linktitle('rhmin') }}
-1. {{ linktitle('trsmaj') }}
+1. {{ linktitle('teres-major') }}
 1. {{ linktitle('trz') }}
 
 ## References

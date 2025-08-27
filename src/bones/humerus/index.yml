@@ -17,7 +17,7 @@ anatomy:
     desc: >
       A large, lateral projection just distal to the head that provides
       attachment for the {{ linktitle("supraspinatus") }},
-      {{ linktitle("infraspinatus") }}, and {{ linktitle("trsmin") }}
+      {{ linktitle("infraspinatus") }}, and {{ linktitle("teres-minor") }}
       muscles.
   - name: >
       Radial (Spiral) Groove {{"{#radial_spiral_groove}"}}
@@ -50,7 +50,7 @@ anatomy:
   - muscles:
     - '{{ linktitle("infraspinatus") }}'
     - '{{ linktitle("supraspinatus") }}'
-    - '{{ linktitle("trsmin") }}'
+    - '{{ linktitle("teres-minor") }}'
     name: Greater Tubercle
   - muscles:
     - '{{ linktitle("subscp") }}'
@@ -58,7 +58,7 @@ anatomy:
   - muscles:
     - '{{ linktitle("ld") }} – floor'
     - '{{ linktitle("pecmaj") }} – lateral lip'
-    - '{{ linktitle("trsmaj") }} – medial lip'
+    - '{{ linktitle("teres-major") }} – medial lip'
     name: Intertubercular (Bicipital) Groove and Crests
   - muscles:
     - '{{ linktitle("dt") }}'
