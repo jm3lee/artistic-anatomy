@@ -9,6 +9,20 @@ description: >
   The fibula is a slender lateral leg bone running parallel to the tibia and
   forming the outer ankle while serving as an anchor for muscles.
 anatomy:
+  bony_landmarks:
+  - name: 'Head {{"{#head}"}}'
+    desc: >
+      Rounded proximal end articulating with the {{ linkicon('tibia') }}.
+  - name: 'Neck {{"{#neck}"}}'
+    desc: >
+      Narrow region just distal to the head.
+  - name: 'Shaft {{"{#shaft}"}}'
+    desc: >
+      Long, thin body of the bone.
+  - name: 'Lateral malleolus {{"{#lateral-malleolus}"}}'
+    desc: >
+      Distal projection forming the outer ankle and attachment point for the
+      fibular collateral ligament.
   insertions:
   - name: Head of fibula
     muscles:
