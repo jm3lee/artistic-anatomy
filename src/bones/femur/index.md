@@ -17,32 +17,6 @@ Richer, Plate 26
 </a>
 </figure>
 
-## Muscles
-
-* Adductor brevis
-* Adductor longus
-* Adductor magnus
-* Adductor minimus
-* Biceps femoris (short head)
-* Gastrocnemius (lateral head)
-* Gastrocnemius (medial head)
-* Gluteus maximus
-* Gluteus medius
-* Gluteus minimus
-* Iliopsoas
-* Inferior gemellus
-* Obturator externus
-* Obturator internus
-* Pectineus
-* Piriformis
-* Plantaris
-* Popliteus
-* Quadratus femoris
-* Superior gemellus
-* Vastus intermedius
-* Vastus lateralis
-* Vastus medialis
-
 ## Bony Landmarks
 
 ### Greater trochanter {{'{#greater-trochanter}'}}
@@ -62,13 +36,6 @@ Oblique ridge running from the lesser trochanter toward the linea aspera; attach
 
 ### Linea aspera {{'{#linea-aspera}'}}
 Vertical ridge on the posterior shaft with medial and lateral lips; attachments for adductor brevis, adductor longus, adductor part of adductor magnus, and origins of vastus lateralis and vastus medialis.
-
-#### Translations
-{{translations('linea-aspera')}}
-
-#### References
-
-- [Wikipedia](https://en.wikipedia.org/wiki/Linea_aspera)
 
 ### Adductor tubercle {{'{#adductor-tubercle}'}}
 Small elevation on the medial epicondyle; insertion site for the hamstring part of adductor magnus.
