@@ -1,10 +1,3 @@
----
-title: Study Questions
-author: Brian Lee
-pubdate: Jun 03, 2025
-status: Reviewed
----
-
 <style>
 ol {
   margin-bottom: 1em;

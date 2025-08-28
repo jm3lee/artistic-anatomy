@@ -1,8 +1,3 @@
----
-title: richer100
-author: Brian Lee
----
-
 <img
 src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/images/richer_artistic_anatomy/richer100.jpg"
 alt=""

@@ -1,8 +1,3 @@
----
-title: Dumbbell Rows
-author: Brian Lee
----
-
 ## Active Muscles
 
 1. {{ linktitle('bc') }}

@@ -1,8 +1,3 @@
----
-title: Icons
-author: Brian Lee
----
-
 This book is for artists, and naturally, we use icons! See below for what each
 icon means. Every time you encounter an icon, it will link back to this page for
 reference.

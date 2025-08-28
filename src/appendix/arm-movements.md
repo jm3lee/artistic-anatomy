@@ -1,8 +1,3 @@
----
-title: Arm Movements
-author: Brian Lee
----
-
 ## Artistic Anatomy by Paul Richer
 
 Source: [Artistic Anatomy by Paul Richer on Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Anatomie_artistique_\(Paul_Richer\))

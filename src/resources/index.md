@@ -1,9 +1,3 @@
----
-title: Resources
-author: Brian Lee
-pubdate: Fri May  9 18:36:36 PDT 2025
----
-
 ## Books
 
 **Acronyms in bold are used to refer to books when it is clear from the

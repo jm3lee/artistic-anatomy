@@ -1,9 +1,3 @@
----
-title: Holding a Pole
-author: Brian Lee
-pubdate: May 10 2025
----
-
 1. **Doryphoros (Spear-Bearer) by Polykleitos** (c. 440 BC)
 
 	[Wikipedia](https://en.wikipedia.org/wiki/Doryphoros)

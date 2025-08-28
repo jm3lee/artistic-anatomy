@@ -1,8 +1,3 @@
----
-title: Bony Landmarks
-author: Brian Lee
----
-
 [🤖 AI Generated](../background/icons.html)
 
 ## Head and Neck

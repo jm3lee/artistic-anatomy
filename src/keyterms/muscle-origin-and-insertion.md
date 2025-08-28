@@ -1,10 +1,3 @@
----
-title: Muscle Origin and Insertion
-author: Brian Lee
-pubdate: Jun 11, 2025
-status: Reviewed
----
-
 In anatomy, the **origin** and **insertion** of a muscle refer to the points
 where the muscle attaches to bones or other structures in the body. These terms
 help describe the function of the muscle and how it contributes to movement.

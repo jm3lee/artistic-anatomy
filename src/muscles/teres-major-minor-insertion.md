@@ -1,10 +1,3 @@
----
-author: Brian Lee
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Teres Major and Minor Insertion
-url: /muscles/teres-major-minor-insertion.html
----
 ## Relative Positions of Teres Major and Minor Insertions
 
 {{ linkcap('teres-major') }} attaches just behind and above on the greater

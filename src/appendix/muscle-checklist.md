@@ -1,8 +1,3 @@
----
-title: Muscle Checklist
-author: Brian Lee
----
-
 1. Abductor Pollicis Longus
 1. Adductor Longus
 1. Adductor Magnus

@@ -1,8 +1,3 @@
----
-title: Hammer Curl
-author: Brian Lee
----
-
 🤖
 
 ## Muscles Worked in Hammer Curls (Focus on Brachialis)

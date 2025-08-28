@@ -1,10 +1,3 @@
----
-title: Welcome to Artistic Anatomy Book!
-author: Brian Lee
-id: home
-citation: home
----
-
 # Quickstart
 
 **Artistic Anatomy Book is a free curated resource for all.**

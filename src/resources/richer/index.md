@@ -1,8 +1,3 @@
----
-title: "Artistic Anatomy by Paul Richer"
-author: Brian Lee
----
-
 Richer, Paul. ***[Artistic Anatomy: The Great French Classic on Artistic Anatomy](https://a.co/d/3lHBFwH)***. Translated by Robert Beverly Hale. New York: Watson-Guptill, 1986.
 
 ## Plates

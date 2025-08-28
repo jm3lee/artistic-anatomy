@@ -1,8 +1,3 @@
----
-title: Knee Flexion and Extension
-author: Brian Lee
----
-
 :robot:
 
 ## Quick‑Reference Table

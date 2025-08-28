@@ -1,7 +1,3 @@
----
-title: "Zygomatic Arch"
----
-
 ## Examples
 
 <img

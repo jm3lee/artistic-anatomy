@@ -1,8 +1,3 @@
----
-title: Anatomical Movement Encoding System
-author: Brian Lee
----
-
 **Anatomical Movement Encoding System**
 
 This system provides a concise, unambiguous shorthand for labeling anatomical movements. It consists of three parts separated by hyphens:

@@ -1,8 +1,3 @@
----
-title: Warm Areas
-author: Brian Lee
----
-
 [🤖 AI Generated](../background/icons.html)
 
 In fine art, **areas of the human body typically rendered warm** often

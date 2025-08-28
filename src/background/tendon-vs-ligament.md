@@ -1,10 +1,3 @@
----
-title: Tendon vs. Ligament
-author: Brian Lee
-id: tendon-vs-ligament
-citation: tendon vs. ligament
----
-
 :robot:
 
 A **tendon** and a **ligament** are both bands of dense connective tissue, but they differ in what they connect and their primary functions:

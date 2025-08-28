@@ -1,13 +1,3 @@
----
-title: 'Classical Life Drawing Studio: Lessons & Teachings in the Art of Figure Drawing.'
-preamble: This book is out of print, but a digital copy is available on [Internet
-  Archive](https://archive.org/details/classicallifedra0000mcel_l2r4). To access it,
-  you'll need to create a free account and borrow the online copy. Since the scan
-  quality isn't the best, I recommend browsing the digital version first to see if
-  it meets your needs before deciding whether to purchase a used copy elsewhere.
-author: Brian Lee
----
-
 ## Bibliography Entry
 
 McElhinney, James Lancel, and the Instructors of the Art Students League of New

@@ -1,8 +1,3 @@
----
-title: Throwing
-author: Brian Lee
----
-
 1. **Discobolos (Discus Thrower) by Myron** (c. 450 BC)
 
    [Wikipedia](https://en.wikipedia.org/wiki/Discobolus)

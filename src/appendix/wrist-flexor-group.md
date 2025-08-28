@@ -1,7 +1,3 @@
----
-title: Wrist Flexor Group
----
-
 [🤖 AI-Generated](../background/icons.html)
 
 ## Superficial Flexor Group

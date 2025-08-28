@@ -1,8 +1,3 @@
----
-title: "Strength Training Anatomy by Fr\xE9d\xE9ric Delavier"
-author: Brian Lee
----
-
 Delavier was trained in the French academic style, and his book covers a wide
 variety of strength training exercises. The *écorché* drawings—detailed
 illustrations of muscles in action—offer both insight and perspective. At first,

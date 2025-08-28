@@ -1,10 +1,3 @@
----
-title: "Elbow Flexors"
-author: Brian Lee
-id: elbow-flexors
-citation: elbow flexors
----
-
 1. {{ linktitle('bc') }}
 1. {{ linktitle('brc') }}
 1. {{ linktitle('brr') }}

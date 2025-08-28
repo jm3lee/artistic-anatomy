@@ -1,8 +1,3 @@
----
-title: Reponsible Use of Artificial Intelligence (AI)
-author: Brian Lee
----
-
 This book was created with the help of artificial intelligence (AI) to make
 writing clearer and save time on research. I enjoy using automation and support
 using AI responsibly. I also work to learn about the risks of depending too much

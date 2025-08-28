@@ -1,9 +1,3 @@
----
-author: Brian Lee
-status: Review Pending
-title: Gastrocnemius
----
-
 The **gastrocnemius**, or calf muscle, is an important muscle for artists to
 understand because it gives the back of the lower leg its distinctive shape.
 It’s made of two parts:

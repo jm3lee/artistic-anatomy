@@ -1,8 +1,3 @@
----
-title: "Spine of Scapula"
-author: Brian Lee
----
-
 [🧑 AI Generated, Human Verified](../../background/icons.html)
 
 * A prominent ridge running transversely across the posterior surface.

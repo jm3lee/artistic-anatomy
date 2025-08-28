@@ -1,7 +1,3 @@
----
-title: "Subscapularis"
----
-
 ## References
 
 * Delavier

@@ -1,11 +1,3 @@
----
-author: Brian Lee
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Tensor Fasciae Latae
-url: /muscles/tensor-fasciae-latae.html
----
-
 ## Examples
 
 <img
