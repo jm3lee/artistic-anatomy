@@ -42,3 +42,16 @@ anatomy:
     desc: >
       Pointed distal projection anchoring the radial collateral ligament and
       {{ linkicon('brr') }}.
+  insertions:
+  - name: Radial tuberosity and bicipital aponeurosis
+    muscles:
+    - '{{ linktitle("bc") }}'
+  - name: Lateral surface (midshaft)
+    muscles:
+    - '{{ linktitle("protrs") }}'
+  - name: Proximal lateral radius
+    muscles:
+    - '{{ linktitle("supinator") }}'
+  - name: Styloid process of radius
+    muscles:
+    - '{{ linktitle("brr") }}'
