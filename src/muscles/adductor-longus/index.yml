@@ -1,0 +1,22 @@
+anatomy:
+  actions:
+  - 'Thigh {{ linkicon("adduction") }}'
+  - 'Assists hip {{ linkicon("flexion") }}'
+  insertions:
+  - 'Middle third of linea aspera of {{ linkicon("femur") }}'
+  origins:
+  - 'Body of {{ linkicon("pelvis") }} near the pubic symphysis'
+author: Brian Lee
+description: Long flat thigh muscle that adducts and flexes the femur.
+icon: ':muscle:'
+id: adductor-longus
+pubdate: Aug 27, 2025
+status: Review Pending
+title: Adductor Longus
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Adductor Longus
+url: /muscles/adductor-longus/
