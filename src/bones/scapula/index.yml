@@ -73,4 +73,10 @@ id: scapula
 pubdate: Aug 28, 2025
 status: Pending Review
 title: Scapula
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Scapula
 url: /bones/scapula/

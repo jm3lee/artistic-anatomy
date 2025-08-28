@@ -4,6 +4,12 @@ id: fibula
 pubdate: Aug 25, 2025
 status: Review Pending
 title: Fibula
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Fibula
 url: /bones/fibula/
 description: >
   The fibula is a slender lateral leg bone running parallel to the tibia and

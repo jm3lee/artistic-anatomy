@@ -4,6 +4,12 @@ id: ulna
 pubdate: Aug 25, 2025
 status: Review Pending
 title: Ulna
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Ulna
 url: /bones/ulna/
 description: >
   The ulna is the medial forearm bone forming the elbow's hinge and
