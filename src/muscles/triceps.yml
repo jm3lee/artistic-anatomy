@@ -15,6 +15,12 @@ id: trc
 pubdate: Aug 27, 2025
 status: Reviewed
 title: Triceps
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Triceps
 translations:
   french: triceps brachial
   russian: "\u0442\u0440\u0451\u0445\u0433\u043B\u0430\u0432\u0430\u044F \u043C\u044B\

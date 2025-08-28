@@ -13,6 +13,12 @@ id: protrs
 pubdate: Aug 27, 2025
 status: Review Pending
 title: Pronator Teres
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Pronator Teres
 translations:
   russian: "\u041A\u0440\u0443\u0433\u043B\u044B\u0439 \u043F\u0440\u043E\u043D\u0430\
     \u0442\u043E\u0440"

@@ -12,6 +12,12 @@ id: infraspinatus
 pubdate: Aug 27, 2025
 status: Review Pending
 title: Infraspinatus
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Infraspinatus
 translations:
   french: "sous-\xE9pineux"
   russian: "\u041F\u043E\u0434\u043E\u0441\u0442\u043D\u0430\u044F \u043C\u044B\u0448\

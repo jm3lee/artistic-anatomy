@@ -15,6 +15,12 @@ id: dt
 pubdate: Aug 27, 2025
 status: Reviewed
 title: Deltoid
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Deltoid
 translations:
   french: "delto\xEFde"
   russian: "\u0434\u0435\u043B\u044C\u0442\u043E\u0432\u0438\u0434\u043D\u0430\u044F\

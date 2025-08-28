@@ -16,4 +16,10 @@ id: gmed
 pubdate: Aug 27, 2025
 status: Review Pending
 title: Gluteus Medius
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Gluteus Medius
 url: /muscles/gluteus-medius.html

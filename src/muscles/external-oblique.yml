@@ -15,4 +15,10 @@ status: Review Pending
 tags:
 - torso
 title: External Oblique
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: External Oblique
 url: /muscles/external-oblique.html

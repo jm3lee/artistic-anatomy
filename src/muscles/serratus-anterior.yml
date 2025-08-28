@@ -16,4 +16,10 @@ status: Pending Review
 tags:
 - torso
 title: Serratus Anterior
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Serratus Anterior
 url: /muscles/serratus-anterior.html
