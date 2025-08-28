@@ -1,6 +1,7 @@
 {% from "templates/insertions.jinja" import insertions %}
 {% from "templates/bony_landmarks.jinja" import bony_landmarks %}
 {% from "templates/figure.jinja" import figure %}
+{% from "templates/origins.jinja" import origins %}
 
 ## Summary
 
@@ -38,10 +39,8 @@ muscle attachment and forms the outer part of the ankle joint.
 
 {{ bony_landmarks('fibula') }}
 
-## Muscle Origins
-* Fibularis longus and brevis — proximal lateral fibula
-* Soleus — posterior proximal fibula
-* Tibialis posterior — posterior fibula and interosseous membrane
+## Muscle Origins {{'{#origins}'}}
+{{ origins('fibula') }}
 
 ## Muscle Insertions
 
