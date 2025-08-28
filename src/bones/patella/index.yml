@@ -4,4 +4,10 @@ id: patella
 pubdate: Aug 25, 2025
 status: Review Pending
 title: Patella
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Patella
 url: /bones/patella/

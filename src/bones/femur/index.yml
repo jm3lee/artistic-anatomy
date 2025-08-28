@@ -108,4 +108,10 @@ id: femur
 pubdate: Aug 27, 2025
 status: Review Pending
 title: Femur
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Femur
 url: /bones/femur/

@@ -6,4 +6,10 @@ status: Reviewed
 title: Radioulnar Joints
 tags:
 - joint
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Radioulnar Joints
 url: /bones/radioulnar-joints.html

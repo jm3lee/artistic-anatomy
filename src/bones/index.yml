@@ -2,4 +2,8 @@ author: Brian Lee
 id: bones
 status: Review Pending
 title: Bones
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
 url: /bones/

@@ -4,6 +4,12 @@ id: radius
 pubdate: Aug 25, 2025
 status: Review Pending
 title: Radius
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Radius
 url: /bones/radius/
 description: >
   The radius is the lateral forearm bone that pivots around the ulna to

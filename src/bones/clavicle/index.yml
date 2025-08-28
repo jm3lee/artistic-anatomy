@@ -4,6 +4,12 @@ id: clavicle
 pubdate: Aug 25, 2025
 status: Review Pending
 title: Clavicle
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Clavicle
 url: /bones/clavicle
 description: >
   The clavicle is a slender S-shaped bone connecting the sternum and scapula
