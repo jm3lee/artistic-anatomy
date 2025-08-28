@@ -228,11 +228,13 @@ main figure {
   max-width: 100%;
   margin: 0 auto 2rem;
   text-align: center;
+  width: fit-content;
 }
 
 main figure img {
   display: block;
   max-width: 100%;
+  max-height: 50vh;
   height: auto;
   margin-left: auto;
   margin-right: auto;
