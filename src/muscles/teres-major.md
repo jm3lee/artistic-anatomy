@@ -1,7 +1,3 @@
----
-title: "{{get_desc('teres-major')['icon']}} {{get_desc('teres-major')['title']|title}}"
----
-
 {% from "templates/summary.jinja" import summary %}
 
 {{summary("teres-major")}}

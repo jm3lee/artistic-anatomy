@@ -1,7 +1,3 @@
----
-title: "{{get_desc('adductor-brevis')['icon']}} {{get_desc('adductor-brevis')['title']|title}}"
----
-
 {% from "templates/summary.jinja" import summary %}
 
 {{summary("adductor-brevis")}}

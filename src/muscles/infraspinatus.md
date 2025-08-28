@@ -1,7 +1,3 @@
----
-title: "{{get_desc('infraspinatus')['icon']}} {{get_desc('infraspinatus')['title']|title}}"
----
-
 {% from "templates/translations.jinja" import translations %}
 
 {% from "templates/summary.jinja" import summary %}
