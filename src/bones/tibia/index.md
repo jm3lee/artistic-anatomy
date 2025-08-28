@@ -26,8 +26,8 @@
 ## Notes
 
 No other major muscles insert directly on the tibia itself.
-The **tibialis posterior** and **soleus** originate on the posterior surface of
-the tibia (and fibula/interosseous membrane) but insert primarily on the tarsal
+The {{ linktitle('soleus') }} originates on the posterior surface of the tibia
+and fibula along the interosseous membrane but inserts primarily on the tarsal
 bones rather than the tibia.
 
 ## References
