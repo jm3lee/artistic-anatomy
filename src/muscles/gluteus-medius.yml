@@ -11,15 +11,15 @@ anatomy:
   origins:
   - Gluteal surface of ilium between posterior and anterior gluteal lines
 author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Gluteus Medius
 icon: ':muscle:'
 id: gmed
-pubdate: Aug 27, 2025
+pubdate: Aug 28, 2025
 status: Review Pending
 title: Gluteus Medius
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Muscles
-    url: /muscles/
-  - title: Gluteus Medius
 url: /muscles/gluteus-medius.html

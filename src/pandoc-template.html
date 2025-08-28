@@ -111,6 +111,7 @@
           text-truncate"
           style="max-width: 16ch"
         >
+          $if(icon)$ $icon$ $endif$
           $if(page_heading)$ $page_heading$ $else$ $title$ $endif$
         </span>
         <button
@@ -154,6 +155,7 @@
 
       <div class="container-fluid position-relative text-center">
         <h1 class="display-3 fw-bold">
+          $if(icon)$ $icon$ $endif$
           $if(page_heading)$ $page_heading$ $else$ $title$ $endif$
         </h1>
       </div>
