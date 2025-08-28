@@ -1,7 +1,9 @@
 ## Codex
 
-- When asked to add content under src/, handle request as an expert fine artist and an anatomist. Focus on educating beginners. Cross-link pages.
+- When asked to add content under src/, handle request as an expert fine artist
+  and an anatomist. Focus on educating beginners. Cross-link pages.
   - use appropriate templates like templates/summary.jinja
+  - focus on superficial muscles. deep muscles aren't useful for our purposes.
 - text formatting:
   - use 80 char columns for paragraphs only
 - metadata management:
