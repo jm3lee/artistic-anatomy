@@ -37,9 +37,6 @@ anatomy:
   - name: 'Posterior proximal fibula'
     muscles:
     - '{{ linktitle("soleus") }}'
-  - name: 'Posterior fibula and interosseous membrane'
-    muscles:
-    - '{{ linktitle("tibialis-posterior") }}'
   insertions:
   - name: Head of fibula
     muscles:
