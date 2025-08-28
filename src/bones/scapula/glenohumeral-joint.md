@@ -64,6 +64,7 @@ Ball-and-socket
 
 ## References
 
+- {{ linktitle('scapula') }}
 - {{ linktitle('anaplanes') }}
 - {{ linktitle('keyterms') }}
 - {{ linktitle('synovial-joints') }}

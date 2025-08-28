@@ -15,6 +15,8 @@
 
 ## References
 
+* {{ linktitle('scapula') }}
+* {{ linktitle('acromion-process') }}
 * Wikipedia
   * [Spine of Scapula](https://en.wikipedia.org/wiki/Spine_of_scapula)
   * [Infraspinous Fossa](https://en.wikipedia.org/wiki/Infraspinous_fossa)
