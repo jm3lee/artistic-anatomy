@@ -8,9 +8,11 @@ inserts into the extensor expansions of digits two through five, allowing
 them to straighten at the metacarpophalangeal joints.
 
 It shares a common origin at the lateral epicondyle with
-{{ link('extensor-carpi-ulnaris') }} and {{ link('extensor-digiti-minimi') }}.
+{{ link('extensor-carpi-ulnaris') }} and
+{{ link('extensor-digiti-minimi') }}.
 The muscle is an antagonist to the
-{{ link('flexor-digitorum-superficialis') }}.
+{{ link('flexor-digitorum-superficialis') }} and
+{{ link('flexor-digitorum-profundus') }}.
 
 ## References
 * {{ linktitle('hc77') }}
