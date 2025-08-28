@@ -1,26 +1,22 @@
 {% from "templates/translations.jinja" import translations %}
 
 {% from "templates/summary.jinja" import summary %}
+{% from "templates/figure.jinja" import figure %}
 
 {{summary("teres-minor")}}
 
 ## Illustrations
 
-<figure>
-  <a title=
-  "Anatomography, CC BY-SA 2.1 JP &lt;https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en&gt;, via Wikimedia Commons"
-  href=
-  "https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif">
-  <img width="100%" alt="Teres minor muscle animation2" src=
-  "https://upload.wikimedia.org/wikipedia/commons/4/41/Teres_minor_muscle_animation2.gif?20121121033256" loading="lazy"></a>
-  <figcaption>
-    <a href=
-    "https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif">
-    Anatomography</a>, <a href=
-    "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en">CC
-    BY-SA 2.1 JP</a>, via Wikimedia Commons
-  </figcaption>
-</figure>
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/4/41/Teres_minor_muscle_animation2.gif?20121121033256" %}
+{% set alt = "Teres minor muscle animation2" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href
+) }}
 
 {{translations('teres-minor')}}
 

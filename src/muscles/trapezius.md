@@ -1,27 +1,32 @@
 {% from "templates/translations.jinja" import translations %}
 
 {% from "templates/summary.jinja" import summary %}
+{% from "templates/figure.jinja" import figure %}
 
 {{summary("trz")}}
 
 ## Illustrations
 
-<figure>
-<img
-src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate54.webp"
-alt="Richer Plate 54"
-loading="lazy"/>
-<figcaption>
-Richer, Plate 54
-</figcaption>
-</figure>
+{% set src = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate54.webp" %}
+{% set alt = "Richer Plate 54" %}
+{% set caption = "Richer, Plate 54" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption
+) }}
 
-<figure>
-<a title="Anatomography, CC BY-SA 2.1 JP &lt;https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Trapezius_animation_small2.gif"><img width="256" alt="Trapezius animation small2" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Trapezius_animation_small2.gif?20121019044756"></a>
-<figcaption>
-<a href="https://commons.wikimedia.org/wiki/File:Trapezius_animation_small2.gif">Anatomography</a>, <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en">CC BY-SA 2.1 JP</a>, via Wikimedia Commons
-</figcaption>
-</figure>
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/a/aa/Trapezius_animation_small2.gif?20121019044756" %}
+{% set alt = "Trapezius animation small2" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Trapezius_animation_small2.gif'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Trapezius_animation_small2.gif" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href,
+    width=256
+) }}
 
 {{translations('trz')}}
 

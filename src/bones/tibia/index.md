@@ -1,21 +1,19 @@
 {% from "templates/insertions.jinja" import insertions %}
 {% from "templates/origins.jinja" import origins %}
+{% from "templates/figure.jinja" import figure %}
 
 ## Illustrations
 
-<figure>
-  <a title=
-  "Henry Vandyke Carter, Public domain, via Wikimedia Commons"
-  href="https://commons.wikimedia.org/wiki/File:Gray258.png"><img alt="Gray258"
-  src=
-  "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray258.webp"/>
-  </a>
-  <figcaption>
-    <a href=
-    "https://commons.wikimedia.org/wiki/File:Gray258.png">Henry
-    Vandyke Carter</a>, Public domain, via Wikimedia Commons
-  </figcaption>
-</figure>
+{% set src = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray258.webp" %}
+{% set alt = "Gray258" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray258.png'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Gray258.png" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href
+) }}
 
 ## Muscle Origins {{'{#origins}'}}
 

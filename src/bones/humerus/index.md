@@ -2,32 +2,31 @@
 {% from "templates/insertions.jinja" import insertions %}
 {% from "templates/origins.jinja" import origins %}
 {% from "templates/bony_landmarks.jinja" import bony_landmarks %}
+{% from "templates/figure.jinja" import figure %}
 
 ## Illustrations
 
-<figure>
-<a href="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/richer026.webp">
-<img
-src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/richer026.webp"
-alt="Richer, Artistic Anatomy, Plate 19"
-loading="lazy"/>
-<figcaption>
-Richer, Artistic Anatomy, Plate 19
-</figcaption>
-</a>
-</figure>
+{% set src = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/richer026.webp" %}
+{% set alt = "Richer, Artistic Anatomy, Plate 19" %}
+{% set caption = "Richer, Artistic Anatomy, Plate 19" %}
+{% set href = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/richer026.webp" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href
+) }}
 
-<figure>
-<a href="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray207.png">
-<img
-src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray207.png"
-alt="Gray's Anatomy: Muscle attachment points on humerus"
-loading="lazy"/>
-<figcaption>
-Gray's Anatomy: Muscle attachment points on humerus
-</figcaption>
-</a>
-</figure>
+{% set src = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray207.png" %}
+{% set alt = "Gray's Anatomy: Muscle attachment points on humerus" %}
+{% set caption = "Gray's Anatomy: Muscle attachment points on humerus" %}
+{% set href = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray207.png" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href
+) }}
 
 Source: [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/a/ad/Gray207.png)
 

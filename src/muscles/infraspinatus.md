@@ -1,28 +1,29 @@
 {% from "templates/translations.jinja" import translations %}
 
 {% from "templates/summary.jinja" import summary %}
+{% from "templates/figure.jinja" import figure %}
 
 {{summary("infraspinatus")}}
 
 ## Illustrations
 
-<figure>
-  <a title=
-  "Anatomography, CC BY-SA 2.1 JP &lt;https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en&gt;, via Wikimedia Commons"
-  href=
-  "https://commons.wikimedia.org/wiki/File:Infraspinatus_muscle_animation.gif">
-  <img width="100%" alt="Infraspinatus muscle animation" src=
-  "https://upload.wikimedia.org/wikipedia/commons/8/8d/Infraspinatus_muscle_animation.gif?20121120170804"></a>
-  <figcaption>
-    Anatomography, CC BY-SA 2.1 JP, via Wikimedia Commons
-  </figcaption>
-</figure>
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/8/8d/Infraspinatus_muscle_animation.gif?20121120170804" %}
+{% set alt = "Infraspinatus muscle animation" %}
+{% set caption = "Anatomography, CC BY-SA 2.1 JP, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Infraspinatus_muscle_animation.gif" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href
+) }}
 
-<figure>
-<img src="https://brianleeart.sfo3.cdn.digitaloceanspaces.com/richer/infraspinatus.jpg"
-alt="Infraspinatus, Richer"
-loading="lazy"/>
-</figure>
+{% set src = "https://brianleeart.sfo3.cdn.digitaloceanspaces.com/richer/infraspinatus.jpg" %}
+{% set alt = "Infraspinatus, Richer" %}
+{{ figure(
+    src=src,
+    alt=alt
+) }}
 
 {{translations('infraspinatus')}}
 
