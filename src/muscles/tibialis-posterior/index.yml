@@ -1,0 +1,32 @@
+anatomy:
+  actions:
+  - Plantarflexes the ankle
+  - Inverts the foot
+  - Supports the medial longitudinal arch
+  insertions:
+  - Navicular tuberosity
+  - Cuneiforms
+  - Cuboid
+  - Bases of the 2nd through 4th metatarsals
+  origins:
+  - Posterior surface of {{ linkicon("tibia") }}
+  - Posterior surface of {{ linkicon("fibula") }}
+  - Interosseous membrane
+author: Brian Lee
+icon: ':muscle:'
+id: tibialis-posterior
+pubdate: Aug 27, 2025
+status: Review Pending
+title: Tibialis Posterior
+description: >
+  Deep calf muscle that inverts the foot and supports the arch.
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Tibialis Posterior
+translations:
+  french: 'tibial postérieur'
+  russian: 'Задняя большеберцовая мышца'
+url: /muscles/tibialis-posterior/
