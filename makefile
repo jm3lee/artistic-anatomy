@@ -46,7 +46,7 @@ CFG_DIR   := cfg
 #       -T: Don't allocate pseudo-tty. Makes parallel builds work.
 # For container setup details, see docs/guides/docker-make.md.
 PANDOC_CMD := pandoc
-PANDOC_TEMPLATE := $(SRC_DIR)/pandoc-template.html
+PANDOC_TEMPLATE := $(SRC_DIR)/web/pandoc-template.html
 
 # Options for generating HTML output with Pandoc
 PANDOC_OPTS := \
