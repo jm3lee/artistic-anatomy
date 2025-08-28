@@ -15,3 +15,9 @@ id: sartorius
 pubdate: Aug 27, 2025
 status: Review Pending
 title: Sartorius
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Sartorius

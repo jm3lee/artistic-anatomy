@@ -13,6 +13,12 @@ id: teres-minor
 pubdate: Aug 27, 2025
 status: Review Pending
 title: Teres Minor
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Teres Minor
 translations:
   french: petit rond
   russian: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043A\u0440\u0443\u0433\u043B\

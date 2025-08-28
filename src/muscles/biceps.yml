@@ -15,6 +15,12 @@ id: bc
 pubdate: Aug 27, 2025
 status: Reviewed
 title: Biceps
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Biceps
 translations:
   french: biceps brachial
   russian: "\u0434\u0432\u0443\u0433\u043B\u0430\u0432\u0430\u044F \u043C\u044B\u0448\

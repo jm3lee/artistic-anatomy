@@ -16,6 +16,12 @@ id: tiba
 pubdate: Aug 27, 2025
 status: Reviewed
 title: Tibialis Anterior
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Tibialis Anterior
 translations:
   french: "tibial ant\xE9rieur"
   russian: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u0431\u043E\u043B\u044C\

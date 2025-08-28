@@ -18,4 +18,10 @@ id: gmax
 pubdate: Aug 27, 2025
 status: Review Pending
 title: Gluteus Maximus
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Gluteus Maximus
 url: /muscles/gluteus-maximus.html
