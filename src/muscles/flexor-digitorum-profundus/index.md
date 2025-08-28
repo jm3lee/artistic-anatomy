@@ -14,18 +14,6 @@ and is an antagonist to the {{ link('extensor-digitorum') }}.
 
 ## Illustrations
 
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flexor_digitorum_profundus.png/128px-Flexor_digitorum_profundus.png" %}
-{% set alt = "Flexor digitorum profundus" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Flexor_digitorum_profundus.png'>Gray's Anatomy</a>, Public domain, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Flexor_digitorum_profundus.png" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href,
-    width=128
-) }}
-
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Flexor_digitorum_profundus_muscle)
