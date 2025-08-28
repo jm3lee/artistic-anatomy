@@ -7,11 +7,11 @@ import React, { useEffect, useState } from 'react';
  *
  * ### Props
  * @param {Object} props
- * @param {string} [props.src="/study/key_terms.json"] - URL or path to the quiz JSON file.
+ * @param {string} [props.src="/study/key-terms.json"] - URL or path to the quiz JSON file.
  *
  * @returns {JSX.Element}
  */
-const Quiz = ({ src = "/study/key_terms.json" }) => {
+const Quiz = ({ src = "/study/key-terms.json" }) => {
   const [questions, setQuestions] = useState([]);
   const [selected, setSelected] = useState({});
   const [showAnswers, setShowAnswers] = useState(false);
