@@ -1,7 +1,7 @@
 {% from "templates/summary.jinja" import summary %}
 {% from "templates/figure.jinja" import figure %}
 
-{{summary("fdp")}}
+{{summary("flexor-digitorum-profundus")}}
 
 The flexor digitorum profundus lies deep to the
 {{ link('flexor-digitorum-superficialis') }}. Its broad origin on the ulna and
