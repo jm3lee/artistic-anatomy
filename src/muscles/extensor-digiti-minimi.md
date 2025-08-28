@@ -1,7 +1,3 @@
----
-title: "{{get_desc('extensor-digiti-minimi')['icon']}} {{get_desc('extensor-digiti-minimi')['title']|title}}"
----
-
 {% from "templates/summary.jinja" import summary %}
 
 {{summary("extensor-digiti-minimi")}}

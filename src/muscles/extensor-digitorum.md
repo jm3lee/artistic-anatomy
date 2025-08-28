@@ -1,7 +1,3 @@
----
-title: "{{get_desc('extensor-digitorum')['icon']}} {{get_desc('extensor-digitorum')['title']|title}}"
----
-
 {% from "templates/summary.jinja" import summary %}
 
 {{summary("extensor-digitorum")}}

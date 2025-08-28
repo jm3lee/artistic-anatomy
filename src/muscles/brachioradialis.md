@@ -1,7 +1,3 @@
----
-title: "{{get_desc('brr')['icon']}} {{get_desc('brr')['title']|title}}"
----
-
 {% from "templates/translations.jinja" import translations %}
 {% from "templates/summary.jinja" import summary %}
 

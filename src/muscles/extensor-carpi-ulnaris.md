@@ -1,7 +1,3 @@
----
-title: "{{get_desc('extensor-carpi-ulnaris')['icon']}} {{get_desc('extensor-carpi-ulnaris')['title']|title}}"
----
-
 {% from "templates/summary.jinja" import summary %}
 
 {{summary("extensor-carpi-ulnaris")}}

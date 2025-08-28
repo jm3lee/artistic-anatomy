@@ -1,7 +1,3 @@
----
-title: "{{get_desc('adductor-magnus')['icon']}} {{get_desc('adductor-magnus')['title']|title}}"
----
-
 {% from "templates/summary.jinja" import summary %}
 
 {{summary("adductor-magnus")}}

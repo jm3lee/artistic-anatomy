@@ -1,7 +1,3 @@
----
-title: "{{get_desc('adductor-minimus')['icon']}} {{get_desc('adductor-minimus')['title']|title}}"
----
-
 {% from "templates/summary.jinja" import summary %}
 
 {{summary("adductor-minimus")}}
