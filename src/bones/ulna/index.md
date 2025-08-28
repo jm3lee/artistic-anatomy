@@ -1,5 +1,6 @@
 {% from "templates/bony_landmarks.jinja" import bony_landmarks %}
 {% from "templates/figure.jinja" import figure %}
+{% from "templates/insertions.jinja" import insertions %}
 
 ## Illustrations
 
@@ -31,6 +32,10 @@
 
 {{ bony_landmarks('ulna') }}
 
+## Muscle Insertions {{'{#insertions}'}}
+
+{{ insertions('ulna') }}
+
 ## Muscle Origins
 
 ### By Bony Landmarks
@@ -49,28 +54,6 @@
 
 * **Supinator crest (proximal ulna)**
   * Supinator
-
-## Muscle Insertions
-
-### By Bony Landmarks
-
-* **Coronoid process and ulnar tuberosity**  
-  * {{ linktitle('brc') }}  
-
-* **Lateral aspect of [olecranon process](#olecranon-process)**  
-  * {{ linktitle('anc') }}
-
-* **[Olecranon Process](#olecranon-process)**  
-  * {{ linktitle('trc') }} (all heads)  
-
-* **{{ linktitle('posterior') }} border of ulna**
-  * Flexor carpi ulnaris (via pisiform, hamate, 5th metacarpal)  
-
-* **Ulnar shaft (anteromedial surface)**  
-  * Flexor digitorum superficialis (via intermediate phalanges; indirect insertion)  
-
-* **Ulnar tuberosity (anteromedial shaft)**  
-  * Flexor digitorum profundus (ulnar half)  
 
 ## Examples
 
