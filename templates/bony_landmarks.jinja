@@ -5,7 +5,7 @@
   Each landmark is rendered as a heading followed by a paragraph.
 --#}
 {% macro bony_landmarks(name) %}
-{% for landmark in get_desc(name)['anatomy']['bony_landmarks'] %}
+{% for landmark in get_desc(name)['anatomy']['bony_landmarks'] | sort(attribute="name") %}
 ### {{ render_jinja(landmark.name) }}
 {{ render_jinja(landmark.desc) }}
 
