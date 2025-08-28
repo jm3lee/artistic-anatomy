@@ -13,6 +13,9 @@
 
 ## References
 
+* {{ linktitle('scapula') }}
+* {{ linktitle('coracoid-process') }}
+* {{ linktitle('spine-of-scapula') }}
 * [Wikipedia](https://en.wikipedia.org/wiki/Acromion)
 * {{ linktitle('gf') }}
   * Acromial angle, 19
