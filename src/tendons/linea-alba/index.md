@@ -1,3 +1,5 @@
+{% from "templates/figure.jinja" import figure %}
+
 ## Summary
 
 The **linea alba** is a fibrous midline structure that runs vertically along the
@@ -12,12 +14,17 @@ Latin, referring to its pale, tendinous appearance.
 
 ## Illustrations
 
-<figure>
-<a title="Henry Vandyke Carter, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Gray399.svg"><img width="512" alt="A labelled diagram of the anterior abdominal wall above the arcuate line." src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Gray399.svg/512px-Gray399.svg.png?20080907064758"></a>
-<figcaption>
-<a href="https://commons.wikimedia.org/wiki/File:Gray399.svg">Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons
-</figcaption>
-</figure>
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Gray399.svg/512px-Gray399.svg.png?20080907064758" %}
+{% set alt = "A labelled diagram of the anterior abdominal wall above the arcuate line." %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray399.svg'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Gray399.svg" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href,
+    width=512
+) }}
 
 ## References
 

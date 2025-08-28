@@ -1,17 +1,19 @@
 {% from "templates/bony_landmarks.jinja" import bony_landmarks %}
+{% from "templates/figure.jinja" import figure %}
 
 ## Illustrations
 
-<figure>
-<a title="Henry Vandyke Carter, Public domain, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Gray203.png"><img width="512"
-alt="Gray203"
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Gray203.png/512px-Gray203.png?20070123172303"></a>
-<figcaption>
-<a href="https://commons.wikimedia.org/wiki/File:Gray203.png">Henry Vandyke
-Carter</a>, Public domain, via Wikimedia Commons
-</figcaption>
-</figure>
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Gray203.png/512px-Gray203.png?20070123172303" %}
+{% set alt = "Gray203" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray203.png'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Gray203.png" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href,
+    width=512
+) }}
 
 ## Movements {{'{#movements}'}}
 

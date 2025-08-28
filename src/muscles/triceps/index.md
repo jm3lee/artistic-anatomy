@@ -1,25 +1,23 @@
 {% from "templates/translations.jinja" import translations %}
 
 {% from "templates/summary.jinja" import summary %}
+{% from "templates/figure.jinja" import figure %}
 
 {{summary("trc")}}
 
 ## Illustrations
 
-<figure>
-<a title="Anatomography, CC BY-SA 2.1 JP
-&lt;https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en&gt;, via Wikimedia
-Commons"
-href="https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle06.png"><img
-width="512" alt="Triceps brachii muscle06"
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Triceps_brachii_muscle06.png/512px-Triceps_brachii_muscle06.png?20130727010753"></a>
-<figcaption>
-<a
-href="https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle06.png">Anatomography</a>,
-<a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en">CC BY-SA 2.1
-JP</a>, via Wikimedia Commons
-</figcaption>
-</figure>
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Triceps_brachii_muscle06.png/512px-Triceps_brachii_muscle06.png?20130727010753" %}
+{% set alt = "Triceps brachii muscle06" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle06.png'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle06.png" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href,
+    width=512
+) }}
 
 - Red: Long head
 - Yellow: Lateral head

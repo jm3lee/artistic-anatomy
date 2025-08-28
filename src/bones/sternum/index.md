@@ -1,3 +1,5 @@
+{% from "templates/figure.jinja" import figure %}
+
 ## Summary
 
 The sternum forms the front of the rib cage and anchors the ribs and clavicles
@@ -12,12 +14,17 @@ and serves as a reference plane for the chest muscles.
 
 ## Illustrations
 
-<figure>
-<a title="Anatomography, CC BY-SA 2.1 JP &lt;https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Sternum_composition.png"><img width="512" alt="Diagram of a sternum" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sternum_composition.png/512px-Sternum_composition.png?20130123210847"></a>
-<figcaption>
-<a href="https://commons.wikimedia.org/wiki/File:Sternum_composition.png">Anatomography</a>, <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en">CC BY-SA 2.1 JP</a>, via Wikimedia Commons
-</figcaption>
-</figure>
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sternum_composition.png/512px-Sternum_composition.png?20130123210847" %}
+{% set alt = "Diagram of a sternum" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Sternum_composition.png'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Sternum_composition.png" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href,
+    width=512
+) }}
 
 - Manubrium (green)
 - Body (blue)

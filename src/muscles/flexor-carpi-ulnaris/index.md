@@ -1,17 +1,23 @@
 A part of the [Wrist Flexor Group](/wrist-flexor-group.html).
 
 {% from "templates/summary.jinja" import summary %}
+{% from "templates/figure.jinja" import figure %}
 
 {{summary("fcu")}}
 
 ## Illustrations
 
-<figure>
-<a title="Henry Vandyke Carter, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Flexor_carpi_ulnaris.png"><img width="512" alt="Flexor carpi ulnaris" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flexor_carpi_ulnaris.png/512px-Flexor_carpi_ulnaris.png?20070123194214"></a>
-<figcaption>
-<a href="https://commons.wikimedia.org/wiki/File:Flexor_carpi_ulnaris.png">Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons
-</figcaption>
-</figure>
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flexor_carpi_ulnaris.png/512px-Flexor_carpi_ulnaris.png?20070123194214" %}
+{% set alt = "Flexor carpi ulnaris" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Flexor_carpi_ulnaris.png'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Flexor_carpi_ulnaris.png" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href,
+    width=512
+) }}
 
 ## References
 

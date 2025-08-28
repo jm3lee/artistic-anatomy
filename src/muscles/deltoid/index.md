@@ -1,16 +1,22 @@
 {% from "templates/summary.jinja" import summary %}
 {% from "templates/translations.jinja" import translations %}
+{% from "templates/figure.jinja" import figure %}
 
 {{summary("dt")}}
 
 ## Illustrations
 
-<figure>
-<a title="Vishram Singh, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Deltoid_muscle_origin_and_insertion.jpg"><img class="figure" width="512" alt="Origin and insertion of deltoid muscle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Deltoid_muscle_origin_and_insertion.jpg/512px-Deltoid_muscle_origin_and_insertion.jpg?20240330105321"></a>
-<figcaption>
-<a href="https://commons.wikimedia.org/wiki/File:Deltoid_muscle_origin_and_insertion.jpg">Vishram Singh</a>, CC0, via Wikimedia Commons
-</figcaption>
-</figure>
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Deltoid_muscle_origin_and_insertion.jpg/512px-Deltoid_muscle_origin_and_insertion.jpg?20240330105321" %}
+{% set alt = "Origin and insertion of deltoid muscle" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Deltoid_muscle_origin_and_insertion.jpg'>Vishram Singh</a>, CC0, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Deltoid_muscle_origin_and_insertion.jpg" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href,
+    width=512
+) }}
 
 {{translations("dt")}}
 

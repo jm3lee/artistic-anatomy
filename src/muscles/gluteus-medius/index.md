@@ -1,4 +1,5 @@
 {% from "templates/summary.jinja" import summary %}
+{% from "templates/figure.jinja" import figure %}
 
 {{summary("gmed")}}
 
@@ -11,22 +12,24 @@ loading="lazy"/>
 
 ## Examples
 
-<figure>
-<a title="Raphael, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Raffaello_Santi_-_Cupid_and_the_Three_Graces_(detail).jpg"><img width="512" alt="Raffaello Santi - Cupid and the Three Graces (detail)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Raffaello_Santi_-_Cupid_and_the_Three_Graces_%28detail%29.jpg/512px-Raffaello_Santi_-_Cupid_and_the_Three_Graces_%28detail%29.jpg?20141003042450" loading="lazy"></a>
-<figcaption>
-<a href="https://commons.wikimedia.org/wiki/File:Raffaello_Santi_-_Cupid_and_the_Three_Graces_(detail).jpg">Raphael</a>, Public domain, via Wikimedia Commons
-</figcaption>
-</figure>
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Raffaello_Santi_-_Cupid_and_the_Three_Graces_%28detail%29.jpg/512px-Raffaello_Santi_-_Cupid_and_the_Three_Graces_%28detail%29.jpg?20141003042450" %}
+{% set alt = "Raffaello Santi - Cupid and the Three Graces (detail)" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Raffaello_Santi_-_Cupid_and_the_Three_Graces_(detail).jpg'>Raphael</a>, Public domain, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Raffaello_Santi_-_Cupid_and_the_Three_Graces_(detail).jpg" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href,
+    width=512
+) }}
 
-<figure>
-<img
-src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/resized/400x/1157295-1724769870.webp"
-alt="Raphael, The Three Graces c.1517-18"
-loading="lazy"/>
-<figcaption>
-[Raphael, The Three Graces c.1517-18](https://www.rct.uk/collection/912754/the-three-graces). See also {{ linktitle('hc77') }}, 50 (D).
-</figcaption>
-</figure>
+{% set src = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/resized/400x/1157295-1724769870.webp" %}
+{% set alt = "Raphael, The Three Graces c.1517-18" %}
+{{ figure(
+    src=src,
+    alt=alt
+) }}
 
 ## References
 
