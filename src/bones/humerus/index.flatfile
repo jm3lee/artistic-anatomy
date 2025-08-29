@@ -34,12 +34,11 @@ A large, lateral projection just distal to the head that provides attachment for
 }
 {
 name
-"""
 Radial (Spiral) Groove <a id="radial_spiral_groove" href="#radial_spiral_groove"><small>#</small></a>
-"""
 desc
 """
-A shallow groove running obliquely down the posterior shaft, transmitting the radial nerve and deep brachial artery.
+A shallow groove running obliquely down the posterior shaft,
+transmitting the radial nerve and deep brachial artery.
 """
 }
 {
@@ -137,9 +136,9 @@ muscles
 [
 {{ linktitle("protrs") }} (humeral head)
 {{ linktitle("fcr") }}
-Palmaris longus
+{{ linktitle("palmaris-longus") }}
 {{ linktitle("fcu") }} (humeral head)
-Flexor digitorum superficialis (humeral head)
+{{ linktitle("flexor-digitorum-superficialis") }} (humeral head)
 ]
 name
 Medial epicondyle (common flexor origin)
@@ -147,11 +146,11 @@ Medial epicondyle (common flexor origin)
 {
 muscles
 [
-Extensor carpi radialis brevis
+{{ linktitle("extensor-carpi-radialis-brevis") }}
 {{ linktitle("extensor-digitorum") }}
-Extensor digiti minimi
+{{ linktitle("extensor-digiti-minimi") }}
 {{ linktitle("extensor-carpi-ulnaris") }}
-Supinator
+{{ linktitle("supinator") }}
 ]
 name
 Lateral epicondyle (common extensor origin)
@@ -160,7 +159,7 @@ Lateral epicondyle (common extensor origin)
 muscles
 [
 {{ linktitle("brr") }}
-Extensor carpi radialis longus
+{{ linktitle("extensor-carpi-radialis-longus") }}
 ]
 name
 Lateral supracondylar ridge
