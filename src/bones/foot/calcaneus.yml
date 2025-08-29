@@ -1,0 +1,39 @@
+anatomy:
+  bony_landmarks:
+  - name: 'Calcaneal tuberosity {{"{#calcaneal-tuberosity}"}}'
+    desc: >
+      Posterior projection forming the heel; insertion for the
+      Achilles tendon from {{ linktitle('gastrocnemius') }},
+      {{ linktitle('soleus') }}, and {{ linktitle('plantaris') }}.
+  - name: 'Sustentaculum tali {{"{#sustentaculum-tali}"}}'
+    desc: >
+      Medial shelf supporting the talus and creating a groove for
+      flexor hallucis longus.
+  - name: 'Peroneal tubercle {{"{#peroneal-tubercle}"}}'
+    desc: >
+      Lateral projection separating the tendons of fibularis longus
+      and brevis.
+  insertions:
+  - name: Calcaneal tuberosity
+    muscles:
+    - '{{ linktitle("gastrocnemius") }}'
+    - '{{ linktitle("soleus") }}'
+    - '{{ linktitle("plantaris") }}'
+author: Brian Lee
+description: >
+  The calcaneus forms the heel and transmits weight from the leg to
+  the foot while providing leverage for the plantar flexors.
+icon: ':bone:'
+id: calcaneus
+pubdate: Aug 29, 2025
+status: Review Pending
+title: Calcaneus
+breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Foot
+    url: /bones/foot/
+  - title: Calcaneus
+url: /bones/foot/calcaneus/
