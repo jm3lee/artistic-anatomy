@@ -56,7 +56,16 @@ build/%.json: %.json
 
 build/keyterms/index.md: build/keyterms/index.json
 
-BONES_YAMLS := $(shell find src/bones -name '*.yml')
+build/bones/fibula/index.flatfile: src/bones/fibula/index.flatfile
+	mkdir -p $(dir $@)
+	jinja2 $< > $@
+
+
+build/bones/fibula/index.yaml: build/bones/fibula/index.flatfile
+	mkdir -p $(dir $@)
+	flatfile -y $< > $@
+
+BONES_YAMLS := $(shell find src/bones -name '*.yml' -o -name '*.flatfile')
 BACKGROUND_YAMLS := $(shell find src/background -name '*.yml')
 HEAD_YAMLS := $(shell find src/head -name '*.yml')
 JOINT_YAMLS := $(shell find src -name '*.yml')
