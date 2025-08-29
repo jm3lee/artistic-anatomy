@@ -1,4 +1,5 @@
 anatomy
+{
 actions
 [
 Shoulder {{ link("abduction") }} (middle fibers)
@@ -15,6 +16,7 @@ Lateral third of the {{ link("clavicle") }} ({{ link("anterior") }} fibers)
 {{ linkcap("acromion-process") }} of the {{ linkicon("scapula") }} (middle fibers)
 Spine of the {{ linkicon("scapula") }} ({{ link("posterior") }} fibers)
 ]
+}
 author
 Brian Lee
 icon
@@ -22,7 +24,7 @@ icon
 id
 dt
 pubdate
-Aug 27, 2025
+Aug 29, 2025
 status
 Reviewed
 title

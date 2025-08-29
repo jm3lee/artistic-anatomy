@@ -1,4 +1,5 @@
 anatomy
+{
 actions
 [
 Everts the foot
@@ -13,6 +14,7 @@ origins
 [
 Distal two-thirds of lateral surface of {{ linkicon("fibula") }}
 ]
+}
 author
 Brian Lee
 icon
@@ -20,7 +22,7 @@ icon
 id
 fibularis-brevis
 pubdate
-Aug 28, 2025
+Aug 29, 2025
 status
 Review Pending
 title

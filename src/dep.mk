@@ -60,6 +60,10 @@ build/%.yml: src/%.flatfile
 	mkdir -p $(dir $@)
 	flatfile-to-yml $< $@
 
+build/%.flatfile: src/%.flatfile
+	mkdir -p $(dir $@)
+	cp $^ $@
+
 all: build/bones/femur/index.html
 
 BONES_YAMLS := $(shell find src/bones -name '*.flatfile')
