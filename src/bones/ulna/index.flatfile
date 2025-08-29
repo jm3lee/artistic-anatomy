@@ -78,7 +78,7 @@ anatomy.insertions
 [
 muscles
 [
-'{{ linktitle(\"brc\") }}'
+{{ linktitle("brc") }}
 ]
 name
 Coronoid process and ulnar tuberosity
@@ -86,7 +86,7 @@ Coronoid process and ulnar tuberosity
 [
 muscles
 [
-'{{ linktitle(\"anc\") }}'
+{{ linktitle("anc") }}
 ]
 name
 Lateral olecranon
@@ -94,7 +94,7 @@ Lateral olecranon
 [
 muscles
 [
-'{{ linktitle(\"trc\") }} (all heads)'
+{{ linktitle("trc") }} (all heads)
 ]
 name
 Olecranon process
@@ -102,7 +102,7 @@ Olecranon process
 [
 muscles
 [
-'{{ linktitle(\"fcu\") }} (via pisiform, hamate, 5th metacarpal)'
+{{ linktitle("fcu") }} (via pisiform, hamate, 5th metacarpal)
 ]
 name
 Posterior border of ulna
@@ -110,7 +110,7 @@ Posterior border of ulna
 [
 muscles
 [
-'{{ linktitle(\"flexor-digitorum-superficialis\") }} (via intermediate phalanges; indirect insertion)'
+{{ linktitle("flexor-digitorum-superficialis") }} (via intermediate phalanges; indirect insertion)
 ]
 name
 Ulnar shaft (anteromedial surface)
@@ -118,7 +118,7 @@ Ulnar shaft (anteromedial surface)
 [
 muscles
 [
-'{{ linktitle(\"flexor-digitorum-profundus\") }} (ulnar half)'
+{{ linktitle("flexor-digitorum-profundus") }} (ulnar half)
 ]
 name
 Ulnar tuberosity (anteromedial shaft)

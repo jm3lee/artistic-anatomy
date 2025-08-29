@@ -101,7 +101,7 @@ name
 Radial tuberosity and bicipital aponeurosis
 muscles
 [
-'{{ linktitle(\"bc\") }}'
+{{ linktitle("bc") }}
 ]
 ]
 [
@@ -109,7 +109,7 @@ name
 Lateral surface (midshaft)
 muscles
 [
-'{{ linktitle(\"protrs\") }}'
+{{ linktitle("protrs") }}
 ]
 ]
 [
@@ -117,7 +117,7 @@ name
 Proximal lateral radius
 muscles
 [
-'{{ linktitle(\"supinator\") }}'
+{{ linktitle("supinator") }}
 ]
 ]
 [
@@ -125,7 +125,7 @@ name
 Styloid process of radius
 muscles
 [
-'{{ linktitle(\"brr\") }}'
+{{ linktitle("brr") }}
 ]
 ]
 ]

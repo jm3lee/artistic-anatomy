@@ -14,7 +14,7 @@ Tibial Tuberosity (via patellar ligament)
 [
 muscles
 [
-'{{ linktitle(\"sartorius\") }}'
+{{ linktitle("sartorius") }}
 Gracilis
 Semitendinosus
 ]
@@ -40,7 +40,7 @@ Lateral condyle / posterior lateral tibia
 [
 muscles
 [
-'{{ linktitle(\"tibialis-anterior\") }} (distally on medial cuneiform & base of 1st metatarsal)'
+{{ linktitle("tibialis-anterior") }} (distally on medial cuneiform & base of 1st metatarsal)
 ]
 name
 Shaft (anteromedial surface, distal third)
@@ -51,8 +51,8 @@ anatomy.origins
 [
 muscles
 [
-'{{ linktitle(\"tibialis-anterior\") }}'
-'{{ linktitle(\"extensor-digitorum\") }} (also from proximal fibula)'
+{{ linktitle("tibialis-anterior") }}
+{{ linktitle("extensor-digitorum") }} (also from proximal fibula)
 ]
 name
 Lateral condyle & proximal lateral tibial shaft

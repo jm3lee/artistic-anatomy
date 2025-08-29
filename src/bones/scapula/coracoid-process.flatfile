@@ -1,11 +1,11 @@
 anatomy.insertions
 [
-'{{ linktitle(\"pecmin\") }}'
+{{ linktitle("pecmin") }}
 ]
 anatomy.origins
 [
-'{{ linktitle(\"coracobrachialis\") }}'
-'{{ linktitle(\"bc\") }} (short head)'
+{{ linktitle("coracobrachialis") }}
+{{ linktitle("bc") }} (short head)
 ]
 author
 Brian Lee

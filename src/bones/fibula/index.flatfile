@@ -79,8 +79,8 @@ name
 Proximal lateral fibula
 muscles
 [
-'{{ linktitle("fibularis-longus") }}'
-'{{ linktitle("fibularis-brevis") }}'
+{{ linktitle("fibularis-longus") }}
+{{ linktitle("fibularis-brevis") }}
 ]
 ]
 [
@@ -88,7 +88,7 @@ name
 Posterior proximal fibula
 muscles
 [
-'{{ linktitle("soleus") }}'
+{{ linktitle("soleus") }}
 ]
 ]
 ]
@@ -99,7 +99,7 @@ name
 Head of fibula
 muscles
 [
-'{{ linktitle("bfem") }}'
+{{ linktitle("bfem") }}
 ]
 ]
 ]

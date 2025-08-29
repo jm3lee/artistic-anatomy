@@ -78,13 +78,13 @@ anatomy.insertions
 [
 muscles
 [
-'{{ linktitle(\"gmed\") }}'
-'{{ linktitle(\"gmin\") }}'
-'{{ linktitle(\"piriformis\") }}'
-'{{ linktitle(\"obturator-internus\") }}'
-'{{ linktitle(\"obturator-externus\") }}'
-'{{ linktitle(\"superior-gemellus\") }}'
-'{{ linktitle(\"inferior-gemellus\") }}'
+{{ linktitle("gmed") }}
+{{ linktitle("gmin") }}
+{{ linktitle("piriformis") }}
+{{ linktitle("obturator-internus") }}
+{{ linktitle("obturator-externus") }}
+{{ linktitle("superior-gemellus") }}
+{{ linktitle("inferior-gemellus") }}
 ]
 name
 Greater trochanter
@@ -92,7 +92,7 @@ Greater trochanter
 [
 muscles
 [
-'{{ linktitle(\"gmax\") }}'
+{{ linktitle("gmax") }}
 ]
 name
 Gluteal tuberosity
@@ -100,7 +100,7 @@ Gluteal tuberosity
 [
 muscles
 [
-'{{ linktitle(\"iliopsoas\") }}'
+{{ linktitle("iliopsoas") }}
 ]
 name
 Lesser trochanter
@@ -108,7 +108,7 @@ Lesser trochanter
 [
 muscles
 [
-'{{ linktitle(\"quadratus-femoris\") }}'
+{{ linktitle("quadratus-femoris") }}
 ]
 name
 Intertrochanteric crest
@@ -116,7 +116,7 @@ Intertrochanteric crest
 [
 muscles
 [
-'{{ linktitle(\"pectineus\") }}'
+{{ linktitle("pectineus") }}
 ]
 name
 Pectineal line
@@ -124,10 +124,10 @@ Pectineal line
 [
 muscles
 [
-'{{ linktitle(\"adductor-brevis\") }}'
-'{{ linktitle(\"adductor-longus\") }}'
-'{{ linktitle(\"adductor-magnus\") }}'
-'{{ linktitle(\"biceps-femoris-short-head\") }}'
+{{ linktitle("adductor-brevis") }}
+{{ linktitle("adductor-longus") }}
+{{ linktitle("adductor-magnus") }}
+{{ linktitle("biceps-femoris-short-head") }}
 ]
 name
 Linea aspera
@@ -135,7 +135,7 @@ Linea aspera
 [
 muscles
 [
-'{{ linktitle(\"adductor-magnus\") }}'
+{{ linktitle("adductor-magnus") }}
 ]
 name
 Adductor tubercle
@@ -146,7 +146,7 @@ anatomy.origins
 [
 muscles
 [
-'{{ linktitle(\"vastus-lateralis\") }}'
+{{ linktitle("vastus-lateralis") }}
 ]
 name
 Greater trochanter and lateral linea aspera
@@ -154,7 +154,7 @@ Greater trochanter and lateral linea aspera
 [
 muscles
 [
-'{{ linktitle(\"vastus-medialis\") }}'
+{{ linktitle("vastus-medialis") }}
 ]
 name
 Intertrochanteric line and medial linea aspera
@@ -162,7 +162,7 @@ Intertrochanteric line and medial linea aspera
 [
 muscles
 [
-'{{ linktitle(\"vastus-intermedius\") }}'
+{{ linktitle("vastus-intermedius") }}
 ]
 name
 Anterior and lateral shaft of femur
@@ -170,7 +170,7 @@ Anterior and lateral shaft of femur
 [
 muscles
 [
-'{{ linktitle(\"biceps-femoris-short-head\") }}'
+{{ linktitle("biceps-femoris-short-head") }}
 ]
 name
 Linea aspera (lateral lip)
@@ -178,7 +178,7 @@ Linea aspera (lateral lip)
 [
 muscles
 [
-'{{ linktitle(\"gastrocnemius-medial-head\") }}'
+{{ linktitle("gastrocnemius-medial-head") }}
 ]
 name
 Medial condyle of femur
@@ -186,9 +186,9 @@ Medial condyle of femur
 [
 muscles
 [
-'{{ linktitle(\"gastrocnemius-lateral-head\") }}'
-'{{ linktitle(\"popliteus\") }}'
-'{{ linktitle(\"plantaris\") }} (origin just above lateral condyle)'
+{{ linktitle("gastrocnemius-lateral-head") }}
+{{ linktitle("popliteus") }}
+{{ linktitle("plantaris") }} (origin just above lateral condyle)
 ]
 name
 Lateral condyle of femur
