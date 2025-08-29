@@ -6,8 +6,15 @@
 --#}
 {% macro def_list(label, items) %}
     <dt>{{ label }}</dt>
+<pre>
+{{items}}
+</pre>
     {% for item in items %}
-        <dd>{{ item }}</dd>
+        <dd>
+<pre>
+{{item}}
+</pre>
+</dd>
     {% endfor %}
 {% endmacro %}
 

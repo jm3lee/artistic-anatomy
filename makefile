@@ -130,7 +130,7 @@ $(BUILD_DIR)/.update-index: $(MARKDOWNS) $(YAMLS)
 
 $(BUILD_DIR)/.process-yamls: $(BUILD_YAMLS) | $(BUILD_DIR)
 	$(call status,Process YAML metadata)
-	$(Q)find $(BUILD_DIR) -name '*.yml' -print0 | xargs -0 process-yaml
+	$(Q)find $(BUILD_DIR) -name '*.yml' -print0 | xargs -0 process-yaml -vv -l log/process-yaml.txt
 	$(Q)touch $@
 
 # Target to minify HTML and CSS files

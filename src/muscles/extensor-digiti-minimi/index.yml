@@ -1,22 +1,22 @@
 anatomy:
   actions:
   - Extends little finger
-  - Assists wrist {{ link('extension') }}
+  - Assists wrist {{ link("extension") }}
   insertions:
   - Extensor expansion of digit five
   origins:
-  - Lateral epicondyle of the {{ linkicon('humerus') }}
+  - Lateral epicondyle of the {{ linkicon("humerus") }}
 author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Extensor Digiti Minimi
 description: Extends the little finger and assists with wrist extension.
 icon: ':muscle:'
 id: extensor-digiti-minimi
-pubdate: Aug 25, 2025
+pubdate: Aug 29, 2025
 status: Review Pending
 title: Extensor Digiti Minimi
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Muscles
-    url: /muscles/
-  - title: Extensor Digiti Minimi
 url: /muscles/extensor-digiti-minimi/
