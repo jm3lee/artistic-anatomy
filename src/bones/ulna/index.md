@@ -32,7 +32,7 @@
 
 {{ bony_landmarks('ulna') }}
 
-## Muscle Insertions {{'{#insertions}'}}
+## Muscle Insertions <a id="insertions" href="#insertions"><small>#</small></a>
 
 {{ insertions('ulna') }}
 

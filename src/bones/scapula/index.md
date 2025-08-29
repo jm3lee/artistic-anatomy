@@ -15,7 +15,7 @@
     width=512
 ) }}
 
-## Movements {{'{#movements}'}}
+## Movements <a id="movements" href="#movements"><small>#</small></a>
 
 The scapula moves freely across the rib cage, allowing the arm to position
 itself in space. Its primary motions are summarized below.

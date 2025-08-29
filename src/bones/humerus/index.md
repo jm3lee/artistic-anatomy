@@ -35,11 +35,11 @@ Source: [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/a/ad/Gray207.
 
 {{ bony_landmarks('humerus') }}
 
-## Muscle Origins {{'{#origins}'}}
+## Muscle Origins <a id="origins" href="#origins"><small>#</small></a>
 
 {{ origins('humerus') }}
 
-## Muscle Insertions {{'{#insertions}'}}
+## Muscle Insertions <a id="insertions" href="#insertions"><small>#</small></a>
 
 {{ insertions('humerus') }}
 

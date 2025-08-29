@@ -15,11 +15,11 @@
     href=href
 ) }}
 
-## Muscle Origins {{'{#origins}'}}
+## Muscle Origins <a id="origins" href="#origins"><small>#</small></a>
 
 {{ origins('tibia') }}
 
-## Muscle Insertions {{'{#insertions}'}}
+## Muscle Insertions <a id="insertions" href="#insertions"><small>#</small></a>
 
 {{ insertions('tibia') }}
 

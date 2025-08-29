@@ -1,15 +1,15 @@
 anatomy:
   bony_landmarks:
-  - name: 'Calcaneal tuberosity {{"{#calcaneal-tuberosity}"}}'
+  - name: 'Calcaneal tuberosity <a id="calcaneal-tuberosity" href="#calcaneal-tuberosity"><small>#</small></a>'
     desc: >
       Posterior projection forming the heel; insertion for the
       Achilles tendon from {{ linktitle('gastrocnemius') }},
       {{ linktitle('soleus') }}, and {{ linktitle('plantaris') }}.
-  - name: 'Sustentaculum tali {{"{#sustentaculum-tali}"}}'
+  - name: 'Sustentaculum tali <a id="sustentaculum-tali" href="#sustentaculum-tali"><small>#</small></a>'
     desc: >
       Medial shelf supporting the talus and creating a groove for
       flexor hallucis longus.
-  - name: 'Peroneal tubercle {{"{#peroneal-tubercle}"}}'
+  - name: 'Peroneal tubercle <a id="peroneal-tubercle" href="#peroneal-tubercle"><small>#</small></a>'
     desc: >
       Lateral projection separating the tendons of fibularis longus
       and brevis.
