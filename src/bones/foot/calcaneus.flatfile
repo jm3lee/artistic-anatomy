@@ -32,9 +32,9 @@ name
 Calcaneal tuberosity
 muscles
 [
-'{{ linktitle(\"gastrocnemius\") }}'
-'{{ linktitle(\"soleus\") }}'
-'{{ linktitle(\"plantaris\") }}'
+{{ linktitle("gastrocnemius") }}
+{{ linktitle("soleus") }}
+{{ linktitle("plantaris") }}
 ]
 ]
 ]

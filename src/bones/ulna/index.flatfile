@@ -78,7 +78,7 @@ anatomy.insertions
 [
 muscles
 [
-'{{ linktitle(\"brc\") }}'
+{{ linktitle("brc") }}
 ]
 name
 Coronoid process and ulnar tuberosity
@@ -86,7 +86,7 @@ Coronoid process and ulnar tuberosity
 [
 muscles
 [
-'{{ linktitle(\"anc\") }}'
+{{ linktitle("anc") }}
 ]
 name
 Lateral olecranon

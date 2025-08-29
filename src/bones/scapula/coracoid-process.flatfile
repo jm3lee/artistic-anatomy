@@ -1,10 +1,10 @@
 anatomy.insertions
 [
-'{{ linktitle(\"pecmin\") }}'
+{{ linktitle("pecmin") }}
 ]
 anatomy.origins
 [
-'{{ linktitle(\"coracobrachialis\") }}'
+{{ linktitle("coracobrachialis") }}
 '{{ linktitle(\"bc\") }} (short head)'
 ]
 author

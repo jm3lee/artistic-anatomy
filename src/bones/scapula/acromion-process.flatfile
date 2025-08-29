@@ -5,13 +5,13 @@ name
 Acromion process
 muscles
 [
-'{{ linktitle(\"trz\") }}'
+{{ linktitle("trz") }}
 ]
 ]
 ]
 anatomy.origins
 [
-'{{ linktitle(\"dt\") }}'
+{{ linktitle("dt") }}
 ]
 author
 Brian Lee

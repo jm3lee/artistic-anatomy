@@ -88,9 +88,9 @@ anatomy.insertions
 [
 muscles
 [
-'{{ linktitle(\"infraspinatus\") }}'
-'{{ linktitle(\"supraspinatus\") }}'
-'{{ linktitle(\"teres-minor\") }}'
+{{ linktitle("infraspinatus") }}
+{{ linktitle("supraspinatus") }}
+{{ linktitle("teres-minor") }}
 ]
 name
 Greater Tubercle
@@ -98,7 +98,7 @@ Greater Tubercle
 [
 muscles
 [
-'{{ linktitle(\"subscp\") }}'
+{{ linktitle("subscp") }}
 ]
 name
 Lesser Tubercle
@@ -116,7 +116,7 @@ Intertubercular (Bicipital) Groove and Crests
 [
 muscles
 [
-'{{ linktitle(\"dt\") }}'
+{{ linktitle("dt") }}
 ]
 name
 Deltoid Tuberosity
@@ -124,7 +124,7 @@ Deltoid Tuberosity
 [
 muscles
 [
-'{{ linktitle(\"coracobrachialis\") }}'
+{{ linktitle("coracobrachialis") }}
 ]
 name
 Medial Shaft of Humerus
@@ -136,7 +136,7 @@ anatomy.origins
 muscles
 [
 '{{ linktitle(\"protrs\") }} (humeral head)'
-'{{ linktitle(\"fcr\") }}'
+{{ linktitle("fcr") }}
 Palmaris longus
 '{{ linktitle(\"fcu\") }} (humeral head)'
 Flexor digitorum superficialis (humeral head)
@@ -148,9 +148,9 @@ Medial epicondyle (common flexor origin)
 muscles
 [
 Extensor carpi radialis brevis
-'{{ linktitle(\"extensor-digitorum\") }}'
+{{ linktitle("extensor-digitorum") }}
 Extensor digiti minimi
-'{{ linktitle(\"extensor-carpi-ulnaris\") }}'
+{{ linktitle("extensor-carpi-ulnaris") }}
 Supinator
 ]
 name
@@ -159,7 +159,7 @@ Lateral epicondyle (common extensor origin)
 [
 muscles
 [
-'{{ linktitle(\"brr\") }}'
+{{ linktitle("brr") }}
 Extensor carpi radialis longus
 ]
 name
@@ -168,7 +168,7 @@ Lateral supracondylar ridge
 [
 muscles
 [
-'{{ linktitle(\"brc\") }}'
+{{ linktitle("brc") }}
 ]
 name
 Anterior shaft (distal half)

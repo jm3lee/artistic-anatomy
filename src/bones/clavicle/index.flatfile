@@ -77,8 +77,8 @@ name
 Medial clavicle
 muscles
 [
-'{{ linktitle(\"pecmaj\") }}'
-'{{ linktitle(\"scm\") }}'
+{{ linktitle("pecmaj") }}
+{{ linktitle("scm") }}
 ]
 ]
 [
@@ -86,8 +86,8 @@ name
 Deltoid tubercle
 muscles
 [
-'{{ linktitle(\"dt\") }}'
-'{{ linktitle(\"trz\") }}'
+{{ linktitle("dt") }}
+{{ linktitle("trz") }}
 ]
 ]
 ]

@@ -14,7 +14,7 @@ Tibial Tuberosity (via patellar ligament)
 [
 muscles
 [
-'{{ linktitle(\"sartorius\") }}'
+{{ linktitle("sartorius") }}
 Gracilis
 Semitendinosus
 ]
@@ -51,7 +51,7 @@ anatomy.origins
 [
 muscles
 [
-'{{ linktitle(\"tibialis-anterior\") }}'
+{{ linktitle("tibialis-anterior") }}
 '{{ linktitle(\"extensor-digitorum\") }} (also from proximal fibula)'
 ]
 name
