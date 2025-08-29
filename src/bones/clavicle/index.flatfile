@@ -12,22 +12,22 @@ title
 Clavicle
 breadcrumbs
 [
-[
+{
 title
 Home
 url
 /
-]
-[
+}
+{
 title
 Bones
 url
 /bones/
-]
-[
+}
+{
 title
 Clavicle
-]
+}
 ]
 url
 /bones/clavicle
@@ -37,42 +37,42 @@ The clavicle is a slender S-shaped bone connecting the sternum and scapula to br
 """
 anatomy.bony_landmarks
 [
-[
+{
 name
 Sternal end <a id="sternal-end" href="#sternal-end"><small>#</small></a>
 desc
 """
 Medial end that articulates with the sternum.
 """
-]
-[
+}
+{
 name
 Acromial end <a id="acromial-end" href="#acromial-end"><small>#</small></a>
 desc
 """
 Lateral end that articulates with the {{ linkicon('scapula') }} at the acromioclavicular joint.
 """
-]
-[
+}
+{
 name
 Shaft <a id="shaft" href="#shaft"><small>#</small></a>
 desc
 """
 The middle portion with a gentle S-curve.
 """
-]
-[
+}
+{
 name
 Deltoid tubercle <a id="deltoid-tubercle" href="#deltoid-tubercle"><small>#</small></a>
 desc
 """
 Rough area on the lateral third for attachment of the {{ linkicon('dt') }}.
 """
-]
+}
 ]
 anatomy.insertions
 [
-[
+{
 name
 Medial clavicle
 muscles
@@ -80,8 +80,8 @@ muscles
 {{ linktitle("pecmaj") }}
 {{ linktitle("scm") }}
 ]
-]
-[
+}
+{
 name
 Deltoid tubercle
 muscles
@@ -89,5 +89,5 @@ muscles
 {{ linktitle("dt") }}
 {{ linktitle("trz") }}
 ]
-]
+}
 ]

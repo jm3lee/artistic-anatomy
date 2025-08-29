@@ -1,6 +1,6 @@
 anatomy.insertions
 [
-[
+{
 muscles
 [
 Rectus femoris
@@ -10,8 +10,8 @@ Vastus intermedius
 ]
 name
 Tibial Tuberosity (via patellar ligament)
-]
-[
+}
+{
 muscles
 [
 {{ linktitle("sartorius") }}
@@ -20,35 +20,35 @@ Semitendinosus
 ]
 name
 Pes anserinus (anteromedial proximal tibia, distal to medial condyle)
-]
-[
+}
+{
 muscles
 [
 Semimembranosus
 ]
 name
 Medial condyle / posterior medial tibia
-]
-[
+}
+{
 muscles
 [
 Popliteus
 ]
 name
 Lateral condyle / posterior lateral tibia
-]
-[
+}
+{
 muscles
 [
 {{ linktitle("tibialis-anterior") }} (distally on medial cuneiform & base of 1st metatarsal)
 ]
 name
 Shaft (anteromedial surface, distal third)
-]
+}
 ]
 anatomy.origins
 [
-[
+{
 muscles
 [
 {{ linktitle("tibialis-anterior") }}
@@ -56,31 +56,31 @@ muscles
 ]
 name
 Lateral condyle & proximal lateral tibial shaft
-]
-[
+}
+{
 muscles
 [
 Soleus
 ]
 name
 Soleal line (posterior proximal tibia)
-]
-[
+}
+{
 muscles
 [
 Flexor digitorum longus
 ]
 name
 Posterior surface, inferior to soleal line (middle third)
-]
-[
+}
+{
 muscles
 [
 Tibialis posterior
 ]
 name
 Posterior surface & interosseous membrane (distal two-thirds)
-]
+}
 ]
 author
 Brian Lee
@@ -96,22 +96,22 @@ title
 Tibia
 breadcrumbs
 [
-[
+{
 title
 Home
 url
 /
-]
-[
+}
+{
 title
 Bones
 url
 /bones/
-]
-[
+}
+{
 title
 Tibia
-]
+}
 ]
 url
 /bones/tibia/

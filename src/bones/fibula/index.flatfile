@@ -12,22 +12,22 @@ title
 Fibula
 breadcrumbs
 [
-[
+{
 title
 Home
 url
 /
-]
-[
+}
+{
 title
 Bones
 url
 /bones/
-]
-[
+}
+{
 title
 Fibula
-]
+}
 ]
 url
 /bones/fibula/
@@ -38,31 +38,31 @@ forming the outer ankle while serving as an anchor for muscles.
 """
 anatomy.bony_landmarks
 [
-[
+{
 name
 Head <a id="head" href="#head"><small>#</small></a>
 desc
 """
 Rounded proximal end articulating with the {{ linkicon('tibia') }}.
 """
-]
-[
+}
+{
 name
 Neck <a id="neck" href="#neck"><small>#</small></a>
 desc
 """
 Narrow region just distal to the head.
 """
-]
-[
+}
+{
 name
 Shaft <a id="shaft" href="#shaft"><small>#</small></a>
 desc
 """
 Long, thin body of the bone.
 """
-]
-[
+}
+{
 name
 Lateral malleolus <a id="lateral-malleolus" href="#lateral-malleolus"><small>#</small></a>
 desc
@@ -70,11 +70,11 @@ desc
 Distal projection forming the outer ankle and attachment point for the
 fibular collateral ligament.
 """
-]
+}
 ]
 anatomy.origins
 [
-[
+{
 name
 Proximal lateral fibula
 muscles
@@ -82,25 +82,25 @@ muscles
 {{ linktitle("fibularis-longus") }}
 {{ linktitle("fibularis-brevis") }}
 ]
-]
-[
+}
+{
 name
 Posterior proximal fibula
 muscles
 [
 {{ linktitle("soleus") }}
 ]
-]
+}
 ]
 anatomy.insertions
 [
-[
+{
 name
 Head of fibula
 muscles
 [
 {{ linktitle("bfem") }}
 ]
-]
+}
 ]
 

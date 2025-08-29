@@ -1,33 +1,33 @@
 anatomy.bony_landmarks
 [
-[
+{
 name
 Calcaneal tuberosity <a id="calcaneal-tuberosity" href="#calcaneal-tuberosity"><small>#</small></a>
 desc
 """
 Posterior projection forming the heel; insertion for the Achilles tendon from {{ linktitle('gastrocnemius') }}, {{ linktitle('soleus') }}, and {{ linktitle('plantaris') }}.
 """
-]
-[
+}
+{
 name
 Sustentaculum tali <a id="sustentaculum-tali" href="#sustentaculum-tali"><small>#</small></a>
 desc
 """
 Medial shelf supporting the talus and creating a groove for flexor hallucis longus.
 """
-]
-[
+}
+{
 name
 Peroneal tubercle <a id="peroneal-tubercle" href="#peroneal-tubercle"><small>#</small></a>
 desc
 """
 Lateral projection separating the tendons of fibularis longus and brevis.
 """
-]
+}
 ]
 anatomy.insertions
 [
-[
+{
 name
 Calcaneal tuberosity
 muscles
@@ -36,11 +36,11 @@ muscles
 {{ linktitle("soleus") }}
 {{ linktitle("plantaris") }}
 ]
-]
+}
 ]
 anatomy.origins
 [
-[
+{
 name
 Medial process of calcaneal tuberosity
 muscles
@@ -49,8 +49,8 @@ Abductor hallucis
 Flexor digitorum brevis
 Quadratus plantae (medial head)
 ]
-]
-[
+}
+{
 name
 Lateral process of calcaneal tuberosity
 muscles
@@ -58,8 +58,8 @@ muscles
 Abductor digiti minimi
 Quadratus plantae (lateral head)
 ]
-]
-[
+}
+{
 name
 Superolateral surface
 muscles
@@ -67,7 +67,7 @@ muscles
 Extensor digitorum brevis
 Extensor hallucis brevis
 ]
-]
+}
 ]
 author
 Brian Lee
@@ -87,28 +87,28 @@ title
 Calcaneus
 breadcrumbs
 [
-[
+{
 title
 Home
 url
 /
-]
-[
+}
+{
 title
 Bones
 url
 /bones/
-]
-[
+}
+{
 title
 Foot
 url
 /bones/foot/
-]
-[
+}
+{
 title
 Calcaneus
-]
+}
 ]
 url
 /bones/foot/calcaneus/
