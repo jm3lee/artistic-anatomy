@@ -11,7 +11,7 @@
 
 {{ bony_landmarks("calcaneus") }}
 
-## Muscle Origins {{'{#origins}'}}
+## Muscle Origins <a id="origins" href="#origins"><small>#</small></a>
 
 {{ origins("calcaneus") }}
 
