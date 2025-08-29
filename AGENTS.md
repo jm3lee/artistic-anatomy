@@ -1,32 +1,38 @@
-## Codex
+## Codex guidelines
 
-- When asked to add content under src/, handle request as an expert fine artist
-  and an anatomist. Focus on educating beginners. Cross-link pages.
-  - use appropriate templates like templates/summary.jinja
-  - focus on superficial muscles. deep muscles aren't useful for our purposes.
-  - create headings only for the illustrations; do not add any figures
-    automatically
-  - use jinja macros to cross-link pages.
-- text formatting:
-  - use 80 char columns for paragraphs only
-- metadata management:
-  - write `description` in plain text
-  - use `-` instead of `_` in `id`
-  - prefer `-` instead of `_` in `url` when generating metadata
-  - When editing metadata yaml, follow these rules.
-    - prefer multi-line blocks (`|` or `<`) over long quoted strings
-    - ensure that strings are quoted correctly and parseable
-    - jinja macros must be quoted using a single quote. For example `'{{ linktitle("id") }}'`.
-- When editing math, always use `$` and `$$` instead of `\( \)` or `\[ \]`.
-- When editing markdown, escape single dollar signs used to mean "dollars."
-- When writing software documentation, write as an expert software engineer.
-  Give enough details to help new engineers on the team.
-- `pie` is a built-in Python module in press. This is available in
-  `press-release` docker image.
-  - Do not create any new code in pie unless explicitly instructed.
+These instructions apply to the entire repository. Consult them before
+editing or adding content.
 
-### Python Module pie
+### Content under `src/`
 
-`pie` is defined in the git submodule press.
+- Write as an expert fine artist and anatomist with beginners in mind.
+- Cross-link pages using Jinja macros.
+- Use templates such as `templates/summary.jinja`.
+- Focus on superficial muscles; deep muscles are out of scope.
+- For illustrations create headings only; do not auto insert figures.
 
-path press/app/shell/py/pie
+### Text formatting
+
+- Wrap paragraph text at 80 columns.
+- Escape single dollar signs when they represent currency.
+- For math, use `$` or `$$` delimiters, not `\\(` or `\\[`.
+
+### Metadata
+
+- Write `description` as plain text.
+- Use `-` instead of `_` in `id` and prefer `-` in generated `url`.
+- When editing YAML metadata:
+  - Favor multi-line blocks (`|` or `<`) over long quoted strings.
+  - Ensure all strings are quoted and parseable.
+  - Quote Jinja macros with single quotes, e.g. `'{{ linktitle("id") }}'`.
+
+### Software documentation
+
+- When documenting software, write as an expert engineer and provide
+  enough detail to help new team members.
+
+### Python module `pie`
+
+- `pie` lives in the `press` submodule at `press/app/shell/py/pie`.
+- It is available in the `press-release` Docker image.
+- Do not create new code in `pie` unless explicitly instructed.
