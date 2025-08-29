@@ -8,7 +8,7 @@ notes.
 
 - {{ linktitle('hc77') }}
 
-### 3D {{'{#3d}'}}
+### 3D <a id="3d" href="#3d"><small>#</small></a>
 
 3dtotal Publishing, ed. ***[Anatomy for Artists: A Visual Guide to the Human Form](https://a.co/d/65U9dkd)***. Worcester, UK: 3dtotal Publishing, 2021.
 
@@ -18,7 +18,7 @@ If you’re serious about mastering artistic anatomy, this book is your go-to re
 - Écorché (muscle-layer sketch) – reveals key muscle landmarks (the bumps and ridges that define each form)  
 - Contour drawing – traces the outline to sharpen your eye for edge and silhouette  
 
-### AA {{'{#aa}'}}
+### AA <a id="aa" href="#aa"><small>#</small></a>
 
 Richer, Paul. ***[Artistic Anatomy: The Great French Classic on Artistic Anatomy](richer/)***. Translated by Robert Beverly Hale. New York: Watson-Guptill, 1986.
 
@@ -26,7 +26,7 @@ Richer, Paul. ***[Artistic Anatomy: The Great French Classic on Artistic Anatomy
   * [eBook (djvu format)](https://commons.wikimedia.org/wiki/File:Richer_-_Anatomie_artistique,_2.djvu)
   * [Plates](https://commons.wikimedia.org/wiki/Category:Anatomie_artistique_\(Paul_Richer\))
 
-### GF {{'{#gf}'}}
+### GF <a id="gf" href="#gf"><small>#</small></a>
 
 Goldfinger, Eliot. ***[Human Anatomy for Artists: The Elements of Form](https://a.co/d/4zuYPTZ)***. New York: Oxford University Press, 1991. ISBN 978-0-19-505206-0.
 

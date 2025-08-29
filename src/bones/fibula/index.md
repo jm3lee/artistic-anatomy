@@ -39,7 +39,7 @@ muscle attachment and forms the outer part of the ankle joint.
 
 {{ bony_landmarks('fibula') }}
 
-## Muscle Origins {{'{#origins}'}}
+## Muscle Origins <a id="origins" href="#origins"><small>#</small></a>
 {{ origins('fibula') }}
 
 ## Muscle Insertions

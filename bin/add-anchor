@@ -1,1 +1,1 @@
-x-editor -p "add missing anchors for each bony landmark, use {{'{#...}'}} since this is a jinja2 template, show the full file" "$@"
+x-editor -p 'add missing anchors for each bony landmark, use <a id="..." href="#..."><small>#</small></a>, show the full file' "$@"

@@ -1,6 +1,6 @@
 anatomy:
   bony_landmarks:
-  - name: 'Greater trochanter {{"{#greater-trochanter}"}}'
+  - name: 'Greater trochanter <a id="greater-trochanter" href="#greater-trochanter"><small>#</small></a>'
     desc: >
       Large lateral projection of the proximal femur; attachment site for
       {{ linktitle('gmed') }}, {{ linktitle('gmin') }},
@@ -8,25 +8,25 @@ anatomy:
       {{ linktitle('obturator-externus') }},
       {{ linktitle('superior-gemellus') }}, and
       {{ linktitle('inferior-gemellus') }}.
-  - name: 'Lesser trochanter {{"{#lesser-trochanter}"}}'
+  - name: 'Lesser trochanter <a id="lesser-trochanter" href="#lesser-trochanter"><small>#</small></a>'
     desc: >
       Posteromedial conical eminence below the neck; insertion point for
       {{ linktitle('iliopsoas') }} (psoas major and iliacus).
-  - name: 'Intertrochanteric crest {{"{#intertrochanteric-crest}"}}'
+  - name: 'Intertrochanteric crest <a id="intertrochanteric-crest" href="#intertrochanteric-crest"><small>#</small></a>'
     desc: >
       Ridge connecting greater and lesser trochanters on the posterior femur;
       the quadrate tubercle on this crest is where
       {{ linktitle('quadratus-femoris') }} inserts.
-  - name: 'Gluteal tuberosity {{"{#gluteal-tuberosity}"}}'
+  - name: 'Gluteal tuberosity <a id="gluteal-tuberosity" href="#gluteal-tuberosity"><small>#</small></a>'
     desc: >
       Roughened area on the posterior shaft just distal to the greater
       trochanter; insertion site for {{ linktitle('gmax') }}.
-  - name: 'Pectineal line {{"{#pectineal-line}"}}'
+  - name: 'Pectineal line <a id="pectineal-line" href="#pectineal-line"><small>#</small></a>'
     desc: >
       Oblique ridge running from the lesser trochanter toward the
       {{ linktitle('linea-aspera') }}; attachment site for
       {{ linktitle('pectineus') }}.
-  - name: 'Linea aspera {{"{#linea-aspera}"}}'
+  - name: 'Linea aspera <a id="linea-aspera" href="#linea-aspera"><small>#</small></a>'
     desc: >
       Vertical ridge on the posterior shaft with medial and lateral lips;
       attachments for {{ linktitle('adductor-brevis') }},
@@ -34,15 +34,15 @@ anatomy:
       {{ linktitle('adductor-magnus') }}, and origins of
       {{ linktitle('vastus-lateralis') }} and
       {{ linktitle('vastus-medialis') }}.
-  - name: 'Adductor tubercle {{"{#adductor-tubercle}"}}'
+  - name: 'Adductor tubercle <a id="adductor-tubercle" href="#adductor-tubercle"><small>#</small></a>'
     desc: >
       Small elevation on the medial epicondyle; insertion site for the
       hamstring part of {{ linktitle('adductor-magnus') }}.
-  - name: 'Medial condyle {{"{#medial-condyle}"}}'
+  - name: 'Medial condyle <a id="medial-condyle" href="#medial-condyle"><small>#</small></a>'
     desc: >
       Distal medial articular prominence; origin site for
       {{ linktitle('gastrocnemius-medial-head') }}.
-  - name: 'Lateral condyle {{"{#lateral-condyle}"}}'
+  - name: 'Lateral condyle <a id="lateral-condyle" href="#lateral-condyle"><small>#</small></a>'
     desc: >
       Distal lateral articular prominence; origin site for
       {{ linktitle('gastrocnemius-lateral-head') }},
