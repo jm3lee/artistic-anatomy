@@ -1,6 +1,8 @@
 anatomy:
   insertions:
-  - '{{ linktitle("trz") }}'
+  - name: Acromion process
+    muscles:
+    - '{{ linktitle("trz") }}'
   origins:
   - '{{ linktitle("dt") }}'
 author: Brian Lee
