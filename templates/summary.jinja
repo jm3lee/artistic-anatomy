@@ -7,7 +7,7 @@
 {% macro def_list(label, items) %}
     <dt>{{ label }}</dt>
     {% for item in items %}
-        <dd>{{ render_jinja(item) }}</dd>
+        <dd>{{ item }}</dd>
     {% endfor %}
 {% endmacro %}
 
