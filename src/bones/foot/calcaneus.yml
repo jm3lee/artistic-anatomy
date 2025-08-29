@@ -19,6 +19,20 @@ anatomy:
     - '{{ linktitle("gastrocnemius") }}'
     - '{{ linktitle("soleus") }}'
     - '{{ linktitle("plantaris") }}'
+  origins:
+  - name: Medial process of calcaneal tuberosity
+    muscles:
+    - Abductor hallucis
+    - Flexor digitorum brevis
+    - Quadratus plantae (medial head)
+  - name: Lateral process of calcaneal tuberosity
+    muscles:
+    - Abductor digiti minimi
+    - Quadratus plantae (lateral head)
+  - name: Superolateral surface
+    muscles:
+    - Extensor digitorum brevis
+    - Extensor hallucis brevis
 author: Brian Lee
 description: >
   The calcaneus forms the heel and transmits weight from the leg to
