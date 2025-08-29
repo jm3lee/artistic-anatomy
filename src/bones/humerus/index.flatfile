@@ -1,38 +1,38 @@
 anatomy.bony_landmarks
 [
-[
+{
 name
 Head of the Humerus <a id="head_of_humerus" href="#head_of_humerus"><small>#</small></a>
 desc
 """
 The rounded, proximal articular surface that fits into the glenoid cavity of the {{ linktitle("scapula") }}, forming the glenohumeral (shoulder) joint.
 """
-]
-[
+}
+{
 name
 Anatomical Neck <a id="anatomical_neck" href="#anatomical_neck"><small>#</small></a>
 desc
 """
 The slight constriction immediately distal to the head, marking the site of the epiphyseal plate in development and serving as the attachment for the joint capsule.
 """
-]
-[
+}
+{
 name
 Surgical Neck <a id="surgical_neck" href="#surgical_neck"><small>#</small></a>
 desc
 """
 The narrower region distal to the tubercles; a common fracture site.
 """
-]
-[
+}
+{
 name
 Greater Tubercle <a id="greater_tubercle" href="#greater_tubercle"><small>#</small></a>
 desc
 """
 A large, lateral projection just distal to the head that provides attachment for the {{ linktitle("supraspinatus") }}, {{ linktitle("infraspinatus") }}, and {{ linktitle("teres-minor") }} muscles.
 """
-]
-[
+}
+{
 name
 """
 Radial (Spiral) Groove <a id="radial_spiral_groove" href="#radial_spiral_groove"><small>#</small></a>
@@ -41,51 +41,51 @@ desc
 """
 A shallow groove running obliquely down the posterior shaft, transmitting the radial nerve and deep brachial artery.
 """
-]
-[
+}
+{
 name
 Nutrient (Oblique) Foramen <a id="nutrient_foramen" href="#nutrient_foramen"><small>#</small></a>
 desc
 """
 A small opening on the anteromedial shaft that allows nutrient vessels to enter the bone.
 """
-]
-[
+}
+{
 name
 Medial Epicondyle <a id="medial_epicondyle" href="#medial_epicondyle"><small>#</small></a>
 desc
 """
 A prominent projection on the distal medial side, providing origin for the common flexor tendon (flexor-pronator muscles) and attachment of the ulnar collateral ligament of the elbow.
 """
-]
-[
+}
+{
 name
 Lateral Epicondyle <a id="lateral_epicondyle" href="#lateral_epicondyle"><small>#</small></a>
 desc
 """
 A smaller lateral projection that gives origin to the common extensor tendon (extensor-supinator muscles) and attachment for the radial collateral ligament.
 """
-]
-[
+}
+{
 name
 Capitulum <a id="capitulum" href="#capitulum"><small>#</small></a>
 desc
 """
 A rounded eminence on the anterior, distal lateral humerus that articulates with the head of the {{ linktitle("radius") }}.
 """
-]
-[
+}
+{
 name
 Trochlea <a id="trochlea" href="#trochlea"><small>#</small></a>
 desc
 """
 A spool-shaped medial projection on the anterior distal humerus that articulates with the trochlear notch of the {{ linktitle("ulna") }}.
 """
-]
+}
 ]
 anatomy.insertions
 [
-[
+{
 muscles
 [
 {{ linktitle("infraspinatus") }}
@@ -94,16 +94,16 @@ muscles
 ]
 name
 Greater Tubercle
-]
-[
+}
+{
 muscles
 [
 {{ linktitle("subscp") }}
 ]
 name
 Lesser Tubercle
-]
-[
+}
+{
 muscles
 [
 {{ linktitle("ld") }} – floor
@@ -112,27 +112,27 @@ muscles
 ]
 name
 Intertubercular (Bicipital) Groove and Crests
-]
-[
+}
+{
 muscles
 [
 {{ linktitle("dt") }}
 ]
 name
 Deltoid Tuberosity
-]
-[
+}
+{
 muscles
 [
 {{ linktitle("coracobrachialis") }}
 ]
 name
 Medial Shaft of Humerus
-]
+}
 ]
 anatomy.origins
 [
-[
+{
 muscles
 [
 {{ linktitle("protrs") }} (humeral head)
@@ -143,8 +143,8 @@ Flexor digitorum superficialis (humeral head)
 ]
 name
 Medial epicondyle (common flexor origin)
-]
-[
+}
+{
 muscles
 [
 Extensor carpi radialis brevis
@@ -155,8 +155,8 @@ Supinator
 ]
 name
 Lateral epicondyle (common extensor origin)
-]
-[
+}
+{
 muscles
 [
 {{ linktitle("brr") }}
@@ -164,31 +164,31 @@ Extensor carpi radialis longus
 ]
 name
 Lateral supracondylar ridge
-]
-[
+}
+{
 muscles
 [
 {{ linktitle("brc") }}
 ]
 name
 Anterior shaft (distal half)
-]
-[
+}
+{
 muscles
 [
 {{ linktitle("trc") }} (lateral and medial heads)
 ]
 name
 Posterior shaft (radial groove region)
-]
-[
+}
+{
 muscles
 [
 {{ linktitle("trc") }} (long head)
 ]
 name
 Infraglenoid Tubercle
-]
+}
 ]
 author
 Brian Lee
@@ -240,22 +240,22 @@ translations.russian.Radial (Spiral) Groove
 спиральная борозда
 breadcrumbs
 [
-[
+{
 title
 Home
 url
 /
-]
-[
+}
+{
 title
 Bones
 url
 /bones/
-]
-[
+}
+{
 title
 Humerus
-]
+}
 ]
 url
 /bones/humerus/
