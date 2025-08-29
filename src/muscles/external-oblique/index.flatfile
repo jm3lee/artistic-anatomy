@@ -1,4 +1,5 @@
 anatomy
+{
 actions
 [
 Compresses abdominal contents; flexes and rotates trunk (contralateral rotation)
@@ -13,6 +14,7 @@ origins
 [
 External surfaces of ribs 5–12
 ]
+}
 author
 Brian Lee
 icon
@@ -20,7 +22,7 @@ icon
 id
 external-oblique
 pubdate
-Aug 27, 2025
+Aug 29, 2025
 status
 Review Pending
 tags

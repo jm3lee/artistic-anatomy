@@ -1,4 +1,5 @@
 anatomy
+{
 actions
 [
 Assists triceps brachii in elbow extension
@@ -13,6 +14,7 @@ origins
 [
 Posterior aspect of lateral epicondyle of the {{ linkicon("humerus") }}
 ]
+}
 author
 Brian Lee
 icon
@@ -20,7 +22,7 @@ icon
 id
 anc
 pubdate
-Aug 27, 2025
+Aug 29, 2025
 status
 Reviewed
 title

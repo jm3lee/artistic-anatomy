@@ -1,4 +1,5 @@
 anatomy
+{
 actions
 [
 Extends the shoulder
@@ -15,6 +16,7 @@ Posterior surface of inferior angle of {{ linkicon("scapula") }}
 Lower one third of lateral border of {{ linkicon("scapula") }}
 Blends with the deep surface of latissimus dorsi via the thoracolumbar fascia
 ]
+}
 author
 Brian Lee
 icon
@@ -22,7 +24,7 @@ icon
 id
 teres-major
 pubdate
-Aug 27, 2025
+Aug 29, 2025
 status
 Review Pending
 title

@@ -1,4 +1,5 @@
 anatomy
+{
 actions
 [
 {{ linkcap("scapular-protraction") }} (pulls scapula forward and downward).
@@ -13,6 +14,7 @@ origins
 [
 Anterior surfaces of the 3rd to 5th ribs near their costal cartilages.
 ]
+}
 author
 Brian Lee
 icon
@@ -20,7 +22,7 @@ icon
 id
 pecmin
 pubdate
-Aug 27, 2025
+Aug 29, 2025
 status
 Reviewed
 tags
@@ -46,7 +48,7 @@ url
 {
 title
 Pectoralis Minor
-}
-]
 url
 /muscles/pectoralis-minor/
+}
+]
