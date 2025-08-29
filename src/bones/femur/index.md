@@ -1,3 +1,7 @@
+---
+author: Brian Lee
+pubdate: Aug 29, 2025
+---
 :robot:
 {% from "templates/translations.jinja" import translations %}
 {% from "templates/insertions.jinja" import insertions %}
@@ -26,7 +30,7 @@
 
 {{ insertions('femur') }}
 
-## Muscle Origins <a id="origins" href="#origins"><small>#</small></a>
+<h2>Muscle Origins <a id="origins" href="#origins"><small>#</small></a></h2>
 
 {{ origins('femur') }}
 
