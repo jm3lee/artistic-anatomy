@@ -63,7 +63,7 @@ build/bones/fibula/index.flatfile: src/bones/fibula/index.flatfile
 
 build/bones/fibula/index.yaml: build/bones/fibula/index.flatfile
 	mkdir -p $(dir $@)
-	flatfile -y $< > $@
+	flatfile-to-yml $< $@
 
 BONES_YAMLS := $(shell find src/bones -name '*.yml' -o -name '*.flatfile')
 BACKGROUND_YAMLS := $(shell find src/background -name '*.yml')
