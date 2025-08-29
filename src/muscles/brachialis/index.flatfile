@@ -1,0 +1,45 @@
+anatomy
+actions
+[
+Flexion of the elbow joint
+]
+insertions
+[
+{{ linkcap("ulnar-tuberosity") }} of ulna
+{{ linkcap("coronoid-process") }} of ulna
+]
+origins
+[
+Distal half of anterior surface of the {{ linkicon("humerus") }}
+]
+author
+Brian Lee
+icon
+:muscle:
+id
+brc
+pubdate
+Aug 27, 2025
+status
+Review Pending
+title
+Brachialis
+breadcrumbs
+[
+{
+title
+Home
+url
+/
+}
+{
+title
+Muscles
+url
+/muscles/
+}
+{
+title
+Brachialis
+}
+]

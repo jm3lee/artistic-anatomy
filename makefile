@@ -80,8 +80,9 @@ VPATH := $(SRC_DIR)
 
 # Find all Markdown files excluding specified directories
 MARKDOWNS := $(shell find $(SRC_DIR)/ -name '*.md')
-YAMLS := $(shell find $(SRC_DIR) -name "*.yml")
-BUILD_YAMLS := $(patsubst $(SRC_DIR)/%,$(BUILD_DIR)/%,$(YAMLS))
+YAMLS := $(shell find $(SRC_DIR) -name '*.yml' -o -name '*.flatfile')
+BUILD_YAMLS := $(patsubst $(SRC_DIR)/%.yml,$(BUILD_DIR)/%.yml,$(filter %.yml,$(YAMLS))) \
+               $(patsubst $(SRC_DIR)/%.flatfile,$(BUILD_DIR)/%.yml,$(filter %.flatfile,$(YAMLS)))
 
 # Define the corresponding HTML and PDF output files
 HTMLS := $(patsubst $(SRC_DIR)/%.md, $(BUILD_DIR)/%.html, $(MARKDOWNS))
