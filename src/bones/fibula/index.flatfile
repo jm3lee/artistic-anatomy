@@ -40,7 +40,7 @@ anatomy.bony_landmarks
 [
 [
 name
-Head {{ "{#head}" }}
+Head <a id="head" href="#head"><small>#</small></a>
 desc
 """
 Rounded proximal end articulating with the {{ linkicon('tibia') }}.
@@ -48,7 +48,7 @@ Rounded proximal end articulating with the {{ linkicon('tibia') }}.
 ]
 [
 name
-Neck {{ "{#neck}" }}
+Neck <a id="neck" href="#neck"><small>#</small></a>
 desc
 """
 Narrow region just distal to the head.
@@ -56,7 +56,7 @@ Narrow region just distal to the head.
 ]
 [
 name
-Shaft {{ "{#shaft}" }}
+Shaft <a id="shaft" href="#shaft"><small>#</small></a>
 desc
 """
 Long, thin body of the bone.
@@ -64,7 +64,7 @@ Long, thin body of the bone.
 ]
 [
 name
-Lateral malleolus {{ "{#lateral-malleolus}" }}
+Lateral malleolus <a id="lateral-malleolus" href="#lateral-malleolus"><small>#</small></a>
 desc
 """
 Distal projection forming the outer ankle and attachment point for the
