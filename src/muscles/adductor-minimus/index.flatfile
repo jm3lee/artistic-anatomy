@@ -1,0 +1,49 @@
+anatomy
+actions
+[
+Thigh {{ linkicon("adduction") }}
+Lateral rotation of the thigh
+]
+insertions
+[
+Upper linea aspera of {{ linkicon("femur") }}
+]
+origins
+[
+Inferior pubic ramus of {{ linkicon("pelvis") }}
+]
+author
+Brian Lee
+description
+Upper portion of adductor magnus aiding thigh adduction.
+icon
+:muscle:
+id
+adductor-minimus
+pubdate
+Aug 27, 2025
+status
+Review Pending
+title
+Adductor Minimus
+breadcrumbs
+[
+{
+title
+Home
+url
+/
+}
+{
+title
+Muscles
+url
+/muscles/
+}
+{
+title
+Adductor Minimus
+}
+]
+url
+/muscles/adductor-minimus/

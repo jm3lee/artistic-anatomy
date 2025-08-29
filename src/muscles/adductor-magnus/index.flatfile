@@ -1,0 +1,49 @@
+anatomy
+actions
+[
+Thigh {{ linkicon("adduction") }}
+Assists hip {{ linkicon("extension") }}
+]
+insertions
+[
+Linea aspera and adductor tubercle of {{ linkicon("femur") }}
+]
+origins
+[
+Inferior ramus of {{ linkicon("pelvis") }} and ischial tuberosity
+]
+author
+Brian Lee
+description
+Broad triangular thigh muscle that adducts and extends the femur.
+icon
+:muscle:
+id
+adductor-magnus
+pubdate
+Aug 27, 2025
+status
+Review Pending
+title
+Adductor Magnus
+breadcrumbs
+[
+{
+title
+Home
+url
+/
+}
+{
+title
+Muscles
+url
+/muscles/
+}
+{
+title
+Adductor Magnus
+}
+]
+url
+/muscles/adductor-magnus/

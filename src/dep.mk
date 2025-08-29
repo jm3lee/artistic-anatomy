@@ -61,16 +61,16 @@ build/%.yml: src/%.flatfile
 	flatfile-to-yml $< $@
 
 BONES_YAMLS := $(shell find src/bones -name '*.flatfile')
-BACKGROUND_YAMLS := $(shell find src/background -name '*.yml')
-HEAD_YAMLS := $(shell find src/head -name '*.yml')
+BACKGROUND_YAMLS := $(shell find src/background -name '*.flatfile' -o -name '*.yml')
+HEAD_YAMLS := $(shell find src/head -name '*.flatfile' -o -name '*.yml')
 JOINT_YAMLS := $(shell find src -name '*.flatfile' -o -name '*.yml')
-MUSCLE_YAMLS := $(shell find src/muscles -name '*.yml')
+MUSCLE_YAMLS := $(shell find src/muscles -name '*.flatfile' -o -name '*.yml')
 TENDON_YAMLS := $(shell find src -name '*.flatfile' -o -name '*.yml')
 LANDMARK_YAMLS := $(shell find src -name '*.flatfile' -o -name '*.yml')
 TORSO_YAMLS := $(shell find src -name '*.flatfile' -o -name '*.yml')
-MOVEMENT_YAMLS := $(shell find src/movements -name '*.yml')
-APPENDIX_YAMLS := $(shell find src/appendix -name '*.yml')
-RESOURCE_YAMLS := $(shell find src/resources -name '*.yml')
+MOVEMENT_YAMLS := $(shell find src/movements -name '*.flatfile' -o -name '*.yml')
+APPENDIX_YAMLS := $(shell find src/appendix -name '*.flatfile' -o -name '*.yml')
+RESOURCE_YAMLS := $(shell find src/resources -name '*.flatfile' -o -name '*.yml')
 
 build/static/index/background-indextree.json: $(BACKGROUND_YAMLS) | build/static/index
 	indextree-json src/background > $@
@@ -121,4 +121,4 @@ build/toc.html: \
 build/static/index:
 	mkdir -p $@
 
-V2_YAMLS = $(shell find src/v2 -name '*.yml')
+V2_YAMLS = $(shell find src/v2 -name '*.flatfile' -o -name '*.yml')

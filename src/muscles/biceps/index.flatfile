@@ -1,0 +1,57 @@
+anatomy
+actions
+[
+Elbow flexion
+Supinates the forearm
+Flexes the shoulder
+]
+insertions
+[
+{{ linkcap("radial-tuberosity") }} of {{ linkicon("radius") }}
+Bicipital aponeurosis
+]
+origins
+[
+Short head: Coracoid process of the {{ linkicon("scapula") }}
+Long head: Supraglenoid tubercle of the {{ linkicon("scapula") }}
+]
+author
+Brian Lee
+icon
+:muscle:
+id
+bc
+pubdate
+Aug 27, 2025
+status
+Reviewed
+tags
+[
+supination
+]
+title
+Biceps
+breadcrumbs
+[
+{
+title
+Home
+url
+/
+}
+{
+title
+Muscles
+url
+/muscles/
+}
+{
+title
+Biceps
+}
+]
+translations
+french
+biceps brachial
+russian
+двуглавая мышца плеча

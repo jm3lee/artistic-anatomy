@@ -1,0 +1,25 @@
+author
+Brian Lee
+description
+Reviews and notes on anatomy books for artists. For online resources, visit [Resources](/resources/).
+id
+books
+status
+Review Pending
+title
+Books
+breadcrumbs
+[
+{
+title
+Home
+url
+/
+}
+{
+title
+Books
+}
+]
+url
+/books/

@@ -1,0 +1,56 @@
+anatomy
+actions
+[
+Everts the foot
+Plantarflexes the ankle
+Supports the arch with {{ linktitle("tibialis-anterior") }}
+]
+insertions
+[
+Medial cuneiform
+Base of the first metatarsal
+]
+origins
+[
+Head and upper lateral surface of {{ linkicon("fibula") }}
+]
+author
+Brian Lee
+icon
+:muscle:
+id
+fibularis-longus
+pubdate
+Aug 28, 2025
+status
+Review Pending
+title
+Fibularis Longus
+description
+Overview of Fibularis Longus.
+url
+/muscles/fibularis-longus/
+breadcrumbs
+[
+{
+title
+Home
+url
+/
+}
+{
+title
+Muscles
+url
+/muscles/
+}
+{
+title
+Fibularis Longus
+}
+]
+translations
+french
+long fibulaire
+russian
+длинная малоберцовая мышца
