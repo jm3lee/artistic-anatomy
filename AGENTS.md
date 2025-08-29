@@ -6,6 +6,7 @@
   - focus on superficial muscles. deep muscles aren't useful for our purposes.
   - create headings only for the illustrations; do not add any figures
     automatically
+  - use jinja macros to cross-link pages.
 - text formatting:
   - use 80 char columns for paragraphs only
 - metadata management:
