@@ -1,0 +1,233 @@
+anatomy.bony_landmarks
+[
+[
+name
+Greater trochanter <a id="greater-trochanter" href="#greater-trochanter"><small>#</small></a>
+desc
+"""
+Large lateral projection of the proximal femur; attachment site for {{ linktitle('gmed') }}, {{ linktitle('gmin') }}, {{ linktitle('piriformis') }}, {{ linktitle('obturator-internus') }}, {{ linktitle('obturator-externus') }}, {{ linktitle('superior-gemellus') }}, and {{ linktitle('inferior-gemellus') }}.
+"""
+]
+[
+name
+Lesser trochanter <a id="lesser-trochanter" href="#lesser-trochanter"><small>#</small></a>
+desc
+"""
+Posteromedial conical eminence below the neck; insertion point for {{ linktitle('iliopsoas') }} (psoas major and iliacus).
+"""
+]
+[
+name
+Intertrochanteric crest <a id="intertrochanteric-crest" href="#intertrochanteric-crest"><small>#</small></a>
+desc
+"""
+Ridge connecting greater and lesser trochanters on the posterior femur; the quadrate tubercle on this crest is where {{ linktitle('quadratus-femoris') }} inserts.
+"""
+]
+[
+name
+Gluteal tuberosity <a id="gluteal-tuberosity" href="#gluteal-tuberosity"><small>#</small></a>
+desc
+"""
+Roughened area on the posterior shaft just distal to the greater trochanter; insertion site for {{ linktitle('gmax') }}.
+"""
+]
+[
+name
+Pectineal line <a id="pectineal-line" href="#pectineal-line"><small>#</small></a>
+desc
+"""
+Oblique ridge running from the lesser trochanter toward the {{ linktitle('linea-aspera') }}; attachment site for {{ linktitle('pectineus') }}.
+"""
+]
+[
+name
+Linea aspera <a id="linea-aspera" href="#linea-aspera"><small>#</small></a>
+desc
+"""
+Vertical ridge on the posterior shaft with medial and lateral lips; attachments for {{ linktitle('adductor-brevis') }}, {{ linktitle('adductor-longus') }}, the adductor part of {{ linktitle('adductor-magnus') }}, and origins of {{ linktitle('vastus-lateralis') }} and {{ linktitle('vastus-medialis') }}.
+"""
+]
+[
+name
+Adductor tubercle <a id="adductor-tubercle" href="#adductor-tubercle"><small>#</small></a>
+desc
+"""
+Small elevation on the medial epicondyle; insertion site for the hamstring part of {{ linktitle('adductor-magnus') }}.
+"""
+]
+[
+name
+Medial condyle <a id="medial-condyle" href="#medial-condyle"><small>#</small></a>
+desc
+"""
+Distal medial articular prominence; origin site for {{ linktitle('gastrocnemius-medial-head') }}.
+"""
+]
+[
+name
+Lateral condyle <a id="lateral-condyle" href="#lateral-condyle"><small>#</small></a>
+desc
+"""
+Distal lateral articular prominence; origin site for {{ linktitle('gastrocnemius-lateral-head') }}, {{ linktitle('popliteus') }}, and {{ linktitle('plantaris') }}.
+"""
+]
+]
+anatomy.insertions
+[
+[
+muscles
+[
+'{{ linktitle(\"gmed\") }}'
+'{{ linktitle(\"gmin\") }}'
+'{{ linktitle(\"piriformis\") }}'
+'{{ linktitle(\"obturator-internus\") }}'
+'{{ linktitle(\"obturator-externus\") }}'
+'{{ linktitle(\"superior-gemellus\") }}'
+'{{ linktitle(\"inferior-gemellus\") }}'
+]
+name
+Greater trochanter
+]
+[
+muscles
+[
+'{{ linktitle(\"gmax\") }}'
+]
+name
+Gluteal tuberosity
+]
+[
+muscles
+[
+'{{ linktitle(\"iliopsoas\") }}'
+]
+name
+Lesser trochanter
+]
+[
+muscles
+[
+'{{ linktitle(\"quadratus-femoris\") }}'
+]
+name
+Intertrochanteric crest
+]
+[
+muscles
+[
+'{{ linktitle(\"pectineus\") }}'
+]
+name
+Pectineal line
+]
+[
+muscles
+[
+'{{ linktitle(\"adductor-brevis\") }}'
+'{{ linktitle(\"adductor-longus\") }}'
+'{{ linktitle(\"adductor-magnus\") }}'
+'{{ linktitle(\"biceps-femoris-short-head\") }}'
+]
+name
+Linea aspera
+]
+[
+muscles
+[
+'{{ linktitle(\"adductor-magnus\") }}'
+]
+name
+Adductor tubercle
+]
+]
+anatomy.origins
+[
+[
+muscles
+[
+'{{ linktitle(\"vastus-lateralis\") }}'
+]
+name
+Greater trochanter and lateral linea aspera
+]
+[
+muscles
+[
+'{{ linktitle(\"vastus-medialis\") }}'
+]
+name
+Intertrochanteric line and medial linea aspera
+]
+[
+muscles
+[
+'{{ linktitle(\"vastus-intermedius\") }}'
+]
+name
+Anterior and lateral shaft of femur
+]
+[
+muscles
+[
+'{{ linktitle(\"biceps-femoris-short-head\") }}'
+]
+name
+Linea aspera (lateral lip)
+]
+[
+muscles
+[
+'{{ linktitle(\"gastrocnemius-medial-head\") }}'
+]
+name
+Medial condyle of femur
+]
+[
+muscles
+[
+'{{ linktitle(\"gastrocnemius-lateral-head\") }}'
+'{{ linktitle(\"popliteus\") }}'
+'{{ linktitle(\"plantaris\") }} (origin just above lateral condyle)'
+]
+name
+Lateral condyle of femur
+]
+]
+author
+Brian Lee
+description
+"""
+The femur is the thigh bone and the body's longest, strongest bone connecting the hip and knee joints.
+"""
+icon
+:bone:
+id
+femur
+pubdate
+Aug 27, 2025
+status
+Review Pending
+title
+Femur
+breadcrumbs
+[
+[
+title
+Home
+url
+/
+]
+[
+title
+Bones
+url
+/bones/
+]
+[
+title
+Femur
+]
+]
+url
+/bones/femur/

@@ -56,18 +56,18 @@ build/%.json: %.json
 
 build/keyterms/index.md: build/keyterms/index.json
 
-build/bones/fibula/index.yml: src/bones/fibula/index.flatfile
+build/%.yml: src/%.flatfile
 	mkdir -p $(dir $@)
 	flatfile-to-yml $< $@
 
-BONES_YAMLS := $(shell find src/bones -name '*.yml')
+BONES_YAMLS := $(shell find src/bones -name '*.flatfile')
 BACKGROUND_YAMLS := $(shell find src/background -name '*.yml')
 HEAD_YAMLS := $(shell find src/head -name '*.yml')
-JOINT_YAMLS := $(shell find src -name '*.yml')
+JOINT_YAMLS := $(shell find src -name '*.flatfile' -o -name '*.yml')
 MUSCLE_YAMLS := $(shell find src/muscles -name '*.yml')
-TENDON_YAMLS := $(shell find src -name '*.yml')
-LANDMARK_YAMLS := $(shell find src -name '*.yml')
-TORSO_YAMLS := $(shell find src -name '*.yml')
+TENDON_YAMLS := $(shell find src -name '*.flatfile' -o -name '*.yml')
+LANDMARK_YAMLS := $(shell find src -name '*.flatfile' -o -name '*.yml')
+TORSO_YAMLS := $(shell find src -name '*.flatfile' -o -name '*.yml')
 MOVEMENT_YAMLS := $(shell find src/movements -name '*.yml')
 APPENDIX_YAMLS := $(shell find src/appendix -name '*.yml')
 RESOURCE_YAMLS := $(shell find src/resources -name '*.yml')

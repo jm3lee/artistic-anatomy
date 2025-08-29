@@ -1,0 +1,131 @@
+author
+Brian Lee
+icon
+:bone:
+id
+radius
+pubdate
+Aug 25, 2025
+status
+Review Pending
+title
+Radius
+breadcrumbs
+[
+[
+title
+Home
+url
+/
+]
+[
+title
+Bones
+url
+/bones/
+]
+[
+title
+Radius
+]
+]
+url
+/bones/radius/
+description
+"""
+The radius is the lateral forearm bone that pivots around the ulna to enable pronation and supination.
+"""
+anatomy.bony_landmarks
+[
+[
+name
+Head <a id="head" href="#head"><small>#</small></a>
+desc
+"""
+Disc-shaped proximal epiphysis that articulates with the humerus and ulna.
+"""
+]
+[
+name
+Neck <a id="neck" href="#neck"><small>#</small></a>
+desc
+"""
+Narrow region just distal to the head and a common fracture site.
+"""
+]
+[
+name
+Radial tuberosity <a id="radial-tuberosity" href="#radial-tuberosity"><small>#</small></a>
+desc
+"""
+Rough anterior projection where {{ linkicon('bc') }} inserts.
+"""
+]
+[
+name
+Interosseous border <a id="interosseous-border" href="#interosseous-border"><small>#</small></a>
+desc
+"""
+Sharp {{ link('medial') }} edge along the shaft for interosseous membrane attachment.
+"""
+]
+[
+name
+Ulnar notch <a id="ulnar-notch" href="#ulnar-notch"><small>#</small></a>
+desc
+"""
+Distal {{ link('medial') }} concavity articulating with the head of the {{ linkicon('ulna') }}.
+"""
+]
+[
+name
+Dorsal tubercle <a id="dorsal-tubercle" href="#dorsal-tubercle"><small>#</small></a>
+desc
+"""
+Posterior distal bump, also called Lister's tubercle, guiding extensor pollicis longus.
+"""
+]
+[
+name
+Styloid process <a id="styloid-process" href="#styloid-process"><small>#</small></a>
+desc
+"""
+Pointed distal projection anchoring the radial collateral ligament and {{ linkicon('brr') }}.
+"""
+]
+]
+anatomy.insertions
+[
+[
+name
+Radial tuberosity and bicipital aponeurosis
+muscles
+[
+'{{ linktitle(\"bc\") }}'
+]
+]
+[
+name
+Lateral surface (midshaft)
+muscles
+[
+'{{ linktitle(\"protrs\") }}'
+]
+]
+[
+name
+Proximal lateral radius
+muscles
+[
+'{{ linktitle(\"supinator\") }}'
+]
+]
+[
+name
+Styloid process of radius
+muscles
+[
+'{{ linktitle(\"brr\") }}'
+]
+]
+]

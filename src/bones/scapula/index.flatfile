@@ -1,0 +1,144 @@
+anatomy.bony_landmarks
+[
+[
+desc
+"""
+Prominent ridge on the {{ link("posterior") }} surface separating the supraspinous and infraspinous fossae and ending laterally at the acromion.
+"""
+name
+Spine <a id="spine" href="#spine"><small>#</small></a>
+]
+[
+desc
+"""
+Flat projection at the {{ link("lateral") }} end of the spine that articulates with the {{ linkicon("clavicle") }}.
+"""
+name
+Acromion process <a id="acromion-process" href="#acromion-process"><small>#</small></a>
+]
+[
+desc
+"""
+Hook-like {{ link("anterior") }} projection providing attachments for {{ linkicon("pecmin") }}, coracobrachialis, and the short head of {{ linktitle("bc") }}.
+"""
+name
+Coracoid process <a id="coracoid-process" href="#coracoid-process"><small>#</small></a>
+]
+[
+desc
+"""
+Shallow socket that receives the head of the {{ linkicon("humerus") }} to form the glenohumeral joint.
+"""
+name
+Glenoid cavity <a id="glenoid-cavity" href="#glenoid-cavity"><small>#</small></a>
+]
+[
+desc
+"""
+Smooth concavity above the spine housing the supraspinatus.
+"""
+name
+Supraspinous fossa <a id="supraspinous-fossa" href="#supraspinous-fossa"><small>#</small></a>
+]
+[
+desc
+"""
+Broad surface below the spine that lodges the infraspinatus.
+"""
+name
+Infraspinous fossa <a id="infraspinous-fossa" href="#infraspinous-fossa"><small>#</small></a>
+]
+[
+desc
+"""
+Wide {{ link("anterior") }} depression serving as attachment for the subscapularis.
+"""
+name
+Subscapular fossa <a id="subscapular-fossa" href="#subscapular-fossa"><small>#</small></a>
+]
+[
+desc
+"""
+Long edge nearest the spine; attachment for rhomboids and part of the serratus anterior.
+"""
+name
+Medial border <a id="medial-border" href="#medial-border"><small>#</small></a>
+]
+[
+desc
+"""
+Edge closest to the axilla providing attachment for teres major and teres minor.
+"""
+name
+Lateral border <a id="lateral-border" href="#lateral-border"><small>#</small></a>
+]
+[
+desc
+"""
+Shortest border near the neck containing the suprascapular notch for passage of the suprascapular nerve.
+"""
+name
+Superior border <a id="superior-border" href="#superior-border"><small>#</small></a>
+]
+[
+desc
+"""
+Lower tip where medial and lateral borders meet; attachment for teres major.
+"""
+name
+Inferior angle <a id="inferior-angle" href="#inferior-angle"><small>#</small></a>
+]
+[
+desc
+"""
+Upper tip joining the superior and medial borders; attachment for part of the levator scapulae.
+"""
+name
+Superior angle <a id="superior-angle" href="#superior-angle"><small>#</small></a>
+]
+[
+desc
+"""
+Small notch on the {{ link("superior") }} border transmitting the suprascapular nerve beneath the superior transverse ligament.
+"""
+name
+Suprascapular notch <a id="suprascapular-notch" href="#suprascapular-notch"><small>#</small></a>
+]
+]
+author
+Brian Lee
+description
+"""
+The scapula is a triangular shoulder blade that glides on the rib cage to position the arm and offers many muscle attachment sites.
+"""
+icon
+:bone:
+id
+scapula
+pubdate
+Aug 28, 2025
+status
+Pending Review
+title
+Scapula
+breadcrumbs
+[
+[
+title
+Home
+url
+/
+]
+[
+title
+Bones
+url
+/bones/
+]
+[
+title
+Scapula
+]
+]
+url
+/bones/scapula/
