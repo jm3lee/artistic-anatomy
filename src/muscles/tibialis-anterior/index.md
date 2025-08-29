@@ -2,7 +2,7 @@
 {% from "templates/translations.jinja" import translations %}
 {% from "templates/figure.jinja" import figure %}
 
-{{summary("tiba")}}
+{{summary("tibialis-anterior")}}
 
 ## Illustrations
 
@@ -18,7 +18,7 @@
     width=512
 ) }}
 
-{{translations('tiba')}}
+{{translations('tibialis-anterior')}}
 
 ## References
 

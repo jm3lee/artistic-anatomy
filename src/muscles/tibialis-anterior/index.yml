@@ -2,6 +2,7 @@ anatomy:
   actions:
   - Inverts the foot
   - Dorsiflexes the ankle
+  - 'Supports the arch with {{ linktitle("fibularis-longus") }}'
   - 'Walk cycle: controls heel-to-toe movement'
   insertions:
   - Medial cuneiform
@@ -12,10 +13,12 @@ anatomy:
   - Interosseous membrane
 author: Brian Lee
 icon: ':muscle:'
-id: tiba
+id: tibialis-anterior
 pubdate: Aug 27, 2025
 status: Reviewed
 title: Tibialis Anterior
+description: Overview of Tibialis Anterior.
+url: /muscles/tibialis-anterior/
 breadcrumbs:
   - title: Home
     url: /
@@ -27,4 +30,3 @@ translations:
   russian: "\u041F\u0435\u0440\u0435\u0434\u043D\u044F\u044F \u0431\u043E\u043B\u044C\
     \u0448\u0435\u0431\u0435\u0440\u0446\u043E\u0432\u0430\u044F \u043C\u044B\u0448\
     \u0446\u0430"
-url: /muscles/tibialis-anterior/

@@ -18,11 +18,11 @@ anatomy:
     - Popliteus
     name: Lateral condyle / posterior lateral tibia
   - muscles:
-    - '{{ linktitle("tiba") }} (distally on medial cuneiform & base of 1st metatarsal)'
+    - '{{ linktitle("tibialis-anterior") }} (distally on medial cuneiform & base of 1st metatarsal)'
     name: Shaft (anteromedial surface, distal third)
   origins:
   - muscles:
-    - '{{ linktitle("tiba") }}'
+    - '{{ linktitle("tibialis-anterior") }}'
     - '{{ linktitle("extensor-digitorum") }} (also from proximal fibula)'
     name: Lateral condyle & proximal lateral tibial shaft
   - muscles:
