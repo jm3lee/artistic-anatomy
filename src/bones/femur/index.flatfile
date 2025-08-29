@@ -188,7 +188,7 @@ muscles
 [
 {{ linktitle("gastrocnemius-lateral-head") }}
 {{ linktitle("popliteus") }}
-'{{ linktitle(\"plantaris\") }} (origin just above lateral condyle)'
+{{ linktitle("plantaris") }} (origin just above lateral condyle)
 ]
 name
 Lateral condyle of femur

@@ -106,9 +106,9 @@ Lesser Tubercle
 [
 muscles
 [
-'{{ linktitle(\"ld\") }} – floor'
-'{{ linktitle(\"pecmaj\") }} – lateral lip'
-'{{ linktitle(\"teres-major\") }} – medial lip'
+{{ linktitle("ld") }} – floor
+{{ linktitle("pecmaj") }} – lateral lip
+{{ linktitle("teres-major") }} – medial lip
 ]
 name
 Intertubercular (Bicipital) Groove and Crests
@@ -135,10 +135,10 @@ anatomy.origins
 [
 muscles
 [
-'{{ linktitle(\"protrs\") }} (humeral head)'
+{{ linktitle("protrs") }} (humeral head)
 {{ linktitle("fcr") }}
 Palmaris longus
-'{{ linktitle(\"fcu\") }} (humeral head)'
+{{ linktitle("fcu") }} (humeral head)
 Flexor digitorum superficialis (humeral head)
 ]
 name
@@ -176,7 +176,7 @@ Anterior shaft (distal half)
 [
 muscles
 [
-'{{ linktitle(\"trc\") }} (lateral and medial heads)'
+{{ linktitle("trc") }} (lateral and medial heads)
 ]
 name
 Posterior shaft (radial groove region)
@@ -184,7 +184,7 @@ Posterior shaft (radial groove region)
 [
 muscles
 [
-'{{ linktitle(\"trc\") }} (long head)'
+{{ linktitle("trc") }} (long head)
 ]
 name
 Infraglenoid Tubercle

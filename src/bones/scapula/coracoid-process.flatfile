@@ -5,7 +5,7 @@ anatomy.insertions
 anatomy.origins
 [
 {{ linktitle("coracobrachialis") }}
-'{{ linktitle(\"bc\") }} (short head)'
+{{ linktitle("bc") }} (short head)
 ]
 author
 Brian Lee
