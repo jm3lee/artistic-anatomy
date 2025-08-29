@@ -1,0 +1,33 @@
+anatomy.insertions
+[
+[
+name
+Acromion process
+muscles
+[
+'{{ linktitle(\"trz\") }}'
+]
+]
+]
+anatomy.origins
+[
+'{{ linktitle(\"dt\") }}'
+]
+author
+Brian Lee
+icon
+:round_pushpin:
+id
+acromion-process
+pubdate
+Aug 27, 2025
+status
+Reviewed
+tags
+[
+landmark
+]
+title
+Acromion Process
+url
+/bones/scapula/acromion-process.html

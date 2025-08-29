@@ -1,0 +1,27 @@
+anatomy.insertions
+[
+'{{ linktitle(\"pecmin\") }}'
+]
+anatomy.origins
+[
+'{{ linktitle(\"coracobrachialis\") }}'
+'{{ linktitle(\"bc\") }} (short head)'
+]
+author
+Brian Lee
+icon
+:round_pushpin:
+id
+coracoid-process
+pubdate
+Aug 27, 2025
+status
+Reviewed
+tags
+[
+landmark
+]
+title
+Coracoid Process
+url
+/bones/scapula/coracoid-process.html

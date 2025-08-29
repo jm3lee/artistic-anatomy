@@ -1,0 +1,163 @@
+anatomy.bony_landmarks
+[
+[
+name
+Coronoid process <a id="coronoid-process" href="#coronoid-process"><small>#</small></a>
+desc
+"""
+Anterior projection distal to the trochlear notch that helps form the elbow joint and provides attachment for the {{ linktitle('brc') }}.
+"""
+]
+[
+name
+Head of ulna <a id="head" href="#head"><small>#</small></a>
+desc
+"""
+Distal rounded end articulating with the radius and the wrist's fibrocartilage complex.
+"""
+]
+[
+name
+Interosseous border <a id="interosseous-border" href="#interosseous-border"><small>#</small></a>
+desc
+"""
+Sharp {{ link('lateral') }} ridge along the shaft where the interosseous membrane attaches, linking ulna to radius.
+"""
+]
+[
+name
+Olecranon process <a id="olecranon-process" href="#olecranon-process"><small>#</small></a>
+desc
+"""
+Large {{ link('posterior') }} hook forming the elbow point; insertion site for {{ linktitle('trc') }} and attachment for {{ linktitle('anc') }} and {{ linktitle('fcu') }}.
+"""
+]
+[
+name
+Radial notch <a id="radial-notch" href="#radial-notch"><small>#</small></a>
+desc
+"""
+Shallow {{ link('lateral') }} depression receiving the head of the {{ linkicon('radius') }} to form the proximal radioulnar joint.
+"""
+]
+[
+name
+Styloid process <a id="styloid-process" href="#styloid-process"><small>#</small></a>
+desc
+"""
+Pointed distal projection for the ulnar collateral {{ link('ligament') }} of the wrist.
+"""
+]
+[
+name
+Supinator crest <a id="supinator-crest" href="#supinator-crest"><small>#</small></a>
+desc
+"""
+Ridge on the proximal {{ link('lateral') }} ulna providing origin for the supinator.
+"""
+]
+[
+name
+Trochlear notch <a id="trochlear-notch" href="#trochlear-notch"><small>#</small></a>
+desc
+"""
+C-shaped articular surface below the olecranon that grips the humeral trochlea.
+"""
+]
+[
+name
+Ulnar tuberosity <a id="ulnar-tuberosity" href="#ulnar-tuberosity"><small>#</small></a>
+desc
+"""
+Rough area below the coronoid process on the {{ link('anterior') }} shaft where {{ linktitle('brc') }} and flexor digitorum profundus attach.
+"""
+]
+]
+anatomy.insertions
+[
+[
+muscles
+[
+'{{ linktitle(\"brc\") }}'
+]
+name
+Coronoid process and ulnar tuberosity
+]
+[
+muscles
+[
+'{{ linktitle(\"anc\") }}'
+]
+name
+Lateral olecranon
+]
+[
+muscles
+[
+'{{ linktitle(\"trc\") }} (all heads)'
+]
+name
+Olecranon process
+]
+[
+muscles
+[
+'{{ linktitle(\"fcu\") }} (via pisiform, hamate, 5th metacarpal)'
+]
+name
+Posterior border of ulna
+]
+[
+muscles
+[
+'{{ linktitle(\"flexor-digitorum-superficialis\") }} (via intermediate phalanges; indirect insertion)'
+]
+name
+Ulnar shaft (anteromedial surface)
+]
+[
+muscles
+[
+'{{ linktitle(\"flexor-digitorum-profundus\") }} (ulnar half)'
+]
+name
+Ulnar tuberosity (anteromedial shaft)
+]
+]
+author
+Brian Lee
+breadcrumbs
+[
+[
+title
+Home
+url
+/
+]
+[
+title
+Bones
+url
+/bones/
+]
+[
+title
+Ulna
+]
+]
+description
+"""
+The ulna is the medial forearm bone forming the elbow's hinge and providing broad surfaces for muscle attachment.
+"""
+icon
+:bone:
+id
+ulna
+pubdate
+Aug 28, 2025
+status
+Review Pending
+title
+Ulna
+url
+/bones/ulna/
