@@ -25,6 +25,8 @@ status
 Review Pending
 title
 Pronator Teres
+url
+/muscles/pronator-teres/
 breadcrumbs
 [
 {
@@ -45,7 +47,7 @@ Pronator Teres
 }
 ]
 translations
+{
 russian
 Круглый пронатор
-url
-/muscles/pronator-teres/
+}

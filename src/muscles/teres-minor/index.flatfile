@@ -25,6 +25,8 @@ status
 Review Pending
 title
 Teres Minor
+url
+/muscles/teres-minor/
 breadcrumbs
 [
 {
@@ -45,9 +47,9 @@ Teres Minor
 }
 ]
 translations
+{
 french
 petit rond
 russian
 Большая круглая мышца
-url
-/muscles/teres-minor/
+}
