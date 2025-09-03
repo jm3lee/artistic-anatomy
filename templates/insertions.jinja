@@ -7,12 +7,10 @@
 {% macro insertions(name) %}
 {% for section in get_desc(name)['anatomy']['insertions'] | sort(attribute='name') %}
 ### {{ section.name }}
-```{=html}
 <ul>
 {% for muscle in section.muscles %}
-    <li>{{ render_jinja(muscle) }}</li>
+  <li>{{ render_jinja(muscle) }}</li>
 {% endfor %}
 </ul>
-```
 {% endfor %}
 {% endmacro %}

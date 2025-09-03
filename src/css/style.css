@@ -9,12 +9,12 @@
 
 /* Layout */
 html {
-  scroll-padding-top: calc(56px + env(safe-area-inset-top)); /* same as navbar height */
+  scroll-padding-top: calc(80px + env(safe-area-inset-top)); /* same as navbar height */
 }
 
 body {
   margin: 0;
-  padding-top: calc(56px + env(safe-area-inset-top));
+  padding-top: calc(80px + env(safe-area-inset-top));
 }
 
 img {
