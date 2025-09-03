@@ -1,5 +1,6 @@
 {% from "templates/bony_landmarks.jinja" import bony_landmarks %}
 {% from "templates/figure.jinja" import figure %}
+{% from "templates/anchor.jinja" import anchor %}
 
 ## Illustrations
 
@@ -15,7 +16,7 @@
     width=512
 ) }}
 
-## Movements {{'{#movements}'}}
+## Movements {{ anchor('movements') }}
 
 The scapula moves freely across the rib cage, allowing the arm to position
 itself in space. Its primary motions are summarized below.

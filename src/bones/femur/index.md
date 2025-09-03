@@ -4,6 +4,7 @@
 {% from "templates/origins.jinja" import origins %}
 {% from "templates/bony_landmarks.jinja" import bony_landmarks %}
 {% from "templates/figure.jinja" import figure %}
+{% from "templates/anchor.jinja" import anchor %}
 
 ## Illustrations
 
@@ -26,7 +27,7 @@
 
 {{ insertions('femur') }}
 
-## Muscle Origins {{'{#origins}'}}
+## Muscle Origins {{ anchor('origins') }}
 
 {{ origins('femur') }}
 
