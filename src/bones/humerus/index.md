@@ -3,6 +3,7 @@
 {% from "templates/origins.jinja" import origins %}
 {% from "templates/bony_landmarks.jinja" import bony_landmarks %}
 {% from "templates/figure.jinja" import figure %}
+{% from "templates/anchor.jinja" import anchor %}
 
 ## Illustrations
 
@@ -35,11 +36,11 @@ Source: [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/a/ad/Gray207.
 
 {{ bony_landmarks('humerus') }}
 
-## Muscle Origins {{'{#origins}'}}
+## Muscle Origins {{ anchor('origins') }}
 
 {{ origins('humerus') }}
 
-## Muscle Insertions {{'{#insertions}'}}
+## Muscle Insertions {{ anchor('insertions') }}
 
 {{ insertions('humerus') }}
 

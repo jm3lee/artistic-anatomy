@@ -1,6 +1,7 @@
 {% from "templates/insertions.jinja" import insertions %}
 {% from "templates/origins.jinja" import origins %}
 {% from "templates/figure.jinja" import figure %}
+{% from "templates/anchor.jinja" import anchor %}
 
 ## Illustrations
 
@@ -15,11 +16,11 @@
     href=href
 ) }}
 
-## Muscle Origins {{'{#origins}'}}
+## Muscle Origins {{ anchor('origins') }}
 
 {{ origins('tibia') }}
 
-## Muscle Insertions {{'{#insertions}'}}
+## Muscle Insertions {{ anchor('insertions') }}
 
 {{ insertions('tibia') }}
 

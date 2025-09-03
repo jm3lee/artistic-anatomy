@@ -4,65 +4,65 @@ anatomy:
       supraspinous and infraspinous fossae and ending laterally at the acromion.
 
       '
-    name: 'Spine <a class="text-decoration-none text-muted" href="#spine"><small>#</small></a>'
+    name: 'Spine {{ anchor("spine") }}'
   - desc: 'Flat projection at the {{ link("lateral") }} end of the spine that articulates
       with the {{ linkicon("clavicle") }}.
 
       '
-    name: 'Acromion process <a class="text-decoration-none text-muted" href="#acromion-process"><small>#</small></a>'
+    name: 'Acromion process {{ anchor("acromion-process") }}'
   - desc: 'Hook-like {{ link("anterior") }} projection providing attachments for
       {{ linkicon("pecmin") }}, coracobrachialis, and the short head of {{ linktitle("bc")
       }}.
 
       '
-    name: 'Coracoid process <a class="text-decoration-none text-muted" href="#coracoid-process"><small>#</small></a>'
+    name: 'Coracoid process {{ anchor("coracoid-process") }}'
   - desc: 'Shallow socket that receives the head of the {{ linkicon("humerus") }}
       to form the glenohumeral joint.
 
       '
-    name: 'Glenoid cavity <a class="text-decoration-none text-muted" href="#glenoid-cavity"><small>#</small></a>'
+    name: 'Glenoid cavity {{ anchor("glenoid-cavity") }}'
   - desc: 'Smooth concavity above the spine housing the supraspinatus.
 
       '
-    name: 'Supraspinous fossa <a class="text-decoration-none text-muted" href="#supraspinous-fossa"><small>#</small></a>'
+    name: 'Supraspinous fossa {{ anchor("supraspinous-fossa") }}'
   - desc: 'Broad surface below the spine that lodges the infraspinatus.
 
       '
-    name: 'Infraspinous fossa <a class="text-decoration-none text-muted" href="#infraspinous-fossa"><small>#</small></a>'
+    name: 'Infraspinous fossa {{ anchor("infraspinous-fossa") }}'
   - desc: 'Wide {{ link("anterior") }} depression serving as attachment for the
       subscapularis.
 
       '
-    name: 'Subscapular fossa <a class="text-decoration-none text-muted" href="#subscapular-fossa"><small>#</small></a>'
+    name: 'Subscapular fossa {{ anchor("subscapular-fossa") }}'
   - desc: 'Long edge nearest the spine; attachment for rhomboids and part of the serratus
       anterior.
 
       '
-    name: 'Medial border <a class="text-decoration-none text-muted" href="#medial-border"><small>#</small></a>'
+    name: 'Medial border {{ anchor("medial-border") }}'
   - desc: 'Edge closest to the axilla providing attachment for teres major and teres
       minor.
 
       '
-    name: 'Lateral border <a class="text-decoration-none text-muted" href="#lateral-border"><small>#</small></a>'
+    name: 'Lateral border {{ anchor("lateral-border") }}'
   - desc: 'Shortest border near the neck containing the suprascapular notch for passage
       of the suprascapular nerve.
 
       '
-    name: 'Superior border <a class="text-decoration-none text-muted" href="#superior-border"><small>#</small></a>'
+    name: 'Superior border {{ anchor("superior-border") }}'
   - desc: 'Lower tip where medial and lateral borders meet; attachment for teres major.
 
       '
-    name: 'Inferior angle <a class="text-decoration-none text-muted" href="#inferior-angle"><small>#</small></a>'
+    name: 'Inferior angle {{ anchor("inferior-angle") }}'
   - desc: 'Upper tip joining the superior and medial borders; attachment for part
       of the levator scapulae.
 
       '
-    name: 'Superior angle <a class="text-decoration-none text-muted" href="#superior-angle"><small>#</small></a>'
+    name: 'Superior angle {{ anchor("superior-angle") }}'
   - desc: 'Small notch on the {{ link("superior") }} border transmitting the suprascapular
       nerve beneath the superior transverse ligament.
 
       '
-    name: 'Suprascapular notch <a class="text-decoration-none text-muted" href="#suprascapular-notch"><small>#</small></a>'
+    name: 'Suprascapular notch {{ anchor("suprascapular-notch") }}'
 author: Brian Lee
 description: 'The scapula is a triangular shoulder blade that glides on the rib cage
   to position the arm and offers many muscle attachment sites.

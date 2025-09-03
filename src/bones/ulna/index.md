@@ -1,6 +1,7 @@
 {% from "templates/bony_landmarks.jinja" import bony_landmarks %}
 {% from "templates/figure.jinja" import figure %}
 {% from "templates/insertions.jinja" import insertions %}
+{% from "templates/anchor.jinja" import anchor %}
 
 ## Illustrations
 
@@ -32,7 +33,7 @@
 
 {{ bony_landmarks('ulna') }}
 
-## Muscle Insertions {{'{#insertions}'}}
+## Muscle Insertions {{ anchor('insertions') }}
 
 {{ insertions('ulna') }}
 

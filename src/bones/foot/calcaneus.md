@@ -2,6 +2,7 @@
 {% from "templates/bony_landmarks.jinja" import bony_landmarks %}
 {% from "templates/origins.jinja" import origins %}
 {% from "templates/insertions.jinja" import insertions %}
+{% from "templates/anchor.jinja" import anchor %}
 
 {{ summary_bones("calcaneus") }}
 
@@ -11,7 +12,7 @@
 
 {{ bony_landmarks("calcaneus") }}
 
-## Muscle Origins {{'{#origins}'}}
+## Muscle Origins {{ anchor('origins') }}
 
 {{ origins("calcaneus") }}
 

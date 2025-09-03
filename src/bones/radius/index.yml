@@ -16,29 +16,29 @@ description: >
   enable pronation and supination.
 anatomy:
   bony_landmarks:
-  - name: 'Head <a class="text-decoration-none text-muted" href="#head"><small>#</small></a>'
+  - name: 'Head {{ anchor("head") }}'
     desc: >
       Disc-shaped proximal epiphysis that articulates with the humerus and
       ulna.
-  - name: 'Neck <a class="text-decoration-none text-muted" href="#neck"><small>#</small></a>'
+  - name: 'Neck {{ anchor("neck") }}'
     desc: >
       Narrow region just distal to the head and a common fracture site.
-  - name: 'Radial tuberosity <a class="text-decoration-none text-muted" href="#radial-tuberosity"><small>#</small></a>'
+  - name: 'Radial tuberosity {{ anchor("radial-tuberosity") }}'
     desc: >
       Rough anterior projection where {{ linkicon('bc') }} inserts.
-  - name: 'Interosseous border <a class="text-decoration-none text-muted" href="#interosseous-border"><small>#</small></a>'
+  - name: 'Interosseous border {{ anchor("interosseous-border") }}'
     desc: >
       Sharp {{ link('medial') }} edge along the shaft for interosseous
       membrane attachment.
-  - name: 'Ulnar notch <a class="text-decoration-none text-muted" href="#ulnar-notch"><small>#</small></a>'
+  - name: 'Ulnar notch {{ anchor("ulnar-notch") }}'
     desc: >
       Distal {{ link('medial') }} concavity articulating with the head of the
       {{ linkicon('ulna') }}.
-  - name: 'Dorsal tubercle <a class="text-decoration-none text-muted" href="#dorsal-tubercle"><small>#</small></a>'
+  - name: 'Dorsal tubercle {{ anchor("dorsal-tubercle") }}'
     desc: >
       Posterior distal bump, also called Lister's tubercle, guiding extensor
       pollicis longus.
-  - name: 'Styloid process <a class="text-decoration-none text-muted" href="#styloid-process"><small>#</small></a>'
+  - name: 'Styloid process {{ anchor("styloid-process") }}'
     desc: >
       Pointed distal projection anchoring the radial collateral ligament and
       {{ linkicon('brr') }}.

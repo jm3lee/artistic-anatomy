@@ -1,6 +1,7 @@
 {% from "templates/summary.jinja" import summary_bones %}
 {% from "templates/figure.jinja" import figure %}
 {% from "templates/insertions.jinja" import insertions %}
+{% from "templates/anchor.jinja" import anchor %}
 
 {{summary_bones("acromion-process")}}
 
@@ -18,7 +19,7 @@
     width=256
 ) }}
 
-## Muscle Insertions {{'{#insertions}'}}
+## Muscle Insertions {{ anchor('insertions') }}
 
 {{ insertions('acromion-process') }}
 
