@@ -1,10 +1,10 @@
-{% from "src/templates/macros.jinja" import insertions, bony_landmarks %}
+{% from "src/templates/macros.jinja" import insertions, bony_landmarks, anchor %}
 
 ## Bony Landmarks
 
 {{ bony_landmarks('radius') }}
 
-## Muscle Insertions
+## Muscle Insertions {{ anchor('insertions') }}
 
 {{ insertions('radius') }}
 

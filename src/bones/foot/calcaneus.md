@@ -12,7 +12,7 @@
 
 {{ origins("calcaneus") }}
 
-## Muscle Insertions
+## Muscle Insertions {{ anchor('insertions') }}
 
 {{ insertions("calcaneus") }}
 

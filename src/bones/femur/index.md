@@ -18,7 +18,7 @@
 
 {{ bony_landmarks('femur') }}
 
-## Muscle Insertions
+## Muscle Insertions {{ anchor('insertions') }}
 
 {{ insertions('femur') }}
 
