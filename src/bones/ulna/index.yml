@@ -1,39 +1,39 @@
 anatomy:
   bony_landmarks:
-  - name: 'Coronoid process {{"{#coronoid-process}"}}'
+  - name: 'Coronoid process <a class="text-decoration-none text-muted" href="#coronoid-process"><small>#</small></a>'
     desc: >
       Anterior projection distal to the trochlear notch that helps form the
       elbow joint and provides attachment for the {{ linktitle('brc') }}.
-  - name: 'Head of ulna {{"{#head}"}}'
+  - name: 'Head of ulna <a class="text-decoration-none text-muted" href="#head"><small>#</small></a>'
     desc: >
       Distal rounded end articulating with the radius and the wrist's
       fibrocartilage complex.
-  - name: 'Interosseous border {{"{#interosseous-border}"}}'
+  - name: 'Interosseous border <a class="text-decoration-none text-muted" href="#interosseous-border"><small>#</small></a>'
     desc: >
       Sharp {{ link('lateral') }} ridge along the shaft where the interosseous
       membrane attaches, linking ulna to radius.
-  - name: 'Olecranon process {{"{#olecranon-process}"}}'
+  - name: 'Olecranon process <a class="text-decoration-none text-muted" href="#olecranon-process"><small>#</small></a>'
     desc: >
       Large {{ link('posterior') }} hook forming the elbow point; insertion
       site for {{ linktitle('trc') }} and attachment for {{ linktitle('anc') }}
       and {{ linktitle('fcu') }}.
-  - name: 'Radial notch {{"{#radial-notch}"}}'
+  - name: 'Radial notch <a class="text-decoration-none text-muted" href="#radial-notch"><small>#</small></a>'
     desc: >
       Shallow {{ link('lateral') }} depression receiving the head of the
       {{ linkicon('radius') }} to form the proximal radioulnar joint.
-  - name: 'Styloid process {{"{#styloid-process}"}}'
+  - name: 'Styloid process <a class="text-decoration-none text-muted" href="#styloid-process"><small>#</small></a>'
     desc: >
       Pointed distal projection for the ulnar collateral {{ link('ligament') }}
       of the wrist.
-  - name: 'Supinator crest {{"{#supinator-crest}"}}'
+  - name: 'Supinator crest <a class="text-decoration-none text-muted" href="#supinator-crest"><small>#</small></a>'
     desc: >
       Ridge on the proximal {{ link('lateral') }} ulna providing origin for
       the supinator.
-  - name: 'Trochlear notch {{"{#trochlear-notch}"}}'
+  - name: 'Trochlear notch <a class="text-decoration-none text-muted" href="#trochlear-notch"><small>#</small></a>'
     desc: >
       C-shaped articular surface below the olecranon that grips the humeral
       trochlea.
-  - name: 'Ulnar tuberosity {{"{#ulnar-tuberosity}"}}'
+  - name: 'Ulnar tuberosity <a class="text-decoration-none text-muted" href="#ulnar-tuberosity"><small>#</small></a>'
     desc: >
       Rough area below the coronoid process on the {{ link('anterior') }} shaft
       where {{ linktitle('brc') }} and flexor digitorum profundus attach.

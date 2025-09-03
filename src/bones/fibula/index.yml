@@ -16,16 +16,16 @@ description: >
   forming the outer ankle while serving as an anchor for muscles.
 anatomy:
   bony_landmarks:
-  - name: 'Head {{"{#head}"}}'
+  - name: 'Head <a class="text-decoration-none text-muted" href="#head"><small>#</small></a>'
     desc: >
       Rounded proximal end articulating with the {{ linkicon('tibia') }}.
-  - name: 'Neck {{"{#neck}"}}'
+  - name: 'Neck <a class="text-decoration-none text-muted" href="#neck"><small>#</small></a>'
     desc: >
       Narrow region just distal to the head.
-  - name: 'Shaft {{"{#shaft}"}}'
+  - name: 'Shaft <a class="text-decoration-none text-muted" href="#shaft"><small>#</small></a>'
     desc: >
       Long, thin body of the bone.
-  - name: 'Lateral malleolus {{"{#lateral-malleolus}"}}'
+  - name: 'Lateral malleolus <a class="text-decoration-none text-muted" href="#lateral-malleolus"><small>#</small></a>'
     desc: >
       Distal projection forming the outer ankle and attachment point for the
       fibular collateral ligament.
