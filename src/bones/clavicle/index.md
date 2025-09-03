@@ -1,4 +1,4 @@
-{% from "src/templates/macros.jinja" import insertions, bony_landmarks, figure %}
+{% from "src/templates/macros.jinja" import insertions, bony_landmarks, figure, anchor %}
 
 The clavicle, or collar bone, is a slender S-shaped bone that connects the
 sternum to the scapula. Acting as a strut, it keeps the upper limb away from the
@@ -22,7 +22,7 @@ thorax and allows greater range of motion at the shoulder.
 
 {{ bony_landmarks('clavicle') }}
 
-## Muscle Insertions
+## Muscle Insertions {{ anchor('insertions') }}
 
 {{ insertions('clavicle') }}
 
