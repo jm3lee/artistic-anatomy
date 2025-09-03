@@ -30,10 +30,6 @@
 
 {{ bony_landmarks('ulna') }}
 
-## Muscle Insertions {{ anchor('insertions') }}
-
-{{ insertions('ulna') }}
-
 ## Muscle Origins {{ anchor('origins') }}
 
 ### By Bony Landmarks
@@ -52,6 +48,10 @@
 
 * **Supinator crest (proximal ulna)**
   * Supinator
+
+## Muscle Insertions {{ anchor('insertions') }}
+
+{{ insertions('ulna') }}
 
 ## Examples
 
