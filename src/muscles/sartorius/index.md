@@ -1,3 +1,3 @@
-{% from "src/templates/summary.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary %}
 
 {{summary("sartorius")}}

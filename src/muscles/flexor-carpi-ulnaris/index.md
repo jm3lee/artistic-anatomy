@@ -1,7 +1,6 @@
 A part of the [Wrist Flexor Group](/wrist-flexor-group.html).
 
-{% from "src/templates/summary.jinja" import summary %}
-{% from "src/templates/figure.jinja" import figure %}
+{% from "src/templates/macros.jinja" import summary, figure %}
 
 {{summary("fcu")}}
 

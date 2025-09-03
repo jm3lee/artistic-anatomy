@@ -1,4 +1,4 @@
-{% from "src/templates/figure.jinja" import figure %}
+{% from "src/templates/macros.jinja" import figure %}
 
 1. **Doryphoros (Spear-Bearer) by Polykleitos** (c. 440 BC)
 

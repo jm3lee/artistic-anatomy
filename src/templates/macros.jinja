@@ -1,0 +1,182 @@
+{# Consolidated macros for templates #}
+
+{#--
+  Macro: anchor
+  Outputs a section anchor with an id for headings and links.
+--#}
+{% macro anchor(id) -%}
+<a id="{{ id }}" href="#{{ id }}" class="text-decoration-none text-muted"><small>#</small></a>
+{%- endmacro %}
+
+{#--
+  Macro: bony_landmarks
+  Render bony landmarks for a bone.
+  - name: bone identifier used with get_desc
+  Each landmark is rendered as a heading followed by a paragraph.
+--#}
+{% macro bony_landmarks(name) %}
+{% for landmark in get_desc(name)['anatomy']['bony_landmarks'] | sort(attribute="name") %}
+### {{ render_jinja(landmark.name) }}
+{{ render_jinja(landmark.desc) }}
+
+{% endfor %}
+{% endmacro %}
+
+{#--
+  Macro: figure
+  Render a figure with optional link, caption, and width.
+--#}
+{% macro figure(src, alt, caption=None, href=None, width=None) %}
+<figure class="figure">
+    {%- if href -%}
+    <a href="{{ href }}">
+        <img src="{{ src }}" alt="{{ alt }}"{% if width %} width="{{ width }}"{% endif %} class="figure-img img-fluid rounded" loading="lazy" />
+    </a>
+    {%- else -%}
+    <img src="{{ src }}" alt="{{ alt }}"{% if width %} width="{{ width }}"{% endif %} class="figure-img img-fluid rounded" loading="lazy" />
+    {%- endif -%}
+    {%- if caption -%}
+    <figcaption class="figure-caption text-center">{{ caption | safe }}</figcaption>
+    {%- endif -%}
+</figure>
+{% endmacro %}
+
+{#--
+  Macro: insertions
+  Render muscle insertions for a bone.
+  - name: bone identifier used with get_desc
+  Each insertion section is rendered as a heading followed by a bullet list.
+--#}
+{% macro insertions(name) %}
+{% for section in get_desc(name)['anatomy']['insertions'] | sort(attribute='name') %}
+### {{ section.name }}
+<ul>
+{% for muscle in section.muscles %}
+  <li>{{ render_jinja(muscle) }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+{% endmacro %}
+
+{#--
+  Macro: origins
+  Render muscle origins for a bone.
+  - name: bone identifier used with get_desc
+  Each origin section is rendered as a heading followed by a bullet list.
+--#}
+{% macro origins(name) %}
+{% for section in get_desc(name)['anatomy']['origins'] | sort(attribute='name') %}
+### {{ section.name }}
+<ul>
+{% for muscle in section.muscles %}
+  <li>{{ render_jinja(muscle) }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+{% endmacro %}
+
+{#--
+  Macro: render_mc
+  Render multiple choice questions from a JSON file.
+--#}
+{% macro render_mc(filename) %}
+```{=html}
+<ol>
+    {% for mc in load_mc(filename) %}
+        <li>
+            <p class="question">{{render_jinja(get_desc('mc')["q"])}}</p>
+            <ol type="a">
+            {% for c in get_desc('mc')["c"] %}
+                <li>{{render_jinja(c)}}</li>
+            {% endfor %}
+            </ol>
+            <details class="answer">
+                <summary>Answer</summary>
+                <p>
+                {{to_alpha_index(get_desc('mc')["a"][0])}}. {{render_jinja(get_desc('mc')["c"][get_desc('mc')["a"][0]])}}
+                <hr/>
+                {{render_jinja(get_desc('mc')["a"][1])}}
+                </p>
+            </details>
+        </li>
+    {% endfor %}
+</ol>
+```
+{% endmacro %}
+
+{#--
+  Macro: def_list
+  Renders a <dt>/<dd> list for any label + sequence of items.
+  - label: the term to show in <dt>
+  - items: sequence of objects to render via render_jinja()
+--#}
+{% macro def_list(label, items) %}
+    <dt>{{ label }}</dt>
+    {% for item in items %}
+        <dd>{{ render_jinja(item) }}</dd>
+    {% endfor %}
+{% endmacro %}
+
+{#--
+  Macro: summary
+  Outputs a Markdown “Summary” section with an HTML <dl> of Origins,
+  Insertions, and Actions for the given name.
+--#}
+{% macro summary(name) %}
+## Summary
+
+```{=html}
+<div class="card summary">
+    <div class="card-body">
+        <dl class="summary-list">
+            {{ def_list("Origins",     get_desc(name)['anatomy']['origins']) }}
+            {{ def_list("Insertions",  get_desc(name)['anatomy']['insertions']) }}
+            {{ def_list("Actions",     get_desc(name)["anatomy"]["actions"]) }}
+        </dl>
+    </div>
+</div>
+```
+{% endmacro %}
+
+{% macro summary_bones(name) %}
+## Summary
+
+{#
+```{=html}
+<div class="card summary">
+    <div class="card-body">
+        <dl class="summary-list">
+            {{ def_list("Origins",     get_desc(name)['anatomy']['origins']) }}
+            {{ def_list("Insertions",  get_desc(name)['anatomy']['insertions']) }}
+        </dl>
+    </div>
+</div>
+```
+#}
+{% endmacro %}
+
+{#--
+  Macro: translations
+  Render translation data for a given name.
+--#}
+{% macro translations(name) %}
+## Translations
+```{=html}
+{% for k, v in get_desc(name)["translations"].items() -%}
+    {% if v is mapping -%}
+        <h3>{{render_jinja(k)|title}}</h3>
+        <dl>
+        {% for subk, subv in v.items() -%}
+            <dt>{{render_jinja(subk)|title}}</dt>
+            <dd>{{render_jinja(subv)}}</dd>
+        {% endfor -%}
+        </dl>
+    {% else -%}
+        <dl>
+            <dt>{{render_jinja(k)|title}}</dt>
+            <dd>{{render_jinja(v)}}</dd>
+        </dl>
+    {% endif -%}
+{% endfor %}
+```
+{% endmacro %}

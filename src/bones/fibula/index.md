@@ -1,8 +1,4 @@
-{% from "src/templates/insertions.jinja" import insertions %}
-{% from "src/templates/bony_landmarks.jinja" import bony_landmarks %}
-{% from "src/templates/figure.jinja" import figure %}
-{% from "src/templates/origins.jinja" import origins %}
-{% from "src/templates/anchor.jinja" import anchor %}
+{% from "src/templates/macros.jinja" import insertions, bony_landmarks, figure, origins, anchor %}
 
 ## Summary
 

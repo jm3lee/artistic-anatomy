@@ -1,8 +1,4 @@
-{% from "src/templates/summary.jinja" import summary_bones %}
-{% from "src/templates/bony_landmarks.jinja" import bony_landmarks %}
-{% from "src/templates/origins.jinja" import origins %}
-{% from "src/templates/insertions.jinja" import insertions %}
-{% from "src/templates/anchor.jinja" import anchor %}
+{% from "src/templates/macros.jinja" import summary_bones, bony_landmarks, origins, insertions, anchor %}
 
 {{ summary_bones("calcaneus") }}
 
