@@ -1,48 +1,48 @@
 anatomy:
   bony_landmarks:
-  - name: 'Head of the Humerus <a class="text-decoration-none text-muted" href="#head_of_humerus"><small>#</small></a>'
+  - name: 'Head of the Humerus <a id="head-of-humerus" class="text-decoration-none text-muted" href="#head-of-humerus"><small>#</small></a>'
     desc: >
       The rounded, proximal articular surface that fits into the glenoid
       cavity of the {{ linktitle("scapula") }}, forming the glenohumeral
       (shoulder) joint.
-  - name: 'Anatomical Neck <a class="text-decoration-none text-muted" href="#anatomical_neck"><small>#</small></a>'
+  - name: 'Anatomical Neck <a id="anatomical-neck" class="text-decoration-none text-muted" href="#anatomical-neck"><small>#</small></a>'
     desc: >
       The slight constriction immediately distal to the head, marking the
       site of the epiphyseal plate in development and serving as the
       attachment for the joint capsule.
-  - name: 'Surgical Neck <a class="text-decoration-none text-muted" href="#surgical_neck"><small>#</small></a>'
+  - name: 'Surgical Neck <a id="surgical-neck" class="text-decoration-none text-muted" href="#surgical-neck"><small>#</small></a>'
     desc: >
       The narrower region distal to the tubercles; a common fracture site.
-  - name: 'Greater Tubercle <a class="text-decoration-none text-muted" href="#greater_tubercle"><small>#</small></a>'
+  - name: 'Greater Tubercle <a id="greater-tubercle" class="text-decoration-none text-muted" href="#greater-tubercle"><small>#</small></a>'
     desc: >
       A large, lateral projection just distal to the head that provides
       attachment for the {{ linktitle("supraspinatus") }},
       {{ linktitle("infraspinatus") }}, and {{ linktitle("teres-minor") }}
       muscles.
   - name: >
-      Radial (Spiral) Groove <a class="text-decoration-none text-muted" href="#radial_spiral_groove"><small>#</small></a>
+      Radial (Spiral) Groove <a id="radial-spiral-groove" class="text-decoration-none text-muted" href="#radial-spiral-groove"><small>#</small></a>
     desc: >
       A shallow groove running obliquely down the posterior shaft,
       transmitting the radial nerve and deep brachial artery.
-  - name: 'Nutrient (Oblique) Foramen <a class="text-decoration-none text-muted" href="#nutrient_foramen"><small>#</small></a>'
+  - name: 'Nutrient (Oblique) Foramen <a id="nutrient-foramen" class="text-decoration-none text-muted" href="#nutrient-foramen"><small>#</small></a>'
     desc: >
       A small opening on the anteromedial shaft that allows nutrient
       vessels to enter the bone.
-  - name: 'Medial Epicondyle <a class="text-decoration-none text-muted" href="#medial_epicondyle"><small>#</small></a>'
+  - name: 'Medial Epicondyle <a id="medial-epicondyle" class="text-decoration-none text-muted" href="#medial-epicondyle"><small>#</small></a>'
     desc: >
       A prominent projection on the distal medial side, providing origin
       for the common flexor tendon (flexor-pronator muscles) and
       attachment of the ulnar collateral ligament of the elbow.
-  - name: 'Lateral Epicondyle <a class="text-decoration-none text-muted" href="#lateral_epicondyle"><small>#</small></a>'
+  - name: 'Lateral Epicondyle <a id="lateral-epicondyle" class="text-decoration-none text-muted" href="#lateral-epicondyle"><small>#</small></a>'
     desc: >
       A smaller lateral projection that gives origin to the common
       extensor tendon (extensor-supinator muscles) and attachment for the
       radial collateral ligament.
-  - name: 'Capitulum <a class="text-decoration-none text-muted" href="#capitulum"><small>#</small></a>'
+  - name: 'Capitulum <a id="capitulum" class="text-decoration-none text-muted" href="#capitulum"><small>#</small></a>'
     desc: >
       A rounded eminence on the anterior, distal lateral humerus that
       articulates with the head of the {{ linktitle("radius") }}.
-  - name: 'Trochlea <a class="text-decoration-none text-muted" href="#trochlea"><small>#</small></a>'
+  - name: 'Trochlea <a id="trochlea" class="text-decoration-none text-muted" href="#trochlea"><small>#</small></a>'
     desc: >
       A spool-shaped medial projection on the anterior distal humerus that
       articulates with the trochlear notch of the {{ linktitle("ulna") }}.
