@@ -1,4 +1,4 @@
-{% from "src/templates/anchor.jinja" import anchor %}
+{% from "src/templates/macros.jinja" import anchor %}
 
 ## Books
 

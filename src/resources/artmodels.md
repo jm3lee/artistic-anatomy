@@ -1,4 +1,4 @@
-{% from "src/templates/figure.jinja" import figure %}
+{% from "src/templates/macros.jinja" import figure %}
 
 [posespace.com](https://posespace.com) offers excellent reference photos. I own many of
 them. Although I cannot share the photos here, I built an index to help me—and

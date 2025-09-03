@@ -1,5 +1,4 @@
-{% from "src/templates/summary.jinja" import summary %}
-{% from "src/templates/translations.jinja" import translations %}
+{% from "src/templates/macros.jinja" import summary, translations %}
 
 {{summary("fibularis-longus")}}
 
