@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>{{ title }}</title>
+    {% if description %}
+    <meta name="description" content="{{ description }}" />
+    {% endif %}
+    {% if og_title %}
+    <meta property="og:title" content="{{ og_title }}" />
+    {% else %}
+    <meta property="og:title" content="{{ title }}" />
+    {% endif %}
+    {% if og_description %}
+    <meta property="og:description" content="{{ og_description }}" />
+    {% elif description %}
+    <meta property="og:description" content="{{ description }}" />
+    {% endif %}
+    {% if og_image %}
+    <meta property="og:image" content="{{ og_image }}" />
+    {% endif %}
+    {% if og_url %}
+    <meta property="og:url" content="{{ og_url }}" />
+    {% elif link.canonical %}
+    <meta property="og:url" content="{{ link.canonical }}" />
+    {% endif %}
+    {% if twitter_card %}
+    <meta name="twitter:card" content="{{ twitter_card }}" />
+    {% else %}
+    <meta name="twitter:card" content="summary_large_image" />
+    {% endif %}
+    {% if twitter_image %}
+    <meta name="twitter:image" content="{{ twitter_image }}" />
+    {% elif og_image %}
+    <meta name="twitter:image" content="{{ og_image }}" />
+    {% endif %}
+    {% if link.canonical %}
+    <link rel="canonical" href="{{ link.canonical }}" />
+    {% endif %}
+    {% if prev %}
+    <link rel="prev" href="{{ prev }}" />
+    {% endif %}
+    {% if next %}
+    <link rel="next" href="{{ next }}" />
+    {% endif %}
+
+    <!-- If you supply multiple CSS files via metadata -->
+    <!-- The main stylesheet has to be included here because mobile browsers
+            don't seem to apply the stylesheet otherwise, and fonts are too
+            small. -->
+    {% for css in css %}
+    <link rel="stylesheet" href="{{ css }}" />
+    {% endfor %}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body class="fs-5 lh-lg">
+    <!-- site nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container position-relative">
+        <a class="navbar-brand" href="/">Home</a>
+        <span
+          class="navbar-text page-title fw-semibold position-absolute top-50
+          start-50 translate-middle d-none text-truncate d-inline-block
+          text-truncate"
+          style="max-width: 16ch"
+        >
+          {% if page_heading %} {{ page_heading }} {% else %} {{ title }} {% endif %}
+        </span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/examples/blog/">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header
+      class="hero-header mb-5 text-white border-bottom position-relative bg-black d-flex align-items-center"
+    >
+      {% if header and header.get("src") %}
+      <img
+        src="{{ header.src }}"
+        {% if header.srcset %}srcset="{{ header.get('srcset') }}"
+        {% endif %}
+        sizes="100vw"
+        class="bg-image position-absolute top-0 start-0 w-100 h-100 object-fit-cover opacity-0"
+        onload="this.classList.add('opacity-100')"
+        {% if header.get("alt") %}alt="{{ header.get('alt') }}"
+        {% else %}alt="Background"
+        {% endif %}
+      />
+      <div class="bg-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+      {% endif %}
+
+      <div class="container-fluid position-relative text-center">
+        <h1 class="display-3 fw-bold">
+          {% if page_heading %} {{ page_heading }} {% else %} {{ title }} {% endif %}
+        </h1>
+      </div>
+    </header>
+
+    <style>
+      .hero-header {
+        min-height: 30vh;
+      }
+      {% if header and header.get('src') %}
+      .bg-image {
+        transition: opacity 0.6s ease;
+        {% if header.get('object_position') %}object-position: {{ header.get('object_position') }};{% endif %}
+      }
+      {% if header.object_position_mobile %}
+      @media (max-width: 576px) {
+        .bg-image {
+          object-position: {{ header.object_position_mobile }};
+        }
+      }
+      {% endif %}
+      .bg-overlay {
+        /* Slightly stronger at the bottom; adjust as needed */
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.45) 0%,
+          rgba(0, 0, 0, 0.65) 60%,
+          rgba(0, 0, 0, 0.75) 100%
+        );
+        pointer-events: none;
+      }
+      {% endif %}
+    </style>
+
+    <main class="container mb-5" style="max-width: 65ch">
+      {% if breadcrumbs %}
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb pt-3">
+          {% for breadcrumb in breadcrumbs %}
+          {% if breadcrumb.get('url') %}
+          <li class="breadcrumb-item"><a href="{{ breadcrumb.url }}">{{ breadcrumb.get('title') }}</a></li>
+          {% else %}
+          <li class="breadcrumb-item active" aria-current="page">{{ breadcrumb.get('title') }}</li>
+          {% endif %}
+          {% endfor %}
+        </ol>
+      </nav>
+      {% endif %}
+      <div class="metablock">
+        {% if author %} {{ author }}<br />
+        {% endif %}
+    {% if pubdate %} {{ pubdate }}<br />
+        {% endif %}
+    {% if status %} {{ status }} {% endif %}
+    {% if partof %} Part of: {{ partof }}
+        {% endif %}
+      </div>
+
+      {% if preamble %} {{ preamble | safe }} {% endif %}
+
+      <!-- page nav -->
+      {% if toc %}
+      <details id="TOC">
+        <summary>Table of Contents</summary>
+        {{ toc | safe }}
+      </details>
+      {% endif %}
+
+      <!-- Body content generated from Markdown goes here -->
+      {{ content | safe }}
+
+      <!-- prev/next page links -->
+      {% if prev %}
+      <nav
+        class="d-flex justify-content-between border-top pt-4 mt-5"
+        aria-label="Page navigation"
+      >
+        <a class="btn btn-outline-primary" rel="prev" href="{{ prev }}">
+          &larr; Previous
+        </a>
+        {% if next %}
+        <a class="btn btn-outline-primary" rel="next" href="{{ next }}">
+          Next &rarr;
+        </a>
+        {% endif %}
+      </nav>
+      {% elif next %}
+      <nav
+        class="d-flex justify-content-end border-top pt-4 mt-5"
+        aria-label="Page navigation"
+      >
+        <a class="btn btn-outline-primary" rel="next" href="{{ next }}">
+          Next &rarr;
+        </a>
+      </nav>
+      {% endif %}
+
+      <!-- Optional scripts and footers can be included similarly -->
+      {% for header_include in header_includes %} {{ header_include | safe }} {% endfor %}
+    </main>
+
+    <footer class="footer p-5 bg-dark text-white text-center">
+      <p>© 2025 by Brian Lee is licensed under CC BY-NC-ND 4.0.</p>
+      <p>
+        <small>Published using Press</small>
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        const hero = document.querySelector(".hero-header");
+        const titleEl = document.querySelector(".navbar .page-title");
+        if (!titleEl) return;
+        if (!hero) {
+          titleEl.classList.remove("d-none");
+          return;
+        }
+        const observer = new IntersectionObserver(
+          ([entry]) => {
+            titleEl.classList.toggle("d-none", entry.isIntersecting);
+          },
+          { rootMargin: "-56px 0px 0px 0px" }
+        );
+        observer.observe(hero);
+      });
+    </script>
+    {% if mathjax %}
+    <!-- MATHJAX SUPPORT -->
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    ></script>
+    {% endif %}
+  </body>
+</html>
