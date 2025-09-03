@@ -18,13 +18,13 @@
 
 {{ bony_landmarks('femur') }}
 
-## Muscle Insertions {{ anchor('insertions') }}
-
-{{ insertions('femur') }}
-
 ## Muscle Origins {{ anchor('origins') }}
 
 {{ origins('femur') }}
+
+## Muscle Insertions {{ anchor('insertions') }}
+
+{{ insertions('femur') }}
 
 ## References
 
