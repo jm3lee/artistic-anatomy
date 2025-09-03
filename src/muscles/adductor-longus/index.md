@@ -1,4 +1,4 @@
-{% from "templates/summary.jinja" import summary %}
+{% from "src/templates/summary.jinja" import summary %}
 
 {{summary("adductor-longus")}}
 

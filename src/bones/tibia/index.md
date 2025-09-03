@@ -1,7 +1,7 @@
-{% from "templates/insertions.jinja" import insertions %}
-{% from "templates/origins.jinja" import origins %}
-{% from "templates/figure.jinja" import figure %}
-{% from "templates/anchor.jinja" import anchor %}
+{% from "src/templates/insertions.jinja" import insertions %}
+{% from "src/templates/origins.jinja" import origins %}
+{% from "src/templates/figure.jinja" import figure %}
+{% from "src/templates/anchor.jinja" import anchor %}
 
 ## Illustrations
 

@@ -1,6 +1,6 @@
 [:man: Reviewed](../background/icons.md)
 
-{% from "templates/summary.jinja" import summary %}
+{% from "src/templates/summary.jinja" import summary %}
 
 {{summary("supraspinatus")}}
 
