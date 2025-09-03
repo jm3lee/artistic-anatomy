@@ -1,6 +1,6 @@
-{% from "templates/summary.jinja" import summary %}
-{% from "templates/translations.jinja" import translations %}
-{% from "templates/figure.jinja" import figure %}
+{% from "src/templates/summary.jinja" import summary %}
+{% from "src/templates/translations.jinja" import translations %}
+{% from "src/templates/figure.jinja" import figure %}
 
 {{summary("tibialis-anterior")}}
 

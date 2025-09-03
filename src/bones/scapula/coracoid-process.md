@@ -1,5 +1,5 @@
-{% from "templates/summary.jinja" import summary_bones %}
-{% from "templates/figure.jinja" import figure %}
+{% from "src/templates/summary.jinja" import summary_bones %}
+{% from "src/templates/figure.jinja" import figure %}
 
 {{summary_bones("coracoid-process")}}
 

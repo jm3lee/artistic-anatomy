@@ -1,5 +1,5 @@
-{% from "templates/insertions.jinja" import insertions %}
-{% from "templates/bony_landmarks.jinja" import bony_landmarks %}
+{% from "src/templates/insertions.jinja" import insertions %}
+{% from "src/templates/bony_landmarks.jinja" import bony_landmarks %}
 
 ## Bony Landmarks
 

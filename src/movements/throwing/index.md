@@ -1,4 +1,4 @@
-{% from "templates/figure.jinja" import figure %}
+{% from "src/templates/figure.jinja" import figure %}
 
 1. **Discobolos (Discus Thrower) by Myron** (c. 450 BC)
 

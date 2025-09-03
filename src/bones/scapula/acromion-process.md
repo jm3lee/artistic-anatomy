@@ -1,7 +1,7 @@
-{% from "templates/summary.jinja" import summary_bones %}
-{% from "templates/figure.jinja" import figure %}
-{% from "templates/insertions.jinja" import insertions %}
-{% from "templates/anchor.jinja" import anchor %}
+{% from "src/templates/summary.jinja" import summary_bones %}
+{% from "src/templates/figure.jinja" import figure %}
+{% from "src/templates/insertions.jinja" import insertions %}
+{% from "src/templates/anchor.jinja" import anchor %}
 
 {{summary_bones("acromion-process")}}
 

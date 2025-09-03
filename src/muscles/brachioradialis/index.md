@@ -1,5 +1,5 @@
-{% from "templates/translations.jinja" import translations %}
-{% from "templates/summary.jinja" import summary %}
+{% from "src/templates/translations.jinja" import translations %}
+{% from "src/templates/summary.jinja" import summary %}
 
 {{summary("brr")}}
 

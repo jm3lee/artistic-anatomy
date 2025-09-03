@@ -2,7 +2,7 @@
 
 - When asked to add content under src/, handle request as an expert fine artist
   and an anatomist. Focus on educating beginners. Cross-link pages.
-  - use appropriate templates like templates/summary.jinja
+  - use appropriate templates like src/templates/summary.jinja
   - focus on superficial muscles. deep muscles aren't useful for our purposes.
   - create headings only for the illustrations; do not add any figures
     automatically

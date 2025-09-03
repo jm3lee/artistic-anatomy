@@ -4,7 +4,7 @@ ol {
 }
 </style>
 
-{% from "templates/multiple_choice.jinja" import render_mc %}
+{% from "src/templates/multiple_choice.jinja" import render_mc %}
 
 ## Key Terms
 {#{render_mc("src/study/key-terms.json")}#}
