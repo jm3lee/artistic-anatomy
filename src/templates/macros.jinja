@@ -28,16 +28,16 @@
 --#}
 {% macro figure(src, alt, caption=None, href=None, width=None) %}
 <figure class="figure">
-    {%- if href -%}
-    <a href="{{ href }}">
-        <img src="{{ src }}" alt="{{ alt }}"{% if width %} width="{{ width }}"{% endif %} class="figure-img img-fluid rounded" loading="lazy" />
-    </a>
-    {%- else -%}
+  {%- if href -%}
+  <a href="{{ href }}">
     <img src="{{ src }}" alt="{{ alt }}"{% if width %} width="{{ width }}"{% endif %} class="figure-img img-fluid rounded" loading="lazy" />
-    {%- endif -%}
-    {%- if caption -%}
-    <figcaption class="figure-caption text-center">{{ caption | safe }}</figcaption>
-    {%- endif -%}
+  </a>
+  {%- else -%}
+  <img src="{{ src }}" alt="{{ alt }}"{% if width %} width="{{ width }}"{% endif %} class="figure-img img-fluid rounded" loading="lazy" />
+  {%- endif -%}
+  {%- if caption -%}
+  <figcaption class="figure-caption text-center">{{ caption | safe }}</figcaption>
+  {%- endif -%}
 </figure>
 {% endmacro %}
 
@@ -82,24 +82,24 @@
 {% macro render_mc(filename) %}
 ```{=html}
 <ol>
-    {% for mc in load_mc(filename) %}
-        <li>
-            <p class="question">{{render_jinja(get_desc('mc')["q"])}}</p>
-            <ol type="a">
-            {% for c in get_desc('mc')["c"] %}
-                <li>{{render_jinja(c)}}</li>
-            {% endfor %}
-            </ol>
-            <details class="answer">
-                <summary>Answer</summary>
-                <p>
-                {{to_alpha_index(get_desc('mc')["a"][0])}}. {{render_jinja(get_desc('mc')["c"][get_desc('mc')["a"][0]])}}
-                <hr/>
-                {{render_jinja(get_desc('mc')["a"][1])}}
-                </p>
-            </details>
-        </li>
-    {% endfor %}
+  {% for mc in load_mc(filename) %}
+    <li>
+      <p class="question">{{render_jinja(get_desc('mc')["q"])}}</p>
+      <ol type="a">
+      {% for c in get_desc('mc')["c"] %}
+        <li>{{render_jinja(c)}}</li>
+      {% endfor %}
+      </ol>
+      <details class="answer">
+        <summary>Answer</summary>
+        <p>
+        {{to_alpha_index(get_desc('mc')["a"][0])}}. {{render_jinja(get_desc('mc')["c"][get_desc('mc')["a"][0]])}}
+        <hr/>
+        {{render_jinja(get_desc('mc')["a"][1])}}
+        </p>
+      </details>
+    </li>
+  {% endfor %}
 </ol>
 ```
 {% endmacro %}
@@ -111,10 +111,10 @@
   - items: sequence of objects to render via render_jinja()
 --#}
 {%- macro def_list(label, items) %}
-    <dt>{{ label }}</dt>
-    {%- for item in items %}
-        <dd>{{ render_jinja(item) }}</dd>
-    {%- endfor %}
+  <dt>{{ label }}</dt>
+  {%- for item in items %}
+    <dd>{{ render_jinja(item) }}</dd>
+  {%- endfor %}
 {%- endmacro %}
 
 {#--
@@ -122,19 +122,19 @@
   Outputs a Markdown “Summary” section with an HTML <dl> of Origins,
   Insertions, and Actions for the given name.
 --#}
-{% macro summary(name) %}
+{%- macro summary(name) %}
 ## Summary
 
 <div class="card summary">
-    <div class="card-body">
-        <dl class="summary-list">
-        {{ def_list("Origins",     get_desc(name)['anatomy']['origins']) }}
-        {{ def_list("Insertions",  get_desc(name)['anatomy']['insertions']) }}
-        {{ def_list("Actions",     get_desc(name)["anatomy"]["actions"]) }}
-        </dl>
-    </div>
+  <div class="card-body">
+    <dl class="summary-list">
+    {{ def_list("Origins",   get_desc(name)['anatomy']['origins']) }}
+    {{ def_list("Insertions",  get_desc(name)['anatomy']['insertions']) }}
+    {{ def_list("Actions",   get_desc(name)["anatomy"]["actions"]) }}
+    </dl>
+  </div>
 </div>
-{% endmacro %}
+{%- endmacro %}
 
 {% macro summary_bones(name) %}
 ## Summary
@@ -142,12 +142,12 @@
 {#
 ```{=html}
 <div class="card summary">
-    <div class="card-body">
-        <dl class="summary-list">
-            {{ def_list("Origins",     get_desc(name)['anatomy']['origins']) }}
-            {{ def_list("Insertions",  get_desc(name)['anatomy']['insertions']) }}
-        </dl>
-    </div>
+  <div class="card-body">
+    <dl class="summary-list">
+      {{ def_list("Origins",   get_desc(name)['anatomy']['origins']) }}
+      {{ def_list("Insertions",  get_desc(name)['anatomy']['insertions']) }}
+    </dl>
+  </div>
 </div>
 ```
 #}
@@ -160,19 +160,19 @@
 {% macro translations(name) %}
 ## Translations
 {% for k, v in get_desc(name)["translations"].items() -%}
-    {% if v is mapping -%}
-        <h3>{{render_jinja(k)|title}}</h3>
-        <dl>
-        {% for subk, subv in v.items() -%}
-            <dt>{{render_jinja(subk)|title}}</dt>
-            <dd>{{render_jinja(subv)}}</dd>
-        {% endfor -%}
-        </dl>
-    {% else -%}
-        <dl>
-            <dt>{{render_jinja(k)|title}}</dt>
-            <dd>{{render_jinja(v)}}</dd>
-        </dl>
-    {% endif -%}
+  {% if v is mapping -%}
+    <h3>{{render_jinja(k)|title}}</h3>
+    <dl>
+    {% for subk, subv in v.items() -%}
+      <dt>{{render_jinja(subk)|title}}</dt>
+      <dd>{{render_jinja(subv)}}</dd>
+    {% endfor -%}
+    </dl>
+  {% else -%}
+    <dl>
+      <dt>{{render_jinja(k)|title}}</dt>
+      <dd>{{render_jinja(v)}}</dd>
+    </dl>
+  {% endif -%}
 {% endfor %}
 {% endmacro %}
