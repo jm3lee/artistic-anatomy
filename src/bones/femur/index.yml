@@ -1,6 +1,6 @@
 anatomy:
   bony_landmarks:
-  - name: 'Greater trochanter <a class="text-decoration-none text-muted" href="#greater-trochanter"><small>#</small></a>'
+  - name: 'Greater trochanter <a id="greater-trochanter" class="text-decoration-none text-muted" href="#greater-trochanter"><small>#</small></a>'
     desc: >
       Large lateral projection of the proximal femur; attachment site for
       {{ linktitle('gmed') }}, {{ linktitle('gmin') }},
@@ -8,25 +8,25 @@ anatomy:
       {{ linktitle('obturator-externus') }},
       {{ linktitle('superior-gemellus') }}, and
       {{ linktitle('inferior-gemellus') }}.
-  - name: 'Lesser trochanter <a class="text-decoration-none text-muted" href="#lesser-trochanter"><small>#</small></a>'
+  - name: 'Lesser trochanter <a id="lesser-trochanter" class="text-decoration-none text-muted" href="#lesser-trochanter"><small>#</small></a>'
     desc: >
       Posteromedial conical eminence below the neck; insertion point for
       {{ linktitle('iliopsoas') }} (psoas major and iliacus).
-  - name: 'Intertrochanteric crest <a class="text-decoration-none text-muted" href="#intertrochanteric-crest"><small>#</small></a>'
+  - name: 'Intertrochanteric crest <a id="intertrochanteric-crest" class="text-decoration-none text-muted" href="#intertrochanteric-crest"><small>#</small></a>'
     desc: >
       Ridge connecting greater and lesser trochanters on the posterior femur;
       the quadrate tubercle on this crest is where
       {{ linktitle('quadratus-femoris') }} inserts.
-  - name: 'Gluteal tuberosity <a class="text-decoration-none text-muted" href="#gluteal-tuberosity"><small>#</small></a>'
+  - name: 'Gluteal tuberosity <a id="gluteal-tuberosity" class="text-decoration-none text-muted" href="#gluteal-tuberosity"><small>#</small></a>'
     desc: >
       Roughened area on the posterior shaft just distal to the greater
       trochanter; insertion site for {{ linktitle('gmax') }}.
-  - name: 'Pectineal line <a class="text-decoration-none text-muted" href="#pectineal-line"><small>#</small></a>'
+  - name: 'Pectineal line <a id="pectineal-line" class="text-decoration-none text-muted" href="#pectineal-line"><small>#</small></a>'
     desc: >
       Oblique ridge running from the lesser trochanter toward the
       {{ linktitle('linea-aspera') }}; attachment site for
       {{ linktitle('pectineus') }}.
-  - name: 'Linea aspera <a class="text-decoration-none text-muted" href="#linea-aspera"><small>#</small></a>'
+  - name: 'Linea aspera <a id="linea-aspera" class="text-decoration-none text-muted" href="#linea-aspera"><small>#</small></a>'
     desc: >
       Vertical ridge on the posterior shaft with medial and lateral lips;
       attachments for {{ linktitle('adductor-brevis') }},
@@ -34,15 +34,15 @@ anatomy:
       {{ linktitle('adductor-magnus') }}, and origins of
       {{ linktitle('vastus-lateralis') }} and
       {{ linktitle('vastus-medialis') }}.
-  - name: 'Adductor tubercle <a class="text-decoration-none text-muted" href="#adductor-tubercle"><small>#</small></a>'
+  - name: 'Adductor tubercle <a id="adductor-tubercle" class="text-decoration-none text-muted" href="#adductor-tubercle"><small>#</small></a>'
     desc: >
       Small elevation on the medial epicondyle; insertion site for the
       hamstring part of {{ linktitle('adductor-magnus') }}.
-  - name: 'Medial condyle <a class="text-decoration-none text-muted" href="#medial-condyle"><small>#</small></a>'
+  - name: 'Medial condyle <a id="medial-condyle" class="text-decoration-none text-muted" href="#medial-condyle"><small>#</small></a>'
     desc: >
       Distal medial articular prominence; origin site for
       {{ linktitle('gastrocnemius-medial-head') }}.
-  - name: 'Lateral condyle <a class="text-decoration-none text-muted" href="#lateral-condyle"><small>#</small></a>'
+  - name: 'Lateral condyle <a id="lateral-condyle" class="text-decoration-none text-muted" href="#lateral-condyle"><small>#</small></a>'
     desc: >
       Distal lateral articular prominence; origin site for
       {{ linktitle('gastrocnemius-lateral-head') }},
