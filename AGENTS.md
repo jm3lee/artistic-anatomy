@@ -24,8 +24,6 @@
   `press-release` docker image.
   - Do not create any new code in pie unless explicitly instructed.
 
-### Python Module pie
+### Testing
 
-`pie` is defined in the git submodule press.
-
-path press/app/shell/py/pie
+Skip tests.
