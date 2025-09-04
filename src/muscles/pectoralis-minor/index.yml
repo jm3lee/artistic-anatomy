@@ -1,17 +1,29 @@
-anatomy: !!omap [{actions: ['{{ linkcap("scapular-protraction") }} (pulls {{ linkicon("scapula")
-        }} forward and downward).', '{{ linkcap("scapular-depression") }}.', 'Stabilizes
-        {{ linkicon("scapula") }} against thoracic wall.']}, {insertions: ['{{ linkcap("coracoid-process")
-        }} of the {{ linkicon("scapula") }}.']}, {origins: [Anterior surfaces of the
-        3rd to 5th ribs near their costal cartilages.]}]
+anatomy: !!omap
+- actions:
+  - '{{ linkcap("scapular-protraction") }} (pulls {{ linkicon("scapula") }} forward
+    and downward).'
+  - '{{ linkcap("scapular-depression") }}.'
+  - Stabilizes {{ linkicon("scapula") }} against thoracic wall.
+- insertions:
+  - note: .
+    site:
+      bone: scapula
+      feature: coracoid-process
+- origins:
+  - note: Anterior surfaces 3rd to 5th ribs near their costal cartilages.
+    site: {}
 author: Brian Lee
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Pectoralis Minor}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Pectoralis Minor
 icon: ':muscle:'
 id: pecmin
 pubdate: Sep 04, 2025
 status: Reviewed
-tags: [torso]
+tags:
+- torso
 title: Pectoralis Minor
 url: /muscles/pectoralis-minor/

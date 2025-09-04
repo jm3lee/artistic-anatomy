@@ -1,11 +1,20 @@
-anatomy: !!omap [{actions: [Extends little finger, 'Assists wrist {{ link(''extension'')
-        }}']}, {insertions: [Extensor expansion of digit five]}, {origins: ['Lateral
-        epicondyle of the {{ linkicon(''humerus'') }}']}]
+anatomy: !!omap
+- actions:
+  - Extends little finger
+  - Assists wrist {{ link('extension') }}
+- insertions:
+  - note: Extensor expansion digit five
+    site: {}
+- origins:
+  - note: Lateral epicondyle {{ linkicon('humerus') }}
+    site: {}
 author: Brian Lee
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Extensor Digiti Minimi}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Extensor Digiti Minimi
 description: Extends the little finger and assists with wrist extension.
 icon: ':muscle:'
 id: extensor-digiti-minimi

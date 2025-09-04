@@ -1,17 +1,36 @@
-anatomy: !!omap [{actions: ['Elevation, retraction, depression & upward rotation of
-        {{ linkicon("scapula") }}', Neck extension & lateral flexion]}, {insertions: [
-      Clavicle, '{{ linktitle("acromion-process") }} of the {{ linkicon("scapula")
-        }}', 'Spine of {{ linktitle("scapula") }}']}, {origins: [Occipital bone, 'Spinous
-        processes of {{ linkicon("spine") }}']}]
+anatomy: !!omap
+- actions:
+  - Elevation, retraction, depression & upward rotation of {{ linkicon("scapula")
+    }}
+  - Neck extension & lateral flexion
+- insertions:
+  - site:
+      bone: Clavicle
+  - site:
+      bone: scapula
+  - note: Spine
+    site:
+      bone: scapula
+- origins:
+  - note: Occipital bone
+    site: {}
+  - note: Spinous processes
+    site:
+      bone: spine
 author: Brian Lee
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Trapezius}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Trapezius
 icon: ':muscle:'
 id: trz
 pubdate: Sep 04, 2025
 status: Review Pending
-tags: [torso]
+tags:
+- torso
 title: Trapezius
-translations: {french: trapèze, russian: Трапециевидная мышца (капюшонная)}
+translations:
+  french: trapèze
+  russian: Трапециевидная мышца (капюшонная)

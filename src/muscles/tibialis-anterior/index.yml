@@ -1,18 +1,37 @@
-anatomy: !!omap [{actions: [Inverts the foot, Dorsiflexes the ankle, 'Supports the
-        arch with {{ linktitle("fibularis-longus") }}', 'Walk cycle: controls heel-to-toe
-        movement']}, {insertions: [Medial cuneiform, Base of the first metatarsal]},
-  {origins: ['Lateral condyle of {{ linkicon("tibia") }}', 'Proximal, lateral surface
-        of {{ linkicon("tibia") }}', Interosseous membrane]}]
+anatomy: !!omap
+- actions:
+  - Inverts the foot
+  - Dorsiflexes the ankle
+  - Supports the arch with {{ linktitle("fibularis-longus") }}
+  - 'Walk cycle: controls heel-to-toe movement'
+- insertions:
+  - note: Medial cuneiform
+    site: {}
+  - note: Base first metatarsal
+    site: {}
+- origins:
+  - note: Lateral condyle
+    site:
+      bone: tibia
+  - note: Proximal, lateral surface
+    site:
+      bone: tibia
+  - note: Interosseous membrane
+    site: {}
 author: Brian Lee
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Tibialis Anterior}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Tibialis Anterior
 description: Overview of Tibialis Anterior.
 icon: ':muscle:'
 id: tibialis-anterior
 pubdate: Sep 04, 2025
 status: Reviewed
 title: Tibialis Anterior
-translations: {french: tibial antérieur, russian: Передняя большеберцовая мышца}
+translations:
+  french: tibial antérieur
+  russian: Передняя большеберцовая мышца
 url: /muscles/tibialis-anterior/
