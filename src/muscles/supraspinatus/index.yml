@@ -3,7 +3,7 @@ anatomy:
   - Initiation of shoulder abduction (first ~15°)
   - Stabilization of the glenohumeral joint; see {{ linkicon("rotator-cuff") }}
   origins:
-  - Supraspinous fossa of the scapula
+  - Supraspinous fossa of the {{ linkicon("scapula") }}
   insertions:
   - Superior facet of the greater tubercle of the {{ linkicon("humerus-insertion")
     }}

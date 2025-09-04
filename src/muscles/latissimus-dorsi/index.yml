@@ -10,7 +10,7 @@ anatomy:
   - Last three or four ribs
   - Thoracolumbar fascia
   - Posterior iliac crest
-  - Inferior angle of scapula; see Variable Attachment to {{ link("inferior-angle-of-scapula") }}
+  - Inferior angle of {{ linkicon("scapula") }}; see Variable Attachment to {{ link("inferior-angle-of-scapula") }}
 author: Brian Lee
 icon: ':muscle:'
 id: ld

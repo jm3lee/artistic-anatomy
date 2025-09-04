@@ -1,10 +1,10 @@
 anatomy:
   actions:
-  - Elevation, retraction, depression & upward rotation of scapula
+  - Elevation, retraction, depression & upward rotation of {{ linkicon("scapula") }}
   - Neck extension & lateral flexion
   insertions:
   - Clavicle
-  - '{{ linktitle("acromion-process") }} of scapula'
+  - '{{ linktitle("acromion-process") }} of the {{ linkicon("scapula") }}'
   - Spine of {{ linktitle("scapula") }}
   origins:
   - Occipital bone

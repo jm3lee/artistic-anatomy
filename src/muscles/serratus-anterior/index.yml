@@ -1,8 +1,8 @@
 anatomy:
   actions:
-  - Protracts (abducts) the scapula
-  - Upward rotation of the scapula
-  - Holds scapula against thoracic wall
+  - Protracts (abducts) the {{ linkicon("scapula") }}
+  - Upward rotation of the {{ linkicon("scapula") }}
+  - Holds {{ linkicon("scapula") }} against thoracic wall
   - Accessory muscle of inspiration (elevates ribs)
   insertions:
   - Anterior (costal) surface of medial border of {{ linkicon("scapula") }}
