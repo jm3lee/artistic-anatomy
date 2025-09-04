@@ -10,7 +10,7 @@ work.
 ```{=html}
 {#
 <dl>
-{% set keyterms = read_json("build/keyterms/index.json") %}
+{% set keyterms = read_json("build/background/keyterms/index.json") %}
 {% for k, v in keyterms.items() | sort %}
   <dt id="{{ k }}">{{ get_desc('v')['term'] }}</dt>
   <dd>

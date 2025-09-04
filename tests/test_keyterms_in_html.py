@@ -7,12 +7,12 @@ from bs4 import BeautifulSoup
 def test_key_terms_present():
     json_path = Path('key_term.json')
     if not json_path.is_file():
-        json_path = Path('src/keyterms/index.json')
+        json_path = Path('src/background/keyterms/index.json')
     if not json_path.is_file():
         pytest.fail('key_term.json not found')
-    html_path = Path('build/keyterms/index.html')
+    html_path = Path('build/background/keyterms/index.html')
     if not html_path.is_file():
-        pytest.fail('build/keyterms/index.html not found')
+        pytest.fail('build/background/keyterms/index.html not found')
     data = json.loads(json_path.read_text())
     with html_path.open() as f:
         soup = BeautifulSoup(f, 'html.parser')
