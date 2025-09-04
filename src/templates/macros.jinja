@@ -145,7 +145,11 @@
         {%- endif -%}
         {{ desc }}
       {%- else -%}
-        {{ render_jinja(item) }}
+        {%- if item.note is defined -%}
+          {{ render_jinja(item.note) }}
+        {%- else -%}
+          {{ render_jinja(item|string) }}
+        {%- endif -%}
       {%- endif -%}
     </dd>
   {%- endfor %}
