@@ -13,7 +13,12 @@ from collections import OrderedDict
 from pathlib import Path
 from typing import Any, Dict, List
 
-import yaml
+from ruamel.yaml import YAML
+
+
+yaml = YAML(typ="safe")
+yaml.indent(mapping=2, sequence=2, offset=0)
+yaml.allow_unicode = True
 
 ANATOMY_KEYS = ("actions", "insertions", "origins")
 
@@ -57,7 +62,7 @@ def normalize_anatomy(anatomy: Any) -> Dict[str, List[str]]:
 
 
 def process_file(path: Path) -> None:
-    data = yaml.safe_load(path.read_text()) or {}
+    data = yaml.load(path.read_text()) or {}
     if "anatomy" not in data:
         return
 
@@ -65,13 +70,7 @@ def process_file(path: Path) -> None:
     data["anatomy"] = OrderedDict((k, normalized[k]) for k in ANATOMY_KEYS)
 
     with path.open("w") as fh:
-        yaml.safe_dump(
-            data,
-            fh,
-            sort_keys=False,
-            indent=2,
-            allow_unicode=True,
-        )
+        yaml.dump(data, fh)
 
 
 def main() -> None:
