@@ -54,7 +54,7 @@ build/study/%.json: study/%.json | build/static/index.json
 build/%.json: %.json
 	emojify < $< > $@
 
-build/keyterms/index.md: build/keyterms/index.json
+build/background/keyterms/index.md: build/background/keyterms/index.json
 
 BONES_YAMLS := $(shell find src/bones -name '*.yml')
 BACKGROUND_YAMLS := $(shell find src/background -name '*.yml')
