@@ -1,15 +1,26 @@
-anatomy: !!omap [{actions: [External (lateral) rotation of the shoulder, 'Shoulder
-        stabilization as a part of {{ linkicon("rotator-cuff") }} muscle group']},
-  {insertions: [Middle facet of the greater tubercle of the humerus]}, {origins: [
-      'Infraspinous fossa of the {{ linkicon("scapula") }}']}]
+anatomy: !!omap
+- actions:
+  - External (lateral) rotation of the shoulder
+  - Shoulder stabilization as a part of {{ linkicon("rotator-cuff") }} muscle group
+- insertions:
+  - note: Middle facet greater tubercle humerus
+    site: {}
+- origins:
+  - note: Infraspinous fossa
+    site:
+      bone: scapula
 author: Brian Lee
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Infraspinatus}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Infraspinatus
 icon: ':muscle:'
 id: infraspinatus
 pubdate: Sep 04, 2025
 status: Review Pending
 title: Infraspinatus
-translations: {french: sous-épineux, russian: Подостная мышца}
+translations:
+  french: sous-épineux
+  russian: Подостная мышца

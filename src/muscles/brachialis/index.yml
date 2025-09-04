@@ -1,11 +1,24 @@
-anatomy: !!omap [{actions: [Flexion of the elbow joint]}, {insertions: ['{{ linkcap("ulnar-tuberosity")
-        }} of ulna', '{{ linkcap("coronoid-process") }} of ulna']}, {origins: ['Distal
-        half of anterior surface of the {{ linkicon("humerus") }}']}]
+anatomy: !!omap
+- actions:
+  - Flexion of the elbow joint
+- insertions:
+  - site:
+      bone: ulna
+      feature: ulnar-tuberosity
+  - site:
+      bone: ulna
+      feature: coronoid-process
+- origins:
+  - note: Distal half anterior surface
+    site:
+      bone: humerus
 author: Brian Lee
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Brachialis}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Brachialis
 icon: ':muscle:'
 id: brc
 pubdate: Sep 04, 2025

@@ -1,17 +1,29 @@
-anatomy: !!omap [{actions: [Everts the foot, Plantarflexes the ankle, 'Assists {{
-        linktitle("fibularis-longus") }} in eversion']}, {insertions: [Tuberosity
-        of the base of the fifth metatarsal]}, {origins: ['Distal two-thirds of lateral
-        surface of {{ linkicon("fibula") }}']}]
+anatomy: !!omap
+- actions:
+  - Everts the foot
+  - Plantarflexes the ankle
+  - Assists {{ linktitle("fibularis-longus") }} in eversion
+- insertions:
+  - note: Tuberosity base fifth metatarsal
+    site: {}
+- origins:
+  - note: Distal two-thirds lateral surface
+    site:
+      bone: fibula
 author: Brian Lee
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Fibularis Brevis}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Fibularis Brevis
 description: Overview of Fibularis Brevis.
 icon: ':muscle:'
 id: fibularis-brevis
 pubdate: Sep 04, 2025
 status: Review Pending
 title: Fibularis Brevis
-translations: {french: court fibulaire, russian: короткая малоберцовая мышца}
+translations:
+  french: court fibulaire
+  russian: короткая малоберцовая мышца
 url: /muscles/fibularis-brevis/

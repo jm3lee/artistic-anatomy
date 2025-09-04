@@ -1,17 +1,28 @@
-anatomy: !!omap [{actions: ['Protracts (abducts) the {{ linkicon("scapula") }}', 'Upward
-        rotation of the {{ linkicon("scapula") }}', 'Holds {{ linkicon("scapula")
-        }} against thoracic wall', Accessory muscle of inspiration (elevates ribs)]},
-  {insertions: ['Anterior (costal) surface of medial border of {{ linkicon("scapula")
-        }}']}, {origins: [External surfaces of the upper 8–9 ribs]}]
+anatomy: !!omap
+- actions:
+  - Protracts (abducts) the {{ linkicon("scapula") }}
+  - Upward rotation of the {{ linkicon("scapula") }}
+  - Holds {{ linkicon("scapula") }} against thoracic wall
+  - Accessory muscle of inspiration (elevates ribs)
+- insertions:
+  - note: Anterior (costal) surface medial border
+    site:
+      bone: scapula
+- origins:
+  - note: External surfaces upper 8–9 ribs
+    site: {}
 author: Brian Lee
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Serratus Anterior}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Serratus Anterior
 icon: ':muscle:'
 id: sa
 pubdate: Sep 04, 2025
 status: Pending Review
-tags: [torso]
+tags:
+- torso
 title: Serratus Anterior
 url: /muscles/serratus-anterior/

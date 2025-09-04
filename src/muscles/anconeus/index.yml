@@ -1,13 +1,23 @@
-anatomy: !!omap [{actions: [Assists triceps brachii in elbow extension, Stabilizes
-        the elbow joint, Abducts the ulna during forearm pronation]}, {insertions: [
-      'Lateral surface of olecranon process and proximal posterior {{ linkicon("ulna")
-        }}']}, {origins: ['Posterior aspect of lateral epicondyle of the {{ linkicon("humerus")
-        }}']}]
+anatomy: !!omap
+- actions:
+  - Assists triceps brachii in elbow extension
+  - Stabilizes the elbow joint
+  - Abducts the ulna during forearm pronation
+- insertions:
+  - note: Lateral surface olecranon process and proximal posterior
+    site:
+      bone: ulna
+- origins:
+  - note: Posterior aspect lateral epicondyle
+    site:
+      bone: humerus
 author: Brian Lee
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Anconeus}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Anconeus
 icon: ':muscle:'
 id: anc
 pubdate: Sep 04, 2025
