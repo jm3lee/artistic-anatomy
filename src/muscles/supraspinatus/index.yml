@@ -1,18 +1,13 @@
-anatomy:
-  actions:
+anatomy: !!omap
+- actions:
   - Initiation of shoulder abduction (first ~15°)
   - Stabilization of the glenohumeral joint; see {{ linkicon("rotator-cuff") }}
-  origins:
-  - Supraspinous fossa of the {{ linkicon("scapula") }}
-  insertions:
+- insertions:
   - Superior facet of the greater tubercle of the {{ linkicon("humerus-insertion")
     }}
+- origins:
+  - Supraspinous fossa of the {{ linkicon("scapula") }}
 author: Brian Lee
-icon: ':muscle:'
-id: supraspinatus
-pubdate: Aug 27, 2025
-status: Review Pending
-title: Supraspinatus
 breadcrumbs:
 - title: Home
   url: /
@@ -20,4 +15,9 @@ breadcrumbs:
   url: /muscles/
 - title: Supraspinatus
 description: Overview of Supraspinatus.
+icon: ':muscle:'
+id: supraspinatus
+pubdate: Sep 04, 2025
+status: Review Pending
+title: Supraspinatus
 url: /muscles/supraspinatus/

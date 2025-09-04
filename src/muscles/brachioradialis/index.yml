@@ -1,26 +1,26 @@
-anatomy:
-  actions:
+anatomy: !!omap
+- actions:
   - Elbow flexion
   - Assists pronation ands upination of the forearm when movements are resisted
-  insertions:
+- insertions:
   - Styloid processs of radius
-  origins:
-  - Proximal two-thirds of the lateral supracondylar ridge of {{ linkicon("humerus") }}
+- origins:
+  - Proximal two-thirds of the lateral supracondylar ridge of {{ linkicon("humerus")
+    }}
 author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Brachioradialis
 icon: ':muscle:'
 id: brr
-pubdate: Aug 27, 2025
+pubdate: Sep 04, 2025
 status: Review Pending
 tags:
 - supination
 title: Brachioradialis
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Muscles
-    url: /muscles/
-  - title: Brachioradialis
 translations:
-  french: 'brachio-radial'
-  russian: "\u041F\u043B\u0435\u0447\u0435-\u043B\u0443\u0447\u0435\u0432\u0430\u044F\
-    \ \u043C\u044B\u0448\u0446\u0430"
+  french: brachio-radial
+  russian: Плече-лучевая мышца

@@ -1,24 +1,24 @@
-anatomy:
-  actions:
+anatomy: !!omap
+- actions:
   - Flexes neck when both sides contract
   - Rotates head to opposite side
   - Laterally flexes neck to same side
   - Assist to elevate the rib cage during inhalation
-  insertions:
+- insertions:
   - Mastoid process of the temporal bone
   - Superior nuchal line
-  origins:
+- origins:
   - Manubrium of sternum
   - Medial third of {{ linkicon("clavicle") }}
 author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Sternocleidomastoid
 icon: ':muscle:'
 id: scm
-pubdate: Aug 27, 2025
+pubdate: Sep 04, 2025
 status: Reviewed
 title: Sternocleidomastoid
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Muscles
-    url: /muscles/
-  - title: Sternocleidomastoid

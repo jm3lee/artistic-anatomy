@@ -1,14 +1,14 @@
-anatomy:
-  actions:
+anatomy: !!omap
+- actions:
   - Abducts the hip
   - Flexes the hip (anterior fibers)
   - Medially rotates the hip (anterior fibers)
   - Extends the hip (posterior fibers)
   - Laterally rotates the hip (posterior fibers)
   - Keeps the pelvis horizontal in the middle of the walk cycle
-  insertions:
+- insertions:
   - Lateral aspect of greater trochanter of {{ linkicon("femur") }}
-  origins:
+- origins:
   - Gluteal surface of ilium between posterior and anterior gluteal lines
 author: Brian Lee
 breadcrumbs:
@@ -19,7 +19,7 @@ breadcrumbs:
 - title: Gluteus Medius
 icon: ':muscle:'
 id: gmed
-pubdate: Aug 28, 2025
+pubdate: Sep 04, 2025
 status: Review Pending
 title: Gluteus Medius
 url: /muscles/gluteus-medius/

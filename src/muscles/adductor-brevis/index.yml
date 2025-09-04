@@ -1,22 +1,22 @@
-anatomy:
-  actions:
-  - 'Thigh {{ linkicon("adduction") }}'
+anatomy: !!omap
+- actions:
+  - Thigh {{ linkicon("adduction") }}
   - Assists hip flexion
-  insertions:
-  - 'Pectineal line and proximal linea aspera of {{ linkicon("femur") }}'
-  origins:
-  - 'Body and inferior ramus of {{ linkicon("pelvis") }}'
+- insertions:
+  - Pectineal line and proximal linea aspera of {{ linkicon("femur") }}
+- origins:
+  - Body and inferior ramus of {{ linkicon("pelvis") }}
 author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Adductor Brevis
 description: Short fan-shaped thigh muscle that adducts the femur.
 icon: ':muscle:'
 id: adductor-brevis
-pubdate: Aug 27, 2025
+pubdate: Sep 04, 2025
 status: Review Pending
 title: Adductor Brevis
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Muscles
-    url: /muscles/
-  - title: Adductor Brevis
 url: /muscles/adductor-brevis/

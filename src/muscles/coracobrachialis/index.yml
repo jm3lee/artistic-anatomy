@@ -1,20 +1,20 @@
-anatomy:
-  actions:
+anatomy: !!omap
+- actions:
   - Flexes the shoulder
   - Adducts the shoulder
-  insertions:
+- insertions:
   - Medial surface of mid-humeral shaft
-  origins:
+- origins:
   - '{{ linkcap("coracoid-process") }} of the {{ linkicon("scapula") }}'
 author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Coracobrachialis
 icon: ':muscle:'
 id: coracobrachialis
-pubdate: Aug 27, 2025
+pubdate: Sep 04, 2025
 status: Review Pending
 title: Coracobrachialis
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Muscles
-    url: /muscles/
-  - title: Coracobrachialis
