@@ -13,6 +13,8 @@ from collections import OrderedDict
 from pathlib import Path
 from typing import Any, Dict, List
 
+from models.anatomy import AnatomyItem, AnatomyRef
+
 from ruamel.yaml import YAML
 
 
@@ -23,16 +25,26 @@ yaml.allow_unicode = True
 ANATOMY_KEYS = ("actions", "insertions", "origins")
 
 
-def _coerce_list(value: Any) -> List[str]:
-    """Return ``value`` as a list of strings."""
+def _normalize_item(value: Any) -> AnatomyItem:
+    if isinstance(value, dict):
+        result: AnatomyRef = {}
+        for key in ("id", "note"):
+            if key in value and value[key] is not None:
+                result[key] = str(value[key]).strip()
+        return result
+    return str(value).strip()
+
+
+def _coerce_list(value: Any) -> List[AnatomyItem]:
+    """Return ``value`` as a list of anatomy items."""
     if value is None:
         return []
     if isinstance(value, list):
-        return [str(v).strip() for v in value]
-    return [str(value).strip()]
+        return [_normalize_item(v) for v in value]
+    return [_normalize_item(value)]
 
 
-def normalize_anatomy(anatomy: Any) -> Dict[str, List[str]]:
+def normalize_anatomy(anatomy: Any) -> Dict[str, List[AnatomyItem]]:
     """Convert ``anatomy`` into a mapping of lists.
 
     Unsupported or unrecognised keys are ignored.
@@ -46,7 +58,7 @@ def normalize_anatomy(anatomy: Any) -> Dict[str, List[str]]:
     elif anatomy is None:
         items = []
     else:  # simple string defaults to actions
-        items = ["actions", anatomy]
+        items = [{"actions": anatomy}]
 
     for item in items:
         if isinstance(item, dict):
