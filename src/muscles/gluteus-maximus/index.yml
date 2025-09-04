@@ -1,24 +1,12 @@
-anatomy: !!omap
-- actions:
-  - Extends the hip
-  - Laterally rotates the hip
-  - Abducts the hip
-  - Adducts the hip (lower fibers)
-- insertions:
-  - Iliotibial tract (upper fibers)
-  - Gluteal tuberosity (lower fibers)
-- origins:
-  - Coccyx
-  - Edge of sacrum
-  - Posterior iliac crest
-  - Sacrotuberous and sacroiliac ligaments
+anatomy: !!omap [{actions: [Extends the hip, Laterally rotates the hip, Abducts the
+        hip, Adducts the hip (lower fibers)]}, {insertions: [Iliotibial tract (upper
+        fibers), Gluteal tuberosity (lower fibers)]}, {origins: [Coccyx, Edge of sacrum,
+      Posterior iliac crest, Sacrotuberous and sacroiliac ligaments]}]
 author: Brian Lee
 breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Gluteus Maximus
+- {title: Home, url: /}
+- {title: Muscles, url: /muscles/}
+- {title: Gluteus Maximus}
 icon: ':muscle:'
 id: gmax
 pubdate: Sep 04, 2025

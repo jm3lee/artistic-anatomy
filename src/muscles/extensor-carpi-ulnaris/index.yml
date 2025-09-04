@@ -1,19 +1,12 @@
-anatomy: !!omap
-- actions:
-  - Wrist {{ linkicon("extension") }}
-  - Ulnar deviation (adduction) of the wrist
-- insertions:
-  - Base of the 5th metacarpal
-- origins:
-  - Lateral epicondyle of the {{ linkicon("humerus") }}
-  - Posterior border of the {{ linkicon("ulna") }}
+anatomy: !!omap [{actions: ['Wrist {{ linkicon("extension") }}', Ulnar deviation (adduction)
+        of the wrist]}, {insertions: [Base of the 5th metacarpal]}, {origins: ['Lateral
+        epicondyle of the {{ linkicon("humerus") }}', 'Posterior border of the {{
+        linkicon("ulna") }}']}]
 author: Brian Lee
 breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Extensor Carpi Ulnaris
+- {title: Home, url: /}
+- {title: Muscles, url: /muscles/}
+- {title: Extensor Carpi Ulnaris}
 description: Extends and adducts the wrist along the ulnar edge.
 icon: ':muscle:'
 id: extensor-carpi-ulnaris

@@ -1,28 +1,17 @@
-anatomy: !!omap
-- actions:
-  - Elbow flexion
-  - Supinates the forearm
-  - Flexes the shoulder
-- insertions:
-  - '{{ linkcap("radial-tuberosity") }} of {{ linkicon("radius") }}'
-  - Bicipital aponeurosis
-- origins:
-  - 'Short head: Coracoid process of the {{ linkicon("scapula") }}'
-  - 'Long head: Supraglenoid tubercle of the {{ linkicon("scapula") }}'
+anatomy: !!omap [{actions: [Elbow flexion, Supinates the forearm, Flexes the shoulder]},
+  {insertions: ['{{ linkcap("radial-tuberosity") }} of {{ linkicon("radius") }}',
+      Bicipital aponeurosis]}, {origins: ['Short head: Coracoid process of the {{
+        linkicon("scapula") }}', 'Long head: Supraglenoid tubercle of the {{ linkicon("scapula")
+        }}']}]
 author: Brian Lee
 breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Biceps
+- {title: Home, url: /}
+- {title: Muscles, url: /muscles/}
+- {title: Biceps}
 icon: ':muscle:'
 id: bc
 pubdate: Sep 04, 2025
 status: Reviewed
-tags:
-- supination
+tags: [supination]
 title: Biceps
-translations:
-  french: biceps brachial
-  russian: двуглавая мышца плеча
+translations: {french: biceps brachial, russian: двуглавая мышца плеча}

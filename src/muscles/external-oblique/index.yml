@@ -1,24 +1,16 @@
-anatomy: !!omap
-- actions:
-  - Compresses abdominal contents; flexes and rotates trunk (contralateral rotation)
-- insertions:
-  - '{{ linktitle("linea-alba") }}'
-  - '{{ linktitle("pubic-tubercle") }}'
-  - Anterior half of iliac crest
-- origins:
-  - External surfaces of ribs 5–12
+anatomy: !!omap [{actions: [Compresses abdominal contents; flexes and rotates trunk
+        (contralateral rotation)]}, {insertions: ['{{ linktitle("linea-alba") }}',
+      '{{ linktitle("pubic-tubercle") }}', Anterior half of iliac crest]}, {origins: [
+      External surfaces of ribs 5–12]}]
 author: Brian Lee
 breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: External Oblique
+- {title: Home, url: /}
+- {title: Muscles, url: /muscles/}
+- {title: External Oblique}
 icon: ':muscle:'
 id: external-oblique
 pubdate: Sep 04, 2025
 status: Review Pending
-tags:
-- torso
+tags: [torso]
 title: External Oblique
 url: /muscles/external-oblique/
