@@ -1,0 +1,84 @@
+#!/usr/bin/env python3
+"""Normalize anatomy sections in muscle index YAML files.
+
+The script searches for all ``index.yml`` files under ``src/muscles`` and
+rewrites their ``anatomy`` sections so that the section contains three lists:
+``actions``, ``insertions``, and ``origins``. Existing content is coerced into
+lists when necessary. Files are overwritten in-place using a consistent key
+order and two-space indentation.
+"""
+from __future__ import annotations
+
+from collections import OrderedDict
+from pathlib import Path
+from typing import Any, Dict, List
+
+import yaml
+
+ANATOMY_KEYS = ("actions", "insertions", "origins")
+
+
+def _coerce_list(value: Any) -> List[str]:
+    """Return ``value`` as a list of strings."""
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [str(v).strip() for v in value]
+    return [str(value).strip()]
+
+
+def normalize_anatomy(anatomy: Any) -> Dict[str, List[str]]:
+    """Convert ``anatomy`` into a mapping of lists.
+
+    Unsupported or unrecognised keys are ignored.
+    """
+    result: Dict[str, List[str]] = {k: [] for k in ANATOMY_KEYS}
+
+    if isinstance(anatomy, dict):
+        items = [anatomy]
+    elif isinstance(anatomy, list):
+        items = anatomy
+    elif anatomy is None:
+        items = []
+    else:  # simple string defaults to actions
+        items = ["actions", anatomy]
+
+    for item in items:
+        if isinstance(item, dict):
+            for key, value in item.items():
+                key_l = key.lower()
+                if key_l in result:
+                    result[key_l].extend(_coerce_list(value))
+        elif isinstance(item, str):
+            result["actions"].extend(_coerce_list(item))
+
+    # Ensure list order is deterministic
+    return {k: result[k] for k in ANATOMY_KEYS}
+
+
+def process_file(path: Path) -> None:
+    data = yaml.safe_load(path.read_text()) or {}
+    if "anatomy" not in data:
+        return
+
+    normalized = normalize_anatomy(data["anatomy"])
+    data["anatomy"] = OrderedDict((k, normalized[k]) for k in ANATOMY_KEYS)
+
+    with path.open("w") as fh:
+        yaml.safe_dump(
+            data,
+            fh,
+            sort_keys=False,
+            indent=2,
+            allow_unicode=True,
+        )
+
+
+def main() -> None:
+    base = Path("src/muscles")
+    for yaml_path in base.glob("**/index.yml"):
+        process_file(yaml_path)
+
+
+if __name__ == "__main__":
+    main()
