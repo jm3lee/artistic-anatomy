@@ -108,12 +108,46 @@
   Macro: def_list
   Renders a <dt>/<dd> list for any label + sequence of items.
   - label: the term to show in <dt>
-  - items: sequence of objects to render via render_jinja()
+  - items: sequence of objects. Supports plain strings or ``Attachment``
+    instances with ``label``, ``site.bone``, ``site.feature``, and ``note``
+    fields.
 --#}
 {%- macro def_list(label, items) %}
   <dt>{{ label }}</dt>
   {%- for item in items %}
-    <dd>{{ render_jinja(item) }}</dd>
+    <dd>
+      {%- if item.site is defined -%}
+        {%- if item.label %}{{ render_jinja(item.label) }}: {% endif -%}
+        {%- set feature = item.site.feature | default(none) -%}
+        {%- set bone = item.site.bone | default(none) -%}
+        {%- set note = item.note | default(none) -%}
+        {%- if feature -%}
+          {%- set desc = linkcap(feature) -%}
+        {%- elif note -%}
+          {%- set desc = render_jinja(note) -%}
+          {%- set note = none -%}
+        {%- else -%}
+          {%- set desc = '' -%}
+        {%- endif -%}
+        {%- if bone -%}
+          {%- if desc -%}
+            {%- set desc = desc ~ ' of the ' ~ linkicon(bone) -%}
+          {%- else -%}
+            {%- set desc = linkicon(bone) -%}
+          {%- endif -%}
+        {%- endif -%}
+        {%- if note -%}
+          {%- if desc -%}
+            {%- set desc = desc ~ '; ' ~ render_jinja(note) -%}
+          {%- else -%}
+            {%- set desc = render_jinja(note) -%}
+          {%- endif -%}
+        {%- endif -%}
+        {{ desc }}
+      {%- else -%}
+        {{ render_jinja(item) }}
+      {%- endif -%}
+    </dd>
   {%- endfor %}
 {%- endmacro %}
 
