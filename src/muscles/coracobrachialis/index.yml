@@ -5,7 +5,7 @@ anatomy:
   insertions:
   - Medial surface of mid-humeral shaft
   origins:
-  - '{{ linkcap("coracoid-process") }} of the scapula'
+  - '{{ linkcap("coracoid-process") }} of the {{ linkicon("scapula") }}'
 author: Brian Lee
 icon: ':muscle:'
 id: coracobrachialis
