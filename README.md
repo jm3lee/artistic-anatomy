@@ -29,7 +29,18 @@ information. The class contains three list fields:
 - `insertions`: distal attachment points
 - `origins`: proximal attachment points
 
-List items may be plain strings or dictionaries with optional `id` and
-`note` keys, allowing references to other muscles or supplemental comments.
+List items may be plain strings or dictionaries. Actions can reference other
+muscles with an `id` and an optional `note`. Attachments in `insertions` and
+`origins` accept structured objects with a `site` mapping and optional
+`label` and `note` fields:
+
+```yaml
+- site:
+    bone: humerus
+    feature: greater-tubercle
+  label: posterior fibers
+  note: via a short tendon
+```
+
 Each field defaults to an empty list. Use this schema when recording muscle
 metadata in Python code.
