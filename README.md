@@ -19,3 +19,15 @@ r up
 ## template params
 
 - `status`: "Reviewed", "Pending Review"
+
+## Anatomy Data Model
+
+`models/anatomy.py` defines an `Anatomy` dataclass that captures basic muscle
+information. The class contains three list fields:
+
+- `actions`: movements produced by the muscle
+- `insertions`: distal attachment points
+- `origins`: proximal attachment points
+
+Each field defaults to an empty list. Use this schema when recording muscle
+metadata in Python code.
