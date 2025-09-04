@@ -1,4 +1,4 @@
 | Language | Translation | Notes |
 |---|---|---|
-| French | | |
-| Russian | | |
+| French | Anatomie artistique | |
+| Russian | Художественная анатомия | |
