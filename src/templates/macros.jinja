@@ -117,7 +117,7 @@
   {%- for item in items %}
     <dd>
       {%- if item.site is defined -%}
-        {%- if item.label %}{{ render_jinja(item.label) }}: {% endif -%}
+        {%- if item.label is defined and item.label %}{{ render_jinja(item.label) }}: {% endif -%}
         {%- set feature = item.site.feature | default(none) -%}
         {%- set bone = item.site.bone | default(none) -%}
         {%- set note = item.note | default(none) -%}
