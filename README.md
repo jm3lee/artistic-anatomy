@@ -44,3 +44,19 @@ muscles with an `id` and an optional `note`. Attachments in `insertions` and
 
 Each field defaults to an empty list. Use this schema when recording muscle
 metadata in Python code.
+
+## Templating
+
+The project ships with reusable Jinja macros under `src/templates/macros.jinja`.
+Import them as needed in Markdown sources.
+
+### `summary` macro
+
+`summary` renders a Bootstrap card containing a definition list of a muscle's
+origins, insertions, and actions. The macro automatically skips any missing
+sections and should be invoked with the muscle's identifier:
+
+```jinja
+{% from "src/templates/macros.jinja" import summary %}
+{{ summary("biceps") }}
+```

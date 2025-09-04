@@ -105,6 +105,44 @@
 {% endmacro %}
 
 {#--
+  Macro: attachment_desc
+  Build a description string for an ``Attachment`` object.
+  - item: mapping with ``site``, ``label``, ``note`` fields
+--#}
+{%- macro attachment_desc(item) -%}
+  {%- set feature = item.site.feature | default(none) -%}
+  {%- set bone    = item.site.bone    | default(none) -%}
+  {%- set note    = item.note         | default(none) -%}
+
+  {%- if feature -%}
+    {%- set desc = linkcap(feature) -%}
+  {%- elif note -%}
+    {%- set desc = render_jinja(note) -%}
+    {%- set note = none -%}
+  {%- else -%}
+    {%- set desc = '' -%}
+  {%- endif -%}
+
+  {%- if bone -%}
+    {%- if desc -%}
+      {%- set desc = desc ~ ' of the ' ~ linkicon(bone) -%}
+    {%- else -%}
+      {%- set desc = linkicon(bone) -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if note -%}
+    {%- if desc -%}
+      {%- set desc = desc ~ '; ' ~ render_jinja(note) -%}
+    {%- else -%}
+      {%- set desc = render_jinja(note) -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {{ desc }}
+{%- endmacro %}
+
+{#--
   Macro: def_list
   Renders a <dt>/<dd> list for any label + sequence of items.
   - label: the term to show in <dt>
@@ -118,32 +156,7 @@
     <dd>
       {%- if item.site is defined -%}
         {%- if item.label is defined and item.label %}{{ render_jinja(item.label) }}: {% endif -%}
-        {%- set feature = item.site.feature | default(none) -%}
-        {%- set bone = item.site.bone | default(none) -%}
-        {%- set note = item.note | default(none) -%}
-        {%- if feature -%}
-          {%- set desc = linkcap(feature) -%}
-        {%- elif note -%}
-          {%- set desc = render_jinja(note) -%}
-          {%- set note = none -%}
-        {%- else -%}
-          {%- set desc = '' -%}
-        {%- endif -%}
-        {%- if bone -%}
-          {%- if desc -%}
-            {%- set desc = desc ~ ' of the ' ~ linkicon(bone) -%}
-          {%- else -%}
-            {%- set desc = linkicon(bone) -%}
-          {%- endif -%}
-        {%- endif -%}
-        {%- if note -%}
-          {%- if desc -%}
-            {%- set desc = desc ~ '; ' ~ render_jinja(note) -%}
-          {%- else -%}
-            {%- set desc = render_jinja(note) -%}
-          {%- endif -%}
-        {%- endif -%}
-        {{ desc }}
+        {{ attachment_desc(item) }}
       {%- else -%}
         {{ render_jinja(item) }}
       {%- endif -%}
@@ -153,18 +166,28 @@
 
 {#--
   Macro: summary
-  Outputs a Markdown “Summary” section with an HTML <dl> of Origins,
-  Insertions, and Actions for the given name.
+  Render a compact definition list of key anatomical details for a muscle.
+  The markup is wrapped in a Bootstrap card and includes Origins, Insertions,
+  and Actions when present. The implementation uses a loop to avoid
+  repetition and skips missing sections gracefully.
 --#}
-{%- macro summary(name) %}
+{%- macro summary(name) -%}
 ## Summary
 
 <div class="card summary">
   <div class="card-body">
+    {# Cache anatomy data for repeated lookups #}
+    {%- set anatomy = get_desc(name)['anatomy'] -%}
+    {# Ordered list of (label, key) pairs to display #}
+    {%- set fields = [
+      ('Origins', 'origins'),
+      ('Insertions', 'insertions'),
+      ('Actions', 'actions'),
+    ] -%}
     <dl class="summary-list">
-    {{ def_list("Origins",   get_desc(name)['anatomy']['origins']) }}
-    {{ def_list("Insertions",  get_desc(name)['anatomy']['insertions']) }}
-    {{ def_list("Actions",   get_desc(name)["anatomy"]["actions"]) }}
+    {%- for label, key in fields if key in anatomy %}
+      {{ def_list(label, anatomy[key]) }}
+    {%- endfor %}
     </dl>
   </div>
 </div>
