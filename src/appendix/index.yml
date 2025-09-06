@@ -10,3 +10,5 @@ breadcrumbs:
     url: /
   - title: Appendix
 url: /appendix/
+indextree:
+  include-js: True

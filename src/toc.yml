@@ -10,3 +10,5 @@ breadcrumbs:
 - title: Home
   url: /
 - title: Table of Contents
+indextree:
+  include-js: True

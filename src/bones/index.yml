@@ -8,3 +8,5 @@ breadcrumbs:
     url: /
   - title: Bones
 url: /bones/
+indextree:
+  include-js: True

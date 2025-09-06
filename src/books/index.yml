@@ -10,3 +10,5 @@ breadcrumbs:
     url: /
   - title: Books
 url: /books/
+indextree:
+  include-js: True

@@ -5,3 +5,5 @@ id: head
 status: Review Pending
 title: Head
 url: /head/
+indextree:
+  include-js: True

@@ -4,4 +4,3 @@ Explore skeletal anatomy entries below. For related muscles, visit
 
 <div id="bones-indextree" class="indextree-root"
      data-src="/static/index/bones-indextree.json"></div>
-<script type="module" src="/static/js/indextree.js" defer></script>
