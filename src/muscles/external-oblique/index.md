@@ -36,12 +36,7 @@ to those of the external oblique. The terminology describes both position
 
 - {{ linktitle('gf') }}, 139-140.
 - {{ linktitle('hc77') }}
-  - **22**: Raphael. (Q). Profile view. Male.<br><a href="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/257520-1587134858.webp">
-<div class="image-container">
-<img src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/resized/400x/257520-1587134858.webp" alt="" loading="lazy"/>
-<div class="magnify-icon">&#128269;</div>
-</div>
-</a>
+  - **22**: Raphael. (Q). Profile view. Male.<br><a href="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/257520-1587134858.webp"><div class="image-container"><img src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/resized/400x/257520-1587134858.webp" alt="" loading="lazy"/><div class="magnify-icon">&#128269;</div></div></a>
   - **24**: Pontormo. (A) and (D). Profile and 3/4 views. Male.
   - **28**: Tiepolo. (Q). Back view. Male.
   - **36**: Piombo. (E). Front view. Female.

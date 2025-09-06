@@ -17,7 +17,6 @@
     - Ensure strings are correctly quoted and parseable.
     - Quote Jinja macros with single quotes, e.g., `'{{ linktitle("id") }}'`.
     - For ordered mappings, prefer a human-friendly block-style `!!omap`:
-
       ```yaml
       !!omap
       - key: value
