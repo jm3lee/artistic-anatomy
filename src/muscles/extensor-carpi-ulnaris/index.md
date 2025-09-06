@@ -1,7 +1,6 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% extends "src/templates/muscle.jinja" %}
 
-{{summary("extensor-carpi-ulnaris")}}
-
+{% block intro %}
 The extensor carpi ulnaris runs along the ulnar side of the posterior
 forearm. It arises from the lateral epicondyle of the humerus and the
 posterior ulna. Its tendon crosses the dorsal wrist to insert on the base of
@@ -12,8 +11,8 @@ It shares a common origin with {{ link('extensor-digitorum') }} and
 {{ link('extensor-carpi-radialis-longus') }} and
 {{ link('extensor-carpi-radialis-brevis') }} it steadies the wrist during
 gripping. It opposes {{ link('fcu') }} when the wrist bends.
+{% endblock %}
 
-## References
-
+{% block references %}
 - [Wikipedia](https://en.wikipedia.org/wiki/Extensor_carpi_ulnaris_muscle)
-
+{% endblock %}

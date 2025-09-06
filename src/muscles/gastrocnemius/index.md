@@ -1,3 +1,6 @@
+{% extends "src/templates/muscle.jinja" %}
+
+{% block intro %}
 The **gastrocnemius**, or calf muscle, is an important muscle for artists to
 understand because it gives the back of the lower leg its distinctive shape.
 Together with the {{ linktitle('soleus') }}, it forms the triceps surae.
@@ -6,7 +9,6 @@ It’s made of two parts:
 1. **Medial head** (inner side): Larger and extends lower.
 2. **Lateral head** (outer side): Smaller and higher.
 
-## Key Features
 
 * **Shape**: Creates the rounded calf. The medial head is more prominent,
   making the calves asymmetrical.
@@ -14,16 +16,17 @@ It’s made of two parts:
   (like standing on tiptoe).
 * **Landmarks**: Transitions into the thin **Achilles tendon**,
   which attaches to the heel.
+{% endblock %}
 
-## Examples
-
+{% block examples %}
 <img
 src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/images/0/20241214%20FB+IG%20Artistic%20Anatomy3.jpg"
 alt="Study of Legs by Romain Cazes"
 loading="lazy"/>
+{% endblock %}
 
-## References
-
+{% block references %}
 * [Gastrocnemius](https://en.wikipedia.org/wiki/Gastrocnemius_muscle)
 * {{ linktitle('gf') }}
   * Gastrocnemius, 256–57
+{% endblock %}

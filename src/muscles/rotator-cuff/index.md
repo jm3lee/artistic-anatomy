@@ -1,7 +1,9 @@
+{% extends "src/templates/muscle.jinja" %}
+
+{% block intro %}
 The rotator cuff comprises four scapular muscles that stabilize the
 {{ linktitle('glenohumeral-joint') }} and move the {{ linkicon('humerus') }}.
 
-## Muscles
 
 - **{{ linktitle('supraspinatus') }}**
   - Origin: Supraspinous fossa of the {{ linktitle('scapula') }}
@@ -30,7 +32,8 @@ The rotator cuff comprises four scapular muscles that stabilize the
   - Insertion: Lesser tubercle of the {{ linkicon('humerus') }}
   - Action: Medially rotates and adducts the {{ linkicon('humerus') }};
     stabilizes the {{ linktitle('glenohumeral-joint') }}
+{% endblock %}
 
-## References
-
+{% block references %}
 * {{ linktitle('humerus') }}
+{% endblock %}

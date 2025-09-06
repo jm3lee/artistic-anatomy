@@ -58,6 +58,10 @@ MARKDOWNS := $(shell find $(SRC_DIR)/ -name '*.md')
 YAMLS := $(shell find $(SRC_DIR) -name "*.yml")
 BUILD_YAMLS := $(patsubst $(SRC_DIR)/%,$(BUILD_DIR)/%,$(YAMLS))
 
+# Muscle pages depend on a shared template
+MUSCLE_MARKDOWNS := $(shell find $(SRC_DIR)/muscles -name '*.md')
+MUSCLE_HTMLS := $(patsubst $(SRC_DIR)/%.md,$(BUILD_DIR)/%.html,$(MUSCLE_MARKDOWNS))
+
 # Define the corresponding HTML output files
 HTMLS := $(patsubst $(SRC_DIR)/%.md, $(BUILD_DIR)/%.html, $(MARKDOWNS))
 
@@ -148,6 +152,9 @@ $(BUILD_DIR)/%.md: %.md | $(BUILD_DIR)
 $(BUILD_DIR)/%.html: $(BUILD_DIR)/%.md $(BUILD_DIR)/%.yml $(HTML_TEMPLATE) $(BUILD_DIR)/.process-yamls | $(BUILD_DIR)
 	$(call status,Generate HTML $@)
 	$(Q)render-html --template $(HTML_TEMPLATE) $< $@ -c $(BUILD_DIR)/$*.yml
+
+# Rebuild muscle pages when the shared template changes
+$(MUSCLE_HTMLS): $(SRC_DIR)/templates/muscle.jinja
 
 # Clean the build directory by removing all build artifacts
 .PHONY: clean

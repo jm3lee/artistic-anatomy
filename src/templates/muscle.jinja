@@ -1,0 +1,45 @@
+{% from "src/templates/macros.jinja" import summary, figure, translations %}
+{% set desc = get_desc(id) %}
+
+{{ summary(id) }}
+
+{% block intro %}{% endblock %}
+
+{% set illus %}
+{% block illustrations %}{% endblock %}
+{% endset %}
+{% if illus | trim %}
+## Illustrations
+{{ illus }}
+{% endif %}
+
+{% set examples %}
+{% block examples %}{% endblock %}
+{% endset %}
+{% if examples | trim %}
+## Examples
+{{ examples }}
+{% endif %}
+
+{% if desc.get('translations') %}
+## Translations
+{% block translations %}
+{{ translations(id) }}
+{% endblock %}
+{% endif %}
+
+{% set related %}
+{% block related %}{% endblock %}
+{% endset %}
+{% if related | trim %}
+## Related Muscles
+{{ related }}
+{% endif %}
+
+{% set refs %}
+{% block references %}{% endblock %}
+{% endset %}
+{% if refs | trim %}
+## References
+{{ refs }}
+{% endif %}

@@ -1,7 +1,5 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% extends "src/templates/muscle.jinja" %}
 
-{{summary("scm")}}
-
-## References
-
+{% block references %}
 * [Wikipedia](https://en.wikipedia.org/wiki/Sternocleidomastoid_muscle)
+{% endblock %}

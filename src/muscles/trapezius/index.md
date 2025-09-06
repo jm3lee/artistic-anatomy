@@ -1,10 +1,6 @@
-{% from "src/templates/macros.jinja" import translations, summary, figure %}
+{% extends "src/templates/muscle.jinja" %}
 
-
-{{summary("trz")}}
-
-## Illustrations
-
+{% block illustrations %}
 {% set src = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate54.webp" %}
 {% set alt = "Richer Plate 54" %}
 {% set caption = "Richer, Plate 54" %}
@@ -26,18 +22,16 @@
     width=256
 ) }}
 
-{{translations('trz')}}
-
 ```python
 include("build/muscles/ld-trz-attachments/index.md")
 ```
+{% endblock %}
 
-## See also
-
+{% block related %}
 * {{ linktitle('dt') }}
+{% endblock %}
 
-## References
-
+{% block references %}
 * [Wikipedia](https://en.wikipedia.org/wiki/Trapezius)
 * {{ linktitle('gf') }}, 148-150.
 * {{ linktitle('hc77') }}
@@ -49,3 +43,4 @@ alt="Raphael, Three Standing Men, c. 1514–16" loading="lazy"/>
     (M) and the acronmion process (N) of the scapula."
   * **28**: Tiepolo. Left scapula retraction. Right scapula protraction.
   * TODO 106, 108, 110, 112, 114, 116, 118, 126, 128, 130, 182, 190, 192, 194, 196, 198, 200, 202, 247, 250, 251, 252.
+{% endblock %}

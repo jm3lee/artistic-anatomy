@@ -1,10 +1,6 @@
-{% from "src/templates/macros.jinja" import translations, summary, figure %}
+{% extends "src/templates/muscle.jinja" %}
 
-
-{{summary("trc")}}
-
-## Illustrations
-
+{% block illustrations %}
 {% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Triceps_brachii_muscle06.png/512px-Triceps_brachii_muscle06.png?20130727010753" %}
 {% set alt = "Triceps brachii muscle06" %}
 {% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle06.png'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
@@ -20,26 +16,18 @@
 - Red: Long head
 - Yellow: Lateral head
 - Green: Medial head
+{% endblock %}
 
-## Examples
-
+{% block examples %}
 ### Triceps Tendon
 
 <img
 src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/triceps-0000.jpg"
 alt="David and Goliath, Caravaggio, 1599"
 loading="lazy"/>
+{% endblock %}
 
-{{translations('trc')}}
-
-## References
-
-* [Wikipedia](https://en.wikipedia.org/wiki/Triceps)
-* {{ linktitle('gf') }}, 172-175.
-* {{ linktitle('hc77') }}, 80, 112, 122, 138, 140, 144, 146, 148-149, 150-151, 152, 182, 253, 254, 255, 256.
-
-## Related Muscles
-
+{% block related %}
 * {{ linktitle('anc') }}
   The **triceps brachii** and **anconeus** are muscles that work together to
   straighten the elbow.
@@ -53,3 +41,10 @@ loading="lazy"/>
 * {{ linktitle('teres-major') }}
 * {{ linktitle('teres-minor') }}
 * {{ linktitle('ld') }}
+{% endblock %}
+
+{% block references %}
+* [Wikipedia](https://en.wikipedia.org/wiki/Triceps)
+* {{ linktitle('gf') }}, 172-175.
+* {{ linktitle('hc77') }}, 80, 112, 122, 138, 140, 144, 146, 148-149, 150-151, 152, 182, 253, 254, 255, 256.
+{% endblock %}

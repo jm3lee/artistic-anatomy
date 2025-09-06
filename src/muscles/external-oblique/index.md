@@ -1,23 +1,6 @@
-{% from "src/templates/macros.jinja" import summary, figure %}
+{% extends "src/templates/muscle.jinja" %}
 
-{{summary("external-oblique")}}
-
-## Illustrations
-
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Gray392.png/512px-Gray392.png?20070123191605" %}
-{% set alt = "External oblique muscle, left" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray392.png'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Gray392.png" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href,
-    width=512
-) }}
-
-## Etymology
-
+{% block intro %}
 :robot:
 
 The term **"external oblique"** has Latin roots commonly used in anatomical
@@ -31,9 +14,23 @@ Thus, **"external oblique"** refers to the outermost of the obliquely
 oblique**, which lies beneath it and has fibers running at roughly right angles
 to those of the external oblique. The terminology describes both position
 (external) and fiber direction (oblique).
+{% endblock %}
 
-## References
+{% block illustrations %}
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Gray392.png/512px-Gray392.png?20070123191605" %}
+{% set alt = "External oblique muscle, left" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray392.png'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Gray392.png" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href,
+    width=512
+) }}
+{% endblock %}
 
+{% block references %}
 - {{ linktitle('gf') }}, 139-140.
 - {{ linktitle('hc77') }}
   - **22**: Raphael. (Q). Profile view. Male.<br><a href="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/257520-1587134858.webp"><div class="image-container"><img src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/artists/raphael/resized/400x/257520-1587134858.webp" alt="" loading="lazy"/><div class="magnify-icon">&#128269;</div></div></a>
@@ -41,3 +38,4 @@ to those of the external oblique. The terminology describes both position
   - **28**: Tiepolo. (Q). Back view. Male.
   - **36**: Piombo. (E). Front view. Female.
 - [Wikipedia](https://en.wikipedia.org/wiki/Abdominal_external-oblique_muscle)
+{% endblock %}

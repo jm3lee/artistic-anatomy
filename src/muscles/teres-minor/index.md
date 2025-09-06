@@ -1,25 +1,6 @@
-{% from "src/templates/macros.jinja" import translations, summary, figure %}
+{% extends "src/templates/muscle.jinja" %}
 
-
-{{summary("teres-minor")}}
-
-## Illustrations
-
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/4/41/Teres_minor_muscle_animation2.gif?20121121033256" %}
-{% set alt = "Teres minor muscle animation2" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href
-) }}
-
-{{translations('teres-minor')}}
-
-## Notes
-
+{% block intro %}
 The teres minor muscle is usually not visible because it blends with the
 {{ linkicon('infraspinatus') }} muscle. Both are covered by thick fascia.
 However, the teres minor may become visible if the arm is held straight out to
@@ -30,9 +11,22 @@ One of the {{ linkicon('rotator-cuff') }} muscles.
 ```python
 include('src/muscles/teres-major-minor-insertion/index.md')
 ```
+{% endblock %}
 
-## References
+{% block illustrations %}
+{% set src = "https://upload.wikimedia.org/wikipedia/commons/4/41/Teres_minor_muscle_animation2.gif?20121121033256" %}
+{% set alt = "Teres minor muscle animation2" %}
+{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
+{% set href = "https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif" %}
+{{ figure(
+    src=src,
+    alt=alt,
+    caption=caption,
+    href=href
+) }}
+{% endblock %}
 
+{% block references %}
 - {{ linktitle('gf') }}
   - **161**
     - Usually not visible on the surface, blends with
@@ -47,3 +41,4 @@ include('src/muscles/teres-major-minor-insertion/index.md')
 - {{ linktitle('infraspinatus') }}
 - {{ linktitle('rotator-cuff') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Teres_minor_muscle)
+{% endblock %}

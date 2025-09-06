@@ -1,9 +1,6 @@
-{% from "src/templates/macros.jinja" import summary, figure %}
+{% extends "src/templates/muscle.jinja" %}
 
-{{summary("rhmaj")}}
-
-## Illustrations
-
+{% block illustrations %}
 {% set src = "https://upload.wikimedia.org/wikipedia/commons/1/14/Rhomboid_major_muscle_animation_small.gif?20121021030028" %}
 {% set alt = "Rhomboid major muscle animation small" %}
 {% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Rhomboid_major_muscle_animation_small.gif'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
@@ -15,8 +12,9 @@
     href=href,
     width=256
 ) }}
+{% endblock %}
 
-## References
-
+{% block references %}
 - {{ linktitle('scapula') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Rhomboid_major_muscle)
+{% endblock %}

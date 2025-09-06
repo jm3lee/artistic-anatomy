@@ -1,10 +1,5 @@
-{% from "src/templates/macros.jinja" import translations, summary %}
+{% extends "src/templates/muscle.jinja" %}
 
-
-{{summary("protrs")}}
-
-{{translations('protrs')}}
-
-## References
-
+{% block references %}
 * [Wikipedia](https://en.wikipedia.org/wiki/Pronator_teres_muscle)
+{% endblock %}

@@ -1,22 +1,6 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% extends "src/templates/muscle.jinja" %}
 
-{{summary("ld")}}
-
-## Illustrations
-
-<img
-src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate54.webp"
-alt="Richer Plate 54"
-loading="lazy"/>
-
-## Examples
-
-<img src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/ld-0000.jpg"
-alt="Anatomical Study of a Male Nude, Leonid Gervits, Year Unknown"
-loading="lazy"/>
-
-## Notes
-
+{% block intro %}
 ### General
 
 - Hides behind erector spinae in 3/4 view ({{ linkicon('hc77') }}, 20).
@@ -57,9 +41,23 @@ humans.](https://josr-online.biomedcentral.com/articles/10.1186/s13018-024-04659
 | C1-C7  |   | T |
 | T1-T5  |   | T |
 | T6-T12  | L | T |
+{% endblock %}
 
-## References
+{% block illustrations %}
+<img
+src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate54.webp"
+alt="Richer Plate 54"
+loading="lazy"/>
+{% endblock %}
 
+{% block examples %}
+<img src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/ld-0000.jpg"
+alt="Anatomical Study of a Male Nude, Leonid Gervits, Year Unknown"
+loading="lazy"/>
+{% endblock %}
+
+{% block references %}
 * [Wikipedia](https://en.wikipedia.org/wiki/Latissimus_dorsi_muscle)
 * TGB p71, Flashcards p8
 * {{ linktitle('gf') }}, 145–47.
+{% endblock %}

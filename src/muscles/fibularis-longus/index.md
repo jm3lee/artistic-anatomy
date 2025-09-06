@@ -1,11 +1,5 @@
-{% from "src/templates/macros.jinja" import summary, translations %}
+{% extends "src/templates/muscle.jinja" %}
 
-{{summary("fibularis-longus")}}
-
-## Illustrations
-
-{{translations('fibularis-longus')}}
-
-## References
-
+{% block references %}
 * [Wikipedia](https://en.wikipedia.org/wiki/Fibularis_longus)
+{% endblock %}

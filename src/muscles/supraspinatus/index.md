@@ -1,14 +1,14 @@
+{% extends "src/templates/muscle.jinja" %}
+
+{% block intro %}
 [:man: Reviewed](../background/icons.md)
-
-{% from "src/templates/macros.jinja" import summary %}
-
-{{summary("supraspinatus")}}
 
 <img src="https://brianleeart.sfo3.cdn.digitaloceanspaces.com/richer/supraspinatus.jpg"
 alt="Supraspinatus, Richer"
 loading="lazy"/>
+{% endblock %}
 
-## References
-
+{% block references %}
 * [Wikipedia](https://en.wikipedia.org/wiki/Supraspinatus_muscle)
 * {{ link_icon_title('gf') }} 159
+{% endblock %}

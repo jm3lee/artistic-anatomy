@@ -1,3 +1,1 @@
-{% from "src/templates/macros.jinja" import summary %}
-
-{{summary("sartorius")}}
+{% extends "src/templates/muscle.jinja" %}

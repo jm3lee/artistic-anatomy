@@ -1,10 +1,6 @@
-{% from "src/templates/macros.jinja" import translations, summary, figure %}
+{% extends "src/templates/muscle.jinja" %}
 
-
-{{summary("infraspinatus")}}
-
-## Illustrations
-
+{% block illustrations %}
 {% set src = "https://upload.wikimedia.org/wikipedia/commons/8/8d/Infraspinatus_muscle_animation.gif?20121120170804" %}
 {% set alt = "Infraspinatus muscle animation" %}
 {% set caption = "Anatomography, CC BY-SA 2.1 JP, via Wikimedia Commons" %}
@@ -22,11 +18,9 @@
     src=src,
     alt=alt
 ) }}
+{% endblock %}
 
-{{translations('infraspinatus')}}
-
-## References
-
+{% block references %}
 - {{ linktitle('glenohumeral-joint') }}
 - {{ linktitle('rotator-cuff') }}
 - {{ linktitle('gf') }}, 160.
@@ -38,3 +32,4 @@
     - Left shoulder flexion with external rotation.
   - 114-115, 126, 132, 138, 252 TODO
 - [Wikipedia](https://en.wikipedia.org/wiki/Infraspinatus_muscle)
+{% endblock %}

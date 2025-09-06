@@ -1,9 +1,6 @@
-{% from "src/templates/macros.jinja" import summary, figure %}
+{% extends "src/templates/muscle.jinja" %}
 
-{{summary("brc")}}
-
-## Illustrations
-
+{% block illustrations %}
 {% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Brachialis_muscle11.png/512px-Brachialis_muscle11.png?20130728101800" %}
 {% set alt = "Brachialis muscle11" %}
 {% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Brachialis_muscle11.png'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
@@ -15,8 +12,9 @@
     href=href,
     width=512
 ) }}
+{% endblock %}
 
-## References
-
+{% block references %}
 - [Wikipedia](https://en.wikipedia.org/wiki/Brachialis_muscle)
 - {{ linktitle('gf') }}, 166-67
+{% endblock %}

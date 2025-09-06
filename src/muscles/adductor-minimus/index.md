@@ -1,12 +1,12 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% extends "src/templates/muscle.jinja" %}
 
-{{summary("adductor-minimus")}}
-
+{% block intro %}
 The **adductor minimus** is the uppermost part of the
 {{ link('adductor-magnus') }}. It crosses from the
 {{ linkicon('pelvis') }} to the {{ linkicon('femur') }} to assist in adduction
 and lateral rotation.
+{% endblock %}
 
-## References
-
+{% block references %}
 * [Wikipedia](https://en.wikipedia.org/wiki/Adductor_minimus_muscle)
+{% endblock %}

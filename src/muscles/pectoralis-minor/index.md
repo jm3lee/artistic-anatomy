@@ -1,7 +1,5 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% extends "src/templates/muscle.jinja" %}
 
-{{summary("pecmin")}}
-
-## References
-
+{% block references %}
 - {{ linktitle('scapula') }}
+{% endblock %}
