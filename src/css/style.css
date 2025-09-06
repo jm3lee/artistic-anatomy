@@ -232,7 +232,7 @@ main figure {
   max-width: 100%;
   margin: 0 auto 2rem;
   text-align: center;
-  width: fit-content;
+  display: table;
 }
 
 main figure img {
