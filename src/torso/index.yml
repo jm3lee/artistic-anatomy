@@ -3,3 +3,5 @@ id: torso
 url: /torso/
 author: Brian Lee
 description: Collection of pages tagged torso across bones and muscles
+indextree:
+  include-js: True

@@ -10,3 +10,5 @@ breadcrumbs:
     url: /
   - title: Landmarks
 url: /landmarks/
+indextree:
+  include-js: True

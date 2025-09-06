@@ -3,3 +3,5 @@ id: tendons
 status: Review Pending
 title: Tendons
 url: /tendons/
+indextree:
+  include-js: True

@@ -4,4 +4,3 @@ force transfer.
 
 <div id="movements-indextree" class="indextree-root"
      data-src="/static/index/movements-indextree.json"></div>
-<script type="module" src="/static/js/indextree.js" defer></script>
