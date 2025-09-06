@@ -16,6 +16,7 @@
     - prefer multi-line blocks (`|` or `<`) over long quoted strings
     - ensure that strings are quoted correctly and parseable
     - jinja macros must be quoted using a single quote. For example `'{{ linktitle("id") }}'`.
+    - use a human-friendly format for `!!omap`
 - When editing math, always use `$` and `$$` instead of `\( \)` or `\[ \]`.
 - When editing markdown, escape single dollar signs used to mean "dollars."
 - When writing software documentation, write as an expert software engineer.
