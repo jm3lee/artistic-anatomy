@@ -33,13 +33,11 @@ breadcrumbs:
 - title: Bones
   url: /bones/
 - title: Clavicle
-description: 'The clavicle is a slender S-shaped bone connecting the sternum and {{
-  linktitle(''scapula'') }} to brace the shoulder.
-
-  '
+description: The clavicle is a slender S-shaped bone connecting the sternum and scapula
+  to brace the shoulder.
 doc:
   author: Brian Lee
-  pubdate: Aug 25, 2025
+  pubdate: Sep 07, 2025
   title: Clavicle
 icon: ':bone:'
 id: clavicle
