@@ -70,17 +70,22 @@ CSS := $(patsubst $(SRC_DIR)/css/%.css,$(BUILD_DIR)/css/%.css, $(CSS_SRC))
 # Nginx permalink redirect configuration
 PERMALINKS_CONF := $(BUILD_DIR)/permalinks.conf
 
+START_TIME := $(shell date +%s)
+
 # Define the default target to build everything
 .PHONY: everything
 everything: | $(BUILD_DIR) $(BUILD_SUBDIRS)
-	$(Q)START_TIME=$$(date +%s); export START_TIME
 	$(call status,Updating author)
 	$(Q)update-author --sort-keys
 	$(call status,Updating pubdate)
 	$(Q)update-pubdate --sort-keys
 	$(Q)$(MAKE) -s $(BUILD_DIR)/.update-index VERBOSE=$(VERBOSE)
 	$(Q)$(MAKE) -s all VERBOSE=$(VERBOSE)
-	$(Q)END_TIME=$$(date +%s); ELAPSED=$$((END_TIME - START_TIME)); echo "==> Total execution time: $$ELAPSED seconds"
+	$(Q)END_TIME=$$(date +%s); \
+	ELAPSED=$$((END_TIME - $(START_TIME))); \
+	MIN=$$((ELAPSED / 60)); \
+	SEC=$$((ELAPSED % 60)); \
+	printf "==> Total execution time: %dm %ds\n" $$MIN $$SEC
 
 all: $(HTMLS)
 all: $(CSS)
