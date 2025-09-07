@@ -5,8 +5,10 @@ breadcrumbs:
 description: Catalog of muscles with links to individual pages
 doc:
   author: Brian Lee
-  pubdate: Sep 06, 2025
+  pubdate: Sep 07, 2025
   title: Muscles
+header_includes:
+- <script type="module" src="/static/js/indextree.js" defer></script>
 id: muscles
 indextree:
   include-js: true
