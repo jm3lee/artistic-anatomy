@@ -1,10 +1,16 @@
-description: Movements are the cash flow of anatomy. Start with [Muscles](/muscles/)
-  and [Tendons](/tendons/) to see how structures drive motion. Review [Head](/head/)
-  for context.
+breadcrumbs:
+- title: Home
+  url: /
+- title: Movements
+description: Catalog of movements with links to individual pages
 doc:
   author: Brian Lee
+  pubdate: Sep 07, 2025
   title: Movements
+header_includes:
+- <script type="module" src="/static/js/indextree.js" defer></script>
 id: movements
 indextree:
   include-js: true
+status: Review Pending
 url: /movements/

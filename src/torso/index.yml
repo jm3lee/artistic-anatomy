@@ -1,8 +1,16 @@
-description: Collection of pages tagged torso across bones and muscles
+breadcrumbs:
+- title: Home
+  url: /
+- title: Torso
+description: Catalog of torso anatomy with links to individual pages
 doc:
   author: Brian Lee
+  pubdate: Sep 07, 2025
   title: Torso
+header_includes:
+- <script type="module" src="/static/js/indextree.js" defer></script>
 id: torso
 indextree:
   include-js: true
+status: Review Pending
 url: /torso/
