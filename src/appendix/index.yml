@@ -2,11 +2,13 @@ breadcrumbs:
 - title: Home
   url: /
 - title: Appendix
-description: Supplemental materials to support your anatomy practice. Explore [Bones](/bones/)
-  and [Muscles](/muscles/) for core structures.
+description: Catalog of supplemental resources with links to individual pages
 doc:
   author: Brian Lee
+  pubdate: Sep 07, 2025
   title: Appendix
+header_includes:
+- <script type="module" src="/static/js/indextree.js" defer></script>
 id: appendix
 indextree:
   include-js: true

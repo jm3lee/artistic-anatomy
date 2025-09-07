@@ -2,11 +2,13 @@ breadcrumbs:
 - title: Home
   url: /
 - title: Books
-description: Reviews and notes on anatomy books for artists. For online resources,
-  visit [Resources](/resources/).
+description: Catalog of anatomy books with links to individual pages
 doc:
   author: Brian Lee
+  pubdate: Sep 07, 2025
   title: Books
+header_includes:
+- <script type="module" src="/static/js/indextree.js" defer></script>
 id: books
 indextree:
   include-js: true
