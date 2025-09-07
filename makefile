@@ -73,12 +73,14 @@ PERMALINKS_CONF := $(BUILD_DIR)/permalinks.conf
 # Define the default target to build everything
 .PHONY: everything
 everything: | $(BUILD_DIR) $(BUILD_SUBDIRS)
+	$(Q)START_TIME=$$(date +%s); export START_TIME
 	$(call status,Updating author)
 	$(Q)update-author --sort-keys
 	$(call status,Updating pubdate)
 	$(Q)update-pubdate --sort-keys
 	$(Q)$(MAKE) -s $(BUILD_DIR)/.update-index VERBOSE=$(VERBOSE)
 	$(Q)$(MAKE) -s all VERBOSE=$(VERBOSE)
+	$(Q)END_TIME=$$(date +%s); ELAPSED=$$((END_TIME - START_TIME)); echo "==> Total execution time: $$ELAPSED seconds"
 
 all: $(HTMLS)
 all: $(CSS)
@@ -105,6 +107,8 @@ $(BUILD_DIR)/.update-index: $(MARKDOWNS) $(YAMLS)
 $(BUILD_DIR)/.process-yamls: $(BUILD_YAMLS) | $(BUILD_DIR)
 	$(call status,Process YAML metadata)
 	$(Q)find $(BUILD_DIR) -name '*.yml' -print0 | xargs -0 process-yaml
+	$(call status,Updating Redis Index)
+	$(Q)update-index --host $(REDIS_HOST) --port $(REDIS_PORT) build
 	$(Q)touch $@
 
 # Target to minify HTML and CSS files
@@ -142,7 +146,7 @@ $(BUILD_DIR)/css/%.css: $(SRC_DIR)/css/%.css | $(BUILD_DIR)/css
 # See docs/guides/preprocess.md for preprocessing details
 $(BUILD_DIR)/%.md: %.md | $(BUILD_DIR)
 	$(call status,Preprocess $<)
-	$(Q)preprocess $<
+	$(Q)cp $< $@
 
 # Generate HTML from processed Markdown using render-html
 $(BUILD_DIR)/%.html: $(BUILD_DIR)/%.md $(BUILD_DIR)/%.yml $(HTML_TEMPLATE) $(BUILD_DIR)/.process-yamls | $(BUILD_DIR)

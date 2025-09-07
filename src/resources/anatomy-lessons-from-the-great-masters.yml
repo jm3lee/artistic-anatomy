@@ -4,11 +4,11 @@ breadcrumbs:
 - title: Resources
   url: /resources/
 - title: Anatomy Lessons from the Great Masters
-citation: Hale and Coyle 1977
 description: Overview of Anatomy Lessons from the Great Masters.
 doc:
   author: Brian Lee
-  pubdate: May 21, 2025
+  citation: Hale and Coyle 1977
+  pubdate: Sep 07, 2025
   title: Anatomy Lessons from the Great Masters
 id: hc77
 toc: false

@@ -2,11 +2,11 @@ breadcrumbs:
 - title: Home
   url: /
 - title: Table of Contents
-citation: table of contents
 description: Overview of Table of Contents.
 doc:
   author: Brian Lee
-  pubdate: Aug 25, 2025
+  citation: table of contents
+  pubdate: Sep 07, 2025
   title: Table of Contents
 id: toc
 indextree:

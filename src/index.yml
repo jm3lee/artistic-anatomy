@@ -2,11 +2,11 @@ breadcrumbs:
 - title: Home
   url: /
 - title: Welcome to Artistic Anatomy Book!
-citation: home
 description: Overview of Welcome to Artistic Anatomy Book!.
 doc:
   author: Brian Lee
-  pubdate: Aug 25, 2025
+  citation: home
+  pubdate: Sep 07, 2025
   title: Welcome to Artistic Anatomy Book!
 id: home
 url: /

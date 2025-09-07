@@ -4,10 +4,11 @@ breadcrumbs:
 - title: Head
   url: /head/
 - title: Supraorbital Ridge
-citation: supraorbital ridge
 description: Overview of Supraorbital Ridge.
 doc:
   author: Brian Lee
+  citation: supraorbital ridge
+  pubdate: Sep 07, 2025
   title: Supraorbital Ridge
 id: supraorbital-ridge
 status: Review Pending
