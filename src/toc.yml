@@ -13,3 +13,5 @@ indextree:
   include-js: true
 toc: false
 url: /toc.html
+header_includes:
+- <script type="module" src="/static/js/indextree.js" defer></script>

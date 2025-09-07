@@ -1,9 +1,5 @@
-<style>
-ul {
-  list-style: none;
-}
-</style>
-
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 ## Background
 
 <div id="background-indextree" class="indextree-root" data-src="/static/index/background-indextree.json"></div>
@@ -43,4 +39,4 @@ ul {
 ## Resources
 
 <div id="resources-indextree" class="indextree-root" data-src="/static/index/resources-indextree.json"></div>
-
+{% endblock %}
