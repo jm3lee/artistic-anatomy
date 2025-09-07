@@ -1,8 +1,3 @@
-title: richer100
-author: Brian Lee
-id: richer100
-description: Overview of richer100.
-url: /resources/richer/richer100.html
 breadcrumbs:
 - title: Home
   url: /
@@ -11,3 +6,9 @@ breadcrumbs:
 - title: Richer
   url: /resources/richer/
 - title: richer100
+description: Overview of richer100.
+doc:
+  author: Brian Lee
+  title: richer100
+id: richer100
+url: /resources/richer/richer100.html

@@ -1,12 +1,13 @@
-author: Brian Lee
-id: zygomatic-arch
-status: Review Pending
-title: Zygomatic Arch
-description: Overview of Zygomatic Arch.
-url: /head/zygomatic-arch.html
 breadcrumbs:
 - title: Home
   url: /
 - title: Head
   url: /head/
 - title: Zygomatic Arch
+description: Overview of Zygomatic Arch.
+doc:
+  author: Brian Lee
+  title: Zygomatic Arch
+id: zygomatic-arch
+status: Review Pending
+url: /head/zygomatic-arch.html

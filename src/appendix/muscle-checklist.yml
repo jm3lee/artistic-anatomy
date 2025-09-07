@@ -1,11 +1,12 @@
-title: Muscle Checklist
-author: Brian Lee
-id: muscle-checklist
-description: Overview of Muscle Checklist.
-url: /appendix/muscle-checklist.html
 breadcrumbs:
 - title: Home
   url: /
 - title: Appendix
   url: /appendix/
 - title: Muscle Checklist
+description: Overview of Muscle Checklist.
+doc:
+  author: Brian Lee
+  title: Muscle Checklist
+id: muscle-checklist
+url: /appendix/muscle-checklist.html

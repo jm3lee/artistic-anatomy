@@ -1,13 +1,14 @@
-author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Bones
+  url: /bones/
+- title: Pelvis
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Pelvis
 icon: ':bone:'
 id: pelvis
-pubdate: Aug 25, 2025
 status: Review Pending
-title: Pelvis
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Bones
-    url: /bones/
-  - title: Pelvis
 url: /bones/pelvis/

@@ -1,11 +1,12 @@
-title: Warm Areas
-author: Brian Lee
-id: warm-areas
-description: Overview of Warm Areas.
-url: /appendix/warm-areas.html
 breadcrumbs:
 - title: Home
   url: /
 - title: Appendix
   url: /appendix/
 - title: Warm Areas
+description: Overview of Warm Areas.
+doc:
+  author: Brian Lee
+  title: Warm Areas
+id: warm-areas
+url: /appendix/warm-areas.html

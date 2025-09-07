@@ -1,8 +1,3 @@
-title: Hammer Curl
-author: Brian Lee
-id: hammer-curl
-description: Overview of Hammer Curl.
-url: /appendix/weight-training/hammer-curl.html
 breadcrumbs:
 - title: Home
   url: /
@@ -11,3 +6,9 @@ breadcrumbs:
 - title: Weight Training
   url: /appendix/weight-training/
 - title: Hammer Curl
+description: Overview of Hammer Curl.
+doc:
+  author: Brian Lee
+  title: Hammer Curl
+id: hammer-curl
+url: /appendix/weight-training/hammer-curl.html

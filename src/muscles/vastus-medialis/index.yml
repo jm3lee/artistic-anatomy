@@ -1,13 +1,14 @@
-author: Brian Lee
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Vastus Medialis
-url: /muscles/vastus-medialis/
-id: vastus-medialis
-description: Overview of Vastus Medialis.
 breadcrumbs:
 - title: Home
   url: /
 - title: Muscles
   url: /muscles/
 - title: Vastus Medialis
+description: Overview of Vastus Medialis.
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Vastus Medialis
+id: vastus-medialis
+status: Review Pending
+url: /muscles/vastus-medialis/

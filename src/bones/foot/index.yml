@@ -1,13 +1,14 @@
-author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Bones
+  url: /bones/
+- title: Foot
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Foot
 icon: ':bone:'
 id: foot
-pubdate: Aug 25, 2025
 status: Review Pending
-title: Foot
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Bones
-    url: /bones/
-  - title: Foot
 url: /bones/foot/

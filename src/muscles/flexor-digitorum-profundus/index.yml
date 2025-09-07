@@ -1,16 +1,24 @@
-anatomy: !!omap [{actions: [Flexes digits two through five at the distal interphalangeal
-        joints, Assists with wrist flexion]}, {insertions: [Bases of the distal phalanges
-        of digits two through five]}, {origins: ['Proximal three-fourths of anterior
-        and medial {{ link("ulna") }}', Adjacent interosseous membrane]}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Flexes digits two through five at the distal interphalangeal joints
+  - Assists with wrist flexion
+- insertions:
+  - Bases of the distal phalanges of digits two through five
+- origins:
+  - Proximal three-fourths of anterior and medial {{ link("ulna") }}
+  - Adjacent interosseous membrane
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Flexor Digitorum Profundus}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Flexor Digitorum Profundus
 description: Overview of Flexor Digitorum Profundus.
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Flexor Digitorum Profundus
 icon: ':muscle:'
 id: flexor-digitorum-profundus
-pubdate: Sep 04, 2025
 status: Review Pending
-title: Flexor Digitorum Profundus
 url: /muscles/flexor-digitorum-profundus/

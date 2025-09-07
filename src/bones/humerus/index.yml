@@ -1,50 +1,57 @@
 anatomy:
   bony_landmarks:
-  - name: 'Head of the Humerus {{ anchor("head-of-humerus") }}'
-    desc: >
-      The rounded, proximal articular surface that fits into the glenoid
-      cavity of the {{ linktitle("scapula") }}, forming the glenohumeral
-      (shoulder) joint.
-  - name: 'Anatomical Neck {{ anchor("anatomical-neck") }}'
-    desc: >
-      The slight constriction immediately distal to the head, marking the
-      site of the epiphyseal plate in development and serving as the
-      attachment for the joint capsule.
-  - name: 'Surgical Neck {{ anchor("surgical-neck") }}'
-    desc: >
-      The narrower region distal to the tubercles; a common fracture site.
-  - name: 'Greater Tubercle {{ anchor("greater-tubercle") }}'
-    desc: >
-      A large, lateral projection just distal to the head that provides
-      attachment for the {{ linktitle("supraspinatus") }},
-      {{ linktitle("infraspinatus") }}, and {{ linktitle("teres-minor") }}
-      muscles.
-  - name: 'Radial (Spiral) Groove {{ anchor("radial-spiral-groove") }}'
-    desc: >
-      A shallow groove running obliquely down the posterior shaft,
-      transmitting the radial nerve and deep brachial artery.
-  - name: 'Nutrient (Oblique) Foramen {{ anchor("nutrient-foramen") }}'
-    desc: >
-      A small opening on the anteromedial shaft that allows nutrient
-      vessels to enter the bone.
-  - name: 'Medial Epicondyle {{ anchor("medial-epicondyle") }}'
-    desc: >
-      A prominent projection on the distal medial side, providing origin
-      for the common flexor tendon (flexor-pronator muscles) and
-      attachment of the ulnar collateral ligament of the elbow.
-  - name: 'Lateral Epicondyle {{ anchor("lateral-epicondyle") }}'
-    desc: >
-      A smaller lateral projection that gives origin to the common
-      extensor tendon (extensor-supinator muscles) and attachment for the
-      radial collateral ligament.
-  - name: 'Capitulum {{ anchor("capitulum") }}'
-    desc: >
-      A rounded eminence on the anterior, distal lateral humerus that
-      articulates with the head of the {{ linktitle("radius") }}.
-  - name: 'Trochlea {{ anchor("trochlea") }}'
-    desc: >
-      A spool-shaped medial projection on the anterior distal humerus that
-      articulates with the trochlear notch of the {{ linktitle("ulna") }}.
+  - desc: 'The rounded, proximal articular surface that fits into the glenoid cavity
+      of the {{ linktitle("scapula") }}, forming the glenohumeral (shoulder) joint.
+
+      '
+    name: Head of the Humerus {{ anchor("head-of-humerus") }}
+  - desc: 'The slight constriction immediately distal to the head, marking the site
+      of the epiphyseal plate in development and serving as the attachment for the
+      joint capsule.
+
+      '
+    name: Anatomical Neck {{ anchor("anatomical-neck") }}
+  - desc: 'The narrower region distal to the tubercles; a common fracture site.
+
+      '
+    name: Surgical Neck {{ anchor("surgical-neck") }}
+  - desc: 'A large, lateral projection just distal to the head that provides attachment
+      for the {{ linktitle("supraspinatus") }}, {{ linktitle("infraspinatus") }},
+      and {{ linktitle("teres-minor") }} muscles.
+
+      '
+    name: Greater Tubercle {{ anchor("greater-tubercle") }}
+  - desc: 'A shallow groove running obliquely down the posterior shaft, transmitting
+      the radial nerve and deep brachial artery.
+
+      '
+    name: Radial (Spiral) Groove {{ anchor("radial-spiral-groove") }}
+  - desc: 'A small opening on the anteromedial shaft that allows nutrient vessels
+      to enter the bone.
+
+      '
+    name: Nutrient (Oblique) Foramen {{ anchor("nutrient-foramen") }}
+  - desc: 'A prominent projection on the distal medial side, providing origin for
+      the common flexor tendon (flexor-pronator muscles) and attachment of the ulnar
+      collateral ligament of the elbow.
+
+      '
+    name: Medial Epicondyle {{ anchor("medial-epicondyle") }}
+  - desc: 'A smaller lateral projection that gives origin to the common extensor tendon
+      (extensor-supinator muscles) and attachment for the radial collateral ligament.
+
+      '
+    name: Lateral Epicondyle {{ anchor("lateral-epicondyle") }}
+  - desc: 'A rounded eminence on the anterior, distal lateral humerus that articulates
+      with the head of the {{ linktitle("radius") }}.
+
+      '
+    name: Capitulum {{ anchor("capitulum") }}
+  - desc: 'A spool-shaped medial projection on the anterior distal humerus that articulates
+      with the trochlear notch of the {{ linktitle("ulna") }}.
+
+      '
+    name: Trochlea {{ anchor("trochlea") }}
   insertions:
   - muscles:
     - '{{ linktitle("infraspinatus") }}'
@@ -93,12 +100,19 @@ anatomy:
   - muscles:
     - '{{ linktitle("trc") }} (long head)'
     name: Infraglenoid Tubercle
-author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Bones
+  url: /bones/
+- title: Humerus
+doc:
+  author: Brian Lee
+  pubdate: Aug 27, 2025
+  title: Humerus
 icon: ':bone:'
 id: humerus
-pubdate: Aug 27, 2025
 status: More Review Required
-title: Humerus
 translations:
   french:
     Deltoid Tuberosity: tubérosité deltoïdienne
@@ -120,10 +134,4 @@ translations:
     Lesser Tubercle: малый бугорок
     Medial Epicondyle: медиальный надмыщелок
     Radial (Spiral) Groove: спиральная борозда
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Bones
-    url: /bones/
-  - title: Humerus
 url: /bones/humerus/

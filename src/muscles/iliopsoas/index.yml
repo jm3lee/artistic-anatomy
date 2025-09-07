@@ -1,12 +1,13 @@
-author: Brian Lee
-status: Review Pending
-title: Iliopsoas
-id: iliopsoas
-description: Overview of Iliopsoas.
-url: /muscles/iliopsoas/
 breadcrumbs:
 - title: Home
   url: /
 - title: Muscles
   url: /muscles/
 - title: Iliopsoas
+description: Overview of Iliopsoas.
+doc:
+  author: Brian Lee
+  title: Iliopsoas
+id: iliopsoas
+status: Review Pending
+url: /muscles/iliopsoas/

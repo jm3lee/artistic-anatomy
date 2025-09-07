@@ -1,12 +1,13 @@
-title: Tendon vs. Ligament
-author: Brian Lee
-id: tendon-vs-ligament
-citation: tendon vs. ligament
-description: Overview of Tendon vs. Ligament.
-url: /background/tendon-vs-ligament.html
 breadcrumbs:
 - title: Home
   url: /
 - title: Background
   url: /background/
 - title: Tendon vs. Ligament
+citation: tendon vs. ligament
+description: Overview of Tendon vs. Ligament.
+doc:
+  author: Brian Lee
+  title: Tendon vs. Ligament
+id: tendon-vs-ligament
+url: /background/tendon-vs-ligament.html

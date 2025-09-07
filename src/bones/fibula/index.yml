@@ -1,43 +1,49 @@
-author: Brian Lee
-icon: ':bone:'
-id: fibula
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Fibula
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Bones
-    url: /bones/
-  - title: Fibula
-url: /bones/fibula/
-description: >
-  The fibula is a slender lateral leg bone running parallel to the tibia and
-  forming the outer ankle while serving as an anchor for muscles.
 anatomy:
   bony_landmarks:
-  - name: 'Head {{ anchor("head") }}'
-    desc: >
-      Rounded proximal end articulating with the {{ linkicon('tibia') }}.
-  - name: 'Neck {{ anchor("neck") }}'
-    desc: >
-      Narrow region just distal to the head.
-  - name: 'Shaft {{ anchor("shaft") }}'
-    desc: >
-      Long, thin body of the bone.
-  - name: 'Lateral malleolus {{ anchor("lateral-malleolus") }}'
-    desc: >
-      Distal projection forming the outer ankle and attachment point for the
+  - desc: 'Rounded proximal end articulating with the {{ linkicon(''tibia'') }}.
+
+      '
+    name: Head {{ anchor("head") }}
+  - desc: 'Narrow region just distal to the head.
+
+      '
+    name: Neck {{ anchor("neck") }}
+  - desc: 'Long, thin body of the bone.
+
+      '
+    name: Shaft {{ anchor("shaft") }}
+  - desc: 'Distal projection forming the outer ankle and attachment point for the
       fibular collateral ligament.
+
+      '
+    name: Lateral malleolus {{ anchor("lateral-malleolus") }}
+  insertions:
+  - muscles:
+    - '{{ linktitle("bfem") }}'
+    name: Head of fibula
   origins:
-  - name: 'Proximal lateral fibula'
-    muscles:
+  - muscles:
     - '{{ linktitle("fibularis-longus") }}'
     - '{{ linktitle("fibularis-brevis") }}'
-  - name: 'Posterior proximal fibula'
-    muscles:
+    name: Proximal lateral fibula
+  - muscles:
     - '{{ linktitle("soleus") }}'
-  insertions:
-  - name: Head of fibula
-    muscles:
-    - '{{ linktitle("bfem") }}'
+    name: Posterior proximal fibula
+breadcrumbs:
+- title: Home
+  url: /
+- title: Bones
+  url: /bones/
+- title: Fibula
+description: 'The fibula is a slender lateral leg bone running parallel to the tibia
+  and forming the outer ankle while serving as an anchor for muscles.
+
+  '
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Fibula
+icon: ':bone:'
+id: fibula
+status: Review Pending
+url: /bones/fibula/

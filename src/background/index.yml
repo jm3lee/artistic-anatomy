@@ -1,9 +1,10 @@
-title: Background
-author: Brian Lee
-id: background
-description: Overview of Background.
-url: /background/
 breadcrumbs:
 - title: Home
   url: /
 - title: Background
+description: Overview of Background.
+doc:
+  author: Brian Lee
+  title: Background
+id: background
+url: /background/

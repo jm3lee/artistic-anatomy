@@ -18,7 +18,8 @@ anatomy:
     - Popliteus
     name: Lateral condyle / posterior lateral tibia
   - muscles:
-    - '{{ linktitle("tibialis-anterior") }} (distally on medial cuneiform & base of 1st metatarsal)'
+    - '{{ linktitle("tibialis-anterior") }} (distally on medial cuneiform & base of
+      1st metatarsal)'
     name: Shaft (anteromedial surface, distal third)
   origins:
   - muscles:
@@ -34,16 +35,17 @@ anatomy:
   - muscles:
     - Tibialis posterior
     name: Posterior surface & interosseous membrane (distal two-thirds)
-author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Bones
+  url: /bones/
+- title: Tibia
+doc:
+  author: Brian Lee
+  pubdate: Aug 27, 2025
+  title: Tibia
 icon: ':bone:'
 id: tibia
-pubdate: Aug 27, 2025
 status: Review Pending
-title: Tibia
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Bones
-    url: /bones/
-  - title: Tibia
 url: /bones/tibia/

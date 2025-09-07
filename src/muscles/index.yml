@@ -1,13 +1,14 @@
-author: Brian Lee
 breadcrumbs:
 - title: Home
   url: /
 - title: Muscles
 description: Catalog of muscles with links to individual pages
+doc:
+  author: Brian Lee
+  pubdate: Sep 06, 2025
+  title: Muscles
 id: muscles
-pubdate: Sep 06, 2025
-status: Review Pending
-title: Muscles
-url: /muscles/
 indextree:
-  include-js: True
+  include-js: true
+status: Review Pending
+url: /muscles/

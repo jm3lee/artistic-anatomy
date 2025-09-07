@@ -1,16 +1,17 @@
 anatomy:
   insertions:
-  - name: Acromion process
-    muscles:
+  - muscles:
     - '{{ linktitle("trz") }}'
+    name: Acromion process
   origins:
   - '{{ linktitle("dt") }}'
-author: Brian Lee
+doc:
+  author: Brian Lee
+  pubdate: Aug 27, 2025
+  title: Acromion Process
 icon: ':round_pushpin:'
 id: acromion-process
-pubdate: Aug 27, 2025
 status: Reviewed
 tags:
 - landmark
-title: Acromion Process
 url: /bones/scapula/acromion-process.html

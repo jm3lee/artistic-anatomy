@@ -1,18 +1,29 @@
-anatomy: !!omap [{actions: [Flexes the shoulder (especially the clavicular head),
-      Adducts the shoulder, Medially rotates the shoulder, Assists in extending the
-        shoulder from a flexed position (sternal head)]}, {insertions: ['Crest of
-        the greater tubercle of the humerus (lateral lip of {{ linkicon("bicipital-groove")
-        }})']}, {origins: ['Medial half of {{ linkicon("clavicle") }}', '{{ linktitle("sternum")
-        }}', Costal cartilages of ribs 1-6 (sometimes 1-7)]}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Flexes the shoulder (especially the clavicular head)
+  - Adducts the shoulder
+  - Medially rotates the shoulder
+  - Assists in extending the shoulder from a flexed position (sternal head)
+- insertions:
+  - Crest of the greater tubercle of the humerus (lateral lip of {{ linkicon("bicipital-groove")
+    }})
+- origins:
+  - Medial half of {{ linkicon("clavicle") }}
+  - '{{ linktitle("sternum") }}'
+  - Costal cartilages of ribs 1-6 (sometimes 1-7)
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Pectoralis Major}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Pectoralis Major
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Pectoralis Major
 icon: ':muscle:'
 id: pecmaj
-pubdate: Sep 04, 2025
 status: Reviewed
-tags: [torso]
-title: Pectoralis Major
+tags:
+- torso
 url: /muscles/pectoralis-major/

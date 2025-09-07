@@ -1,17 +1,28 @@
-anatomy: !!omap [{actions: [Everts the foot, Plantarflexes the ankle, 'Supports the
-        arch with {{ linktitle("tibialis-anterior") }}']}, {insertions: [Medial cuneiform,
-      Base of the first metatarsal]}, {origins: ['Head and upper lateral surface of
-        {{ linkicon("fibula") }}']}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Everts the foot
+  - Plantarflexes the ankle
+  - Supports the arch with {{ linktitle("tibialis-anterior") }}
+- insertions:
+  - Medial cuneiform
+  - Base of the first metatarsal
+- origins:
+  - Head and upper lateral surface of {{ linkicon("fibula") }}
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Fibularis Longus}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Fibularis Longus
 description: Overview of Fibularis Longus.
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Fibularis Longus
 icon: ':muscle:'
 id: fibularis-longus
-pubdate: Sep 04, 2025
 status: Review Pending
-title: Fibularis Longus
-translations: {french: long fibulaire, russian: длинная малоберцовая мышца}
+translations:
+  french: long fibulaire
+  russian: длинная малоберцовая мышца
 url: /muscles/fibularis-longus/

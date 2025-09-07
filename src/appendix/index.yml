@@ -1,14 +1,14 @@
-author: Brian Lee
-description: >-
-  Supplemental materials to support your anatomy practice. Explore
-  [Bones](/bones/) and [Muscles](/muscles/) for core structures.
-id: appendix
-status: Review Pending
-title: Appendix
 breadcrumbs:
-  - title: Home
-    url: /
-  - title: Appendix
-url: /appendix/
+- title: Home
+  url: /
+- title: Appendix
+description: Supplemental materials to support your anatomy practice. Explore [Bones](/bones/)
+  and [Muscles](/muscles/) for core structures.
+doc:
+  author: Brian Lee
+  title: Appendix
+id: appendix
 indextree:
-  include-js: True
+  include-js: true
+status: Review Pending
+url: /appendix/

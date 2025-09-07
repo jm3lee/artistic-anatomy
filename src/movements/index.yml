@@ -1,10 +1,10 @@
-title: Movements
-id: movements
-url: /movements/
-author: Brian Lee
-description: >-
-  Movements are the cash flow of anatomy. Start with [Muscles](/muscles/) and
-  [Tendons](/tendons/) to see how structures drive motion. Review [Head](/head/)
+description: Movements are the cash flow of anatomy. Start with [Muscles](/muscles/)
+  and [Tendons](/tendons/) to see how structures drive motion. Review [Head](/head/)
   for context.
+doc:
+  author: Brian Lee
+  title: Movements
+id: movements
 indextree:
-  include-js: True
+  include-js: true
+url: /movements/

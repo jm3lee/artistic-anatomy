@@ -1,15 +1,24 @@
-anatomy: !!omap [{actions: [Flexes the knee, Extends the hip (long head), Laterally
-        rotates the leg when the knee is flexed]}, {insertions: ['Head of the {{ linkicon("fibula")
-        }}']}, {origins: ['Long head: Ischial tuberosity of the {{ linkicon("pelvis")
-        }}', 'Short head: Linea aspera of the {{ linkicon("femur") }}']}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Flexes the knee
+  - Extends the hip (long head)
+  - Laterally rotates the leg when the knee is flexed
+- insertions:
+  - Head of the {{ linkicon("fibula") }}
+- origins:
+  - 'Long head: Ischial tuberosity of the {{ linkicon("pelvis") }}'
+  - 'Short head: Linea aspera of the {{ linkicon("femur") }}'
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Biceps Femoris}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Biceps Femoris
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Biceps Femoris
 icon: ':muscle:'
 id: bfem
-pubdate: Sep 04, 2025
 status: Reviewed
-title: Biceps Femoris
 url: /muscles/biceps-femoris/

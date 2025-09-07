@@ -1,11 +1,12 @@
-title: Art Models
-author: Brian Lee
-id: artmodels
-description: Overview of Art Models.
-url: /resources/artmodels.html
 breadcrumbs:
 - title: Home
   url: /
 - title: Resources
   url: /resources/
 - title: Art Models
+description: Overview of Art Models.
+doc:
+  author: Brian Lee
+  title: Art Models
+id: artmodels
+url: /resources/artmodels.html

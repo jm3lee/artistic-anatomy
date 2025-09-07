@@ -1,16 +1,23 @@
-anatomy: !!omap [{actions: ['Thigh {{ linkicon("adduction") }}', 'Assists hip {{ linkicon("extension")
-        }}']}, {insertions: ['Linea aspera and adductor tubercle of {{ linkicon("femur")
-        }}']}, {origins: ['Inferior ramus of {{ linkicon("pelvis") }} and ischial
-        tuberosity']}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Thigh {{ linkicon("adduction") }}
+  - Assists hip {{ linkicon("extension") }}
+- insertions:
+  - Linea aspera and adductor tubercle of {{ linkicon("femur") }}
+- origins:
+  - Inferior ramus of {{ linkicon("pelvis") }} and ischial tuberosity
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Adductor Magnus}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Adductor Magnus
 description: Broad triangular thigh muscle that adducts and extends the femur.
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Adductor Magnus
 icon: ':muscle:'
 id: adductor-magnus
-pubdate: Sep 04, 2025
 status: Review Pending
-title: Adductor Magnus
 url: /muscles/adductor-magnus/

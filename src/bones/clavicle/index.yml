@@ -1,41 +1,47 @@
-author: Brian Lee
-icon: ':bone:'
-id: clavicle
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Clavicle
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Bones
-    url: /bones/
-  - title: Clavicle
-url: /bones/clavicle
-description: >
-  The clavicle is a slender S-shaped bone connecting the sternum and
-  {{ linktitle('scapula') }} to brace the shoulder.
 anatomy:
   bony_landmarks:
-  - name: 'Sternal end {{ anchor("sternal-end") }}'
-    desc: >
-      Medial end that articulates with the sternum.
-  - name: 'Acromial end {{ anchor("acromial-end") }}'
-    desc: >
-      Lateral end that articulates with the {{ linkicon('scapula') }} at the
+  - desc: 'Medial end that articulates with the sternum.
+
+      '
+    name: Sternal end {{ anchor("sternal-end") }}
+  - desc: 'Lateral end that articulates with the {{ linkicon(''scapula'') }} at the
       acromioclavicular joint.
-  - name: 'Shaft {{ anchor("shaft") }}'
-    desc: >
-      The middle portion with a gentle S-curve.
-  - name: 'Deltoid tubercle {{ anchor("deltoid-tubercle") }}'
-    desc: >
-      Rough area on the lateral third for attachment of the
-      {{ linkicon('dt') }}.
+
+      '
+    name: Acromial end {{ anchor("acromial-end") }}
+  - desc: 'The middle portion with a gentle S-curve.
+
+      '
+    name: Shaft {{ anchor("shaft") }}
+  - desc: 'Rough area on the lateral third for attachment of the {{ linkicon(''dt'')
+      }}.
+
+      '
+    name: Deltoid tubercle {{ anchor("deltoid-tubercle") }}
   insertions:
-  - name: Medial clavicle
-    muscles:
+  - muscles:
     - '{{ linktitle("pecmaj") }}'
     - '{{ linktitle("scm") }}'
-  - name: Deltoid tubercle
-    muscles:
+    name: Medial clavicle
+  - muscles:
     - '{{ linktitle("dt") }}'
     - '{{ linktitle("trz") }}'
+    name: Deltoid tubercle
+breadcrumbs:
+- title: Home
+  url: /
+- title: Bones
+  url: /bones/
+- title: Clavicle
+description: 'The clavicle is a slender S-shaped bone connecting the sternum and {{
+  linktitle(''scapula'') }} to brace the shoulder.
+
+  '
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Clavicle
+icon: ':bone:'
+id: clavicle
+status: Review Pending
+url: /bones/clavicle

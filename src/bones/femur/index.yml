@@ -1,52 +1,57 @@
 anatomy:
   bony_landmarks:
-  - name: 'Greater trochanter {{ anchor("greater-trochanter") }}'
-    desc: >
-      Large lateral projection of the proximal femur; attachment site for
-      {{ linktitle('gmed') }}, {{ linktitle('gmin') }},
-      {{ linktitle('piriformis') }}, {{ linktitle('obturator-internus') }},
-      {{ linktitle('obturator-externus') }},
-      {{ linktitle('superior-gemellus') }}, and
-      {{ linktitle('inferior-gemellus') }}.
-  - name: 'Lesser trochanter {{ anchor("lesser-trochanter") }}'
-    desc: >
-      Posteromedial conical eminence below the neck; insertion point for
-      {{ linktitle('iliopsoas') }} (psoas major and iliacus).
-  - name: 'Intertrochanteric crest {{ anchor("intertrochanteric-crest") }}'
-    desc: >
-      Ridge connecting greater and lesser trochanters on the posterior femur;
-      the quadrate tubercle on this crest is where
-      {{ linktitle('quadratus-femoris') }} inserts.
-  - name: 'Gluteal tuberosity {{ anchor("gluteal-tuberosity") }}'
-    desc: >
-      Roughened area on the posterior shaft just distal to the greater
-      trochanter; insertion site for {{ linktitle('gmax') }}.
-  - name: 'Pectineal line {{ anchor("pectineal-line") }}'
-    desc: >
-      Oblique ridge running from the lesser trochanter toward the
-      {{ linktitle('linea-aspera') }}; attachment site for
-      {{ linktitle('pectineus') }}.
-  - name: 'Linea aspera {{ anchor("linea-aspera") }}'
-    desc: >
-      Vertical ridge on the posterior shaft with medial and lateral lips;
-      attachments for {{ linktitle('adductor-brevis') }},
-      {{ linktitle('adductor-longus') }}, the adductor part of
-      {{ linktitle('adductor-magnus') }}, and origins of
-      {{ linktitle('vastus-lateralis') }} and
-      {{ linktitle('vastus-medialis') }}.
-  - name: 'Adductor tubercle {{ anchor("adductor-tubercle") }}'
-    desc: >
-      Small elevation on the medial epicondyle; insertion site for the
-      hamstring part of {{ linktitle('adductor-magnus') }}.
-  - name: 'Medial condyle {{ anchor("medial-condyle") }}'
-    desc: >
-      Distal medial articular prominence; origin site for
-      {{ linktitle('gastrocnemius-medial-head') }}.
-  - name: 'Lateral condyle {{ anchor("lateral-condyle") }}'
-    desc: >
-      Distal lateral articular prominence; origin site for
-      {{ linktitle('gastrocnemius-lateral-head') }},
-      {{ linktitle('popliteus') }}, and {{ linktitle('plantaris') }}.
+  - desc: 'Large lateral projection of the proximal femur; attachment site for {{
+      linktitle(''gmed'') }}, {{ linktitle(''gmin'') }}, {{ linktitle(''piriformis'')
+      }}, {{ linktitle(''obturator-internus'') }}, {{ linktitle(''obturator-externus'')
+      }}, {{ linktitle(''superior-gemellus'') }}, and {{ linktitle(''inferior-gemellus'')
+      }}.
+
+      '
+    name: Greater trochanter {{ anchor("greater-trochanter") }}
+  - desc: 'Posteromedial conical eminence below the neck; insertion point for {{ linktitle(''iliopsoas'')
+      }} (psoas major and iliacus).
+
+      '
+    name: Lesser trochanter {{ anchor("lesser-trochanter") }}
+  - desc: 'Ridge connecting greater and lesser trochanters on the posterior femur;
+      the quadrate tubercle on this crest is where {{ linktitle(''quadratus-femoris'')
+      }} inserts.
+
+      '
+    name: Intertrochanteric crest {{ anchor("intertrochanteric-crest") }}
+  - desc: 'Roughened area on the posterior shaft just distal to the greater trochanter;
+      insertion site for {{ linktitle(''gmax'') }}.
+
+      '
+    name: Gluteal tuberosity {{ anchor("gluteal-tuberosity") }}
+  - desc: 'Oblique ridge running from the lesser trochanter toward the {{ linktitle(''linea-aspera'')
+      }}; attachment site for {{ linktitle(''pectineus'') }}.
+
+      '
+    name: Pectineal line {{ anchor("pectineal-line") }}
+  - desc: 'Vertical ridge on the posterior shaft with medial and lateral lips; attachments
+      for {{ linktitle(''adductor-brevis'') }}, {{ linktitle(''adductor-longus'')
+      }}, the adductor part of {{ linktitle(''adductor-magnus'') }}, and origins of
+      {{ linktitle(''vastus-lateralis'') }} and {{ linktitle(''vastus-medialis'')
+      }}.
+
+      '
+    name: Linea aspera {{ anchor("linea-aspera") }}
+  - desc: 'Small elevation on the medial epicondyle; insertion site for the hamstring
+      part of {{ linktitle(''adductor-magnus'') }}.
+
+      '
+    name: Adductor tubercle {{ anchor("adductor-tubercle") }}
+  - desc: 'Distal medial articular prominence; origin site for {{ linktitle(''gastrocnemius-medial-head'')
+      }}.
+
+      '
+    name: Medial condyle {{ anchor("medial-condyle") }}
+  - desc: 'Distal lateral articular prominence; origin site for {{ linktitle(''gastrocnemius-lateral-head'')
+      }}, {{ linktitle(''popliteus'') }}, and {{ linktitle(''plantaris'') }}.
+
+      '
+    name: Lateral condyle {{ anchor("lateral-condyle") }}
   insertions:
   - muscles:
     - '{{ linktitle("gmed") }}'
@@ -99,19 +104,21 @@ anatomy:
     - '{{ linktitle("popliteus") }}'
     - '{{ linktitle("plantaris") }} (origin just above lateral condyle)'
     name: Lateral condyle of femur
-author: Brian Lee
-description: >
-  The femur is the thigh bone and the body's longest, strongest bone
+breadcrumbs:
+- title: Home
+  url: /
+- title: Bones
+  url: /bones/
+- title: Femur
+description: 'The femur is the thigh bone and the body''s longest, strongest bone
   connecting the hip and knee joints.
+
+  '
+doc:
+  author: Brian Lee
+  pubdate: Aug 27, 2025
+  title: Femur
 icon: ':bone:'
 id: femur
-pubdate: Aug 27, 2025
 status: Review Pending
-title: Femur
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Bones
-    url: /bones/
-  - title: Femur
 url: /bones/femur/

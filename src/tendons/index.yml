@@ -1,7 +1,8 @@
-author: Brian Lee
+doc:
+  author: Brian Lee
+  title: Tendons
 id: tendons
-status: Review Pending
-title: Tendons
-url: /tendons/
 indextree:
-  include-js: True
+  include-js: true
+status: Review Pending
+url: /tendons/

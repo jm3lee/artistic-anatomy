@@ -1,13 +1,14 @@
-author: Brian Lee
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Gastrocnemius Medial Head
-url: /muscles/gastrocnemius-medial-head/
-id: gastrocnemius-medial-head
-description: Overview of Gastrocnemius Medial Head.
 breadcrumbs:
 - title: Home
   url: /
 - title: Muscles
   url: /muscles/
 - title: Gastrocnemius Medial Head
+description: Overview of Gastrocnemius Medial Head.
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Gastrocnemius Medial Head
+id: gastrocnemius-medial-head
+status: Review Pending
+url: /muscles/gastrocnemius-medial-head/

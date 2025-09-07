@@ -1,18 +1,30 @@
-anatomy: !!omap [{actions: [Extends the shoulder, Adducts the shoulder, Medially rotates
-        the shoulder]}, {insertions: ['{{ linktitle("humerus") }} and intertubercular
-        groove']}, {origins: ['Spinous processes of T6 to T12 {{ linkicon("thoracic-vertebrae")
-        }}', Last three or four ribs, Thoracolumbar fascia, Posterior iliac crest,
-      'Inferior angle of {{ linkicon("scapula") }}; see Variable Attachment to {{
-        link("inferior-angle-of-scapula") }}']}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Extends the shoulder
+  - Adducts the shoulder
+  - Medially rotates the shoulder
+- insertions:
+  - '{{ linktitle("humerus") }} and intertubercular groove'
+- origins:
+  - Spinous processes of T6 to T12 {{ linkicon("thoracic-vertebrae") }}
+  - Last three or four ribs
+  - Thoracolumbar fascia
+  - Posterior iliac crest
+  - Inferior angle of {{ linkicon("scapula") }}; see Variable Attachment to {{ link("inferior-angle-of-scapula")
+    }}
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Latissimus Dorsi}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Latissimus Dorsi
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Latissimus Dorsi
 icon: ':muscle:'
 id: ld
-pubdate: Sep 04, 2025
 status: Reviewed
-tags: [torso]
-title: Latissimus Dorsi
+tags:
+- torso
 url: /muscles/latissimus-dorsi/

@@ -1,15 +1,24 @@
-anatomy: !!omap [{actions: [Flexion of the hip, Abduction of the hip, Lateral (external)
-        rotation of the hip, Flexion of the knee, Medial rotation of the tibia on
-        the femur (when knee is flexed)]}, {insertions: [Medial surface of proximal
-        tibia (pes anserinus area)]}, {origins: [Anterior superior iliac spine (ASIS)
-        of the pelvic bone]}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Flexion of the hip
+  - Abduction of the hip
+  - Lateral (external) rotation of the hip
+  - Flexion of the knee
+  - Medial rotation of the tibia on the femur (when knee is flexed)
+- insertions:
+  - Medial surface of proximal tibia (pes anserinus area)
+- origins:
+  - Anterior superior iliac spine (ASIS) of the pelvic bone
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Sartorius}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Sartorius
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Sartorius
 icon: ':muscle:'
 id: sartorius
-pubdate: Sep 04, 2025
 status: Review Pending
-title: Sartorius

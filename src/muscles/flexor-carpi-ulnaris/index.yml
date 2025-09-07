@@ -1,16 +1,27 @@
-anatomy: !!omap [{actions: ['Wrist {{ linkicon("flexion") }}', Ulnar deviation (adduction)
-        of the wrist]}, {insertions: [Pisiform bone, Hook of the hamate, Base of the
-        5th metacarpal]}, {origins: ['Humeral head: medial epicondyle of the {{ linkicon("humerus")
-        }} via the common flexor tendon', 'Ulnar head: {{ linkicon("olecranon-process")
-        }} and posterior border of the {{ linkicon("ulna") }}']}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Wrist {{ linkicon("flexion") }}
+  - Ulnar deviation (adduction) of the wrist
+- insertions:
+  - Pisiform bone
+  - Hook of the hamate
+  - Base of the 5th metacarpal
+- origins:
+  - 'Humeral head: medial epicondyle of the {{ linkicon("humerus") }} via the common
+    flexor tendon'
+  - 'Ulnar head: {{ linkicon("olecranon-process") }} and posterior border of the {{
+    linkicon("ulna") }}'
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Flexor Carpi Ulnaris}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Flexor Carpi Ulnaris
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Flexor Carpi Ulnaris
 icon: ':muscle:'
 id: fcu
-pubdate: Sep 04, 2025
 status: Review Pending
-title: Flexor Carpi Ulnaris
 url: /muscles/flexor-carpi-ulnaris/

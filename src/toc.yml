@@ -1,14 +1,15 @@
-author: Brian Lee
-citation: table of contents
-id: toc
-pubdate: Aug 25, 2025
-title: Table of Contents
-toc: false
-description: Overview of Table of Contents.
-url: /toc.html
 breadcrumbs:
 - title: Home
   url: /
 - title: Table of Contents
+citation: table of contents
+description: Overview of Table of Contents.
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Table of Contents
+id: toc
 indextree:
-  include-js: True
+  include-js: true
+toc: false
+url: /toc.html

@@ -1,17 +1,27 @@
-anatomy: !!omap [{actions: [Extension of the forearm at the elbow, 'Long head: assists
-        in extension and adduction of the arm at the shoulder', Stabilization of the
-        shoulder joint]}, {insertions: ['{{ linkcap("olecranon-process") }} of the
-        ulna']}, {origins: ['Long head: Infraglenoid tubercle of the {{ linktitle("scapula")
-        }}', 'Lateral head: Posterior humerus, above the radial groove', 'Medial head:
-        Posterior humerus, below the radial groove']}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Extension of the forearm at the elbow
+  - 'Long head: assists in extension and adduction of the arm at the shoulder'
+  - Stabilization of the shoulder joint
+- insertions:
+  - '{{ linkcap("olecranon-process") }} of the ulna'
+- origins:
+  - 'Long head: Infraglenoid tubercle of the {{ linktitle("scapula") }}'
+  - 'Lateral head: Posterior humerus, above the radial groove'
+  - 'Medial head: Posterior humerus, below the radial groove'
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Triceps}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Triceps
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Triceps
 icon: ':muscle:'
 id: trc
-pubdate: Sep 04, 2025
 status: Reviewed
-title: Triceps
-translations: {french: triceps brachial, russian: трёхглавая мышца плеча}
+translations:
+  french: triceps brachial
+  russian: трёхглавая мышца плеча

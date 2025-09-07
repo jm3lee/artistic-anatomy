@@ -1,9 +1,10 @@
-author: Brian Lee
 description: Like balancing a budget, the head's landmarks need careful accounting.
   Explore [Bones](/bones/) and [Movements](/movements/) to diversify your understanding.
+doc:
+  author: Brian Lee
+  title: Head
 id: head
-status: Review Pending
-title: Head
-url: /head/
 indextree:
-  include-js: True
+  include-js: true
+status: Review Pending
+url: /head/

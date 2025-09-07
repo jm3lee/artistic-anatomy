@@ -1,11 +1,12 @@
-author: Brian Lee
-id: wrist-flexor-group
-title: Wrist Flexor Group
-description: Overview of Wrist Flexor Group.
-url: /appendix/wrist-flexor-group.html
 breadcrumbs:
 - title: Home
   url: /
 - title: Appendix
   url: /appendix/
 - title: Wrist Flexor Group
+description: Overview of Wrist Flexor Group.
+doc:
+  author: Brian Lee
+  title: Wrist Flexor Group
+id: wrist-flexor-group
+url: /appendix/wrist-flexor-group.html

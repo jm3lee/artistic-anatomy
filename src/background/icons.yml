@@ -1,11 +1,12 @@
-title: Icons
-author: Brian Lee
-id: icons
-description: Overview of Icons.
-url: /background/icons.html
 breadcrumbs:
 - title: Home
   url: /
 - title: Background
   url: /background/
 - title: Icons
+description: Overview of Icons.
+doc:
+  author: Brian Lee
+  title: Icons
+id: icons
+url: /background/icons.html

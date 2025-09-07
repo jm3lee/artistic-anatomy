@@ -1,11 +1,12 @@
-title: Reponsible Use of Artificial Intelligence (AI)
-author: Brian Lee
-id: responsible-use-of-ai
-description: Overview of Reponsible Use of Artificial Intelligence (AI).
-url: /background/responsible-use-of-ai.html
 breadcrumbs:
 - title: Home
   url: /
 - title: Background
   url: /background/
 - title: Reponsible Use of Artificial Intelligence (AI)
+description: Overview of Reponsible Use of Artificial Intelligence (AI).
+doc:
+  author: Brian Lee
+  title: Reponsible Use of Artificial Intelligence (AI)
+id: responsible-use-of-ai
+url: /background/responsible-use-of-ai.html

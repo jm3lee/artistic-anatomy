@@ -1,13 +1,14 @@
-author: Brian Lee
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Superior Gemellus
-url: /muscles/superior-gemellus/
-id: superior-gemellus
-description: Overview of Superior Gemellus.
 breadcrumbs:
 - title: Home
   url: /
 - title: Muscles
   url: /muscles/
 - title: Superior Gemellus
+description: Overview of Superior Gemellus.
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Superior Gemellus
+id: superior-gemellus
+status: Review Pending
+url: /muscles/superior-gemellus/

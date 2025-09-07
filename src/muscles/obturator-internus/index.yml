@@ -1,13 +1,14 @@
-author: Brian Lee
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Obturator Internus
-url: /muscles/obturator-internus/
-id: obturator-internus
-description: Overview of Obturator Internus.
 breadcrumbs:
 - title: Home
   url: /
 - title: Muscles
   url: /muscles/
 - title: Obturator Internus
+description: Overview of Obturator Internus.
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Obturator Internus
+id: obturator-internus
+status: Review Pending
+url: /muscles/obturator-internus/

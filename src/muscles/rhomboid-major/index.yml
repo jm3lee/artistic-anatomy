@@ -1,15 +1,23 @@
-anatomy: !!omap [{actions: ['Scapular retraction, elevation, and downward rotation']},
-  {insertions: ['Medial border of {{ linkicon("scapula") }} (from spine to inferior
-        angle)']}, {origins: [Spinous processes of T2 to T5 vertebrae]}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Scapular retraction, elevation, and downward rotation
+- insertions:
+  - Medial border of {{ linkicon("scapula") }} (from spine to inferior angle)
+- origins:
+  - Spinous processes of T2 to T5 vertebrae
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Rhomboid Major}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Rhomboid Major
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Rhomboid Major
 icon: ':muscle:'
 id: rhmaj
-pubdate: Sep 04, 2025
 status: Reviewed
-tags: [torso]
-title: Rhomboid Major
+tags:
+- torso
 url: /muscles/rhomboid-major/

@@ -1,15 +1,16 @@
-author: Brian Lee
+breadcrumbs:
+- title: Home
+  url: /
+- title: Bones
+  url: /bones/
+- title: Radioulnar Joints
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Radioulnar Joints
 icon: ':gear:'
 id: radioulnar-joints
-pubdate: Aug 25, 2025
 status: Reviewed
-title: Radioulnar Joints
 tags:
 - joint
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Bones
-    url: /bones/
-  - title: Radioulnar Joints
 url: /bones/radioulnar-joints.html

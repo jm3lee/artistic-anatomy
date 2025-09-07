@@ -1,12 +1,13 @@
-author: Brian Lee
-status: Review Pending
-title: Gastrocnemius
-id: gastrocnemius
-description: Overview of Gastrocnemius.
-url: /muscles/gastrocnemius/
 breadcrumbs:
 - title: Home
   url: /
 - title: Muscles
   url: /muscles/
 - title: Gastrocnemius
+description: Overview of Gastrocnemius.
+doc:
+  author: Brian Lee
+  title: Gastrocnemius
+id: gastrocnemius
+status: Review Pending
+url: /muscles/gastrocnemius/

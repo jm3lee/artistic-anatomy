@@ -1,82 +1,82 @@
 anatomy:
   bony_landmarks:
-  - desc: 'Prominent ridge on the {{ link("posterior") }} surface separating the
-      supraspinous and infraspinous fossae and ending laterally at the acromion.
+  - desc: 'Prominent ridge on the {{ link("posterior") }} surface separating the supraspinous
+      and infraspinous fossae and ending laterally at the acromion.
 
       '
-    name: 'Spine {{ anchor("spine") }}'
+    name: Spine {{ anchor("spine") }}
   - desc: 'Flat projection at the {{ link("lateral") }} end of the spine that articulates
       with the {{ linkicon("clavicle") }}.
 
       '
-    name: 'Acromion process {{ anchor("acromion-process") }}'
-  - desc: 'Hook-like {{ link("anterior") }} projection providing attachments for
-      {{ linkicon("pecmin") }}, coracobrachialis, and the short head of {{ linktitle("bc")
+    name: Acromion process {{ anchor("acromion-process") }}
+  - desc: 'Hook-like {{ link("anterior") }} projection providing attachments for {{
+      linkicon("pecmin") }}, coracobrachialis, and the short head of {{ linktitle("bc")
       }}.
 
       '
-    name: 'Coracoid process {{ anchor("coracoid-process") }}'
+    name: Coracoid process {{ anchor("coracoid-process") }}
   - desc: 'Shallow socket that receives the head of the {{ linkicon("humerus") }}
       to form the glenohumeral joint.
 
       '
-    name: 'Glenoid cavity {{ anchor("glenoid-cavity") }}'
+    name: Glenoid cavity {{ anchor("glenoid-cavity") }}
   - desc: 'Smooth concavity above the spine housing the supraspinatus.
 
       '
-    name: 'Supraspinous fossa {{ anchor("supraspinous-fossa") }}'
+    name: Supraspinous fossa {{ anchor("supraspinous-fossa") }}
   - desc: 'Broad surface below the spine that lodges the infraspinatus.
 
       '
-    name: 'Infraspinous fossa {{ anchor("infraspinous-fossa") }}'
-  - desc: 'Wide {{ link("anterior") }} depression serving as attachment for the
-      subscapularis.
+    name: Infraspinous fossa {{ anchor("infraspinous-fossa") }}
+  - desc: 'Wide {{ link("anterior") }} depression serving as attachment for the subscapularis.
 
       '
-    name: 'Subscapular fossa {{ anchor("subscapular-fossa") }}'
+    name: Subscapular fossa {{ anchor("subscapular-fossa") }}
   - desc: 'Long edge nearest the spine; attachment for rhomboids and part of the serratus
       anterior.
 
       '
-    name: 'Medial border {{ anchor("medial-border") }}'
+    name: Medial border {{ anchor("medial-border") }}
   - desc: 'Edge closest to the axilla providing attachment for teres major and teres
       minor.
 
       '
-    name: 'Lateral border {{ anchor("lateral-border") }}'
+    name: Lateral border {{ anchor("lateral-border") }}
   - desc: 'Shortest border near the neck containing the suprascapular notch for passage
       of the suprascapular nerve.
 
       '
-    name: 'Superior border {{ anchor("superior-border") }}'
+    name: Superior border {{ anchor("superior-border") }}
   - desc: 'Lower tip where medial and lateral borders meet; attachment for teres major.
 
       '
-    name: 'Inferior angle {{ anchor("inferior-angle") }}'
+    name: Inferior angle {{ anchor("inferior-angle") }}
   - desc: 'Upper tip joining the superior and medial borders; attachment for part
       of the levator scapulae.
 
       '
-    name: 'Superior angle {{ anchor("superior-angle") }}'
+    name: Superior angle {{ anchor("superior-angle") }}
   - desc: 'Small notch on the {{ link("superior") }} border transmitting the suprascapular
       nerve beneath the superior transverse ligament.
 
       '
-    name: 'Suprascapular notch {{ anchor("suprascapular-notch") }}'
-author: Brian Lee
+    name: Suprascapular notch {{ anchor("suprascapular-notch") }}
+breadcrumbs:
+- title: Home
+  url: /
+- title: Bones
+  url: /bones/
+- title: Scapula
 description: 'The scapula is a triangular shoulder blade that glides on the rib cage
   to position the arm and offers many muscle attachment sites.
 
   '
+doc:
+  author: Brian Lee
+  pubdate: Aug 28, 2025
+  title: Scapula
 icon: ':bone:'
 id: scapula
-pubdate: Aug 28, 2025
 status: Pending Review
-title: Scapula
-breadcrumbs:
-  - title: Home
-    url: /
-  - title: Bones
-    url: /bones/
-  - title: Scapula
 url: /bones/scapula/

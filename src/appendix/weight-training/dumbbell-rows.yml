@@ -1,8 +1,3 @@
-title: Dumbbell Rows
-author: Brian Lee
-id: dumbbell-rows
-description: Overview of Dumbbell Rows.
-url: /appendix/weight-training/dumbbell-rows.html
 breadcrumbs:
 - title: Home
   url: /
@@ -11,3 +6,9 @@ breadcrumbs:
 - title: Weight Training
   url: /appendix/weight-training/
 - title: Dumbbell Rows
+description: Overview of Dumbbell Rows.
+doc:
+  author: Brian Lee
+  title: Dumbbell Rows
+id: dumbbell-rows
+url: /appendix/weight-training/dumbbell-rows.html

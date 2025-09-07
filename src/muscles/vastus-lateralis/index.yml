@@ -1,13 +1,14 @@
-author: Brian Lee
-pubdate: Aug 25, 2025
-status: Review Pending
-title: Vastus Lateralis
-url: /muscles/vastus-lateralis/
-id: vastus-lateralis
-description: Overview of Vastus Lateralis.
 breadcrumbs:
 - title: Home
   url: /
 - title: Muscles
   url: /muscles/
 - title: Vastus Lateralis
+description: Overview of Vastus Lateralis.
+doc:
+  author: Brian Lee
+  pubdate: Aug 25, 2025
+  title: Vastus Lateralis
+id: vastus-lateralis
+status: Review Pending
+url: /muscles/vastus-lateralis/

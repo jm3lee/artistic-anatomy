@@ -1,13 +1,14 @@
-author: Brian Lee
-id: supraorbital-ridge
-status: Review Pending
-title: Supraorbital Ridge
-citation: supraorbital ridge
-description: Overview of Supraorbital Ridge.
-url: /head/supraorbital-ridge.html
 breadcrumbs:
 - title: Home
   url: /
 - title: Head
   url: /head/
 - title: Supraorbital Ridge
+citation: supraorbital ridge
+description: Overview of Supraorbital Ridge.
+doc:
+  author: Brian Lee
+  title: Supraorbital Ridge
+id: supraorbital-ridge
+status: Review Pending
+url: /head/supraorbital-ridge.html

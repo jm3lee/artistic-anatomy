@@ -1,14 +1,23 @@
-anatomy: !!omap [{actions: [Wrist flexion, Wrist abduction]}, {insertions: [Base of
-        the second and third metacarpals]}, {origins: ['Medial {{ link("epicondyle")
-        }} of the {{ linkicon("humerus") }} via the common flexor tendon']}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Wrist flexion
+  - Wrist abduction
+- insertions:
+  - Base of the second and third metacarpals
+- origins:
+  - Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }} via the common
+    flexor tendon
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Flexor Carpi Radialis}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Flexor Carpi Radialis
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Flexor Carpi Radialis
 icon: ':muscle:'
 id: fcr
-pubdate: Sep 04, 2025
 status: Reviewed
-title: Flexor Carpi Radialis
 url: /muscles/flexor-carpi-radialis/

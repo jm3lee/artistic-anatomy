@@ -1,14 +1,15 @@
-author: Brian Lee
-status: Review Pending
-tags:
-- supination
-title: Supinator
-id: supinator
-description: Overview of Supinator.
-url: /muscles/supinator/
 breadcrumbs:
 - title: Home
   url: /
 - title: Muscles
   url: /muscles/
 - title: Supinator
+description: Overview of Supinator.
+doc:
+  author: Brian Lee
+  title: Supinator
+id: supinator
+status: Review Pending
+tags:
+- supination
+url: /muscles/supinator/

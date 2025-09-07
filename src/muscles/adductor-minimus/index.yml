@@ -1,15 +1,23 @@
-anatomy: !!omap [{actions: ['Thigh {{ linkicon("adduction") }}', Lateral rotation
-        of the thigh]}, {insertions: ['Upper linea aspera of {{ linkicon("femur")
-        }}']}, {origins: ['Inferior pubic ramus of {{ linkicon("pelvis") }}']}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Thigh {{ linkicon("adduction") }}
+  - Lateral rotation of the thigh
+- insertions:
+  - Upper linea aspera of {{ linkicon("femur") }}
+- origins:
+  - Inferior pubic ramus of {{ linkicon("pelvis") }}
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Adductor Minimus}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Adductor Minimus
 description: Upper portion of adductor magnus aiding thigh adduction.
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Adductor Minimus
 icon: ':muscle:'
 id: adductor-minimus
-pubdate: Sep 04, 2025
 status: Review Pending
-title: Adductor Minimus
 url: /muscles/adductor-minimus/

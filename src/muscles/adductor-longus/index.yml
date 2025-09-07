@@ -1,15 +1,23 @@
-anatomy: !!omap [{actions: ['Thigh {{ linkicon("adduction") }}', 'Assists hip {{ linkicon("flexion")
-        }}']}, {insertions: ['Middle third of linea aspera of {{ linkicon("femur")
-        }}']}, {origins: ['Body of {{ linkicon("pelvis") }} near the pubic symphysis']}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Thigh {{ linkicon("adduction") }}
+  - Assists hip {{ linkicon("flexion") }}
+- insertions:
+  - Middle third of linea aspera of {{ linkicon("femur") }}
+- origins:
+  - Body of {{ linkicon("pelvis") }} near the pubic symphysis
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Adductor Longus}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Adductor Longus
 description: Long flat thigh muscle that adducts and flexes the femur.
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Adductor Longus
 icon: ':muscle:'
 id: adductor-longus
-pubdate: Sep 04, 2025
 status: Review Pending
-title: Adductor Longus
 url: /muscles/adductor-longus/

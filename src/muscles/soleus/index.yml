@@ -1,15 +1,23 @@
-anatomy: !!omap [{actions: [Plantarflexes the foot, Stabilizes the leg when standing]},
-  {insertions: ['{{ linkicon("calcaneus") }} via Achilles tendon']}, {origins: ['Posterior
-        surface of {{ linkicon("tibia") }} (soleal line)', 'Posterior surface of {{
-        linkicon("fibula") }}']}]
-author: Brian Lee
+anatomy: !!omap
+- actions:
+  - Plantarflexes the foot
+  - Stabilizes the leg when standing
+- insertions:
+  - '{{ linkicon("calcaneus") }} via Achilles tendon'
+- origins:
+  - Posterior surface of {{ linkicon("tibia") }} (soleal line)
+  - Posterior surface of {{ linkicon("fibula") }}
 breadcrumbs:
-- {title: Home, url: /}
-- {title: Muscles, url: /muscles/}
-- {title: Soleus}
+- title: Home
+  url: /
+- title: Muscles
+  url: /muscles/
+- title: Soleus
 description: Overview of Soleus.
+doc:
+  author: Brian Lee
+  pubdate: Sep 04, 2025
+  title: Soleus
 id: soleus
-pubdate: Sep 04, 2025
 status: Review Pending
-title: Soleus
 url: /muscles/soleus/
