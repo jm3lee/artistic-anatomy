@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 🤖
 
 ## Muscles Worked in Hammer Curls (Focus on Brachialis)
@@ -15,3 +17,4 @@
 
 **Why Hammer Curls Target the {{ linktitle('brc') }}:**\
 The neutral grip reduces the role of the biceps and shifts focus to the {{ linkicon('brc') }}, making it a great exercise for arm thickness and strength.
+{% endblock %}

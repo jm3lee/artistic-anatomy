@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 <style>
 ol {
   margin-bottom: 1em;
@@ -17,3 +19,4 @@ ol {
 
 ## Triceps
 {#{render_mc("src/study/triceps.json")}#}
+{% endblock %}

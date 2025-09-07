@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 Also known as the **tuberosity of the tibia** or the **tibial tubercle**.
 
 The tibial tuberosity is a bony bump on the front of the shinbone, just below
@@ -22,3 +24,4 @@ loading="lazy"/>
 ## References
 
 * [Tuberosity of the Tibia (Wikipedia)](https://en.wikipedia.org/wiki/Tuberosity_of_the_tibia)
+{% endblock %}

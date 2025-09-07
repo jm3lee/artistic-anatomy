@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 ## Joint Type
 
 Ball-and-socket
@@ -69,3 +71,4 @@ Ball-and-socket
 - {{ linktitle('keyterms') }}
 - {{ linktitle('synovial-joints') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Shoulder_joint)
+{% endblock %}

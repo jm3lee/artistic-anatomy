@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 ## Bibliography
 
 Hale, Robert Beverly, and Terence Coyle. <a href="https://a.co/d/82nJ06I">Anatomy
@@ -12,3 +14,4 @@ review.
 include_deflist_entry("src/books/hc-77", glob="p*.md")
 ```
 </dl>
+{% endblock %}

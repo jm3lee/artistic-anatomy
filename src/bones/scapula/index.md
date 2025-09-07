@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import bony_landmarks, figure, anchor %}
 
 ## Illustrations
@@ -71,3 +73,4 @@ loading="lazy"/>
 * [Scapula (Wikipedia)](https://en.wikipedia.org/wiki/Scapula)
 * {{ linktitle('gf') }}
   * **152** Scapula peeks out from the back.
+{% endblock %}

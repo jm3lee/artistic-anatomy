@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary, figure %}
 
 {{summary("bfem")}}
@@ -19,3 +21,4 @@
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Biceps_femoris_muscle)
+{% endblock %}

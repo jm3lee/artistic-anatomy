@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("anc")}}
@@ -42,3 +44,4 @@ stability.
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Anconeus_muscle)
+{% endblock %}

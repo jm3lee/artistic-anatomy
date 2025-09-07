@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary, figure %}
 
 {{summary("external-oblique")}}
@@ -41,3 +43,4 @@ to those of the external oblique. The terminology describes both position
   - **28**: Tiepolo. (Q). Back view. Male.
   - **36**: Piombo. (E). Front view. Female.
 - [Wikipedia](https://en.wikipedia.org/wiki/Abdominal_external-oblique_muscle)
+{% endblock %}

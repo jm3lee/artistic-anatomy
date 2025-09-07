@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import insertions, origins, figure, anchor %}
 
 ## Illustrations
@@ -32,3 +34,4 @@ bones rather than the tibia.
 
 * [Tibia (Wikipedia)](https://en.wikipedia.org/wiki/Tibia)
 * Richer, plate 27
+{% endblock %}

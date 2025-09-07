@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("adductor-longus")}}
@@ -9,3 +11,4 @@ and helps flex the hip with {{ link('adductor-magnus') }}.
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Adductor_longus_muscle)
+{% endblock %}

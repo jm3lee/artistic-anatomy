@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{ summary("soleus") }}
@@ -21,3 +23,4 @@ off the ground.
 
 * [Soleus](https://en.wikipedia.org/wiki/Soleus_muscle)
 * {{ linktitle('gastrocnemius') }}
+{% endblock %}

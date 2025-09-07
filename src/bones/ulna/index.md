@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import bony_landmarks, figure, insertions, anchor %}
 
 ## Illustrations
@@ -65,3 +67,4 @@ loading="lazy"/>
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Ulna)
+{% endblock %}

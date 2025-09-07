@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 ## Proximal Radioulnar Joint
 
 <dl>
@@ -30,3 +32,4 @@
   Joint (Wikipedia)](https://en.wikipedia.org/wiki/Proximal_radioulnar_articulation)
 * [Distal Radioulnar Joint
   (Wikipedia)](https://en.wikipedia.org/wiki/Distal_radioulnar_articulation)
+{% endblock %}

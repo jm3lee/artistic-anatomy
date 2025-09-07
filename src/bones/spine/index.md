@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 | Column Section   | Abbreviation | Vertebrae (typical) | Notes                                   |
 |------------------|--------------|---------------------|-----------------------------------------|
 | Cervical         | C1–C7        | 7                   | Includes atlas (C1) and axis (C2)       |
@@ -13,3 +15,4 @@ Altogether, adults have **33 vertebrae** before fusion; functionally there are 2
 ```python
 include("src/muscles/ld-trz-attachments/index.md")
 ```
+{% endblock %}

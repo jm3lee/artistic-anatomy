@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 <img
 src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/images/richer_artistic_anatomy/richer100.jpg"
 alt=""
@@ -42,3 +44,4 @@ labeled. Here are the visible muscles and bony landmarks:
 
 * Tendon d'Achille (Achilles tendon)
 * Tendon du court péronier latéral (Tendon of the short peroneal or fibularis muscle)
+{% endblock %}

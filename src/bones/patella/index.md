@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 The patella, or kneecap, is a key anatomical landmark for defining the front
 plane of the leg. Its triangular shape helps artists divide the thigh and shin,
 observe surface anatomy, and capture movement. When the leg is extended, the
@@ -44,3 +46,4 @@ The term **patella** comes from Latin, where “patella” is a diminutive of
   * 259
   * 265
   * 267
+{% endblock %}

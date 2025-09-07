@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import translations, insertions, origins, bony_landmarks, figure, anchor %}
 
 ## Illustrations
@@ -49,3 +51,4 @@ surface of the humerus.
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Humerus)
+{% endblock %}

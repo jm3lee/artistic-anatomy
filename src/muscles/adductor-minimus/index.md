@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("adductor-minimus")}}
@@ -10,3 +12,4 @@ and lateral rotation.
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Adductor_minimus_muscle)
+{% endblock %}

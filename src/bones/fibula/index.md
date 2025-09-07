@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import insertions, bony_landmarks, figure, origins, anchor %}
 
 ## Summary
@@ -45,3 +47,4 @@ muscle attachment and forms the outer part of the ankle joint.
 
 ## References
 * [Wikipedia](https://en.wikipedia.org/wiki/Fibula)
+{% endblock %}

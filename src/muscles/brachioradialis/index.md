@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import translations, summary %}
 
 {{summary("brr")}}
@@ -18,3 +20,4 @@
 * Extensor carpi radialis longus
 * Pronator teres
 * Flexor carpi radialis
+{% endblock %}

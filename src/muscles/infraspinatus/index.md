@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import translations, summary, figure %}
 
 
@@ -38,3 +40,4 @@
     - Left shoulder flexion with external rotation.
   - 114-115, 126, 132, 138, 252 TODO
 - [Wikipedia](https://en.wikipedia.org/wiki/Infraspinatus_muscle)
+{% endblock %}

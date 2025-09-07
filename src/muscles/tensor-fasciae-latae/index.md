@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 ## Examples
 
 <img
@@ -8,3 +10,4 @@ loading="lazy"/>
 ## References
 
 * [Tensor Fasciae Latae (Wikipedia)](https://en.wikipedia.org/wiki/Tensor_fasciae_latae_muscle)
+{% endblock %}

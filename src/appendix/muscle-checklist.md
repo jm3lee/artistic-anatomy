@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 1. Abductor Pollicis Longus
 1. Adductor Longus
 1. Adductor Magnus
@@ -64,3 +66,4 @@
 1. Vastus Medialis
 1. Zygomaticus Major
 1. Zygomaticus Minor
+{% endblock %}

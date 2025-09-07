@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary, translations, figure %}
 
 {{summary("tibialis-anterior")}}
@@ -23,3 +25,4 @@
 * [Wikipedia](https://en.wikipedia.org/wiki/Tibialis_anterior_muscle)
 * Goldfinger p260–61
 * [TGB 5th](../resources/trail-guide-to-the-body-flashcards.html) p378, Flashcard p165
+{% endblock %}

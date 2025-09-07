@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("coracobrachialis")}}
@@ -39,3 +41,4 @@ loading="lazy"/>
 * [Wikipedia](https://en.wikipedia.org/wiki/Coracobrachialis_muscle)
 * TGB 5th, p99; Flashcard p23
 * {{ linktitle('hc77') }}, 130, 140, 256.
+{% endblock %}

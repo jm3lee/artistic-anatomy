@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import figure %}
 
 ## Summary
@@ -50,3 +52,4 @@ None of these muscles insert on the sternum; it serves as an origin point only.
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Sternum)
+{% endblock %}

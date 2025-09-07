@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary_bones, bony_landmarks, origins, insertions, anchor %}
 
 {{ summary_bones("calcaneus") }}
@@ -20,3 +22,4 @@
 
 * {{ linktitle('foot') }}
 * [Wikipedia](https://en.wikipedia.org/wiki/Calcaneus)
+{% endblock %}

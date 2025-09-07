@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 Synovial joints are the most mobile joints of the skeleton. Each contains a cavity filled with lubricating fluid that allows the articulating bones to glide smoothly against one another. A strong fibrous capsule surrounds the joint, lined internally by a synovial membrane, while the bone surfaces are covered by a layer of smooth articular cartilage.
 
 ## Key Features
@@ -18,3 +20,4 @@ Synovial joints are the most mobile joints of the skeleton. Each contains a cavi
 6. **Ball-and-socket** – e.g., shoulder and hip
 
 Synovial joints enable most everyday motions, from walking and gripping to swinging a bat. Their design balances mobility with stability through supportive ligaments and surrounding muscles.
+{% endblock %}

@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import figure %}
 
 1. **Doryphoros (Spear-Bearer) by Polykleitos** (c. 440 BC)
@@ -59,3 +61,4 @@
             href=href,
             width=512
         ) }}
+{% endblock %}

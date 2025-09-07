@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("adductor-brevis")}}
@@ -9,3 +11,4 @@ drawing the {{ linkicon('femur') }} toward the midline.
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Adductor_brevis_muscle)
+{% endblock %}

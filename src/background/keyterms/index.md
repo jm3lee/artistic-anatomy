@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 There are numerous anatomical terms in medical texts, but not all are relevant
 to artistic anatomy. Since artists focus on superficial muscles and bones—those
 visible on the surface—only certain terms are necessary. Most of the time,
@@ -34,3 +36,4 @@ work.
 ## References
 
 [Anatomical Terminology (Wikipedia)](https://en.wikipedia.org/wiki/Anatomical_terminology#Standard_terms)
+{% endblock %}

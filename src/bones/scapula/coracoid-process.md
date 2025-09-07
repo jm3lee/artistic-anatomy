@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 {% from "src/templates/macros.jinja" import summary_bones, figure %}
 
 {{summary_bones("coracoid-process")}}
@@ -21,3 +23,4 @@
 - {{ linktitle('acromion-process') }}
 - {{ linktitle('scapula') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Coracoid_process)
+{% endblock %}

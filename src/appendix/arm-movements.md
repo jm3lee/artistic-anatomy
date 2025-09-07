@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 ## Artistic Anatomy by Paul Richer
 
 Source: [Artistic Anatomy by Paul Richer on Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Anatomie_artistique_\(Paul_Richer\))
@@ -51,3 +53,4 @@ loading="lazy"/>
 src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/images/arm_movements/richer117.jpg"
 alt=""
 loading="lazy"/>
+{% endblock %}

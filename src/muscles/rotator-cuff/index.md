@@ -1,3 +1,5 @@
+{% extends "src/templates/template.html.jinja" %}
+{% block content %}
 The rotator cuff comprises four scapular muscles that stabilize the
 {{ linktitle('glenohumeral-joint') }} and move the {{ linkicon('humerus') }}.
 
@@ -34,3 +36,4 @@ The rotator cuff comprises four scapular muscles that stabilize the
 ## References
 
 * {{ linktitle('humerus') }}
+{% endblock %}
