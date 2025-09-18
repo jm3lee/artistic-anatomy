@@ -1,26 +1,11 @@
-{% from "src/templates/macros.jinja" import summary, translations %}
+{% from "src/templates/macros.jinja" import summary_card, translations %}
 
 ## Summary
 
-<div class="card mb-3">
-<div class="row g-0 flex-column flex-md-row">
-<!-- Image -->
-<div class="col-md-4 d-flex align-items-center">
-{% with fig = pie.yaml.read_yaml("./src/muscles/extensor-carpi-radialis-brevis/fig1.yml") %}
-{% include "src/templates/figure.md.jinja" %}
-{% endwith %}
-</div>
-
-<!-- Content -->
-<div class="col-md-8">
-<div class="card-body">
-<p class="card-text">
-{{summary("extensor-carpi-radialis-brevis")}}
-</p>
-</div>
-</div>
-</div>
-</div>
+{{ summary_card(
+  "extensor-carpi-radialis-brevis",
+  "./src/muscles/extensor-carpi-radialis-brevis/fig1.yml"
+) }}
 
 The extensor carpi radialis brevis sits deep to the
 {{ link('extensor-carpi-radialis-longus') }} near the lateral elbow. Its short
