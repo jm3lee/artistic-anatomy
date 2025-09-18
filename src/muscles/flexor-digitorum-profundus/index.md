@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary, figure %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("flexor-digitorum-profundus")}}
+## Summary
+
+{{ summary_card(
+  "flexor-digitorum-profundus",
+  "./src/muscles/flexor-digitorum-profundus/fig1.yml"
+) }}
 
 The flexor digitorum profundus lies deep to the
 {{ link('flexor-digitorum-superficialis') }}. Its broad origin on the ulna and
@@ -10,12 +15,6 @@ allowing the fingertips to bend.
 
 It works with {{ link('flexor-digitorum-superficialis') }} to flex the digits
 and is an antagonist to the {{ link('extensor-digitorum') }}.
-
-## Illustrations
-
-{% with fig = pie.yaml.read_yaml("./src/muscles/flexor-digitorum-profundus/fig1.yml") %}
-  {% include "src/templates/figure.md.jinja" %}
-{% endwith %}
 
 ## References
 
