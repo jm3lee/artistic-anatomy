@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary, figure %}
 
 {{summary("rhmaj")}}
@@ -22,4 +20,3 @@
 
 - {{ linktitle('scapula') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Rhomboid_major_muscle)
-{% endblock %}

@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 [🤖 AI-Generated](../background/icons.html)
 
 ## Superficial Flexor Group
@@ -35,4 +33,3 @@
    * **Function**: Pronates the forearm.
    * **Origin**: Distal quarter of the anterior ulna.
    * **Insertion**: Distal quarter of the anterior radius.
-{% endblock %}

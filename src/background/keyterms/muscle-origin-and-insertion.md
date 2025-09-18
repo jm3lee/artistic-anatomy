@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 In anatomy, the **origin** and **insertion** of a muscle refer to the points
 where the muscle attaches to bones or other structures in the body. These terms
 help describe the function of the muscle and how it contributes to movement.
@@ -35,4 +33,3 @@ help describe the function of the muscle and how it contributes to movement.
 * **Origin**: The biceps brachii originates at the {{ link('scapula') }} (shoulder blade).
 * **Insertion**: It inserts into the {{ link('radius') }} (forearm bone).
 * **Action**: When the biceps contract, the insertion ({{ link('radius') }}) moves closer to the origin ({{ link('scapula') }}), bending the elbow.
-{% endblock %}

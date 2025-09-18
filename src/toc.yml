@@ -6,12 +6,12 @@ description: Overview of Table of Contents.
 doc:
   author: Brian Lee
   citation: table of contents
-  pubdate: Sep 07, 2025
+  pubdate: Sep 18, 2025
   title: Table of Contents
+header_includes:
+- <script type="module" src="/static/js/indextree.js" defer></script>
 id: toc
 indextree:
   include-js: true
 toc: false
 url: /toc.html
-header_includes:
-- <script type="module" src="/static/js/indextree.js" defer></script>

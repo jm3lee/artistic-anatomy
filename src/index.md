@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 # Quickstart
 
 **Artistic Anatomy Book is a free curated resource for all.**
@@ -48,4 +46,3 @@ useful to others one day.
 This is a passion project and will stay free forever. The project is
 self-funded. I may sell related merchandise in the future, but the content will
 always be freely available in full.
-{% endblock %}

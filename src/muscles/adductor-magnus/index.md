@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("adductor-magnus")}}
@@ -12,4 +10,3 @@ the leg inward.
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Adductor_magnus_muscle)
-{% endblock %}

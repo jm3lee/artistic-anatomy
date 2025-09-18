@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary, figure %}
 
 {{summary("fcr")}}
@@ -21,4 +19,3 @@
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Flexor_carpi_radialis_muscle)
-{% endblock %}

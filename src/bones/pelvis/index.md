@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import figure %}
 
 ## Illustrations
@@ -30,4 +28,3 @@
 8. Coccyx
 
 Red dotted line = Linea terminalis
-{% endblock %}

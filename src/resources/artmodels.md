@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import figure %}
 
 [posespace.com](https://posespace.com) offers excellent reference photos. I own many of
@@ -48,4 +46,3 @@ Has references inspired by:
     href=href,
     width=256
 ) }}
-{% endblock %}

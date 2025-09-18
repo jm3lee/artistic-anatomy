@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 <dl>
   <dt>Sagittal</dt>
   <dd>
@@ -41,4 +39,3 @@
     </dl>
   </dd>
 </dl>
-{% endblock %}

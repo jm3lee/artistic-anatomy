@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("ld")}}
@@ -65,4 +63,3 @@ humans.](https://josr-online.biomedcentral.com/articles/10.1186/s13018-024-04659
 * [Wikipedia](https://en.wikipedia.org/wiki/Latissimus_dorsi_muscle)
 * TGB p71, Flashcards p8
 * {{ linktitle('gf') }}, 145–47.
-{% endblock %}

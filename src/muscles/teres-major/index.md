@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary, figure %}
 
 {{summary("teres-major")}}
@@ -41,4 +39,3 @@ extension of the humerus.
 * [Wikipedia](https://en.wikipedia.org/wiki/Teres_major_muscle)
 * {{ linktitle('teres-minor') }}
 * {{ linktitle('gf') }}, 162–63
-{% endblock %}

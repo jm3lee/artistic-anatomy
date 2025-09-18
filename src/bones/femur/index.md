@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 :robot:
 {% from "src/templates/macros.jinja" import translations, insertions, origins, bony_landmarks, figure, anchor %}
 
@@ -33,4 +31,3 @@
 * [Wikipedia](https://en.wikipedia.org/wiki/Femur)
 * {{ linktitle('gf') }}, 32–34
 * [Richer, Plate 26](https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate26.webp)
-{% endblock %}

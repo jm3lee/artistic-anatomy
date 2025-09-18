@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 :robot:
 
 ## Quick‑Reference Table
@@ -38,4 +36,3 @@
 - **Functional Role:**  
   - Stance phase of gait (support)  
   - Rising from a chair, jumping, kicking  
-{% endblock %}

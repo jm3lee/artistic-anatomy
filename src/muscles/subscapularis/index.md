@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 ## References
 
 * Delavier
@@ -10,4 +8,3 @@
 * Goldfinger
   * p163 Teres major cross-section shows the location of subscapularis.
     Subscapularis and {{ linkicon('sa') }} are side-by-side.
-{% endblock %}

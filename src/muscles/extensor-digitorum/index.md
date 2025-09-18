@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("extensor-digitorum")}}
@@ -20,4 +18,3 @@ The muscle is an antagonist to the
 * {{ linktitle('hc77') }}
   * **164**: Rubens. (B). Back view. Supination.
 * [Wikipedia](https://en.wikipedia.org/wiki/Extensor_digitorum_muscle)
-{% endblock %}

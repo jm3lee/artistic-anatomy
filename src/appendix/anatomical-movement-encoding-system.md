@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 **Anatomical Movement Encoding System**
 
 This system provides a concise, unambiguous shorthand for labeling anatomical movements. It consists of three parts separated by hyphens:
@@ -105,4 +103,3 @@ With these comprehensive lists, you cover all common anatomical movements and jo
 ## References
 
 - {{ linktitle('anaplanes') }}
-{% endblock %}

@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("sa")}}
@@ -10,4 +8,3 @@
 - {{ linktitle('gf') }}
   - **152** Insertion and origin
   - **153** Muscle cross-section; shows the relationship between serratus anterior and [subscapularis](subscapularis.html).
-{% endblock %}

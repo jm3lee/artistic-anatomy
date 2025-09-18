@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 Richer, Paul. ***[Artistic Anatomy: The Great French Classic on Artistic Anatomy](https://a.co/d/3lHBFwH)***. Translated by Robert Beverly Hale. New York: Watson-Guptill, 1986.
 
 ## Plates
@@ -7,4 +5,3 @@ Richer, Paul. ***[Artistic Anatomy: The Great French Classic on Artistic Anatomy
 * [**16**](https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/richer023.png) Half body. Skeleton and muscle outline. Anterior.
 * [**17**](https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/richer024.png) Half body. Skeleton and muscle outline. Posterior.
 * [**19**](https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/richer026.webp) Humerus. Anterior, posterior, lateral and medial aspects.
-{% endblock %}

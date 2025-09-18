@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 <img
 class="bookcover"
 src="https://brianleeart.sfo3.cdn.digitaloceanspaces.com/bookcovers/OUAZ4lJt0xAFnkcn.jpg"
@@ -19,4 +17,3 @@ explanations that clarify the structure shown in each drawing. I often revisit
 this dense resource, and each reading reveals new insights into artistic
 anatomy.
 
-{% endblock %}

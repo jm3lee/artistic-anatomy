@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import figure %}
 
 1. **Discobolos (Discus Thrower) by Myron** (c. 450 BC)
@@ -47,4 +45,3 @@
         href=href,
         width=512
     ) }}
-{% endblock %}

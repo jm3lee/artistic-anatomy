@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("extensor-digiti-minimi")}}
@@ -17,4 +15,3 @@ opposes the flexors of the little finger.
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Extensor_digiti_minimi_muscle)
-{% endblock %}

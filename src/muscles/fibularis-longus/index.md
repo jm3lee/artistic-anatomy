@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary, translations %}
 
 {{summary("fibularis-longus")}}
@@ -11,4 +9,3 @@
 ## References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Fibularis_longus)
-{% endblock %}

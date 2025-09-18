@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import translations, summary, figure %}
 
 
@@ -51,4 +49,3 @@ alt="Raphael, Three Standing Men, c. 1514–16" loading="lazy"/>
     (M) and the acronmion process (N) of the scapula."
   * **28**: Tiepolo. Left scapula retraction. Right scapula protraction.
   * TODO 106, 108, 110, 112, 114, 116, 118, 126, 128, 130, 182, 190, 192, 194, 196, 198, 200, 202, 247, 250, 251, 252.
-{% endblock %}

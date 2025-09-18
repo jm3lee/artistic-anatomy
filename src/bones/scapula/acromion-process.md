@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary_bones, figure, insertions, anchor %}
 
 {{summary_bones("acromion-process")}}
@@ -32,4 +30,3 @@
   * Acromial angle, 19
   * Acromioclavicular joint, 46–48
   * Acromion, 19
-{% endblock %}

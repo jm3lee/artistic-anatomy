@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary %}
 
 {{summary("extensor-carpi-ulnaris")}}
@@ -19,4 +17,3 @@ gripping. It opposes {{ link('fcu') }} when the wrist bends.
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Extensor_carpi_ulnaris_muscle)
 
-{% endblock %}

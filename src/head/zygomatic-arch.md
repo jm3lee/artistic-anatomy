@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 ## Examples
 
 <img
@@ -16,4 +14,3 @@ loading="lazy"/>
   * Zygomatic major, 220, 245, 246
   * Zygomatic muscles, 208
   * Zygomatic process, 232, 233, 234
-{% endblock %}

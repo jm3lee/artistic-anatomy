@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 ## Active Muscles
 
 1. {{ linktitle('bc') }}
@@ -15,4 +13,3 @@
 ## References
 
 * [Delavier](../../resources/delavier-strength-training-anatomy.md) p98
-{% endblock %}

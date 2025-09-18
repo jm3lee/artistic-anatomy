@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary, figure %}
 
 {{summary("gmax")}}
@@ -37,4 +35,3 @@ loading="lazy"/>
 * {{ linktitle('hc77') }}, 40, 44, 48-49.
   * **38**: Rubens. (A). Back view.
   * **50**: Raphael, the Three Graces, (D). 3/4 back view.
-{% endblock %}

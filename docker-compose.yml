@@ -70,5 +70,4 @@ services:
       - ./:/data
       - ./press/app/shell/bin:/app/bin
       - ./press/app/shell/py/pie/pie:/press/py/pie/pie
-      - ./app/shell/py/pie/tests:/press/py/pie/tests
       - ./app/references:/app/references

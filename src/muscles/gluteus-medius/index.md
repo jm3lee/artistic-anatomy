@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary, figure %}
 
 {{summary("gmed")}}
@@ -39,4 +37,3 @@ loading="lazy"/>
   * **38**: Rubens. (B). Back view.
   * **50**: Raphael, the Three Graces, (D). 3/4 back view.
 * [TGB 5th](../resources/trail-guide-to-the-body-flashcards.html) p315, Flashcard p135
-{% endblock %}

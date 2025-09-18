@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 Delavier was trained in the French academic style, and his book covers a wide
 variety of strength training exercises. The *écorché* drawings—detailed
 illustrations of muscles in action—offer both insight and perspective. At first,
@@ -16,4 +14,3 @@ making them feel more alive.
 ## Bibliography Entry
 
 Delavier, Frédéric. Strength Training Anatomy. 3rd ed. Champaign, IL: Human Kinetics, 2010.
-{% endblock %}

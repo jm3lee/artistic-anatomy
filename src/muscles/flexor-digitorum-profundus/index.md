@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary, figure %}
 
 {{summary("flexor-digitorum-profundus")}}
@@ -18,4 +16,3 @@ and is an antagonist to the {{ link('extensor-digitorum') }}.
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Flexor_digitorum_profundus_muscle)
-{% endblock %}

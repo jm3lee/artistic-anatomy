@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import insertions, bony_landmarks, figure, anchor %}
 
 The clavicle, or collar bone, is a slender S-shaped bone that connects the
@@ -38,4 +36,3 @@ thorax and allows greater range of motion at the shoulder.
 
 * {{ linktitle('gf') }}, 17
 * [Wikipedia](https://en.wikipedia.org/wiki/Clavicle)
-{% endblock %}

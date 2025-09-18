@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 This book was created with the help of artificial intelligence (AI) to make
 writing clearer and save time on research. I enjoy using automation and support
 using AI responsibly. I also work to learn about the risks of depending too much
@@ -24,4 +22,3 @@ To meet the Responsible Use of AI guidelines, this book uses
 | ----- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🤖    | AI Generated                 | <p>This icon is used when I use AI generated content without extensive editing or reviews.</p><p>I often glance at the information to make sure that it's mostly right.</p> |
 | 🧑  | AI Generated, Human Verified | I remove 🤖 and replace it with 🧑 once I review content and gain confidence in quality and accuracy of information.                                                     |
-{% endblock %}

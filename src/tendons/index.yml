@@ -5,7 +5,7 @@ breadcrumbs:
 description: Catalog of tendons with links to individual pages
 doc:
   author: Brian Lee
-  pubdate: Sep 07, 2025
+  pubdate: Sep 18, 2025
   title: Tendons
 header_includes:
 - <script type="module" src="/static/js/indextree.js" defer></script>

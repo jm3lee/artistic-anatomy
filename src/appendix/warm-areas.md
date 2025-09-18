@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 [🤖 AI Generated](../background/icons.html)
 
 In fine art, **areas of the human body typically rendered warm** often
@@ -49,4 +47,3 @@ The warmth in these areas is due to:
 * **Capillary concentration**: Increased blood supply near the surface.
 * **Thinner skin**: Areas like the lips and cheeks have less subcutaneous fat, revealing vascular tones.
 * **High activity**: Joints and extremities (hands, feet) are often warmer due to their role in movement and thermoregulation.
-{% endblock %}

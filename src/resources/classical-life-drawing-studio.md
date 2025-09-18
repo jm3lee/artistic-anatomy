@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 ## Bibliography Entry
 
 McElhinney, James Lancel, and the Instructors of the Art Students League of New
@@ -68,4 +66,3 @@ Female, Back view, Contrapposto
 </tr>
 </tbody>
 </table>
-{% endblock %}

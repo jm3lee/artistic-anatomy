@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import figure %}
 
 ## Summary
@@ -29,4 +27,3 @@ deltopectoral groove and is most visible when the arm is slightly abducted.
 - {{ linktitle('pecmaj') }}
 - {{ linktitle('gf') }}, 144, 157.
 - [Wikipedia](https://en.wikipedia.org/wiki/Infraclavicular_fossa)
-{% endblock %}

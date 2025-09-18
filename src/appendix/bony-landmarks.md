@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 [🤖 AI Generated](../background/icons.html)
 
 ## Head and Neck
@@ -97,4 +95,3 @@
   * Heads (ball of the foot)
 * Phalanges:
   * Toe joints
-{% endblock %}

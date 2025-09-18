@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import translations, summary, figure %}
 
 
@@ -55,4 +53,3 @@ loading="lazy"/>
 * {{ linktitle('teres-major') }}
 * {{ linktitle('teres-minor') }}
 * {{ linktitle('ld') }}
-{% endblock %}

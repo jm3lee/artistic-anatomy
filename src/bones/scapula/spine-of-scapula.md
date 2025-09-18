@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 [🧑 AI Generated, Human Verified](../../background/icons.html)
 
 * A prominent ridge running transversely across the posterior surface.
@@ -23,4 +21,3 @@
   * [Spine of Scapula](https://en.wikipedia.org/wiki/Spine_of_scapula)
   * [Infraspinous Fossa](https://en.wikipedia.org/wiki/Infraspinous_fossa)
   * [Supraspinous Fossa](https://en.wikipedia.org/wiki/Supraspinous_fossa)
-{% endblock %}

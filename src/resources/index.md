@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import anchor %}
 
 ## Books
@@ -74,4 +72,3 @@ go. Each book adds a new piece to your understanding, helping you see the bigger
 picture. I hope my favorite resources help you on your journey. As you build
 your own collection, remember to support the authors who make these books
 possible—whenever you can.
-{% endblock %}

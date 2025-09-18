@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import translations, summary, figure %}
 
 
@@ -49,4 +47,3 @@ include('src/muscles/teres-major-minor-insertion/index.md')
 - {{ linktitle('infraspinatus') }}
 - {{ linktitle('rotator-cuff') }}
 - [Wikipedia](https://en.wikipedia.org/wiki/Teres_minor_muscle)
-{% endblock %}

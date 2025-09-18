@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 {% from "src/templates/macros.jinja" import summary, figure %}
 
 {{summary("brc")}}
@@ -22,4 +20,3 @@
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Brachialis_muscle)
 - {{ linktitle('gf') }}, 166-67
-{% endblock %}

@@ -1,5 +1,3 @@
-{% extends "src/templates/template.html.jinja" %}
-{% block content %}
 :robot:
 
 A **tendon** and a **ligament** are both bands of dense connective tissue, but they differ in what they connect and their primary functions:
@@ -20,4 +18,3 @@ A **tendon** and a **ligament** are both bands of dense connective tissue, but t
 
 * **Role in movement:** Tendons actively transmit muscle forces; ligaments passively restrain joint motion.
 * **Tissue properties:** Both are strong and fibrous, but tendons tend to be slightly more elastic to absorb the shock of muscle contractions, whereas ligaments have more collagen cross‑links to resist stretching and maintain joint stability.
-{% endblock %}
