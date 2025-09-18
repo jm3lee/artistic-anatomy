@@ -1,4 +1,15 @@
-description: Overview of Extensor Carpi Radialis Brevis.
+anatomy: !!omap
+- actions:
+  - Extends the wrist
+  - Abducts the wrist (radial deviation)
+  - Stabilizes the wrist during forceful finger flexion
+- insertions:
+  - Dorsal base of the third metacarpal
+- origins:
+  - Lateral epicondyle of the {{ linkicon('humerus') }}
+  - Radial collateral ligament of the elbow joint
+  - Fascia and intermuscular septa of the posterior forearm
+description: Short radial wrist extensor that stabilizes the hand for gripping.
 doc:
   author: Brian Lee
   breadcrumbs:
@@ -9,8 +20,15 @@ doc:
   - title: Extensor Carpi Radialis Brevis
   pubdate: Sep 18, 2025
   title: Extensor Carpi Radialis Brevis
+icon: ':muscle:'
 id: extensor-carpi-radialis-brevis
 status: Review Pending
 tags:
 - forearm
+- wrist
+translations:
+  french: court extenseur radial du carpe
+  latin: musculus extensor carpi radialis brevis
+  spanish: extensor radial corto del carpo
+  russian: Короткий лучевой разгибатель запястья
 url: /muscles/extensor-carpi-radialis-brevis/
