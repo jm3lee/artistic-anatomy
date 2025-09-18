@@ -13,17 +13,9 @@ and is an antagonist to the {{ link('extensor-digitorum') }}.
 
 ## Illustrations
 
-<figure>
-<a title="Henry Vandyke Carter, Public domain, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Flexor-digitorum-profundis.png"><img
-width="256" alt="Flexor-digitorum-profundis"
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Flexor-digitorum-profundis.png/256px-Flexor-digitorum-profundis.png?20070123183214"></a>
-<figcaption>
-<a
-href="https://commons.wikimedia.org/wiki/File:Flexor-digitorum-profundis.png">Henry
-Vandyke Carter</a>, Public domain, via Wikimedia Commons
-</figcaption>
-</figure>
+{% with fig = pie.yaml.read_yaml("./src/muscles/flexor-digitorum-profundus/fig1.yml") %}
+  {% include "src/templates/figure.md.jinja" %}
+{% endwith %}
 
 ## References
 
