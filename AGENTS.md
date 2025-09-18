@@ -22,14 +22,11 @@
       - key: value
       - another: value
       ```
+- Makefiles: **indent with real tab characters** for recipe lines.
+  Leading spaces will break Makefile syntax. Never replace tabs with spaces.
 - Math
   - Use `$` and `$$` instead of `\\( \\)` or `\\[ \\]`.
   - Escape `$` when it denotes dollars.
 - Documentation
   - Write software docs as an expert engineer, providing enough detail for new
     team members.
-- `pie` module
-  - `pie` is built into the `press` submodule and available in the
-    `press-release` docker image.
-  - Do not add new code to `pie` unless explicitly instructed.
-  - Location: `press/app/shell/py/pie`.
