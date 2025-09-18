@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("extensor-carpi-ulnaris")}}
+## Summary
+
+{{ summary_card(
+  "extensor-carpi-ulnaris",
+  "./src/muscles/extensor-carpi-ulnaris/fig1.yml"
+) }}
 
 The extensor carpi ulnaris runs along the ulnar side of the posterior
 forearm. It arises from the lateral epicondyle of the humerus and the

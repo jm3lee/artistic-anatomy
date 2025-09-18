@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("flexor-digitorum-superficialis")}}
+## Summary
+
+{{ summary_card(
+  "flexor-digitorum-superficialis",
+  "./src/muscles/flexor-digitorum-superficialis/fig1.yml"
+) }}
 
 The flexor digitorum superficialis forms the intermediate layer of the anterior
 forearm. A humero-ulnar head springs from the medial epicondyle, ulnar

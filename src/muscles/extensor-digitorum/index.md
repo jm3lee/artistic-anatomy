@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("extensor-digitorum")}}
+## Summary
+
+{{ summary_card(
+  "extensor-digitorum",
+  "./src/muscles/extensor-digitorum/fig1.yml"
+) }}
 
 The extensor digitorum lies in the posterior forearm and sends four thin
 tendons to the back of the hand. Each tendon crosses the dorsal wrist and

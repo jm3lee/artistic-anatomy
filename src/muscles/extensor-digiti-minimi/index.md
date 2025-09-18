@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("extensor-digiti-minimi")}}
+## Summary
+
+{{ summary_card(
+  "extensor-digiti-minimi",
+  "./src/muscles/extensor-digiti-minimi/fig1.yml"
+) }}
 
 The extensor digiti minimi is a thin muscle on the ulnar side of the
 posterior forearm. It originates alongside

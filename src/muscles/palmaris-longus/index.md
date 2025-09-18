@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("palmaris-longus")}}
+## Summary
+
+{{ summary_card(
+  "palmaris-longus",
+  "./src/muscles/palmaris-longus/fig1.yml"
+) }}
 
 The palmaris longus is a slim superficial flexor that often forms a visible
 cord between {{ link('flexor-carpi-radialis') }} and

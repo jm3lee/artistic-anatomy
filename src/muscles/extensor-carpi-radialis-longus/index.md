@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("extensor-carpi-radialis-longus")}}
+## Summary
+
+{{ summary_card(
+  "extensor-carpi-radialis-longus",
+  "./src/muscles/extensor-carpi-radialis-longus/fig1.yml"
+) }}
 
 The extensor carpi radialis longus descends along the lateral forearm from the
 lower supracondylar ridge of the humerus. Its fusiform belly sits beside the

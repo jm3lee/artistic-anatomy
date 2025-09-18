@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("supinator")}}
+## Summary
+
+{{ summary_card(
+  "supinator",
+  "./src/muscles/supinator/fig1.yml"
+) }}
 
 The supinator wraps around the proximal radius like a broad band just below the
 elbow. Superficial fibers arise from the lateral epicondyle, radial collateral
