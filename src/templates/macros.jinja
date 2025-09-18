@@ -137,18 +137,18 @@
   - fig_path: path to the YAML figure definition
 --#}
 {%- macro summary_card(name, fig_path) -%}
-<div class="card mb-3 summary-card">
-<div class="row g-0 flex-column flex-md-row">
+<div class="card mb-3 summary-card h-100">
+<div class="row g-0 flex-column flex-md-row align-items-center">
 <!-- Image -->
-<div class="col-md-4 d-flex align-items-center">
+<div class="col-12 col-md-5 d-flex justify-content-center p-3 p-md-4">
 {%- with fig = pie.yaml.read_yaml(fig_path) -%}
 {%- include "src/templates/figure.md.jinja" -%}
 {%- endwith -%}
 </div>
 
 <!-- Content -->
-<div class="col-md-8">
-<div class="card-body">
+<div class="col-12 col-md-7 d-flex justify-content-center">
+<div class="card-body w-100 d-flex flex-column justify-content-center text-center text-md-start p-3 p-md-4">
 {{ summary(name) }}
 </div>
 </div>
