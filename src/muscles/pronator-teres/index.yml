@@ -7,14 +7,14 @@ anatomy: !!omap
 - origins:
   - Common flexor tendon attached to medial epicondyle of {{ linkicon("humerus") }}
   - '{{ linkcap("coronoid-process") }} of the {{ linkicon("ulna") }}'
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Pronator Teres
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Pronator Teres
   pubdate: Sep 18, 2025
   title: Pronator Teres
 icon: ':muscle:'

@@ -1,10 +1,10 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Resources
 description: Overview of Resources.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Resources
   pubdate: Sep 18, 2025
   title: Resources
 id: resources

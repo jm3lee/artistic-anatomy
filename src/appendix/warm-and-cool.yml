@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Appendix
-  url: /appendix/
-- title: Warm and Cool
 description: Overview of Warm and Cool.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Appendix
+    url: /appendix/
+  - title: Warm and Cool
   pubdate: Sep 18, 2025
   title: Warm and Cool
 id: warm-and-cool

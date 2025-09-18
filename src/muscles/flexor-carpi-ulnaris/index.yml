@@ -11,14 +11,14 @@ anatomy: !!omap
     flexor tendon'
   - 'Ulnar head: {{ linkicon("olecranon-process") }} and posterior border of the {{
     linkicon("ulna") }}'
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Flexor Carpi Ulnaris
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Flexor Carpi Ulnaris
   pubdate: Sep 18, 2025
   title: Flexor Carpi Ulnaris
 icon: ':muscle:'

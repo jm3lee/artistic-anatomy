@@ -6,14 +6,14 @@ anatomy: !!omap
   - Middle facet of the greater tubercle of the humerus
 - origins:
   - Infraspinous fossa of the {{ linkicon("scapula") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Infraspinatus
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Infraspinatus
   pubdate: Sep 18, 2025
   title: Infraspinatus
 icon: ':muscle:'

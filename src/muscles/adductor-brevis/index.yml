@@ -6,15 +6,15 @@ anatomy: !!omap
   - Pectineal line and proximal linea aspera of {{ linkicon("femur") }}
 - origins:
   - Body and inferior ramus of {{ linkicon("pelvis") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Adductor Brevis
 description: Short fan-shaped thigh muscle that adducts the femur.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Adductor Brevis
   pubdate: Sep 18, 2025
   title: Adductor Brevis
 icon: ':muscle:'

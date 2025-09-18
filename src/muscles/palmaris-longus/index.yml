@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Palmaris Longus
 description: Overview of Palmaris Longus.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Palmaris Longus
   pubdate: Sep 18, 2025
   title: Palmaris Longus
 id: palmaris-longus

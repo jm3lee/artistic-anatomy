@@ -35,20 +35,20 @@ anatomy:
     - Extensor digitorum brevis
     - Extensor hallucis brevis
     name: Superolateral surface
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Foot
-  url: /bones/foot/
-- title: Calcaneus
 description: 'The calcaneus forms the heel and transmits weight from the leg to the
   foot while providing leverage for the plantar flexors.
 
   '
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Foot
+    url: /bones/foot/
+  - title: Calcaneus
   pubdate: Sep 18, 2025
   title: Calcaneus
 icon: ':bone:'

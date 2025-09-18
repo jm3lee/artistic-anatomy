@@ -10,14 +10,14 @@ anatomy: !!omap
   - Lateral aspect of greater trochanter of {{ linkicon("femur") }}
 - origins:
   - Gluteal surface of ilium between posterior and anterior gluteal lines
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Gluteus Medius
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Gluteus Medius
   pubdate: Sep 18, 2025
   title: Gluteus Medius
 icon: ':muscle:'

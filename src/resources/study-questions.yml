@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Resources
-  url: /resources/
-- title: Study Questions
 description: Overview of Study Questions.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Resources
+    url: /resources/
+  - title: Study Questions
   pubdate: Sep 18, 2025
   title: Study Questions
 id: study-questions

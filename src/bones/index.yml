@@ -1,14 +1,15 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
 description: Catalog of human bones with links to individual pages
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
   pubdate: Sep 18, 2025
   title: Bones
-header_includes:
-- <script type="module" src="/static/js/indextree.js" defer></script>
+html:
+  scripts:
+  - <script type="module" src="/static/js/indextree.js" defer></script>
 id: bones
 indextree:
   include-js: true

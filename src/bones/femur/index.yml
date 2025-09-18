@@ -104,18 +104,18 @@ anatomy:
     - '{{ linktitle("popliteus") }}'
     - '{{ linktitle("plantaris") }} (origin just above lateral condyle)'
     name: Lateral condyle of femur
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Femur
 description: 'The femur is the thigh bone and the body''s longest, strongest bone
   connecting the hip and knee joints.
 
   '
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Femur
   pubdate: Sep 18, 2025
   title: Femur
 icon: ':bone:'

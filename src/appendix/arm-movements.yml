@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Appendix
-  url: /appendix/
-- title: Arm Movements
 description: Overview of Arm Movements.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Appendix
+    url: /appendix/
+  - title: Arm Movements
   pubdate: Sep 18, 2025
   title: Arm Movements
 id: arm-movements

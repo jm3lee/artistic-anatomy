@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Resources
-  url: /resources/
-- title: Artistic Anatomy by Paul Richer
 description: Overview of Artistic Anatomy by Paul Richer.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Resources
+    url: /resources/
+  - title: Artistic Anatomy by Paul Richer
   pubdate: Sep 18, 2025
   title: Artistic Anatomy by Paul Richer
 id: richer

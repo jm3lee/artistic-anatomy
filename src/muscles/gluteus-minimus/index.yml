@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Gluteus Minimus
 description: Overview of Gluteus Minimus.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Gluteus Minimus
   pubdate: Sep 18, 2025
   title: Gluteus Minimus
 icon: ':muscle:'

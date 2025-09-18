@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Background
-  url: /background/
-- title: Tendon vs. Ligament
 description: Overview of Tendon vs. Ligament.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Background
+    url: /background/
+  - title: Tendon vs. Ligament
   citation: tendon vs. ligament
   pubdate: Sep 18, 2025
   title: Tendon vs. Ligament

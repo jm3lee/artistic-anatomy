@@ -9,14 +9,14 @@ anatomy: !!omap
   - 'Long head: Infraglenoid tubercle of the {{ linktitle("scapula") }}'
   - 'Lateral head: Posterior humerus, above the radial groove'
   - 'Medial head: Posterior humerus, below the radial groove'
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Triceps
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Triceps
   pubdate: Sep 18, 2025
   title: Triceps
 icon: ':muscle:'

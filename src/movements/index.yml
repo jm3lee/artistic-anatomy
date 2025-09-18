@@ -1,14 +1,15 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Movements
 description: Catalog of movements with links to individual pages
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Movements
   pubdate: Sep 18, 2025
   title: Movements
-header_includes:
-- <script type="module" src="/static/js/indextree.js" defer></script>
+html:
+  scripts:
+  - <script type="module" src="/static/js/indextree.js" defer></script>
 id: movements
 indextree:
   include-js: true

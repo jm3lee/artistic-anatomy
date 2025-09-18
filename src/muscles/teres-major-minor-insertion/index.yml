@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Teres Major and Minor Insertion
 description: Overview of Teres Major and Minor Insertion.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Teres Major and Minor Insertion
   pubdate: Sep 18, 2025
   title: Teres Major and Minor Insertion
 id: teres-major-minor-insertion

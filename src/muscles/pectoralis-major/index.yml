@@ -11,14 +11,14 @@ anatomy: !!omap
   - Medial half of {{ linkicon("clavicle") }}
   - '{{ linktitle("sternum") }}'
   - Costal cartilages of ribs 1-6 (sometimes 1-7)
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Pectoralis Major
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Pectoralis Major
   pubdate: Sep 18, 2025
   title: Pectoralis Major
 icon: ':muscle:'

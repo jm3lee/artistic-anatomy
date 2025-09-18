@@ -1,11 +1,11 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Synovial Joints
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Synovial Joints
   pubdate: Sep 18, 2025
   title: Synovial Joints
 icon: ':gear:'

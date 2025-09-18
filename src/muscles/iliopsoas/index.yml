@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Iliopsoas
 description: Overview of Iliopsoas.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Iliopsoas
   pubdate: Sep 18, 2025
   title: Iliopsoas
 id: iliopsoas

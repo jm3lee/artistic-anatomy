@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Keyterms
-  url: /background/keyterms/
-- title: Muscle Origin and Insertion
 description: Overview of Muscle Origin and Insertion.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Keyterms
+    url: /background/keyterms/
+  - title: Muscle Origin and Insertion
   pubdate: Sep 18, 2025
   title: Muscle Origin and Insertion
 id: muscle-origin-and-insertion

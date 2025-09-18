@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Appendix
-  url: /appendix/
-- title: Bony Landmarks
 description: Overview of Bony Landmarks.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Appendix
+    url: /appendix/
+  - title: Bony Landmarks
   pubdate: Sep 18, 2025
   title: Bony Landmarks
 id: bony-landmarks

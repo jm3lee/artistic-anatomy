@@ -27,16 +27,16 @@ anatomy:
     - '{{ linktitle("dt") }}'
     - '{{ linktitle("trz") }}'
     name: Deltoid tubercle
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Clavicle
 description: The clavicle is a slender S-shaped bone connecting the sternum and scapula
   to brace the shoulder.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Clavicle
   pubdate: Sep 18, 2025
   title: Clavicle
 icon: ':bone:'

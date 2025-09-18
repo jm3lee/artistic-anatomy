@@ -45,18 +45,18 @@ anatomy:
   - muscles:
     - '{{ linktitle("brr") }}'
     name: Styloid process of radius
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Radius
 description: 'The radius is the lateral forearm bone that pivots around the ulna to
   enable pronation and supination.
 
   '
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Radius
   pubdate: Sep 18, 2025
   title: Radius
 icon: ':bone:'

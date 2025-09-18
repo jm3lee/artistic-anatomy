@@ -12,14 +12,14 @@ anatomy: !!omap
   - Edge of sacrum
   - Posterior iliac crest
   - Sacrotuberous and sacroiliac ligaments
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Gluteus Maximus
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Gluteus Maximus
   pubdate: Sep 18, 2025
   title: Gluteus Maximus
 icon: ':muscle:'

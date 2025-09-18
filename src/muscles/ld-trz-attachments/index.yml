@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Latissimus Dorsi and Trapezius Attachments
 description: Overview of Latissimus Dorsi and Trapezius Attachments.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Latissimus Dorsi and Trapezius Attachments
   pubdate: Sep 18, 2025
   title: Latissimus Dorsi and Trapezius Attachments
 id: ld-trz-attachments

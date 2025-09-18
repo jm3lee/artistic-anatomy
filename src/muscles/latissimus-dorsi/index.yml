@@ -12,14 +12,14 @@ anatomy: !!omap
   - Posterior iliac crest
   - Inferior angle of {{ linkicon("scapula") }}; see Variable Attachment to {{ link("inferior-angle-of-scapula")
     }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Latissimus Dorsi
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Latissimus Dorsi
   pubdate: Sep 18, 2025
   title: Latissimus Dorsi
 icon: ':muscle:'

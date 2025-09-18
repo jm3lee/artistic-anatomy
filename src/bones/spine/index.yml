@@ -1,11 +1,11 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Spine
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Spine
   pubdate: Sep 18, 2025
   title: Spine
 icon: ':bone:'

@@ -1,11 +1,11 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Pelvis
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Pelvis
   pubdate: Sep 18, 2025
   title: Pelvis
 icon: ':bone:'

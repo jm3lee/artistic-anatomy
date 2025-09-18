@@ -6,15 +6,15 @@ anatomy: !!omap
   - Upper linea aspera of {{ linkicon("femur") }}
 - origins:
   - Inferior pubic ramus of {{ linkicon("pelvis") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Adductor Minimus
 description: Upper portion of adductor magnus aiding thigh adduction.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Adductor Minimus
   pubdate: Sep 18, 2025
   title: Adductor Minimus
 icon: ':muscle:'

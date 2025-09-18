@@ -11,15 +11,15 @@ anatomy: !!omap
   - Lateral condyle of {{ linkicon("tibia") }}
   - Proximal, lateral surface of {{ linkicon("tibia") }}
   - Interosseous membrane
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Tibialis Anterior
 description: Overview of Tibialis Anterior.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Tibialis Anterior
   pubdate: Sep 18, 2025
   title: Tibialis Anterior
 icon: ':muscle:'

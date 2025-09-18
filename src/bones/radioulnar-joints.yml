@@ -1,11 +1,11 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Radioulnar Joints
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Radioulnar Joints
   pubdate: Sep 18, 2025
   title: Radioulnar Joints
 icon: ':gear:'

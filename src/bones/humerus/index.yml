@@ -100,14 +100,14 @@ anatomy:
   - muscles:
     - '{{ linktitle("trc") }} (long head)'
     name: Infraglenoid Tubercle
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Humerus
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Humerus
   pubdate: Sep 18, 2025
   title: Humerus
 icon: ':bone:'

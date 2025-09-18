@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Vastus Lateralis
 description: Overview of Vastus Lateralis.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Vastus Lateralis
   pubdate: Sep 18, 2025
   title: Vastus Lateralis
 id: vastus-lateralis

@@ -6,15 +6,15 @@ anatomy: !!omap
   - Middle third of linea aspera of {{ linkicon("femur") }}
 - origins:
   - Body of {{ linkicon("pelvis") }} near the pubic symphysis
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Adductor Longus
 description: Long flat thigh muscle that adducts and flexes the femur.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Adductor Longus
   pubdate: Sep 18, 2025
   title: Adductor Longus
 icon: ':muscle:'

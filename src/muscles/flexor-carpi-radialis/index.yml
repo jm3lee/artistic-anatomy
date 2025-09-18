@@ -7,14 +7,14 @@ anatomy: !!omap
 - origins:
   - Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }} via the common
     flexor tendon
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Flexor Carpi Radialis
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Flexor Carpi Radialis
   pubdate: Sep 18, 2025
   title: Flexor Carpi Radialis
 icon: ':muscle:'

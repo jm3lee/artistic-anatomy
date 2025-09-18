@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Extensor Carpi Radialis Longus
 description: Overview of Extensor Carpi Radialis Longus.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Extensor Carpi Radialis Longus
   pubdate: Sep 18, 2025
   title: Extensor Carpi Radialis Longus
 id: extensor-carpi-radialis-longus

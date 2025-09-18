@@ -1,14 +1,15 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Landmarks
 description: Catalog of surface landmarks with links to individual pages
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Landmarks
   pubdate: Sep 18, 2025
   title: Landmarks
-header_includes:
-- <script type="module" src="/static/js/indextree.js" defer></script>
+html:
+  scripts:
+  - <script type="module" src="/static/js/indextree.js" defer></script>
 id: landmarks
 indextree:
   include-js: true

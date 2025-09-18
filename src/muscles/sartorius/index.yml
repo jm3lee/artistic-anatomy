@@ -9,14 +9,14 @@ anatomy: !!omap
   - Medial surface of proximal tibia (pes anserinus area)
 - origins:
   - Anterior superior iliac spine (ASIS) of the pelvic bone
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Sartorius
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Sartorius
   pubdate: Sep 18, 2025
   title: Sartorius
 icon: ':muscle:'

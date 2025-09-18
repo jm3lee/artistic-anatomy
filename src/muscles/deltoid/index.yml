@@ -9,14 +9,14 @@ anatomy: !!omap
   - Lateral third of the {{ link("clavicle") }} ({{ link("anterior") }} fibers)
   - '{{ linkcap("acromion-process") }} of the {{ linkicon("scapula") }} (middle fibers)'
   - Spine of the {{ linkicon("scapula") }} ({{ link("posterior") }} fibers)
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Deltoid
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Deltoid
   pubdate: Sep 18, 2025
   title: Deltoid
 icon: ':muscle:'

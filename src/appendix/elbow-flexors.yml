@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Appendix
-  url: /appendix/
-- title: Elbow Flexors
 description: Overview of Elbow Flexors.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Appendix
+    url: /appendix/
+  - title: Elbow Flexors
   citation: elbow flexors
   pubdate: Sep 18, 2025
   title: Elbow Flexors

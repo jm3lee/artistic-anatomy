@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Vastus Medialis
 description: Overview of Vastus Medialis.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Vastus Medialis
   pubdate: Sep 18, 2025
   title: Vastus Medialis
 id: vastus-medialis

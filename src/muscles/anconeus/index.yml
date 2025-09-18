@@ -8,14 +8,14 @@ anatomy: !!omap
     }}
 - origins:
   - Posterior aspect of lateral epicondyle of the {{ linkicon("humerus") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Anconeus
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Anconeus
   pubdate: Sep 18, 2025
   title: Anconeus
 icon: ':muscle:'

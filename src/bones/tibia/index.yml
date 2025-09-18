@@ -35,14 +35,14 @@ anatomy:
   - muscles:
     - Tibialis posterior
     name: Posterior surface & interosseous membrane (distal two-thirds)
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Tibia
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Tibia
   pubdate: Sep 18, 2025
   title: Tibia
 icon: ':bone:'

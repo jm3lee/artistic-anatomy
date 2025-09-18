@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Resources
-  url: /resources/
-- title: Trail Guide to the Body Flashcards
 description: Overview of Trail Guide to the Body Flashcards.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Resources
+    url: /resources/
+  - title: Trail Guide to the Body Flashcards
   pubdate: Sep 18, 2025
   title: Trail Guide to the Body Flashcards
 id: trail-guide-to-the-body-flashcards

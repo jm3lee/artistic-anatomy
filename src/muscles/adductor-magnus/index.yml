@@ -6,15 +6,15 @@ anatomy: !!omap
   - Linea aspera and adductor tubercle of {{ linkicon("femur") }}
 - origins:
   - Inferior ramus of {{ linkicon("pelvis") }} and ischial tuberosity
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Adductor Magnus
 description: Broad triangular thigh muscle that adducts and extends the femur.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Adductor Magnus
   pubdate: Sep 18, 2025
   title: Adductor Magnus
 icon: ':muscle:'

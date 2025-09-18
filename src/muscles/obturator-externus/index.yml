@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Obturator Externus
 description: Overview of Obturator Externus.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Obturator Externus
   pubdate: Sep 18, 2025
   title: Obturator Externus
 id: obturator-externus

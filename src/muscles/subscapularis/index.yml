@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Subscapularis
 description: Overview of Subscapularis.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Subscapularis
   pubdate: Sep 18, 2025
   title: Subscapularis
 icon: ':muscle:'

@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Appendix
-  url: /appendix/
-- title: Anatomical Movement Encoding System
 description: Overview of Anatomical Movement Encoding System.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Appendix
+    url: /appendix/
+  - title: Anatomical Movement Encoding System
   pubdate: Sep 18, 2025
   title: Anatomical Movement Encoding System
 id: anatomical-movement-encoding-system

@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Superior Gemellus
 description: Overview of Superior Gemellus.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Superior Gemellus
   pubdate: Sep 18, 2025
   title: Superior Gemellus
 id: superior-gemellus

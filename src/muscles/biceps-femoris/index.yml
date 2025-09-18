@@ -8,14 +8,14 @@ anatomy: !!omap
 - origins:
   - 'Long head: Ischial tuberosity of the {{ linkicon("pelvis") }}'
   - 'Short head: Linea aspera of the {{ linkicon("femur") }}'
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Biceps Femoris
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Biceps Femoris
   pubdate: Sep 18, 2025
   title: Biceps Femoris
 icon: ':muscle:'

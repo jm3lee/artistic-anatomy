@@ -6,15 +6,15 @@ anatomy: !!omap
   - Extensor expansion of digit five
 - origins:
   - Lateral epicondyle of the {{ linkicon('humerus') }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Extensor Digiti Minimi
 description: Extends the little finger and assists with wrist extension.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Extensor Digiti Minimi
   pubdate: Sep 18, 2025
   title: Extensor Digiti Minimi
 icon: ':muscle:'

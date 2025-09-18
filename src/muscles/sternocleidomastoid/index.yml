@@ -10,14 +10,14 @@ anatomy: !!omap
 - origins:
   - Manubrium of sternum
   - Medial third of {{ linkicon("clavicle") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Sternocleidomastoid
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Sternocleidomastoid
   pubdate: Sep 18, 2025
   title: Sternocleidomastoid
 icon: ':muscle:'

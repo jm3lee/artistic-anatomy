@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Biceps Femoris Short Head
 description: Overview of Biceps Femoris Short Head.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Biceps Femoris Short Head
   pubdate: Sep 18, 2025
   title: Biceps Femoris Short Head
 id: biceps-femoris-short-head

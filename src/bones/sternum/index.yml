@@ -1,11 +1,11 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Sternum
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Sternum
   pubdate: Sep 18, 2025
   title: Sternum
 icon: ':bone:'

@@ -29,18 +29,18 @@ anatomy:
   - muscles:
     - '{{ linktitle("soleus") }}'
     name: Posterior proximal fibula
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Fibula
 description: 'The fibula is a slender lateral leg bone running parallel to the tibia
   and forming the outer ankle while serving as an anchor for muscles.
 
   '
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Fibula
   pubdate: Sep 18, 2025
   title: Fibula
 icon: ':bone:'

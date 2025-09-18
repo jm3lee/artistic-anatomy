@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Tensor Fasciae Latae
 description: Overview of Tensor Fasciae Latae.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Tensor Fasciae Latae
   pubdate: Sep 18, 2025
   title: Tensor Fasciae Latae
 id: tensor-fasciae-latae

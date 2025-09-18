@@ -1,14 +1,14 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Resources
-  url: /resources/
-- title: 'Classical Life Drawing Studio: Lessons & Teachings in the Art of Figure
-    Drawing.'
 description: 'Overview of Classical Life Drawing Studio: Lessons & Teachings in the
   Art of Figure Drawing..'
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Resources
+    url: /resources/
+  - title: 'Classical Life Drawing Studio: Lessons & Teachings in the Art of Figure
+      Drawing.'
   pubdate: Sep 18, 2025
   title: 'Classical Life Drawing Studio: Lessons & Teachings in the Art of Figure
     Drawing.'

@@ -9,14 +9,14 @@ anatomy: !!omap
 - origins:
   - Upper two thirds of the lateral (axillary) border of the {{ linkicon("scapula")
     }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Teres Minor
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Teres Minor
   pubdate: Sep 18, 2025
   title: Teres Minor
 icon: ':muscle:'

@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Background
-  url: /background/
-- title: Reponsible Use of Artificial Intelligence (AI)
 description: Overview of Reponsible Use of Artificial Intelligence (AI).
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Background
+    url: /background/
+  - title: Reponsible Use of Artificial Intelligence (AI)
   pubdate: Sep 18, 2025
   title: Reponsible Use of Artificial Intelligence (AI)
 id: responsible-use-of-ai

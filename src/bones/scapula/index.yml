@@ -62,18 +62,18 @@ anatomy:
 
       '
     name: Suprascapular notch {{ anchor("suprascapular-notch") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Scapula
 description: 'The scapula is a triangular shoulder blade that glides on the rib cage
   to position the arm and offers many muscle attachment sites.
 
   '
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Scapula
   pubdate: Sep 18, 2025
   title: Scapula
 icon: ':bone:'

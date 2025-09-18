@@ -7,14 +7,14 @@ anatomy: !!omap
   - Anterior half of iliac crest
 - origins:
   - External surfaces of ribs 5–12
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: External Oblique
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: External Oblique
   pubdate: Sep 18, 2025
   title: External Oblique
 icon: ':muscle:'

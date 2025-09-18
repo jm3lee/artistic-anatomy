@@ -1,14 +1,15 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Head
 description: Catalog of head anatomy with links to individual pages
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Head
   pubdate: Sep 18, 2025
   title: Head
-header_includes:
-- <script type="module" src="/static/js/indextree.js" defer></script>
+html:
+  scripts:
+  - <script type="module" src="/static/js/indextree.js" defer></script>
 id: head
 indextree:
   include-js: true

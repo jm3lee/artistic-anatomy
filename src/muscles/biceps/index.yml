@@ -9,14 +9,14 @@ anatomy: !!omap
 - origins:
   - 'Short head: Coracoid process of the {{ linkicon("scapula") }}'
   - 'Long head: Supraglenoid tubercle of the {{ linkicon("scapula") }}'
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Biceps
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Biceps
   pubdate: Sep 18, 2025
   title: Biceps
 icon: ':muscle:'

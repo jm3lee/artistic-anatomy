@@ -7,15 +7,15 @@ anatomy: !!omap
     }}
 - origins:
   - Supraspinous fossa of the {{ linkicon("scapula") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Supraspinatus
 description: Overview of Supraspinatus.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Supraspinatus
   pubdate: Sep 18, 2025
   title: Supraspinatus
 icon: ':muscle:'

@@ -8,15 +8,15 @@ anatomy: !!omap
   - Base of the first metatarsal
 - origins:
   - Head and upper lateral surface of {{ linkicon("fibula") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Fibularis Longus
 description: Overview of Fibularis Longus.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Fibularis Longus
   pubdate: Sep 18, 2025
   title: Fibularis Longus
 icon: ':muscle:'

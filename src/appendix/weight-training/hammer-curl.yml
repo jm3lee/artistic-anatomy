@@ -1,14 +1,14 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Appendix
-  url: /appendix/
-- title: Weight Training
-  url: /appendix/weight-training/
-- title: Hammer Curl
 description: Overview of Hammer Curl.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Appendix
+    url: /appendix/
+  - title: Weight Training
+    url: /appendix/weight-training/
+  - title: Hammer Curl
   pubdate: Sep 18, 2025
   title: Hammer Curl
 id: hammer-curl

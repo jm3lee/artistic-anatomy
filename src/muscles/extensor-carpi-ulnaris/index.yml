@@ -7,15 +7,15 @@ anatomy: !!omap
 - origins:
   - Lateral epicondyle of the {{ linkicon("humerus") }}
   - Posterior border of the {{ linkicon("ulna") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Extensor Carpi Ulnaris
 description: Extends and adducts the wrist along the ulnar edge.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Extensor Carpi Ulnaris
   pubdate: Sep 18, 2025
   title: Extensor Carpi Ulnaris
 icon: ':muscle:'

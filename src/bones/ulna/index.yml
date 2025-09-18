@@ -65,18 +65,18 @@ anatomy:
   - muscles:
     - '{{ linktitle("flexor-digitorum-profundus") }} (ulnar half)'
     name: Ulnar tuberosity (anteromedial shaft)
-breadcrumbs:
-- title: Home
-  url: /
-- title: Bones
-  url: /bones/
-- title: Ulna
 description: 'The ulna is the medial forearm bone forming the elbow''s hinge and providing
   broad surfaces for muscle attachment.
 
   '
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Bones
+    url: /bones/
+  - title: Ulna
   pubdate: Sep 18, 2025
   title: Ulna
 icon: ':bone:'

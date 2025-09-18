@@ -10,14 +10,14 @@ anatomy: !!omap
 - origins:
   - Occipital bone
   - Spinous processes of {{ linkicon("spine") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Trapezius
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Trapezius
   pubdate: Sep 18, 2025
   title: Trapezius
 icon: ':muscle:'

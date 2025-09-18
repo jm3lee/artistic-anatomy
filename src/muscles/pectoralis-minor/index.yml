@@ -8,14 +8,14 @@ anatomy: !!omap
   - '{{ linkcap("coracoid-process") }} of the {{ linkicon("scapula") }}.'
 - origins:
   - Anterior surfaces of the 3rd to 5th ribs near their costal cartilages.
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Pectoralis Minor
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Pectoralis Minor
   pubdate: Sep 18, 2025
   title: Pectoralis Minor
 icon: ':muscle:'

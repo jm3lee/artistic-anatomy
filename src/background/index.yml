@@ -1,10 +1,10 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Background
 description: Overview of Background.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Background
   pubdate: Sep 18, 2025
   title: Background
 id: background

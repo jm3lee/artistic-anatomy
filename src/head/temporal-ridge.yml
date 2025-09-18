@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Head
-  url: /head/
-- title: Temporal Ridge
 description: Overview of Temporal Ridge.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Head
+    url: /head/
+  - title: Temporal Ridge
   pubdate: Sep 18, 2025
   title: Temporal Ridge
 id: temporal-ridge

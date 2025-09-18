@@ -5,14 +5,14 @@ anatomy: !!omap
   - Medial border of {{ linkicon("scapula") }} (from spine to inferior angle)
 - origins:
   - Spinous processes of T2 to T5 vertebrae
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Rhomboid Major
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Rhomboid Major
   pubdate: Sep 18, 2025
   title: Rhomboid Major
 icon: ':muscle:'

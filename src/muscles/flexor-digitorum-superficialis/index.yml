@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Flexor Digitorum Superficialis
 description: Overview of Flexor Digitorum Superficialis.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Flexor Digitorum Superficialis
   pubdate: Sep 18, 2025
   title: Flexor Digitorum Superficialis
 id: flexor-digitorum-superficialis

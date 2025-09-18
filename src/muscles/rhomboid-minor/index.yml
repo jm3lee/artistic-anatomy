@@ -1,11 +1,11 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Rhomboid Minor
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Rhomboid Minor
   pubdate: Sep 18, 2025
   title: Rhomboid Minor
 icon: ':muscle:'

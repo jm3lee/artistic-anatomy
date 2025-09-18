@@ -1,12 +1,12 @@
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Gastrocnemius Medial Head
 description: Overview of Gastrocnemius Medial Head.
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Gastrocnemius Medial Head
   pubdate: Sep 18, 2025
   title: Gastrocnemius Medial Head
 id: gastrocnemius-medial-head

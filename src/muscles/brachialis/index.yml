@@ -6,14 +6,14 @@ anatomy: !!omap
   - '{{ linkcap("coronoid-process") }} of ulna'
 - origins:
   - Distal half of anterior surface of the {{ linkicon("humerus") }}
-breadcrumbs:
-- title: Home
-  url: /
-- title: Muscles
-  url: /muscles/
-- title: Brachialis
 doc:
   author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Brachialis
   pubdate: Sep 18, 2025
   title: Brachialis
 icon: ':muscle:'
