@@ -284,3 +284,20 @@ tbody tr:nth-of-type(even) {
 .summary-card figure {
     margin: 0;
 }
+
+.summary-card h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.summary-card h3:nth-child(1) {
+    margin-top: 0;
+}
+
+.summary-card ul:last-child {
+    margin-bottom: 0;
+}
+
+figcaption {
+    line-height: 1.3;
+}
