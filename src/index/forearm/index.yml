@@ -1,0 +1,15 @@
+doc:
+  author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Forearm
+    url: /forearm/
+  - title: Index
+  pubdate: Sep 18, 2025
+  title: Forearm
+html:
+  scripts:
+  - <script type="module" src="/static/js/indextree.js" defer></script>
+id: index
+schema: v1

@@ -101,6 +101,9 @@ build/static/index/appendix-indextree.json: $(APPENDIX_YAMLS) | build/static/ind
 build/static/index/resources-indextree.json: $(RESOURCE_YAMLS) | build/static/index
 	indextree-json src/resources > $@
 
+build/static/index/forearm-indextree.json: $(MUSCLE_YAMLS) | build/static/index
+	indextree-json -t forearm src/muscles > $@
+
 build/toc.html: \
 	build/static/index/background-indextree.json \
 	build/static/index/head-indextree.json \
@@ -112,7 +115,8 @@ build/toc.html: \
 	build/static/index/torso-indextree.json \
 	build/static/index/movements-indextree.json \
 	build/static/index/appendix-indextree.json \
-	build/static/index/resources-indextree.json
+	build/static/index/resources-indextree.json \
+	build/static/index/forearm-indextree.json
 
 build/static/index:
 	mkdir -p $@
