@@ -130,6 +130,32 @@
 </dl>
 {%- endmacro %}
 
+{#--
+  Macro: summary_card
+  Render a Bootstrap-styled card combining a figure with the muscle summary.
+  - name: muscle identifier used with get_desc
+  - fig_path: path to the YAML figure definition
+--#}
+{%- macro summary_card(name, fig_path) -%}
+<div class="card mb-3">
+  <div class="row g-0 flex-column flex-md-row">
+    <!-- Image -->
+    <div class="col-md-4 d-flex align-items-center">
+      {%- with fig = pie.yaml.read_yaml(fig_path) -%}
+        {%- include "src/templates/figure.md.jinja" -%}
+      {%- endwith -%}
+    </div>
+
+    <!-- Content -->
+    <div class="col-md-8">
+      <div class="card-body">
+        <p class="card-text">{{ summary(name) }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{%- endmacro %}
+
 {% macro summary_bones(name) %}
 ## Summary
 
