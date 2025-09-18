@@ -1,4 +1,18 @@
-description: Overview of Flexor Digitorum Superficialis.
+anatomy: !!omap
+- actions:
+  - Flexes proximal interphalangeal joints of digits two through five
+  - Assists metacarpophalangeal and wrist flexion when gripping
+- insertions:
+  - Sides of the middle phalanges of digits two through five via split tendons
+- origins:
+  - Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }} through the
+    common flexor tendon
+  - '{{ linkcap("coronoid-process") }} of the {{ linkicon("ulna") }}'
+  - Oblique line and superior half of the anterior border of the
+    {{ linkicon("radius") }}
+description: |
+  Overview of Flexor Digitorum Superficialis and its layered tendons across the
+  anterior forearm.
 doc:
   author: Brian Lee
   breadcrumbs:
@@ -9,6 +23,7 @@ doc:
   - title: Flexor Digitorum Superficialis
   pubdate: Sep 18, 2025
   title: Flexor Digitorum Superficialis
+icon: ':muscle:'
 id: flexor-digitorum-superficialis
 status: Review Pending
 tags:
