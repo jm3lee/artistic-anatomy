@@ -22,6 +22,8 @@ doc:
 icon: ':muscle:'
 id: trc
 status: Reviewed
+tags:
+- forearm
 translations:
   french: triceps brachial
   russian: трёхглавая мышца плеча
