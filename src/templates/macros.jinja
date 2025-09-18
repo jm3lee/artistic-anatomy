@@ -111,10 +111,12 @@
   - items: sequence of objects to render via render_jinja()
 --#}
 {%- macro def_list(label, items) %}
-  <dt>{{ label }}</dt>
+<h3>{{ label }}</h3>
+<ul class="ps-md-4 ps-4">
   {%- for item in items %}
-    <dd>{{ render_jinja(item) }}</dd>
+    <li>{{ render_jinja(item) }}</li>
   {%- endfor %}
+</ul>
 {%- endmacro %}
 
 {#--
@@ -123,11 +125,9 @@
   Insertions, and Actions for the given name.
 --#}
 {%- macro summary(name) %}
-<dl class="summary-list">
 {{ def_list("Origins",   get_desc(name)['anatomy']['origins']) }}
 {{ def_list("Insertions",  get_desc(name)['anatomy']['insertions']) }}
 {{ def_list("Actions",   get_desc(name)["anatomy"]["actions"]) }}
-</dl>
 {%- endmacro %}
 
 {% macro summary_bones(name) %}
