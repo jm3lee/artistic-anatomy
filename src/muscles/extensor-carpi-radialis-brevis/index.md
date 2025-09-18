@@ -22,7 +22,6 @@
 </div>
 </div>
 
-
 The extensor carpi radialis brevis sits deep to the
 {{ link('extensor-carpi-radialis-longus') }} near the lateral elbow. Its short
 muscle belly springs from the common extensor tendon and quickly becomes a flat
