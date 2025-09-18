@@ -3,7 +3,7 @@ anatomy:
   - '{{ linktitle("pecmin") }}'
   origins:
   - '{{ linktitle("coracobrachialis") }}'
-  - '{{ linktitle("bc") }} (short head)'
+  - '{{ linktitle("biceps") }} (short head)'
 doc:
   author: Brian Lee
   pubdate: Sep 18, 2025

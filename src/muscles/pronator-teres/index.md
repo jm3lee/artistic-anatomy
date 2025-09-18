@@ -1,9 +1,9 @@
 {% from "src/templates/macros.jinja" import translations, summary %}
 
 
-{{summary("protrs")}}
+{{summary("pronator-teres")}}
 
-{{translations('protrs')}}
+{{translations('pronator-teres')}}
 
 ## References
 

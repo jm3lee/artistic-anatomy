@@ -74,10 +74,10 @@ anatomy:
     name: Medial Shaft of Humerus
   origins:
   - muscles:
-    - '{{ linktitle("protrs") }} (humeral head)'
-    - '{{ linktitle("fcr") }}'
+    - '{{ linktitle("pronator-teres") }} (humeral head)'
+    - '{{ linktitle("flexor-carpi-radialis") }}'
     - Palmaris longus
-    - '{{ linktitle("fcu") }} (humeral head)'
+    - '{{ linktitle("flexor-carpi-ulnaris") }} (humeral head)'
     - Flexor digitorum superficialis (humeral head)
     name: Medial epicondyle (common flexor origin)
   - muscles:
@@ -88,7 +88,7 @@ anatomy:
     - Supinator
     name: Lateral epicondyle (common extensor origin)
   - muscles:
-    - '{{ linktitle("brr") }}'
+    - '{{ linktitle("brachioradialis") }}'
     - Extensor carpi radialis longus
     name: Lateral supracondylar ridge
   - muscles:

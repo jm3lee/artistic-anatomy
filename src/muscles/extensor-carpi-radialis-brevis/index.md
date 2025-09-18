@@ -23,8 +23,8 @@ helps sell tennis-elbow poses in figure drawing.
 
 * {{ link('extensor-carpi-radialis-longus') }}
 * {{ link('extensor-carpi-ulnaris') }}
-* {{ link('brr') }}
-* {{ link('fcr') }}
+* {{ link('brachioradialis') }}
+* {{ link('flexor-carpi-radialis') }}
 
 ## References
 

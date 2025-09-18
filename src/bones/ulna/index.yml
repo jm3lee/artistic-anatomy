@@ -17,7 +17,7 @@ anatomy:
     name: Interosseous border {{ anchor("interosseous-border") }}
   - desc: 'Large {{ link(''posterior'') }} hook forming the elbow point; insertion
       site for {{ linktitle(''trc'') }} and attachment for {{ linktitle(''anc'') }}
-      and {{ linktitle(''fcu'') }}.
+      and {{ linktitle(''flexor-carpi-ulnaris'') }}.
 
       '
     name: Olecranon process {{ anchor("olecranon-process") }}
@@ -56,7 +56,7 @@ anatomy:
     - '{{ linktitle("trc") }} (all heads)'
     name: Olecranon process
   - muscles:
-    - '{{ linktitle("fcu") }} (via pisiform, hamate, 5th metacarpal)'
+    - '{{ linktitle("flexor-carpi-ulnaris") }} (via pisiform, hamate, 5th metacarpal)'
     name: Posterior border of ulna
   - muscles:
     - '{{ linktitle("flexor-digitorum-superficialis") }} (via intermediate phalanges;

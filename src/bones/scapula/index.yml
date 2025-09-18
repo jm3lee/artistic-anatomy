@@ -11,7 +11,7 @@ anatomy:
       '
     name: Acromion process {{ anchor("acromion-process") }}
   - desc: 'Hook-like {{ link("anterior") }} projection providing attachments for {{
-      linkicon("pecmin") }}, coracobrachialis, and the short head of {{ linktitle("bc")
+      linkicon("pecmin") }}, coracobrachialis, and the short head of {{ linktitle("biceps")
       }}.
 
       '

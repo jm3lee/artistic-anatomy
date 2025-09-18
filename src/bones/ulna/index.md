@@ -35,10 +35,10 @@
 ### By Bony Landmarks
 
 * **Coronoid Process ({{ linktitle('medial') }} border)**
-  * {{ linktitle('protrs') }} (ulnar head)
+  * {{ linktitle('pronator-teres') }} (ulnar head)
 
 * **{{ linktitle('posterior') }} border of ulnar shaft**
-  * {{ linktitle('fcu') }} (ulnar head)
+  * {{ linktitle('flexor-carpi-ulnaris') }} (ulnar head)
 
 * **Shaft (interosseous border)**
   * Extensor indicis (via interosseous membrane attachment)

@@ -1,10 +1,10 @@
 {% from "src/templates/macros.jinja" import summary, translations %}
 
-{{summary("bc")}}
+{{summary("biceps")}}
 
 Supination is most powerful when the arm is flexed at 90 degrees.
 
-{{translations('bc')}}
+{{translations('biceps')}}
 
 ## Examples
 

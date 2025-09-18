@@ -1,6 +1,6 @@
 {% from "src/templates/macros.jinja" import translations, summary %}
 
-{{summary("brr")}}
+{{summary("brachioradialis")}}
 
 ## Illustrations
 
@@ -13,7 +13,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Brachioradialis.p
 <a href="https://commons.wikimedia.org/wiki/File:Brachioradialis.png">Henry
 Vandyke Carter</a>, Public domain, via Wikimedia Commons</figcaption></figure>
 
-{{translations('brr')}}
+{{translations('brachioradialis')}}
 
 ## References
 

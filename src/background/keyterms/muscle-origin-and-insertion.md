@@ -28,7 +28,7 @@ help describe the function of the muscle and how it contributes to movement.
 
 ## Example
 
-{{ linktitle('bc') }}
+{{ linktitle('biceps') }}
 
 * **Origin**: The biceps brachii originates at the {{ link('scapula') }} (shoulder blade).
 * **Insertion**: It inserts into the {{ link('radius') }} (forearm bone).

@@ -8,7 +8,7 @@ anatomy:
 
       '
     name: Neck {{ anchor("neck") }}
-  - desc: 'Rough anterior projection where {{ linkicon(''bc'') }} inserts.
+  - desc: 'Rough anterior projection where {{ linkicon(''biceps'') }} inserts.
 
       '
     name: Radial tuberosity {{ anchor("radial-tuberosity") }}
@@ -28,22 +28,22 @@ anatomy:
       '
     name: Dorsal tubercle {{ anchor("dorsal-tubercle") }}
   - desc: 'Pointed distal projection anchoring the radial collateral ligament and
-      {{ linkicon(''brr'') }}.
+      {{ linkicon(''brachioradialis'') }}.
 
       '
     name: Styloid process {{ anchor("styloid-process") }}
   insertions:
   - muscles:
-    - '{{ linktitle("bc") }}'
+    - '{{ linktitle("biceps") }}'
     name: Radial tuberosity and bicipital aponeurosis
   - muscles:
-    - '{{ linktitle("protrs") }}'
+    - '{{ linktitle("pronator-teres") }}'
     name: Lateral surface (midshaft)
   - muscles:
     - '{{ linktitle("supinator") }}'
     name: Proximal lateral radius
   - muscles:
-    - '{{ linktitle("brr") }}'
+    - '{{ linktitle("brachioradialis") }}'
     name: Styloid process of radius
 description: 'The radius is the lateral forearm bone that pivots around the ulna to
   enable pronation and supination.

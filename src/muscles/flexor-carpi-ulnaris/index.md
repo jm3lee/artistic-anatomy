@@ -2,7 +2,7 @@ A part of the [Wrist Flexor Group](/wrist-flexor-group.html).
 
 {% from "src/templates/macros.jinja" import summary, figure %}
 
-{{summary("fcu")}}
+{{summary("flexor-carpi-ulnaris")}}
 
 ## Illustrations
 

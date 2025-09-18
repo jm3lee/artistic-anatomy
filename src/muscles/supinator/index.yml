@@ -7,7 +7,7 @@ anatomy: !!omap
 - origins:
   - Lateral epicondyle of the {{ linkicon("humerus") }} and the radial
     collateral ligament
-  - '{{ link("annular-ligament") }} of the radius'
+  - annular of the radius
   - Supinator crest and fossa of the proximal {{ linkicon("ulna") }}
 description: |
   Overview of Supinator, the deep rotator that unwinds the proximal radius

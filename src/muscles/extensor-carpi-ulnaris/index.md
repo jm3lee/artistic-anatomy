@@ -11,7 +11,7 @@ It shares a common origin with {{ link('extensor-digitorum') }} and
 {{ link('extensor-digiti-minimi') }}. Working with
 {{ link('extensor-carpi-radialis-longus') }} and
 {{ link('extensor-carpi-radialis-brevis') }} it steadies the wrist during
-gripping. It opposes {{ link('fcu') }} when the wrist bends.
+gripping. It opposes {{ link('flexor-carpi-ulnaris') }} when the wrist bends.
 
 ## References
 

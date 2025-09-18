@@ -1,6 +1,6 @@
 {% from "src/templates/macros.jinja" import summary, figure %}
 
-{{summary("fcr")}}
+{{summary("flexor-carpi-radialis")}}
 
 ## Illustrations
 
