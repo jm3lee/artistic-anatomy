@@ -159,7 +159,8 @@
 --#}
 {% macro translations(name) %}
 ## Translations
-{% for k, v in get_desc(name)["translations"].items() -%}
+{% for k in get_desc(name)["translations"].keys() | sort -%}
+  {% set v = get_desc(name)["translations"][k] %}
   {% if v is mapping -%}
     <h3>{{render_jinja(k)|title}}</h3>
     <dl>
