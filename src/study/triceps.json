@@ -1,6 +1,6 @@
 [
   {
-    "q": "Which {{ linkicon('trc') }} head forms the lateral bulge when you extend your arm?",
+    "q": "Which {{ linkicon('triceps') }} head forms the lateral bulge when you extend your arm?",
     "c": [
       "Medial head",
       "Anconeus",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "q": "All three {{ linkicon('trc') }} heads insert on which bony landmark?",
+    "q": "All three {{ linkicon('triceps') }} heads insert on which bony landmark?",
     "c": [
       "Radial tuberosity",
       "Coronoid process of the ulna",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "q": "The long head of the {{ linkicon('trc') }} originates from which scapular feature?",
+    "q": "The long head of the {{ linkicon('triceps') }} originates from which scapular feature?",
     "c": [
       "Supraglenoid tubercle",
       "Infraglenoid tubercle",
@@ -39,7 +39,7 @@
     ]
   },
   {
-    "q": "The medial head of the {{ linkicon('trc') }} arises from which part of the humerus?",
+    "q": "The medial head of the {{ linkicon('triceps') }} arises from which part of the humerus?",
     "c": [
       "Posterior shaft below the radial groove",
       "Deltoid tuberosity",

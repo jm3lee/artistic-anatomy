@@ -68,7 +68,7 @@
     "q": "Which muscle helps initiate {{get_desc('abduction')['title']|lower}} of the shoulder before the {{get_desc('dt')['title']|lower}} takes over?",
     "c": [
       "{{ linktitle('supraspinatus') }}",
-      "{{ linktitle('trc') }}",
+      "{{ linktitle('triceps') }}",
       "{{ linktitle('infraspinatus') }}",
       "{{ linktitle('teres-minor') }}"
     ],

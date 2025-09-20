@@ -1,7 +1,7 @@
 {% from "src/templates/macros.jinja" import translations, summary, figure %}
 
 
-{{summary("trc")}}
+{{summary("triceps")}}
 
 ## Illustrations
 
@@ -30,7 +30,7 @@ src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/triceps-000
 alt="David and Goliath, Caravaggio, 1599"
 loading="lazy"/>
 
-{{translations('trc')}}
+{{translations('triceps')}}
 
 ## References
 

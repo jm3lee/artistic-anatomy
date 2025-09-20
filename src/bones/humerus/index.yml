@@ -92,13 +92,13 @@ anatomy:
     - Extensor carpi radialis longus
     name: Lateral supracondylar ridge
   - muscles:
-    - '{{ linktitle("brc") }}'
+    - '{{ linktitle("brachialis") }}'
     name: Anterior shaft (distal half)
   - muscles:
-    - '{{ linktitle("trc") }} (lateral and medial heads)'
+    - '{{ linktitle("triceps") }} (lateral and medial heads)'
     name: Posterior shaft (radial groove region)
   - muscles:
-    - '{{ linktitle("trc") }} (long head)'
+    - '{{ linktitle("triceps") }} (long head)'
     name: Infraglenoid Tubercle
 doc:
   author: Brian Lee
@@ -108,7 +108,7 @@ doc:
   - title: Bones
     url: /bones/
   - title: Humerus
-  pubdate: Sep 18, 2025
+  pubdate: Sep 20, 2025
   title: Humerus
 icon: ':bone:'
 id: humerus

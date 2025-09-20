@@ -1,7 +1,7 @@
 anatomy:
   bony_landmarks:
   - desc: 'Anterior projection distal to the trochlear notch that helps form the elbow
-      joint and provides attachment for the {{ linktitle(''brc'') }}.
+      joint and provides attachment for the {{ linktitle(''brachialis'') }}.
 
       '
     name: Coronoid process {{ anchor("coronoid-process") }}
@@ -16,8 +16,8 @@ anatomy:
       '
     name: Interosseous border {{ anchor("interosseous-border") }}
   - desc: 'Large {{ link(''posterior'') }} hook forming the elbow point; insertion
-      site for {{ linktitle(''trc'') }} and attachment for {{ linktitle(''anc'') }}
-      and {{ linktitle(''flexor-carpi-ulnaris'') }}.
+      site for {{ linktitle(''triceps'') }} and attachment for {{ linktitle(''anc'')
+      }} and {{ linktitle(''flexor-carpi-ulnaris'') }}.
 
       '
     name: Olecranon process {{ anchor("olecranon-process") }}
@@ -41,19 +41,19 @@ anatomy:
       '
     name: Trochlear notch {{ anchor("trochlear-notch") }}
   - desc: 'Rough area below the coronoid process on the {{ link(''anterior'') }} shaft
-      where {{ linktitle(''brc'') }} and flexor digitorum profundus attach.
+      where {{ linktitle(''brachialis'') }} and flexor digitorum profundus attach.
 
       '
     name: Ulnar tuberosity {{ anchor("ulnar-tuberosity") }}
   insertions:
   - muscles:
-    - '{{ linktitle("brc") }}'
+    - '{{ linktitle("brachialis") }}'
     name: Coronoid process and ulnar tuberosity
   - muscles:
     - '{{ linktitle("anc") }}'
     name: Lateral olecranon
   - muscles:
-    - '{{ linktitle("trc") }} (all heads)'
+    - '{{ linktitle("triceps") }} (all heads)'
     name: Olecranon process
   - muscles:
     - '{{ linktitle("flexor-carpi-ulnaris") }} (via pisiform, hamate, 5th metacarpal)'
@@ -77,7 +77,7 @@ doc:
   - title: Bones
     url: /bones/
   - title: Ulna
-  pubdate: Sep 18, 2025
+  pubdate: Sep 20, 2025
   title: Ulna
 icon: ':bone:'
 id: ulna
