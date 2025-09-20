@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "brachioradialis",
-  "./src/muscles/brachioradialis/fig1.yml"
+  "brachioradialis-fig1"
 ) }}
 
 The brachioradialis forms the lateral ridge of the forearm, spanning from the

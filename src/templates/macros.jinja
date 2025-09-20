@@ -23,25 +23,6 @@
 {% endmacro %}
 
 {#--
-  Macro: figure
-  Render a figure with optional link, caption, and width.
---#}
-{% macro figure(src, alt, caption=None, href=None, width=None) %}
-<figure class="figure">
-  {%- if href -%}
-  <a href="{{ href }}">
-    <img src="{{ src }}" alt="{{ alt }}"{% if width %} width="{{ width }}"{% endif %} class="figure-img img-fluid rounded" loading="lazy" />
-  </a>
-  {%- else -%}
-  <img src="{{ src }}" alt="{{ alt }}"{% if width %} width="{{ width }}"{% endif %} class="figure-img img-fluid rounded" loading="lazy" />
-  {%- endif -%}
-  {%- if caption -%}
-  <figcaption class="figure-caption text-center">{{ caption | safe }}</figcaption>
-  {%- endif -%}
-</figure>
-{% endmacro %}
-
-{#--
   Macro: insertions
   Render muscle insertions for a bone.
   - name: bone identifier used with get_desc
@@ -141,10 +122,7 @@
 <div class="row g-0 flex-column flex-md-row align-items-center">
 <!-- Image -->
 <div class="col-12 col-md-5 d-flex justify-content-center p-3 p-md-4">
-{%- with fig_data = pie.yaml.read_yaml(fig_path) -%}
-{%- set fig = fig_data.fig -%}
-{%- include "src/templates/figure.md.jinja" -%}
-{%- endwith -%}
+{{ figure(fig_path) }}
 </div>
 
 <!-- Content -->
