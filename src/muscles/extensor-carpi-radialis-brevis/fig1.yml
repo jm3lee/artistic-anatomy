@@ -1,7 +1,11 @@
-caption: <a href="https://commons.wikimedia.org/wiki/File:ECR-brevis.png">Me</a>, Public domain, via Wikimedia Commons
+fig:
+  caption: >-
+    <a href="https://commons.wikimedia.org/wiki/File:ECR-brevis.png">Me</a>, Public domain, via Wikimedia Commons
+  image: >-
+    <a title="Me, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ECR-brevis.png"><img width="256" alt="ECR-brevis"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/ECR-brevis.png/256px-ECR-brevis.png?20070124054705"></a>
 doc:
   author: Wikicommons
   pubdate: Sep 18, 2025
   title: Henry Vandyke Carter, Public domain, via Wikimedia Commons
-image: <a title="Me, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ECR-brevis.png"><img width="256" alt="ECR-brevis" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/ECR-brevis.png/256px-ECR-brevis.png?20070124054705"></a>
 id: extensor-carpi-radialis-brevis-fig1

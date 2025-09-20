@@ -1,13 +1,14 @@
-caption: >-
-  <a href="https://commons.wikimedia.org/wiki/File:Supinator.png">Gray's Anatomy</a>,
-  Public domain, via Wikimedia Commons
+fig:
+  caption: >-
+    <a href="https://commons.wikimedia.org/wiki/File:Supinator.png">Gray's Anatomy</a>,
+    Public domain, via Wikimedia Commons
+  image: >-
+    <a title="Gray's Anatomy, Public domain, via Wikimedia Commons"
+    href="https://commons.wikimedia.org/wiki/File:Supinator.png"><img width="256"
+    alt="Supinator"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Supinator.png/256px-Supinator.png?20070729183211"></a>
 doc:
   author: Gray's Anatomy
   pubdate: Sep 18, 2025
   title: Supinator illustration
 id: supinator-fig1
-image: >-
-  <a title="Gray's Anatomy, Public domain, via Wikimedia Commons"
-  href="https://commons.wikimedia.org/wiki/File:Supinator.png"><img width="256"
-  alt="Supinator"
-  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Supinator.png/256px-Supinator.png?20070729183211"></a>
