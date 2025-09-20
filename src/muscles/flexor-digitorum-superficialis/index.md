@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "flexor-digitorum-superficialis",
-  "./src/muscles/flexor-digitorum-superficialis/fig1.yml"
+  "flexor-digitorum-superficialis-fig1"
 ) }}
 
 The flexor digitorum superficialis forms the intermediate layer of the anterior
