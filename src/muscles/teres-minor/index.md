@@ -5,16 +5,7 @@
 
 ## Illustrations
 
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/4/41/Teres_minor_muscle_animation2.gif?20121121033256" %}
-{% set alt = "Teres minor muscle animation2" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href
-) }}
+{{ figure("teres-minor-fig1") }}
 
 {{translations('teres-minor')}}
 

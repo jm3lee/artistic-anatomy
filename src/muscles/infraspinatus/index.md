@@ -5,23 +5,9 @@
 
 ## Illustrations
 
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/8/8d/Infraspinatus_muscle_animation.gif?20121120170804" %}
-{% set alt = "Infraspinatus muscle animation" %}
-{% set caption = "Anatomography, CC BY-SA 2.1 JP, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Infraspinatus_muscle_animation.gif" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href
-) }}
+{{ figure("infraspinatus-fig1") }}
 
-{% set src = "https://brianleeart.sfo3.cdn.digitaloceanspaces.com/richer/infraspinatus.jpg" %}
-{% set alt = "Infraspinatus, Richer" %}
-{{ figure(
-    src=src,
-    alt=alt
-) }}
+{{ figure("infraspinatus-fig2") }}
 
 {{translations('infraspinatus')}}
 

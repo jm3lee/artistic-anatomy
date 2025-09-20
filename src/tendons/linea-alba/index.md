@@ -14,17 +14,7 @@ Latin, referring to its pale, tendinous appearance.
 
 ## Illustrations
 
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Gray399.svg/512px-Gray399.svg.png?20080907064758" %}
-{% set alt = "A labelled diagram of the anterior abdominal wall above the arcuate line." %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray399.svg'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Gray399.svg" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href,
-    width=512
-) }}
+{{ figure("linea-alba-fig1") }}
 
 ## References
 

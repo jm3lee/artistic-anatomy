@@ -4,17 +4,7 @@
 
 ## Illustrations
 
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Gray392.png/512px-Gray392.png?20070123191605" %}
-{% set alt = "External oblique muscle, left" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray392.png'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Gray392.png" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href,
-    width=512
-) }}
+{{ figure("external-oblique-fig1") }}
 
 ## Etymology
 

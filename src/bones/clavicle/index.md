@@ -6,17 +6,7 @@ thorax and allows greater range of motion at the shoulder.
 
 ## Illustrations
 
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Clavicle_-_anterior_view.png/512px-Clavicle_-_anterior_view.png?20130117095616" %}
-{% set alt = "poooo" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Clavicle_-_anterior_view.png'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Clavicle_-_anterior_view.png" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href,
-    width=512
-) }}
+{{ figure("clavicle-fig1") }}
 
 ## Bony Landmarks
 

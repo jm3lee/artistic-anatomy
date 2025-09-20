@@ -2,29 +2,9 @@
 
 ## Illustrations
 
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Gray213.png/512px-Gray213.png?20050901191340" %}
-{% set alt = "Gray213" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray213.png'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Gray213.png" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href,
-    width=512
-) }}
+{{ figure("ulna-fig1") }}
 
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Gray214.png/512px-Gray214.png?20070123213145" %}
-{% set alt = "Gray214" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray214.png'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Gray214.png" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href,
-    width=512
-) }}
+{{ figure("ulna-fig2") }}
 
 ## Bony Landmarks
 

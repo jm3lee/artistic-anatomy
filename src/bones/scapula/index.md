@@ -2,17 +2,7 @@
 
 ## Illustrations
 
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Gray203.png/512px-Gray203.png?20070123172303" %}
-{% set alt = "Gray203" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray203.png'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Gray203.png" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href,
-    width=512
-) }}
+{{ figure("scapula-fig1") }}
 
 ## Movements {{ anchor('movements') }}
 
