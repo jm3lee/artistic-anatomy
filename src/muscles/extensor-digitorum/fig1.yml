@@ -1,16 +1,14 @@
-fig:
-  caption: >-
-    <a href="https://commons.wikimedia.org/wiki/File:Extensor_digitorum.png">Henry
-    Vandyke Carter</a>, Public domain, via Wikimedia Commons
-  image: >-
-    <a title="Henry Vandyke Carter, Public domain, via Wikimedia Commons"
-    href="https://commons.wikimedia.org/wiki/File:Extensor_digitorum.png"><img
-    width="256" alt="Extensor digitorum"
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Extensor_digitorum.png/256px-Extensor_digitorum.png?20070124033210"></a>
 doc:
   author: Henry Vandyke Carter
   pubdate: Sep 18, 2025
   title: Extensor digitorum illustration
+figure:
+  caption: >-
+    <a href="https://commons.wikimedia.org/wiki/File:Extensor_digitorum.png">Henry
+    Vandyke Carter</a>, Public domain, via Wikimedia Commons
+  urls:
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Extensor_digitorum.png/256px-Extensor_digitorum.png?20070124033210
+    width: 256
 id: extensor-digitorum-fig1
 indextree:
   show: false

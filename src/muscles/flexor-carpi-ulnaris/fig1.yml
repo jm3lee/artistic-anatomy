@@ -1,16 +1,14 @@
-fig:
-  caption: >-
-    <a href="https://commons.wikimedia.org/wiki/File:Flexor_carpi_ulnaris.png">Henry
-    Vandyke Carter</a>, Public domain, via Wikimedia Commons
-  image: >-
-    <a title="Henry Vandyke Carter, Public domain, via Wikimedia Commons"
-    href="https://commons.wikimedia.org/wiki/File:Flexor_carpi_ulnaris.png"><img
-    width="256" alt="Flexor carpi ulnaris"
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flexor_carpi_ulnaris.png/256px-Flexor_carpi_ulnaris.png?20070123194214"></a>
 doc:
   author: Henry Vandyke Carter
   pubdate: Sep 18, 2025
   title: Flexor carpi ulnaris illustration
+figure:
+  caption: >-
+    <a href="https://commons.wikimedia.org/wiki/File:Flexor_carpi_ulnaris.png">Henry
+    Vandyke Carter</a>, Public domain, via Wikimedia Commons
+  urls:
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flexor_carpi_ulnaris.png/256px-Flexor_carpi_ulnaris.png?20070123194214
+    width: 256
 id: flexor-carpi-ulnaris-fig1
 indextree:
   show: false
