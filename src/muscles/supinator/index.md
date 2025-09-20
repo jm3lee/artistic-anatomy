@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "supinator",
-  "./src/muscles/supinator/fig1.yml"
+  "supinator-fig1"
 ) }}
 
 The supinator wraps around the proximal radius like a broad band just below the

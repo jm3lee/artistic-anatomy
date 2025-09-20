@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "extensor-carpi-radialis-longus",
-  "./src/muscles/extensor-carpi-radialis-longus/fig1.yml"
+  "extensor-carpi-radialis-longus-fig1"
 ) }}
 
 The extensor carpi radialis longus descends along the lateral forearm from the

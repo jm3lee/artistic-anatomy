@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "flexor-digitorum-profundus",
-  "./src/muscles/flexor-digitorum-profundus/fig1.yml"
+  "flexor-digitorum-profundus-fig1"
 ) }}
 
 The flexor digitorum profundus lies deep to the

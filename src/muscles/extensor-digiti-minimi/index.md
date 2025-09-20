@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "extensor-digiti-minimi",
-  "./src/muscles/extensor-digiti-minimi/fig1.yml"
+  "extensor-digiti-minimi-fig1"
 ) }}
 
 The extensor digiti minimi is a thin muscle on the ulnar side of the
