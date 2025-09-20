@@ -141,7 +141,8 @@
 <div class="row g-0 flex-column flex-md-row align-items-center">
 <!-- Image -->
 <div class="col-12 col-md-5 d-flex justify-content-center p-3 p-md-4">
-{%- with fig = pie.yaml.read_yaml(fig_path) -%}
+{%- with fig_data = pie.yaml.read_yaml(fig_path) -%}
+{%- set fig = fig_data.fig -%}
 {%- include "src/templates/figure.md.jinja" -%}
 {%- endwith -%}
 </div>
