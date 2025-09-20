@@ -5,13 +5,11 @@ doc:
   - title: Home
     url: /
   - title: Bones
-  pubdate: Sep 18, 2025
+  pubdate: Sep 20, 2025
   title: Bones
 html:
   scripts:
   - <script type="module" src="/static/js/indextree.js" defer></script>
 id: bones
-indextree:
-  include-js: true
-status: Review Pending
+status: Reviewed
 url: /bones/

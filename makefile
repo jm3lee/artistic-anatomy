@@ -77,8 +77,8 @@ START_TIME := $(shell date +%s)
 everything: | $(BUILD_DIR) $(BUILD_SUBDIRS)
 	#$(call status,Updating author)
 	#$(Q)update-author --sort-keys
-	#$(call status,Updating pubdate)
-	#$(Q)update-pubdate --sort-keys
+	$(call status,Updating pubdate)
+	$(Q)update-pubdate
 	$(Q)$(MAKE) -s $(BUILD_DIR)/.update-index VERBOSE=$(VERBOSE)
 	$(Q)$(MAKE) -s all VERBOSE=$(VERBOSE)
 	$(Q)END_TIME=$$(date +%s); \
