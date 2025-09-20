@@ -2,16 +2,7 @@
 
 ## Illustrations
 
-{% set src = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray258.webp" %}
-{% set alt = "Gray258" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Gray258.png'>Henry Vandyke Carter</a>, Public domain, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Gray258.png" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href
-) }}
+{{ figure("tibia-fig1") }}
 
 ## Muscle Origins {{ anchor('origins') }}
 

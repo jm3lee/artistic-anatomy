@@ -14,17 +14,7 @@ and serves as a reference plane for the chest muscles.
 
 ## Illustrations
 
-{% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sternum_composition.png/512px-Sternum_composition.png?20130123210847" %}
-{% set alt = "Diagram of a sternum" %}
-{% set caption = "<a href='https://commons.wikimedia.org/wiki/File:Sternum_composition.png'>Anatomography</a>, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons" %}
-{% set href = "https://commons.wikimedia.org/wiki/File:Sternum_composition.png" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href,
-    width=512
-) }}
+{{ figure("sternum-fig1") }}
 
 - Manubrium (green)
 - Body (blue)

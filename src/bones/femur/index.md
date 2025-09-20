@@ -3,16 +3,7 @@
 
 ## Illustrations
 
-{% set src = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate26.webp" %}
-{% set alt = "Richer, Plate 26 showing femur" %}
-{% set caption = "Richer, Plate 26" %}
-{% set href = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate26.webp" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href
-) }}
+{{ figure("femur-fig1") }}
 
 ## Bony Landmarks
 
