@@ -17,7 +17,7 @@
 {{translations('trapezius')}}
 
 ```python
-include("build/muscles/ld-trapezius-attachments/index.md")
+include("build/muscles/ld-trz-attachments/index.md")
 ```
 
 ## See also

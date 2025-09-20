@@ -11,5 +11,5 @@
 Altogether, adults have **33 vertebrae** before fusion; functionally there are 24 movable vertebrae (C, T, L) plus the sacrum and coccyx.
 
 ```python
-include("src/muscles/ld-trapezius-attachments/index.md")
+include("src/muscles/ld-trz-attachments/index.md")
 ```
