@@ -8,10 +8,6 @@
   "teres-minor-fig1"
 ) }}
 
-{{translations('teres-minor')}}
-
-## Notes
-
 The teres minor muscle is usually not visible because it blends with the
 {{ linkicon('infraspinatus') }} muscle. Both are covered by thick fascia.
 However, the teres minor may become visible if the arm is held straight out to
@@ -19,9 +15,9 @@ the side, rotated outward, and pushed downward and backward against resistance.
 
 One of the {{ linkicon('rotator-cuff') }} muscles.
 
-```python
-include('src/muscles/teres-major-minor-insertion/index.md')
-```
+{% include 'src/muscles/teres-major-minor-insertion/index.md' %}
+
+{{translations('teres-minor')}}
 
 ## References
 
