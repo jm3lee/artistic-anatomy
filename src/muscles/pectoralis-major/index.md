@@ -19,4 +19,4 @@
 ## References
 
 - {{ linktitle('infraclavicular-fossa') }}
-- [Wikipedia](https://en.wikipedia.org/wiki/Pectoralis_major)
+- {{ linktitle('pectoralis-major-wikipedia') }}

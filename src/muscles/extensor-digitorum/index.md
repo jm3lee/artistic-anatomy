@@ -22,4 +22,4 @@ The muscle is an antagonist to the
 ## References
 * {{ linktitle('hc77') }}
   * **164**: Rubens. (B). Back view. Supination.
-* [Wikipedia](https://en.wikipedia.org/wiki/Extensor_digitorum_muscle)
+* {{ linktitle('extensor-digitorum-muscle-wikipedia') }}

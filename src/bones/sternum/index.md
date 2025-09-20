@@ -49,4 +49,4 @@ None of these muscles insert on the sternum; it serves as an origin point only.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Sternum)
+- {{ linktitle('sternum-wikipedia') }}

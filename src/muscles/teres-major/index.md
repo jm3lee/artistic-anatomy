@@ -36,6 +36,6 @@ extension of the humerus.
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Teres_major_muscle)
+* {{ linktitle('teres-major-muscle-wikipedia') }}
 * {{ linktitle('teres-minor') }}
 * {{ linktitle('gf') }}, 162–63

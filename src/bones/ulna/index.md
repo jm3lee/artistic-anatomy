@@ -64,4 +64,4 @@ loading="lazy"/>
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Ulna)
+- {{ linktitle('ulna-wikipedia') }}

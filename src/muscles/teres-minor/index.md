@@ -46,4 +46,4 @@ include('src/muscles/teres-major-minor-insertion/index.md')
   - **252: Richer Plate 21, Lateral Aspect**
 - {{ linktitle('infraspinatus') }}
 - {{ linktitle('rotator-cuff') }}
-- [Wikipedia](https://en.wikipedia.org/wiki/Teres_minor_muscle)
+- {{ linktitle('teres-minor-muscle-wikipedia') }}

@@ -40,4 +40,4 @@ to those of the external oblique. The terminology describes both position
   - **24**: Pontormo. (A) and (D). Profile and 3/4 views. Male.
   - **28**: Tiepolo. (Q). Back view. Male.
   - **36**: Piombo. (E). Front view. Female.
-- [Wikipedia](https://en.wikipedia.org/wiki/Abdominal_external-oblique_muscle)
+- {{ linktitle('abdominal-external-oblique-muscle-wikipedia') }}

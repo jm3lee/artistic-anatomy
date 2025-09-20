@@ -20,5 +20,5 @@ gripping. It opposes {{ link('flexor-carpi-ulnaris') }} when the wrist bends.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Extensor_carpi_ulnaris_muscle)
+- {{ linktitle('extensor-carpi-ulnaris-muscle-wikipedia') }}
 

@@ -31,7 +31,7 @@ The term **patella** comes from Latin, where “patella” is a diminutive of
 
 ## References
 
-* [Patella (Wikipedia)](https://en.wikipedia.org/wiki/Patella)
+* {{ linktitle('patella-wikipedia') }}
 * {{ linktitle('gf') }}
   * Patella, 35
     * movement of, 54

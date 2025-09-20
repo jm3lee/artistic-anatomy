@@ -28,6 +28,6 @@
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Femur)
+* {{ linktitle('femur-wikipedia') }}
 * {{ linktitle('gf') }}, 32–34
 * [Richer, Plate 26](https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/plate26.webp)

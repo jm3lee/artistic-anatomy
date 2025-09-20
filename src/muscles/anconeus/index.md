@@ -41,4 +41,4 @@ stability.
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Anconeus_muscle)
+* {{ linktitle('anconeus-muscle-wikipedia') }}

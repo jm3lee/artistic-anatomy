@@ -4,4 +4,4 @@
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Sternocleidomastoid_muscle)
+* {{ linktitle('sternocleidomastoid-muscle-wikipedia') }}

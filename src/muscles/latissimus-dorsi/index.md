@@ -60,6 +60,6 @@ humans.](https://josr-online.biomedcentral.com/articles/10.1186/s13018-024-04659
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Latissimus_dorsi_muscle)
+* {{ linktitle('latissimus-dorsi-muscle-wikipedia') }}
 * TGB p71, Flashcards p8
 * {{ linktitle('gf') }}, 145–47.

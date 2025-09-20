@@ -33,7 +33,7 @@
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Deltoid_muscle)
+* {{ linktitle('deltoid-muscle-wikipedia') }}
 * Richer, Plate 49
 * {{ linktitle('hc77') }}
   * 26, 32, 106, 108, 114, 116, 118, 122-123, 126, 128, 130, 132, 134, 138, 144, 146, 148, 150, 152, 182, 250, 251, 253, 254, 255

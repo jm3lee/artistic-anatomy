@@ -37,4 +37,4 @@
     - "Below, we can see the *infraspinatus (L)*, ..."
     - Left shoulder flexion with external rotation.
   - 114-115, 126, 132, 138, 252 TODO
-- [Wikipedia](https://en.wikipedia.org/wiki/Infraspinatus_muscle)
+- {{ linktitle('infraspinatus-muscle-wikipedia') }}

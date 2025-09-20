@@ -21,4 +21,4 @@ loading="lazy"/>
 
 ## References
 
-* [Tuberosity of the Tibia (Wikipedia)](https://en.wikipedia.org/wiki/Tuberosity_of_the_tibia)
+* {{ linktitle('tuberosity-of-the-tibia-wikipedia') }}

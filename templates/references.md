@@ -1,6 +1,6 @@
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Trapezius)
+* {{ linktitle('trapezius-wikipedia') }}
 * {{gf}}, 148-150.
 * {{hc77}}
   * **20**: Raphael. The left arm activates trapezius and other related muscles.  

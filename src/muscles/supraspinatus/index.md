@@ -10,5 +10,5 @@ loading="lazy"/>
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Supraspinatus_muscle)
+* {{ linktitle('supraspinatus-muscle-wikipedia') }}
 * {{ link_icon_title('gf') }} 159

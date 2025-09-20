@@ -19,4 +19,4 @@ opposes the flexors of the little finger.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Extensor_digiti_minimi_muscle)
+- {{ linktitle('extensor-digiti-minimi-muscle-wikipedia') }}

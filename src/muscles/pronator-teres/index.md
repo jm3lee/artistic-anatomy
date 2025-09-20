@@ -11,4 +11,4 @@
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Pronator_teres_muscle)
+* {{ linktitle('pronator-teres-muscle-wikipedia') }}

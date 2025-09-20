@@ -48,4 +48,4 @@ surface of the humerus.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Humerus)
+- {{ linktitle('humerus-wikipedia') }}

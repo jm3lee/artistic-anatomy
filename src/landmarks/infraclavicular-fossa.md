@@ -26,4 +26,4 @@ deltopectoral groove and is most visible when the arm is slightly abducted.
 - {{ linktitle('dt') }}
 - {{ linktitle('pecmaj') }}
 - {{ linktitle('gf') }}, 144, 157.
-- [Wikipedia](https://en.wikipedia.org/wiki/Infraclavicular_fossa)
+- {{ linktitle('infraclavicular-fossa-wikipedia') }}

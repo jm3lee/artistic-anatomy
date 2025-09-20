@@ -2,4 +2,4 @@ The lateral malleolus is the prominent bony bump on the outer side of the ankle 
 
 ## References
 
-* [Lateral Malleolus (Wikipedia)](https://en.wikipedia.org/wiki/Malleolus#Lateral_malleolus)
+* {{ linktitle('malleolus-lateral-malleolus-wikipedia') }}

@@ -33,4 +33,4 @@ work.
 
 ## References
 
-[Anatomical Terminology (Wikipedia)](https://en.wikipedia.org/wiki/Anatomical_terminology#Standard_terms)
+{{ linktitle('anatomical-terminology-standard-terms-wikipedia') }}

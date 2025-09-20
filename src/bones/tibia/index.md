@@ -30,5 +30,5 @@ bones rather than the tibia.
 
 ## References
 
-* [Tibia (Wikipedia)](https://en.wikipedia.org/wiki/Tibia)
+* {{ linktitle('tibia-wikipedia') }}
 * Richer, plate 27

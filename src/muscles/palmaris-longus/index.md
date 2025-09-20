@@ -21,4 +21,4 @@ reconstructive grafts without major loss of function.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Palmaris_longus_muscle)
+- {{ linktitle('palmaris-longus-muscle-wikipedia') }}

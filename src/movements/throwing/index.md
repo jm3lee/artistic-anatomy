@@ -2,7 +2,7 @@
 
 1. **Discobolos (Discus Thrower) by Myron** (c. 450 BC)
 
-   [Wikipedia](https://en.wikipedia.org/wiki/Discobolus)
+   {{ linktitle('discobolus-wikipedia') }}
 
    [British Museum](https://www.britishmuseum.org/collection/object/G_1805-0703-43)
 
@@ -20,7 +20,7 @@
 
 2. **The Borghese Gladiator** (1st–2nd c. AD Roman copy of a 5th c. BC Greek bronze)
 
-   [Wikipedia](https://en.wikipedia.org/wiki/Borghese_Gladiator)
+   {{ linktitle('borghese-gladiator-wikipedia') }}
 
     {% set src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Borghese_Gladiator%2C_Louvre_Museum%2C_Paris_2_October_2014.jpg/512px-Borghese_Gladiator%2C_Louvre_Museum%2C_Paris_2_October_2014.jpg?20150708204332" %}
     {% set alt = "Borghese Gladiator. Louvre, Paris" %}

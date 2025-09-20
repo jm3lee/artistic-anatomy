@@ -19,4 +19,4 @@
 ## References
 
 * {{ linktitle('foot') }}
-* [Wikipedia](https://en.wikipedia.org/wiki/Calcaneus)
+* {{ linktitle('calcaneus-wikipedia') }}
