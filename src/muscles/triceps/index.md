@@ -8,9 +8,7 @@
   "triceps-fig1"
 ) }}
 
-## Illustrations
-
-{{ figure("triceps-fig1") }}
+Color key for the summary illustration:
 
 - Red: Long head
 - Yellow: Lateral head

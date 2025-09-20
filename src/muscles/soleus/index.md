@@ -20,8 +20,6 @@ off the ground.
   contributes to the calf's contour.
 * **Landmarks**: Merges into the Achilles tendon with the gastrocnemius.
 
-## Illustrations
-
 ## References
 
 * {{ linktitle('soleus-muscle-wikipedia') }}

@@ -7,8 +7,6 @@
   "fibularis-longus-fig1"
 ) }}
 
-## Illustrations
-
 {{translations('fibularis-longus')}}
 
 ## References

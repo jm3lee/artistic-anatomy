@@ -7,10 +7,6 @@
   "brachialis-fig1"
 ) }}
 
-## Illustrations
-
-{{ figure("brachialis-fig1") }}
-
 ## References
 
 - {{ linktitle('brachialis-muscle-wikipedia') }}

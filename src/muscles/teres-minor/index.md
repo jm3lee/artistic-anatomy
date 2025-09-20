@@ -8,10 +8,6 @@
   "teres-minor-fig1"
 ) }}
 
-## Illustrations
-
-{{ figure("teres-minor-fig1") }}
-
 {{translations('teres-minor')}}
 
 ## Notes
