@@ -4,8 +4,6 @@ ol {
 }
 </style>
 
-{% from "src/templates/macros.jinja" import render_mc %}
-
 ## Key Terms
 {#{render_mc("src/study/key-terms.json")}#}
 
