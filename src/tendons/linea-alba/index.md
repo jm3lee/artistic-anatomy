@@ -1,5 +1,3 @@
-{% from "src/templates/macros.jinja" import figure %}
-
 ## Summary
 
 The **linea alba** is a fibrous midline structure that runs vertically along the

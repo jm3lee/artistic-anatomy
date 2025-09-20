@@ -1,5 +1,3 @@
-{% from "src/templates/macros.jinja" import figure %}
-
 ## Summary
 
 The sternum forms the front of the rib cage and anchors the ribs and clavicles

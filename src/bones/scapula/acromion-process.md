@@ -1,4 +1,4 @@
-{% from "src/templates/macros.jinja" import summary_bones, figure, insertions, anchor %}
+{% from "src/templates/macros.jinja" import summary_bones, insertions, anchor %}
 
 {{summary_bones("acromion-process")}}
 

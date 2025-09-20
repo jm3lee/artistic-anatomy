@@ -1,4 +1,4 @@
-{% from "src/templates/macros.jinja" import insertions, bony_landmarks, figure, anchor %}
+{% from "src/templates/macros.jinja" import insertions, bony_landmarks, anchor %}
 
 The clavicle, or collar bone, is a slender S-shaped bone that connects the
 sternum to the scapula. Acting as a strut, it keeps the upper limb away from the

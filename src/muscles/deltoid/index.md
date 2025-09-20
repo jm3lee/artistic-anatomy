@@ -1,4 +1,4 @@
-{% from "src/templates/macros.jinja" import summary, translations, figure %}
+{% from "src/templates/macros.jinja" import summary, translations %}
 
 {{summary("dt")}}
 

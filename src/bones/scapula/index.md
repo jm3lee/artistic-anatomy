@@ -1,4 +1,4 @@
-{% from "src/templates/macros.jinja" import bony_landmarks, figure, anchor %}
+{% from "src/templates/macros.jinja" import bony_landmarks, anchor %}
 
 ## Illustrations
 

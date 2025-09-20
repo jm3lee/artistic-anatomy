@@ -1,4 +1,4 @@
-{% from "src/templates/macros.jinja" import summary, figure %}
+{% from "src/templates/macros.jinja" import summary %}
 
 {{summary("bfem")}}
 
