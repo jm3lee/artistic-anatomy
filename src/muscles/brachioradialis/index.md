@@ -11,7 +11,7 @@
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Brachioradialis)
+* {{ linktitle("brachioradialis-wikipedia") }}
 * {{ linktitle('gf') }}, p193
 * Russian Book, 40, item 3.
 * [TGB](../resources/trail-guide-to-the-body-flashcards.html) 5th p133,
