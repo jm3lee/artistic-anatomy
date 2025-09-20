@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "extensor-carpi-ulnaris",
-  "./src/muscles/extensor-carpi-ulnaris/fig1.yml"
+  "extensor-carpi-ulnaris-fig1"
 ) }}
 
 The extensor carpi ulnaris runs along the ulnar side of the posterior

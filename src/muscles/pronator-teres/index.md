@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "pronator-teres",
-  "./src/muscles/pronator-teres/fig1.yml"
+  "pronator-teres-fig1"
 ) }}
 
 The pronator teres forms a diagonal strap that crosses the proximal forearm.

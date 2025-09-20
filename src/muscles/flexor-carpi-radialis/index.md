@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "flexor-carpi-radialis",
-  "./src/muscles/flexor-carpi-radialis/fig1.yml"
+  "flexor-carpi-radialis-fig1"
 ) }}
 
 The flexor carpi radialis forms a slender medial border to the wrist's flexor

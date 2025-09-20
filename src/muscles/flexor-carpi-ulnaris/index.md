@@ -6,7 +6,7 @@ A part of the [Wrist Flexor Group](/wrist-flexor-group.html).
 
 {{ summary_card(
   "flexor-carpi-ulnaris",
-  "./src/muscles/flexor-carpi-ulnaris/fig1.yml"
+  "flexor-carpi-ulnaris-fig1"
 ) }}
 
 The flexor carpi ulnaris is the stoutest member of the superficial wrist

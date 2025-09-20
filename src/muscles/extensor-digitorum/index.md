@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "extensor-digitorum",
-  "./src/muscles/extensor-digitorum/fig1.yml"
+  "extensor-digitorum-fig1"
 ) }}
 
 The extensor digitorum lies in the posterior forearm and sends four thin

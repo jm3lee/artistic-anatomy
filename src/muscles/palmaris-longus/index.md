@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "palmaris-longus",
-  "./src/muscles/palmaris-longus/fig1.yml"
+  "palmaris-longus-fig1"
 ) }}
 
 The palmaris longus is a slim superficial flexor that often forms a visible

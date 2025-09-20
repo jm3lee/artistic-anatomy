@@ -4,7 +4,7 @@
 
 {{ summary_card(
   "extensor-carpi-radialis-brevis",
-  "./src/muscles/extensor-carpi-radialis-brevis/fig1.yml"
+  "extensor-carpi-radialis-brevis-fig1"
 ) }}
 
 The extensor carpi radialis brevis sits deep to the
