@@ -25,6 +25,14 @@ It works with {{ link('flexor-carpi-radialis') }} and
 {{ link('extensor-digitorum') }} opposes its pull, and
 {{ link('pronator-teres') }} crosses superficially at the elbow.
 
+## Related Muscles
+
+* {{ link('flexor-digitorum-profundus') }}
+* {{ link('palmaris-longus') }}
+* {{ link('flexor-carpi-radialis') }}
+* {{ link('flexor-carpi-ulnaris') }}
+* {{ link('extensor-digitorum') }}
+
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Flexor_digitorum_superficialis_muscle)

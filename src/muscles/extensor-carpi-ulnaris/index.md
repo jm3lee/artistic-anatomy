@@ -18,6 +18,14 @@ It shares a common origin with {{ link('extensor-digitorum') }} and
 {{ link('extensor-carpi-radialis-brevis') }} it steadies the wrist during
 gripping. It opposes {{ link('flexor-carpi-ulnaris') }} when the wrist bends.
 
+## Related Muscles
+
+* {{ link('extensor-carpi-radialis-longus') }}
+* {{ link('extensor-carpi-radialis-brevis') }}
+* {{ link('flexor-carpi-ulnaris') }}
+* {{ link('extensor-digitorum') }}
+* {{ link('extensor-digiti-minimi') }}
+
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Extensor_carpi_ulnaris_muscle)

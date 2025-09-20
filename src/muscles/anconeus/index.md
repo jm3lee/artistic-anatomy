@@ -4,27 +4,33 @@
 
 ## Illustrations
 
-<img src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/anconeus-0000.png"
-alt="Anconeus"
-loading="lazy"/>
+<img
+  src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/anconeus-0000.png"
+  alt="Anconeus"
+  loading="lazy"
+/>
 
 ## Examples
 
-<img src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/anconeus-ex-0000.0000.png"
-alt="Anconeus"
-loading="lazy"/>
+<img
+  src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/anconeus-ex-0000.0000.png"
+  alt="Anconeus"
+  loading="lazy"
+/>
 
-<img src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/anconeus-ex-0000.0001.png"
-alt="Anconeus"
-loading="lazy"/>
+<img
+  src="https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/muscles/anconeus-ex-0000.0001.png"
+  alt="Anconeus"
+  loading="lazy"
+/>
 
 ## Related Muscles
 
-* Extensor carpi radialis longus (ECRL)
-* Extensor carpi ulnaris (ECU)
-* Extensor digitorum (ED)
-* Flexor digitorum profundus (FDP)
-* {{ linktitle('trc') }}
+* {{ link('extensor-carpi-radialis-longus') }} (ECRL)
+* {{ link('extensor-carpi-ulnaris') }} (ECU)
+* {{ link('extensor-digitorum') }} (ED)
+* {{ link('flexor-digitorum-profundus') }} (FDP)
+* {{ link('triceps') }}
 
 ## Relationship between triceps and anconeus
 
