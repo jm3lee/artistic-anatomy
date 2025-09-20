@@ -1,3 +1,12 @@
+{% from "src/templates/macros.jinja" import summary_card %}
+
+## Summary
+
+{{ summary_card(
+  "gastrocnemius",
+  "gastrocnemius-fig1"
+) }}
+
 The **gastrocnemius**, or calf muscle, is an important muscle for artists to
 understand because it gives the back of the lower leg its distinctive shape.
 Together with the {{ linktitle('soleus') }}, it forms the triceps surae.

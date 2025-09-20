@@ -1,3 +1,12 @@
+anatomy: !!omap
+- actions:
+  - Laterally rotates the hip
+  - Stabilizes the femoral head within the acetabulum
+- insertions:
+  - Trochanteric fossa of the {{ linkicon('femur') }}
+- origins:
+  - External surface of the obturator membrane and adjacent margins of the
+    pubis and ischium
 description: Overview of Obturator Externus.
 doc:
   author: Brian Lee

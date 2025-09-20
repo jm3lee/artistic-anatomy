@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("bfem")}}
+## Summary
+
+{{ summary_card(
+  "bfem",
+  "biceps-femoris-fig1"
+) }}
 
 ## Illustrations
 

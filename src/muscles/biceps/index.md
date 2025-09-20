@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary, translations %}
+{% from "src/templates/macros.jinja" import summary_card, translations %}
 
-{{summary("biceps")}}
+## Summary
+
+{{ summary_card(
+  "biceps",
+  "biceps-fig1"
+) }}
 
 Supination is most powerful when the arm is flexed at 90 degrees.
 

@@ -1,3 +1,12 @@
+anatomy: !!omap
+- actions:
+  - Laterally rotates the hip
+  - Stabilizes the femoral head in the acetabulum
+- insertions:
+  - Medial surface of the greater trochanter via the tendon of the
+    {{ link('obturator-internus') }}
+- origins:
+  - Upper part of the ischial tuberosity
 description: Overview of Inferior Gemellus.
 doc:
   author: Brian Lee

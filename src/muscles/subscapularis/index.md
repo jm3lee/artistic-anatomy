@@ -1,3 +1,12 @@
+{% from "src/templates/macros.jinja" import summary_card %}
+
+## Summary
+
+{{ summary_card(
+  "subscp",
+  "subscapularis-fig1"
+) }}
+
 ## References
 
 * Delavier

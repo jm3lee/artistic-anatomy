@@ -1,3 +1,12 @@
+anatomy: !!omap
+- actions:
+  - Laterally rotates the hip
+  - Adducts the {{ linkicon('femur') }} when needed
+  - Stabilizes the femoral head in the acetabulum
+- insertions:
+  - Quadrate tubercle on the intertrochanteric crest of the {{ linkicon('femur') }}
+- origins:
+  - Lateral border of the ischial tuberosity
 description: Overview of Quadratus Femoris.
 doc:
   author: Brian Lee

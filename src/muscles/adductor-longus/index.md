@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("adductor-longus")}}
+## Summary
+
+{{ summary_card(
+  "adductor-longus",
+  "adductor-longus-fig1"
+) }}
 
 The **adductor longus** stretches from the pubis to the
 {{ linkicon('femur') }}. It lies superficial to {{ link('adductor-brevis') }}

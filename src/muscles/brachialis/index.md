@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("brachialis")}}
+## Summary
+
+{{ summary_card(
+  "brachialis",
+  "brachialis-fig1"
+) }}
 
 ## Illustrations
 

@@ -1,3 +1,13 @@
+anatomy: !!omap
+- actions:
+  - Plantarflexes the ankle
+  - Flexes the knee
+  - Raises the heel during gait
+- insertions:
+  - Posterior surface of the {{ linkicon('calcaneus') }} via the Achilles tendon
+- origins:
+  - Medial condyle of the {{ linkicon('femur') }}
+  - Lateral condyle of the {{ linkicon('femur') }}
 description: Overview of Gastrocnemius.
 doc:
   author: Brian Lee

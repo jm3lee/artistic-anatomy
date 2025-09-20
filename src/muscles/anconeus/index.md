@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("anc")}}
+## Summary
+
+{{ summary_card(
+  "anc",
+  "anconeus-fig1"
+) }}
 
 ## Illustrations
 

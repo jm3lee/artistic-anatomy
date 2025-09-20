@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary, translations %}
+{% from "src/templates/macros.jinja" import summary_card, translations %}
 
-{{summary("fibularis-brevis")}}
+## Summary
+
+{{ summary_card(
+  "fibularis-brevis",
+  "fibularis-brevis-fig1"
+) }}
 
 ## Illustrations
 

@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary, translations %}
+{% from "src/templates/macros.jinja" import summary_card, translations %}
 
-{{summary("tibialis-anterior")}}
+## Summary
+
+{{ summary_card(
+  "tibialis-anterior",
+  "tibialis-anterior-fig1"
+) }}
 
 ## Illustrations
 

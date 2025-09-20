@@ -1,3 +1,12 @@
+anatomy: !!omap
+- actions:
+  - Laterally rotates the extended hip
+  - Abducts the flexed thigh
+  - Stabilizes the femoral head in the acetabulum
+- insertions:
+  - Superior aspect of the greater trochanter of the {{ linkicon('femur') }}
+- origins:
+  - Anterior surface of the sacrum and sacrotuberous ligament
 description: Overview of Piriformis.
 doc:
   author: Brian Lee

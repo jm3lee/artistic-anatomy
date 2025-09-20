@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("rhmaj")}}
+## Summary
+
+{{ summary_card(
+  "rhmaj",
+  "rhomboid-major-fig1"
+) }}
 
 ## Illustrations
 

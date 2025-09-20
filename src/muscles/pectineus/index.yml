@@ -1,3 +1,12 @@
+anatomy: !!omap
+- actions:
+  - Adducts the hip
+  - Flexes the hip
+  - Assists medial rotation of the thigh
+- insertions:
+  - Pectineal line of the {{ linkicon('femur') }}
+- origins:
+  - Superior ramus of the pubis (pecten pubis)
 description: Overview of Pectineus.
 doc:
   author: Brian Lee

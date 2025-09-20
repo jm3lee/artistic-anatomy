@@ -1,3 +1,12 @@
+anatomy: !!omap
+- actions:
+  - Medially rotates the humerus
+  - Adducts the arm
+  - Stabilizes the {{ linkicon('glenohumeral-joint') }}
+- insertions:
+  - Lesser tubercle of the {{ linkicon('humerus') }}
+- origins:
+  - Subscapular fossa on the anterior surface of the {{ linkicon('scapula') }}
 description: Overview of Subscapularis.
 doc:
   author: Brian Lee

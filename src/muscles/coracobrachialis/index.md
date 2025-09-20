@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("coracobrachialis")}}
+## Summary
+
+{{ summary_card(
+  "coracobrachialis",
+  "coracobrachialis-fig1"
+) }}
 
 ## Illustrations
 

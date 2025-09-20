@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("teres-major")}}
+## Summary
+
+{{ summary_card(
+  "teres-major",
+  "teres-major-fig1"
+) }}
 
 ## Illustrations
 

@@ -1,3 +1,12 @@
+anatomy: !!omap
+- actions:
+  - Assists plantarflexion of the ankle
+  - Assists knee flexion
+- insertions:
+  - Posterior surface of the {{ linkicon('calcaneus') }} via the Achilles tendon
+- origins:
+  - Lateral supracondylar ridge of the {{ linkicon('femur') }}
+  - Oblique popliteal ligament
 description: Overview of Plantaris.
 doc:
   author: Brian Lee
