@@ -15,7 +15,17 @@ tendon to the little finger through the dorsal wrist.
 The tendon merges with the extensor expansion of digit five, allowing the
 little finger to straighten. Working with
 {{ link('extensor-carpi-ulnaris') }} it can help extend the wrist, and it
-opposes the flexors of the little finger.
+opposes the flexors of the little finger such as the
+{{ link('flexor-digitorum-superficialis') }} and
+{{ link('flexor-digitorum-profundus') }}.
+
+## Related Muscles
+
+* {{ link('extensor-digitorum') }}
+* {{ link('extensor-carpi-ulnaris') }}
+* {{ link('flexor-digitorum-superficialis') }}
+* {{ link('flexor-digitorum-profundus') }}
+* {{ link('palmaris-longus') }}
 
 ## References
 

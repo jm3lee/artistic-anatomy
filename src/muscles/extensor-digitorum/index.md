@@ -17,7 +17,17 @@ It shares a common origin at the lateral epicondyle with
 {{ link('extensor-digiti-minimi') }}.
 The muscle is an antagonist to the
 {{ link('flexor-digitorum-superficialis') }} and
-{{ link('flexor-digitorum-profundus') }}.
+{{ link('flexor-digitorum-profundus') }}. Its tendons spread across the dorsal
+hand opposite the {{ link('palmaris-longus') }} slips that tighten the palmar
+fascia.
+
+## Related Muscles
+
+* {{ link('extensor-carpi-ulnaris') }}
+* {{ link('extensor-digiti-minimi') }}
+* {{ link('flexor-digitorum-superficialis') }}
+* {{ link('flexor-digitorum-profundus') }}
+* {{ link('palmaris-longus') }}
 
 ## References
 * {{ linktitle('hc77') }}
