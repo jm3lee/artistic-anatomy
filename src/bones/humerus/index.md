@@ -2,27 +2,9 @@
 
 ## Illustrations
 
-{% set src = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/richer026.webp" %}
-{% set alt = "Richer, Artistic Anatomy, Plate 19" %}
-{% set caption = "Richer, Artistic Anatomy, Plate 19" %}
-{% set href = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/richer/richer026.webp" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href
-) }}
+{{ figure("humerus-fig1") }}
 
-{% set src = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray207.png" %}
-{% set alt = "Gray's Anatomy: Muscle attachment points on humerus" %}
-{% set caption = "Gray's Anatomy: Muscle attachment points on humerus" %}
-{% set href = "https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray207.png" %}
-{{ figure(
-    src=src,
-    alt=alt,
-    caption=caption,
-    href=href
-) }}
+{{ figure("humerus-fig2") }}
 
 Source: [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/a/ad/Gray207.png)
 
