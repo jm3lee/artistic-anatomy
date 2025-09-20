@@ -1,13 +1,13 @@
 anatomy:
   insertions:
   - muscles:
-    - '{{ linktitle("trz") }}'
+    - '{{ linktitle("trapezius") }}'
     name: Acromion process
   origins:
   - '{{ linktitle("dt") }}'
 doc:
   author: Brian Lee
-  pubdate: Sep 18, 2025
+  pubdate: Sep 20, 2025
   title: Acromion Process
 icon: ':round_pushpin:'
 id: acromion-process

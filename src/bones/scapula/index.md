@@ -13,12 +13,12 @@ itself in space. Its primary motions are summarized below.
   <dt id="scapular-depression">Depression</dt>
   <dd>Lowering the shoulder blade away from the ears.</dd>
   <dd>Ring or bar dip: driving your shoulders downward as you lower your body.</dd>
-  <dd>Lower {{ linktitle('trz') }}, {{ linktitle('pecmin') }}, {{ linktitle('ld') }}</dd>
+  <dd>Lower {{ linktitle('trapezius') }}, {{ linktitle('pecmin') }}, {{ linktitle('ld') }}</dd>
 
   <dt id="scapular_elevation">Elevation</dt>
   <dd>Raising the shoulder blade toward the ears.</dd>
   <dd>Dumbbell shrug: lifting your shoulders straight up toward your ears.</dd>
-  <dd>Upper {{ linktitle('trz') }}, Levator Scapulae</dd>
+  <dd>Upper {{ linktitle('trapezius') }}, Levator Scapulae</dd>
 
   <dt id="scapular-protraction">Protraction</dt>
   <dd>Sliding the shoulder blade forward around the rib cage.</dd>
@@ -28,17 +28,17 @@ itself in space. Its primary motions are summarized below.
   <dt id="scapular_retraction">Retraction</dt>
   <dd>Drawing the shoulder blade back toward the spine.</dd>
   <dd>Performing a seated row: pulling the handles toward your torso, squeezing shoulder blades together.</dd>
-  <dd>{{ linktitle('rhmaj') }}, {{ linktitle('rhmin') }}, Middle {{ linktitle('trz') }}</dd>
+  <dd>{{ linktitle('rhomboid-major') }}, {{ linktitle('rhmin') }}, Middle {{ linktitle('trapezius') }}</dd>
 
   <dt id="scapular_downward_rotation">Rotation (Downward)</dt>
   <dd>Returning the scapula from an upwardly rotated position.</dd>
   <dd>Lowering a heavy overhead load: bringing your arms from overhead back to your sides, guiding the shoulder blades back down.</dd>
-  <dd>{{ linktitle('rhmaj') }}, {{ linktitle('rhmin') }}, Levator Scapulae, {{ linktitle('pecmin') }}</dd>
+  <dd>{{ linktitle('rhomboid-major') }}, {{ linktitle('rhmin') }}, Levator Scapulae, {{ linktitle('pecmin') }}</dd>
 
   <dt id="scapular_upward_rotation">Rotation (Upward)</dt>
   <dd>Rotating the scapula so the glenoid cavity faces upward.</dd>
   <dd>Overhead press or high‑five: raising your arms overhead while the shoulder blade’s lower angle pivots upward.</dd>
-  <dd>Upper {{ linktitle('trz') }}, Lower {{ linktitle('trz') }}, {{ linktitle('sa') }}</dd>
+  <dd>Upper {{ linktitle('trapezius') }}, Lower {{ linktitle('trapezius') }}, {{ linktitle('sa') }}</dd>
 </dl>
 
 ### References

@@ -20,7 +20,7 @@ thorax and allows greater range of motion at the shoulder.
 
 - {{ linktitle('dt') }}
 - {{ linktitle('pecmaj') }}
-- {{ linktitle('trz') }}
+- {{ linktitle('trapezius') }}
 
 ## References
 

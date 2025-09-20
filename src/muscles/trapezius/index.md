@@ -4,7 +4,7 @@
 ## Summary
 
 {{ summary_card(
-  "trz",
+  "trapezius",
   "trapezius-fig1"
 ) }}
 
@@ -14,10 +14,10 @@
 
 {{ figure("trapezius-fig2") }}
 
-{{translations('trz')}}
+{{translations('trapezius')}}
 
 ```python
-include("build/muscles/ld-trz-attachments/index.md")
+include("build/muscles/ld-trapezius-attachments/index.md")
 ```
 
 ## See also

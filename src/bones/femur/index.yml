@@ -1,7 +1,7 @@
 anatomy:
   bony_landmarks:
   - desc: 'Large lateral projection of the proximal femur; attachment site for {{
-      linktitle(''gmed'') }}, {{ linktitle(''gmin'') }}, {{ linktitle(''piriformis'')
+      linktitle(''gluteus-medius'') }}, {{ linktitle(''gmin'') }}, {{ linktitle(''piriformis'')
       }}, {{ linktitle(''obturator-internus'') }}, {{ linktitle(''obturator-externus'')
       }}, {{ linktitle(''superior-gemellus'') }}, and {{ linktitle(''inferior-gemellus'')
       }}.
@@ -54,7 +54,7 @@ anatomy:
     name: Lateral condyle {{ anchor("lateral-condyle") }}
   insertions:
   - muscles:
-    - '{{ linktitle("gmed") }}'
+    - '{{ linktitle("gluteus-medius") }}'
     - '{{ linktitle("gmin") }}'
     - '{{ linktitle("piriformis") }}'
     - '{{ linktitle("obturator-internus") }}'

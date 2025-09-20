@@ -5,10 +5,10 @@
 1. {{ linktitle('brachioradialis') }}
 1. {{ linktitle('dt') }} (posterior fibers)
 1. {{ linktitle('ld') }}
-1. {{ linktitle('rhmaj') }}
+1. {{ linktitle('rhomboid-major') }}
 1. {{ linktitle('rhmin') }}
 1. {{ linktitle('teres-major') }}
-1. {{ linktitle('trz') }}
+1. {{ linktitle('trapezius') }}
 
 ## References
 

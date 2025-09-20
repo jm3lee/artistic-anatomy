@@ -3,7 +3,7 @@
 ## Summary
 
 {{ summary_card(
-  "rhmaj",
+  "rhomboid-major",
   "rhomboid-major-fig1"
 ) }}
 

@@ -22,7 +22,7 @@
     ],
     "a": [
       2,
-      "{{ linktitle('teres-minor') }} is one of the four {{ linkicon('rotator-cuff') }} muscles. It sits deep beneath the {{ linkicon('dt') }} and {{ linkicon('trz') }} and is covered by dense fascia along with {{ linkicon('infraspinatus') }}. In most individuals and most positions, it is not visible on the surface."
+      "{{ linktitle('teres-minor') }} is one of the four {{ linkicon('rotator-cuff') }} muscles. It sits deep beneath the {{ linkicon('dt') }} and {{ linkicon('trapezius') }} and is covered by dense fascia along with {{ linkicon('infraspinatus') }}. In most individuals and most positions, it is not visible on the surface."
     ]
   }
 ]

@@ -3,7 +3,7 @@
 ## Summary
 
 {{ summary_card(
-  "gmed",
+  "gluteus-medius",
   "gluteus-medius-fig1"
 ) }}
 

@@ -25,7 +25,7 @@ anatomy:
     name: Medial clavicle
   - muscles:
     - '{{ linktitle("dt") }}'
-    - '{{ linktitle("trz") }}'
+    - '{{ linktitle("trapezius") }}'
     name: Deltoid tubercle
 description: The clavicle is a slender S-shaped bone connecting the sternum and scapula
   to brace the shoulder.
@@ -37,7 +37,7 @@ doc:
   - title: Bones
     url: /bones/
   - title: Clavicle
-  pubdate: Sep 18, 2025
+  pubdate: Sep 20, 2025
   title: Clavicle
 icon: ':bone:'
 id: clavicle

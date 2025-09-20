@@ -4,14 +4,14 @@
 * Divides the {{ link('supraspinous-fossa-wikipedia') }} (above)
   and the {{ link('infraspinous-fossa-wikipedia') }} (below).
 * {{ linktitle('dt') }} origin
-* {{ linktitle('trz') }} insertion
+* {{ linktitle('trapezius') }} insertion
 
 ## Examples
 
 ## Related Muscles
 
 * {{ linktitle('dt') }}
-* {{ linktitle('trz') }}
+* {{ linktitle('trapezius') }}
 
 ## References
 
