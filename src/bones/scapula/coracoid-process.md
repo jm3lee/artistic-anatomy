@@ -1,4 +1,4 @@
-{% from "src/templates/macros.jinja" import summary_bones, figure %}
+{% from "src/templates/macros.jinja" import summary_bones %}
 
 {{summary_bones("coracoid-process")}}
 

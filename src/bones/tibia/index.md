@@ -1,4 +1,4 @@
-{% from "src/templates/macros.jinja" import insertions, origins, figure, anchor %}
+{% from "src/templates/macros.jinja" import insertions, origins, anchor %}
 
 ## Illustrations
 

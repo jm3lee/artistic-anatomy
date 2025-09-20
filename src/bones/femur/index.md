@@ -1,5 +1,5 @@
 :robot:
-{% from "src/templates/macros.jinja" import translations, insertions, origins, bony_landmarks, figure, anchor %}
+{% from "src/templates/macros.jinja" import translations, insertions, origins, bony_landmarks, anchor %}
 
 ## Illustrations
 

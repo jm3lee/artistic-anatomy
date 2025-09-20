@@ -1,5 +1,3 @@
-{% from "src/templates/macros.jinja" import figure %}
-
 ## Summary
 
 The infraclavicular {{ link('fossa') }} is a small, triangular depression just below

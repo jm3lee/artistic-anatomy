@@ -1,4 +1,4 @@
-{% from "src/templates/macros.jinja" import translations, summary, figure %}
+{% from "src/templates/macros.jinja" import translations, summary %}
 
 
 {{summary("triceps")}}
