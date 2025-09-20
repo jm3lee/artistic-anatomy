@@ -1,0 +1,3 @@
+- regex:.fig[0-9]+.yml$
+- regex:.fig.yml$
+- regex:references/.*wikipedia.yml$
