@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{ summary("soleus") }}
+## Summary
+
+{{ summary_card(
+  "soleus",
+  "soleus-fig1"
+) }}
 
 The **soleus** is a broad, flat muscle beneath the gastrocnemius that helps
 form the calf's bulk. Together with the {{ linktitle('gastrocnemius') }},

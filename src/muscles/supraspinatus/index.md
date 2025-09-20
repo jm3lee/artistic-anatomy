@@ -1,8 +1,13 @@
 [:man: Reviewed](../background/icons.md)
 
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("supraspinatus")}}
+## Summary
+
+{{ summary_card(
+  "supraspinatus",
+  "supraspinatus-fig1"
+) }}
 
 <img src="https://brianleeart.sfo3.cdn.digitaloceanspaces.com/richer/supraspinatus.jpg"
 alt="Supraspinatus, Richer"

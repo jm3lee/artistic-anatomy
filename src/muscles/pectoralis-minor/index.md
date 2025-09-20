@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("pecmin")}}
+## Summary
+
+{{ summary_card(
+  "pecmin",
+  "pectoralis-minor-fig1"
+) }}
 
 ## References
 

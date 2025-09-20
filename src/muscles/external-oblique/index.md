@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("external-oblique")}}
+## Summary
+
+{{ summary_card(
+  "external-oblique",
+  "external-oblique-fig1"
+) }}
 
 ## Illustrations
 

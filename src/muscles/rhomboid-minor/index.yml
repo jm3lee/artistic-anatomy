@@ -1,3 +1,12 @@
+anatomy: !!omap
+- actions:
+  - Retracts the scapula
+  - Elevates the medial border of the scapula
+  - Rotates the scapula to depress the glenoid cavity
+- insertions:
+  - Medial border of the {{ linkicon('scapula') }} at the root of the spine
+- origins:
+  - Nuchal ligament and spinous processes of C7–T1 vertebrae
 doc:
   author: Brian Lee
   breadcrumbs:

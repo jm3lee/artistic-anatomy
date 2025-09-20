@@ -1,7 +1,12 @@
-{% from "src/templates/macros.jinja" import translations, summary %}
+{% from "src/templates/macros.jinja" import translations, summary_card %}
 
 
-{{summary("triceps")}}
+## Summary
+
+{{ summary_card(
+  "triceps",
+  "triceps-fig1"
+) }}
 
 ## Illustrations
 

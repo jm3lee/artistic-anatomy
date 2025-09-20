@@ -1,3 +1,12 @@
+{% from "src/templates/macros.jinja" import summary_card %}
+
+## Summary
+
+{{ summary_card(
+  "tensor-fasciae-latae",
+  "tensor-fasciae-latae-fig1"
+) }}
+
 ## Examples
 
 <img

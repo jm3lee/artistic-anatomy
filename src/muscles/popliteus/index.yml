@@ -1,3 +1,12 @@
+anatomy: !!omap
+- actions:
+  - Unlocks the knee by medially rotating the {{ linkicon('tibia') }} on the femur
+  - Assists knee flexion
+- insertions:
+  - Posterior surface of the proximal {{ linkicon('tibia') }} above the soleal line
+- origins:
+  - Lateral femoral condyle
+  - Lateral meniscus via the popliteus tendon
 description: Overview of Popliteus.
 doc:
   author: Brian Lee

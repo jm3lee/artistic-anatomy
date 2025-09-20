@@ -1,7 +1,12 @@
-{% from "src/templates/macros.jinja" import translations, summary %}
+{% from "src/templates/macros.jinja" import translations, summary_card %}
 
 
-{{summary("trz")}}
+## Summary
+
+{{ summary_card(
+  "trz",
+  "trapezius-fig1"
+) }}
 
 ## Illustrations
 

@@ -1,3 +1,11 @@
+anatomy: !!omap
+- actions:
+  - Plantarflexes the ankle with the triceps surae
+  - Flexes the knee when the limb is weight-bearing
+- insertions:
+  - Posterior surface of the {{ linkicon('calcaneus') }} via the Achilles tendon
+- origins:
+  - Posterior aspect of the medial condyle of the {{ linkicon('femur') }}
 description: Overview of Gastrocnemius Medial Head.
 doc:
   author: Brian Lee

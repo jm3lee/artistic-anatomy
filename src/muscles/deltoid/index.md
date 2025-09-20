@@ -1,10 +1,11 @@
-{% from "src/templates/macros.jinja" import summary, translations %}
+{% from "src/templates/macros.jinja" import summary_card, translations %}
 
-{{summary("dt")}}
+## Summary
 
-## Illustrations
-
-{{ figure("deltoid-fig1") }}
+{{ summary_card(
+  "dt",
+  "deltoid-fig1"
+) }}
 
 {{translations("dt")}}
 

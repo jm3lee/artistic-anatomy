@@ -1,7 +1,12 @@
-{% from "src/templates/macros.jinja" import translations, summary %}
+{% from "src/templates/macros.jinja" import translations, summary_card %}
 
 
-{{summary("infraspinatus")}}
+## Summary
+
+{{ summary_card(
+  "infraspinatus",
+  "infraspinatus-fig1"
+) }}
 
 ## Illustrations
 

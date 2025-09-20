@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("scm")}}
+## Summary
+
+{{ summary_card(
+  "scm",
+  "sternocleidomastoid-fig1"
+) }}
 
 ## References
 

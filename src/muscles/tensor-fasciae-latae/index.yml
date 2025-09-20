@@ -1,3 +1,13 @@
+anatomy: !!omap
+- actions:
+  - Flexes the hip
+  - Abducts the thigh
+  - Medially rotates the {{ linkicon('femur') }}
+  - Tenses the iliotibial tract to stabilize the knee
+- insertions:
+  - Iliotibial tract leading to the lateral condyle of the {{ linkicon('tibia') }}
+- origins:
+  - Anterior superior iliac spine and anterior part of the iliac crest
 description: Overview of Tensor Fasciae Latae.
 doc:
   author: Brian Lee

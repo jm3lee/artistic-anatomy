@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("adductor-minimus")}}
+## Summary
+
+{{ summary_card(
+  "adductor-minimus",
+  "adductor-minimus-fig1"
+) }}
 
 The **adductor minimus** is the uppermost part of the
 {{ link('adductor-magnus') }}. It crosses from the

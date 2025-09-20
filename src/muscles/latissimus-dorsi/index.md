@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("ld")}}
+## Summary
+
+{{ summary_card(
+  "ld",
+  "latissimus-dorsi-fig1"
+) }}
 
 ## Illustrations
 

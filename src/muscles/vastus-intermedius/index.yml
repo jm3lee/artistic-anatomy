@@ -1,3 +1,11 @@
+anatomy: !!omap
+- actions:
+  - Extends the knee
+- insertions:
+  - Quadriceps tendon to the patella and via the patellar ligament to the
+    tibial tuberosity
+- origins:
+  - Anterior and lateral surfaces of the shaft of the {{ linkicon('femur') }}
 description: Overview of Vastus Intermedius.
 doc:
   author: Brian Lee

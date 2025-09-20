@@ -1,3 +1,9 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("sartorius")}}
+## Summary
+
+{{ summary_card(
+  "sartorius",
+  "sartorius-fig1"
+) }}
+

@@ -1,3 +1,11 @@
+anatomy: !!omap
+- actions:
+  - Plantarflexes the ankle with the gastrocnemius-medial-head and soleus
+  - Assists knee flexion
+- insertions:
+  - Posterior surface of the {{ linkicon('calcaneus') }} via the Achilles tendon
+- origins:
+  - Lateral condyle of the {{ linkicon('femur') }}
 description: Overview of Gastrocnemius Lateral Head.
 doc:
   author: Brian Lee

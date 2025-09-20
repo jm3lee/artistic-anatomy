@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("adductor-magnus")}}
+## Summary
+
+{{ summary_card(
+  "adductor-magnus",
+  "adductor-magnus-fig1"
+) }}
 
 The **adductor magnus** forms the bulk of the inner thigh. Its wide fibers
 run from the {{ linkicon('pelvis') }} to the {{ linkicon('femur') }}, working

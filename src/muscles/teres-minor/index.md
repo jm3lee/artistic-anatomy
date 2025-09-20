@@ -1,7 +1,12 @@
-{% from "src/templates/macros.jinja" import translations, summary %}
+{% from "src/templates/macros.jinja" import translations, summary_card %}
 
 
-{{summary("teres-minor")}}
+## Summary
+
+{{ summary_card(
+  "teres-minor",
+  "teres-minor-fig1"
+) }}
 
 ## Illustrations
 

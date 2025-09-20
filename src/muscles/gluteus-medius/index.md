@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("gmed")}}
+## Summary
+
+{{ summary_card(
+  "gmed",
+  "gluteus-medius-fig1"
+) }}
 
 ## Illustrations
 

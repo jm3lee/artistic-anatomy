@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("sa")}}
+## Summary
+
+{{ summary_card(
+  "sa",
+  "serratus-anterior-fig1"
+) }}
 
 ## References
 

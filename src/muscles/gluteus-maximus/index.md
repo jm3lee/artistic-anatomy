@@ -1,6 +1,11 @@
-{% from "src/templates/macros.jinja" import summary %}
+{% from "src/templates/macros.jinja" import summary_card %}
 
-{{summary("gmax")}}
+## Summary
+
+{{ summary_card(
+  "gmax",
+  "gluteus-maximus-fig1"
+) }}
 
 ## Illustrations
 
