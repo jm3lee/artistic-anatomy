@@ -3,7 +3,7 @@
 {{ figure("pelvis-fig1") }}
 
 1. Sacrum
-2. Ilium
+2. Ilium {{ anchor("ilium") }}
 3. Ischium
 4. Pubis:
    a. Body of pubic bone
