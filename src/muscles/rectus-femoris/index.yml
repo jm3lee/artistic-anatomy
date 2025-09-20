@@ -1,0 +1,26 @@
+anatomy: !!omap
+- actions:
+  - Extends the knee via the quadriceps tendon
+  - Assists hip flexion when the thigh starts swinging forward
+  - Helps stabilize the patella within the trochlear groove
+- insertions:
+  - Quadriceps tendon to the {{ linkicon('patella') }} and via the patellar
+    ligament to the tibial tuberosity
+- origins:
+  - Straight head from the anterior inferior iliac spine of the
+    {{ linkicon('ilium') }}
+  - Reflected head from the superior rim of the acetabulum and joint capsule
+description: Overview of Rectus Femoris.
+doc:
+  author: Brian Lee
+  breadcrumbs:
+  - title: Home
+    url: /
+  - title: Muscles
+    url: /muscles/
+  - title: Rectus Femoris
+  pubdate: Sep 18, 2025
+  title: Rectus Femoris
+id: rectus-femoris
+status: Review Pending
+url: /muscles/rectus-femoris/
