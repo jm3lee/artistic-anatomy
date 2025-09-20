@@ -8,4 +8,4 @@ and helps flex the hip with {{ link('adductor-magnus') }}.
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Adductor_longus_muscle)
+* {{ linktitle('adductor-longus-muscle-wikipedia') }}

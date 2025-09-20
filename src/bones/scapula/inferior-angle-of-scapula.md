@@ -7,4 +7,4 @@ Serves as an origin for {{ linktitle('ld') }} for some people.
 ## References
 
 * {{ linktitle('scapula') }}
-* [Wikipedia](https://en.wikipedia.org/wiki/Scapula)
+* {{ linktitle('scapula-wikipedia') }}

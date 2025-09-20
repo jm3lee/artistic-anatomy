@@ -7,4 +7,4 @@ loading="lazy"/>
 
 ## References
 
-* [Tensor Fasciae Latae (Wikipedia)](https://en.wikipedia.org/wiki/Tensor_fasciae_latae_muscle)
+* {{ linktitle('tensor-fasciae-latae-muscle-wikipedia') }}

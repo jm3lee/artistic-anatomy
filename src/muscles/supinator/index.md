@@ -31,4 +31,4 @@ while the supinator maintains the palm-up posture when the elbow is extended.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Supinator_muscle)
+- {{ linktitle('supinator-muscle-wikipedia') }}

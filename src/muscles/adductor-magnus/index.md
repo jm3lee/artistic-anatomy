@@ -9,4 +9,4 @@ the leg inward.
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Adductor_magnus_muscle)
+* {{ linktitle('adductor-magnus-muscle-wikipedia') }}

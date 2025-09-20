@@ -31,4 +31,4 @@ compartment, its strength often remains even when deeper extensors weaken.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Extensor_carpi_radialis_longus_muscle)
+- {{ linktitle('extensor-carpi-radialis-longus-muscle-wikipedia') }}

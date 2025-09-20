@@ -10,5 +10,5 @@
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Radius_(bone))
+* {{ linktitle('radius-bone-wikipedia') }}
 * {{ linktitle('gf') }}, 24-25.

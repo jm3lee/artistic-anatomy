@@ -35,4 +35,4 @@ thorax and allows greater range of motion at the shoulder.
 ## References
 
 * {{ linktitle('gf') }}, 17
-* [Wikipedia](https://en.wikipedia.org/wiki/Clavicle)
+* {{ linktitle('clavicle-wikipedia') }}

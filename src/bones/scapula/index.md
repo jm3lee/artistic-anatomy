@@ -68,6 +68,6 @@ loading="lazy"/>
 
 ## References
 
-* [Scapula (Wikipedia)](https://en.wikipedia.org/wiki/Scapula)
+* {{ linktitle('scapula-wikipedia') }}
 * {{ linktitle('gf') }}
   * **152** Scapula peeks out from the back.

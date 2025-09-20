@@ -30,4 +30,4 @@ Latin, referring to its pale, tendinous appearance.
 
 - {{ linktitle('external-oblique') }}
 - {{ linktitle('gf') }}, 137.
-- [Wikipedia](https://en.wikipedia.org/wiki/Linea_alba_(abdomen))
+- {{ linktitle('linea-alba-abdomen-wikipedia') }}

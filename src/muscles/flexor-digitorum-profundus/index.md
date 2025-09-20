@@ -29,4 +29,4 @@ and is an antagonist to the {{ link('extensor-digitorum') }}.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Flexor_digitorum_profundus_muscle)
+- {{ linktitle('flexor-digitorum-profundus-muscle-wikipedia') }}

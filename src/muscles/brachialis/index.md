@@ -18,5 +18,5 @@
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Brachialis_muscle)
+- {{ linktitle('brachialis-muscle-wikipedia') }}
 - {{ linktitle('gf') }}, 166-67

@@ -33,8 +33,5 @@ helps sell tennis-elbow poses in figure drawing.
 
 ## References
 
-* [Wikipedia][ecrb-wikipedia]
+* {{ linktitle('extensor-carpi-radialis-brevis-muscle-wikipedia') }}
 * [TGB 5th](../resources/trail-guide-to-the-body-flashcards.html)
-
-[ecrb-wikipedia]:
-  https://en.wikipedia.org/wiki/Extensor_carpi_radialis_brevis_muscle

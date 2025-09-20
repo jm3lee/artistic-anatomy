@@ -8,4 +8,4 @@
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Fibularis_brevis)
+* {{ linktitle('fibularis-brevis-wikipedia') }}

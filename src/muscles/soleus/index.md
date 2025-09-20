@@ -19,5 +19,5 @@ off the ground.
 
 ## References
 
-* [Soleus](https://en.wikipedia.org/wiki/Soleus_muscle)
+* {{ linktitle('soleus-muscle-wikipedia') }}
 * {{ linktitle('gastrocnemius') }}

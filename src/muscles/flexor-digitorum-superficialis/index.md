@@ -35,4 +35,4 @@ It works with {{ link('flexor-carpi-radialis') }} and
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Flexor_digitorum_superficialis_muscle)
+- {{ linktitle('flexor-digitorum-superficialis-muscle-wikipedia') }}

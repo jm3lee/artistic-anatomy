@@ -19,4 +19,4 @@
 ## References
 
 - {{ linktitle('scapula') }}
-- [Wikipedia](https://en.wikipedia.org/wiki/Rhomboid_major_muscle)
+- {{ linktitle('rhomboid-major-muscle-wikipedia') }}

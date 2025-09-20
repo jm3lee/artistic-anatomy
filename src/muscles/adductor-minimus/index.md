@@ -9,4 +9,4 @@ and lateral rotation.
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Adductor_minimus_muscle)
+* {{ linktitle('adductor-minimus-muscle-wikipedia') }}

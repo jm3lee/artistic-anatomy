@@ -34,4 +34,4 @@ forearm.
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Flexor_carpi_radialis_muscle)
+- {{ linktitle('flexor-carpi-radialis-muscle-wikipedia') }}

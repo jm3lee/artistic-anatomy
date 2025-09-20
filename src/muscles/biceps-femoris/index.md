@@ -18,4 +18,4 @@
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Biceps_femoris_muscle)
+* {{ linktitle('biceps-femoris-muscle-wikipedia') }}

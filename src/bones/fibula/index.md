@@ -44,4 +44,4 @@ muscle attachment and forms the outer part of the ankle joint.
 {{ insertions('fibula') }}
 
 ## References
-* [Wikipedia](https://en.wikipedia.org/wiki/Fibula)
+* {{ linktitle('fibula-wikipedia') }}

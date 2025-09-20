@@ -8,4 +8,4 @@ drawing the {{ linkicon('femur') }} toward the midline.
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Adductor_brevis_muscle)
+* {{ linktitle('adductor-brevis-muscle-wikipedia') }}

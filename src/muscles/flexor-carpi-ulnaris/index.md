@@ -35,5 +35,5 @@ stabilizes the carpus for finger flexors like the
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Flexor_carpi_ulnaris_muscle)
+* {{ linktitle('flexor-carpi-ulnaris-muscle-wikipedia') }}
 * {{ linkicon('hc77') }}, 156, 160, 178, 182, 253, 254, 255, 256.

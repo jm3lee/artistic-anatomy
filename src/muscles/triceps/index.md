@@ -34,7 +34,7 @@ loading="lazy"/>
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Triceps)
+* {{ linktitle('triceps-wikipedia') }}
 * {{ linktitle('gf') }}, 172-175.
 * {{ linktitle('hc77') }}, 80, 112, 122, 138, 140, 144, 146, 148-149, 150-151, 152, 182, 253, 254, 255, 256.
 
