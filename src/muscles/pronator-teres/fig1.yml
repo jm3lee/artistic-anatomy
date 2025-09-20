@@ -12,3 +12,5 @@ doc:
   pubdate: Sep 18, 2025
   title: Pronator teres illustration
 id: pronator-teres-fig1
+indextree:
+  show: false
