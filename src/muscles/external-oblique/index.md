@@ -7,10 +7,6 @@
   "external-oblique-fig1"
 ) }}
 
-## Illustrations
-
-{{ figure("external-oblique-fig1") }}
-
 ## Etymology
 
 :robot:

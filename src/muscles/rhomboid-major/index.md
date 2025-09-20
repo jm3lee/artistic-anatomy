@@ -7,10 +7,6 @@
   "rhomboid-major-fig1"
 ) }}
 
-## Illustrations
-
-{{ figure("rhomboid-major-fig1") }}
-
 ## References
 
 - {{ linktitle('scapula') }}

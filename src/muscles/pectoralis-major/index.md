@@ -7,10 +7,6 @@
   "pectoralis-major-fig1"
 ) }}
 
-## Illustrations
-
-{{ figure("pectoralis-major-fig1") }}
-
 ## References
 
 - {{ linktitle('infraclavicular-fossa') }}

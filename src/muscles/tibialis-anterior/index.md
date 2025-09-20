@@ -7,10 +7,6 @@
   "tibialis-anterior-fig1"
 ) }}
 
-## Illustrations
-
-{{ figure("tibialis-anterior-fig1") }}
-
 {{translations('tibialis-anterior')}}
 
 ## References

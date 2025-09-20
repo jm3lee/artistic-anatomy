@@ -7,10 +7,6 @@
   "teres-major-fig1"
 ) }}
 
-## Illustrations
-
-{{ figure("teres-major-fig1") }}
-
 ```python
 include('src/muscles/teres-major-minor-insertion/index.md')
 ```
