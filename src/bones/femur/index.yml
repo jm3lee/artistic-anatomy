@@ -20,7 +20,7 @@ anatomy:
       '
     name: Intertrochanteric crest {{ anchor("intertrochanteric-crest") }}
   - desc: 'Roughened area on the posterior shaft just distal to the greater trochanter;
-      insertion site for {{ linktitle(''gmax'') }}.
+      insertion site for {{ linktitle(''gluteus-maximus'') }}.
 
       '
     name: Gluteal tuberosity {{ anchor("gluteal-tuberosity") }}
@@ -63,7 +63,7 @@ anatomy:
     - '{{ linktitle("inferior-gemellus") }}'
     name: Greater trochanter
   - muscles:
-    - '{{ linktitle("gmax") }}'
+    - '{{ linktitle("gluteus-maximus") }}'
     name: Gluteal tuberosity
   - muscles:
     - '{{ linktitle("iliopsoas") }}'
@@ -116,7 +116,7 @@ doc:
   - title: Bones
     url: /bones/
   - title: Femur
-  pubdate: Sep 18, 2025
+  pubdate: Sep 20, 2025
   title: Femur
 icon: ':bone:'
 id: femur

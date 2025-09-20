@@ -9,5 +9,5 @@
 
 The inferior gemellus forms part of the deep lateral rotator stack beneath the
 {{ link('gluteus-maximus') }}. It bridges the ischial tuberosity to the medial
-{{ linkicon('greater-trochanter') }}, sharing a common tendon with the
+{{ linkicon('femoral-greater-trochanter') }}, sharing a common tendon with the
 {{ link('obturator-internus') }} to swing the femur outward and steady the hip.

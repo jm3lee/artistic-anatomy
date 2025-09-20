@@ -3,7 +3,7 @@
 ## Summary
 
 {{ summary_card(
-  "gmax",
+  "gluteus-maximus",
   "gluteus-maximus-fig1"
 ) }}
 

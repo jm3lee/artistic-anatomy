@@ -13,10 +13,10 @@ doc:
   - title: Muscles
     url: /muscles/
   - title: Rhomboid Major
-  pubdate: Sep 18, 2025
+  pubdate: Sep 20, 2025
   title: Rhomboid Major
 icon: ':muscle:'
-id: rhmaj
+id: rhomboid-major
 status: Reviewed
 tags:
 - torso
