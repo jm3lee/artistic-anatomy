@@ -1,4 +1,4 @@
-{% from "src/templates/macros.jinja" import bony_landmarks, anchor %}
+{% from "src/templates/macros.jinja" import bony_landmarks, insertions, origins, anchor %}
 
 ## Illustrations
 
@@ -48,6 +48,14 @@ itself in space. Its primary motions are summarized below.
 ## Bony Landmarks
 
 {{ bony_landmarks('scapula') }}
+
+## Muscle Origins {{ anchor('origins') }}
+
+{{ origins('scapula') }}
+
+## Muscle Insertions {{ anchor('insertions') }}
+
+{{ insertions('scapula') }}
 
 ## 🖼️ Examples
 

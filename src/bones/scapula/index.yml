@@ -62,6 +62,53 @@ anatomy:
 
       '
     name: Suprascapular notch {{ anchor("suprascapular-notch") }}
+  insertions:
+  - muscles:
+    - '{{ linktitle("trapezius") }}'
+    name: Acromion and spine
+  - muscles:
+    - '{{ linktitle("pecmin") }}'
+    name: Coracoid process
+  - muscles:
+    - '{{ linktitle("sa") }}'
+    name: Medial border (anterior surface)
+  - muscles:
+    - '{{ linktitle("rhomboid-major") }}'
+    - '{{ linktitle("rhmin") }}'
+    name: Medial border (posterior surface)
+  - muscles:
+    - Levator scapulae
+    name: Superior angle and medial border
+  origins:
+  - muscles:
+    - '{{ linktitle("dt") }}'
+    name: Acromion and spine
+  - muscles:
+    - '{{ linktitle("biceps") }} (short head)'
+    - '{{ linktitle("coracobrachialis") }}'
+    name: Coracoid process
+  - muscles:
+    - '{{ linktitle("biceps") }} (long head)'
+    name: Supraglenoid tubercle
+  - muscles:
+    - '{{ linktitle("triceps") }} (long head)'
+    name: Infraglenoid tubercle
+  - muscles:
+    - '{{ linktitle("supraspinatus") }}'
+    name: Supraspinous fossa
+  - muscles:
+    - '{{ linktitle("infraspinatus") }}'
+    name: Infraspinous fossa
+  - muscles:
+    - '{{ linktitle("subscp") }}'
+    name: Subscapular fossa
+  - muscles:
+    - '{{ linktitle("teres-minor") }}'
+    name: Lateral border (upper portion)
+  - muscles:
+    - '{{ linktitle("teres-major") }}'
+    - '{{ linktitle("ld") }} (variable slip)'
+    name: Inferior angle and lateral border
 description: 'The scapula is a triangular shoulder blade that glides on the rib cage
   to position the arm and offers many muscle attachment sites.
 
