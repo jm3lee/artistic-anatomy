@@ -14,12 +14,7 @@ html {
 
 body {
   margin: 0;
-  padding-top: calc(80px + env(safe-area-inset-top));
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+  padding-top: calc(56px + env(safe-area-inset-top));
 }
 
 /* Quiz */
@@ -141,7 +136,7 @@ main li + li {
 }
 
 main nav li + li {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 .image-container {
@@ -231,31 +226,29 @@ main section > p:first-of-type {
 main figure {
   max-width: 100%;
   margin: 0 auto 2rem;
-  text-align: center;
-  display: table !important;
 }
 
 main figure img {
   display: block;
   max-width: 100%;
-  max-height: 50vh;
   height: auto;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-main dd + dt {
-    margin-top: 2rem;
+/* Definition lists */
+main dl {
+  margin-bottom: 2rem;
+}
+
+main dt {
+  font-weight: 600;
 }
 
 main dd {
-    margin-left: 1.5rem;
+  margin-left: 1.5rem;
 }
 
-/* Summary list */
-.summary {
-  margin-bottom: 1.5rem;
+main dd + dt {
+  margin-top: 2rem;
 }
 
 /* Tables */
