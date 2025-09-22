@@ -1,7 +1,7 @@
 anatomy: !!omap
 - actions:
   - Elbow flexion
-  - Assists pronation ands upination of the forearm when movements are resisted
+  - Assists pronation and supination of the forearm when movements are resisted
 - insertions:
   - Styloid processs of radius
 - origins:
@@ -15,7 +15,7 @@ doc:
   - title: Muscles
     url: /muscles/
   - title: Brachioradialis
-  pubdate: Sep 20, 2025
+  pubdate: Sep 22, 2025
   title: Brachioradialis
 icon: ':muscle:'
 id: brachioradialis

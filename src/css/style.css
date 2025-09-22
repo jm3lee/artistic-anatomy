@@ -301,3 +301,8 @@ tbody tr:nth-of-type(even) {
 figcaption {
     line-height: 1.3;
 }
+
+.max-h-50vh {
+  max-height: 50vh !important;
+  height: auto !important;
+}
