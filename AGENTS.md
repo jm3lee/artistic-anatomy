@@ -8,6 +8,8 @@
     automatically.
 - Text formatting
   - Wrap paragraphs at 80 characters.
+- Tone and readability
+  - Prefer a reading level suitable for high school graduates.
 - Metadata
   - Write `description` in plain text.
   - Use `-` instead of `_` in `id`.
