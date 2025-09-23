@@ -1,9 +1,15 @@
 :robot:
-{% from "src/templates/macros.jinja" import insertions, origins, bony_landmarks, anchor %}
+{% from "src/templates/macros.jinja" import (
+  insertions,
+  origins,
+  bony_landmarks,
+  anchor,
+  bone_summary_card,
+) %}
 
-## Illustrations
+## Summary
 
-{{ figure("femur-fig1") }}
+{{ bone_summary_card("femur", "femur-fig1") }}
 
 ## Bony Landmarks
 

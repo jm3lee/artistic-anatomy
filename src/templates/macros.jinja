@@ -135,6 +135,61 @@
 </div>
 {%- endmacro %}
 
+{#--
+  Macro: bone_attachment_section
+  Render nested bullet lists for muscle attachments on a bone.
+  - label: section heading (Origins or Insertions)
+  - sections: sequence of attachment dictionaries with name and muscles
+--#}
+{%- macro bone_attachment_section(label, sections) -%}
+{%- if sections %}
+<h3>{{ label }}</h3>
+<ul class="ps-md-4 ps-4">
+  {%- for section in sections | sort(attribute='name') %}
+  <li class="mb-2">
+    <strong>{{ render_jinja(section.name) }}</strong>
+    {%- if section.muscles %}
+    <ul class="ps-3 mb-1">
+      {%- for muscle in section.muscles %}
+      <li>{{ render_jinja(muscle) }}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endif %}
+{%- endmacro %}
+
+{#--
+  Macro: bone_summary_card
+  Render a Bootstrap-styled card for bones with figure, description, and
+  attachment summaries.
+  - name: bone identifier used with get_desc
+  - fig_path: path to the YAML figure definition
+--#}
+{%- macro bone_summary_card(name, fig_path) -%}
+{%- set data = get_desc(name) -%}
+{%- set anatomy = data['anatomy'] -%}
+<div class="card mb-3 summary-card h-100">
+<div class="row g-0 flex-column flex-md-row align-items-center">
+<!-- Image -->
+<div class="col-12 col-md-5 d-flex justify-content-center p-3 p-md-4">
+{{ figure(fig_path) }}
+</div>
+
+<!-- Content -->
+<div class="col-12 col-md-7 d-flex justify-content-center">
+<div class="card-body w-100 d-flex flex-column justify-content-center text-md-start p-3 p-md-4">
+<p class="lead">{{ render_jinja(data['description']) }}</p>
+{{ bone_attachment_section('Origins', anatomy.get('origins', [])) }}
+{{ bone_attachment_section('Insertions', anatomy.get('insertions', [])) }}
+</div>
+</div>
+</div>
+</div>
+{%- endmacro %}
+
 {% macro summary_bones(name) %}
 ## Summary
 
