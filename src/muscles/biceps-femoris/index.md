@@ -14,11 +14,12 @@ knee while laterally rotating the leg, balancing the inward pull of
 {{ link('semitendinosus') }} and {{ link('semimembranosus') }} on the medial
 side.
 
-Because the long head crosses the hip, it assists {{ link('gluteus-maximus') }}
-in driving the thigh into {{ linkicon('extension') }} during gait and
-powerful hip-hinge movements. The short head stays focused on knee control,
-reinforcing {{ link('biceps-femoris-short-head') }}'s role in stabilizing the
-lateral side of the joint.
+The long head crosses the hip to assist {{ link('gluteus-maximus') }} in
+driving the thigh into {{ linkicon('extension') }} during gait and powerful
+hip-hinge movements. The short head stays focused on the knee, drawing from
+the distal femoral shaft to reinforce the lateral hamstring tendon as it
+anchors into the {{ linkicon('fibula') }} and wraps to the lateral condyle of
+the {{ linkicon('tibia') }}.
 
 ## References
 
