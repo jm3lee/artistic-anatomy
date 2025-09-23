@@ -19,7 +19,7 @@ anatomy:
     name: Lateral malleolus {{ anchor("lateral-malleolus") }}
   insertions:
   - muscles:
-    - '{{ linktitle("bfem") }}'
+    - '{{ linktitle("biceps-femoris") }}'
     name: Head of fibula
   origins:
   - muscles:

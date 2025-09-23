@@ -8,6 +8,9 @@ anatomy: !!omap
 - origins:
   - 'Long head: Ischial tuberosity of the {{ linkicon("pelvis") }}'
   - 'Short head: Linea aspera of the {{ linkicon("femur") }}'
+description: >-
+  Two-headed lateral hamstring that flexes the knee and, through its long head,
+  extends the hip.
 doc:
   author: Brian Lee
   breadcrumbs:
@@ -19,6 +22,6 @@ doc:
   pubdate: Sep 18, 2025
   title: Biceps Femoris
 icon: ':muscle:'
-id: bfem
+id: biceps-femoris
 status: Reviewed
 url: /muscles/biceps-femoris/
