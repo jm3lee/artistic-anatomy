@@ -7,19 +7,37 @@
   "biceps-femoris-fig1"
 ) }}
 
-The **biceps femoris** sweeps down the outer hamstring, its long head diving
-from the {{ linkicon('pelvis') }} to join the short head springing off the
-{{ linkicon('femur') }}. Together they form a powerful cord that flexes the
-knee while laterally rotating the leg, balancing the inward pull of
-{{ link('semitendinosus') }} and {{ link('semimembranosus') }} on the medial
-side.
+The **biceps femoris** spans the outer hamstring.
+It steadies the knee against inward pull from the inner hamstrings.
+It balances {{ link('semitendinosus') }}.
+It also balances {{ link('semimembranosus') }}.
 
-The long head crosses the hip to assist {{ link('gluteus-maximus') }} in
-driving the thigh into {{ linkicon('extension') }} during gait and powerful
-hip-hinge movements. The short head stays focused on the knee, drawing from
-the distal femoral shaft to reinforce the lateral hamstring tendon as it
-anchors into the {{ linkicon('fibula') }} and wraps to the lateral condyle of
-the {{ linkicon('tibia') }}.
+### Long head
+
+The long head begins on the {{ link('pelvis') }}.
+It anchors at the ischial tuberosity.
+It crosses the hip.
+It fuses with the short head to form a dense lateral cord.
+Together with {{ link('gluteus-maximus') }} it drives the thigh.
+The pair pushes the hip into {{ link('extension') }}.
+That teamwork helps you rise from a hinge, stride forward, or sprint.
+
+### Short head
+
+The short head starts on the back of the {{ link('femur') }} below the
+{{ link('femoral-gluteal-tuberosity') }}.
+It does not cross the hip.
+Instead it reinforces the shared tendon near the knee.
+It aids the long head in bending the knee.
+It also turns the lower leg outward.
+The fibers join at the {{ link('fibula') }}.
+They sweep across the outer {{ link('tibia') }}.
+
+### Comparing the heads
+
+The long head arises from the pelvis.
+The short head springs from the femur.
+Both insert into the same lateral tendon on the fibula and tibia.
 
 ## References
 
