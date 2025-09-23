@@ -5,11 +5,14 @@ anatomy: !!omap
   - Laterally rotates the leg when the knee is flexed
 - insertions:
   - Head of the {{ linkicon("fibula") }}
+  - Lateral condyle of the {{ linkicon("tibia") }}
 - origins:
   - 'Long head: Ischial tuberosity of the {{ linkicon("pelvis") }}'
   - 'Short head: Linea aspera of the {{ linkicon("femur") }}'
-description: Two-headed lateral hamstring that flexes the knee and, through its long
-  head, extends the hip.
+description: >
+  Two-headed lateral hamstring whose long head springs from the pelvis while the
+  short head arises on the distal femur to reinforce knee flexion and hip
+  extension power.
 doc:
   author: Seattle Figure Studio
   breadcrumbs:

@@ -78,7 +78,7 @@ anatomy:
     - '{{ linktitle("adductor-brevis") }}'
     - '{{ linktitle("adductor-longus") }}'
     - '{{ linktitle("adductor-magnus") }}'
-    - '{{ linktitle("biceps-femoris-short-head") }}'
+    - '{{ linktitle("biceps-femoris") }} (short head fibers)'
     name: Linea aspera
   - muscles:
     - '{{ linktitle("adductor-magnus") }}'
@@ -94,7 +94,7 @@ anatomy:
     - '{{ linktitle("vastus-intermedius") }}'
     name: Anterior and lateral shaft of femur
   - muscles:
-    - '{{ linktitle("biceps-femoris-short-head") }}'
+    - '{{ linktitle("biceps-femoris") }} (short head fibers)'
     name: Linea aspera (lateral lip)
   - muscles:
     - '{{ linktitle("gastrocnemius-medial-head") }}'
