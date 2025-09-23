@@ -1,0 +1,14 @@
+doc:
+  author: Seattle Figure Studio
+  pubdate: Sep 23, 2025
+  title: Gracilis muscle illustration
+figure:
+  caption: <a href="https://commons.wikimedia.org/wiki/File:Gracilis.png">BodyParts3D/Anatomography</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en">CC BY-SA 2.1 JP</a>, via
+    Wikimedia Commons
+  urls:
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Gracilis.png/512px-Gracilis.png
+    width: 512
+id: gracilis-fig1
+indextree:
+  show: false

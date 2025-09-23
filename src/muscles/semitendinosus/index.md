@@ -7,16 +7,16 @@
   "semitendinosus-fig1"
 ) }}
 
-The **semitendinosus** pours down the medial hamstring, a fleshy upper belly
-that quickly narrows into a gleaming tendon halfway along the thigh. It springs
-from the ischial tuberosity of the {{ linkicon('pelvis') }}, hugging close to
-{{ link('biceps-femoris') }} before crossing behind the knee to fan across the
-upper medial {{ linkicon('tibia') }}.
+The **semitendinosus** runs along the inner hamstring. Its upper half is thick
+muscle, but it thins into a long tendon halfway down the thigh. It starts on the
+ischial tuberosity of the {{ linkicon('pelvis') }}, travels beside
+{{ link('biceps-femoris') }}, and slips behind the knee to reach the upper inner
+{{ linkicon('tibia') }}.
 
-Working with {{ link('sartorius') }} and the yet-to-be-covered gracilis, its
-pes anserinus attachment lets it rein in unwanted lateral sway of the leg. The
-muscle extends the hip, flexes the knee, and medially rotates the tibia when the
-joint is bent, giving artists a clear cord to track during dynamic poses.
+Together with {{ link('sartorius') }} and {{ link('gracilis') }}, its pes
+anserinus attachment helps steady the leg against side-to-side sway. The muscle
+extends the hip, bends the knee, and turns the tibia inward when the knee is
+flexed, giving artists a clear cord to follow in active poses.
 
 ## References
 
