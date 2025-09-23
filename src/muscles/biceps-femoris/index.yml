@@ -4,8 +4,12 @@ anatomy: !!omap
   - Extends the hip (long head)
   - Laterally rotates the leg when the knee is flexed
 - insertions:
-  - Head of the {{ linkicon("fibula") }}
-  - Lateral condyle of the {{ linkicon("tibia") }}
+  - 'Long head: Merges into the common hamstring tendon on the head of the
+    {{ linkicon("fibula") }} with slips to the lateral condyle of the
+    {{ linkicon("tibia") }}'
+  - 'Short head: Joins the long head in the shared tendon on the head of the
+    {{ linkicon("fibula") }} and fans into the fascia at the lateral condyle of
+    the {{ linkicon("tibia") }}'
 - origins:
   - 'Long head: Ischial tuberosity of the {{ linkicon("pelvis") }}'
   - 'Short head: Linea aspera of the {{ linkicon("femur") }}'
