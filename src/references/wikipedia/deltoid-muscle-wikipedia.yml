@@ -1,6 +1,7 @@
-id: deltoid-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Deltoid_muscle
+id: deltoid-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Deltoid_muscle

@@ -1,6 +1,7 @@
-id: extensor-carpi-ulnaris-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Extensor_carpi_ulnaris_muscle
+id: extensor-carpi-ulnaris-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Extensor_carpi_ulnaris_muscle

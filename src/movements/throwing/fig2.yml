@@ -1,10 +1,11 @@
 doc:
+  author: Seattle Figure Studio
   title: Borghese Gladiator. Louvre, Paris
 figure:
-  caption: >-
-    <a href='https://commons.wikimedia.org/wiki/File:Borghese_Gladiator,_Louvre_Museum,_Paris_2_October_2014.jpg'>Louvre
-    Museum</a>, <a href='https://creativecommons.org/licenses/by/2.0'>CC BY 2.0</a>, via Wikimedia Commons
+  caption: <a href='https://commons.wikimedia.org/wiki/File:Borghese_Gladiator,_Louvre_Museum,_Paris_2_October_2014.jpg'>Louvre
+    Museum</a>, <a href='https://creativecommons.org/licenses/by/2.0'>CC BY 2.0</a>,
+    via Wikimedia Commons
   urls:
-    - url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Borghese_Gladiator%2C_Louvre_Museum%2C_Paris_2_October_2014.jpg/512px-Borghese_Gladiator%2C_Louvre_Museum%2C_Paris_2_October_2014.jpg?20150708204332
-      width: 512
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Borghese_Gladiator%2C_Louvre_Museum%2C_Paris_2_October_2014.jpg/512px-Borghese_Gladiator%2C_Louvre_Museum%2C_Paris_2_October_2014.jpg?20150708204332
+    width: 512
 id: throwing-fig2

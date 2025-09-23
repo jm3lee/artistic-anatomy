@@ -1,6 +1,7 @@
-id: fibularis-longus-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Fibularis_longus
+id: fibularis-longus-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Fibularis_longus

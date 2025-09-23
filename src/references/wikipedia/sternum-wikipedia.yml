@@ -1,6 +1,7 @@
-id: sternum-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Sternum
+id: sternum-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Sternum

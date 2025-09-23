@@ -5,11 +5,11 @@ anatomy: !!omap
 - insertions:
   - Trochanteric fossa of the {{ linkicon('femur') }}
 - origins:
-  - External surface of the obturator membrane and adjacent margins of the
-    pubis and ischium
+  - External surface of the obturator membrane and adjacent margins of the pubis and
+    ischium
 description: Overview of Obturator Externus.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

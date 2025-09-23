@@ -11,7 +11,7 @@ anatomy: !!omap
   - Fascia and intermuscular septa of the posterior forearm
 description: Short radial wrist extensor that stabilizes the hand for gripping.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /
@@ -30,6 +30,6 @@ tags:
 translations:
   french: court extenseur radial du carpe
   latin: musculus extensor carpi radialis brevis
-  spanish: extensor radial corto del carpo
   russian: Короткий лучевой разгибатель запястья
+  spanish: extensor radial corto del carpo
 url: /muscles/extensor-carpi-radialis-brevis/

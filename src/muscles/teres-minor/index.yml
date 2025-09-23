@@ -10,7 +10,7 @@ anatomy: !!omap
   - Upper two thirds of the lateral (axillary) border of the {{ linkicon("scapula")
     }}
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

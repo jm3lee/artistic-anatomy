@@ -1,6 +1,7 @@
-id: sternocleidomastoid-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Sternocleidomastoid_muscle
+id: sternocleidomastoid-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Sternocleidomastoid_muscle

@@ -2,18 +2,20 @@ anatomy: !!omap
 - actions:
   - Supinates the forearm, especially from a flexed position
 - insertions:
-  - Lateral proximal third of the {{ linkicon("radius") }} between the neck and
-    the {{ link('pronator-teres') }} insertion
+  - Lateral proximal third of the {{ linkicon("radius") }} between the neck and the
+    {{ link('pronator-teres') }} insertion
 - origins:
-  - Lateral epicondyle of the {{ linkicon("humerus") }} and the radial
-    collateral ligament
+  - Lateral epicondyle of the {{ linkicon("humerus") }} and the radial collateral
+    ligament
   - annular of the radius
   - Supinator crest and fossa of the proximal {{ linkicon("ulna") }}
-description: |
-  Overview of Supinator, the deep rotator that unwinds the proximal radius
+description: 'Overview of Supinator, the deep rotator that unwinds the proximal radius
+
   around the ulna.
+
+  '
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

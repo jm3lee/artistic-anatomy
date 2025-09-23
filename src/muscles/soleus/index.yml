@@ -9,7 +9,7 @@ anatomy: !!omap
   - Posterior surface of {{ linkicon("fibula") }}
 description: Overview of Soleus.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

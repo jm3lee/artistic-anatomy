@@ -1,6 +1,7 @@
-id: patella-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Patella (Wikipedia)
-url: https://en.wikipedia.org/wiki/Patella
+id: patella-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Patella

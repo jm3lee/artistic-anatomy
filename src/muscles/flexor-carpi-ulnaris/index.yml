@@ -12,7 +12,7 @@ anatomy: !!omap
   - 'Ulnar head: {{ linkicon("olecranon-process") }} and posterior border of the {{
     linkicon("ulna") }}'
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

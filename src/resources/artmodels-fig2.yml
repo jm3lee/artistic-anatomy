@@ -1,10 +1,10 @@
 doc:
+  author: Seattle Figure Studio
   title: Laocoön and his sons group
 figure:
-  caption: >-
-    <a href="https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg">Laocoön
+  caption: <a href="https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg">Laocoön
     and His Sons</a>, Public domain, via Wikimedia Commons
   urls:
-    - url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/512px-Laoco%C3%B6n_and_his_sons_group.jpg?20240219224327
-      width: 512
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/512px-Laoco%C3%B6n_and_his_sons_group.jpg?20240219224327
+    width: 512
 id: artmodels-fig2

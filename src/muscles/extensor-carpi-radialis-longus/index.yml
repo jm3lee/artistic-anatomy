@@ -1,18 +1,20 @@
 anatomy: !!omap
 - actions:
   - Extends the wrist while maintaining light finger flexion
-  - Abducts the hand toward the radial side with
-    {{ link('extensor-carpi-radialis-brevis') }}
+  - Abducts the hand toward the radial side with {{ link('extensor-carpi-radialis-brevis')
+    }}
 - insertions:
   - Dorsal base of the second metacarpal with a slip to the third metacarpal
 - origins:
   - Lateral supracondylar ridge of the {{ linkicon("humerus") }}
   - Lateral intermuscular septum adjacent to {{ link('brachioradialis') }}
-description: |
-  Overview of Extensor Carpi Radialis Longus and its role in lateral forearm
+description: 'Overview of Extensor Carpi Radialis Longus and its role in lateral forearm
+
   extension and radial deviation.
+
+  '
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

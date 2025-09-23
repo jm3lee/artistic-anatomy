@@ -1,6 +1,7 @@
-id: adductor-brevis-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Adductor_brevis_muscle
+id: adductor-brevis-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Adductor_brevis_muscle

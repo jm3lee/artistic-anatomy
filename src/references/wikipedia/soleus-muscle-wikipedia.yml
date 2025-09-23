@@ -1,6 +1,7 @@
-id: soleus-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Soleus
-url: https://en.wikipedia.org/wiki/Soleus_muscle
+id: soleus-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Soleus_muscle

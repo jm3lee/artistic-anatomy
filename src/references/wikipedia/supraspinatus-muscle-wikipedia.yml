@@ -1,6 +1,7 @@
-id: supraspinatus-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Supraspinatus_muscle
+id: supraspinatus-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Supraspinatus_muscle

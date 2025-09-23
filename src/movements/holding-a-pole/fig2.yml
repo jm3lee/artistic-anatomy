@@ -1,10 +1,10 @@
 doc:
+  author: Seattle Figure Studio
   title: Athena Parthenos Altemps Inv8622
 figure:
-  caption: >-
-    <a href='https://commons.wikimedia.org/wiki/File:Athena_Parthenos_Altemps_Inv8622.jpg'>National Roman Museum of the
-    Altemps Palace</a>, Public domain, via Wikimedia Commons
+  caption: <a href='https://commons.wikimedia.org/wiki/File:Athena_Parthenos_Altemps_Inv8622.jpg'>National
+    Roman Museum of the Altemps Palace</a>, Public domain, via Wikimedia Commons
   urls:
-    - url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Athena_Parthenos_Altemps_Inv8622.jpg/512px-Athena_Parthenos_Altemps_Inv8622.jpg?20101126183211
-      width: 512
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Athena_Parthenos_Altemps_Inv8622.jpg/512px-Athena_Parthenos_Altemps_Inv8622.jpg?20101126183211
+    width: 512
 id: holding-a-pole-fig2

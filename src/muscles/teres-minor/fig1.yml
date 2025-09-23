@@ -1,9 +1,10 @@
 doc:
+  author: Seattle Figure Studio
   title: Teres minor muscle animation2
 figure:
-  caption: >-
-    <a href='https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif'>Anatomography</a>,
-    <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons
+  caption: <a href='https://commons.wikimedia.org/wiki/File:Teres_minor_muscle_animation2.gif'>Anatomography</a>,
+    <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1
+    JP</a>, via Wikimedia Commons
   urls:
-    - url: https://upload.wikimedia.org/wikipedia/commons/4/41/Teres_minor_muscle_animation2.gif?20121121033256
+  - url: https://upload.wikimedia.org/wikipedia/commons/4/41/Teres_minor_muscle_animation2.gif?20121121033256
 id: teres-minor-fig1

@@ -10,7 +10,7 @@ anatomy: !!omap
   - 'Short head: Coracoid process of the {{ linkicon("scapula") }}'
   - 'Long head: Supraglenoid tubercle of the {{ linkicon("scapula") }}'
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

@@ -8,11 +8,10 @@ anatomy: !!omap
 - origins:
   - 'Long head: Ischial tuberosity of the {{ linkicon("pelvis") }}'
   - 'Short head: Linea aspera of the {{ linkicon("femur") }}'
-description: >-
-  Two-headed lateral hamstring that flexes the knee and, through its long head,
-  extends the hip.
+description: Two-headed lateral hamstring that flexes the knee and, through its long
+  head, extends the hip.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

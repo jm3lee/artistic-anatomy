@@ -1,6 +1,7 @@
-id: gastrocnemius-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Gastrocnemius
-url: https://en.wikipedia.org/wiki/Gastrocnemius_muscle
+id: gastrocnemius-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Gastrocnemius_muscle

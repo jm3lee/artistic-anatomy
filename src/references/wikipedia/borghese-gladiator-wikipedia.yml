@@ -1,6 +1,7 @@
-id: borghese-gladiator-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Borghese_Gladiator
+id: borghese-gladiator-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Borghese_Gladiator

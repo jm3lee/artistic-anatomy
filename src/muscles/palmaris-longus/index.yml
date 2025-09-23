@@ -5,13 +5,16 @@ anatomy: !!omap
 - insertions:
   - Palmar aponeurosis and flexor retinaculum of the hand
 - origins:
-  - Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }}
-    via the common flexor tendon
-description: |
-  Overview of Palmaris Longus, a variable forearm flexor often harvested for
+  - Medial {{ link("epicondyle") }} of the {{ linkicon("humerus") }} via the common
+    flexor tendon
+description: 'Overview of Palmaris Longus, a variable forearm flexor often harvested
+  for
+
   tendon grafts.
+
+  '
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

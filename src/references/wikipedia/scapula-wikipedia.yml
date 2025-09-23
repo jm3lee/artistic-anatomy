@@ -1,6 +1,7 @@
-id: scapula-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Scapula (Wikipedia)
-url: https://en.wikipedia.org/wiki/Scapula
+id: scapula-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Scapula

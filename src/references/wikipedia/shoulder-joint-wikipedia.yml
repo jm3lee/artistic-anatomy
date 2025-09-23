@@ -1,6 +1,7 @@
-id: shoulder-joint-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Shoulder_joint
+id: shoulder-joint-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Shoulder_joint

@@ -1,9 +1,9 @@
 doc:
+  author: Seattle Figure Studio
   title: Gray 207 humerus muscle attachments
 figure:
-  caption: >-
-    <a href="https://commons.wikimedia.org/wiki/File:Gray207.png">Henry Vandyke Carter</a>,
-    Public domain, via Wikimedia Commons
+  caption: <a href="https://commons.wikimedia.org/wiki/File:Gray207.png">Henry Vandyke
+    Carter</a>, Public domain, via Wikimedia Commons
   urls:
-    - url: https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray207.png
+  - url: https://artisticanatomy.sfo3.cdn.digitaloceanspaces.com/grays/Gray207.png
 id: humerus-fig2

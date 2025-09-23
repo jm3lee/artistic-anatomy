@@ -8,7 +8,7 @@ anatomy: !!omap
   - Body and inferior ramus of {{ linkicon("pelvis") }}
 description: Short fan-shaped thigh muscle that adducts the femur.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

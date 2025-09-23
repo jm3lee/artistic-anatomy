@@ -1,6 +1,7 @@
-id: adductor-magnus-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Adductor_magnus_muscle
+id: adductor-magnus-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Adductor_magnus_muscle

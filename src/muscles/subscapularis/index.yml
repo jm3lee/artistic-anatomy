@@ -9,7 +9,7 @@ anatomy: !!omap
   - Subscapular fossa on the anterior surface of the {{ linkicon('scapula') }}
 description: Overview of Subscapularis.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

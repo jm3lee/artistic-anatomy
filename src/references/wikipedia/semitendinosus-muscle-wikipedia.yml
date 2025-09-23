@@ -1,6 +1,7 @@
-id: semitendinosus-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Semitendinosus_muscle
+id: semitendinosus-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Semitendinosus_muscle

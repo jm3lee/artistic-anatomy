@@ -9,7 +9,7 @@ anatomy: !!omap
   - Posterior border of the {{ linkicon("ulna") }}
 description: Extends and adducts the wrist along the ulnar edge.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

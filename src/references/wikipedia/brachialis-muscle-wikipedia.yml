@@ -1,6 +1,7 @@
-id: brachialis-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Brachialis_muscle
+id: brachialis-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Brachialis_muscle

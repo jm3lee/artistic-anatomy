@@ -8,7 +8,7 @@ anatomy: !!omap
   - Lateral epicondyle of the {{ linkicon('humerus') }}
 description: Extends the little finger and assists with wrist extension.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

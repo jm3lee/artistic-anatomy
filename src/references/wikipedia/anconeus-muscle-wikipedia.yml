@@ -1,6 +1,7 @@
-id: anconeus-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Anconeus_muscle
+id: anconeus-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Anconeus_muscle

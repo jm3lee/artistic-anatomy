@@ -10,7 +10,7 @@ anatomy: !!omap
   - Lower one third of lateral border of {{ linkicon("scapula") }}
   - Blends with the deep surface of latissimus dorsi via the thoracolumbar fascia
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

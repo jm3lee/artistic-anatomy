@@ -4,16 +4,13 @@ anatomy: !!omap
   - Flexes the knee
   - Medially rotates the leg when the knee is flexed
 - insertions:
-  - >-
-      Proximal medial surface of the {{ linkicon('tibia') }} (pes
-      anserinus)
+  - Proximal medial surface of the {{ linkicon('tibia') }} (pes anserinus)
 - origins:
   - Ischial tuberosity of the {{ linkicon('pelvis') }}
-description: >-
-  Cordlike medial hamstring that blends into the pes anserinus after a long,
-  narrow tendon.
+description: Cordlike medial hamstring that blends into the pes anserinus after a
+  long, narrow tendon.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

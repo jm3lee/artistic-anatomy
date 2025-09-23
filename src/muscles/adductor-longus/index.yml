@@ -8,7 +8,7 @@ anatomy: !!omap
   - Body of {{ linkicon("pelvis") }} near the pubic symphysis
 description: Long flat thigh muscle that adducts and flexes the femur.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

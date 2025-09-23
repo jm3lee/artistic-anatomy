@@ -10,7 +10,7 @@ anatomy: !!omap
   - Lateral condyle of the {{ linkicon('femur') }}
 description: Overview of Gastrocnemius.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

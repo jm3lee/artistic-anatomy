@@ -10,7 +10,7 @@ anatomy: !!omap
   - Head and upper lateral surface of {{ linkicon("fibula") }}
 description: Overview of Fibularis Longus.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

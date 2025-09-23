@@ -1,6 +1,7 @@
-id: extensor-digitorum-muscle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Extensor_digitorum_muscle
+id: extensor-digitorum-muscle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Extensor_digitorum_muscle

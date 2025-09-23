@@ -1,6 +1,7 @@
-id: discobolus-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Discobolus
+id: discobolus-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Discobolus

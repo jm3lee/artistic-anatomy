@@ -11,7 +11,7 @@ anatomy: !!omap
   - Occipital bone
   - Spinous processes of {{ linkicon("spine") }}
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

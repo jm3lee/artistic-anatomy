@@ -12,7 +12,7 @@ anatomy: !!omap
   - '{{ linktitle("sternum") }}'
   - Costal cartilages of ribs 1-6 (sometimes 1-7)
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

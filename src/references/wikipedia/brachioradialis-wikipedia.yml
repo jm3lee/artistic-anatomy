@@ -1,6 +1,7 @@
-id: brachioradialis-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Brachioradialis
+id: brachioradialis-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Brachioradialis

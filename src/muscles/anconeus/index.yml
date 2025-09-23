@@ -9,7 +9,7 @@ anatomy: !!omap
 - origins:
   - Posterior aspect of lateral epicondyle of the {{ linkicon("humerus") }}
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

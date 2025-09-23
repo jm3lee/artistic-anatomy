@@ -1,10 +1,11 @@
 doc:
-  title: Three Persons Viewing the Gladiator by Candlelight (1765). Walker Art Gallery, Liverpool
+  author: Seattle Figure Studio
+  title: Three Persons Viewing the Gladiator by Candlelight (1765). Walker Art Gallery,
+    Liverpool
 figure:
-  caption: >-
-    <a href='https://commons.wikimedia.org/wiki/File:Three_Persons_Viewing_the_Gladiator_by_Candlelight.jpg'>Joseph Wright
-    of Derby</a>, Public domain, via Wikimedia Commons
+  caption: <a href='https://commons.wikimedia.org/wiki/File:Three_Persons_Viewing_the_Gladiator_by_Candlelight.jpg'>Joseph
+    Wright of Derby</a>, Public domain, via Wikimedia Commons
   urls:
-    - url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Three_Persons_Viewing_the_Gladiator_by_Candlelight.jpg/512px-Three_Persons_Viewing_the_Gladiator_by_Candlelight.jpg?20250418032139
-      width: 512
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Three_Persons_Viewing_the_Gladiator_by_Candlelight.jpg/512px-Three_Persons_Viewing_the_Gladiator_by_Candlelight.jpg?20250418032139
+    width: 512
 id: throwing-fig3

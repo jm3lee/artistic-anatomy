@@ -1,9 +1,10 @@
 doc:
+  author: Seattle Figure Studio
   title: Infraspinatus muscle animation
 figure:
-  caption: >-
-    <a href="https://commons.wikimedia.org/wiki/File:Infraspinatus_muscle_animation.gif">Anatomography</a>,
-    <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/">CC BY-SA 2.1 JP</a>, via Wikimedia Commons
+  caption: <a href="https://commons.wikimedia.org/wiki/File:Infraspinatus_muscle_animation.gif">Anatomography</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/">CC BY-SA 2.1 JP</a>,
+    via Wikimedia Commons
   urls:
-    - url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Infraspinatus_muscle_animation.gif?20121120170804
+  - url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Infraspinatus_muscle_animation.gif?20121120170804
 id: infraspinatus-fig1

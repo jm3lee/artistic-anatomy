@@ -1,10 +1,11 @@
 doc:
+  author: Seattle Figure Studio
   title: Discobolus in National Roman Museum Palazzo Massimo alle Terme
 figure:
-  caption: >-
-    <a href='https://commons.wikimedia.org/wiki/File:Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG'>After
-    Myron</a>, <a href='https://creativecommons.org/licenses/by-sa/4.0'>CC BY-SA 4.0</a>, via Wikimedia Commons
+  caption: <a href='https://commons.wikimedia.org/wiki/File:Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG'>After
+    Myron</a>, <a href='https://creativecommons.org/licenses/by-sa/4.0'>CC BY-SA 4.0</a>,
+    via Wikimedia Commons
   urls:
-    - url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG/512px-Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG?20150319172504
-      width: 512
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG/512px-Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG?20150319172504
+    width: 512
 id: throwing-fig1

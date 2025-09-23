@@ -6,16 +6,14 @@ anatomy: !!omap
   - Tenses the oblique popliteal ligament
 - insertions:
   - Posterior medial condyle of the {{ linkicon('tibia') }}
-  - >-
-      Reflected expansion to the {{ link('popliteus') }} fascia and oblique
-      popliteal ligament
+  - Reflected expansion to the {{ link('popliteus') }} fascia and oblique popliteal
+    ligament
 - origins:
   - Superolateral facet of the ischial tuberosity on the {{ linkicon('pelvis') }}
-description: >-
-  Broad, membranous medial hamstring deep to the semitendinosus with multiple
+description: Broad, membranous medial hamstring deep to the semitendinosus with multiple
   distal slips that reinforce the posterior knee capsule.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

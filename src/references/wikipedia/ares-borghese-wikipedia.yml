@@ -1,6 +1,7 @@
-id: ares-borghese-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Ares_Borghese
+id: ares-borghese-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Ares_Borghese

@@ -1,6 +1,7 @@
-id: tuberosity-of-the-tibia-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Tuberosity of the Tibia (Wikipedia)
-url: https://en.wikipedia.org/wiki/Tuberosity_of_the_tibia
+id: tuberosity-of-the-tibia-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Tuberosity_of_the_tibia

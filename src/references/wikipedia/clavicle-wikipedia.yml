@@ -1,6 +1,7 @@
-id: clavicle-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Clavicle
+id: clavicle-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Clavicle

@@ -1,6 +1,7 @@
-id: linea-alba-abdomen-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Linea_alba_(abdomen)
+id: linea-alba-abdomen-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Linea_alba_(abdomen)

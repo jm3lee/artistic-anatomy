@@ -1,8 +1,10 @@
 doc:
-  title: Statue of the Emperor Octavian Augustus as Jupiter. Marquis Campana collection. 1
+  author: Seattle Figure Studio
+  title: Statue of the Emperor Octavian Augustus as Jupiter. Marquis Campana collection.
+    1
 figure:
   caption: Statue of the Emperor Octavian Augustus as Jupiter
   urls:
-    - url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Statue_of_the_Emperor_Octavian_Augustus_as_Jupiter._Marquis_Campana_collection._1.jpg/256px-Statue_of_the_Emperor_Octavian_Augustus_as_Jupiter._Marquis_Campana_collection._1.jpg?20200330083941
-      width: 256
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Statue_of_the_Emperor_Octavian_Augustus_as_Jupiter._Marquis_Campana_collection._1.jpg/256px-Statue_of_the_Emperor_Octavian_Augustus_as_Jupiter._Marquis_Campana_collection._1.jpg?20200330083941
+    width: 256
 id: artmodels-fig3

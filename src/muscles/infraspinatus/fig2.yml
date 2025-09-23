@@ -1,7 +1,8 @@
 doc:
+  author: Seattle Figure Studio
   title: Infraspinatus, Richer
 figure:
   caption: Richer, <em>Artistic Anatomy</em>
   urls:
-    - url: https://brianleeart.sfo3.cdn.digitaloceanspaces.com/richer/infraspinatus.jpg
+  - url: https://brianleeart.sfo3.cdn.digitaloceanspaces.com/richer/infraspinatus.jpg
 id: infraspinatus-fig2

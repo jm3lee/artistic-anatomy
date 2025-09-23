@@ -1,6 +1,7 @@
-id: athena-parthenos-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Athena_Parthenos
+id: athena-parthenos-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Athena_Parthenos

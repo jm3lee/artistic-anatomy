@@ -3,14 +3,13 @@ anatomy: !!omap
   - Extends the knee
   - Stabilizes the patella medially
 - insertions:
-  - Quadriceps tendon to the patella and via the patellar ligament to the
-    tibial tuberosity
+  - Quadriceps tendon to the patella and via the patellar ligament to the tibial tuberosity
 - origins:
-  - Intertrochanteric line and medial lip of the linea aspera of the
-    {{ linkicon('femur') }}
+  - Intertrochanteric line and medial lip of the linea aspera of the {{ linkicon('femur')
+    }}
 description: Overview of Vastus Medialis.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

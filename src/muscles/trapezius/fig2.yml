@@ -1,10 +1,11 @@
 doc:
+  author: Seattle Figure Studio
   title: Trapezius animation small2
 figure:
-  caption: >-
-    <a href='https://commons.wikimedia.org/wiki/File:Trapezius_animation_small2.gif'>Anatomography</a>,
-    <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1 JP</a>, via Wikimedia Commons
+  caption: <a href='https://commons.wikimedia.org/wiki/File:Trapezius_animation_small2.gif'>Anatomography</a>,
+    <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>CC BY-SA 2.1
+    JP</a>, via Wikimedia Commons
   urls:
-    - url: https://upload.wikimedia.org/wikipedia/commons/a/aa/Trapezius_animation_small2.gif?20121019044756
-      width: 256
+  - url: https://upload.wikimedia.org/wikipedia/commons/a/aa/Trapezius_animation_small2.gif?20121019044756
+    width: 256
 id: trapezius-fig2

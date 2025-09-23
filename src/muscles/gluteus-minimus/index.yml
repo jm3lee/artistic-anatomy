@@ -6,11 +6,11 @@ anatomy: !!omap
 - insertions:
   - Anterior facet of the greater trochanter of the {{ linkicon('femur') }}
 - origins:
-  - External surface of the {{ linkicon('ilium') }} between the anterior and
-    inferior gluteal lines
+  - External surface of the {{ linkicon('ilium') }} between the anterior and inferior
+    gluteal lines
 description: Overview of Gluteus Minimus.
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

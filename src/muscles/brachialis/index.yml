@@ -7,7 +7,7 @@ anatomy: !!omap
 - origins:
   - Distal half of anterior surface of the {{ linkicon("humerus") }}
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

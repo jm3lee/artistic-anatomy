@@ -11,7 +11,7 @@ anatomy: !!omap
   - Manubrium of sternum
   - Medial third of {{ linkicon("clavicle") }}
 doc:
-  author: Brian Lee
+  author: Seattle Figure Studio
   breadcrumbs:
   - title: Home
     url: /

@@ -1,6 +1,7 @@
-id: coracoid-process-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Wikipedia
-url: https://en.wikipedia.org/wiki/Coracoid_process
+id: coracoid-process-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Coracoid_process

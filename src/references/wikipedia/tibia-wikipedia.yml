@@ -1,6 +1,7 @@
-id: tibia-wikipedia
 doc:
+  author: Seattle Figure Studio
   title: Tibia (Wikipedia)
-url: https://en.wikipedia.org/wiki/Tibia
+id: tibia-wikipedia
 link:
   tracking: false
+url: https://en.wikipedia.org/wiki/Tibia
