@@ -7,19 +7,20 @@
   "biceps-femoris-fig1"
 ) }}
 
-The **biceps femoris** sweeps down the outer hamstring, its long head diving
-from the {{ linkicon('pelvis') }} to join the short head springing off the
-{{ linkicon('femur') }}. Together they form a powerful cord that flexes the
-knee while laterally rotating the leg, balancing the inward pull of
-{{ link('semitendinosus') }} and {{ link('semimembranosus') }} on the medial
-side.
+The **biceps femoris** runs down the outer hamstring.
+Its long head starts on the {{ linkicon('pelvis') }}.
+The short head begins on the {{ linkicon('femur') }}.
+Their fibers merge into a sturdy cord that bends the knee and turns the lower
+leg outward.
+It counters the inward pull from {{ link('semitendinosus') }} and
+{{ link('semimembranosus') }} on the inner side.
 
-The long head crosses the hip to assist {{ link('gluteus-maximus') }} in
-driving the thigh into {{ linkicon('extension') }} during gait and powerful
-hip-hinge movements. The short head stays focused on the knee, drawing from
-the distal femoral shaft to reinforce the lateral hamstring tendon as it
-anchors into the {{ linkicon('fibula') }} and wraps to the lateral condyle of
-the {{ linkicon('tibia') }}.
+The long head crosses the hip and teams with {{ link('gluteus-maximus') }} to
+drive the thigh into {{ linkicon('extension') }} when you walk, run, or hinge.
+The short head stays at the knee.
+It rises from the lower femur to fortify the lateral hamstring tendon as it
+anchors into the {{ linkicon('fibula') }} and flares across the outer
+{{ linkicon('tibia') }}.
 
 ## References
 
