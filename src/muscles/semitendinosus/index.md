@@ -9,9 +9,9 @@
 
 The **semitendinosus** runs along the inner hamstring. Its upper half is thick
 muscle, but it thins into a long tendon halfway down the thigh. It starts on the
-ischial tuberosity of the {{ linkicon('pelvis') }}, travels beside
+ischial tuberosity of the {{ link('pelvis') }}, travels beside
 {{ link('biceps-femoris') }}, and slips behind the knee to reach the upper inner
-{{ linkicon('tibia') }}.
+{{ link('tibia') }}.
 
 Together with {{ link('sartorius') }} and {{ link('gracilis') }}, its pes
 anserinus attachment helps steady the leg against side-to-side sway. The muscle

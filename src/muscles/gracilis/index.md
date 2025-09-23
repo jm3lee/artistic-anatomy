@@ -8,8 +8,8 @@
 ) }}
 
 The **gracilis** is a slender strap running down the inner thigh. It starts on
-both the body and inferior ramus of the {{ linkicon('pelvis') }} and drops
-straight to the pes anserinus on the proximal {{ linkicon('tibia') }}. Its long
+both the body and inferior ramus of the {{ link('pelvis') }} and drops
+straight to the pes anserinus on the proximal {{ link('tibia') }}. Its long
 tendon sits just ahead of {{ link('semitendinosus') }} near the knee, giving a
 clean medial border to the hamstrings.
 

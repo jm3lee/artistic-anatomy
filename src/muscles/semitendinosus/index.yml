@@ -4,9 +4,9 @@ anatomy: !!omap
   - Flexes the knee
   - Medially rotates the leg when the knee is flexed
 - insertions:
-  - Proximal medial surface of the {{ linkicon('tibia') }} (pes anserinus)
+  - Proximal medial surface of the {{ link('tibia') }} (pes anserinus)
 - origins:
-  - Ischial tuberosity of the {{ linkicon('pelvis') }}
+  - Ischial tuberosity of the {{ link('pelvis') }}
 description: Cordlike medial hamstring that blends into the pes anserinus after a
   long, narrow tendon.
 doc:
@@ -17,9 +17,9 @@ doc:
   - title: Muscles
     url: /muscles/
   - title: Semitendinosus
-  pubdate: Sep 18, 2025
+  pubdate: Sep 23, 2025
   title: Semitendinosus
 icon: ':muscle:'
 id: semitendinosus
-status: Review Pending
+status: Reviewed
 url: /muscles/semitendinosus/

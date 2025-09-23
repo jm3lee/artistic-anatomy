@@ -35,9 +35,8 @@
       </div>
     </nav>
 
-    <!--
     <header
-      class="hero-header mb-5 text-white border-bottom position-relative bg-black d-flex align-items-center"
+      class="hero-header mb-1 text-white border-bottom position-relative bg-black d-flex align-items-center"
     >
       {% if header and header.get("src") %}
       <img
@@ -63,7 +62,7 @@
 
     <style>
       .hero-header {
-        min-height: 30vh;
+        min-height: 15vh;
       }
       {% if header and header.get('src') %}
       .bg-image {
@@ -89,7 +88,6 @@
       }
       {% endif %}
     </style>
-    --!>
 
     <main class="container mb-5" style="max-width: 80ch">
       {% if doc.breadcrumbs %}

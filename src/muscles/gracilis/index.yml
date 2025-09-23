@@ -4,9 +4,9 @@ anatomy: !!omap
   - Flexes the knee
   - Medially rotates the leg when the knee is flexed
 - insertions:
-  - Pes anserinus on the proximal medial {{ linkicon('tibia') }}
+  - Pes anserinus on the proximal medial {{ link('tibia') }}
 - origins:
-  - Body and inferior ramus of the {{ linkicon('pelvis') }}
+  - Body and inferior ramus of the {{ link('pelvis') }}
 description: Slender medial thigh strap forming the anterior band of the pes
   anserinus.
 doc:
@@ -21,5 +21,5 @@ doc:
   title: Gracilis
 icon: ':muscle:'
 id: gracilis
-status: Review Pending
+status: Reviewed
 url: /muscles/gracilis/

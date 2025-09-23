@@ -3,12 +3,10 @@ doc:
   pubdate: Sep 23, 2025
   title: Gracilis muscle illustration
 figure:
-  caption: <a href="https://commons.wikimedia.org/wiki/File:Gracilis.png">BodyParts3D/Anatomography</a>,
-    <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en">CC BY-SA 2.1 JP</a>, via
-    Wikimedia Commons
+  caption: <a href="https://commons.wikimedia.org/wiki/File:Gerrish%27s_Text-book_of_Anatomy_(1902)_-_Fig._360.png">Frederick Henry Gerrish (1845-1920)</a>, Public domain, via Wikimedia Commons
   urls:
-  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Gracilis.png/512px-Gracilis.png
-    width: 512
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gerrish%27s_Text-book_of_Anatomy_%281902%29_-_Fig._360.png/512px-Gerrish%27s_Text-book_of_Anatomy_%281902%29_-_Fig._360.png?20200618180730
+
 id: gracilis-fig1
 indextree:
   show: false
