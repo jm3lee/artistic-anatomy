@@ -5,11 +5,11 @@ anatomy: !!omap
   - Medially rotates the leg when the knee is flexed
   - Tenses the oblique popliteal ligament
 - insertions:
-  - Posterior medial condyle of the {{ linkicon('tibia') }}
+  - Posterior medial condyle of the {{ link('tibia') }}
   - Reflected expansion to the {{ link('popliteus') }} fascia and oblique popliteal
     ligament
 - origins:
-  - Superolateral facet of the ischial tuberosity on the {{ linkicon('pelvis') }}
+  - Superolateral facet of the ischial tuberosity on the {{ link('pelvis') }}
 description: Broad, membranous medial hamstring deep to the semitendinosus with multiple
   distal slips that reinforce the posterior knee capsule.
 doc:
@@ -20,7 +20,7 @@ doc:
   - title: Muscles
     url: /muscles/
   - title: Semimembranosus
-  pubdate: Sep 18, 2025
+  pubdate: Sep 24, 2025
   title: Semimembranosus
 icon: ':muscle:'
 id: semimembranosus
