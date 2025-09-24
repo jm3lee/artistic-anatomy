@@ -7,21 +7,21 @@
   "semimembranosus-fig1"
 ) }}
 
-The **semimembranosus** lies deep to the cord-like {{ link('semitendinosus') }}, a
-broad, flattened hamstring that fans off the ischial tuberosity of the
-{{ linkicon('pelvis') }}. Its upper half blends seamlessly with the neighboring
-{{ link('biceps-femoris') }} tendon before diving toward the back of the knee.
+The **semimembranosus** sits beneath the slender {{ link('semitendinosus') }}.
+It is a broad hamstring that rises from the ischial tuberosity of the
+{{ linkicon('pelvis') }}. Its upper fibers blend with the nearby
+{{ link('biceps-femoris') }} tendon before sweeping toward the back of the knee.
 
-Distally the muscle splays into several slips: a main insertion on the posterior
-medial {{ linkicon('tibia') }}, a reflected arm that reinforces the oblique
-popliteal ligament, and a small expansion to the medial meniscus. These
-arrangements let it extend the hip, flex the knee, and medially rotate the tibia
-when the joint bends.
+Near the knee the muscle splits into several slips. One anchors on the back and
+inner edge of the {{ linkicon('tibia') }}. Another reflects across the joint to
+reinforce the oblique popliteal ligament. A thin expansion reaches the medial
+meniscus. Together they let the muscle extend the hip, bend the knee, and turn
+the tibia inward when the knee is flexed.
 
-Because it frames the medial wall of the {{ link('popliteal-fossa') }}, the
-semitendinosus draped above it often casts a soft ridge that defines the hollow
-behind the knee. Track this sheet-like belly whenever you draw seated figures or
-athletes driving off the planted leg.
+Because it helps frame the medial wall of the {{ link('popliteal-fossa') }}, the
+{{ link('semitendinosus') }} that drapes over it casts a soft ridge that marks
+the hollow behind the knee. Follow this sheet-like belly when you draw seated
+figures or athletes pushing off the planted leg.
 
 ## References
 
