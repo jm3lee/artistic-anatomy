@@ -24,3 +24,4 @@ off the ground.
 
 * {{ linktitle('soleus-muscle-wikipedia') }}
 * {{ linktitle('gastrocnemius') }}
+* [Studies of arms and legs, Peter Paul Rubens](https://www.boijmans.nl/en/collection/artworks/106817/studies-of-arms-and-legs)
