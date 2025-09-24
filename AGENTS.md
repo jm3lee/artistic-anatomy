@@ -24,6 +24,13 @@
       - key: value
       - another: value
       ```
+  - Figures
+    - Whenever you create new figure metadata, include an SVG placeholder image
+      unless the user supplies a specific image. Match the established
+      placeholder style: a 512×512 rounded rectangle with a deep blue gradient
+      background, prominent title text, and a secondary line that reads
+      “Illustration coming soon”. Embed the SVG as a data URI in the `url`
+      field.
 - Makefiles: **indent with real tab characters** for recipe lines.
   Leading spaces will break Makefile syntax. Never replace tabs with spaces.
 - Math
