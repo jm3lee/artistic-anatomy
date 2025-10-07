@@ -6,4 +6,4 @@
 	url = git@github.com:onlyartists/references.git
 [submodule "press"]
 	path = press
-	url = git@github.com:jm3lee/press.git
+	url = https://github.com/jm3lee/press.git
