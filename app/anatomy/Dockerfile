@@ -14,7 +14,7 @@ RUN --mount=type=cache,target=/root/.npm \
 COPY app/anatomy/package.json app/anatomy/package-lock.json ./app/anatomy/
 RUN --mount=type=cache,target=/root/.npm \
   cd app/anatomy \
-  && npm ci
+  && npm ci --include=dev
 
 # Copy the anatomy app source code and build the production bundle.
 COPY app/anatomy ./app/anatomy
@@ -22,8 +22,9 @@ RUN cd app/anatomy \
   && npm run build
 
 FROM node:22-slim AS runner
-ENV NODE_ENV=production
+ENV NODE_ENV=dev
 WORKDIR /workspace/app/anatomy
+COPY --from=build /workspace/press/app/flashoffer-react /workspace/press/app/flashoffer-react
 COPY --from=build /workspace/app/anatomy /workspace/app/anatomy
-EXPOSE 4173
-CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0", "--port", "4173"]
+EXPOSE 5173
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "5173"]

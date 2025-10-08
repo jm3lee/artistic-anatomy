@@ -262,7 +262,7 @@ export function App() {
             eyebrow="Illustrations"
             title="Reference plates and motion studies"
           >
-            <Stack spacing={4} sx={{ width: "100%" }}>
+            <Stack spacing={4} sx={{ width: "100%", maxWidth: "512px" }}>
               {illustrationData.map((figure) => (
                 <Figure
                   key={figure.src}
@@ -270,6 +270,7 @@ export function App() {
                   alt={figure.alt}
                   caption={figure.caption}
                   imgProps={{ loading: "lazy" }}
+                  sx={{maxWidth:"512px"}}
                 />
               ))}
             </Stack>
