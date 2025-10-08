@@ -5,13 +5,15 @@ WORKDIR /workspace
 
 # Copy Flashoffer React source so local file dependencies resolve.
 COPY press/app/flashoffer-react ./press/app/flashoffer-react
-RUN cd press/app/flashoffer-react \
+RUN --mount=type=cache,target=/root/.npm \
+  cd press/app/flashoffer-react \
   && npm ci \
   && npm run build
 
 # Install anatomy app dependencies.
 COPY app/anatomy/package.json app/anatomy/package-lock.json ./app/anatomy/
-RUN cd app/anatomy \
+RUN --mount=type=cache,target=/root/.npm \
+  cd app/anatomy \
   && npm ci
 
 # Copy the anatomy app source code and build the production bundle.
