@@ -28,11 +28,11 @@ COPY app/anatomy/package.json app/anatomy/package-lock.json ./
 RUN npm ci
 # Rely on the globally installed Vite CLI to serve the already-built assets in
 # development, keeping the container entrypoint simple.
-RUN npm install -g vite
+RUN npm install vite
 COPY app/anatomy /workspace/app/anatomy
 # Build the static output once so both the dev server and production image share
 # identical assets.
-RUN npm run build
+# RUN npm run build
 EXPOSE 5173
 CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "5173"]
 

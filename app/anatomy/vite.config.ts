@@ -44,7 +44,7 @@ export default defineConfig({
     ],
   },
   build: {
-    outDir: "build/landing",
+    outDir: "build/anatomy",
     emptyOutDir: true,
     rollupOptions: {
       output: {
