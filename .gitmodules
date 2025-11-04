@@ -4,3 +4,6 @@
 [submodule "app/references"]
 	path = app/references
 	url = git@github.com:onlyartists/references.git
+[submodule "flashoffer"]
+	path = flashoffer
+	url = git@github.com:jm3lee/flashoffer.git
