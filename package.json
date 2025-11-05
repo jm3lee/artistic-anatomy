@@ -1,0 +1,10 @@
+{
+  "name": "artistic-anatomy",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "workspaces": [
+    "src/flashoffer",
+    "src/v3"
+  ]
+}
