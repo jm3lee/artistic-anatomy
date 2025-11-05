@@ -5,5 +5,5 @@
 	path = app/references
 	url = git@github.com:onlyartists/references.git
 [submodule "flashoffer"]
-	path = flashoffer
+	path = src/flashoffer
 	url = git@github.com:jm3lee/flashoffer.git
