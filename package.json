@@ -4,10 +4,12 @@
   "version": "0.0.0",
   "description": "",
   "workspaces": [
-    "src/flashoffer",
     "src/v3"
   ],
   "scripts": {
-      "start": "npm run dev -w v3"
+    "start": "npm run dev -w v3",
+    "lint": "npm run lint --workspaces",
+    "test": "npm test --workspaces",
+    "format": "prettier --write ./src/v3 package.json"
   }
 }
