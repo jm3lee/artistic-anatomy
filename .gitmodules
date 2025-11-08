@@ -1,6 +1,3 @@
 [submodule "bookcovers"]
 	path = app/bookcovers
 	url = git@github.com:onlyartists/press-bookcovers.git
-[submodule "app/references"]
-	path = app/references
-	url = git@github.com:onlyartists/references.git
