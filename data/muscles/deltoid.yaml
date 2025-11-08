@@ -1,0 +1,40 @@
+id: deltoid-muscle
+url: /muscles/deltoid
+status: published
+description: |
+  The deltoid forms the rounded contour of the shoulder with three heads that
+  collaborate to position the arm in space. Artists study its sweeping volume
+  to capture the shoulder's expressive gestures.
+doc:
+  author: Codex Collective
+  breadcrumbs:
+    - title: Artistic Anatomy
+      url: /
+    - title: Muscles
+      url: /muscles/
+    - title: Deltoid
+  pubdate: '2024-05-25'
+  title: Deltoid Muscle
+actions:
+  - >-
+    Abducts the glenohumeral joint, especially from 15 to 90 degrees.
+  - >-
+    Assists with flexion and medial rotation of the arm through the anterior
+    fibers.
+  - >-
+    Assists with extension and lateral rotation of the arm through the
+    posterior fibers.
+origins:
+  - name: Clavicular head
+    desc: Lateral third of the clavicle where the anterior fibers arise.
+  - name: Acromial head
+    desc: Lateral margin of the acromion process outlining the middle fibers.
+  - name: Spinal head
+    desc: Spine of the scapula forming the posterior band of the muscle.
+insertions:
+  - name: Deltoid tuberosity of the humerus
+    desc: Roughened lateral surface where all three heads converge.
+tags:
+  - shoulder
+  - upper-limb
+icon: muscle
