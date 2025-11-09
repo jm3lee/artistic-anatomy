@@ -215,6 +215,45 @@ function BreadcrumbTrail({ breadcrumbs }) {
   );
 }
 
+function LandmarkList({ landmarks, renderValue }) {
+  if (!Array.isArray(landmarks) || landmarks.length === 0) {
+    return (
+      <Typography component="span" variant="body2" color="text.secondary">
+        None listed
+      </Typography>
+    );
+  }
+
+  return (
+    <Stack component="ul" spacing={1} sx={{ m: 0, pl: 2 }}>
+      {landmarks.map((landmark, index) => {
+        const rawId = landmark?.id;
+        const trimmedId =
+          typeof rawId === "string" ? rawId.trim() : String(index);
+        const sanitizedId = trimmedId.replace(/\s+/g, "-");
+        const anchorId = sanitizedId ? `landmark-${sanitizedId}` : undefined;
+
+        return (
+          <Box
+            key={trimmedId || index}
+            component="li"
+            id={anchorId}
+            tabIndex={anchorId ? -1 : undefined}
+            sx={{
+              listStyleType: "disc",
+              pl: 1,
+              scrollMarginTop: (theme) => theme.spacing(8),
+              outline: "none",
+            }}
+          >
+            {renderValue(landmark)}
+          </Box>
+        );
+      })}
+    </Stack>
+  );
+}
+
 function AdditionalDetailSections({ detailSections, renderValue }) {
   return (
     <Stack spacing={3}>
@@ -223,7 +262,11 @@ function AdditionalDetailSections({ detailSections, renderValue }) {
           <Typography variant="h6" component="h3" gutterBottom>
             {toTitleCase(field)}
           </Typography>
-          {renderValue(value)}
+          {field === "landmarks" ? (
+            <LandmarkList landmarks={value} renderValue={renderValue} />
+          ) : (
+            renderValue(value)
+          )}
         </Box>
       ))}
     </Stack>
@@ -312,6 +355,53 @@ function App() {
     [setInputValue, setDebouncedInput, startTransition],
   );
 
+  const selectedEntry = useMemo(() => {
+    if (!debouncedInput) {
+      return null;
+    }
+
+    const exactMatch = entries.find(
+      (entry) => entry.label.toLowerCase() === debouncedInput,
+    );
+
+    if (exactMatch) {
+      return exactMatch;
+    }
+
+    if (debouncedInput.length > 1) {
+      const partialMatch = entries.find((entry) =>
+        entry.label.toLowerCase().includes(debouncedInput),
+      );
+
+      if (partialMatch) {
+        return partialMatch;
+      }
+    }
+
+    return null;
+  }, [debouncedInput, entries]);
+
+  const landmarkAnchors = useMemo(() => {
+    const map = new Map();
+
+    if (!selectedEntry) {
+      return map;
+    }
+
+    for (const landmark of selectedEntry.data?.landmarks ?? []) {
+      const landmarkId =
+        typeof landmark?.id === "string" ? landmark.id.trim() : "";
+
+      if (landmarkId) {
+        const sanitizedId = landmarkId.replace(/\s+/g, "-");
+
+        map.set(landmarkId, `landmark-${sanitizedId}`);
+      }
+    }
+
+    return map;
+  }, [selectedEntry]);
+
   const renderValue = useCallback(
     function renderValueInner(value) {
       if (value === null || value === undefined) {
@@ -392,6 +482,7 @@ function App() {
       if (typeof value === "string") {
         const trimmedValue = value.trim();
         const linkedEntry = entryById.get(trimmedValue);
+        const landmarkAnchorId = landmarkAnchors.get(trimmedValue);
 
         if (linkedEntry) {
           return (
@@ -414,6 +505,44 @@ function App() {
             </Link>
           );
         }
+
+        if (landmarkAnchorId) {
+          return (
+            <Link
+              href={`#${landmarkAnchorId}`}
+              underline="hover"
+              onClick={(event) => {
+                if (typeof document === "undefined") {
+                  return;
+                }
+
+                const target = document.getElementById(landmarkAnchorId);
+
+                if (!target) {
+                  return;
+                }
+
+                event.preventDefault();
+                target.scrollIntoView({ behavior: "smooth", block: "start" });
+
+                if (typeof target.focus === "function") {
+                  target.focus({ preventScroll: true });
+                }
+
+                if (
+                  typeof window !== "undefined" &&
+                  window.history?.replaceState
+                ) {
+                  const url = new URL(window.location.href);
+                  url.hash = landmarkAnchorId;
+                  window.history.replaceState(null, "", url);
+                }
+              }}
+            >
+              {trimmedValue}
+            </Link>
+          );
+        }
       }
 
       return (
@@ -422,34 +551,8 @@ function App() {
         </Typography>
       );
     },
-    [entryById, selectEntry],
+    [entryById, landmarkAnchors, selectEntry],
   );
-
-  const selectedEntry = useMemo(() => {
-    if (!debouncedInput) {
-      return null;
-    }
-
-    const exactMatch = entries.find(
-      (entry) => entry.label.toLowerCase() === debouncedInput,
-    );
-
-    if (exactMatch) {
-      return exactMatch;
-    }
-
-    if (debouncedInput.length > 1) {
-      const partialMatch = entries.find((entry) =>
-        entry.label.toLowerCase().includes(debouncedInput),
-      );
-
-      if (partialMatch) {
-        return partialMatch;
-      }
-    }
-
-    return null;
-  }, [debouncedInput, entries]);
 
   const selectedRecordTranslations = Object.entries(
     selectedEntry?.data?.name?.translations ?? {},
