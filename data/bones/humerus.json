@@ -1,6 +1,13 @@
 {
     "id": "humerus-bone",
-    "name": "Humerus",
+    "name": {
+        "name": "Humerus",
+        "translations": {
+            "fr": "Humérus",
+            "es": "Húmero",
+            "ru": "Плечевая кость"
+        }
+    },
     "url": "/bones/humerus",
     "status": "published",
     "description": "The humerus is the long bone of the upper arm, bridging the shoulder and elbow with sweeping surfaces that artists use to place the arm's major forms.",

@@ -1,6 +1,13 @@
 {
   "id": "trapezius-muscle",
-  "name": "Trapezius",
+  "name": {
+    "name": "Trapezius",
+    "translations": {
+      "fr": "Trapèze",
+      "es": "Trapecio",
+      "ru": "Трапециевидная мышца"
+    }
+  },
   "url": "/muscles/trapezius",
   "status": "published",
   "description": "The trapezius drapes across the upper back like a kite-shaped cloak, letting artists map elegant shifts between neck, shoulder, and spine.",

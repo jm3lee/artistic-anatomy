@@ -1,6 +1,13 @@
 {
     "id": "femur-bone",
-    "name": "Femur",
+    "name": {
+        "name": "Femur",
+        "translations": {
+            "fr": "Fémur",
+            "es": "Fémur",
+            "ru": "Бедренная кость"
+        }
+    },
     "url": "/bones/femur",
     "status": "published",
     "description": "The femur is the powerful thigh bone whose sweeping planes define the leg's bulk and channel weight from the pelvis to the knee.",
