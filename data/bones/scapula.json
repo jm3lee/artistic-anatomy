@@ -1,0 +1,243 @@
+{
+    "id": "scapula-bone",
+    "name": "Scapula",
+    "url": "/bones/scapula",
+    "status": "published",
+    "description": "The scapula is the triangular shoulder blade, floating over the rib cage and framing the arm's range of motion with sweeping planes and crisp ridges for artists to map.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Scapula"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Scapula Bone"
+    },
+    "landmarks": [
+        {
+            "id": "superior-angle",
+            "name": "Superior angle",
+            "desc": "Rounded upper corner that meets the levator scapulae and softens the neck-shoulder junction."
+        },
+        {
+            "id": "inferior-angle",
+            "name": "Inferior angle",
+            "desc": "Low tapered point that glides over the ribs and signals scapular rotation."
+        },
+        {
+            "id": "medial-border",
+            "name": "Medial border",
+            "desc": "Long inner edge hugging the thorax, a key line for blocking in the back."
+        },
+        {
+            "id": "lateral-border",
+            "name": "Lateral border",
+            "desc": "Thicker outer edge leading into the axilla and framing the teres muscles."
+        },
+        {
+            "id": "acromion",
+            "name": "Acromion",
+            "desc": "Broad shelf over the shoulder joint where deltoid and trapezius trade planes."
+        },
+        {
+            "id": "coracoid-process",
+            "name": "Coracoid process",
+            "desc": "Hook-like projection felt below the clavicle, anchoring coracoid muscles."
+        },
+        {
+            "id": "spine-of-scapula",
+            "name": "Spine of scapula",
+            "desc": "Prominent ridge separating the supra- and infraspinous fossae with a crisp shadow edge."
+        },
+        {
+            "id": "glenoid-cavity",
+            "name": "Glenoid cavity",
+            "desc": "Shallow socket for the humeral head, bordered by tubercles for arm tendons."
+        },
+        {
+            "id": "supraspinous-fossa",
+            "name": "Supraspinous fossa",
+            "desc": "Smooth concavity above the spine cradling supraspinatus."
+        },
+        {
+            "id": "infraspinous-fossa",
+            "name": "Infraspinous fossa",
+            "desc": "Broad posterior basin giving mass to the upper back."
+        },
+        {
+            "id": "subscapular-fossa",
+            "name": "Subscapular fossa",
+            "desc": "Shallow anterior surface pressed to the rib cage and filled by subscapularis."
+        },
+        {
+            "id": "supraglenoid-tubercle",
+            "name": "Supraglenoid tubercle",
+            "desc": "Small bump above the glenoid that launches the long head of biceps."
+        },
+        {
+            "id": "infraglenoid-tubercle",
+            "name": "Infraglenoid tubercle",
+            "desc": "Prominence below the glenoid giving purchase to the long head of triceps."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "medial-border",
+            "muscles": [
+                {
+                    "id": "serratus-anterior-muscle",
+                    "name": "Serratus Anterior"
+                },
+                {
+                    "id": "rhomboid-major-muscle",
+                    "name": "Rhomboid Major"
+                },
+                {
+                    "id": "rhomboid-minor-muscle",
+                    "name": "Rhomboid Minor"
+                }
+            ]
+        },
+        {
+            "landmark": "superior-angle",
+            "muscles": [
+                {
+                    "id": "levator-scapulae-muscle",
+                    "name": "Levator Scapulae"
+                }
+            ]
+        },
+        {
+            "landmark": "acromion",
+            "muscles": [
+                {
+                    "id": "trapezius-muscle",
+                    "name": "Trapezius"
+                }
+            ]
+        },
+        {
+            "landmark": "spine-of-scapula",
+            "muscles": [
+                {
+                    "id": "trapezius-muscle",
+                    "name": "Trapezius"
+                },
+                {
+                    "id": "deltoid-muscle",
+                    "name": "Deltoid"
+                }
+            ]
+        },
+        {
+            "landmark": "coracoid-process",
+            "muscles": [
+                {
+                    "id": "pectoralis-minor-muscle",
+                    "name": "Pectoralis Minor"
+                }
+            ]
+        }
+    ],
+    "origins": [
+        {
+            "landmark": "supraspinous-fossa",
+            "muscles": [
+                {
+                    "id": "supraspinatus-muscle",
+                    "name": "Supraspinatus"
+                }
+            ]
+        },
+        {
+            "landmark": "infraspinous-fossa",
+            "muscles": [
+                {
+                    "id": "infraspinatus-muscle",
+                    "name": "Infraspinatus"
+                }
+            ]
+        },
+        {
+            "landmark": "subscapular-fossa",
+            "muscles": [
+                {
+                    "id": "subscapularis-muscle",
+                    "name": "Subscapularis"
+                }
+            ]
+        },
+        {
+            "landmark": "supraglenoid-tubercle",
+            "muscles": [
+                {
+                    "id": "biceps-brachii-long-head-muscle",
+                    "name": "Biceps Brachii (Long Head)"
+                }
+            ]
+        },
+        {
+            "landmark": "coracoid-process",
+            "muscles": [
+                {
+                    "id": "biceps-brachii-short-head-muscle",
+                    "name": "Biceps Brachii (Short Head)"
+                },
+                {
+                    "id": "coracobrachialis-muscle",
+                    "name": "Coracobrachialis"
+                }
+            ]
+        },
+        {
+            "landmark": "infraglenoid-tubercle",
+            "muscles": [
+                {
+                    "id": "triceps-long-head-muscle",
+                    "name": "Triceps (Long Head)"
+                }
+            ]
+        },
+        {
+            "landmark": "lateral-border",
+            "muscles": [
+                {
+                    "id": "teres-minor-muscle",
+                    "name": "Teres Minor"
+                }
+            ]
+        },
+        {
+            "landmark": "inferior-angle",
+            "muscles": [
+                {
+                    "id": "teres-major-muscle",
+                    "name": "Teres Major"
+                }
+            ]
+        },
+        {
+            "landmark": "acromion",
+            "muscles": [
+                {
+                    "id": "deltoid-muscle",
+                    "name": "Deltoid"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "upper-limb",
+        "skeleton"
+    ],
+    "icon": "bone"
+}

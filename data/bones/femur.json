@@ -1,0 +1,206 @@
+{
+    "id": "femur-bone",
+    "name": "Femur",
+    "url": "/bones/femur",
+    "status": "published",
+    "description": "The femur is the powerful thigh bone whose sweeping planes define the leg's bulk and channel weight from the pelvis to the knee.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Femur"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Femur Bone"
+    },
+    "landmarks": [
+        {
+            "id": "head-of-femur",
+            "name": "Head of the femur",
+            "desc": "Rounded articular sphere that nests into the acetabulum and anchors the thigh's sweeping arc."
+        },
+        {
+            "id": "femoral-neck",
+            "name": "Neck of the femur",
+            "desc": "Constricted bridge angling the head toward the shaft and setting the tilt of the thigh."
+        },
+        {
+            "id": "greater-trochanter",
+            "name": "Greater trochanter",
+            "desc": "Lateral bony knob palpable at the hip, marking the leverage of abductors and external rotators."
+        },
+        {
+            "id": "lesser-trochanter",
+            "name": "Lesser trochanter",
+            "desc": "Medial posterior prominence where the iliopsoas tendon tucks under the pelvis."
+        },
+        {
+            "id": "intertrochanteric-crest",
+            "name": "Intertrochanteric crest",
+            "desc": "Posterior ridge linking the trochanters and catching light as it turns into the shaft."
+        },
+        {
+            "id": "gluteal-tuberosity",
+            "name": "Gluteal tuberosity",
+            "desc": "Rough lateral strip descending from the greater trochanter where the gluteus maximus grips."
+        },
+        {
+            "id": "linea-aspera",
+            "name": "Linea aspera",
+            "desc": "Long posterior ridge that receives the thigh adductors and sculpts the posterior column."
+        },
+        {
+            "id": "medial-condyle",
+            "name": "Medial condyle",
+            "desc": "Medial roller of the distal femur that broadens the knee and supports the semimembranosus insertion."
+        },
+        {
+            "id": "lateral-condyle",
+            "name": "Lateral condyle",
+            "desc": "Lateral articular mass that meets the tibia and gives the knee its rounded contour."
+        },
+        {
+            "id": "medial-epicondyle-femur",
+            "name": "Medial epicondyle",
+            "desc": "Projecting knob above the medial condyle that anchors the medial collateral ligament."
+        },
+        {
+            "id": "lateral-epicondyle-femur",
+            "name": "Lateral epicondyle",
+            "desc": "Broad lateral flare providing attachment for the fibular collateral ligament."
+        },
+        {
+            "id": "adductor-tubercle",
+            "name": "Adductor tubercle",
+            "desc": "Medial summit just above the condyle where the adductor magnus tendon ends."
+        },
+        {
+            "id": "patellar-surface",
+            "name": "Patellar surface",
+            "desc": "Anterior groove guiding the patella and catching highlights across the knee."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "greater-trochanter",
+            "muscles": [
+                {
+                    "id": "gluteus-medius-muscle",
+                    "name": "Gluteus Medius"
+                },
+                {
+                    "id": "gluteus-minimus-muscle",
+                    "name": "Gluteus Minimus"
+                },
+                {
+                    "id": "piriformis-muscle",
+                    "name": "Piriformis"
+                }
+            ]
+        },
+        {
+            "landmark": "lesser-trochanter",
+            "muscles": [
+                {
+                    "id": "iliopsoas-muscle",
+                    "name": "Iliopsoas"
+                }
+            ]
+        },
+        {
+            "landmark": "gluteal-tuberosity",
+            "muscles": [
+                {
+                    "id": "gluteus-maximus-muscle",
+                    "name": "Gluteus Maximus"
+                }
+            ]
+        },
+        {
+            "landmark": "linea-aspera",
+            "muscles": [
+                {
+                    "id": "adductor-longus-muscle",
+                    "name": "Adductor Longus"
+                },
+                {
+                    "id": "adductor-brevis-muscle",
+                    "name": "Adductor Brevis"
+                },
+                {
+                    "id": "adductor-magnus-muscle",
+                    "name": "Adductor Magnus"
+                },
+                {
+                    "id": "vastus-medialis-muscle",
+                    "name": "Vastus Medialis"
+                },
+                {
+                    "id": "vastus-lateralis-muscle",
+                    "name": "Vastus Lateralis"
+                }
+            ]
+        },
+        {
+            "landmark": "adductor-tubercle",
+            "muscles": [
+                {
+                    "id": "adductor-magnus-muscle",
+                    "name": "Adductor Magnus"
+                }
+            ]
+        }
+    ],
+    "origins": [
+        {
+            "landmark": "medial-condyle",
+            "muscles": [
+                {
+                    "id": "gastrocnemius-medial-head-muscle",
+                    "name": "Gastrocnemius (medial head)"
+                }
+            ]
+        },
+        {
+            "landmark": "lateral-condyle",
+            "muscles": [
+                {
+                    "id": "gastrocnemius-lateral-head-muscle",
+                    "name": "Gastrocnemius (lateral head)"
+                }
+            ]
+        },
+        {
+            "landmark": "linea-aspera",
+            "muscles": [
+                {
+                    "id": "biceps-femoris-short-head-muscle",
+                    "name": "Biceps Femoris (short head)"
+                }
+            ]
+        },
+        {
+            "landmark": "lateral-epicondyle-femur",
+            "muscles": [
+                {
+                    "id": "plantaris-muscle",
+                    "name": "Plantaris"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "lower-limb",
+        "skeleton"
+    ],
+    "icon": "bone"
+}

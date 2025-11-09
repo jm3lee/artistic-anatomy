@@ -1,0 +1,118 @@
+{
+    "id": "fibula-bone",
+    "name": "Fibula",
+    "url": "/bones/fibula",
+    "status": "published",
+    "description": "The fibula is the slender lateral bone of the lower leg that lends stability to the ankle and subtle rhythm to the calf silhouette.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Fibula"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Fibula Bone"
+    },
+    "landmarks": [
+        {
+            "id": "head-of-fibula",
+            "name": "Head of the fibula",
+            "desc": "Bulbous proximal end that articulates with the tibia and serves as a key landmark for the lateral knee."
+        },
+        {
+            "id": "fibular-neck",
+            "name": "Neck of the fibula",
+            "desc": "Narrow region just below the head crossed by the common fibular nerve."
+        },
+        {
+            "id": "fibular-shaft",
+            "name": "Fibular shaft",
+            "desc": "Long slender body that supports muscle attachments and refines the calf's contour."
+        },
+        {
+            "id": "interosseous-border-fibula",
+            "name": "Interosseous border",
+            "desc": "Sharp medial edge anchoring the interosseous membrane between tibia and fibula."
+        },
+        {
+            "id": "lateral-malleolus",
+            "name": "Lateral malleolus",
+            "desc": "Distal expansion forming the outer ankle and a key surface landmark for artists."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "head-of-fibula",
+            "muscles": [
+                {
+                    "id": "biceps-femoris-long-head-muscle",
+                    "name": "Biceps Femoris (long head)"
+                },
+                {
+                    "id": "biceps-femoris-short-head-muscle",
+                    "name": "Biceps Femoris (short head)"
+                }
+            ]
+        },
+        {
+            "landmark": "lateral-malleolus",
+            "muscles": [
+                {
+                    "id": "calcaneofibular-ligament",
+                    "name": "Calcaneofibular ligament"
+                }
+            ]
+        }
+    ],
+    "origins": [
+        {
+            "landmark": "fibular-shaft",
+            "muscles": [
+                {
+                    "id": "fibularis-longus-muscle",
+                    "name": "Fibularis Longus"
+                },
+                {
+                    "id": "fibularis-brevis-muscle",
+                    "name": "Fibularis Brevis"
+                },
+                {
+                    "id": "extensor-hallucis-longus-muscle",
+                    "name": "Extensor Hallucis Longus"
+                }
+            ]
+        },
+        {
+            "landmark": "interosseous-border-fibula",
+            "muscles": [
+                {
+                    "id": "tibialis-posterior-muscle",
+                    "name": "Tibialis Posterior"
+                }
+            ]
+        },
+        {
+            "landmark": "fibular-neck",
+            "muscles": [
+                {
+                    "id": "soleus-muscle",
+                    "name": "Soleus"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "lower-limb",
+        "skeleton"
+    ],
+    "icon": "bone"
+}
