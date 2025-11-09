@@ -40,6 +40,196 @@ function formatKey(key) {
   return KEY_OVERRIDES[key] ?? toTitleCase(key);
 }
 
+function TranslationItem({ locale, translation }) {
+  return (
+    <Box
+      sx={{
+        border: 1,
+        borderColor: "divider",
+        borderRadius: 1,
+        px: 1.5,
+        py: 1,
+      }}
+    >
+      <Typography
+        variant="overline"
+        component="span"
+        sx={{ display: "block" }}
+      >
+        {locale.toUpperCase()}
+      </Typography>
+      <Typography variant="body2">{translation}</Typography>
+    </Box>
+  );
+}
+
+function TranslationList({ translations }) {
+  return (
+    <Stack direction="row" spacing={1} useFlexGap flexWrap="wrap">
+      {translations.map(([locale, translation]) => (
+        <TranslationItem
+          key={locale}
+          locale={locale}
+          translation={translation}
+        />
+      ))}
+    </Stack>
+  );
+}
+
+function EntrySummary({ entry, translations }) {
+  return (
+    <Stack spacing={1.5}>
+      <Chip
+        label={entry.category}
+        size="small"
+        sx={{ alignSelf: "flex-start" }}
+      />
+      <Typography variant="h4" component="h2">
+        {entry.primaryName}
+      </Typography>
+      {entry.data.description ? (
+        <Typography color="text.secondary">
+          {entry.data.description}
+        </Typography>
+      ) : null}
+      {translations.length > 0 ? (
+        <TranslationList translations={translations} />
+      ) : null}
+    </Stack>
+  );
+}
+
+function EntryDetails({ entry, renderValue }) {
+  const details = [
+    {
+      key: "id",
+      label: "Identifier",
+      content: <Box>{renderValue(entry.data.id)}</Box>,
+      isVisible: true,
+    },
+    {
+      key: "status",
+      label: "Status",
+      content: (
+        <Typography variant="body1">
+          {toTitleCase(entry.data.status)}
+        </Typography>
+      ),
+      isVisible: Boolean(entry.data.status),
+    },
+    {
+      key: "icon",
+      label: "Icon",
+      content: (
+        <Typography variant="body1">
+          {toTitleCase(entry.data.icon)}
+        </Typography>
+      ),
+      isVisible: Boolean(entry.data.icon),
+    },
+    {
+      key: "url",
+      label: "URL",
+      content: entry.data.url ? (
+        <Link href={entry.data.url}>{entry.data.url}</Link>
+      ) : null,
+      isVisible: Boolean(entry.data.url),
+    },
+  ];
+
+  return (
+    <Stack spacing={2}>
+      {details
+        .filter(({ isVisible }) => isVisible)
+        .map(({ key, label, content }) => (
+          <Box key={key}>
+            <Typography variant="overline" sx={{ display: "block" }}>
+              {label}
+            </Typography>
+            {content}
+          </Box>
+        ))}
+    </Stack>
+  );
+}
+
+function DocumentMetadata({ doc }) {
+  const metadataFields = [
+    {
+      key: "title",
+      label: "Document title",
+      value: doc.title,
+    },
+    {
+      key: "author",
+      label: "Author",
+      value: doc.author,
+    },
+    {
+      key: "pubdate",
+      label: "Published",
+      value: doc.pubdate,
+    },
+  ];
+
+  return (
+    <Stack spacing={2}>
+      <Typography variant="h6" component="h3">
+        Document metadata
+      </Typography>
+      <Stack spacing={2}>
+        {metadataFields
+          .filter(({ value }) => Boolean(value))
+          .map(({ key, label, value }) => (
+            <Box key={key}>
+              <Typography variant="overline" sx={{ display: "block" }}>
+                {label}
+              </Typography>
+              <Typography variant="body1">{value}</Typography>
+            </Box>
+          ))}
+      </Stack>
+      {doc.breadcrumbs?.length ? (
+        <BreadcrumbTrail breadcrumbs={doc.breadcrumbs} />
+      ) : null}
+    </Stack>
+  );
+}
+
+function BreadcrumbTrail({ breadcrumbs }) {
+  return (
+    <Breadcrumbs separator="›" aria-label="Document breadcrumbs">
+      {breadcrumbs.map((crumb, index) =>
+        crumb.url ? (
+          <Link key={`${crumb.title}-${index}`} href={crumb.url}>
+            {crumb.title}
+          </Link>
+        ) : (
+          <Typography key={`${crumb.title}-${index}`} color="text.primary">
+            {crumb.title}
+          </Typography>
+        ),
+      )}
+    </Breadcrumbs>
+  );
+}
+
+function AdditionalDetailSections({ detailSections, renderValue }) {
+  return (
+    <Stack spacing={3}>
+      {detailSections.map(({ field, value }) => (
+        <Box key={field}>
+          <Typography variant="h6" component="h3" gutterBottom>
+            {toTitleCase(field)}
+          </Typography>
+          {renderValue(value)}
+        </Box>
+      ))}
+    </Stack>
+  );
+}
+
 function getPrimaryName(record, fallback) {
   if (typeof record?.name === "string") {
     return record.name;
@@ -334,196 +524,31 @@ function App() {
           <Card variant="outlined" aria-live="polite">
             <CardContent>
               <Stack spacing={3}>
-                <Stack spacing={1.5}>
-                  <Chip
-                    label={selectedEntry.category}
-                    size="small"
-                    sx={{ alignSelf: "flex-start" }}
-                  />
-                  <Typography variant="h4" component="h2">
-                    {selectedEntry.primaryName}
-                  </Typography>
-                  {selectedEntry.data.description && (
-                    <Typography color="text.secondary">
-                      {selectedEntry.data.description}
-                    </Typography>
-                  )}
-                  {selectedRecordTranslations.length > 0 && (
-                    <Stack
-                      direction="row"
-                      spacing={1}
-                      useFlexGap
-                      flexWrap="wrap"
-                    >
-                      {selectedRecordTranslations.map(
-                        ([locale, translation]) => (
-                          <Box
-                            key={locale}
-                            sx={{
-                              border: 1,
-                              borderColor: "divider",
-                              borderRadius: 1,
-                              px: 1.5,
-                              py: 1,
-                            }}
-                          >
-                            <Typography
-                              variant="overline"
-                              component="span"
-                              sx={{ display: "block" }}
-                            >
-                              {locale.toUpperCase()}
-                            </Typography>
-                            <Typography variant="body2">
-                              {translation}
-                            </Typography>
-                          </Box>
-                        ),
-                      )}
-                    </Stack>
-                  )}
-                </Stack>
+                <EntrySummary
+                  entry={selectedEntry}
+                  translations={selectedRecordTranslations}
+                />
 
                 <Divider />
 
-                <Stack spacing={2}>
-                  <Box>
-                    <Typography variant="overline" sx={{ display: "block" }}>
-                      Identifier
-                    </Typography>
-                    <Box>{renderValue(selectedEntry.data.id)}</Box>
-                  </Box>
+                <EntryDetails entry={selectedEntry} renderValue={renderValue} />
 
-                  {selectedEntry.data.status && (
-                    <Box>
-                      <Typography variant="overline" sx={{ display: "block" }}>
-                        Status
-                      </Typography>
-                      <Typography variant="body1">
-                        {toTitleCase(selectedEntry.data.status)}
-                      </Typography>
-                    </Box>
-                  )}
-
-                  {selectedEntry.data.icon && (
-                    <Box>
-                      <Typography variant="overline" sx={{ display: "block" }}>
-                        Icon
-                      </Typography>
-                      <Typography variant="body1">
-                        {toTitleCase(selectedEntry.data.icon)}
-                      </Typography>
-                    </Box>
-                  )}
-
-                  {selectedEntry.data.url && (
-                    <Box>
-                      <Typography variant="overline" sx={{ display: "block" }}>
-                        URL
-                      </Typography>
-                      <Link href={selectedEntry.data.url}>
-                        {selectedEntry.data.url}
-                      </Link>
-                    </Box>
-                  )}
-                </Stack>
-
-                {selectedEntry.data.doc && (
+                {selectedEntry.data.doc ? (
                   <>
                     <Divider />
-                    <Stack spacing={2}>
-                      <Typography variant="h6" component="h3">
-                        Document metadata
-                      </Typography>
-
-                      <Stack spacing={2}>
-                        {selectedEntry.data.doc.title && (
-                          <Box>
-                            <Typography
-                              variant="overline"
-                              sx={{ display: "block" }}
-                            >
-                              Document title
-                            </Typography>
-                            <Typography variant="body1">
-                              {selectedEntry.data.doc.title}
-                            </Typography>
-                          </Box>
-                        )}
-
-                        {selectedEntry.data.doc.author && (
-                          <Box>
-                            <Typography
-                              variant="overline"
-                              sx={{ display: "block" }}
-                            >
-                              Author
-                            </Typography>
-                            <Typography variant="body1">
-                              {selectedEntry.data.doc.author}
-                            </Typography>
-                          </Box>
-                        )}
-
-                        {selectedEntry.data.doc.pubdate && (
-                          <Box>
-                            <Typography
-                              variant="overline"
-                              sx={{ display: "block" }}
-                            >
-                              Published
-                            </Typography>
-                            <Typography variant="body1">
-                              {selectedEntry.data.doc.pubdate}
-                            </Typography>
-                          </Box>
-                        )}
-                      </Stack>
-
-                      {selectedEntry.data.doc.breadcrumbs?.length ? (
-                        <Breadcrumbs
-                          separator="›"
-                          aria-label="Document breadcrumbs"
-                        >
-                          {selectedEntry.data.doc.breadcrumbs.map(
-                            (crumb, index) =>
-                              crumb.url ? (
-                                <Link
-                                  key={`${crumb.title}-${index}`}
-                                  href={crumb.url}
-                                >
-                                  {crumb.title}
-                                </Link>
-                              ) : (
-                                <Typography
-                                  key={`${crumb.title}-${index}`}
-                                  color="text.primary"
-                                >
-                                  {crumb.title}
-                                </Typography>
-                              ),
-                          )}
-                        </Breadcrumbs>
-                      ) : null}
-                    </Stack>
+                    <DocumentMetadata doc={selectedEntry.data.doc} />
                   </>
-                )}
+                ) : null}
 
-                {detailSections.length > 0 && (
+                {detailSections.length > 0 ? (
                   <>
                     <Divider />
-                    <Stack spacing={3}>
-                      {detailSections.map(({ field, value }) => (
-                        <Box key={field}>
-                          <Typography variant="h6" component="h3" gutterBottom>
-                            {toTitleCase(field)}
-                          </Typography>
-                          {renderValue(value)}
-                        </Box>
-                      ))}
-                    </Stack>
+                    <AdditionalDetailSections
+                      detailSections={detailSections}
+                      renderValue={renderValue}
+                    />
                   </>
-                )}
+                ) : null}
               </Stack>
             </CardContent>
           </Card>
