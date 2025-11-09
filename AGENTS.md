@@ -10,6 +10,10 @@
   - Wrap paragraphs at 80 characters.
 - Tone and readability
   - Prefer a reading level suitable for high school graduates.
+- Data explorer
+  - When working in `src/v3`, present JSON keys and values exactly as stored.
+  - Assume inputs are already correctly formatted unless the user asks for
+    normalization.
 - Metadata
   - Write `description` in plain text.
   - Use `-` instead of `_` in `id`.

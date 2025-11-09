@@ -19,25 +19,18 @@ const CATEGORY_LABELS = {
   muscles: "Muscle",
 };
 
-const KEY_OVERRIDES = {
-  bone_id: "Bone ID",
-  desc: "Description",
-  id: "ID",
-  landmark_id: "Landmark ID",
-  url: "URL",
-};
+function isIdKey(key) {
+  if (typeof key !== "string") {
+    return false;
+  }
 
-function toTitleCase(text) {
-  return text
-    .replace(/[._-]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-    .replace(/\b\w/g, (char) => char.toUpperCase())
-    .replace(/\bId\b/g, "ID");
-}
-
-function formatKey(key) {
-  return KEY_OVERRIDES[key] ?? toTitleCase(key);
+  const normalized = key.trim().toLowerCase();
+  return (
+    normalized === "id" ||
+    normalized.endsWith("_id") ||
+    normalized.endsWith("-id") ||
+    normalized.endsWith(" id")
+  );
 }
 
 function TranslationItem({ locale, translation }) {
@@ -85,7 +78,13 @@ function EntrySummary({ entry, translations }) {
         size="small"
         sx={{ alignSelf: "flex-start" }}
       />
-      <Typography variant="h4" component="h2">
+      <Typography
+        id="entry-title"
+        variant="h4"
+        component="h2"
+        tabIndex={-1}
+        sx={{ outline: "none" }}
+      >
         {entry.primaryName}
       </Typography>
       {entry.data.description ? (
@@ -104,7 +103,7 @@ function EntryDetails({ entry }) {
   const details = [
     {
       key: "id",
-      label: "Identifier",
+      label: "id",
       content: (
         <Typography component="span" variant="body1">
           {entry.data.id}
@@ -114,27 +113,19 @@ function EntryDetails({ entry }) {
     },
     {
       key: "status",
-      label: "Status",
-      content: (
-        <Typography variant="body1">
-          {toTitleCase(entry.data.status)}
-        </Typography>
-      ),
+      label: "status",
+      content: <Typography variant="body1">{entry.data.status}</Typography>,
       isVisible: Boolean(entry.data.status),
     },
     {
       key: "icon",
-      label: "Icon",
-      content: (
-        <Typography variant="body1">
-          {toTitleCase(entry.data.icon)}
-        </Typography>
-      ),
+      label: "icon",
+      content: <Typography variant="body1">{entry.data.icon}</Typography>,
       isVisible: Boolean(entry.data.icon),
     },
     {
       key: "url",
-      label: "URL",
+      label: "url",
       content: entry.data.url ? (
         <Link href={entry.data.url}>{entry.data.url}</Link>
       ) : null,
@@ -162,17 +153,14 @@ function DocumentMetadata({ doc }) {
   const metadataFields = [
     {
       key: "title",
-      label: "Document title",
       value: doc.title,
     },
     {
       key: "author",
-      label: "Author",
       value: doc.author,
     },
     {
       key: "pubdate",
-      label: "Published",
       value: doc.pubdate,
     },
   ];
@@ -180,15 +168,15 @@ function DocumentMetadata({ doc }) {
   return (
     <Stack spacing={2}>
       <Typography variant="h6" component="h3">
-        Document metadata
+        doc
       </Typography>
       <Stack spacing={2}>
         {metadataFields
           .filter(({ value }) => Boolean(value))
-          .map(({ key, label, value }) => (
+          .map(({ key, value }) => (
             <Box key={key}>
               <Typography variant="overline" sx={{ display: "block" }}>
-                {label}
+                {key}
               </Typography>
               <Typography variant="body1">{value}</Typography>
             </Box>
@@ -219,7 +207,7 @@ function BreadcrumbTrail({ breadcrumbs }) {
   );
 }
 
-function LandmarkList({ landmarks, renderValue }) {
+function LandmarkList({ landmarks, renderValue, parentKey }) {
   if (!Array.isArray(landmarks) || landmarks.length === 0) {
     return (
       <Typography component="span" variant="body2" color="text.secondary">
@@ -250,7 +238,7 @@ function LandmarkList({ landmarks, renderValue }) {
               outline: "none",
             }}
           >
-            {renderValue(landmark)}
+            {renderValue(landmark, { contextKey: parentKey })}
           </Box>
         );
       })}
@@ -264,12 +252,16 @@ function AdditionalDetailSections({ detailSections, renderValue }) {
       {detailSections.map(({ field, value }) => (
         <Box key={field}>
           <Typography variant="h6" component="h3" gutterBottom>
-            {toTitleCase(field)}
+            {field}
           </Typography>
           {field === "landmarks" ? (
-            <LandmarkList landmarks={value} renderValue={renderValue} />
+            <LandmarkList
+              landmarks={value}
+              renderValue={renderValue}
+              parentKey={field}
+            />
           ) : (
-            renderValue(value)
+            renderValue(value, { contextKey: field })
           )}
         </Box>
       ))}
@@ -297,9 +289,9 @@ function normalizeEntry([pathKey, module]) {
   const categorySegment = segments[segments.length - 2] ?? "";
   const slug = fileName.replace(/\.json$/i, "");
   const categoryLabel =
-    CATEGORY_LABELS[categorySegment] ?? toTitleCase(categorySegment);
+    CATEGORY_LABELS[categorySegment] ?? categorySegment;
 
-  const primaryName = getPrimaryName(jsonData, toTitleCase(slug));
+  const primaryName = getPrimaryName(jsonData, slug);
 
   return {
     key: `${categorySegment}/${slug}`,
@@ -345,8 +337,26 @@ function App() {
     return map;
   }, [entries]);
 
+  const scrollToEntryTitle = useCallback(() => {
+    if (typeof document === "undefined") {
+      return;
+    }
+
+    const titleElement = document.getElementById("entry-title");
+
+    if (!titleElement) {
+      return;
+    }
+
+    titleElement.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    if (typeof titleElement.focus === "function") {
+      titleElement.focus({ preventScroll: true });
+    }
+  }, []);
+
   const selectEntry = useCallback(
-    (entry) => {
+    (entry, options = {}) => {
       if (!entry) {
         return;
       }
@@ -355,8 +365,22 @@ function App() {
       startTransition(() => {
         setDebouncedInput(entry.label.trim().toLowerCase());
       });
+
+      const scrollTarget =
+        options.scrollTo ??
+        (entry.categorySegment === "bones" || entry.categorySegment === "muscles"
+          ? scrollToEntryTitle
+          : null);
+
+      if (scrollTarget) {
+        if (typeof requestAnimationFrame === "function") {
+          requestAnimationFrame(scrollTarget);
+        } else {
+          scrollTarget();
+        }
+      }
     },
-    [setInputValue, setDebouncedInput, startTransition],
+    [setInputValue, setDebouncedInput, startTransition, scrollToEntryTitle],
   );
 
   const selectedEntry = useMemo(() => {
@@ -409,7 +433,7 @@ function App() {
 
   // renderValue normalizes arbitrary JSON into typography, links, or lists.
   const renderValue = useCallback(
-    function renderValueInner(value, { linkifyIds = true } = {}) {
+    function renderValueInner(value, { contextKey, linkifyIds = true } = {}) {
       // Shared helper keeps empty states consistent across data shapes.
       const renderMissing = (label = "None listed") => (
         <Typography component="span" variant="body2" color="text.secondary">
@@ -434,7 +458,10 @@ function App() {
                 component="li"
                 sx={{ listStyleType: "disc", pl: 1 }}
               >
-                {renderValueInner(entry, { linkifyIds })}
+                {renderValueInner(entry, {
+                  contextKey,
+                  linkifyIds,
+                })}
               </Box>
             ))}
           </Stack>
@@ -457,10 +484,13 @@ function App() {
                   variant="overline"
                   sx={{ display: "block" }}
                 >
-                  {formatKey(key)}
+                  {key}
                 </Typography>
                 <Box component="dd" sx={{ m: 0 }}>
-                  {renderValueInner(nestedValue, { linkifyIds })}
+                  {renderValueInner(nestedValue, {
+                    contextKey: key,
+                    linkifyIds: linkifyIds && !isIdKey(key),
+                  })}
                 </Box>
               </Box>
             ))}
@@ -475,15 +505,13 @@ function App() {
           return renderMissing("—");
         }
 
-        if (linkifyIds) {
+        const allowLinks = linkifyIds && !isIdKey(contextKey);
+
+        if (allowLinks) {
           const linkedEntry = entryById.get(trimmedValue);
 
           if (linkedEntry) {
-            const displayLabel =
-              typeof linkedEntry.primaryName === "string" &&
-              linkedEntry.primaryName.trim()
-                ? linkedEntry.primaryName.trim()
-                : trimmedValue;
+            const displayLabel = trimmedValue;
 
             return (
               <Link
@@ -508,7 +536,9 @@ function App() {
           }
         }
 
-        const landmarkAnchorId = landmarkAnchors.get(trimmedValue);
+        const landmarkAnchorId = allowLinks
+          ? landmarkAnchors.get(trimmedValue)
+          : undefined;
 
         if (landmarkAnchorId) {
           return (
