@@ -28,7 +28,9 @@ class Landmark(BaseModel):
 
 class LandmarkRef(BaseModel):
     bone_id: BoneRecordId
+    bone_name: str
     landmark_id: LandmarkId
+    landmark_name: str
 
 
 class MuscleAttachment(BaseModel):
