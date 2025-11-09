@@ -1,0 +1,90 @@
+{
+    "id": "vertebrae-bone",
+    "name": {
+        "name": "Spine",
+        "translations": {
+            "fr": "Colonne vertébrale",
+            "es": "Columna vertebral",
+            "ru": "Позвоночник"
+        }
+    },
+    "url": "/bones/spine",
+    "status": "published",
+    "description": "The spine stacks a column of vertebrae that balance the torso, transmit weight, and let artists show elastic gesture from skull to sacrum.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Spine"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Spine Bones"
+    },
+    "landmarks": [
+        {
+            "id": "atlas-axis",
+            "name": "Atlas and axis",
+            "desc": "First cervical pair that cradle the skull and signal nodding pivots."
+        },
+        {
+            "id": "cervical-transverse-processes",
+            "name": "Cervical transverse processes",
+            "desc": "Winglike lateral bars that frame the neck's contour in oblique light."
+        },
+        {
+            "id": "ligamentum-nuchae",
+            "name": "Ligamentum nuchae",
+            "desc": "Midline fibrous curtain spanning the cervical spines and supporting trapezius origins."
+        },
+        {
+            "id": "spinous-processes-c7-t12",
+            "name": "Spinous processes C7–T12",
+            "desc": "Posterior spines that step down the thoracic back and catch sharp highlights."
+        },
+        {
+            "id": "lumbar-transverse-processes",
+            "name": "Lumbar transverse processes",
+            "desc": "Sturdy lateral shelves that anchor deep muscles and broaden the waist."
+        },
+        {
+            "id": "sacral-ala",
+            "name": "Sacral ala",
+            "desc": "Flaring wings of the sacrum that merge into the pelvis and seat the torso."
+        }
+    ],
+    "insertions": [],
+    "origins": [
+        {
+            "landmark": "ligamentum-nuchae",
+            "muscles": [
+                {
+                    "id": "trapezius-muscle",
+                    "name": "Trapezius"
+                }
+            ]
+        },
+        {
+            "landmark": "spinous-processes-c7-t12",
+            "muscles": [
+                {
+                    "id": "trapezius-muscle",
+                    "name": "Trapezius"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "torso",
+        "axial-skeleton"
+    ],
+    "icon": "bone"
+}
