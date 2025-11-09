@@ -28,7 +28,7 @@ export default defineConfig([
     },
     rules: {
       "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]" }],
-      "react/jsx-max-depth": ["error", { max: 10 }],
+      "react/jsx-max-depth": ["error", { max: 3 }],
       "max-params": ["error", 5],
       "max-depth": ["error", 3],
     },
