@@ -59,6 +59,16 @@
             "id": "acetabulum",
             "name": "Acetabulum",
             "desc": "Socket that receives the femoral head and defines the hip's spherical pivot."
+        },
+        {
+            "id": "anterior-inferior-iliac-spine",
+            "name": "Anterior inferior iliac spine",
+            "desc": "Forward projection just below the ASIS where the rectus femoris takes a direct origin."
+        },
+        {
+            "id": "supraacetabular-groove",
+            "name": "Supraacetabular groove",
+            "desc": "Smooth notch on the superior rim of the acetabulum that receives the reflected head of the rectus femoris."
         }
     ],
     "insertions": [],

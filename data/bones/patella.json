@@ -1,0 +1,71 @@
+{
+    "id": "patella-bone",
+    "name": {
+        "name": "Patella",
+        "translations": {
+            "fr": "Rotule",
+            "es": "Rótula",
+            "ru": "Надколенник"
+        }
+    },
+    "url": "/bones/patella",
+    "status": "published",
+    "description": "The patella is the sesamoid kneecap that rides within the quadriceps tendon and broadens the knee's anterior plane for clear highlights.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Patella"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Patella Bone"
+    },
+    "landmarks": [
+        {
+            "id": "base-of-patella",
+            "name": "Base of the patella",
+            "desc": "Broad superior edge where the quadriceps tendon blends into the sesamoid."
+        },
+        {
+            "id": "apex-of-patella",
+            "name": "Apex of the patella",
+            "desc": "Pointed inferior tip that leads into the patellar ligament toward the tibial tuberosity."
+        },
+        {
+            "id": "medial-articular-facet",
+            "name": "Medial articular facet",
+            "desc": "Medial posterior facet that glides against the femoral trochlea and softens the knee's inner profile."
+        },
+        {
+            "id": "lateral-articular-facet",
+            "name": "Lateral articular facet",
+            "desc": "Broader lateral posterior facet that keeps the patella tracking true along the femur."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "base-of-patella",
+            "muscles": [
+                {
+                    "id": "rectus-femoris-muscle",
+                    "name": "Rectus Femoris"
+                }
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "lower-limb",
+        "skeleton"
+    ],
+    "icon": "bone"
+}
