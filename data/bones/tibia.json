@@ -1,0 +1,157 @@
+{
+    "id": "tibia-bone",
+    "name": "Tibia",
+    "url": "/bones/tibia",
+    "status": "published",
+    "description": "The tibia is the weight-bearing shin bone whose sharp crest and broad planes give the lower leg its structural clarity.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Tibia"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Tibia Bone"
+    },
+    "landmarks": [
+        {
+            "id": "medial-condyle-tibia",
+            "name": "Medial condyle",
+            "desc": "Medial plateau of the proximal tibia that receives the femoral condyle and supports the knee's inner mass."
+        },
+        {
+            "id": "lateral-condyle-tibia",
+            "name": "Lateral condyle",
+            "desc": "Lateral tibial plateau that meets the femoral condyle and blends into the fibular head."
+        },
+        {
+            "id": "tibial-tuberosity",
+            "name": "Tibial tuberosity",
+            "desc": "Anterior bump below the knee where the patellar ligament anchors."
+        },
+        {
+            "id": "anterior-crest-tibia",
+            "name": "Anterior crest",
+            "desc": "Sharp ridge running down the shin that catches light and guides the leg's contour."
+        },
+        {
+            "id": "medial-surface-tibia",
+            "name": "Medial surface",
+            "desc": "Flat medial plane lying close to the skin, often visible in lean figures."
+        },
+        {
+            "id": "soleal-line",
+            "name": "Soleal line",
+            "desc": "Oblique ridge on the posterior surface marking the attachment of the soleus."
+        },
+        {
+            "id": "pes-anserinus-area",
+            "name": "Pes anserinus area",
+            "desc": "Medial proximal flare where the sartorius, gracilis, and semitendinosus converge."
+        },
+        {
+            "id": "posterior-medial-condyle-tibia",
+            "name": "Posterior medial condyle",
+            "desc": "Posterior groove on the medial condyle where the semimembranosus tendon fans out."
+        },
+        {
+            "id": "medial-malleolus",
+            "name": "Medial malleolus",
+            "desc": "Distal medial projection forming the inner ankle."
+        },
+        {
+            "id": "inferior-articular-surface",
+            "name": "Inferior articular surface",
+            "desc": "Distal tibial plafond that meets the talus to close the ankle mortise."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "tibial-tuberosity",
+            "muscles": [
+                {
+                    "id": "quadriceps-femoris-muscle",
+                    "name": "Quadriceps Femoris via patellar ligament"
+                }
+            ]
+        },
+        {
+            "landmark": "pes-anserinus-area",
+            "muscles": [
+                {
+                    "id": "sartorius-muscle",
+                    "name": "Sartorius"
+                },
+                {
+                    "id": "gracilis-muscle",
+                    "name": "Gracilis"
+                },
+                {
+                    "id": "semitendinosus-muscle",
+                    "name": "Semitendinosus"
+                }
+            ]
+        },
+        {
+            "landmark": "posterior-medial-condyle-tibia",
+            "muscles": [
+                {
+                    "id": "semimembranosus-muscle",
+                    "name": "Semimembranosus"
+                }
+            ]
+        }
+    ],
+    "origins": [
+        {
+            "landmark": "lateral-condyle-tibia",
+            "muscles": [
+                {
+                    "id": "tibialis-anterior-muscle",
+                    "name": "Tibialis Anterior"
+                }
+            ]
+        },
+        {
+            "landmark": "anterior-crest-tibia",
+            "muscles": [
+                {
+                    "id": "extensor-digitorum-longus-muscle",
+                    "name": "Extensor Digitorum Longus"
+                }
+            ]
+        },
+        {
+            "landmark": "soleal-line",
+            "muscles": [
+                {
+                    "id": "soleus-muscle",
+                    "name": "Soleus"
+                }
+            ]
+        },
+        {
+            "landmark": "medial-surface-tibia",
+            "muscles": [
+                {
+                    "id": "flexor-digitorum-longus-muscle",
+                    "name": "Flexor Digitorum Longus"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "lower-limb",
+        "skeleton"
+    ],
+    "icon": "bone"
+}
