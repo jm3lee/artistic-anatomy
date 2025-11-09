@@ -6,8 +6,9 @@ from typing import Annotated, Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field
 
-MuscleRecordId = Annotated[str, "MuscleRecord ID"]
-BoneRecordId = Annotated[str, "BoneRecord ID"]
+MuscleId = Annotated[str, "Muscle ID"]
+MuscleGroupId = Annotated[str, "MuscleGroup ID"]
+BoneId = Annotated[str, "Bone ID"]
 LandmarkId = Annotated[str, "Landmark ID"]
 
 
@@ -27,7 +28,7 @@ class Landmark(BaseModel):
 
 
 class LandmarkRef(BaseModel):
-    bone_id: BoneRecordId
+    bone_id: BoneId
     landmark_id: LandmarkId
 
 
@@ -35,7 +36,7 @@ class MuscleAttachment(BaseModel):
     """Muscle attachment location with associated muscles."""
 
     landmark: LandmarkId
-    muscles: List[MuscleRecordId]
+    muscles: List[MuscleId]
 
 
 class DocMetadata(BaseModel):
@@ -76,20 +77,26 @@ class BaseRecord(BaseModel):
 class BoneRecord(BaseRecord):
     """Grouped anatomy data specific to bones."""
 
-    id: BoneRecordId
+    id: BoneId
     landmarks: List[Landmark] = Field(default_factory=list)
     insertions: List[MuscleAttachment] = Field(default_factory=list)
     origins: List[MuscleAttachment] = Field(default_factory=list)
 
+class MuscleHead(BaseRecord):
+    id: MuscleId
+    name: str
 
 class MuscleRecord(BaseRecord):
     """Grouped anatomy data specific to muscles."""
 
-    id: MuscleRecordId
+    id: MuscleId
+    heads: Optional[List[MuscleHead]] = None
     actions: List[str] = Field(default_factory=list)
     insertions: List[LandmarkRef] = Field(default_factory=list)
     origins: List[LandmarkRef] = Field(default_factory=list)
 
 
 class MuscleGroup(BaseModel):
-    muscles: List[MuscleRecordId]
+    id: str
+    name: str
+    muscles: List[MuscleId]
