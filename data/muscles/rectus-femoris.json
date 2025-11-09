@@ -1,0 +1,62 @@
+{
+  "id": "rectus-femoris-muscle",
+  "name": {
+    "name": "Rectus Femoris",
+    "translations": {
+      "fr": "Droit fémoral",
+      "es": "Recto femoral",
+      "ru": "Прямая мышца бедра"
+    }
+  },
+  "url": "/muscles/rectus-femoris",
+  "status": "published",
+  "description": "The rectus femoris is the two-headed anterior thigh muscle that spans hip and knee, creating the leg's front pillar and animating strides and kicks.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Rectus Femoris"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Rectus Femoris Muscle"
+  },
+  "actions": [
+    "Extends the knee strongly as part of the quadriceps group.",
+    "Flexes the hip, especially from a neutral stance.",
+    "Stabilizes the pelvis during dynamic motions like kicking or jumping."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "anterior-inferior-iliac-spine"
+    },
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "supraacetabular-groove"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "patella-bone",
+      "landmark_id": "base-of-patella"
+    },
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "tibial-tuberosity"
+    }
+  ],
+  "tags": [
+    "thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
