@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Autocomplete from "@mui/material/Autocomplete";
 import Box from "@mui/material/Box";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
@@ -156,50 +156,41 @@ function App() {
   );
 
   const [inputValue, setInputValue] = useState(entries[0]?.label ?? "");
-  const [selectedEntry, setSelectedEntry] = useState(entries[0] ?? null);
+
+  const normalizedInput = useMemo(
+    () => inputValue.trim().toLowerCase(),
+    [inputValue],
+  );
+
+  const selectedEntry = useMemo(() => {
+    if (!normalizedInput) {
+      return null;
+    }
+
+    const exactMatch = entries.find(
+      (entry) => entry.label.toLowerCase() === normalizedInput,
+    );
+
+    if (exactMatch) {
+      return exactMatch;
+    }
+
+    if (normalizedInput.length > 1) {
+      const partialMatch = entries.find((entry) =>
+        entry.label.toLowerCase().includes(normalizedInput),
+      );
+
+      if (partialMatch) {
+        return partialMatch;
+      }
+    }
+
+    return null;
+  }, [entries, normalizedInput]);
 
   const selectedRecordTranslations = Object.entries(
     selectedEntry?.data?.name?.translations ?? {},
   );
-
-  useEffect(() => {
-    const normalizedValue = inputValue.trim().toLowerCase();
-
-    if (!normalizedValue) {
-      if (selectedEntry !== null) {
-        setSelectedEntry(null);
-      }
-      return;
-    }
-
-    const exactMatch = entries.find(
-      (entry) => entry.label.toLowerCase() === normalizedValue,
-    );
-
-    if (exactMatch) {
-      if (selectedEntry?.key !== exactMatch.key) {
-        setSelectedEntry(exactMatch);
-      }
-      return;
-    }
-
-    if (normalizedValue.length > 1) {
-      const partialMatch = entries.find((entry) =>
-        entry.label.toLowerCase().includes(normalizedValue),
-      );
-
-      if (partialMatch) {
-        if (selectedEntry?.key !== partialMatch.key) {
-          setSelectedEntry(partialMatch);
-        }
-        return;
-      }
-    }
-
-    if (selectedEntry !== null) {
-      setSelectedEntry(null);
-    }
-  }, [entries, inputValue, selectedEntry]);
 
   const detailSections = useMemo(() => {
     if (!selectedEntry) {
@@ -235,16 +226,17 @@ function App() {
           value={selectedEntry}
           inputValue={inputValue}
           onChange={(event, newValue) => {
-            setSelectedEntry(newValue);
             if (newValue) {
               setInputValue(newValue.label);
+            } else {
+              setInputValue("");
             }
           }}
           onInputChange={(event, newInputValue) => {
             setInputValue(newInputValue);
           }}
           getOptionLabel={(option) => option.label}
-          isOptionEqualToValue={(option, value) => option.key === value.key}
+          isOptionEqualToValue={(option, value) => option.key === value?.key}
           renderInput={(params) => (
             <TextField
               {...params}
