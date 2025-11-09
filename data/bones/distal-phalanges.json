@@ -1,0 +1,98 @@
+{
+    "id": "distal-phalanges-bone",
+    "name": {
+        "name": "Distal Phalanges",
+        "translations": {
+            "fr": "Phalanges distales",
+            "es": "Falanges distales",
+            "ru": "Дистальные фаланги"
+        }
+    },
+    "url": "/bones/distal-phalanges",
+    "status": "published",
+    "description": "The distal phalanges taper into the fingertips and cap each digit with a wedge.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Distal Phalanges"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Distal Phalanges"
+    },
+    "landmarks": [
+        {
+            "id": "distal-phalanx-index",
+            "name": "Distal phalanx of index finger",
+            "desc": "Spatulate tip that supports precise pinches and subtle highlights."
+        },
+        {
+            "id": "distal-phalanx-middle",
+            "name": "Distal phalanx of middle finger",
+            "desc": "Long taper that sets the hand's central rhythm."
+        },
+        {
+            "id": "distal-phalanx-ring",
+            "name": "Distal phalanx of ring finger",
+            "desc": "Softer wedge contributing to the hand's graceful arc."
+        },
+        {
+            "id": "distal-phalanx-small",
+            "name": "Distal phalanx of little finger",
+            "desc": "Tiny triangle that finishes the ulnar border of the hand."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "distal-phalanx-index",
+            "muscles": [
+                {
+                    "id": "flexor-digitorum-profundus-muscle",
+                    "name": "Flexor Digitorum Profundus"
+                }
+            ]
+        },
+        {
+            "landmark": "distal-phalanx-middle",
+            "muscles": [
+                {
+                    "id": "flexor-digitorum-profundus-muscle",
+                    "name": "Flexor Digitorum Profundus"
+                }
+            ]
+        },
+        {
+            "landmark": "distal-phalanx-ring",
+            "muscles": [
+                {
+                    "id": "flexor-digitorum-profundus-muscle",
+                    "name": "Flexor Digitorum Profundus"
+                }
+            ]
+        },
+        {
+            "landmark": "distal-phalanx-small",
+            "muscles": [
+                {
+                    "id": "flexor-digitorum-profundus-muscle",
+                    "name": "Flexor Digitorum Profundus"
+                }
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "hand",
+        "appendicular-skeleton"
+    ],
+    "icon": "bone"
+}

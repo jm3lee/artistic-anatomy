@@ -1,0 +1,71 @@
+{
+  "id": "flexor-digitorum-profundus-muscle",
+  "name": {
+    "name": "Flexor Digitorum Profundus",
+    "translations": {
+      "fr": "Fléchisseur profond des doigts",
+      "es": "Flexor profundo de los dedos",
+      "ru": "Глубокий сгибатель пальцев"
+    }
+  },
+  "url": "/muscles/flexor-digitorum-profundus",
+  "status": "published",
+  "description": "Flexor Digitorum Profundus runs deep along the forearm to curl each fingertip.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Flexor Digitorum Profundus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Flexor Digitorum Profundus"
+  },
+  "actions": [
+    "Flexes the distal interphalangeal joints of digits two through five.",
+    "Assists flexion at the proximal interphalangeal and metacarpophalangeal joints.",
+    "Stabilizes the wrist during sustained grip so superficial flexors stay alert."
+  ],
+  "origins": [
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "proximal-ulna-anterior-surface"
+    },
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "interosseous-border-ulna"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-index"
+    },
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-middle"
+    },
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-ring"
+    },
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-small"
+    }
+  ],
+  "tags": [
+    "forearm",
+    "hand",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
