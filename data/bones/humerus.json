@@ -54,6 +54,16 @@
             "desc": "Posterior spiral groove that carries the radial nerve between the medial and lateral heads of triceps."
         },
         {
+            "id": "posterior-humerus-superior-to-radial-groove",
+            "name": "Posterior humerus superior to radial groove",
+            "desc": "Smooth triangular surface above the radial groove that anchors the lateral head of triceps."
+        },
+        {
+            "id": "posterior-humerus-inferior-to-radial-groove",
+            "name": "Posterior humerus inferior to radial groove",
+            "desc": "Broad posterior plane below the radial groove where the medial head of triceps attaches."
+        },
+        {
             "id": "medial-epicondyle",
             "name": "Medial epicondyle",
             "desc": "Large medial projection at the distal end, easily palpated and home to many flexor origins."

@@ -1,0 +1,51 @@
+{
+  "id": "supinator-muscle",
+  "name": "Supinator",
+  "url": "/muscles/supinator",
+  "status": "published",
+  "description": "The supinator wraps like a ribbon around the proximal radius, unlocking the palm to turn skyward with grace.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Supinator"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Supinator Muscle"
+  },
+  "actions": [
+    "Supinates the forearm at the proximal and distal radioulnar joints.",
+    "Guides delicate rotation when the elbow is flexed or extended.",
+    "Provides a subtle contour along the posterolateral forearm."
+  ],
+  "origins": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "lateral-epicondyle"
+    },
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "supinator-crest"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "radius-bone",
+      "landmark_id": "proximal-radius-lateral-surface"
+    }
+  ],
+  "tags": [
+    "forearm",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
