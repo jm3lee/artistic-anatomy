@@ -8,6 +8,7 @@ from typing import Any, Dict, List, Optional, Tuple, Type, TypeVar, Annotated
 from pydantic import BaseModel, Field
 
 MuscleRecordId = Annotated[str, "MuscleRecord ID"]
+LandmarkId = Annotated[str, "Landmark ID"]
 
 
 class Breadcrumb(BaseModel):
@@ -20,6 +21,7 @@ class Breadcrumb(BaseModel):
 class Landmark(BaseModel):
     """Named landmark on a bone surface."""
 
+    id: LandmarkId
     name: str
     desc: str
 
@@ -27,7 +29,7 @@ class Landmark(BaseModel):
 class MuscleAttachment(BaseModel):
     """Muscle attachment location with associated muscles."""
 
-    name: Landmark
+    landmark: LandmarkId
     muscles: List[MuscleRecordRef]
 
 
