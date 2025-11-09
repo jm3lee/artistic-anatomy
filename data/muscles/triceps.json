@@ -1,0 +1,55 @@
+{
+  "id": "triceps-muscle",
+  "name": "Triceps Brachii",
+  "url": "/muscles/triceps",
+  "status": "published",
+  "description": "The triceps brachii shapes the back of the upper arm with three heads that join on the olecranon to extend the elbow.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Triceps"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Triceps Brachii Muscle"
+  },
+  "actions": [
+    "Extends the elbow joint with a broad, controlled push.",
+    "Long head assists with shoulder extension and adduction.",
+    "Stabilizes the elbow against distracting forces during weight bearing."
+  ],
+  "origins": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "infraglenoid-tubercle"
+    },
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "posterior-humerus-superior-to-radial-groove"
+    },
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "posterior-humerus-inferior-to-radial-groove"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "olecranon-process"
+    }
+  ],
+  "tags": [
+    "posterior-arm",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
