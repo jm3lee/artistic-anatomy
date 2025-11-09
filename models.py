@@ -26,7 +26,7 @@ class MuscleAttachment(BaseModel):
     """Muscle attachment location with associated muscles."""
 
     name: Landmark
-    muscles: List[MuscleAnatomy]
+    muscles: List[MuscleRecord]
 
 
 
