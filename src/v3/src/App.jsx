@@ -571,14 +571,37 @@ function App() {
       return [];
     }
 
-    return ["actions", "origins", "insertions", "landmarks", "tags"]
-      .map((field) => ({ field, value: selectedEntry.data[field] }))
-      .filter(({ value }) => {
-        if (value === null || value === undefined) {
-          return false;
-        }
-        return !(Array.isArray(value) && value.length === 0);
-      });
+    const sections = [];
+
+    if (
+      selectedEntry.categorySegment === "muscles" &&
+      Array.isArray(selectedEntry.data.heads) &&
+      selectedEntry.data.heads.length > 0
+    ) {
+      sections.push({ field: "heads", value: selectedEntry.data.heads });
+    }
+
+    for (const field of [
+      "actions",
+      "origins",
+      "insertions",
+      "landmarks",
+      "tags",
+    ]) {
+      const value = selectedEntry.data[field];
+
+      if (value === null || value === undefined) {
+        continue;
+      }
+
+      if (Array.isArray(value) && value.length === 0) {
+        continue;
+      }
+
+      sections.push({ field, value });
+    }
+
+    return sections;
   }, [selectedEntry]);
 
   return (
