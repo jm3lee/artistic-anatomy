@@ -8,6 +8,7 @@ from typing import Any, Dict, List, Optional, Tuple, Type, TypeVar, Annotated
 from pydantic import BaseModel, Field
 
 MuscleRecordId = Annotated[str, "MuscleRecord ID"]
+BoneRecordId = Annotated[str, "BoneRecord ID"]
 LandmarkId = Annotated[str, "Landmark ID"]
 
 
@@ -24,6 +25,10 @@ class Landmark(BaseModel):
     id: LandmarkId
     name: str
     desc: str
+
+class LandmarkRef(BaseModel):
+    bone_id: BoneRecordId
+    landmark_id: LandmarkId
 
 
 class MuscleAttachment(BaseModel):
@@ -67,6 +72,7 @@ class BaseRecord(BaseModel):
 class BoneRecord(BaseRecord):
     """Grouped anatomy data specific to bones."""
 
+    id: BoneRecordId
     landmarks: List[Landmark] = Field(default_factory=list)
     insertions: List[MuscleAttachment] = Field(default_factory=list)
     origins: List[MuscleAttachment] = Field(default_factory=list)
@@ -76,8 +82,8 @@ class MuscleRecord(BaseRecord):
 
     id: MuscleRecordId
     actions: List[str] = Field(default_factory=list)
-    insertions: List[Landmark] = Field(default_factory=list)
-    origins: List[Landmark] = Field(default_factory=list)
+    insertions: List[LandmarkRef] = Field(default_factory=list)
+    origins: List[LandmarkRef] = Field(default_factory=list)
 
 class MuscleRecordRef(BaseModel):
     id: MuscleRecordId
