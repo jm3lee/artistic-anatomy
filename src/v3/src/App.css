@@ -64,6 +64,34 @@
   margin: 0;
 }
 
+.translation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.translation-list li {
+  align-items: baseline;
+  display: inline-flex;
+  gap: 0.4rem;
+}
+
+.translation-locale {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #475569;
+}
+
+.translation-text {
+  font-size: 0.95rem;
+  color: #1e293b;
+}
+
 .data-summary {
   margin: 0;
   line-height: 1.7;
@@ -221,5 +249,13 @@
   }
 
   .muted {
+  }
+
+  .translation-locale {
+    color: #cbd5f5;
+  }
+
+  .translation-text {
+    color: #f8fafc;
   }
 }

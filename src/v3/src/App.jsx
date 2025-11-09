@@ -8,12 +8,37 @@ const CATEGORY_LABELS = {
   muscles: "Muscle",
 };
 
+const KEY_OVERRIDES = {
+  bone_id: "Bone ID",
+  desc: "Description",
+  id: "ID",
+  landmark_id: "Landmark ID",
+  url: "URL",
+};
+
 function toTitleCase(text) {
   return text
     .replace(/[._-]/g, " ")
     .replace(/\s+/g, " ")
     .trim()
-    .replace(/\b\w/g, (char) => char.toUpperCase());
+    .replace(/\b\w/g, (char) => char.toUpperCase())
+    .replace(/\bId\b/g, "ID");
+}
+
+function formatKey(key) {
+  return KEY_OVERRIDES[key] ?? toTitleCase(key);
+}
+
+function getPrimaryName(record, fallback) {
+  if (typeof record?.name === "string") {
+    return record.name;
+  }
+
+  if (typeof record?.name?.name === "string") {
+    return record.name.name;
+  }
+
+  return fallback;
 }
 
 function normalizeEntry([pathKey, module]) {
@@ -25,12 +50,15 @@ function normalizeEntry([pathKey, module]) {
   const slug = fileName.replace(/\.json$/i, "");
   const categoryLabel = CATEGORY_LABELS[categorySegment] ?? toTitleCase(categorySegment);
 
+  const primaryName = getPrimaryName(jsonData, toTitleCase(slug));
+
   return {
     key: `${categorySegment}/${slug}`,
     category: categoryLabel,
     categorySegment,
     slug,
-    label: `${jsonData?.name ?? toTitleCase(slug)} · ${categoryLabel}`,
+    label: `${primaryName} · ${categoryLabel}`,
+    primaryName,
     data: jsonData ?? {},
   };
 }
@@ -65,7 +93,7 @@ function renderValue(value) {
       <dl className="value-dl">
         {entries.map(([key, nestedValue]) => (
           <div key={key} className="value-row">
-            <dt>{toTitleCase(key)}</dt>
+            <dt>{formatKey(key)}</dt>
             <dd>{renderValue(nestedValue)}</dd>
           </div>
         ))}
@@ -96,6 +124,10 @@ function App() {
   const selectedEntry = useMemo(
     () => entries.find((entry) => entry.key === selectedKey),
     [entries, selectedKey],
+  );
+
+  const selectedRecordTranslations = Object.entries(
+    selectedEntry?.data?.name?.translations ?? {},
   );
 
   const handleSelection = (event) => {
@@ -169,9 +201,19 @@ function App() {
         <article className="data-card" aria-live="polite">
           <header className="data-card-header">
             <span className="detail-chip">{selectedEntry.category}</span>
-            <h2>{selectedEntry.data.name}</h2>
+            <h2>{selectedEntry.primaryName}</h2>
             {selectedEntry.data.description && (
               <p className="data-summary">{selectedEntry.data.description}</p>
+            )}
+            {selectedRecordTranslations.length > 0 && (
+              <ul className="translation-list">
+                {selectedRecordTranslations.map(([locale, translation]) => (
+                  <li key={locale}>
+                    <span className="translation-locale">{locale.toUpperCase()}</span>
+                    <span className="translation-text">{translation}</span>
+                  </li>
+                ))}
+              </ul>
             )}
           </header>
 
