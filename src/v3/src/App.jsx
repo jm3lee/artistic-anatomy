@@ -1,18 +1,16 @@
 import { useEffect, useMemo, useState } from "react";
-import {
-  Autocomplete,
-  Box,
-  Breadcrumbs,
-  Card,
-  CardContent,
-  Chip,
-  Container,
-  Divider,
-  Link,
-  Stack,
-  TextField,
-  Typography,
-} from "@mui/material";
+import Autocomplete from "@mui/material/Autocomplete";
+import Box from "@mui/material/Box";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Chip from "@mui/material/Chip";
+import Container from "@mui/material/Container";
+import Divider from "@mui/material/Divider";
+import Link from "@mui/material/Link";
+import Stack from "@mui/material/Stack";
+import TextField from "@mui/material/TextField";
+import Typography from "@mui/material/Typography";
 
 const dataModules = import.meta.glob("@data/**/*.json", { eager: true });
 
