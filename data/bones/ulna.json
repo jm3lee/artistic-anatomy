@@ -66,6 +66,11 @@
             "desc": "Sharp lateral edge providing attachment for the interosseous membrane."
         },
         {
+            "id": "proximal-ulna-anterior-surface",
+            "name": "Proximal anterior surface",
+            "desc": "Broad medial plane anchoring the deep finger flexors for steady drawing control."
+        },
+        {
             "id": "posterior-border-ulna",
             "name": "Posterior border",
             "desc": "Long palpable ridge that shapes the medial forearm silhouette."
@@ -121,6 +126,15 @@
                 {
                     "id": "flexor-pollicis-longus-muscle",
                     "name": "Flexor Pollicis Longus"
+                }
+            ]
+        },
+        {
+            "landmark": "proximal-ulna-anterior-surface",
+            "muscles": [
+                {
+                    "id": "flexor-digitorum-profundus-muscle",
+                    "name": "Flexor Digitorum Profundus"
                 }
             ]
         },

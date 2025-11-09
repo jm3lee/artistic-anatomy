@@ -1,0 +1,100 @@
+{
+    "id": "radius-bone",
+    "name": {
+        "name": "Radius",
+        "translations": {
+            "fr": "Radius",
+            "es": "Radio",
+            "ru": "Лучевая кость"
+        }
+    },
+    "url": "/bones/radius",
+    "status": "published",
+    "description": "The radius sweeps the lateral forearm, rolling over the ulna to turn the palm.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Radius"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Radius Bone"
+    },
+    "landmarks": [
+        {
+            "id": "radial-head",
+            "name": "Radial head",
+            "desc": "Rounded proximal disc that spins against the capitulum and ulna during forearm rotation."
+        },
+        {
+            "id": "radial-neck",
+            "name": "Radial neck",
+            "desc": "Constricted segment below the head that keeps the bone slender near the elbow joint."
+        },
+        {
+            "id": "radial-tuberosity",
+            "name": "Radial tuberosity",
+            "desc": "Medial bump receiving the biceps tendon and forming a subtle swelling in flexion."
+        },
+        {
+            "id": "proximal-radius-lateral-surface",
+            "name": "Proximal lateral surface",
+            "desc": "Smooth outer plane where the supinator wraps to turn the palm upward."
+        },
+        {
+            "id": "interosseous-border-radius",
+            "name": "Interosseous border",
+            "desc": "Sharp medial ridge that anchors the interosseous membrane shared with the ulna."
+        },
+        {
+            "id": "styloid-process-radius",
+            "name": "Styloid process",
+            "desc": "Distal spike that sets the lateral wrist height and anchors ligamentous support."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "radial-tuberosity",
+            "muscles": [
+                {
+                    "id": "biceps-muscle",
+                    "name": "Biceps"
+                }
+            ]
+        },
+        {
+            "landmark": "proximal-radius-lateral-surface",
+            "muscles": [
+                {
+                    "id": "supinator-muscle",
+                    "name": "Supinator"
+                }
+            ]
+        }
+    ],
+    "origins": [
+        {
+            "landmark": "radial-head",
+            "muscles": [
+                {
+                    "id": "flexor-pollicis-longus-muscle",
+                    "name": "Flexor Pollicis Longus"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "forearm",
+        "skeleton"
+    ],
+    "icon": "bone"
+}
