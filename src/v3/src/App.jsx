@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import Autocomplete from "@mui/material/Autocomplete";
 import Box from "@mui/material/Box";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
@@ -162,22 +162,37 @@ function App() {
     [inputValue],
   );
 
+  const [debouncedInput, setDebouncedInput] = useState(normalizedInput);
+  const [, startTransition] = useTransition();
+
+  useEffect(() => {
+    const timeoutId = window.setTimeout(() => {
+      startTransition(() => {
+        setDebouncedInput(normalizedInput);
+      });
+    }, 250);
+
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [normalizedInput, startTransition]);
+
   const selectedEntry = useMemo(() => {
-    if (!normalizedInput) {
+    if (!debouncedInput) {
       return null;
     }
 
     const exactMatch = entries.find(
-      (entry) => entry.label.toLowerCase() === normalizedInput,
+      (entry) => entry.label.toLowerCase() === debouncedInput,
     );
 
     if (exactMatch) {
       return exactMatch;
     }
 
-    if (normalizedInput.length > 1) {
+    if (debouncedInput.length > 1) {
       const partialMatch = entries.find((entry) =>
-        entry.label.toLowerCase().includes(normalizedInput),
+        entry.label.toLowerCase().includes(debouncedInput),
       );
 
       if (partialMatch) {
@@ -186,7 +201,7 @@ function App() {
     }
 
     return null;
-  }, [entries, normalizedInput]);
+  }, [debouncedInput, entries]);
 
   const selectedRecordTranslations = Object.entries(
     selectedEntry?.data?.name?.translations ?? {},
