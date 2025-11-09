@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, useTransition } from "react";
+import { useCallback, useMemo, useState, useTransition } from "react";
 import Autocomplete from "@mui/material/Autocomplete";
 import Box from "@mui/material/Box";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
@@ -75,73 +75,6 @@ function normalizeEntry([pathKey, module]) {
   };
 }
 
-function renderValue(value) {
-  if (value === null || value === undefined) {
-    return (
-      <Typography component="span" variant="body2" color="text.secondary">
-        —
-      </Typography>
-    );
-  }
-
-  if (Array.isArray(value)) {
-    if (value.length === 0) {
-      return (
-        <Typography component="span" variant="body2" color="text.secondary">
-          None listed
-        </Typography>
-      );
-    }
-
-    return (
-      <Stack component="ul" spacing={1} sx={{ m: 0, pl: 2 }}>
-        {value.map((entry, index) => (
-          <Box key={index} component="li" sx={{ listStyleType: "disc", pl: 1 }}>
-            {renderValue(entry)}
-          </Box>
-        ))}
-      </Stack>
-    );
-  }
-
-  if (typeof value === "object") {
-    const entries = Object.entries(value);
-
-    if (entries.length === 0) {
-      return (
-        <Typography component="span" variant="body2" color="text.secondary">
-          None listed
-        </Typography>
-      );
-    }
-
-    return (
-      <Stack component="dl" spacing={1.5} sx={{ m: 0 }}>
-        {entries.map(([key, nestedValue]) => (
-          <Box key={key} component="div">
-            <Typography
-              component="dt"
-              variant="overline"
-              sx={{ display: "block" }}
-            >
-              {formatKey(key)}
-            </Typography>
-            <Box component="dd" sx={{ m: 0 }}>
-              {renderValue(nestedValue)}
-            </Box>
-          </Box>
-        ))}
-      </Stack>
-    );
-  }
-
-  return (
-    <Typography component="span" variant="body1">
-      {String(value)}
-    </Typography>
-  );
-}
-
 function App() {
   const entries = useMemo(
     () =>
@@ -160,6 +93,147 @@ function App() {
 
   const [debouncedInput, setDebouncedInput] = useState("");
   const [, startTransition] = useTransition();
+
+  const entryById = useMemo(() => {
+    const map = new Map();
+
+    for (const entry of entries) {
+      const entryId = entry?.data?.id;
+
+      if (typeof entryId === "string" && entryId.trim()) {
+        map.set(entryId, entry);
+      }
+    }
+
+    return map;
+  }, [entries]);
+
+  const selectEntry = useCallback(
+    (entry) => {
+      if (!entry) {
+        return;
+      }
+
+      setInputValue(entry.label);
+      startTransition(() => {
+        setDebouncedInput(entry.label.trim().toLowerCase());
+      });
+    },
+    [setInputValue, setDebouncedInput, startTransition],
+  );
+
+  const renderValue = useCallback(
+    function renderValueInner(value) {
+      if (value === null || value === undefined) {
+        return (
+          <Typography
+            component="span"
+            variant="body2"
+            color="text.secondary"
+          >
+            —
+          </Typography>
+        );
+      }
+
+      if (Array.isArray(value)) {
+        if (value.length === 0) {
+          return (
+            <Typography
+              component="span"
+              variant="body2"
+              color="text.secondary"
+            >
+              None listed
+            </Typography>
+          );
+        }
+
+        return (
+          <Stack component="ul" spacing={1} sx={{ m: 0, pl: 2 }}>
+            {value.map((entry, index) => (
+              <Box
+                key={index}
+                component="li"
+                sx={{ listStyleType: "disc", pl: 1 }}
+              >
+                {renderValueInner(entry)}
+              </Box>
+            ))}
+          </Stack>
+        );
+      }
+
+      if (typeof value === "object") {
+        const entriesList = Object.entries(value);
+
+        if (entriesList.length === 0) {
+          return (
+            <Typography
+              component="span"
+              variant="body2"
+              color="text.secondary"
+            >
+              None listed
+            </Typography>
+          );
+        }
+
+        return (
+          <Stack component="dl" spacing={1.5} sx={{ m: 0 }}>
+            {entriesList.map(([key, nestedValue]) => (
+              <Box key={key} component="div">
+                <Typography
+                  component="dt"
+                  variant="overline"
+                  sx={{ display: "block" }}
+                >
+                  {formatKey(key)}
+                </Typography>
+                <Box component="dd" sx={{ m: 0 }}>
+                  {renderValueInner(nestedValue)}
+                </Box>
+              </Box>
+            ))}
+          </Stack>
+        );
+      }
+
+      if (typeof value === "string") {
+        const trimmedValue = value.trim();
+        const linkedEntry = entryById.get(trimmedValue);
+
+        if (linkedEntry) {
+          return (
+            <Link
+              component="button"
+              type="button"
+              underline="hover"
+              onClick={() => selectEntry(linkedEntry)}
+              aria-label={`View record for ${linkedEntry.primaryName}`}
+              sx={{
+                cursor: "pointer",
+                p: 0,
+                fontSize: "inherit",
+                fontWeight: "inherit",
+                fontFamily: "inherit",
+                textAlign: "left",
+              }}
+            >
+              {trimmedValue}
+            </Link>
+          );
+        }
+      }
+
+      return (
+        <Typography component="span" variant="body1">
+          {String(value)}
+        </Typography>
+      );
+    },
+    [entryById, selectEntry],
+  );
 
   const selectedEntry = useMemo(() => {
     if (!debouncedInput) {
@@ -225,10 +299,7 @@ function App() {
           value={selectedEntry}
           onChange={(event, newValue) => {
             if (newValue && newValue.label) {
-              setInputValue(newValue.label);
-              startTransition(() => {
-                setDebouncedInput(newValue.label.trim().toLowerCase());
-              });
+              selectEntry(newValue);
             } else {
               setInputValue("");
             }
@@ -320,9 +391,7 @@ function App() {
                     <Typography variant="overline" sx={{ display: "block" }}>
                       Identifier
                     </Typography>
-                    <Typography variant="body1">
-                      {selectedEntry.data.id ?? "—"}
-                    </Typography>
+                    <Box>{renderValue(selectedEntry.data.id)}</Box>
                   </Box>
 
                   {selectedEntry.data.status && (
