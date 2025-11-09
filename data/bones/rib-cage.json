@@ -1,0 +1,71 @@
+{
+    "id": "rib-cage-bone",
+    "name": {
+        "name": "Rib Cage",
+        "translations": {
+            "fr": "Cage thoracique",
+            "es": "Caja torácica",
+            "ru": "Грудная клетка"
+        }
+    },
+    "url": "/bones/rib-cage",
+    "status": "published",
+    "description": "The rib cage forms a resilient barrel that protects the thoracic organs while expanding and contracting with every breath artists must suggest.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Rib Cage"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Rib Cage Bones"
+    },
+    "landmarks": [
+        {
+            "id": "manubrium",
+            "name": "Manubrium",
+            "desc": "Superior sternum plate where the clavicles lock in and the jugular notch dips."
+        },
+        {
+            "id": "body-of-sternum",
+            "name": "Body of sternum",
+            "desc": "Long central shield receiving true ribs and providing a luminous midline plane."
+        },
+        {
+            "id": "xiphoid-process",
+            "name": "Xiphoid process",
+            "desc": "Tapered inferior tip that tucks into the epigastric hollow yet guides the abdominal wedge."
+        },
+        {
+            "id": "costal-arch",
+            "name": "Costal arch",
+            "desc": "Sweeping cartilage rim of ribs seven through ten that frames the solar plexus."
+        },
+        {
+            "id": "rib-angle",
+            "name": "Angle of rib",
+            "desc": "Posterolateral bend where ribs change direction and catch oblique lighting."
+        },
+        {
+            "id": "floating-ribs",
+            "name": "Floating ribs",
+            "desc": "Eleventh and twelfth ribs that hover in muscle, hinting at movement and flexibility."
+        }
+    ],
+    "insertions": [],
+    "origins": [],
+    "tags": [
+        "thorax",
+        "axial-skeleton"
+    ],
+    "icon": "bone"
+}

@@ -1,0 +1,71 @@
+{
+    "id": "pelvis-bone",
+    "name": {
+        "name": "Pelvis",
+        "translations": {
+            "fr": "Bassin",
+            "es": "Pelvis",
+            "ru": "Таз"
+        }
+    },
+    "url": "/bones/pelvis",
+    "status": "published",
+    "description": "The pelvis forms a sturdy bowl that transfers weight from spine to legs while opening dramatic planes for figure drawing.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Pelvis"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Pelvis Bones"
+    },
+    "landmarks": [
+        {
+            "id": "iliac-crest",
+            "name": "Iliac crest",
+            "desc": "Broad ridge sweeping from ASIS to PSIS, a key landmark for hip rhythms."
+        },
+        {
+            "id": "anterior-superior-iliac-spine",
+            "name": "Anterior superior iliac spine",
+            "desc": "Forward point that sets the waist triangle and anchors sartorius origins."
+        },
+        {
+            "id": "posterior-superior-iliac-spine",
+            "name": "Posterior superior iliac spine",
+            "desc": "Dimpled rear marker where the sacrum meets the ilium in gentle pits."
+        },
+        {
+            "id": "pubic-symphysis",
+            "name": "Pubic symphysis",
+            "desc": "Midline joint tying left and right pubic bodies, guiding the groin wedge."
+        },
+        {
+            "id": "ischial-tuberosity",
+            "name": "Ischial tuberosity",
+            "desc": "Sitting bone that bears weight when seated and anchors hamstring tendons."
+        },
+        {
+            "id": "acetabulum",
+            "name": "Acetabulum",
+            "desc": "Socket that receives the femoral head and defines the hip's spherical pivot."
+        }
+    ],
+    "insertions": [],
+    "origins": [],
+    "tags": [
+        "pelvis",
+        "axial-skeleton"
+    ],
+    "icon": "bone"
+}

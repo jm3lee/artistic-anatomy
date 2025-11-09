@@ -1,0 +1,86 @@
+{
+    "id": "clavicle-bone",
+    "name": {
+        "name": "Clavicle",
+        "translations": {
+            "fr": "Clavicule",
+            "es": "Clavícula",
+            "ru": "Ключица"
+        }
+    },
+    "url": "/bones/clavicle",
+    "status": "published",
+    "description": "The clavicle is the slender strut that braces the shoulder girdle, carrying rhythm from sternum to acromion for graceful arm gestures.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Clavicle"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Clavicle Bone"
+    },
+    "landmarks": [
+        {
+            "id": "sternal-end-clavicle",
+            "name": "Sternal end",
+            "desc": "Medial blocky articulation that anchors to the manubrium and sets the girdle's tilt."
+        },
+        {
+            "id": "acromial-end-clavicle",
+            "name": "Acromial end",
+            "desc": "Flattened lateral plate that links to the scapula and caps the shoulder roof."
+        },
+        {
+            "id": "lateral-third-clavicle",
+            "name": "Lateral third",
+            "desc": "Segment that turns anteriorly, receiving deltoid pull and trapezius tension."
+        },
+        {
+            "id": "conoid-tubercle",
+            "name": "Conoid tubercle",
+            "desc": "Posteroinferior bump where coracoclavicular ligaments tether the strut."
+        },
+        {
+            "id": "deltoid-tubercle-clavicle",
+            "name": "Deltoid tubercle",
+            "desc": "Subtle ridge on the anterior border that catches light as the deltoid flares."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "lateral-third-clavicle",
+            "muscles": [
+                {
+                    "id": "trapezius-muscle",
+                    "name": "Trapezius"
+                }
+            ]
+        }
+    ],
+    "origins": [
+        {
+            "landmark": "lateral-third-clavicle",
+            "muscles": [
+                {
+                    "id": "deltoid-muscle",
+                    "name": "Deltoid"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "shoulder",
+        "axial-skeleton"
+    ],
+    "icon": "bone"
+}
