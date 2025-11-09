@@ -65,19 +65,13 @@
         {
             "landmark": "radial-tuberosity",
             "muscles": [
-                {
-                    "id": "biceps-muscle",
-                    "name": "Biceps"
-                }
+                "biceps-muscle"
             ]
         },
         {
             "landmark": "proximal-radius-lateral-surface",
             "muscles": [
-                {
-                    "id": "supinator-muscle",
-                    "name": "Supinator"
-                }
+                "supinator-muscle"
             ]
         }
     ],
@@ -85,10 +79,7 @@
         {
             "landmark": "radial-head",
             "muscles": [
-                {
-                    "id": "flexor-pollicis-longus-muscle",
-                    "name": "Flexor Pollicis Longus"
-                }
+                "flexor-pollicis-longus-muscle"
             ]
         }
     ],

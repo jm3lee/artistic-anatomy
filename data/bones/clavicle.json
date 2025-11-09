@@ -60,10 +60,7 @@
         {
             "landmark": "lateral-third-clavicle",
             "muscles": [
-                {
-                    "id": "trapezius-muscle",
-                    "name": "Trapezius"
-                }
+                "trapezius-muscle"
             ]
         }
     ],
@@ -71,10 +68,7 @@
         {
             "landmark": "lateral-third-clavicle",
             "muscles": [
-                {
-                    "id": "deltoid-muscle",
-                    "name": "Deltoid"
-                }
+                "deltoid-muscle"
             ]
         }
     ],

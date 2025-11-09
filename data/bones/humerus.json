@@ -95,53 +95,29 @@
         {
             "landmark": "deltoid-tuberosity",
             "muscles": [
-                {
-                    "id": "deltoid-muscle",
-                    "name": "Deltoid"
-                }
+                "deltoid-muscle"
             ]
         },
         {
             "landmark": "greater-tubercle",
             "muscles": [
-                {
-                    "id": "supraspinatus-muscle",
-                    "name": "Supraspinatus"
-                },
-                {
-                    "id": "infraspinatus-muscle",
-                    "name": "Infraspinatus"
-                },
-                {
-                    "id": "teres-minor-muscle",
-                    "name": "Teres Minor"
-                }
+                "supraspinatus-muscle",
+                "infraspinatus-muscle",
+                "teres-minor-muscle"
             ]
         },
         {
             "landmark": "lesser-tubercle",
             "muscles": [
-                {
-                    "id": "subscapularis-muscle",
-                    "name": "Subscapularis"
-                }
+                "subscapularis-muscle"
             ]
         },
         {
             "landmark": "bicipital-groove",
             "muscles": [
-                {
-                    "id": "latissimus-dorsi-muscle",
-                    "name": "Latissimus Dorsi"
-                },
-                {
-                    "id": "teres-major-muscle",
-                    "name": "Teres Major"
-                },
-                {
-                    "id": "pectoralis-major-muscle",
-                    "name": "Pectoralis Major"
-                }
+                "latissimus-dorsi-muscle",
+                "teres-major-muscle",
+                "pectoralis-major-muscle"
             ]
         }
     ],
@@ -149,61 +125,31 @@
         {
             "landmark": "radial-groove",
             "muscles": [
-                {
-                    "id": "triceps-muscle",
-                    "name": "Triceps"
-                }
+                "triceps-muscle"
             ]
         },
         {
             "landmark": "medial-epicondyle",
             "muscles": [
-                {
-                    "id": "pronator-teres-muscle",
-                    "name": "Pronator Teres"
-                },
-                {
-                    "id": "flexor-carpi-radialis-muscle",
-                    "name": "Flexor Carpi Radialis"
-                },
-                {
-                    "id": "palmaris-longus-muscle",
-                    "name": "Palmaris Longus"
-                },
-                {
-                    "id": "flexor-carpi-ulnaris-muscle",
-                    "name": "Flexor Carpi Ulnaris"
-                }
+                "pronator-teres-muscle",
+                "flexor-carpi-radialis-muscle",
+                "palmaris-longus-muscle",
+                "flexor-carpi-ulnaris-muscle"
             ]
         },
         {
             "landmark": "lateral-epicondyle",
             "muscles": [
-                {
-                    "id": "extensor-carpi-radialis-brevis-muscle",
-                    "name": "Extensor Carpi Radialis Brevis"
-                },
-                {
-                    "id": "extensor-digitorum-muscle",
-                    "name": "Extensor Digitorum"
-                },
-                {
-                    "id": "extensor-carpi-ulnaris-muscle",
-                    "name": "Extensor Carpi Ulnaris"
-                },
-                {
-                    "id": "extensor-digiti-minimi-muscle",
-                    "name": "Extensor Digiti Minimi"
-                }
+                "extensor-carpi-radialis-brevis-muscle",
+                "extensor-digitorum-muscle",
+                "extensor-carpi-ulnaris-muscle",
+                "extensor-digiti-minimi-muscle"
             ]
         },
         {
             "landmark": "lateral-epicondyle",
             "muscles": [
-                {
-                    "id": "supinator-muscle",
-                    "name": "Supinator"
-                }
+                "supinator-muscle"
             ]
         }
     ],

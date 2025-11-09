@@ -35,7 +35,7 @@ class MuscleAttachment(BaseModel):
     """Muscle attachment location with associated muscles."""
 
     landmark: LandmarkId
-    muscles: List[MuscleRecordRef]
+    muscles: List[MuscleRecordId]
 
 
 class DocMetadata(BaseModel):
@@ -91,6 +91,5 @@ class MuscleRecord(BaseRecord):
     origins: List[LandmarkRef] = Field(default_factory=list)
 
 
-class MuscleRecordRef(BaseModel):
-    id: MuscleRecordId
-    name: str
+class MuscleGroup(BaseModel):
+    muscles: List[MuscleRecordId]

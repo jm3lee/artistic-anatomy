@@ -485,13 +485,21 @@ function App() {
         const landmarkAnchorId = landmarkAnchors.get(trimmedValue);
 
         if (linkedEntry) {
+          const displayLabel =
+            typeof linkedEntry.primaryName === "string" &&
+            linkedEntry.primaryName.trim()
+              ? linkedEntry.primaryName.trim()
+              : trimmedValue;
+          const accessibleLabel = displayLabel || trimmedValue;
+
           return (
             <Link
               component="button"
               type="button"
               underline="hover"
               onClick={() => selectEntry(linkedEntry)}
-              aria-label={`View record for ${linkedEntry.primaryName}`}
+              aria-label={`View record for ${accessibleLabel}`}
+              title={trimmedValue}
               sx={{
                 cursor: "pointer",
                 p: 0,
@@ -501,7 +509,7 @@ function App() {
                 textAlign: "left",
               }}
             >
-              {trimmedValue}
+              {displayLabel}
             </Link>
           );
         }

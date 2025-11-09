@@ -55,37 +55,25 @@
         {
             "landmark": "distal-phalanx-index",
             "muscles": [
-                {
-                    "id": "flexor-digitorum-profundus-muscle",
-                    "name": "Flexor Digitorum Profundus"
-                }
+                "flexor-digitorum-profundus-muscle"
             ]
         },
         {
             "landmark": "distal-phalanx-middle",
             "muscles": [
-                {
-                    "id": "flexor-digitorum-profundus-muscle",
-                    "name": "Flexor Digitorum Profundus"
-                }
+                "flexor-digitorum-profundus-muscle"
             ]
         },
         {
             "landmark": "distal-phalanx-ring",
             "muscles": [
-                {
-                    "id": "flexor-digitorum-profundus-muscle",
-                    "name": "Flexor Digitorum Profundus"
-                }
+                "flexor-digitorum-profundus-muscle"
             ]
         },
         {
             "landmark": "distal-phalanx-small",
             "muscles": [
-                {
-                    "id": "flexor-digitorum-profundus-muscle",
-                    "name": "Flexor Digitorum Profundus"
-                }
+                "flexor-digitorum-profundus-muscle"
             ]
         }
     ],

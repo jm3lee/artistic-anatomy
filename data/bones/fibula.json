@@ -60,23 +60,14 @@
         {
             "landmark": "head-of-fibula",
             "muscles": [
-                {
-                    "id": "biceps-femoris-long-head-muscle",
-                    "name": "Biceps Femoris (long head)"
-                },
-                {
-                    "id": "biceps-femoris-short-head-muscle",
-                    "name": "Biceps Femoris (short head)"
-                }
+                "biceps-femoris-long-head-muscle",
+                "biceps-femoris-short-head-muscle"
             ]
         },
         {
             "landmark": "lateral-malleolus",
             "muscles": [
-                {
-                    "id": "calcaneofibular-ligament",
-                    "name": "Calcaneofibular ligament"
-                }
+                "calcaneofibular-ligament"
             ]
         }
     ],
@@ -84,36 +75,21 @@
         {
             "landmark": "fibular-shaft",
             "muscles": [
-                {
-                    "id": "fibularis-longus-muscle",
-                    "name": "Fibularis Longus"
-                },
-                {
-                    "id": "fibularis-brevis-muscle",
-                    "name": "Fibularis Brevis"
-                },
-                {
-                    "id": "extensor-hallucis-longus-muscle",
-                    "name": "Extensor Hallucis Longus"
-                }
+                "fibularis-longus-muscle",
+                "fibularis-brevis-muscle",
+                "extensor-hallucis-longus-muscle"
             ]
         },
         {
             "landmark": "interosseous-border-fibula",
             "muscles": [
-                {
-                    "id": "tibialis-posterior-muscle",
-                    "name": "Tibialis Posterior"
-                }
+                "tibialis-posterior-muscle"
             ]
         },
         {
             "landmark": "fibular-neck",
             "muscles": [
-                {
-                    "id": "soleus-muscle",
-                    "name": "Soleus"
-                }
+                "soleus-muscle"
             ]
         }
     ],

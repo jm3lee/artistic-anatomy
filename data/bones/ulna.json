@@ -90,19 +90,13 @@
         {
             "landmark": "olecranon-process",
             "muscles": [
-                {
-                    "id": "triceps-muscle",
-                    "name": "Triceps"
-                }
+                "triceps-muscle"
             ]
         },
         {
             "landmark": "ulnar-tuberosity",
             "muscles": [
-                {
-                    "id": "brachialis-muscle",
-                    "name": "Brachialis"
-                }
+                "brachialis-muscle"
             ]
         }
     ],
@@ -110,49 +104,28 @@
         {
             "landmark": "supinator-crest",
             "muscles": [
-                {
-                    "id": "supinator-muscle",
-                    "name": "Supinator"
-                }
+                "supinator-muscle"
             ]
         },
         {
             "landmark": "interosseous-border-ulna",
             "muscles": [
-                {
-                    "id": "flexor-digitorum-profundus-muscle",
-                    "name": "Flexor Digitorum Profundus"
-                },
-                {
-                    "id": "flexor-pollicis-longus-muscle",
-                    "name": "Flexor Pollicis Longus"
-                }
+                "flexor-digitorum-profundus-muscle",
+                "flexor-pollicis-longus-muscle"
             ]
         },
         {
             "landmark": "proximal-ulna-anterior-surface",
             "muscles": [
-                {
-                    "id": "flexor-digitorum-profundus-muscle",
-                    "name": "Flexor Digitorum Profundus"
-                }
+                "flexor-digitorum-profundus-muscle"
             ]
         },
         {
             "landmark": "posterior-border-ulna",
             "muscles": [
-                {
-                    "id": "extensor-carpi-ulnaris-muscle",
-                    "name": "Extensor Carpi Ulnaris"
-                },
-                {
-                    "id": "abductor-pollicis-longus-muscle",
-                    "name": "Abductor Pollicis Longus"
-                },
-                {
-                    "id": "extensor-pollicis-longus-muscle",
-                    "name": "Extensor Pollicis Longus"
-                }
+                "extensor-carpi-ulnaris-muscle",
+                "abductor-pollicis-longus-muscle",
+                "extensor-pollicis-longus-muscle"
             ]
         }
     ],

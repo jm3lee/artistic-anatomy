@@ -85,36 +85,21 @@
         {
             "landmark": "tibial-tuberosity",
             "muscles": [
-                {
-                    "id": "quadriceps-femoris-muscle",
-                    "name": "Quadriceps Femoris via patellar ligament"
-                }
+                "quadriceps-femoris-muscle"
             ]
         },
         {
             "landmark": "pes-anserinus-area",
             "muscles": [
-                {
-                    "id": "sartorius-muscle",
-                    "name": "Sartorius"
-                },
-                {
-                    "id": "gracilis-muscle",
-                    "name": "Gracilis"
-                },
-                {
-                    "id": "semitendinosus-muscle",
-                    "name": "Semitendinosus"
-                }
+                "sartorius-muscle",
+                "gracilis-muscle",
+                "semitendinosus-muscle"
             ]
         },
         {
             "landmark": "posterior-medial-condyle-tibia",
             "muscles": [
-                {
-                    "id": "semimembranosus-muscle",
-                    "name": "Semimembranosus"
-                }
+                "semimembranosus-muscle"
             ]
         }
     ],
@@ -122,37 +107,25 @@
         {
             "landmark": "lateral-condyle-tibia",
             "muscles": [
-                {
-                    "id": "tibialis-anterior-muscle",
-                    "name": "Tibialis Anterior"
-                }
+                "tibialis-anterior-muscle"
             ]
         },
         {
             "landmark": "anterior-crest-tibia",
             "muscles": [
-                {
-                    "id": "extensor-digitorum-longus-muscle",
-                    "name": "Extensor Digitorum Longus"
-                }
+                "extensor-digitorum-longus-muscle"
             ]
         },
         {
             "landmark": "soleal-line",
             "muscles": [
-                {
-                    "id": "soleus-muscle",
-                    "name": "Soleus"
-                }
+                "soleus-muscle"
             ]
         },
         {
             "landmark": "medial-surface-tibia",
             "muscles": [
-                {
-                    "id": "flexor-digitorum-longus-muscle",
-                    "name": "Flexor Digitorum Longus"
-                }
+                "flexor-digitorum-longus-muscle"
             ]
         }
     ],

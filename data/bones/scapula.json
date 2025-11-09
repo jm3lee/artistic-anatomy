@@ -100,58 +100,34 @@
         {
             "landmark": "medial-border",
             "muscles": [
-                {
-                    "id": "serratus-anterior-muscle",
-                    "name": "Serratus Anterior"
-                },
-                {
-                    "id": "rhomboid-major-muscle",
-                    "name": "Rhomboid Major"
-                },
-                {
-                    "id": "rhomboid-minor-muscle",
-                    "name": "Rhomboid Minor"
-                }
+                "serratus-anterior-muscle",
+                "rhomboid-major-muscle",
+                "rhomboid-minor-muscle"
             ]
         },
         {
             "landmark": "superior-angle",
             "muscles": [
-                {
-                    "id": "levator-scapulae-muscle",
-                    "name": "Levator Scapulae"
-                }
+                "levator-scapulae-muscle"
             ]
         },
         {
             "landmark": "acromion",
             "muscles": [
-                {
-                    "id": "trapezius-muscle",
-                    "name": "Trapezius"
-                }
+                "trapezius-muscle"
             ]
         },
         {
             "landmark": "spine-of-scapula",
             "muscles": [
-                {
-                    "id": "trapezius-muscle",
-                    "name": "Trapezius"
-                },
-                {
-                    "id": "deltoid-muscle",
-                    "name": "Deltoid"
-                }
+                "trapezius-muscle",
+                "deltoid-muscle"
             ]
         },
         {
             "landmark": "coracoid-process",
             "muscles": [
-                {
-                    "id": "pectoralis-minor-muscle",
-                    "name": "Pectoralis Minor"
-                }
+                "pectoralis-minor-muscle"
             ]
         }
     ],
@@ -159,86 +135,56 @@
         {
             "landmark": "supraspinous-fossa",
             "muscles": [
-                {
-                    "id": "supraspinatus-muscle",
-                    "name": "Supraspinatus"
-                }
+                "supraspinatus-muscle"
             ]
         },
         {
             "landmark": "infraspinous-fossa",
             "muscles": [
-                {
-                    "id": "infraspinatus-muscle",
-                    "name": "Infraspinatus"
-                }
+                "infraspinatus-muscle"
             ]
         },
         {
             "landmark": "subscapular-fossa",
             "muscles": [
-                {
-                    "id": "subscapularis-muscle",
-                    "name": "Subscapularis"
-                }
+                "subscapularis-muscle"
             ]
         },
         {
             "landmark": "supraglenoid-tubercle",
             "muscles": [
-                {
-                    "id": "biceps-brachii-long-head-muscle",
-                    "name": "Biceps Brachii (Long Head)"
-                }
+                "biceps-brachii-long-head-muscle"
             ]
         },
         {
             "landmark": "coracoid-process",
             "muscles": [
-                {
-                    "id": "biceps-brachii-short-head-muscle",
-                    "name": "Biceps Brachii (Short Head)"
-                },
-                {
-                    "id": "coracobrachialis-muscle",
-                    "name": "Coracobrachialis"
-                }
+                "biceps-brachii-short-head-muscle",
+                "coracobrachialis-muscle"
             ]
         },
         {
             "landmark": "infraglenoid-tubercle",
             "muscles": [
-                {
-                    "id": "triceps-long-head-muscle",
-                    "name": "Triceps (Long Head)"
-                }
+                "triceps-long-head-muscle"
             ]
         },
         {
             "landmark": "lateral-border",
             "muscles": [
-                {
-                    "id": "teres-minor-muscle",
-                    "name": "Teres Minor"
-                }
+                "teres-minor-muscle"
             ]
         },
         {
             "landmark": "inferior-angle",
             "muscles": [
-                {
-                    "id": "teres-major-muscle",
-                    "name": "Teres Major"
-                }
+                "teres-major-muscle"
             ]
         },
         {
             "landmark": "acromion",
             "muscles": [
-                {
-                    "id": "deltoid-muscle",
-                    "name": "Deltoid"
-                }
+                "deltoid-muscle"
             ]
         }
     ],

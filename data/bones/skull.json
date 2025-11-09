@@ -46,19 +46,13 @@
         {
             "landmark": "external-occipital-protuberance",
             "muscles": [
-                {
-                    "id": "trapezius-muscle",
-                    "name": "Trapezius"
-                }
+                "trapezius-muscle"
             ]
         },
         {
             "landmark": "superior-nuchal-line",
             "muscles": [
-                {
-                    "id": "trapezius-muscle",
-                    "name": "Trapezius"
-                }
+                "trapezius-muscle"
             ]
         }
     ],

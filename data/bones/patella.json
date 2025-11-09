@@ -55,10 +55,7 @@
         {
             "landmark": "base-of-patella",
             "muscles": [
-                {
-                    "id": "rectus-femoris-muscle",
-                    "name": "Rectus Femoris"
-                }
+                "rectus-femoris-muscle"
             ]
         }
     ],

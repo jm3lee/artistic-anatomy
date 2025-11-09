@@ -100,70 +100,37 @@
         {
             "landmark": "greater-trochanter",
             "muscles": [
-                {
-                    "id": "gluteus-medius-muscle",
-                    "name": "Gluteus Medius"
-                },
-                {
-                    "id": "gluteus-minimus-muscle",
-                    "name": "Gluteus Minimus"
-                },
-                {
-                    "id": "piriformis-muscle",
-                    "name": "Piriformis"
-                }
+                "gluteus-medius-muscle",
+                "gluteus-minimus-muscle",
+                "piriformis-muscle"
             ]
         },
         {
             "landmark": "lesser-trochanter",
             "muscles": [
-                {
-                    "id": "iliopsoas-muscle",
-                    "name": "Iliopsoas"
-                }
+                "iliopsoas-muscle"
             ]
         },
         {
             "landmark": "gluteal-tuberosity",
             "muscles": [
-                {
-                    "id": "gluteus-maximus-muscle",
-                    "name": "Gluteus Maximus"
-                }
+                "gluteus-maximus-muscle"
             ]
         },
         {
             "landmark": "linea-aspera",
             "muscles": [
-                {
-                    "id": "adductor-longus-muscle",
-                    "name": "Adductor Longus"
-                },
-                {
-                    "id": "adductor-brevis-muscle",
-                    "name": "Adductor Brevis"
-                },
-                {
-                    "id": "adductor-magnus-muscle",
-                    "name": "Adductor Magnus"
-                },
-                {
-                    "id": "vastus-medialis-muscle",
-                    "name": "Vastus Medialis"
-                },
-                {
-                    "id": "vastus-lateralis-muscle",
-                    "name": "Vastus Lateralis"
-                }
+                "adductor-longus-muscle",
+                "adductor-brevis-muscle",
+                "adductor-magnus-muscle",
+                "vastus-medialis-muscle",
+                "vastus-lateralis-muscle"
             ]
         },
         {
             "landmark": "adductor-tubercle",
             "muscles": [
-                {
-                    "id": "adductor-magnus-muscle",
-                    "name": "Adductor Magnus"
-                }
+                "adductor-magnus-muscle"
             ]
         }
     ],
@@ -171,37 +138,25 @@
         {
             "landmark": "medial-condyle",
             "muscles": [
-                {
-                    "id": "gastrocnemius-medial-head-muscle",
-                    "name": "Gastrocnemius (medial head)"
-                }
+                "gastrocnemius-medial-head-muscle"
             ]
         },
         {
             "landmark": "lateral-condyle",
             "muscles": [
-                {
-                    "id": "gastrocnemius-lateral-head-muscle",
-                    "name": "Gastrocnemius (lateral head)"
-                }
+                "gastrocnemius-lateral-head-muscle"
             ]
         },
         {
             "landmark": "linea-aspera",
             "muscles": [
-                {
-                    "id": "biceps-femoris-short-head-muscle",
-                    "name": "Biceps Femoris (short head)"
-                }
+                "biceps-femoris-short-head-muscle"
             ]
         },
         {
             "landmark": "lateral-epicondyle-femur",
             "muscles": [
-                {
-                    "id": "plantaris-muscle",
-                    "name": "Plantaris"
-                }
+                "plantaris-muscle"
             ]
         }
     ],

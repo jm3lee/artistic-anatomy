@@ -66,19 +66,13 @@
         {
             "landmark": "ligamentum-nuchae",
             "muscles": [
-                {
-                    "id": "trapezius-muscle",
-                    "name": "Trapezius"
-                }
+                "trapezius-muscle"
             ]
         },
         {
             "landmark": "spinous-processes-c7-t12",
             "muscles": [
-                {
-                    "id": "trapezius-muscle",
-                    "name": "Trapezius"
-                }
+                "trapezius-muscle"
             ]
         }
     ],
