@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional, Annotated
+from typing import Annotated, Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field
 
@@ -25,6 +25,7 @@ class Landmark(BaseModel):
     name: str
     desc: str
 
+
 class LandmarkRef(BaseModel):
     bone_id: BoneRecordId
     landmark_id: LandmarkId
@@ -35,7 +36,6 @@ class MuscleAttachment(BaseModel):
 
     landmark: LandmarkId
     muscles: List[MuscleRecordRef]
-
 
 
 class DocMetadata(BaseModel):
@@ -76,6 +76,7 @@ class BoneRecord(BaseRecord):
     insertions: List[MuscleAttachment] = Field(default_factory=list)
     origins: List[MuscleAttachment] = Field(default_factory=list)
 
+
 class MuscleRecord(BaseRecord):
     """Grouped anatomy data specific to muscles."""
 
@@ -83,6 +84,7 @@ class MuscleRecord(BaseRecord):
     actions: List[str] = Field(default_factory=list)
     insertions: List[LandmarkRef] = Field(default_factory=list)
     origins: List[LandmarkRef] = Field(default_factory=list)
+
 
 class MuscleRecordRef(BaseModel):
     id: MuscleRecordId
