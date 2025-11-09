@@ -1,0 +1,70 @@
+{
+    "id": "skull-bone",
+    "name": {
+        "name": "Skull",
+        "translations": {
+            "fr": "Crâne",
+            "es": "Cráneo",
+            "ru": "Череп"
+        }
+    },
+    "url": "/bones/skull",
+    "status": "published",
+    "description": "The skull crowns the skeleton with interlocking plates that frame the face and shelter the brain while offering sweeping planes for portrait drawing.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Skull"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Skull Bone"
+    },
+    "landmarks": [
+        {
+            "id": "external-occipital-protuberance",
+            "name": "External occipital protuberance",
+            "desc": "Knob at the midline that catches light at the back of the head and anchors the nuchal ligament."
+        },
+        {
+            "id": "superior-nuchal-line",
+            "name": "Superior nuchal line",
+            "desc": "Curving ridge that separates the cranium from the neck masses and guides trapezius origins."
+        }
+    ],
+    "insertions": [],
+    "origins": [
+        {
+            "landmark": "external-occipital-protuberance",
+            "muscles": [
+                {
+                    "id": "trapezius-muscle",
+                    "name": "Trapezius"
+                }
+            ]
+        },
+        {
+            "landmark": "superior-nuchal-line",
+            "muscles": [
+                {
+                    "id": "trapezius-muscle",
+                    "name": "Trapezius"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "axial-skeleton",
+        "head"
+    ],
+    "icon": "bone"
+}
