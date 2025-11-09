@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 const projectRoot = fileURLToPath(new URL(".", import.meta.url));
-const dataDir = path.resolve(projectRoot, "../data");
+const dataDir = path.resolve(projectRoot, "../../data");
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -14,7 +14,7 @@ export default defineConfig({
       "@data": dataDir,
     },
   },
-  server: {
+  dev: {
     fs: {
       allow: [dataDir],
     },

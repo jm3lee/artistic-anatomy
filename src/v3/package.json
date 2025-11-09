@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "flashoffer-react": "github:jm3lee/flashoffer-react",
-    "mustache": "^4.2.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-markdown": "^10.1.0"
