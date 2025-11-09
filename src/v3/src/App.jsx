@@ -59,7 +59,8 @@ function normalizeEntry([pathKey, module]) {
   const fileName = segments[segments.length - 1] ?? "";
   const categorySegment = segments[segments.length - 2] ?? "";
   const slug = fileName.replace(/\.json$/i, "");
-  const categoryLabel = CATEGORY_LABELS[categorySegment] ?? toTitleCase(categorySegment);
+  const categoryLabel =
+    CATEGORY_LABELS[categorySegment] ?? toTitleCase(categorySegment);
 
   const primaryName = getPrimaryName(jsonData, toTitleCase(slug));
 
@@ -95,11 +96,7 @@ function renderValue(value) {
     return (
       <Stack component="ul" spacing={1} sx={{ m: 0, pl: 2 }}>
         {value.map((entry, index) => (
-          <Box
-            key={index}
-            component="li"
-            sx={{ listStyleType: "disc", pl: 1 }}
-          >
+          <Box key={index} component="li" sx={{ listStyleType: "disc", pl: 1 }}>
             {renderValue(entry)}
           </Box>
         ))}
@@ -122,7 +119,11 @@ function renderValue(value) {
       <Stack component="dl" spacing={1.5} sx={{ m: 0 }}>
         {entries.map(([key, nestedValue]) => (
           <Box key={key} component="div">
-            <Typography component="dt" variant="overline" sx={{ display: "block" }}>
+            <Typography
+              component="dt"
+              variant="overline"
+              sx={{ display: "block" }}
+            >
               {formatKey(key)}
             </Typography>
             <Box component="dd" sx={{ m: 0 }}>
@@ -157,25 +158,8 @@ function App() {
 
   const [inputValue, setInputValue] = useState(entries[0]?.label ?? "");
 
-  const normalizedInput = useMemo(
-    () => inputValue.trim().toLowerCase(),
-    [inputValue],
-  );
-
-  const [debouncedInput, setDebouncedInput] = useState(normalizedInput);
+  const [debouncedInput, setDebouncedInput] = useState("");
   const [, startTransition] = useTransition();
-
-  useEffect(() => {
-    const timeoutId = window.setTimeout(() => {
-      startTransition(() => {
-        setDebouncedInput(normalizedInput);
-      });
-    }, 250);
-
-    return () => {
-      window.clearTimeout(timeoutId);
-    };
-  }, [normalizedInput, startTransition]);
 
   const selectedEntry = useMemo(() => {
     if (!debouncedInput) {
@@ -230,8 +214,8 @@ function App() {
             Artistic Anatomy Data Explorer
           </Typography>
           <Typography color="text.secondary">
-            Browse the curated bones and muscles stored in the repository&apos;s data
-            directory. Start typing to filter the dropdown, then review the
+            Browse the curated bones and muscles stored in the repository&apos;s
+            data directory. Start typing to filter the dropdown, then review the
             anatomical details pulled straight from the JSON source.
           </Typography>
         </Stack>
@@ -239,16 +223,15 @@ function App() {
         <Autocomplete
           options={entries}
           value={selectedEntry}
-          inputValue={inputValue}
           onChange={(event, newValue) => {
-            if (newValue) {
+            if (newValue && newValue.label) {
               setInputValue(newValue.label);
+              startTransition(() => {
+                setDebouncedInput(newValue.label.trim().toLowerCase());
+              });
             } else {
               setInputValue("");
             }
-          }}
-          onInputChange={(event, newInputValue) => {
-            setInputValue(newInputValue);
           }}
           getOptionLabel={(option) => option.label}
           isOptionEqualToValue={(option, value) => option.key === value?.key}
@@ -259,6 +242,8 @@ function App() {
               placeholder="Search bones or muscles"
             />
           )}
+          autoHighlight
+          clearOnEscape
         />
 
         {!entries.length && (
@@ -299,27 +284,31 @@ function App() {
                       useFlexGap
                       flexWrap="wrap"
                     >
-                      {selectedRecordTranslations.map(([locale, translation]) => (
-                        <Box
-                          key={locale}
-                          sx={{
-                            border: 1,
-                            borderColor: "divider",
-                            borderRadius: 1,
-                            px: 1.5,
-                            py: 1,
-                          }}
-                        >
-                          <Typography
-                            variant="overline"
-                            component="span"
-                            sx={{ display: "block" }}
+                      {selectedRecordTranslations.map(
+                        ([locale, translation]) => (
+                          <Box
+                            key={locale}
+                            sx={{
+                              border: 1,
+                              borderColor: "divider",
+                              borderRadius: 1,
+                              px: 1.5,
+                              py: 1,
+                            }}
                           >
-                            {locale.toUpperCase()}
-                          </Typography>
-                          <Typography variant="body2">{translation}</Typography>
-                        </Box>
-                      ))}
+                            <Typography
+                              variant="overline"
+                              component="span"
+                              sx={{ display: "block" }}
+                            >
+                              {locale.toUpperCase()}
+                            </Typography>
+                            <Typography variant="body2">
+                              {translation}
+                            </Typography>
+                          </Box>
+                        ),
+                      )}
                     </Stack>
                   )}
                 </Stack>
@@ -363,7 +352,9 @@ function App() {
                       <Typography variant="overline" sx={{ display: "block" }}>
                         URL
                       </Typography>
-                      <Link href={selectedEntry.data.url}>{selectedEntry.data.url}</Link>
+                      <Link href={selectedEntry.data.url}>
+                        {selectedEntry.data.url}
+                      </Link>
                     </Box>
                   )}
                 </Stack>
@@ -421,20 +412,27 @@ function App() {
                       </Stack>
 
                       {selectedEntry.data.doc.breadcrumbs?.length ? (
-                        <Breadcrumbs separator="›" aria-label="Document breadcrumbs">
-                          {selectedEntry.data.doc.breadcrumbs.map((crumb, index) =>
-                            crumb.url ? (
-                              <Link key={`${crumb.title}-${index}`} href={crumb.url}>
-                                {crumb.title}
-                              </Link>
-                            ) : (
-                              <Typography
-                                key={`${crumb.title}-${index}`}
-                                color="text.primary"
-                              >
-                                {crumb.title}
-                              </Typography>
-                            ),
+                        <Breadcrumbs
+                          separator="›"
+                          aria-label="Document breadcrumbs"
+                        >
+                          {selectedEntry.data.doc.breadcrumbs.map(
+                            (crumb, index) =>
+                              crumb.url ? (
+                                <Link
+                                  key={`${crumb.title}-${index}`}
+                                  href={crumb.url}
+                                >
+                                  {crumb.title}
+                                </Link>
+                              ) : (
+                                <Typography
+                                  key={`${crumb.title}-${index}`}
+                                  color="text.primary"
+                                >
+                                  {crumb.title}
+                                </Typography>
+                              ),
                           )}
                         </Breadcrumbs>
                       ) : null}
