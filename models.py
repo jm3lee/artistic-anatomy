@@ -82,15 +82,11 @@ class BoneRecord(BaseRecord):
     insertions: List[MuscleAttachment] = Field(default_factory=list)
     origins: List[MuscleAttachment] = Field(default_factory=list)
 
-class MuscleHead(BaseRecord):
-    id: MuscleId
-    name: str
-
 class MuscleRecord(BaseRecord):
     """Grouped anatomy data specific to muscles."""
 
     id: MuscleId
-    heads: Optional[List[MuscleHead]] = None
+    heads: Optional[List[MuscleId]] = None
     actions: List[str] = Field(default_factory=list)
     insertions: List[LandmarkRef] = Field(default_factory=list)
     origins: List[LandmarkRef] = Field(default_factory=list)
