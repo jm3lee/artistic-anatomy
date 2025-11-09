@@ -1,0 +1,58 @@
+{
+  "id": "biceps-femoris-long-head-muscle",
+  "name": {
+    "name": "Biceps Femoris Long Head",
+    "translations": {
+      "fr": "Chef long du biceps fémoral",
+      "es": "Cabeza larga del bíceps femoral",
+      "ru": "Длинная головка двуглавой мышцы бедра"
+    }
+  },
+  "url": "/muscles/biceps-femoris-long-head",
+  "status": "published",
+  "description": "The long head of biceps femoris creates the superficial outer hamstring ridge that tracks from the sitting bone to the fibular head.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Biceps Femoris Long Head"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Biceps Femoris Long Head"
+  },
+  "actions": [
+    "Extends the hip powerfully during propulsion and climbs.",
+    "Flexes the knee while keeping the lateral thigh contour taut.",
+    "Assist lateral rotation of the tibia when the knee flexes."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "ischial-tuberosity"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "head-of-fibula"
+    },
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "lateral-condyle-tibia"
+    }
+  ],
+  "tags": [
+    "posterior-thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

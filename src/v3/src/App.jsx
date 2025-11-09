@@ -100,12 +100,16 @@ function EntrySummary({ entry, translations }) {
   );
 }
 
-function EntryDetails({ entry, renderValue }) {
+function EntryDetails({ entry }) {
   const details = [
     {
       key: "id",
       label: "Identifier",
-      content: <Box>{renderValue(entry.data.id)}</Box>,
+      content: (
+        <Typography component="span" variant="body1">
+          {entry.data.id}
+        </Typography>
+      ),
       isVisible: true,
     },
     {
@@ -382,6 +386,7 @@ function App() {
   }, [debouncedInput, entries]);
 
   const landmarkAnchors = useMemo(() => {
+    // Precompute landmark ids so attachments can scroll to matching sections.
     const map = new Map();
 
     if (!selectedEntry) {
@@ -402,31 +407,23 @@ function App() {
     return map;
   }, [selectedEntry]);
 
+  // renderValue normalizes arbitrary JSON into typography, links, or lists.
   const renderValue = useCallback(
-    function renderValueInner(value) {
+    function renderValueInner(value, { linkifyIds = true } = {}) {
+      // Shared helper keeps empty states consistent across data shapes.
+      const renderMissing = (label = "None listed") => (
+        <Typography component="span" variant="body2" color="text.secondary">
+          {label}
+        </Typography>
+      );
+
       if (value === null || value === undefined) {
-        return (
-          <Typography
-            component="span"
-            variant="body2"
-            color="text.secondary"
-          >
-            —
-          </Typography>
-        );
+        return renderMissing("—");
       }
 
       if (Array.isArray(value)) {
         if (value.length === 0) {
-          return (
-            <Typography
-              component="span"
-              variant="body2"
-              color="text.secondary"
-            >
-              None listed
-            </Typography>
-          );
+          return renderMissing();
         }
 
         return (
@@ -437,7 +434,7 @@ function App() {
                 component="li"
                 sx={{ listStyleType: "disc", pl: 1 }}
               >
-                {renderValueInner(entry)}
+                {renderValueInner(entry, { linkifyIds })}
               </Box>
             ))}
           </Stack>
@@ -448,15 +445,7 @@ function App() {
         const entriesList = Object.entries(value);
 
         if (entriesList.length === 0) {
-          return (
-            <Typography
-              component="span"
-              variant="body2"
-              color="text.secondary"
-            >
-              None listed
-            </Typography>
-          );
+          return renderMissing();
         }
 
         return (
@@ -471,7 +460,7 @@ function App() {
                   {formatKey(key)}
                 </Typography>
                 <Box component="dd" sx={{ m: 0 }}>
-                  {renderValueInner(nestedValue)}
+                  {renderValueInner(nestedValue, { linkifyIds })}
                 </Box>
               </Box>
             ))}
@@ -481,38 +470,45 @@ function App() {
 
       if (typeof value === "string") {
         const trimmedValue = value.trim();
-        const linkedEntry = entryById.get(trimmedValue);
-        const landmarkAnchorId = landmarkAnchors.get(trimmedValue);
 
-        if (linkedEntry) {
-          const displayLabel =
-            typeof linkedEntry.primaryName === "string" &&
-            linkedEntry.primaryName.trim()
-              ? linkedEntry.primaryName.trim()
-              : trimmedValue;
-          const accessibleLabel = displayLabel || trimmedValue;
-
-          return (
-            <Link
-              component="button"
-              type="button"
-              underline="hover"
-              onClick={() => selectEntry(linkedEntry)}
-              aria-label={`View record for ${accessibleLabel}`}
-              title={trimmedValue}
-              sx={{
-                cursor: "pointer",
-                p: 0,
-                fontSize: "inherit",
-                fontWeight: "inherit",
-                fontFamily: "inherit",
-                textAlign: "left",
-              }}
-            >
-              {displayLabel}
-            </Link>
-          );
+        if (!trimmedValue) {
+          return renderMissing("—");
         }
+
+        if (linkifyIds) {
+          const linkedEntry = entryById.get(trimmedValue);
+
+          if (linkedEntry) {
+            const displayLabel =
+              typeof linkedEntry.primaryName === "string" &&
+              linkedEntry.primaryName.trim()
+                ? linkedEntry.primaryName.trim()
+                : trimmedValue;
+
+            return (
+              <Link
+                component="button"
+                type="button"
+                underline="hover"
+                onClick={() => selectEntry(linkedEntry)}
+                aria-label={`View record for ${displayLabel}`}
+                title={trimmedValue}
+                sx={{
+                  cursor: "pointer",
+                  p: 0,
+                  fontSize: "inherit",
+                  fontWeight: "inherit",
+                  fontFamily: "inherit",
+                  textAlign: "left",
+                }}
+              >
+                {displayLabel}
+              </Link>
+            );
+          }
+        }
+
+        const landmarkAnchorId = landmarkAnchors.get(trimmedValue);
 
         if (landmarkAnchorId) {
           return (
@@ -551,6 +547,12 @@ function App() {
             </Link>
           );
         }
+
+        return (
+          <Typography component="span" variant="body1">
+            {trimmedValue}
+          </Typography>
+        );
       }
 
       return (
@@ -578,6 +580,7 @@ function App() {
       Array.isArray(selectedEntry.data.heads) &&
       selectedEntry.data.heads.length > 0
     ) {
+      // Surface muscle heads before other details so users can drill down fast.
       sections.push({ field: "heads", value: selectedEntry.data.heads });
     }
 
@@ -665,7 +668,7 @@ function App() {
 
                 <Divider />
 
-                <EntryDetails entry={selectedEntry} renderValue={renderValue} />
+                <EntryDetails entry={selectedEntry} />
 
                 {selectedEntry.data.doc ? (
                   <>

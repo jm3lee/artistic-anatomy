@@ -1,0 +1,67 @@
+{
+  "id": "biceps-femoris-muscle",
+  "name": {
+    "name": "Biceps Femoris",
+    "translations": {
+      "fr": "Biceps fémoral",
+      "es": "Bíceps femoral",
+      "ru": "Двуглавая мышца бедра"
+    }
+  },
+  "url": "/muscles/biceps-femoris",
+  "status": "published",
+  "description":
+    "Artists study the biceps femoris to map the outer hamstring column.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Biceps Femoris"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Biceps Femoris Muscle"
+  },
+  "actions": [
+    "Extends the hip with the gluteals to drive the leg backward in strides.",
+    "Flexes the knee and assists lateral rotation when the leg is unloaded.",
+    "Stabilizes the lateral knee line during landings and turned-out poses."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "ischial-tuberosity"
+    },
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "linea-aspera"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "head-of-fibula"
+    },
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "lateral-condyle-tibia"
+    }
+  ],
+  "heads": [
+    "biceps-femoris-long-head-muscle",
+    "biceps-femoris-short-head-muscle"
+  ],
+  "tags": [
+    "posterior-thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

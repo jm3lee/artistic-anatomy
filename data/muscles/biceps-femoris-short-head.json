@@ -1,0 +1,58 @@
+{
+  "id": "biceps-femoris-short-head-muscle",
+  "name": {
+    "name": "Biceps Femoris Short Head",
+    "translations": {
+      "fr": "Chef court du biceps fémoral",
+      "es": "Cabeza corta del bíceps femoral",
+      "ru": "Короткая головка двуглавой мышцы бедра"
+    }
+  },
+  "url": "/muscles/biceps-femoris-short-head",
+  "status": "published",
+  "description": "The short head of biceps femoris reinforces the lateral hamstring column beneath the long head, emerging near the knee to sharpen the fibular crest.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Biceps Femoris Short Head"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Biceps Femoris Short Head"
+  },
+  "actions": [
+    "Assists with knee flexion, adding volume to the lateral hamstring cord.",
+    "Supports lateral rotation of the tibia when the foot is lifted.",
+    "Helps stabilize the fibular head during quick directional changes."
+  ],
+  "origins": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "linea-aspera"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "head-of-fibula"
+    },
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "lateral-condyle-tibia"
+    }
+  ],
+  "tags": [
+    "posterior-thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
