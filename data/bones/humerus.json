@@ -1,0 +1,198 @@
+{
+    "id": "humerus-bone",
+    "name": "Humerus",
+    "url": "/bones/humerus",
+    "status": "published",
+    "description": "The humerus is the long bone of the upper arm, bridging the shoulder and elbow with sweeping surfaces that artists use to place the arm's major forms.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Humerus"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Humerus Bone"
+    },
+    "landmarks": [
+        {
+            "id": "head-of-humerus",
+            "name": "Head of the humerus",
+            "desc": "Smooth hemispherical surface that articulates with the glenoid cavity and suggests the rounded cap of the shoulder."
+        },
+        {
+            "id": "greater-tubercle",
+            "name": "Greater tubercle",
+            "desc": "Prominent lateral mass where the rotator cuff tendons converge, giving the shoulder breadth."
+        },
+        {
+            "id": "lesser-tubercle",
+            "name": "Lesser tubercle",
+            "desc": "Anterior bump that marks the insertion of subscapularis and hints at the bicipital groove."
+        },
+        {
+            "id": "bicipital-groove",
+            "name": "Bicipital groove",
+            "desc": "Intertubercular sulcus guiding the tendon of the long head of biceps and channels the upper arm's highlight."
+        },
+        {
+            "id": "deltoid-tuberosity",
+            "name": "Deltoid tuberosity",
+            "desc": "Roughened lateral ridge halfway down the shaft where the deltoid inserts, anchoring the arm's tapering mass."
+        },
+        {
+            "id": "radial-groove",
+            "name": "Radial groove",
+            "desc": "Posterior spiral groove that carries the radial nerve between the medial and lateral heads of triceps."
+        },
+        {
+            "id": "medial-epicondyle",
+            "name": "Medial epicondyle",
+            "desc": "Large medial projection at the distal end, easily palpated and home to many flexor origins."
+        },
+        {
+            "id": "lateral-epicondyle",
+            "name": "Lateral epicondyle",
+            "desc": "Smaller lateral projection providing the anchor for the common extensor tendon."
+        },
+        {
+            "id": "trochlea",
+            "name": "Trochlea",
+            "desc": "Medial spool-shaped articular surface that receives the ulna and defines the hinge of the elbow."
+        },
+        {
+            "id": "capitulum",
+            "name": "Capitulum",
+            "desc": "Rounded lateral condyle that meets the radial head and gives the distal humerus its spherical contour."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "deltoid-tuberosity",
+            "muscles": [
+                {
+                    "id": "deltoid-muscle",
+                    "name": "Deltoid"
+                }
+            ]
+        },
+        {
+            "landmark": "greater-tubercle",
+            "muscles": [
+                {
+                    "id": "supraspinatus-muscle",
+                    "name": "Supraspinatus"
+                },
+                {
+                    "id": "infraspinatus-muscle",
+                    "name": "Infraspinatus"
+                },
+                {
+                    "id": "teres-minor-muscle",
+                    "name": "Teres Minor"
+                }
+            ]
+        },
+        {
+            "landmark": "lesser-tubercle",
+            "muscles": [
+                {
+                    "id": "subscapularis-muscle",
+                    "name": "Subscapularis"
+                }
+            ]
+        },
+        {
+            "landmark": "bicipital-groove",
+            "muscles": [
+                {
+                    "id": "latissimus-dorsi-muscle",
+                    "name": "Latissimus Dorsi"
+                },
+                {
+                    "id": "teres-major-muscle",
+                    "name": "Teres Major"
+                },
+                {
+                    "id": "pectoralis-major-muscle",
+                    "name": "Pectoralis Major"
+                }
+            ]
+        }
+    ],
+    "origins": [
+        {
+            "landmark": "radial-groove",
+            "muscles": [
+                {
+                    "id": "triceps-muscle",
+                    "name": "Triceps"
+                }
+            ]
+        },
+        {
+            "landmark": "medial-epicondyle",
+            "muscles": [
+                {
+                    "id": "pronator-teres-muscle",
+                    "name": "Pronator Teres"
+                },
+                {
+                    "id": "flexor-carpi-radialis-muscle",
+                    "name": "Flexor Carpi Radialis"
+                },
+                {
+                    "id": "palmaris-longus-muscle",
+                    "name": "Palmaris Longus"
+                },
+                {
+                    "id": "flexor-carpi-ulnaris-muscle",
+                    "name": "Flexor Carpi Ulnaris"
+                }
+            ]
+        },
+        {
+            "landmark": "lateral-epicondyle",
+            "muscles": [
+                {
+                    "id": "extensor-carpi-radialis-brevis-muscle",
+                    "name": "Extensor Carpi Radialis Brevis"
+                },
+                {
+                    "id": "extensor-digitorum-muscle",
+                    "name": "Extensor Digitorum"
+                },
+                {
+                    "id": "extensor-carpi-ulnaris-muscle",
+                    "name": "Extensor Carpi Ulnaris"
+                },
+                {
+                    "id": "extensor-digiti-minimi-muscle",
+                    "name": "Extensor Digiti Minimi"
+                }
+            ]
+        },
+        {
+            "landmark": "lateral-epicondyle",
+            "muscles": [
+                {
+                    "id": "supinator-muscle",
+                    "name": "Supinator"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "upper-limb",
+        "skeleton"
+    ],
+    "icon": "bone"
+}
