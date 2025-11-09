@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple, Type, TypeVar
+from typing import Any, Dict, List, Optional, Tuple, Type, TypeVar, Annotated
 
 from pydantic import BaseModel, Field
+
+MuscleRecordId = Annotated[str, "MuscleRecord ID"]
 
 
 class Breadcrumb(BaseModel):
@@ -26,7 +28,7 @@ class MuscleAttachment(BaseModel):
     """Muscle attachment location with associated muscles."""
 
     name: Landmark
-    muscles: List[MuscleRecord]
+    muscles: List[MuscleRecordRef]
 
 
 
@@ -46,6 +48,7 @@ class BaseRecord(BaseModel):
     doc: DocMetadata
     icon: Optional[str] = None
     id: str
+    name: str
     status: str
     tags: Optional[List[str]] = None
     translations: Optional[Dict[str, Any]] = None
@@ -66,11 +69,14 @@ class BoneRecord(BaseRecord):
     insertions: List[MuscleAttachment] = Field(default_factory=list)
     origins: List[MuscleAttachment] = Field(default_factory=list)
 
-
-
 class MuscleRecord(BaseRecord):
     """Grouped anatomy data specific to muscles."""
 
+    id: MuscleRecordId
     actions: List[str] = Field(default_factory=list)
     insertions: List[Landmark] = Field(default_factory=list)
     origins: List[Landmark] = Field(default_factory=list)
+
+class MuscleRecordRef(BaseModel):
+    id: MuscleRecordId
+    name: str
