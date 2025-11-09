@@ -1,0 +1,143 @@
+{
+    "id": "ulna-bone",
+    "name": "Ulna",
+    "url": "/bones/ulna",
+    "status": "published",
+    "description": "The ulna spans the medial forearm, anchoring the elbow hinge and giving artists a reliable axis for gesture and proportion.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Ulna"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Ulna Bone"
+    },
+    "landmarks": [
+        {
+            "id": "olecranon-process",
+            "name": "Olecranon process",
+            "desc": "Thick posterior projection forming the elbow tip and receiving the triceps tendon."
+        },
+        {
+            "id": "coronoid-process",
+            "name": "Coronoid process",
+            "desc": "Anterior beak that embraces the trochlea and supports the brachialis insertion."
+        },
+        {
+            "id": "trochlear-notch",
+            "name": "Trochlear notch",
+            "desc": "Semilunar articular surface that locks with the humeral trochlea for hinge motion."
+        },
+        {
+            "id": "radial-notch",
+            "name": "Radial notch",
+            "desc": "Shallow lateral facet where the radial head pivots during pronation and supination."
+        },
+        {
+            "id": "supinator-crest",
+            "name": "Supinator crest",
+            "desc": "Oblique ridge distal to the radial notch that anchors the supinator muscle."
+        },
+        {
+            "id": "ulnar-tuberosity",
+            "name": "Ulnar tuberosity",
+            "desc": "Rough swelling below the coronoid for the brachialis insertion and volar mass transitions."
+        },
+        {
+            "id": "interosseous-border-ulna",
+            "name": "Interosseous border",
+            "desc": "Sharp lateral edge providing attachment for the interosseous membrane."
+        },
+        {
+            "id": "posterior-border-ulna",
+            "name": "Posterior border",
+            "desc": "Long palpable ridge that shapes the medial forearm silhouette."
+        },
+        {
+            "id": "ulnar-head",
+            "name": "Head of ulna",
+            "desc": "Distal swelling that articulates with the radius at the distal radioulnar joint."
+        },
+        {
+            "id": "styloid-process-ulna",
+            "name": "Styloid process",
+            "desc": "Pointed distal projection giving a crisp landmark at the medial wrist."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "olecranon-process",
+            "muscles": [
+                {
+                    "id": "triceps-muscle",
+                    "name": "Triceps"
+                }
+            ]
+        },
+        {
+            "landmark": "ulnar-tuberosity",
+            "muscles": [
+                {
+                    "id": "brachialis-muscle",
+                    "name": "Brachialis"
+                }
+            ]
+        }
+    ],
+    "origins": [
+        {
+            "landmark": "supinator-crest",
+            "muscles": [
+                {
+                    "id": "supinator-muscle",
+                    "name": "Supinator"
+                }
+            ]
+        },
+        {
+            "landmark": "interosseous-border-ulna",
+            "muscles": [
+                {
+                    "id": "flexor-digitorum-profundus-muscle",
+                    "name": "Flexor Digitorum Profundus"
+                },
+                {
+                    "id": "flexor-pollicis-longus-muscle",
+                    "name": "Flexor Pollicis Longus"
+                }
+            ]
+        },
+        {
+            "landmark": "posterior-border-ulna",
+            "muscles": [
+                {
+                    "id": "extensor-carpi-ulnaris-muscle",
+                    "name": "Extensor Carpi Ulnaris"
+                },
+                {
+                    "id": "abductor-pollicis-longus-muscle",
+                    "name": "Abductor Pollicis Longus"
+                },
+                {
+                    "id": "extensor-pollicis-longus-muscle",
+                    "name": "Extensor Pollicis Longus"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "forearm",
+        "skeleton"
+    ],
+    "icon": "bone"
+}
