@@ -1,0 +1,67 @@
+{
+  "id": "trapezius-muscle",
+  "name": "Trapezius",
+  "url": "/muscles/trapezius",
+  "status": "published",
+  "description": "The trapezius drapes across the upper back like a kite-shaped cloak, letting artists map elegant shifts between neck, shoulder, and spine.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Trapezius"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Trapezius Muscle"
+  },
+  "actions": [
+    "Elevates the shoulder girdle through the superior fibers and depresses it with the inferior fibers.",
+    "Retracts the scapula to square the shoulders and extend the posture.",
+    "Assists with neck extension and rotation when the scapula is fixed."
+  ],
+  "origins": [
+    {
+      "bone_id": "skull-bone",
+      "landmark_id": "external-occipital-protuberance"
+    },
+    {
+      "bone_id": "skull-bone",
+      "landmark_id": "superior-nuchal-line"
+    },
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "ligamentum-nuchae"
+    },
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "spinous-processes-c7-t12"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "clavicle-bone",
+      "landmark_id": "lateral-third-clavicle"
+    },
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "acromion-process"
+    },
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "spine-of-scapula"
+    }
+  ],
+  "tags": [
+    "back",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
