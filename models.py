@@ -47,6 +47,11 @@ class DocMetadata(BaseModel):
     title: str
 
 
+class NameRecord(BaseModel):
+    name: str  # English by default
+    translations: Optional[Dict[str, Any]] = None
+
+
 class BaseRecord(BaseModel):
     """Base record shared by bone and muscle entries."""
 
@@ -54,7 +59,7 @@ class BaseRecord(BaseModel):
     doc: DocMetadata
     icon: Optional[str] = None
     id: str
-    name: str
+    name: NameRecord
     status: str
     tags: Optional[List[str]] = None
     translations: Optional[Dict[str, Any]] = None
