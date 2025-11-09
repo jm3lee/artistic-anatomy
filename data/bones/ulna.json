@@ -1,6 +1,13 @@
 {
     "id": "ulna-bone",
-    "name": "Ulna",
+    "name": {
+        "name": "Ulna",
+        "translations": {
+            "fr": "Ulna",
+            "es": "Cúbito",
+            "ru": "Локтевая кость"
+        }
+    },
     "url": "/bones/ulna",
     "status": "published",
     "description": "The ulna spans the medial forearm, anchoring the elbow hinge and giving artists a reliable axis for gesture and proportion.",

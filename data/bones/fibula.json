@@ -1,6 +1,13 @@
 {
     "id": "fibula-bone",
-    "name": "Fibula",
+    "name": {
+        "name": "Fibula",
+        "translations": {
+            "fr": "Fibula",
+            "es": "Fíbula",
+            "ru": "Малоберцовая кость"
+        }
+    },
     "url": "/bones/fibula",
     "status": "published",
     "description": "The fibula is the slender lateral bone of the lower leg that lends stability to the ankle and subtle rhythm to the calf silhouette.",

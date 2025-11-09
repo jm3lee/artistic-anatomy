@@ -1,6 +1,13 @@
 {
   "id": "supinator-muscle",
-  "name": "Supinator",
+  "name": {
+    "name": "Supinator",
+    "translations": {
+      "fr": "Supinateur",
+      "es": "Supinador",
+      "ru": "Супинатор"
+    }
+  },
   "url": "/muscles/supinator",
   "status": "published",
   "description": "The supinator wraps like a ribbon around the proximal radius, unlocking the palm to turn skyward with grace.",

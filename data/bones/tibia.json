@@ -1,6 +1,13 @@
 {
     "id": "tibia-bone",
-    "name": "Tibia",
+    "name": {
+        "name": "Tibia",
+        "translations": {
+            "fr": "Tibia",
+            "es": "Tibia",
+            "ru": "Большеберцовая кость"
+        }
+    },
     "url": "/bones/tibia",
     "status": "published",
     "description": "The tibia is the weight-bearing shin bone whose sharp crest and broad planes give the lower leg its structural clarity.",

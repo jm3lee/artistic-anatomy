@@ -1,6 +1,13 @@
 {
   "id": "triceps-muscle",
-  "name": "Triceps Brachii",
+  "name": {
+    "name": "Triceps Brachii",
+    "translations": {
+      "fr": "Triceps brachial",
+      "es": "Tríceps braquial",
+      "ru": "Трёхглавая мышца плеча"
+    }
+  },
   "url": "/muscles/triceps",
   "status": "published",
   "description": "The triceps brachii shapes the back of the upper arm with three heads that join on the olecranon to extend the elbow.",

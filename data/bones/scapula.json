@@ -1,6 +1,13 @@
 {
     "id": "scapula-bone",
-    "name": "Scapula",
+    "name": {
+        "name": "Scapula",
+        "translations": {
+            "fr": "Scapula",
+            "es": "Escápula",
+            "ru": "Лопатка"
+        }
+    },
     "url": "/bones/scapula",
     "status": "published",
     "description": "The scapula is the triangular shoulder blade, floating over the rib cage and framing the arm's range of motion with sweeping planes and crisp ridges for artists to map.",
