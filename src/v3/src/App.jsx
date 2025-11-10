@@ -19,12 +19,22 @@ const CATEGORY_LABELS = {
   muscles: "Muscle",
 };
 
+const LINKABLE_ID_KEYS = new Set(["bone_id", "muscle_id", "landmark_id"]);
+
+function normalizeKey(key) {
+  return typeof key === "string" ? key.trim().toLowerCase() : "";
+}
+
+function canonicalizeIdKey(key) {
+  return normalizeKey(key).replace(/[-\s]+/g, "_");
+}
+
 function isIdKey(key) {
   if (typeof key !== "string") {
     return false;
   }
 
-  const normalized = key.trim().toLowerCase();
+  const normalized = normalizeKey(key);
   return (
     normalized === "id" ||
     normalized.endsWith("_id") ||
@@ -337,6 +347,36 @@ function App() {
     return map;
   }, [entries]);
 
+  const landmarkEntryIndex = useMemo(() => {
+    const map = new Map();
+
+    for (const entry of entries) {
+      const landmarks = entry?.data?.landmarks;
+
+      if (!Array.isArray(landmarks)) {
+        continue;
+      }
+
+      for (const landmark of landmarks) {
+        const rawId =
+          typeof landmark?.id === "string" ? landmark.id.trim() : "";
+
+        if (!rawId) {
+          continue;
+        }
+
+        const sanitizedId = rawId.replace(/\s+/g, "-");
+
+        map.set(rawId, {
+          entry,
+          anchorId: `landmark-${sanitizedId}`,
+        });
+      }
+    }
+
+    return map;
+  }, [entries]);
+
   const scrollToEntryTitle = useCallback(() => {
     if (typeof document === "undefined") {
       return;
@@ -489,7 +529,10 @@ function App() {
                 <Box component="dd" sx={{ m: 0 }}>
                   {renderValueInner(nestedValue, {
                     contextKey: key,
-                    linkifyIds: linkifyIds && !isIdKey(key),
+                    linkifyIds:
+                      linkifyIds &&
+                      (!isIdKey(key) ||
+                        LINKABLE_ID_KEYS.has(canonicalizeIdKey(key))),
                   })}
                 </Box>
               </Box>
@@ -505,7 +548,10 @@ function App() {
           return renderMissing("—");
         }
 
-        const allowLinks = linkifyIds && !isIdKey(contextKey);
+        const normalizedContextKey = canonicalizeIdKey(contextKey);
+        const allowLinks =
+          linkifyIds &&
+          (!isIdKey(contextKey) || LINKABLE_ID_KEYS.has(normalizedContextKey));
 
         if (allowLinks) {
           const linkedEntry = entryById.get(trimmedValue);
@@ -578,6 +624,84 @@ function App() {
           );
         }
 
+        if (allowLinks) {
+          const landmarkTarget = landmarkEntryIndex.get(trimmedValue);
+
+          if (landmarkTarget) {
+            const { entry: targetEntry, anchorId } = landmarkTarget;
+
+            const scrollToLandmark = () => {
+              if (typeof document === "undefined") {
+                return;
+              }
+
+              const runScroll = (attemptsLeft = 6) => {
+                const element = document.getElementById(anchorId);
+
+                if (element) {
+                  element.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                  });
+
+                  if (typeof element.focus === "function") {
+                    element.focus({ preventScroll: true });
+                  }
+
+                  if (
+                    typeof window !== "undefined" &&
+                    window.history?.replaceState
+                  ) {
+                    const url = new URL(window.location.href);
+                    url.hash = anchorId;
+                    window.history.replaceState(null, "", url);
+                  }
+
+                  return;
+                }
+
+                if (
+                  attemptsLeft > 0 &&
+                  typeof requestAnimationFrame === "function"
+                ) {
+                  requestAnimationFrame(() => runScroll(attemptsLeft - 1));
+                }
+              };
+
+              if (typeof requestAnimationFrame === "function") {
+                requestAnimationFrame(() => runScroll());
+              } else {
+                runScroll();
+              }
+            };
+
+            return (
+              <Link
+                component="button"
+                type="button"
+                underline="hover"
+                onClick={() => {
+                  selectEntry(targetEntry, {
+                    scrollTo: scrollToLandmark,
+                  });
+                }}
+                aria-label={`View landmark ${trimmedValue}`}
+                title={trimmedValue}
+                sx={{
+                  cursor: "pointer",
+                  p: 0,
+                  fontSize: "inherit",
+                  fontWeight: "inherit",
+                  fontFamily: "inherit",
+                  textAlign: "left",
+                }}
+              >
+                {trimmedValue}
+              </Link>
+            );
+          }
+        }
+
         return (
           <Typography component="span" variant="body1">
             {trimmedValue}
@@ -591,7 +715,7 @@ function App() {
         </Typography>
       );
     },
-    [entryById, landmarkAnchors, selectEntry],
+    [entryById, landmarkAnchors, landmarkEntryIndex, selectEntry],
   );
 
   const selectedRecordTranslations = Object.entries(
