@@ -926,7 +926,7 @@ function DocumentMetadata({ doc }) {
   return (
     <Stack spacing={2}>
       <Typography variant="h6" component="h3">
-        Document Metadata
+        DOC
       </Typography>
       <Stack spacing={2}>
         {metadataFields
@@ -1006,7 +1006,7 @@ function AdditionalDetailSections({ detailSections, renderValue }) {
       {detailSections.map(({ field, value }) => (
         <Box key={field}>
           <Typography variant="h6" component="h3" gutterBottom>
-            {field}
+            {field.toUpperCase()}
           </Typography>
           {field === "landmarks" ? (
             <LandmarkList

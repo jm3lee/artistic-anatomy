@@ -6,6 +6,7 @@ import reactRefresh from "eslint-plugin-react-refresh";
 import { defineConfig, globalIgnores } from "eslint/config";
 
 export default defineConfig([
+  js.configs.recommended,
   globalIgnores(["dist"]),
   {
     files: ["**/*.{js,jsx}"],
@@ -31,6 +32,8 @@ export default defineConfig([
       "react/jsx-max-depth": ["error", { max: 3 }],
       "max-params": ["error", 5],
       "max-depth": ["error", 3],
+      "no-unneeded-ternary": "error",
+      "no-nested-ternary": "error",
       complexity: ["error", 7],
     },
   },
