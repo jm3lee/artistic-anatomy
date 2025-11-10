@@ -1,0 +1,77 @@
+{
+    "id": "calcaneus-bone",
+    "name": {
+        "name": "Calcaneus",
+        "translations": {
+            "fr": "Calcanéus",
+            "es": "Calcáneo",
+            "ru": "Пяточная кость"
+        }
+    },
+    "url": "/bones/calcaneus",
+    "status": "published",
+    "description": "The calcaneus forms the heel block anchoring the Achilles.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Calcaneus"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Calcaneus Bone"
+    },
+    "landmarks": [
+        {
+            "id": "calcaneal-tuberosity",
+            "name": "Calcaneal tuberosity",
+            "desc": "Posterior heel mass anchoring the Achilles and bearing weight."
+        },
+        {
+            "id": "medial-process-calcaneus",
+            "name": "Medial process",
+            "desc": "Medial plantar spur supporting the arch and intrinsic starts."
+        },
+        {
+            "id": "lateral-process-calcaneus",
+            "name": "Lateral process",
+            "desc": "Lateral shelf bracing the cuboid and defining the outer heel."
+        },
+        {
+            "id": "sustentaculum-tali",
+            "name": "Sustentaculum tali",
+            "desc": "Medial shelf propping the talus and sheltering flexor tendons."
+        },
+        {
+            "id": "peroneal-trochlea",
+            "name": "Peroneal trochlea",
+            "desc": "Lateral ridge guiding the fibularis tendons around the heel."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "calcaneal-tuberosity",
+            "muscles": [
+                "gastrocnemius-muscle",
+                "gastrocnemius-medial-head-muscle",
+                "gastrocnemius-lateral-head-muscle",
+                "soleus-muscle",
+                "plantaris-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "lower-limb",
+        "tarsals"
+    ],
+    "icon": "bone"
+}

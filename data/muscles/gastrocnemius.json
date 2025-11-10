@@ -1,0 +1,62 @@
+{
+  "id": "gastrocnemius-muscle",
+  "name": {
+    "name": "Gastrocnemius",
+    "translations": {
+      "fr": "Gastrocnémius",
+      "es": "Gastrocnemio",
+      "ru": "Икроножная мышца"
+    }
+  },
+  "url": "/muscles/gastrocnemius",
+  "status": "published",
+  "description": "Gastrocnemius crowns the calf with paired bellies for lift.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Gastrocnemius"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Gastrocnemius Muscle"
+  },
+  "actions": [
+    "Plantarflexes the ankle powerfully for push-off, leaps, and runs.",
+    "Assists knee flexion, especially when the leg is free in space.",
+    "Stabilizes the posterior knee and ankle during poised balancing."
+  ],
+  "origins": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "medial-condyle"
+    },
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "lateral-condyle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "calcaneus-bone",
+      "landmark_id": "calcaneal-tuberosity"
+    }
+  ],
+  "heads": [
+    "gastrocnemius-medial-head-muscle",
+    "gastrocnemius-lateral-head-muscle"
+  ],
+  "tags": [
+    "posterior-leg",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

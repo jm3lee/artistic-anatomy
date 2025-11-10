@@ -1,0 +1,54 @@
+{
+  "id": "gastrocnemius-medial-head-muscle",
+  "name": {
+    "name": "Gastrocnemius Medial Head",
+    "translations": {
+      "fr": "Chef médial du gastrocnémius",
+      "es": "Cabeza medial del gastrocnemio",
+      "ru": "Медиальная головка икроножной мышцы"
+    }
+  },
+  "url": "/muscles/gastrocnemius-medial-head",
+  "status": "published",
+  "description": "Medial head crowns the inner calf and fills the knee hollow.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Gastrocnemius Medial Head"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Gastrocnemius Medial Head"
+  },
+  "actions": [
+    "Plantarflexes the ankle with emphasis along the medial calf column.",
+    "Assists knee flexion while shaping the inner rim of the popliteal fossa.",
+    "Steadies the ankle during tiptoe poses and turned-out stances."
+  ],
+  "origins": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "medial-condyle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "calcaneus-bone",
+      "landmark_id": "calcaneal-tuberosity"
+    }
+  ],
+  "tags": [
+    "posterior-leg",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

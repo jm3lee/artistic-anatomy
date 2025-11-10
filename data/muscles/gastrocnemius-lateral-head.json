@@ -1,0 +1,54 @@
+{
+  "id": "gastrocnemius-lateral-head-muscle",
+  "name": {
+    "name": "Gastrocnemius Lateral Head",
+    "translations": {
+      "fr": "Chef latéral du gastrocnémius",
+      "es": "Cabeza lateral del gastrocnemio",
+      "ru": "Латеральная головка икроножной мышцы"
+    }
+  },
+  "url": "/muscles/gastrocnemius-lateral-head",
+  "status": "published",
+  "description": "Lateral head shapes the outer calf and feeds into the heel.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Gastrocnemius Lateral Head"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Gastrocnemius Lateral Head"
+  },
+  "actions": [
+    "Plantarflexes the ankle while accentuating the lateral calf contour.",
+    "Helps flex the knee and integrates with the hamstring silhouette.",
+    "Stabilizes the ankle during quick direction changes and landings."
+  ],
+  "origins": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "lateral-condyle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "calcaneus-bone",
+      "landmark_id": "calcaneal-tuberosity"
+    }
+  ],
+  "tags": [
+    "posterior-leg",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

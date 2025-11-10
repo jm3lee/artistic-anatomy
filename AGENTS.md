@@ -6,8 +6,6 @@
   - Focus on superficial muscles; deep muscles are out of scope.
   - Create headings only for illustrations; do not insert figures
     automatically.
-- Text formatting
-  - Wrap paragraphs at 80 characters.
 - Tone and readability
   - Prefer a reading level suitable for high school graduates.
 - Data explorer
