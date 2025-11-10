@@ -54,11 +54,7 @@ function TranslationItem({ locale, translation }) {
         py: 1,
       }}
     >
-      <Typography
-        variant="overline"
-        component="span"
-        sx={{ display: "block" }}
-      >
+      <Typography variant="overline" component="span" sx={{ display: "block" }}>
         {locale.toUpperCase()}
       </Typography>
       <Typography variant="body2">{translation}</Typography>
@@ -98,9 +94,7 @@ function EntrySummary({ entry, translations }) {
         {entry.primaryName}
       </Typography>
       {entry.data.description ? (
-        <Typography color="text.secondary">
-          {entry.data.description}
-        </Typography>
+        <Typography color="text.secondary">{entry.data.description}</Typography>
       ) : null}
       {translations.length > 0 ? (
         <TranslationList translations={translations} />
@@ -298,8 +292,7 @@ function normalizeEntry([pathKey, module]) {
   const fileName = segments[segments.length - 1] ?? "";
   const categorySegment = segments[segments.length - 2] ?? "";
   const slug = fileName.replace(/\.json$/i, "");
-  const categoryLabel =
-    CATEGORY_LABELS[categorySegment] ?? categorySegment;
+  const categoryLabel = CATEGORY_LABELS[categorySegment] ?? categorySegment;
 
   const primaryName = getPrimaryName(jsonData, slug);
 
@@ -408,7 +401,8 @@ function App() {
 
       const scrollTarget =
         options.scrollTo ??
-        (entry.categorySegment === "bones" || entry.categorySegment === "muscles"
+        (entry.categorySegment === "bones" ||
+        entry.categorySegment === "muscles"
           ? scrollToEntryTitle
           : null);
 
