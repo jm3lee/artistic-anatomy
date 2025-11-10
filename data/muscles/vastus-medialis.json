@@ -1,0 +1,63 @@
+{
+  "id": "vastus-medialis-muscle",
+  "name": {
+    "name": "Vastus Medialis",
+    "translations": {
+      "fr": "Vaste médial",
+      "es": "Vasto medial",
+      "ru": "Медиальная широкая мышца бедра"
+    }
+  },
+  "url": "/muscles/vastus-medialis",
+  "status": "published",
+  "description": "Vastus medialis shapes the teardrop at the inner knee, tightening the quadriceps tendon and aligning the patella for a poised leg line.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Vastus Medialis"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Vastus Medialis Muscle"
+  },
+  "actions": [
+    "Extends the knee, lending power to the final degrees of lockout.",
+    "Draws the patella medially to keep the kneecap tracking true.",
+    "Stabilizes the knee during single-leg stance and controlled descents."
+  ],
+  "origins": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "intertrochanteric-line"
+    },
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "linea-aspera"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "patella-bone",
+      "landmark_id": "base-of-patella"
+    },
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "tibial-tuberosity"
+    }
+  ],
+  "tags": [
+    "thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
+

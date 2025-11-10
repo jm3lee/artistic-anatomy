@@ -1,0 +1,10 @@
+{
+  "id": "quadriceps-muscle-group",
+  "name": "Quadriceps",
+  "muscles": [
+    "rectus-femoris-muscle",
+    "vastus-medialis-muscle",
+    "vastus-intermedius-muscle",
+    "vastus-lateralis-muscle"
+  ]
+}

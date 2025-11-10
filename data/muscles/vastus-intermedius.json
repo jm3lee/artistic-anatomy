@@ -1,0 +1,59 @@
+{
+  "id": "vastus-intermedius-muscle",
+  "name": {
+    "name": "Vastus Intermedius",
+    "translations": {
+      "fr": "Vaste intermédiaire",
+      "es": "Vasto intermedio",
+      "ru": "Промежуточная широкая мышца бедра"
+    }
+  },
+  "url": "/muscles/vastus-intermedius",
+  "status": "published",
+  "description": "Vastus intermedius lies deep between the other quadriceps heads, hugging the femur to provide steady, even tension across the knee extensor mechanism.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Vastus Intermedius"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Vastus Intermedius Muscle"
+  },
+  "actions": [
+    "Extends the knee smoothly through mid-range motion.",
+    "Maintains uniform pressure on the quadriceps tendon beneath the rectus femoris.",
+    "Stabilizes the patella against the femur during sustained standing."
+  ],
+  "origins": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "anterior-shaft-femur"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "patella-bone",
+      "landmark_id": "base-of-patella"
+    },
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "tibial-tuberosity"
+    }
+  ],
+  "tags": [
+    "thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
+

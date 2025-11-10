@@ -51,6 +51,11 @@
             "desc": "Medial posterior prominence where the iliopsoas tendon tucks under the pelvis."
         },
         {
+            "id": "intertrochanteric-line",
+            "name": "Intertrochanteric line",
+            "desc": "Anterior ridge linking the trochanters and giving the vastus medialis a broad origin."
+        },
+        {
             "id": "intertrochanteric-crest",
             "name": "Intertrochanteric crest",
             "desc": "Posterior ridge linking the trochanters and catching light as it turns into the shaft."
@@ -59,6 +64,11 @@
             "id": "gluteal-tuberosity",
             "name": "Gluteal tuberosity",
             "desc": "Rough lateral strip descending from the greater trochanter where the gluteus maximus grips."
+        },
+        {
+            "id": "anterior-shaft-femur",
+            "name": "Anterior shaft",
+            "desc": "Smooth anterior surface of the shaft where the vastus intermedius lies directly against the bone."
         },
         {
             "id": "linea-aspera",
@@ -150,13 +160,39 @@
         {
             "landmark": "linea-aspera",
             "muscles": [
-                "biceps-femoris-short-head-muscle"
+                "biceps-femoris-short-head-muscle",
+                "vastus-medialis-muscle",
+                "vastus-lateralis-muscle"
             ]
         },
         {
             "landmark": "lateral-epicondyle-femur",
             "muscles": [
                 "plantaris-muscle"
+            ]
+        },
+        {
+            "landmark": "intertrochanteric-line",
+            "muscles": [
+                "vastus-medialis-muscle"
+            ]
+        },
+        {
+            "landmark": "greater-trochanter",
+            "muscles": [
+                "vastus-lateralis-muscle"
+            ]
+        },
+        {
+            "landmark": "gluteal-tuberosity",
+            "muscles": [
+                "vastus-lateralis-muscle"
+            ]
+        },
+        {
+            "landmark": "anterior-shaft-femur",
+            "muscles": [
+                "vastus-intermedius-muscle"
             ]
         }
     ],

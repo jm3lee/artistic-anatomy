@@ -85,7 +85,11 @@
         {
             "landmark": "tibial-tuberosity",
             "muscles": [
-                "quadriceps-femoris-muscle"
+                "quadriceps-femoris-muscle",
+                "rectus-femoris-muscle",
+                "vastus-medialis-muscle",
+                "vastus-lateralis-muscle",
+                "vastus-intermedius-muscle"
             ]
         },
         {

@@ -1,0 +1,67 @@
+{
+  "id": "vastus-lateralis-muscle",
+  "name": {
+    "name": "Vastus Lateralis",
+    "translations": {
+      "fr": "Vaste latéral",
+      "es": "Vasto lateral",
+      "ru": "Латеральная широкая мышца бедра"
+    }
+  },
+  "url": "/muscles/vastus-lateralis",
+  "status": "published",
+  "description": "Vastus lateralis is the broad outer sweep of the thigh, giving the quadriceps their breadth and delivering explosive knee extension.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Vastus Lateralis"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Vastus Lateralis Muscle"
+  },
+  "actions": [
+    "Extends the knee powerfully through the quadriceps tendon.",
+    "Counters inward collapse of the patella by balancing lateral pull.",
+    "Drives sprinting and jumping with its long pennate fibers."
+  ],
+  "origins": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "greater-trochanter"
+    },
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "gluteal-tuberosity"
+    },
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "linea-aspera"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "patella-bone",
+      "landmark_id": "base-of-patella"
+    },
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "tibial-tuberosity"
+    }
+  ],
+  "tags": [
+    "thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
+

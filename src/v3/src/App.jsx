@@ -17,6 +17,7 @@ const dataModules = import.meta.glob("@data/**/*.json", { eager: true });
 const CATEGORY_LABELS = {
   bones: "Bone",
   muscles: "Muscle",
+  "muscle-groups": "Muscle Group",
 };
 
 const LINKABLE_ID_KEYS = new Set(["bone_id", "muscle_id", "landmark_id"]);
@@ -26,6 +27,7 @@ const DETAIL_SECTION_FIELDS = [
   "insertions",
   "landmarks",
   "tags",
+  "muscles",
 ];
 
 function normalizeKey(key) {
@@ -262,7 +264,9 @@ function getEntryScrollTarget(entry, options, fallback) {
   }
 
   const isAnatomyEntry =
-    entry.categorySegment === "bones" || entry.categorySegment === "muscles";
+    entry.categorySegment === "bones" ||
+    entry.categorySegment === "muscles" ||
+    entry.categorySegment === "muscle-groups";
 
   return isAnatomyEntry ? fallback : null;
 }

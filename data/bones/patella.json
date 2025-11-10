@@ -55,7 +55,10 @@
         {
             "landmark": "base-of-patella",
             "muscles": [
-                "rectus-femoris-muscle"
+                "rectus-femoris-muscle",
+                "vastus-medialis-muscle",
+                "vastus-lateralis-muscle",
+                "vastus-intermedius-muscle"
             ]
         }
     ],
