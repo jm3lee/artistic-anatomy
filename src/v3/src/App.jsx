@@ -531,7 +531,11 @@ function renderTextValue(text) {
   );
 }
 
-function renderArrayValue(items, renderValueInner, { contextKey, linkifyIds }) {
+function renderArrayValue(
+  items,
+  renderValueInner,
+  { contextKey, linkifyIds, contextPath },
+) {
   if (!items.length) {
     return renderMissingValue();
   }
@@ -540,14 +544,14 @@ function renderArrayValue(items, renderValueInner, { contextKey, linkifyIds }) {
     <Stack component="ul" spacing={1} sx={{ m: 0, pl: 2 }}>
       {items.map((entry, index) => (
         <Box key={index} component="li" sx={{ listStyleType: "disc", pl: 1 }}>
-          {renderValueInner(entry, { contextKey, linkifyIds })}
+          {renderValueInner(entry, { contextKey, linkifyIds, contextPath })}
         </Box>
       ))}
     </Stack>
   );
 }
 
-function renderObjectValue({ value, renderValueInner, linkifyIds }) {
+function renderObjectValue({ value, renderValueInner, linkifyIds, contextPath }) {
   const entriesList = Object.entries(value ?? {});
 
   if (!entriesList.length) {
@@ -568,6 +572,7 @@ function renderObjectValue({ value, renderValueInner, linkifyIds }) {
           <Box component="dd" sx={{ m: 0 }}>
             {renderValueInner(nestedValue, {
               contextKey: key,
+              contextPath,
               linkifyIds: shouldAllowLinks(key, linkifyIds),
             })}
           </Box>
@@ -661,10 +666,29 @@ function createCrossEntryLandmarkLink(value, landmarkEntryIndex, selectEntry) {
   );
 }
 
+function isLandmarkIdContext(contextKey, contextPath) {
+  if (normalizeKey(contextKey) !== "id") {
+    return false;
+  }
+
+  if (!Array.isArray(contextPath) || contextPath.length < 2) {
+    return false;
+  }
+
+  for (let index = contextPath.length - 2; index >= 0; index -= 1) {
+    if (normalizeKey(contextPath[index]) === "landmarks") {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 function renderStringValue({
   rawValue,
   contextKey,
   linkifyIds,
+  contextPath,
   entryById,
   selectEntry,
   landmarkAnchors,
@@ -676,7 +700,11 @@ function renderStringValue({
     return renderMissingValue("—");
   }
 
-  if (!shouldAllowLinks(contextKey, linkifyIds)) {
+  const allowLinks =
+    shouldAllowLinks(contextKey, linkifyIds) ||
+    isLandmarkIdContext(contextKey, contextPath);
+
+  if (!allowLinks) {
     return renderTextValue(trimmedValue);
   }
 
@@ -703,7 +731,7 @@ function renderStringValue({
 }
 
 function renderByType(value, options, helpers) {
-  const { contextKey, linkifyIds } = options;
+  const { contextKey, linkifyIds, contextPath } = options;
   const {
     renderValue,
     entryById,
@@ -717,7 +745,11 @@ function renderByType(value, options, helpers) {
   }
 
   if (Array.isArray(value)) {
-    return renderArrayValue(value, renderValue, { contextKey, linkifyIds });
+    return renderArrayValue(value, renderValue, {
+      contextKey,
+      linkifyIds,
+      contextPath,
+    });
   }
 
   if (typeof value === "string") {
@@ -725,6 +757,7 @@ function renderByType(value, options, helpers) {
       rawValue: value,
       contextKey,
       linkifyIds,
+      contextPath,
       entryById,
       selectEntry,
       landmarkAnchors,
@@ -737,6 +770,7 @@ function renderByType(value, options, helpers) {
       value,
       renderValueInner: renderValue,
       linkifyIds,
+      contextPath,
     });
   }
 
@@ -751,11 +785,19 @@ function createValueRenderer({
 }) {
   return function renderValueInner(
     value,
-    { contextKey, linkifyIds = true } = {},
+    { contextKey, contextPath = [], linkifyIds = true } = {},
   ) {
+    const shouldAppendKey =
+      contextKey &&
+      (contextPath.length === 0 ||
+        contextPath[contextPath.length - 1] !== contextKey);
+    const nextContextPath = shouldAppendKey
+      ? [...contextPath, contextKey]
+      : contextPath;
+
     return renderByType(
       value,
-      { contextKey, linkifyIds },
+      { contextKey, linkifyIds, contextPath: nextContextPath },
       {
         renderValue: renderValueInner,
         entryById,
