@@ -1,4 +1,4 @@
-import { useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import Autocomplete from "@mui/material/Autocomplete";
 import Box from "@mui/material/Box";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
@@ -21,6 +21,7 @@ const CATEGORY_LABELS = {
 };
 
 const LINKABLE_ID_KEYS = new Set(["bone_id", "muscle_id", "landmark_id"]);
+const ENTRY_QUERY_PARAM = "entry";
 const DETAIL_SECTION_FIELDS = [
   "actions",
   "origins",
@@ -147,6 +148,92 @@ function buildLandmarkAnchors(selectedEntry) {
   }
 
   return map;
+}
+
+/**
+ * Returns the identifier stored in the query string for the currently selected
+ * explorer entry.
+ *
+ * @param {string} search - The raw `location.search` string to inspect.
+ * @returns {string} The entry key encoded in the `entry` query parameter, or an
+ * empty string when none is present.
+ */
+function getEntryKeyFromSearch(search) {
+  if (typeof search !== "string") {
+    return "";
+  }
+
+  const params = new URLSearchParams(search);
+
+  return params.get(ENTRY_QUERY_PARAM) ?? "";
+}
+
+/**
+ * Reads the entry key from the active browser location, guarding against
+ * server-side rendering environments where `window` is unavailable.
+ *
+ * @returns {string} The entry identifier currently encoded in the URL.
+ */
+function getEntryKeyFromLocation() {
+  if (typeof window === "undefined") {
+    return "";
+  }
+
+  return getEntryKeyFromSearch(window.location.search);
+}
+
+function findEntryByKey(entries, key) {
+  if (!key) {
+    return null;
+  }
+
+  return entries.find((entry) => entry.key === key) ?? null;
+}
+
+/**
+ * Produces a URL that reflects the provided entry selection while preserving
+ * any unrelated query parameters.
+ *
+ * @param {{ key?: string }} entry - The entry whose key should be encoded, or
+ * a falsey value to clear the parameter.
+ * @returns {URL} A URL instance with the correct query string applied.
+ */
+function createEntryUrl(entry) {
+  const url = new URL(window.location.href);
+
+  if (entry?.key) {
+    url.searchParams.set(ENTRY_QUERY_PARAM, entry.key);
+  } else {
+    url.searchParams.delete(ENTRY_QUERY_PARAM);
+  }
+
+  return url;
+}
+
+/**
+ * Syncs the provided entry with the browser history so the explorer honors
+ * back/forward navigation.
+ *
+ * @param {{ key?: string } | null} entry - The entry to persist in the URL, or
+ * `null` to clear the selection.
+ * @param {{ replace?: boolean }} [options] - When `replace` is true the current
+ * history entry is updated instead of pushing a new one.
+ */
+function updateEntryHistory(entry, { replace = false } = {}) {
+  if (typeof window === "undefined" || !window.history) {
+    return;
+  }
+
+  const url = createEntryUrl(entry);
+  const nextUrl = url.toString();
+
+  if (nextUrl === window.location.href) {
+    return;
+  }
+
+  const historyMethod = replace ? "replaceState" : "pushState";
+
+  window.history[historyMethod](null, "", nextUrl);
 }
 
 function getLandmarkListItemMeta(landmark, index) {
@@ -284,13 +371,49 @@ function runScrollTarget(scrollTarget) {
   scrollTarget();
 }
 
+/**
+ * Builds the reusable selection handler that keeps the autocomplete input,
+ * debounced query, and history state aligned. Consumers can skip the history
+ * update when responding to popstate events to avoid recursive updates.
+ *
+ * @param {Object} params
+ * @param {(value: string) => void} params.setInputValue - Updates the visible
+ * input value.
+ * @param {(value: string) => void} params.setDebouncedInput - Updates the value
+ * used to resolve entries.
+ * @param {(callback: () => void) => void} params.startTransition - React
+ * transition helper used to schedule deferred updates.
+ * @param {(entry: { key?: string } | null, options?: Object) => void}
+ * params.updateHistory - Synchronizes the browser history.
+ * @returns {(entry: Object | null, options?: { skipHistory?: boolean, scrollTo?: () => void }) => void}
+ * Selector function that applies the appropriate side effects.
+ */
 function createEntrySelector({
   setInputValue,
   setDebouncedInput,
   startTransition,
+  updateHistory,
 }) {
   return (entry, options = {}) => {
+    const { skipHistory = false } = options;
+
     if (!entry) {
+      setInputValue("");
+      startTransition(() => {
+        setDebouncedInput("");
+      });
+
+      if (!skipHistory) {
+        updateHistory(null);
+      }
+
+      const scrollTarget = getEntryScrollTarget(
+        null,
+        options,
+        scrollEntryTitleIntoView,
+      );
+
+      runScrollTarget(scrollTarget);
       return;
     }
 
@@ -298,6 +421,10 @@ function createEntrySelector({
     startTransition(() => {
       setDebouncedInput(entry.label.trim().toLowerCase());
     });
+
+    if (!skipHistory) {
+      updateHistory(entry);
+    }
 
     const scrollTarget = getEntryScrollTarget(
       entry,
@@ -309,14 +436,14 @@ function createEntrySelector({
   };
 }
 
-function createAutocompleteChangeHandler({ selectEntry, setInputValue }) {
+function createAutocompleteChangeHandler({ selectEntry }) {
   return (event, newValue) => {
     if (newValue && newValue.label) {
       selectEntry(newValue);
       return;
     }
 
-    setInputValue("");
+    selectEntry(null);
   };
 }
 
@@ -1010,8 +1137,16 @@ function SelectedEntryCard({
 
 function App() {
   const entries = useMemo(getSortedEntries, []);
-  const [inputValue, setInputValue] = useState(getInitialInput(entries));
-  const [debouncedInput, setDebouncedInput] = useState("");
+  const initialEntry = useMemo(
+    () => findEntryByKey(entries, getEntryKeyFromLocation()),
+    [entries],
+  );
+  const [inputValue, setInputValue] = useState(() =>
+    initialEntry?.label ?? getInitialInput(entries),
+  );
+  const [debouncedInput, setDebouncedInput] = useState(() =>
+    initialEntry ? initialEntry.label.trim().toLowerCase() : "",
+  );
   const [, startTransition] = useTransition();
 
   const entryById = useMemo(() => buildEntryIndex(entries), [entries]);
@@ -1026,6 +1161,7 @@ function App() {
         setInputValue,
         setDebouncedInput,
         startTransition,
+        updateHistory: updateEntryHistory,
       }),
     [setInputValue, setDebouncedInput, startTransition],
   );
@@ -1055,9 +1191,8 @@ function App() {
     () =>
       createAutocompleteChangeHandler({
         selectEntry,
-        setInputValue,
       }),
-    [selectEntry, setInputValue],
+    [selectEntry],
   );
 
   const selectedRecordTranslations = Object.entries(
@@ -1068,6 +1203,30 @@ function App() {
     () => buildDetailSections(selectedEntry),
     [selectedEntry],
   );
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return undefined;
+    }
+
+    const handlePopState = () => {
+      const entryKey = getEntryKeyFromLocation();
+      const nextEntry = findEntryByKey(entries, entryKey);
+
+      if (nextEntry) {
+        selectEntry(nextEntry, { skipHistory: true });
+        return;
+      }
+
+      selectEntry(null, { skipHistory: true });
+    };
+
+    window.addEventListener("popstate", handlePopState);
+
+    return () => {
+      window.removeEventListener("popstate", handlePopState);
+    };
+  }, [entries, selectEntry]);
 
   return (
     <Container maxWidth="md" sx={{ py: { xs: 4, md: 6 } }}>
