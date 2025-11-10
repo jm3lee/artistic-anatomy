@@ -55,56 +55,40 @@ def main() -> int:
     missing: Set[str] = set()
 
     for bone_id, payload in bones.items():
-        rel_path = bone_sources[bone_id].relative_to(ROOT)
         known_landmarks = bone_landmarks.get(bone_id, set())
         for section in ("origins", "insertions"):
             for item in payload.get(section, []):
                 landmark_id = item.get("landmark")
                 if landmark_id and landmark_id not in known_landmarks:
-                    missing.add(
-                        f"{rel_path}: unknown landmark '{landmark_id}' in {section}"
-                    )
+                    missing.add(f"landmark:{bone_id}:{landmark_id}")
                 for muscle_id in item.get("muscles", []):
                     if muscle_id not in muscles:
-                        missing.add(
-                            f"{rel_path}: missing muscle '{muscle_id}' in {section}"
-                        )
+                        missing.add(f"muscle:{muscle_id}")
 
     for muscle_id, payload in muscles.items():
-        rel_path = muscle_sources[muscle_id].relative_to(ROOT)
         for section in ("origins", "insertions"):
             for item in payload.get(section, []):
                 bone_id = item.get("bone_id")
                 landmark_id = item.get("landmark_id")
                 if bone_id and bone_id not in bones:
-                    missing.add(
-                        f"{rel_path}: missing bone '{bone_id}' in {section}"
-                    )
+                    missing.add(f"bone:{bone_id}")
                 if landmark_id:
                     if not bone_id:
-                        missing.add(
-                            f"{rel_path}: landmark '{landmark_id}' lacks bone reference in {section}"
-                        )
+                        missing.add(f"landmark:{landmark_id} missing bone reference")
                     elif landmark_id not in bone_landmarks.get(bone_id, set()):
-                        missing.add(
-                            f"{rel_path}: missing landmark '{landmark_id}' on bone '{bone_id}' in {section}"
-                        )
+                        missing.add(f"landmark:{bone_id}:{landmark_id}")
 
     for group_id, payload in groups.items():
-        rel_path = group_sources[group_id].relative_to(ROOT)
         for muscle_id in payload.get("muscles", []):
             if muscle_id not in muscles:
-                missing.add(
-                    f"{rel_path}: missing muscle '{muscle_id}' in muscles list"
-                )
+                missing.add(f"muscle:{muscle_id}")
 
     if not missing:
         print("No missing records found.")
         return 0
 
-    print("Missing records:")
     for message in sorted(missing):
-        print(f"- {message}")
+        print(message)
     return 1
 
 
