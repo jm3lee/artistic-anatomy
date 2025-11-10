@@ -1,0 +1,58 @@
+{
+  "id": "soleus-muscle",
+  "name": {
+    "name": "Soleus",
+    "translations": {
+      "fr": "Soléaire",
+      "es": "Sóleo",
+      "ru": "Камбаловидная мышца"
+    }
+  },
+  "url": "/muscles/soleus",
+  "status": "published",
+  "description": "Soleus lies deep in the calf, a broad pennate muscle that steadies the ankle and drives quiet plantarflexion.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Soleus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Soleus Muscle"
+  },
+  "actions": [
+    "Plantarflexes the ankle for grounded standing and controlled gait.",
+    "Provides postural support by opposing forward sway of the tibia.",
+    "Bolsters venous return from the calf through its slow-twitch pump."
+  ],
+  "origins": [
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "soleal-line"
+    },
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "fibular-neck"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "calcaneus-bone",
+      "landmark_id": "calcaneal-tuberosity"
+    }
+  ],
+  "tags": [
+    "posterior-leg",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
