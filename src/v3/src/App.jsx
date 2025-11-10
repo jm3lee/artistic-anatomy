@@ -412,11 +412,7 @@ function renderArrayValue(items, renderValueInner, { contextKey, linkifyIds }) {
   return (
     <Stack component="ul" spacing={1} sx={{ m: 0, pl: 2 }}>
       {items.map((entry, index) => (
-        <Box
-          key={index}
-          component="li"
-          sx={{ listStyleType: "disc", pl: 1 }}
-        >
+        <Box key={index} component="li" sx={{ listStyleType: "disc", pl: 1 }}>
           {renderValueInner(entry, { contextKey, linkifyIds })}
         </Box>
       ))}
@@ -803,7 +799,7 @@ function DocumentMetadata({ doc }) {
   return (
     <Stack spacing={2}>
       <Typography variant="h6" component="h3">
-        doc
+        Document Metadata
       </Typography>
       <Stack spacing={2}>
         {metadataFields
@@ -936,11 +932,7 @@ function normalizeEntry([pathKey, module]) {
   };
 }
 
-function ExplorerMessages({
-  hasEntries,
-  hasSelectedEntry,
-  hasSearchInput,
-}) {
+function ExplorerMessages({ hasEntries, hasSelectedEntry, hasSearchInput }) {
   if (!hasEntries) {
     return (
       <Typography color="text.secondary">
@@ -952,8 +944,7 @@ function ExplorerMessages({
   if (!hasSelectedEntry && hasSearchInput) {
     return (
       <Typography color="text.secondary">
-        No matching entry. Select a value from the dropdown to view its
-        details.
+        No matching entry. Select a value from the dropdown to view its details.
       </Typography>
     );
   }
