@@ -29,6 +29,248 @@ function canonicalizeIdKey(key) {
   return normalizeKey(key).replace(/[-\s]+/g, "_");
 }
 
+function getCategoryLabel(segment) {
+  return CATEGORY_LABELS[segment] ?? segment;
+}
+
+function getModuleData(module) {
+  return module?.default ?? module ?? {};
+}
+
+function parseEntryPath(pathKey) {
+  const normalized = pathKey.replaceAll("\\", "/");
+  const segments = normalized.split("/");
+  const fileName = segments[segments.length - 1] ?? "";
+  const categorySegment = segments[segments.length - 2] ?? "";
+
+  return { fileName, categorySegment };
+}
+
+function createSlug(fileName) {
+  return fileName.replace(/\.json$/i, "");
+}
+
+function createEntryLabel(primaryName, categoryLabel) {
+  return `${primaryName} · ${categoryLabel}`;
+}
+
+function getLandmarkAnchorId(rawId) {
+  if (typeof rawId !== "string") {
+    return undefined;
+  }
+
+  const trimmedId = rawId.trim();
+
+  if (!trimmedId) {
+    return undefined;
+  }
+
+  const sanitized = trimmedId.replace(/\s+/g, "-");
+
+  return sanitized ? `landmark-${sanitized}` : undefined;
+}
+
+function buildEntryIndex(entries) {
+  const map = new Map();
+
+  for (const entry of entries) {
+    const entryId =
+      typeof entry?.data?.id === "string" ? entry.data.id.trim() : "";
+
+    if (entryId) {
+      map.set(entryId, entry);
+    }
+  }
+
+  return map;
+}
+
+function buildLandmarkEntryIndex(entries) {
+  const map = new Map();
+
+  for (const entry of entries) {
+    const landmarks = Array.isArray(entry?.data?.landmarks)
+      ? entry.data.landmarks
+      : [];
+
+    for (const landmark of landmarks) {
+      const landmarkId =
+        typeof landmark?.id === "string" ? landmark.id.trim() : "";
+      const anchorId = getLandmarkAnchorId(landmarkId);
+
+      if (landmarkId && anchorId) {
+        map.set(landmarkId, { entry, anchorId });
+      }
+    }
+  }
+
+  return map;
+}
+
+function buildLandmarkAnchors(selectedEntry) {
+  const map = new Map();
+
+  if (!selectedEntry) {
+    return map;
+  }
+
+  const landmarks = Array.isArray(selectedEntry.data?.landmarks)
+    ? selectedEntry.data.landmarks
+    : [];
+
+  for (const landmark of landmarks) {
+    const landmarkId =
+      typeof landmark?.id === "string" ? landmark.id.trim() : "";
+    const anchorId = getLandmarkAnchorId(landmarkId);
+
+    if (landmarkId && anchorId) {
+      map.set(landmarkId, anchorId);
+    }
+  }
+
+  return map;
+}
+
+function getLandmarkListItemMeta(landmark, index) {
+  const rawId =
+    typeof landmark?.id === "string" ? landmark.id.trim() : String(index);
+  const anchorId = getLandmarkAnchorId(rawId);
+  const listKey = rawId || String(index);
+
+  return { anchorId, listKey };
+}
+
+function getInitialInput(entries) {
+  return entries[0]?.label ?? "";
+}
+
+function findExactEntry(entries, query) {
+  return entries.find(
+    (entry) => entry.label.toLowerCase() === query.toLowerCase(),
+  );
+}
+
+function findPartialEntry(entries, query) {
+  return entries.find((entry) =>
+    entry.label.toLowerCase().includes(query.toLowerCase()),
+  );
+}
+
+function findMatchingEntry(entries, query) {
+  if (!query) {
+    return null;
+  }
+
+  const lowered = query.trim().toLowerCase();
+
+  if (!lowered) {
+    return null;
+  }
+
+  const exactMatch = findExactEntry(entries, lowered);
+
+  if (exactMatch) {
+    return exactMatch;
+  }
+
+  if (lowered.length > 1) {
+    return findPartialEntry(entries, lowered);
+  }
+
+  return null;
+}
+
+function shouldAllowLinks(contextKey, linkifyIds) {
+  if (!linkifyIds) {
+    return false;
+  }
+
+  if (!contextKey) {
+    return true;
+  }
+
+  return (
+    !isIdKey(contextKey) || LINKABLE_ID_KEYS.has(canonicalizeIdKey(contextKey))
+  );
+}
+
+function getEntryScrollTarget(entry, options, fallback) {
+  if (options.scrollTo) {
+    return options.scrollTo;
+  }
+
+  if (!entry) {
+    return null;
+  }
+
+  const isAnatomyEntry =
+    entry.categorySegment === "bones" || entry.categorySegment === "muscles";
+
+  return isAnatomyEntry ? fallback : null;
+}
+
+function runScrollTarget(scrollTarget) {
+  if (!scrollTarget) {
+    return;
+  }
+
+  if (typeof requestAnimationFrame === "function") {
+    requestAnimationFrame(scrollTarget);
+    return;
+  }
+
+  scrollTarget();
+}
+
+function scrollLandmarkIntoView(anchorId, attemptsLeft = 6) {
+  if (typeof document === "undefined") {
+    return;
+  }
+
+  const element = document.getElementById(anchorId);
+
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    if (typeof element.focus === "function") {
+      element.focus({ preventScroll: true });
+    }
+
+    if (typeof window !== "undefined" && window.history?.replaceState) {
+      const url = new URL(window.location.href);
+      url.hash = anchorId;
+      window.history.replaceState(null, "", url);
+    }
+
+    return;
+  }
+
+  if (
+    attemptsLeft > 0 &&
+    typeof requestAnimationFrame === "function"
+  ) {
+    requestAnimationFrame(() =>
+      scrollLandmarkIntoView(anchorId, attemptsLeft - 1),
+    );
+  }
+}
+
+function compareEntries(a, b) {
+  if (a.categorySegment === b.categorySegment) {
+    return a.label.localeCompare(b.label);
+  }
+
+  return a.categorySegment.localeCompare(b.categorySegment);
+}
+
+function loadEntries() {
+  return Object.entries(dataModules).map(normalizeEntry);
+}
+
+function getSortedEntries() {
+  return loadEntries().sort(compareEntries);
+}
+
 function isIdKey(key) {
   if (typeof key !== "string") {
     return false;
@@ -223,15 +465,11 @@ function LandmarkList({ landmarks, renderValue, parentKey }) {
   return (
     <Stack component="ul" spacing={1} sx={{ m: 0, pl: 2 }}>
       {landmarks.map((landmark, index) => {
-        const rawId = landmark?.id;
-        const trimmedId =
-          typeof rawId === "string" ? rawId.trim() : String(index);
-        const sanitizedId = trimmedId.replace(/\s+/g, "-");
-        const anchorId = sanitizedId ? `landmark-${sanitizedId}` : undefined;
+        const { anchorId, listKey } = getLandmarkListItemMeta(landmark, index);
 
         return (
           <Box
-            key={trimmedId || index}
+            key={listKey}
             component="li"
             id={anchorId}
             tabIndex={anchorId ? -1 : undefined}
@@ -274,26 +512,28 @@ function AdditionalDetailSections({ detailSections, renderValue }) {
 }
 
 function getPrimaryName(record, fallback) {
-  if (typeof record?.name === "string") {
-    return record.name;
+  const nameRecord = record?.name;
+
+  if (typeof nameRecord === "string") {
+    return nameRecord;
   }
 
-  if (typeof record?.name?.name === "string") {
-    return record.name.name;
+  if (
+    nameRecord &&
+    typeof nameRecord === "object" &&
+    typeof nameRecord.name === "string"
+  ) {
+    return nameRecord.name;
   }
 
   return fallback;
 }
 
 function normalizeEntry([pathKey, module]) {
-  const jsonData = module?.default ?? module;
-  const normalizedPath = pathKey.replaceAll("\\", "/");
-  const segments = normalizedPath.split("/");
-  const fileName = segments[segments.length - 1] ?? "";
-  const categorySegment = segments[segments.length - 2] ?? "";
-  const slug = fileName.replace(/\.json$/i, "");
-  const categoryLabel = CATEGORY_LABELS[categorySegment] ?? categorySegment;
-
+  const jsonData = getModuleData(module);
+  const { fileName, categorySegment } = parseEntryPath(pathKey);
+  const slug = createSlug(fileName);
+  const categoryLabel = getCategoryLabel(categorySegment);
   const primaryName = getPrimaryName(jsonData, slug);
 
   return {
@@ -301,74 +541,23 @@ function normalizeEntry([pathKey, module]) {
     category: categoryLabel,
     categorySegment,
     slug,
-    label: `${primaryName} · ${categoryLabel}`,
+    label: createEntryLabel(primaryName, categoryLabel),
     primaryName,
-    data: jsonData ?? {},
+    data: jsonData,
   };
 }
 
 function App() {
-  const entries = useMemo(
-    () =>
-      Object.entries(dataModules)
-        .map(normalizeEntry)
-        .sort((a, b) => {
-          if (a.categorySegment === b.categorySegment) {
-            return a.label.localeCompare(b.label);
-          }
-          return a.categorySegment.localeCompare(b.categorySegment);
-        }),
-    [],
-  );
-
-  const [inputValue, setInputValue] = useState(entries[0]?.label ?? "");
-
+  const entries = useMemo(() => getSortedEntries(), []);
+  const [inputValue, setInputValue] = useState(getInitialInput(entries));
   const [debouncedInput, setDebouncedInput] = useState("");
   const [, startTransition] = useTransition();
 
-  const entryById = useMemo(() => {
-    const map = new Map();
-
-    for (const entry of entries) {
-      const entryId = entry?.data?.id;
-
-      if (typeof entryId === "string" && entryId.trim()) {
-        map.set(entryId, entry);
-      }
-    }
-
-    return map;
-  }, [entries]);
-
-  const landmarkEntryIndex = useMemo(() => {
-    const map = new Map();
-
-    for (const entry of entries) {
-      const landmarks = entry?.data?.landmarks;
-
-      if (!Array.isArray(landmarks)) {
-        continue;
-      }
-
-      for (const landmark of landmarks) {
-        const rawId =
-          typeof landmark?.id === "string" ? landmark.id.trim() : "";
-
-        if (!rawId) {
-          continue;
-        }
-
-        const sanitizedId = rawId.replace(/\s+/g, "-");
-
-        map.set(rawId, {
-          entry,
-          anchorId: `landmark-${sanitizedId}`,
-        });
-      }
-    }
-
-    return map;
-  }, [entries]);
+  const entryById = useMemo(() => buildEntryIndex(entries), [entries]);
+  const landmarkEntryIndex = useMemo(
+    () => buildLandmarkEntryIndex(entries),
+    [entries],
+  );
 
   const scrollToEntryTitle = useCallback(() => {
     if (typeof document === "undefined") {
@@ -399,113 +588,93 @@ function App() {
         setDebouncedInput(entry.label.trim().toLowerCase());
       });
 
-      const scrollTarget =
-        options.scrollTo ??
-        (entry.categorySegment === "bones" ||
-        entry.categorySegment === "muscles"
-          ? scrollToEntryTitle
-          : null);
+      const scrollTarget = getEntryScrollTarget(
+        entry,
+        options,
+        scrollToEntryTitle,
+      );
 
-      if (scrollTarget) {
-        if (typeof requestAnimationFrame === "function") {
-          requestAnimationFrame(scrollTarget);
-        } else {
-          scrollTarget();
-        }
-      }
+      runScrollTarget(scrollTarget);
     },
     [setInputValue, setDebouncedInput, startTransition, scrollToEntryTitle],
   );
 
-  const selectedEntry = useMemo(() => {
-    if (!debouncedInput) {
-      return null;
-    }
+  const selectedEntry = useMemo(
+    () => findMatchingEntry(entries, debouncedInput),
+    [debouncedInput, entries],
+  );
 
-    const exactMatch = entries.find(
-      (entry) => entry.label.toLowerCase() === debouncedInput,
-    );
+  const landmarkAnchors = useMemo(
+    () => buildLandmarkAnchors(selectedEntry),
+    [selectedEntry],
+  );
 
-    if (exactMatch) {
-      return exactMatch;
-    }
-
-    if (debouncedInput.length > 1) {
-      const partialMatch = entries.find((entry) =>
-        entry.label.toLowerCase().includes(debouncedInput),
-      );
-
-      if (partialMatch) {
-        return partialMatch;
-      }
-    }
-
-    return null;
-  }, [debouncedInput, entries]);
-
-  const landmarkAnchors = useMemo(() => {
-    // Precompute landmark ids so attachments can scroll to matching sections.
-    const map = new Map();
-
-    if (!selectedEntry) {
-      return map;
-    }
-
-    for (const landmark of selectedEntry.data?.landmarks ?? []) {
-      const landmarkId =
-        typeof landmark?.id === "string" ? landmark.id.trim() : "";
-
-      if (landmarkId) {
-        const sanitizedId = landmarkId.replace(/\s+/g, "-");
-
-        map.set(landmarkId, `landmark-${sanitizedId}`);
-      }
-    }
-
-    return map;
-  }, [selectedEntry]);
-
-  // renderValue normalizes arbitrary JSON into typography, links, or lists.
   const renderValue = useCallback(
     function renderValueInner(value, { contextKey, linkifyIds = true } = {}) {
-      // Shared helper keeps empty states consistent across data shapes.
       const renderMissing = (label = "None listed") => (
         <Typography component="span" variant="body2" color="text.secondary">
           {label}
         </Typography>
       );
 
-      if (value === null || value === undefined) {
-        return renderMissing("—");
-      }
+      const renderText = (text) => (
+        <Typography component="span" variant="body1">
+          {text}
+        </Typography>
+      );
 
-      if (Array.isArray(value)) {
-        if (value.length === 0) {
+      const renderArrayValue = (items) => {
+        if (!items.length) {
           return renderMissing();
         }
 
         return (
           <Stack component="ul" spacing={1} sx={{ m: 0, pl: 2 }}>
-            {value.map((entry, index) => (
+            {items.map((entry, index) => (
               <Box
                 key={index}
                 component="li"
                 sx={{ listStyleType: "disc", pl: 1 }}
               >
-                {renderValueInner(entry, {
-                  contextKey,
-                  linkifyIds,
-                })}
+                {renderValueInner(entry, { contextKey, linkifyIds })}
               </Box>
             ))}
           </Stack>
         );
-      }
+      };
 
-      if (typeof value === "object") {
-        const entriesList = Object.entries(value);
+      const handleAnchorClick = (event, anchorId) => {
+        if (typeof document === "undefined") {
+          return;
+        }
 
-        if (entriesList.length === 0) {
+        const target = document.getElementById(anchorId);
+
+        if (!target) {
+          return;
+        }
+
+        event.preventDefault();
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+
+        if (typeof target.focus === "function") {
+          target.focus({ preventScroll: true });
+        }
+
+        if (
+          typeof window !== "undefined" &&
+          window.history?.replaceState
+        ) {
+          const url = new URL(window.location.href);
+          url.hash = anchorId;
+          window.history.replaceState(null, "", url);
+        }
+      };
+
+      const renderObjectValue = (objectValue) => {
+        const entriesList = Object.entries(objectValue);
+
+        if (!entriesList.length) {
           return renderMissing();
         }
 
@@ -523,191 +692,150 @@ function App() {
                 <Box component="dd" sx={{ m: 0 }}>
                   {renderValueInner(nestedValue, {
                     contextKey: key,
-                    linkifyIds:
-                      linkifyIds &&
-                      (!isIdKey(key) ||
-                        LINKABLE_ID_KEYS.has(canonicalizeIdKey(key))),
+                    linkifyIds: shouldAllowLinks(key, linkifyIds),
                   })}
                 </Box>
               </Box>
             ))}
           </Stack>
         );
-      }
+      };
 
-      if (typeof value === "string") {
-        const trimmedValue = value.trim();
+      const renderEntryLink = (trimmedValue) => {
+        const linkedEntry = entryById.get(trimmedValue);
+
+        if (!linkedEntry) {
+          return null;
+        }
+
+        return (
+          <Link
+            component="button"
+            type="button"
+            underline="hover"
+            onClick={() => selectEntry(linkedEntry)}
+            aria-label={`View record for ${trimmedValue}`}
+            title={trimmedValue}
+            sx={{
+              cursor: "pointer",
+              p: 0,
+              fontSize: "inherit",
+              fontWeight: "inherit",
+              fontFamily: "inherit",
+              textAlign: "left",
+            }}
+          >
+            {trimmedValue}
+          </Link>
+        );
+      };
+
+      const renderLandmarkAnchor = (trimmedValue) => {
+        const anchorId = landmarkAnchors.get(trimmedValue);
+
+        if (!anchorId) {
+          return null;
+        }
+
+        return (
+          <Link
+            href={`#${anchorId}`}
+            underline="hover"
+            onClick={(event) => handleAnchorClick(event, anchorId)}
+          >
+            {trimmedValue}
+          </Link>
+        );
+      };
+
+      const renderCrossEntryLandmark = (trimmedValue) => {
+        const landmarkTarget = landmarkEntryIndex.get(trimmedValue);
+
+        if (!landmarkTarget) {
+          return null;
+        }
+
+        const { entry: targetEntry, anchorId } = landmarkTarget;
+
+        const handleClick = () => {
+          selectEntry(targetEntry, {
+            scrollTo: () => scrollLandmarkIntoView(anchorId),
+          });
+        };
+
+        return (
+          <Link
+            component="button"
+            type="button"
+            underline="hover"
+            onClick={handleClick}
+            aria-label={`View landmark ${trimmedValue}`}
+            title={trimmedValue}
+            sx={{
+              cursor: "pointer",
+              p: 0,
+              fontSize: "inherit",
+              fontWeight: "inherit",
+              fontFamily: "inherit",
+              textAlign: "left",
+            }}
+          >
+            {trimmedValue}
+          </Link>
+        );
+      };
+
+      const renderStringValue = (rawValue) => {
+        const trimmedValue = rawValue.trim();
 
         if (!trimmedValue) {
           return renderMissing("—");
         }
 
-        const normalizedContextKey = canonicalizeIdKey(contextKey);
-        const allowLinks =
-          linkifyIds &&
-          (!isIdKey(contextKey) || LINKABLE_ID_KEYS.has(normalizedContextKey));
+        const allowLinks = shouldAllowLinks(contextKey, linkifyIds);
 
-        if (allowLinks) {
-          const linkedEntry = entryById.get(trimmedValue);
-
-          if (linkedEntry) {
-            const displayLabel = trimmedValue;
-
-            return (
-              <Link
-                component="button"
-                type="button"
-                underline="hover"
-                onClick={() => selectEntry(linkedEntry)}
-                aria-label={`View record for ${displayLabel}`}
-                title={trimmedValue}
-                sx={{
-                  cursor: "pointer",
-                  p: 0,
-                  fontSize: "inherit",
-                  fontWeight: "inherit",
-                  fontFamily: "inherit",
-                  textAlign: "left",
-                }}
-              >
-                {displayLabel}
-              </Link>
-            );
-          }
+        if (!allowLinks) {
+          return renderText(trimmedValue);
         }
 
-        const landmarkAnchorId = allowLinks
-          ? landmarkAnchors.get(trimmedValue)
-          : undefined;
+        const entryLink = renderEntryLink(trimmedValue);
 
-        if (landmarkAnchorId) {
-          return (
-            <Link
-              href={`#${landmarkAnchorId}`}
-              underline="hover"
-              onClick={(event) => {
-                if (typeof document === "undefined") {
-                  return;
-                }
-
-                const target = document.getElementById(landmarkAnchorId);
-
-                if (!target) {
-                  return;
-                }
-
-                event.preventDefault();
-                target.scrollIntoView({ behavior: "smooth", block: "start" });
-
-                if (typeof target.focus === "function") {
-                  target.focus({ preventScroll: true });
-                }
-
-                if (
-                  typeof window !== "undefined" &&
-                  window.history?.replaceState
-                ) {
-                  const url = new URL(window.location.href);
-                  url.hash = landmarkAnchorId;
-                  window.history.replaceState(null, "", url);
-                }
-              }}
-            >
-              {trimmedValue}
-            </Link>
-          );
+        if (entryLink) {
+          return entryLink;
         }
 
-        if (allowLinks) {
-          const landmarkTarget = landmarkEntryIndex.get(trimmedValue);
+        const anchorLink = renderLandmarkAnchor(trimmedValue);
 
-          if (landmarkTarget) {
-            const { entry: targetEntry, anchorId } = landmarkTarget;
-
-            const scrollToLandmark = () => {
-              if (typeof document === "undefined") {
-                return;
-              }
-
-              const runScroll = (attemptsLeft = 6) => {
-                const element = document.getElementById(anchorId);
-
-                if (element) {
-                  element.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                  });
-
-                  if (typeof element.focus === "function") {
-                    element.focus({ preventScroll: true });
-                  }
-
-                  if (
-                    typeof window !== "undefined" &&
-                    window.history?.replaceState
-                  ) {
-                    const url = new URL(window.location.href);
-                    url.hash = anchorId;
-                    window.history.replaceState(null, "", url);
-                  }
-
-                  return;
-                }
-
-                if (
-                  attemptsLeft > 0 &&
-                  typeof requestAnimationFrame === "function"
-                ) {
-                  requestAnimationFrame(() => runScroll(attemptsLeft - 1));
-                }
-              };
-
-              if (typeof requestAnimationFrame === "function") {
-                requestAnimationFrame(() => runScroll());
-              } else {
-                runScroll();
-              }
-            };
-
-            return (
-              <Link
-                component="button"
-                type="button"
-                underline="hover"
-                onClick={() => {
-                  selectEntry(targetEntry, {
-                    scrollTo: scrollToLandmark,
-                  });
-                }}
-                aria-label={`View landmark ${trimmedValue}`}
-                title={trimmedValue}
-                sx={{
-                  cursor: "pointer",
-                  p: 0,
-                  fontSize: "inherit",
-                  fontWeight: "inherit",
-                  fontFamily: "inherit",
-                  textAlign: "left",
-                }}
-              >
-                {trimmedValue}
-              </Link>
-            );
-          }
+        if (anchorLink) {
+          return anchorLink;
         }
 
-        return (
-          <Typography component="span" variant="body1">
-            {trimmedValue}
-          </Typography>
-        );
+        const crossEntryLandmark = renderCrossEntryLandmark(trimmedValue);
+
+        if (crossEntryLandmark) {
+          return crossEntryLandmark;
+        }
+
+        return renderText(trimmedValue);
+      };
+
+      if (value === null || value === undefined) {
+        return renderMissing("—");
       }
 
-      return (
-        <Typography component="span" variant="body1">
-          {String(value)}
-        </Typography>
-      );
+      if (Array.isArray(value)) {
+        return renderArrayValue(value);
+      }
+
+      if (typeof value === "object") {
+        return renderObjectValue(value);
+      }
+
+      if (typeof value === "string") {
+        return renderStringValue(value);
+      }
+
+      return renderText(String(value));
     },
     [entryById, landmarkAnchors, landmarkEntryIndex, selectEntry],
   );

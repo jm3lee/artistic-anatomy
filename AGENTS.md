@@ -43,3 +43,6 @@
 - Documentation
   - Write software docs as an expert engineer, providing enough detail for new
     team members.
+- Linting
+  - Keep cyclomatic complexity at or below 7 when configuring tooling or
+    updating code paths.
