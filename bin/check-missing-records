@@ -63,7 +63,7 @@ def main() -> int:
                     missing.add(f"landmark:{bone_id}:{landmark_id}")
                 for muscle_id in item.get("muscles", []):
                     if muscle_id not in muscles:
-                        missing.add(f"muscle:{muscle_id}")
+                        missing.add(f"{muscle_id}")
 
     for muscle_id, payload in muscles.items():
         for section in ("origins", "insertions"):
@@ -71,7 +71,7 @@ def main() -> int:
                 bone_id = item.get("bone_id")
                 landmark_id = item.get("landmark_id")
                 if bone_id and bone_id not in bones:
-                    missing.add(f"bone:{bone_id}")
+                    missing.add(f"{bone_id}")
                 if landmark_id:
                     if not bone_id:
                         missing.add(f"landmark:{landmark_id} missing bone reference")
@@ -81,7 +81,7 @@ def main() -> int:
     for group_id, payload in groups.items():
         for muscle_id in payload.get("muscles", []):
             if muscle_id not in muscles:
-                missing.add(f"muscle:{muscle_id}")
+                missing.add(f"{muscle_id}")
 
     if not missing:
         print("No missing records found.")
