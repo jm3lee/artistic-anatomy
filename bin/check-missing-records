@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+"""Check JSON data files for missing cross-referenced records."""
+from __future__ import annotations
+
+import json
+from collections import defaultdict
+from pathlib import Path
+from typing import Dict, Iterable, Set, Tuple
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT / "data"
+
+Category = Tuple[str, str]
+
+
+def load_json(path: Path) -> Dict:
+    with path.open(encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def collect_records(paths: Iterable[Path]) -> Tuple[Dict[str, Dict], Dict[str, Path]]:
+    records: Dict[str, Dict] = {}
+    sources: Dict[str, Path] = {}
+    for path in paths:
+        payload = load_json(path)
+        record_id = payload.get("id")
+        if not record_id:
+            raise ValueError(f"Missing id in {path.relative_to(ROOT)}")
+        records[record_id] = payload
+        sources[record_id] = path
+    return records, sources
+
+
+def collect_bone_landmarks(bones: Dict[str, Dict]) -> Dict[str, Set[str]]:
+    landmarks: Dict[str, Set[str]] = defaultdict(set)
+    for bone_id, payload in bones.items():
+        for landmark in payload.get("landmarks", []):
+            landmark_id = landmark.get("id")
+            if landmark_id:
+                landmarks[bone_id].add(landmark_id)
+    return landmarks
+
+
+def main() -> int:
+    bone_paths = (DATA_DIR / "bones").glob("*.json")
+    muscle_paths = (DATA_DIR / "muscles").glob("*.json")
+    group_paths = (DATA_DIR / "muscle-groups").glob("*.json")
+
+    bones, bone_sources = collect_records(bone_paths)
+    muscles, muscle_sources = collect_records(muscle_paths)
+    groups, group_sources = collect_records(group_paths)
+
+    bone_landmarks = collect_bone_landmarks(bones)
+
+    missing: Set[str] = set()
+
+    for bone_id, payload in bones.items():
+        rel_path = bone_sources[bone_id].relative_to(ROOT)
+        known_landmarks = bone_landmarks.get(bone_id, set())
+        for section in ("origins", "insertions"):
+            for item in payload.get(section, []):
+                landmark_id = item.get("landmark")
+                if landmark_id and landmark_id not in known_landmarks:
+                    missing.add(
+                        f"{rel_path}: unknown landmark '{landmark_id}' in {section}"
+                    )
+                for muscle_id in item.get("muscles", []):
+                    if muscle_id not in muscles:
+                        missing.add(
+                            f"{rel_path}: missing muscle '{muscle_id}' in {section}"
+                        )
+
+    for muscle_id, payload in muscles.items():
+        rel_path = muscle_sources[muscle_id].relative_to(ROOT)
+        for section in ("origins", "insertions"):
+            for item in payload.get(section, []):
+                bone_id = item.get("bone_id")
+                landmark_id = item.get("landmark_id")
+                if bone_id and bone_id not in bones:
+                    missing.add(
+                        f"{rel_path}: missing bone '{bone_id}' in {section}"
+                    )
+                if landmark_id:
+                    if not bone_id:
+                        missing.add(
+                            f"{rel_path}: landmark '{landmark_id}' lacks bone reference in {section}"
+                        )
+                    elif landmark_id not in bone_landmarks.get(bone_id, set()):
+                        missing.add(
+                            f"{rel_path}: missing landmark '{landmark_id}' on bone '{bone_id}' in {section}"
+                        )
+
+    for group_id, payload in groups.items():
+        rel_path = group_sources[group_id].relative_to(ROOT)
+        for muscle_id in payload.get("muscles", []):
+            if muscle_id not in muscles:
+                missing.add(
+                    f"{rel_path}: missing muscle '{muscle_id}' in muscles list"
+                )
+
+    if not missing:
+        print("No missing records found.")
+        return 0
+
+    print("Missing records:")
+    for message in sorted(missing):
+        print(f"- {message}")
+    return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
