@@ -1,0 +1,54 @@
+{
+  "id": "sartorius-muscle",
+  "name": {
+    "name": "Sartorius",
+    "translations": {
+      "fr": "Sartorius",
+      "es": "Sartorio",
+      "ru": "Портняжная мышца"
+    }
+  },
+  "url": "/muscles/sartorius",
+  "status": "published",
+  "description": "Sartorius winds from the front hip across the thigh like a ribbon, steering the leg into seated and crossed-legged poses artists love to study.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Sartorius"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Sartorius Muscle"
+  },
+  "actions": [
+    "Flexes the hip while abducting and laterally rotating the thigh to initiate tailor-style sitting.",
+    "Assists knee flexion and medial rotation when the leg is unweighted, aiding graceful transitions.",
+    "Stabilizes the pelvis and knee along the medial thigh during poised standing poses."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "anterior-superior-iliac-spine"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "pes-anserinus-area"
+    }
+  ],
+  "tags": [
+    "anterior-thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

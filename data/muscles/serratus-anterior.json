@@ -1,0 +1,54 @@
+{
+  "id": "serratus-anterior-muscle",
+  "name": {
+    "name": "Serratus Anterior",
+    "translations": {
+      "fr": "Dentelé antérieur",
+      "es": "Serrato anterior",
+      "ru": "Передняя зубчатая мышца"
+    }
+  },
+  "url": "/muscles/serratus-anterior",
+  "status": "published",
+  "description": "Serratus anterior fans along the ribs with finger-like slips that drive scapular glide and help lock the shoulder to the thorax for expressive reaches.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Serratus Anterior"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Serratus Anterior Muscle"
+  },
+  "actions": [
+    "Protracts the scapula to sweep it around the rib cage, broadening the back for powerful punches and reaches.",
+    "Upwardly rotates the scapula in concert with the trapezius to free the arm for overhead gestures.",
+    "Stabilizes the scapula against the thorax, preventing winging during weight-bearing on the upper limb."
+  ],
+  "origins": [
+    {
+      "bone_id": "rib-cage-bone",
+      "landmark_id": "upper-lateral-ribs"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "medial-border"
+    }
+  ],
+  "tags": [
+    "thorax",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
