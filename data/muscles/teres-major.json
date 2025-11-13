@@ -1,0 +1,54 @@
+{
+  "id": "teres-major-muscle",
+  "name": {
+    "name": "Teres Major",
+    "translations": {
+      "fr": "Grand rond",
+      "es": "Redondo mayor",
+      "ru": "Большая круглая мышца"
+    }
+  },
+  "url": "/muscles/teres-major",
+  "status": "published",
+  "description": "Teres major is the thick border of the posterior axilla, sweeping from the scapula to the humerus to pull the arm back and inward with powerful grace.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Teres Major"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Teres Major Muscle"
+  },
+  "actions": [
+    "Adducts the humerus, drawing the arm close to the torso in strong pulling motions.",
+    "Extends the shoulder from a flexed position, powering rowing and climbing gestures.",
+    "Medially rotates the humerus, turning the inner arm forward for expressive poses."
+  ],
+  "origins": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "inferior-angle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "bicipital-groove"
+    }
+  ],
+  "tags": [
+    "shoulder",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

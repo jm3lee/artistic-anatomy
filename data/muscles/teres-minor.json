@@ -1,0 +1,54 @@
+{
+  "id": "teres-minor-muscle",
+  "name": {
+    "name": "Teres Minor",
+    "translations": {
+      "fr": "Petit rond",
+      "es": "Redondo menor",
+      "ru": "Малая круглая мышца"
+    }
+  },
+  "url": "/muscles/teres-minor",
+  "status": "published",
+  "description": "Teres minor is a slender rotator cuff cord that braces the back of the shoulder while adding a crisp ridge above teres major for artists to stage the scapular border.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Teres Minor"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Teres Minor Muscle"
+  },
+  "actions": [
+    "Laterally rotates the humerus, balancing the cuff against powerful internal rotators.",
+    "Assists with adduction when the arm is slightly abducted, helping tuck the elbow toward the flank.",
+    "Stabilizes the glenohumeral joint by compressing the humeral head into the glenoid."
+  ],
+  "origins": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "lateral-border"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "greater-tubercle"
+    }
+  ],
+  "tags": [
+    "shoulder",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
