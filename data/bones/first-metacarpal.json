@@ -1,0 +1,58 @@
+{
+    "id": "first-metacarpal-bone",
+    "name": {
+        "name": "First Metacarpal",
+        "translations": {
+            "fr": "Premier métacarpien",
+            "es": "Primer metacarpiano",
+            "ru": "Первая пястная кость"
+        }
+    },
+    "url": "/bones/first-metacarpal",
+    "status": "published",
+    "description": "The first metacarpal forms the stout column of the thumb, pivoting freely to pose expressive silhouettes in hand studies.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "First Metacarpal"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "First Metacarpal Bone"
+    },
+    "landmarks": [
+        {
+            "id": "base-of-first-metacarpal",
+            "name": "Base of the first metacarpal",
+            "desc": "Roughened proximal wedge that receives tendons and allows the thumb's saddle joint to sweep outward."
+        },
+        {
+            "id": "lateral-first-metacarpal",
+            "name": "Lateral surface",
+            "desc": "Outer plane that catches light when the thumb abducts, emphasizing the web space."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "base-of-first-metacarpal",
+            "muscles": [
+                "abductor-pollicis-longus-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "hand",
+        "appendicular-skeleton"
+    ],
+    "icon": "bone"
+}

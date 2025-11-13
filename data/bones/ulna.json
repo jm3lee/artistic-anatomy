@@ -98,6 +98,12 @@
             "muscles": [
                 "brachialis-muscle"
             ]
+        },
+        {
+            "landmark": "coronoid-process",
+            "muscles": [
+                "brachialis-muscle"
+            ]
         }
     ],
     "origins": [

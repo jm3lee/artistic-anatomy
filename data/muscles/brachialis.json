@@ -1,0 +1,58 @@
+{
+  "id": "brachialis-muscle",
+  "name": {
+    "name": "Brachialis",
+    "translations": {
+      "fr": "Brachial",
+      "es": "Braquial",
+      "ru": "Плечевая мышца"
+    }
+  },
+  "url": "/muscles/brachialis",
+  "status": "published",
+  "description": "The brachialis lies deep to the biceps, yet its thick belly pushes the lower arm forward, powering everyday flexion with solid form.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Brachialis"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Brachialis Muscle"
+  },
+  "actions": [
+    "Flexes the elbow in all forearm positions, supplying the arm's steady pulling strength.",
+    "Tensions the joint capsule and ulna during load-bearing tasks, preventing pinching.",
+    "Bulks the lower bicipital region, rounding the transition into the forearm for artists."
+  ],
+  "origins": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "distal-anterior-humerus"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "ulnar-tuberosity"
+    },
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "coronoid-process"
+    }
+  ],
+  "tags": [
+    "anterior-arm",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

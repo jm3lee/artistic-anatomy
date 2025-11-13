@@ -69,10 +69,51 @@
             "id": "supraacetabular-groove",
             "name": "Supraacetabular groove",
             "desc": "Smooth notch on the superior rim of the acetabulum that receives the reflected head of the rectus femoris."
+        },
+        {
+            "id": "body-of-pubis",
+            "name": "Body of pubis",
+            "desc": "Anterior surface of the pubic body that offers a flat plane for the medial thigh tendons to grip."
+        },
+        {
+            "id": "inferior-pubic-ramus",
+            "name": "Inferior pubic ramus",
+            "desc": "Slender arch descending toward the ischium, giving origin to the short adductors."
+        },
+        {
+            "id": "ischial-ramus",
+            "name": "Ischial ramus",
+            "desc": "Medial bridge between pubis and ischium where deep adductor fibers span the obturator foramen."
         }
     ],
     "insertions": [],
-    "origins": [],
+    "origins": [
+        {
+            "landmark": "body-of-pubis",
+            "muscles": [
+                "adductor-longus-muscle"
+            ]
+        },
+        {
+            "landmark": "inferior-pubic-ramus",
+            "muscles": [
+                "adductor-brevis-muscle",
+                "adductor-magnus-muscle"
+            ]
+        },
+        {
+            "landmark": "ischial-ramus",
+            "muscles": [
+                "adductor-magnus-muscle"
+            ]
+        },
+        {
+            "landmark": "ischial-tuberosity",
+            "muscles": [
+                "adductor-magnus-muscle"
+            ]
+        }
+    ],
     "tags": [
         "pelvis",
         "axial-skeleton"
