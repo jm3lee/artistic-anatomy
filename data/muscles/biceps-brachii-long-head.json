@@ -1,0 +1,54 @@
+{
+  "id": "biceps-brachii-long-head-muscle",
+  "name": {
+    "name": "Biceps Brachii Long Head",
+    "translations": {
+      "fr": "Chef long du biceps brachial",
+      "es": "Cabeza larga del bíceps braquial",
+      "ru": "Длинная головка двуглавой мышцы плеча"
+    }
+  },
+  "url": "/muscles/biceps-brachii-long-head",
+  "status": "published",
+  "description": "The long head of biceps brachii sweeps from the scapula through the bicipital groove, forming the outer cord that rounds the front of the upper arm in shoulder gestures.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Biceps Brachii Long Head"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Biceps Brachii Long Head"
+  },
+  "actions": [
+    "Flexes the elbow with a strong, smooth pull that defines the anterior arm.",
+    "Supinates the forearm so the palm turns upward, tightening the tendon in the groove.",
+    "Helps flex the shoulder and stabilizes the humeral head during overhead reaches."
+  ],
+  "origins": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "supraglenoid-tubercle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "radius-bone",
+      "landmark_id": "radial-tuberosity"
+    }
+  ],
+  "tags": [
+    "anterior-arm",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

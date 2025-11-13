@@ -1,0 +1,54 @@
+{
+  "id": "biceps-brachii-short-head-muscle",
+  "name": {
+    "name": "Biceps Brachii Short Head",
+    "translations": {
+      "fr": "Chef court du biceps brachial",
+      "es": "Cabeza corta del bíceps braquial",
+      "ru": "Короткая головка двуглавой мышцы плеча"
+    }
+  },
+  "url": "/muscles/biceps-brachii-short-head",
+  "status": "published",
+  "description": "The short head of biceps brachii rises from the coracoid process and fills the inner upper-arm column that artists use to anchor the brachial mass to the chest.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Biceps Brachii Short Head"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Biceps Brachii Short Head"
+  },
+  "actions": [
+    "Shares elbow flexion duties with the long head, emphasizing the medial contour.",
+    "Assists forearm supination when sketching palms-up poses.",
+    "Helps flex and adduct the shoulder, drawing the arm across the torso."
+  ],
+  "origins": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "coracoid-process"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "radius-bone",
+      "landmark_id": "radial-tuberosity"
+    }
+  ],
+  "tags": [
+    "anterior-arm",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

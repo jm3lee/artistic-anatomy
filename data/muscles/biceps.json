@@ -1,0 +1,58 @@
+{
+  "id": "biceps-muscle",
+  "name": {
+    "name": "Biceps Brachii",
+    "translations": {
+      "fr": "Biceps brachial",
+      "es": "Bíceps braquial",
+      "ru": "Двуглавая мышца плеча"
+    }
+  },
+  "url": "/muscles/biceps",
+  "status": "published",
+  "description": "The biceps brachii crowns the front of the arm with two heads that merge into a strong tendon, giving the bicipital mound artists rely on for heroic flexion poses.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Biceps"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Biceps Brachii Muscle"
+  },
+  "actions": [
+    "Flexes the elbow, swelling the bicipital mass with a dramatic peak.",
+    "Supinates the forearm, turning the palm upward with crisp tendon definition.",
+    "Assists shoulder flexion and steadies the humeral head during reaching."
+  ],
+  "origins": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "supraglenoid-tubercle"
+    },
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "coracoid-process"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "radius-bone",
+      "landmark_id": "radial-tuberosity"
+    }
+  ],
+  "tags": [
+    "anterior-arm",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
