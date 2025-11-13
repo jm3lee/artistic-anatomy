@@ -56,6 +56,11 @@
             "desc": "Posterolateral bend where ribs change direction and catch oblique lighting."
         },
         {
+            "id": "upper-lateral-ribs",
+            "name": "Upper lateral ribs",
+            "desc": "Sawtooth surfaces of ribs one through nine where serratus anterior interlocks with the obliques."
+        },
+        {
             "id": "floating-ribs",
             "name": "Floating ribs",
             "desc": "Eleventh and twelfth ribs that hover in muscle, hinting at movement and flexibility."
