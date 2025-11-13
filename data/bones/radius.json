@@ -81,6 +81,12 @@
             "muscles": [
                 "flexor-pollicis-longus-muscle"
             ]
+        },
+        {
+            "landmark": "interosseous-border-radius",
+            "muscles": [
+                "abductor-pollicis-longus-muscle"
+            ]
         }
     ],
     "tags": [

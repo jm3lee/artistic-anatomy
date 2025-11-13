@@ -1,0 +1,54 @@
+{
+  "id": "adductor-brevis-muscle",
+  "name": {
+    "name": "Adductor Brevis",
+    "translations": {
+      "fr": "Court adducteur",
+      "es": "Aductor corto",
+      "ru": "Короткая приводящая мышца бедра"
+    }
+  },
+  "url": "/muscles/adductor-brevis",
+  "status": "published",
+  "description": "Adductor brevis tucks between the longus and magnus, packing the medial thigh with depth while fine-tuning hip alignment.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Adductor Brevis"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Adductor Brevis Muscle"
+  },
+  "actions": [
+    "Adducts the thigh with short, quick adjustments that keep balance steady.",
+    "Assists hip flexion and rotation when transitioning between seated and standing gestures.",
+    "Fills the medial thigh mass beneath the longus, softening the groin silhouette for artists."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "inferior-pubic-ramus"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "linea-aspera"
+    }
+  ],
+  "tags": [
+    "medial-thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

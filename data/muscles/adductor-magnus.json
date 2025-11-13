@@ -1,0 +1,66 @@
+{
+  "id": "adductor-magnus-muscle",
+  "name": {
+    "name": "Adductor Magnus",
+    "translations": {
+      "fr": "Grand adducteur",
+      "es": "Aductor mayor",
+      "ru": "Большая приводящая мышца бедра"
+    }
+  },
+  "url": "/muscles/adductor-magnus",
+  "status": "published",
+  "description": "Adductor magnus drapes along the medial thigh as a broad sheet, anchoring the leg with power while shaping the inner contour artists observe in deep stance poses.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Adductor Magnus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Adductor Magnus Muscle"
+  },
+  "actions": [
+    "Powerfully adducts the thigh, securing stance and closed-leg poses.",
+    "Posterior fibers extend the hip, helping transitions from seated to standing with controlled strength.",
+    "Creates a deep medial shadow that defines the thigh's inner wall in figure drawings."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "inferior-pubic-ramus"
+    },
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "ischial-ramus"
+    },
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "ischial-tuberosity"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "linea-aspera"
+    },
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "adductor-tubercle"
+    }
+  ],
+  "tags": [
+    "medial-thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

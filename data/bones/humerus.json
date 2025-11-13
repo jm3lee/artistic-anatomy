@@ -89,6 +89,11 @@
             "id": "capitulum",
             "name": "Capitulum",
             "desc": "Rounded lateral condyle that meets the radial head and gives the distal humerus its spherical contour."
+        },
+        {
+            "id": "distal-anterior-humerus",
+            "name": "Distal anterior humerus",
+            "desc": "Broad anterior surface of the distal half where the brachialis lies flush against the bone."
         }
     ],
     "insertions": [
@@ -150,6 +155,12 @@
             "landmark": "lateral-epicondyle",
             "muscles": [
                 "supinator-muscle"
+            ]
+        },
+        {
+            "landmark": "distal-anterior-humerus",
+            "muscles": [
+                "brachialis-muscle"
             ]
         }
     ],

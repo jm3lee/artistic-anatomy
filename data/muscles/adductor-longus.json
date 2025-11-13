@@ -1,0 +1,54 @@
+{
+  "id": "adductor-longus-muscle",
+  "name": {
+    "name": "Adductor Longus",
+    "translations": {
+      "fr": "Long adducteur",
+      "es": "Aductor largo",
+      "ru": "Длинная приводящая мышца бедра"
+    }
+  },
+  "url": "/muscles/adductor-longus",
+  "status": "published",
+  "description": "Adductor longus spans the medial thigh like a taut fan, guiding the leg back toward centerline and framing the groin for figure drawing studies.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Adductor Longus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Adductor Longus Muscle"
+  },
+  "actions": [
+    "Adducts the thigh, drawing it toward the body's midline for poised standing poses.",
+    "Assists hip flexion at the start of a stride or seated transition.",
+    "Stabilizes the pelvis when weight shifts, smoothing the medial thigh contour."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "body-of-pubis"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "linea-aspera"
+    }
+  ],
+  "tags": [
+    "medial-thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
