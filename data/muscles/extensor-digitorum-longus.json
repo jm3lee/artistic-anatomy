@@ -1,0 +1,71 @@
+{
+  "id": "extensor-digitorum-longus-muscle",
+  "name": {
+    "name": "Extensor Digitorum Longus",
+    "translations": {
+      "fr": "Long extenseur des orteils",
+      "es": "Extensor largo de los dedos del pie",
+      "ru": "Длинный разгибатель пальцев стопы"
+    }
+  },
+  "url": "/muscles/extensor-digitorum-longus",
+  "status": "published",
+  "description": "Extensor Digitorum Longus streaks down the anterior shin, lifting the lateral toes for crisp, weightless steps.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Extensor Digitorum Longus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Extensor Digitorum Longus Muscle"
+  },
+  "actions": [
+    "Extends toes two through five so they clear the ground during a light step or pointed pose.",
+    "Assists dorsiflexion at the ankle, sharpening the front of the ankle in flexed gestures.",
+    "Helps evert the foot slightly, enhancing the lateral sweep of the instep in dynamic stances."
+  ],
+  "origins": [
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "lateral-condyle-tibia"
+    },
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "fibular-shaft"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "distal-phalanges-foot-bone",
+      "landmark_id": "distal-phalanx-second-toe"
+    },
+    {
+      "bone_id": "distal-phalanges-foot-bone",
+      "landmark_id": "distal-phalanx-third-toe"
+    },
+    {
+      "bone_id": "distal-phalanges-foot-bone",
+      "landmark_id": "distal-phalanx-fourth-toe"
+    },
+    {
+      "bone_id": "distal-phalanges-foot-bone",
+      "landmark_id": "distal-phalanx-fifth-toe"
+    }
+  ],
+  "tags": [
+    "anterior-leg",
+    "dorsiflexor",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "extensor-pollicis-longus-muscle",
+  "name": {
+    "name": "Extensor Pollicis Longus",
+    "translations": {
+      "fr": "Long extenseur du pouce",
+      "es": "Extensor largo del pulgar",
+      "ru": "Длинный разгибатель большого пальца кисти"
+    }
+  },
+  "url": "/muscles/extensor-pollicis-longus",
+  "status": "published",
+  "description": "Extensor Pollicis Longus winds around the dorsal wrist, pulling the thumb straight for precise pointing and dramatic silhouettes.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Extensor Pollicis Longus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Extensor Pollicis Longus Muscle"
+  },
+  "actions": [
+    "Extends the interphalangeal and metacarpophalangeal joints of the thumb, sharpening the digit into a graphic line.",
+    "Adducts the thumb slightly, drawing it back toward the palm for sculptural control.",
+    "Uses the dorsal tubercle of the radius as a pulley, creating the anatomical snuffbox contour."
+  ],
+  "origins": [
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "posterior-border-ulna"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-thumb"
+    }
+  ],
+  "tags": [
+    "posterior-forearm",
+    "upper-limb",
+    "deep-layer"
+  ],
+  "icon": "muscle"
+}

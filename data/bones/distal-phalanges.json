@@ -10,7 +10,7 @@
     },
     "url": "/bones/distal-phalanges",
     "status": "published",
-    "description": "The distal phalanges taper into the fingertips and cap each digit with a wedge.",
+    "description": "The distal phalanges taper into the fingertips and thumb tip, finishing each digit with a wedge.",
     "doc": {
         "author": "Seattle Figure Studio",
         "breadcrumbs": [
@@ -30,6 +30,11 @@
         "title": "Distal Phalanges"
     },
     "landmarks": [
+        {
+            "id": "distal-phalanx-thumb",
+            "name": "Distal phalanx of thumb",
+            "desc": "Broad spade-like tip that crowns the thumb and supports precise pinches."
+        },
         {
             "id": "distal-phalanx-index",
             "name": "Distal phalanx of index finger",
@@ -52,6 +57,12 @@
         }
     ],
     "insertions": [
+        {
+            "landmark": "distal-phalanx-thumb",
+            "muscles": [
+                "extensor-pollicis-longus-muscle"
+            ]
+        },
         {
             "landmark": "distal-phalanx-index",
             "muscles": [

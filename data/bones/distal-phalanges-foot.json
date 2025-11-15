@@ -1,0 +1,97 @@
+{
+    "id": "distal-phalanges-foot-bone",
+    "name": {
+        "name": "Distal Phalanges of Foot",
+        "translations": {
+            "fr": "Phalanges distales du pied",
+            "es": "Falanges distales del pie",
+            "ru": "Дистальные фаланги стопы"
+        }
+    },
+    "url": "/bones/distal-phalanges-foot",
+    "status": "published",
+    "description": "The distal phalanges of the foot taper into the toes, providing delicate leverage for balance and pointework.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Distal Phalanges of Foot"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Distal Phalanges of Foot"
+    },
+    "landmarks": [
+        {
+            "id": "distal-phalanx-hallux",
+            "name": "Distal phalanx of hallux",
+            "desc": "Broad terminal wedge of the great toe that anchors balance and directional emphasis."
+        },
+        {
+            "id": "distal-phalanx-second-toe",
+            "name": "Distal phalanx of second toe",
+            "desc": "Slender tip that helps the forefoot track straight ahead in gait."
+        },
+        {
+            "id": "distal-phalanx-third-toe",
+            "name": "Distal phalanx of third toe",
+            "desc": "Central taper contributing to the toe fan in planted poses."
+        },
+        {
+            "id": "distal-phalanx-fourth-toe",
+            "name": "Distal phalanx of fourth toe",
+            "desc": "Narrow wedge that echoes the lateral sweep of the toes."
+        },
+        {
+            "id": "distal-phalanx-fifth-toe",
+            "name": "Distal phalanx of fifth toe",
+            "desc": "Tiny hook that rounds the outer border of the foot."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "distal-phalanx-hallux",
+            "muscles": [
+                "extensor-hallucis-longus-muscle"
+            ]
+        },
+        {
+            "landmark": "distal-phalanx-second-toe",
+            "muscles": [
+                "extensor-digitorum-longus-muscle"
+            ]
+        },
+        {
+            "landmark": "distal-phalanx-third-toe",
+            "muscles": [
+                "extensor-digitorum-longus-muscle"
+            ]
+        },
+        {
+            "landmark": "distal-phalanx-fourth-toe",
+            "muscles": [
+                "extensor-digitorum-longus-muscle"
+            ]
+        },
+        {
+            "landmark": "distal-phalanx-fifth-toe",
+            "muscles": [
+                "extensor-digitorum-longus-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "foot",
+        "appendicular-skeleton"
+    ],
+    "icon": "bone"
+}
