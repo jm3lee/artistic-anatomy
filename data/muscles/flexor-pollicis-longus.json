@@ -1,0 +1,59 @@
+{
+  "id": "flexor-pollicis-longus-muscle",
+  "name": {
+    "name": "Flexor Pollicis Longus",
+    "translations": {
+      "fr": "Long fléchisseur du pouce",
+      "es": "Flexor largo del pulgar",
+      "ru": "Длинный сгибатель большого пальца"
+    }
+  },
+  "url": "/muscles/flexor-pollicis-longus",
+  "status": "published",
+  "description": "Flexor Pollicis Longus runs along the deep anterior forearm, tunneling through the carpal tunnel to bend the thumb's tip with precision.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Flexor Pollicis Longus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Flexor Pollicis Longus Muscle"
+  },
+  "actions": [
+    "Flexes the interphalangeal joint of the thumb, closing the tip for delicate pinches and brush handling.",
+    "Assists flexion at the thumb's metacarpophalangeal joint to reinforce strong grips.",
+    "Stabilizes the carpal tunnel floor as it glides beside flexor digitorum profundus tendons."
+  ],
+  "origins": [
+    {
+      "bone_id": "radius-bone",
+      "landmark_id": "radial-head"
+    },
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "interosseous-border-ulna"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-thumb"
+    }
+  ],
+  "tags": [
+    "forearm",
+    "deep-flexor",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

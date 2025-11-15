@@ -1,0 +1,67 @@
+{
+  "id": "flexor-digitorum-longus-muscle",
+  "name": {
+    "name": "Flexor Digitorum Longus",
+    "translations": {
+      "fr": "Long fléchisseur des orteils",
+      "es": "Flexor largo de los dedos del pie",
+      "ru": "Длинный сгибатель пальцев стопы"
+    }
+  },
+  "url": "/muscles/flexor-digitorum-longus",
+  "status": "published",
+  "description": "Flexor Digitorum Longus threads along the deep posterior leg, sending tendons under the arch to curl the lateral toes with quiet strength.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Flexor Digitorum Longus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Flexor Digitorum Longus Muscle"
+  },
+  "actions": [
+    "Flexes toes two through five, enhancing grip on the ground or a dancer's pointe shoe.",
+    "Assists plantarflexion at the ankle, complementing gastrocnemius and soleus for powerful push-offs.",
+    "Supports the medial longitudinal arch by tightening its tendinous sling beneath the foot."
+  ],
+  "origins": [
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "medial-surface-tibia"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "distal-phalanges-foot-bone",
+      "landmark_id": "distal-phalanx-second-toe"
+    },
+    {
+      "bone_id": "distal-phalanges-foot-bone",
+      "landmark_id": "distal-phalanx-third-toe"
+    },
+    {
+      "bone_id": "distal-phalanges-foot-bone",
+      "landmark_id": "distal-phalanx-fourth-toe"
+    },
+    {
+      "bone_id": "distal-phalanges-foot-bone",
+      "landmark_id": "distal-phalanx-fifth-toe"
+    }
+  ],
+  "tags": [
+    "posterior-leg",
+    "plantarflexor",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

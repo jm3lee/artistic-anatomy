@@ -1,0 +1,71 @@
+{
+  "id": "flexor-carpi-ulnaris-muscle",
+  "name": {
+    "name": "Flexor Carpi Ulnaris",
+    "translations": {
+      "fr": "Fléchisseur ulnaire du carpe",
+      "es": "Flexor cubital del carpo",
+      "ru": "Локтевой сгибатель запястья"
+    }
+  },
+  "url": "/muscles/flexor-carpi-ulnaris",
+  "status": "published",
+  "description": "Flexor Carpi Ulnaris arcs along the ulnar forearm, cushioning the inner wrist and drawing the hand toward the little finger for graceful cupping.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Flexor Carpi Ulnaris"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Flexor Carpi Ulnaris Muscle"
+  },
+  "actions": [
+    "Flexes the wrist, softening the palmar arch for relaxed gestural grips.",
+    "Drives ulnar deviation so the hand fans toward the little finger in expressive poses.",
+    "Provides dynamic support to the pisiform and palmar carpal ligament, partnering with extensor carpi ulnaris for balanced wrist tension."
+  ],
+  "origins": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "medial-epicondyle"
+    },
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "olecranon-process"
+    },
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "posterior-border-ulna"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "pisiform-bone",
+      "landmark_id": "pisiform-body"
+    },
+    {
+      "bone_id": "hamate-bone",
+      "landmark_id": "hook-of-hamate"
+    },
+    {
+      "bone_id": "fifth-metacarpal-bone",
+      "landmark_id": "base-of-fifth-metacarpal"
+    }
+  ],
+  "tags": [
+    "forearm",
+    "anterior-compartment",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

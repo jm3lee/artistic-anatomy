@@ -1,0 +1,55 @@
+{
+  "id": "fibularis-brevis-muscle",
+  "name": {
+    "name": "Fibularis Brevis",
+    "translations": {
+      "fr": "Court fibulaire",
+      "es": "Peroneo corto",
+      "ru": "Короткая малоберцовая мышца"
+    }
+  },
+  "url": "/muscles/fibularis-brevis",
+  "status": "published",
+  "description": "Fibularis Brevis hugs the outer calf, bracing the lateral ankle and flicking the little-toe edge of the foot for lively balance cues.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Fibularis Brevis"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Fibularis Brevis Muscle"
+  },
+  "actions": [
+    "Everts the foot, rolling weight toward the lateral border during agile steps and skater poses.",
+    "Assists plantarflexion at the ankle so the outer calf can press the foot downward in pointed gestures.",
+    "Stabilizes the base of the fifth metatarsal, partnering with fibularis longus to prevent ankle roll-ins."
+  ],
+  "origins": [
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "fibular-shaft"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "fifth-metatarsal-bone",
+      "landmark_id": "tuberosity-of-fifth-metatarsal"
+    }
+  ],
+  "tags": [
+    "lateral-leg",
+    "evertor",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
