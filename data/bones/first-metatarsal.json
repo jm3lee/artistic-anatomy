@@ -1,0 +1,64 @@
+{
+    "id": "first-metatarsal-bone",
+    "name": {
+        "name": "First Metatarsal",
+        "translations": {
+            "fr": "Premier métatarsien",
+            "es": "Primer metatarsiano",
+            "ru": "Первая плюсневая кость"
+        }
+    },
+    "url": "/bones/first-metatarsal",
+    "status": "published",
+    "description": "The first metatarsal builds the sturdy medial column of the forefoot, letting artists anchor balance and express the big toe's push-off.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "First Metatarsal"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "First Metatarsal Bone"
+    },
+    "landmarks": [
+        {
+            "id": "base-of-first-metatarsal",
+            "name": "Base of the first metatarsal",
+            "desc": "Proximal wedge that braces against the medial cuneiform and anchors powerful arch tendons."
+        },
+        {
+            "id": "medial-first-metatarsal-shaft",
+            "name": "Medial shaft surface",
+            "desc": "Long medial plane that catches light in dorsiflexed poses and defines the inner arch."
+        },
+        {
+            "id": "head-of-first-metatarsal",
+            "name": "Head of the first metatarsal",
+            "desc": "Rounded distal head that pairs with the proximal phalanx to drive the big toe's expressive push."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "base-of-first-metatarsal",
+            "muscles": [
+                "fibularis-longus-muscle",
+                "tibialis-anterior-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "foot",
+        "appendicular-skeleton"
+    ],
+    "icon": "bone"
+}

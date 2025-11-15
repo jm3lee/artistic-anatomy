@@ -59,6 +59,16 @@
             "id": "sacral-ala",
             "name": "Sacral ala",
             "desc": "Flaring wings of the sacrum that merge into the pelvis and seat the torso."
+        },
+        {
+            "id": "dorsal-sacrum",
+            "name": "Dorsal sacrum",
+            "desc": "Rough midline surface of the sacrum where gluteus maximus fibers root."
+        },
+        {
+            "id": "coccyx-apex",
+            "name": "Coccyx apex",
+            "desc": "Tailbone tip that anchors the most inferior gluteus maximus fibers."
         }
     ],
     "insertions": [],
@@ -73,6 +83,18 @@
             "landmark": "spinous-processes-c7-t12",
             "muscles": [
                 "trapezius-muscle"
+            ]
+        },
+        {
+            "landmark": "dorsal-sacrum",
+            "muscles": [
+                "gluteus-maximus-muscle"
+            ]
+        },
+        {
+            "landmark": "coccyx-apex",
+            "muscles": [
+                "gluteus-maximus-muscle"
             ]
         }
     ],

@@ -1,0 +1,59 @@
+{
+  "id": "gluteus-medius-muscle",
+  "name": {
+    "name": "Gluteus Medius",
+    "translations": {
+      "fr": "Moyen fessier",
+      "es": "Glúteo medio",
+      "ru": "Средняя ягодичная мышца"
+    }
+  },
+  "url": "/muscles/gluteus-medius",
+  "status": "published",
+  "description": "Gluteus Medius fans over the lateral hip, lifting the pelvis and defining the upper buttock contour in standing poses.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Gluteus Medius"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Gluteus Medius Muscle"
+  },
+  "actions": [
+    "Abducts the thigh to open the pelvis, crucial for expressive contrapposto and walking cycles.",
+    "Stabilizes the pelvis during single-leg stance, preventing hip drop in fashion or dance references.",
+    "Assists internal rotation of the thigh, smoothing transitions between forward and side steps."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "gluteal-surface-ilium"
+    },
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "iliac-crest"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "greater-trochanter"
+    }
+  ],
+  "tags": [
+    "posterior-hip",
+    "hip-abductor",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

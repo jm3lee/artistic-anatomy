@@ -1,0 +1,63 @@
+{
+    "id": "fifth-metatarsal-bone",
+    "name": {
+        "name": "Fifth Metatarsal",
+        "translations": {
+            "fr": "Cinquième métatarsien",
+            "es": "Quinto metatarsiano",
+            "ru": "Пятая плюсневая кость"
+        }
+    },
+    "url": "/bones/fifth-metatarsal",
+    "status": "published",
+    "description": "The fifth metatarsal sketches the outer sweep of the foot, cueing weight shifts and the lively flick of the little toe in gesture drawings.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Fifth Metatarsal"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Fifth Metatarsal Bone"
+    },
+    "landmarks": [
+        {
+            "id": "tuberosity-of-fifth-metatarsal",
+            "name": "Tuberosity of the fifth metatarsal",
+            "desc": "Prominent lateral spike that the fibularis brevis tendon grips for powerful eversion."
+        },
+        {
+            "id": "lateral-border-fifth-metatarsal",
+            "name": "Lateral border",
+            "desc": "Long outer ridge that frames the foot's silhouette in dynamic balances."
+        },
+        {
+            "id": "head-of-fifth-metatarsal",
+            "name": "Head of the fifth metatarsal",
+            "desc": "Rounded distal head that meets the little toe's proximal phalanx for nimble pivots."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "tuberosity-of-fifth-metatarsal",
+            "muscles": [
+                "fibularis-brevis-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "foot",
+        "appendicular-skeleton"
+    ],
+    "icon": "bone"
+}

@@ -84,6 +84,21 @@
             "id": "ischial-ramus",
             "name": "Ischial ramus",
             "desc": "Medial bridge between pubis and ischium where deep adductor fibers span the obturator foramen."
+        },
+        {
+            "id": "posterior-iliac-crest",
+            "name": "Posterior iliac crest",
+            "desc": "Thick crest along the rear ilium where gluteus maximus fibers fan outward."
+        },
+        {
+            "id": "gluteal-surface-ilium",
+            "name": "Gluteal surface of ilium",
+            "desc": "Broad lateral plate between the gluteal lines that feeds the gluteus medius fan."
+        },
+        {
+            "id": "anterior-gluteal-surface",
+            "name": "Anterior gluteal surface",
+            "desc": "Lower lateral ilium tucked beneath medius where gluteus minimus originates."
         }
     ],
     "insertions": [],
@@ -111,6 +126,24 @@
             "landmark": "ischial-tuberosity",
             "muscles": [
                 "adductor-magnus-muscle"
+            ]
+        },
+        {
+            "landmark": "posterior-iliac-crest",
+            "muscles": [
+                "gluteus-maximus-muscle"
+            ]
+        },
+        {
+            "landmark": "gluteal-surface-ilium",
+            "muscles": [
+                "gluteus-medius-muscle"
+            ]
+        },
+        {
+            "landmark": "anterior-gluteal-surface",
+            "muscles": [
+                "gluteus-minimus-muscle"
             ]
         }
     ],
