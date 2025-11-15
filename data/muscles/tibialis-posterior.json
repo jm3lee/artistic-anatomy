@@ -1,0 +1,62 @@
+{
+  "id": "tibialis-posterior-muscle",
+  "name": {
+    "name": "Tibialis Posterior",
+    "translations": {
+      "fr": "Tibial postérieur",
+      "es": "Tibial posterior",
+      "ru": "Задняя большеберцовая мышца"
+    }
+  },
+  "url": "/muscles/tibialis-posterior",
+  "status": "published",
+  "description": "Tibialis posterior is the deep calf sling that hugs the tibia and dives behind the medial malleolus to bolster the inner arch.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Tibialis Posterior"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Tibialis Posterior Muscle"
+  },
+  "actions": [
+    "Inverts and plantarflexes the foot, sculpting the medial ankle sweep.",
+    "Supports the medial longitudinal arch for poised standing.",
+    "Assists with locking the hindfoot during push-off and turning motions."
+  ],
+  "origins": [
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "medial-surface-tibia"
+    },
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "interosseous-border-fibula"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "medial-cuneiform-bone",
+      "landmark_id": "medial-cuneiform-plantar-surface"
+    },
+    {
+      "bone_id": "first-metatarsal-bone",
+      "landmark_id": "base-of-first-metatarsal"
+    }
+  ],
+  "tags": [
+    "posterior-leg",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

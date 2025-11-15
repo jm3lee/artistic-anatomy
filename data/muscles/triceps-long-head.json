@@ -1,0 +1,54 @@
+{
+  "id": "triceps-long-head-muscle",
+  "name": {
+    "name": "Triceps Brachii Long Head",
+    "translations": {
+      "fr": "Chef long du triceps brachial",
+      "es": "Cabeza larga del tríceps braquial",
+      "ru": "Длинная головка трёхглавой мышцы плеча"
+    }
+  },
+  "url": "/muscles/triceps-long-head",
+  "status": "published",
+  "description": "The long head of triceps forms the inner posterior arm column, dropping from the scapula to the olecranon as a thick tensile strap.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Triceps Brachii Long Head"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Triceps Brachii Long Head"
+  },
+  "actions": [
+    "Extends the elbow with a steady push that defines the posterior arm silhouette.",
+    "Assists with shoulder extension and adduction from the scapular origin.",
+    "Helps prevent inferior translation of the humeral head during weight bearing."
+  ],
+  "origins": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "infraglenoid-tubercle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "olecranon-process"
+    }
+  ],
+  "tags": [
+    "posterior-arm",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

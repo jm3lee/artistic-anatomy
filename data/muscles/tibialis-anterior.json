@@ -1,0 +1,58 @@
+{
+  "id": "tibialis-anterior-muscle",
+  "name": {
+    "name": "Tibialis Anterior",
+    "translations": {
+      "fr": "Tibial antérieur",
+      "es": "Tibial anterior",
+      "ru": "Передняя большеберцовая мышца"
+    }
+  },
+  "url": "/muscles/tibialis-anterior",
+  "status": "published",
+  "description": "Tibialis anterior rides the sharp shin crest, forming the taut cable that lifts the foot and crisps the front of the ankle.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Tibialis Anterior"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Tibialis Anterior Muscle"
+  },
+  "actions": [
+    "Dorsiflexes the ankle, clearing the toes for stride and gestural pointing.",
+    "Inverts the foot to scoop the medial arch during balanced poses.",
+    "Provides isometric tension along the shin for crisp planar separation in the leg."
+  ],
+  "origins": [
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "lateral-condyle-tibia"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "medial-cuneiform-bone",
+      "landmark_id": "medial-cuneiform-medial-face"
+    },
+    {
+      "bone_id": "first-metatarsal-bone",
+      "landmark_id": "base-of-first-metatarsal"
+    }
+  ],
+  "tags": [
+    "anterior-leg",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

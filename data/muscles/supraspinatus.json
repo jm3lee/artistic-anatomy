@@ -1,0 +1,54 @@
+{
+  "id": "supraspinatus-muscle",
+  "name": {
+    "name": "Supraspinatus",
+    "translations": {
+      "fr": "Supra-épineux",
+      "es": "Supraespinoso",
+      "ru": "Надостная мышца"
+    }
+  },
+  "url": "/muscles/supraspinatus",
+  "status": "published",
+  "description": "Supraspinatus hides in the supraspinous fossa yet lifts the humeral head into abduction, setting the deltoid's outer sweep.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Supraspinatus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Supraspinatus Muscle"
+  },
+  "actions": [
+    "Initiates the first degrees of shoulder abduction before the deltoid takes over.",
+    "Compresses the humeral head into the glenoid, protecting the joint during overhead work.",
+    "Shapes a subtle triangular fullness above the scapular spine when the arm is active."
+  ],
+  "origins": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "supraspinous-fossa"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "greater-tubercle"
+    }
+  ],
+  "tags": [
+    "rotator-cuff",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
