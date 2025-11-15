@@ -71,6 +71,11 @@
             "desc": "Smooth notch on the superior rim of the acetabulum that receives the reflected head of the rectus femoris."
         },
         {
+            "id": "iliac-fossa",
+            "name": "Iliac fossa",
+            "desc": "Broad concave inner surface of the ilium that cradles iliacus fibers."
+        },
+        {
             "id": "body-of-pubis",
             "name": "Body of pubis",
             "desc": "Anterior surface of the pubic body that offers a flat plane for the medial thigh tendons to grip."
@@ -106,14 +111,16 @@
         {
             "landmark": "body-of-pubis",
             "muscles": [
-                "adductor-longus-muscle"
+                "adductor-longus-muscle",
+                "gracilis-muscle"
             ]
         },
         {
             "landmark": "inferior-pubic-ramus",
             "muscles": [
                 "adductor-brevis-muscle",
-                "adductor-magnus-muscle"
+                "adductor-magnus-muscle",
+                "gracilis-muscle"
             ]
         },
         {
@@ -144,6 +151,12 @@
             "landmark": "anterior-gluteal-surface",
             "muscles": [
                 "gluteus-minimus-muscle"
+            ]
+        },
+        {
+            "landmark": "iliac-fossa",
+            "muscles": [
+                "iliopsoas-muscle"
             ]
         }
     ],

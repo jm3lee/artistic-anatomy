@@ -1,0 +1,58 @@
+{
+    "id": "hamate-bone",
+    "name": {
+        "name": "Hamate",
+        "translations": {
+            "fr": "Os hamatum",
+            "es": "Ganchoso",
+            "ru": "Крючковидная кость"
+        }
+    },
+    "url": "/bones/hamate",
+    "status": "published",
+    "description": "The hamate caps the ulnar side of the carpus, its hook forming a palpable ridge that anchors the palm's ulnar arch.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Hamate"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Hamate Bone"
+    },
+    "landmarks": [
+        {
+            "id": "hook-of-hamate",
+            "name": "Hook of hamate",
+            "desc": "Anterior hook projecting toward the palm that guides flexor tendons and anchors ulnar ligaments."
+        },
+        {
+            "id": "hamate-body",
+            "name": "Body of hamate",
+            "desc": "Wedge-shaped carpal block that links the distal row with the lunate and capitate."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "hook-of-hamate",
+            "muscles": [
+                "flexor-carpi-ulnaris-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "hand",
+        "carpal-bone"
+    ],
+    "icon": "bone"
+}
