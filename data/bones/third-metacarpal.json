@@ -1,0 +1,58 @@
+{
+    "id": "third-metacarpal-bone",
+    "name": {
+        "name": "Third Metacarpal",
+        "translations": {
+            "fr": "Troisième métacarpien",
+            "es": "Tercer metacarpiano",
+            "ru": "Третья пястная кость"
+        }
+    },
+    "url": "/bones/third-metacarpal",
+    "status": "published",
+    "description": "The third metacarpal anchors the center of the palm, giving artists a fixed axis for aligning the hand.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Third Metacarpal"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Third Metacarpal Bone"
+    },
+    "landmarks": [
+        {
+            "id": "base-of-third-metacarpal",
+            "name": "Base of the third metacarpal",
+            "desc": "Squared proximal end that locks against the capitate and receives wrist extensors."
+        },
+        {
+            "id": "dorsal-third-metacarpal",
+            "name": "Dorsal surface",
+            "desc": "Back-of-hand plane where extensor tendons track toward the middle finger."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "base-of-third-metacarpal",
+            "muscles": [
+                "extensor-carpi-radialis-brevis-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "hand",
+        "appendicular-skeleton"
+    ],
+    "icon": "bone"
+}
