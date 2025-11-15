@@ -1,0 +1,63 @@
+{
+  "id": "gluteus-maximus-muscle",
+  "name": {
+    "name": "Gluteus Maximus",
+    "translations": {
+      "fr": "Grand fessier",
+      "es": "Glúteo mayor",
+      "ru": "Большая ягодичная мышца"
+    }
+  },
+  "url": "/muscles/gluteus-maximus",
+  "status": "published",
+  "description": "Gluteus Maximus forms the dramatic swell of the buttock, powering hip extension and bold silhouettes in figure drawing.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Gluteus Maximus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Gluteus Maximus Muscle"
+  },
+  "actions": [
+    "Extends the hip strongly from a flexed stance, launching the figure from crouches or deep lunges.",
+    "Laterally rotates and abducts the thigh, helping stage open-legged poses with confident turnout.",
+    "Stabilizes the pelvis through the iliotibial tract, keeping the torso poised during one-legged balances."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "posterior-iliac-crest"
+    },
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "dorsal-sacrum"
+    },
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "coccyx-apex"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "gluteal-tuberosity"
+    }
+  ],
+  "tags": [
+    "posterior-hip",
+    "hip-extensor",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
