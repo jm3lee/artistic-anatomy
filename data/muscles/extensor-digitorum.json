@@ -1,0 +1,67 @@
+{
+  "id": "extensor-digitorum-muscle",
+  "name": {
+    "name": "Extensor Digitorum",
+    "translations": {
+      "fr": "Extenseur des doigts",
+      "es": "Extensor de los dedos",
+      "ru": "Разгибатель пальцев"
+    }
+  },
+  "url": "/muscles/extensor-digitorum",
+  "status": "published",
+  "description": "Extensor Digitorum spans the back of the forearm, fanning into tendons that spring the fingers open for expressive gestures.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Extensor Digitorum"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Extensor Digitorum Muscle"
+  },
+  "actions": [
+    "Extends the metacarpophalangeal and interphalangeal joints of digits two through five via the dorsal digital expansion.",
+    "Assists wrist extension, steadying the hand when the palm tilts back in a pose.",
+    "Spreads the fingers subtly, adding splay and rhythm to the dorsum of the hand."
+  ],
+  "origins": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "lateral-epicondyle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-index"
+    },
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-middle"
+    },
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-ring"
+    },
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-small"
+    }
+  ],
+  "tags": [
+    "posterior-forearm",
+    "upper-limb",
+    "forearm"
+  ],
+  "icon": "muscle"
+}

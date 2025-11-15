@@ -1,0 +1,55 @@
+{
+  "id": "extensor-hallucis-longus-muscle",
+  "name": {
+    "name": "Extensor Hallucis Longus",
+    "translations": {
+      "fr": "Long extenseur de l'hallux",
+      "es": "Extensor largo del dedo gordo",
+      "ru": "Длинный разгибатель большого пальца стопы"
+    }
+  },
+  "url": "/muscles/extensor-hallucis-longus",
+  "status": "published",
+  "description": "Extensor Hallucis Longus threads between the shin tendons to lift the great toe, guiding the foot's poised silhouette.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Extensor Hallucis Longus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Extensor Hallucis Longus Muscle"
+  },
+  "actions": [
+    "Extends the metatarsophalangeal and interphalangeal joints of the great toe for clear, articulated poses.",
+    "Assists dorsiflexion of the ankle, helping the foot glide upward in a step or relevé.",
+    "Stabilizes the medial longitudinal arch when the toe anchors balance in contrapposto."
+  ],
+  "origins": [
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "fibular-shaft"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "distal-phalanges-foot-bone",
+      "landmark_id": "distal-phalanx-hallux"
+    }
+  ],
+  "tags": [
+    "anterior-leg",
+    "dorsiflexor",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
