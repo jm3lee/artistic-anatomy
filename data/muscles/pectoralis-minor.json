@@ -1,0 +1,55 @@
+{
+  "id": "pectoralis-minor-muscle",
+  "name": {
+    "name": "Pectoralis Minor",
+    "translations": {
+      "fr": "Petit pectoral",
+      "es": "Pectoral menor",
+      "ru": "Малая грудная мышца"
+    }
+  },
+  "url": "/muscles/pectoralis-minor",
+  "status": "published",
+  "description": "Pectoralis minor hides beneath its larger sibling, tugging the scapula forward and carving the undercut beneath the clavicle.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Pectoralis Minor"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Pectoralis Minor Muscle"
+  },
+  "actions": [
+    "Protracts the scapula, drawing it anteriorly to round the shoulder during reach and push motions.",
+    "Depresses the scapula, helping anchor the shoulder girdle when the hands bear weight.",
+    "Assists with elevating the ribs during forced inspiration when the scapula is fixed."
+  ],
+  "origins": [
+    {
+      "bone_id": "rib-cage-bone",
+      "landmark_id": "upper-lateral-ribs"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "coracoid-process"
+    }
+  ],
+  "tags": [
+    "chest",
+    "breathing",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

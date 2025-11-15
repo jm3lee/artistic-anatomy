@@ -1,0 +1,64 @@
+{
+    "id": "palmar-aponeurosis-structure",
+    "name": {
+        "name": "Palmar Aponeurosis",
+        "translations": {
+            "fr": "Aponévrose palmaire",
+            "es": "Aponeurosis palmar",
+            "ru": "Ладонный апоневроз"
+        }
+    },
+    "url": "/bones/palmar-aponeurosis",
+    "status": "published",
+    "description": "The palmar aponeurosis fans across the palm like a taut sail, distributing tendon forces and shaping the hollow of the hand that artists rely on for expressive gestures.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Palmar Aponeurosis"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Palmar Aponeurosis Structure"
+    },
+    "landmarks": [
+        {
+            "id": "central-fan",
+            "name": "Central fan",
+            "desc": "Triangular sheet that radiates toward the digits, blending with the digital slips."
+        },
+        {
+            "id": "flexor-retinaculum-blend",
+            "name": "Flexor retinaculum blend",
+            "desc": "Proximal thickening where the aponeurosis fuses with the transverse carpal ligament."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "central-fan",
+            "muscles": [
+                "palmaris-longus-muscle"
+            ]
+        },
+        {
+            "landmark": "flexor-retinaculum-blend",
+            "muscles": [
+                "palmaris-longus-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "hand",
+        "connective-tissue"
+    ],
+    "icon": "soft-tissue"
+}

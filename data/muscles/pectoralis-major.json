@@ -1,0 +1,67 @@
+{
+  "id": "pectoralis-major-muscle",
+  "name": {
+    "name": "Pectoralis Major",
+    "translations": {
+      "fr": "Grand pectoral",
+      "es": "Pectoral mayor",
+      "ru": "Большая грудная мышца"
+    }
+  },
+  "url": "/muscles/pectoralis-major",
+  "status": "published",
+  "description": "Pectoralis major drapes the chest like a bold fan, pulling the arm across the body while defining the heroic planes of the thorax.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Pectoralis Major"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Pectoralis Major Muscle"
+  },
+  "actions": [
+    "Adducts and flexes the humerus, sweeping the arm inward for embraces, pushes, and dramatic chest compressions.",
+    "Medially rotates the humerus, turning the arm to align with the sternum's front plane.",
+    "Stabilizes the scapula by drawing it anteriorly through its humeral insertion during weight-bearing poses."
+  ],
+  "origins": [
+    {
+      "bone_id": "clavicle-bone",
+      "landmark_id": "sternal-end-clavicle"
+    },
+    {
+      "bone_id": "rib-cage-bone",
+      "landmark_id": "manubrium"
+    },
+    {
+      "bone_id": "rib-cage-bone",
+      "landmark_id": "body-of-sternum"
+    },
+    {
+      "bone_id": "rib-cage-bone",
+      "landmark_id": "costal-arch"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "bicipital-groove"
+    }
+  ],
+  "tags": [
+    "chest",
+    "upper-limb",
+    "thorax"
+  ],
+  "icon": "muscle"
+}

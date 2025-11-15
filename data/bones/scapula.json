@@ -178,7 +178,8 @@
         {
             "landmark": "inferior-angle",
             "muscles": [
-                "teres-major-muscle"
+                "teres-major-muscle",
+                "latissimus-dorsi-muscle"
             ]
         },
         {

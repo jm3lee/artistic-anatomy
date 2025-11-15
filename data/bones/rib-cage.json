@@ -67,7 +67,39 @@
         }
     ],
     "insertions": [],
-    "origins": [],
+    "origins": [
+        {
+            "landmark": "manubrium",
+            "muscles": [
+                "pectoralis-major-muscle"
+            ]
+        },
+        {
+            "landmark": "body-of-sternum",
+            "muscles": [
+                "pectoralis-major-muscle"
+            ]
+        },
+        {
+            "landmark": "costal-arch",
+            "muscles": [
+                "pectoralis-major-muscle"
+            ]
+        },
+        {
+            "landmark": "upper-lateral-ribs",
+            "muscles": [
+                "pectoralis-minor-muscle",
+                "serratus-anterior-muscle"
+            ]
+        },
+        {
+            "landmark": "floating-ribs",
+            "muscles": [
+                "latissimus-dorsi-muscle"
+            ]
+        }
+    ],
     "tags": [
         "thorax",
         "axial-skeleton"

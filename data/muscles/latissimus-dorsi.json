@@ -1,0 +1,71 @@
+{
+  "id": "latissimus-dorsi-muscle",
+  "name": {
+    "name": "Latissimus Dorsi",
+    "translations": {
+      "fr": "Grand dorsal",
+      "es": "Dorsal ancho",
+      "ru": "Широчайшая мышца спины"
+    }
+  },
+  "url": "/muscles/latissimus-dorsi",
+  "status": "published",
+  "description": "Latissimus dorsi spreads like a sail across the lower back, sweeping the arm toward the body while sculpting the V-shaped torso artists love to emphasize.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Latissimus Dorsi"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Latissimus Dorsi Muscle"
+  },
+  "actions": [
+    "Adducts the humerus, drawing the arm close for powerful rowing, climbing, and hugging gestures.",
+    "Extends the shoulder from a flexed position, letting the arm sweep back in dramatic contrapposto poses.",
+    "Medially rotates the humerus, rolling the inner arm forward to harmonize with the chest masses."
+  ],
+  "origins": [
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "spinous-processes-c7-t12"
+    },
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "dorsal-sacrum"
+    },
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "iliac-crest"
+    },
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "inferior-angle"
+    },
+    {
+      "bone_id": "rib-cage-bone",
+      "landmark_id": "floating-ribs"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "bicipital-groove"
+    }
+  ],
+  "tags": [
+    "back",
+    "upper-limb",
+    "torso"
+  ],
+  "icon": "muscle"
+}
