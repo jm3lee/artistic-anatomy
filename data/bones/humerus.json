@@ -56,6 +56,11 @@
             "desc": "Roughened lateral ridge halfway down the shaft where the deltoid inserts, anchoring the arm's tapering mass."
         },
         {
+            "id": "medial-humerus-midshaft",
+            "name": "Medial midshaft",
+            "desc": "Inner surface opposite the deltoid tuberosity that receives the coracobrachialis for gentle arm adduction lines."
+        },
+        {
             "id": "radial-groove",
             "name": "Radial groove",
             "desc": "Posterior spiral groove that carries the radial nerve between the medial and lateral heads of triceps."
@@ -123,6 +128,12 @@
                 "latissimus-dorsi-muscle",
                 "teres-major-muscle",
                 "pectoralis-major-muscle"
+            ]
+        },
+        {
+            "landmark": "medial-humerus-midshaft",
+            "muscles": [
+                "coracobrachialis-muscle"
             ]
         }
     ],

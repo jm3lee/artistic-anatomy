@@ -1,0 +1,55 @@
+{
+  "id": "calcaneofibular-ligament",
+  "name": {
+    "name": "Calcaneofibular Ligament",
+    "translations": {
+      "fr": "Ligament calcaneofibulaire",
+      "es": "Ligamento calcaneofibular",
+      "ru": "Пяточно-малоберцовая связка"
+    }
+  },
+  "url": "/ligaments/calcaneofibular",
+  "status": "published",
+  "description": "The calcaneofibular ligament spans the outer ankle like a taut strap, steadying the heel beneath the fibula for clean gesture drawing of the lower leg.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Ligaments",
+        "url": "/ligaments/"
+      },
+      {
+        "title": "Calcaneofibular Ligament"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Calcaneofibular Ligament"
+  },
+  "actions": [
+    "Resists inversion stress at the subtalar joint during weight shifts.",
+    "Links the lateral malleolus to the heel so the fibula and calcaneus move as a team in plantarflexion.",
+    "Provides a crisp surface tension along the outer ankle for artists to indicate when the foot is braced."
+  ],
+  "origins": [
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "lateral-malleolus"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "calcaneus-bone",
+      "landmark_id": "lateral-process-calcaneus"
+    }
+  ],
+  "tags": [
+    "ankle",
+    "ligament",
+    "lower-limb"
+  ],
+  "icon": "ligament"
+}

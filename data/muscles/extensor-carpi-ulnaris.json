@@ -1,0 +1,59 @@
+{
+  "id": "extensor-carpi-ulnaris-muscle",
+  "name": {
+    "name": "Extensor Carpi Ulnaris",
+    "translations": {
+      "fr": "Extenseur ulnaire du carpe",
+      "es": "Extensor cubital del carpo",
+      "ru": "Локтевой разгибатель запястья"
+    }
+  },
+  "url": "/muscles/extensor-carpi-ulnaris",
+  "status": "published",
+  "description": "Extensor Carpi Ulnaris sweeps along the outer forearm, anchoring the little finger side of the wrist during expressive cupping.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Extensor Carpi Ulnaris"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Extensor Carpi Ulnaris Muscle"
+  },
+  "actions": [
+    "Extends the wrist to straighten the hand in line with the ulna.",
+    "Produces ulnar deviation, drawing the hand toward the little finger for elegant fan gestures.",
+    "Stabilizes the carpals during forceful grips, partnering with flexor carpi ulnaris for balanced tension."
+  ],
+  "origins": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "lateral-epicondyle"
+    },
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "posterior-border-ulna"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "fifth-metacarpal-bone",
+      "landmark_id": "base-of-fifth-metacarpal"
+    }
+  ],
+  "tags": [
+    "forearm",
+    "posterior-compartment",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

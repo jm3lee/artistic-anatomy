@@ -1,0 +1,58 @@
+{
+    "id": "fifth-metacarpal-bone",
+    "name": {
+        "name": "Fifth Metacarpal",
+        "translations": {
+            "fr": "Cinquième métacarpien",
+            "es": "Quinto metacarpiano",
+            "ru": "Пятая пястная кость"
+        }
+    },
+    "url": "/bones/fifth-metacarpal",
+    "status": "published",
+    "description": "The fifth metacarpal shapes the ulnar edge of the palm, flexing with the little finger for expressive cupping gestures.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Fifth Metacarpal"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Fifth Metacarpal Bone"
+    },
+    "landmarks": [
+        {
+            "id": "base-of-fifth-metacarpal",
+            "name": "Base of the fifth metacarpal",
+            "desc": "Proximal hook that accepts the extensor carpi ulnaris tendon and braces against the hamate."
+        },
+        {
+            "id": "ulnar-surface-fifth-metacarpal",
+            "name": "Ulnar surface",
+            "desc": "Medial plane that sets the contour of the outer hand when the little finger flares."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "base-of-fifth-metacarpal",
+            "muscles": [
+                "extensor-carpi-ulnaris-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "hand",
+        "appendicular-skeleton"
+    ],
+    "icon": "bone"
+}

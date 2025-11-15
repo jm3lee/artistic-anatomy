@@ -1,0 +1,55 @@
+{
+  "id": "coracobrachialis-muscle",
+  "name": {
+    "name": "Coracobrachialis",
+    "translations": {
+      "fr": "Coracobrachial",
+      "es": "Coracobraquial",
+      "ru": "Клювовидно-плечевая мышца"
+    }
+  },
+  "url": "/muscles/coracobrachialis",
+  "status": "published",
+  "description": "Coracobrachialis forms a slender chord along the inner arm, guiding the humerus toward the rib cage when the shoulder draws inward.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Coracobrachialis"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Coracobrachialis Muscle"
+  },
+  "actions": [
+    "Flexes the glenohumeral joint to swing the arm forward from anatomical position.",
+    "Adducts the humerus, drawing it toward the thorax alongside pectoralis major.",
+    "Stabilizes the humeral head against the glenoid during reaching motions so deltoid strokes stay precise."
+  ],
+  "origins": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "coracoid-process"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "medial-humerus-midshaft"
+    }
+  ],
+  "tags": [
+    "arm",
+    "upper-limb",
+    "anterior-compartment"
+  ],
+  "icon": "muscle"
+}

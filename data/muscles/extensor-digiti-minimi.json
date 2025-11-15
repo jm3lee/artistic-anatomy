@@ -1,0 +1,55 @@
+{
+  "id": "extensor-digiti-minimi-muscle",
+  "name": {
+    "name": "Extensor Digiti Minimi",
+    "translations": {
+      "fr": "Extenseur du petit doigt",
+      "es": "Extensor del meñique",
+      "ru": "Разгибатель мизинца"
+    }
+  },
+  "url": "/muscles/extensor-digiti-minimi",
+  "status": "published",
+  "description": "Extensor Digiti Minimi slips along the posterior forearm to flick the little finger outward for lively hand accents.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Extensor Digiti Minimi"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Extensor Digiti Minimi Muscle"
+  },
+  "actions": [
+    "Extends the metacarpophalangeal and interphalangeal joints of the little finger via the dorsal digital expansion.",
+    "Assists wrist extension when the fingers spread in expressive poses.",
+    "Accentuates the ulnar border of the hand, giving artists a cue for splayed gestures."
+  ],
+  "origins": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "lateral-epicondyle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "distal-phalanges-bone",
+      "landmark_id": "distal-phalanx-small"
+    }
+  ],
+  "tags": [
+    "forearm",
+    "posterior-compartment",
+    "hand"
+  ],
+  "icon": "muscle"
+}

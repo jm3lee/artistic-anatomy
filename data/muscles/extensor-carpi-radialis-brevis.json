@@ -1,0 +1,55 @@
+{
+  "id": "extensor-carpi-radialis-brevis-muscle",
+  "name": {
+    "name": "Extensor Carpi Radialis Brevis",
+    "translations": {
+      "fr": "Extenseur radial du carpe court",
+      "es": "Extensor radial corto del carpo",
+      "ru": "Короткий лучевой разгибатель запястья"
+    }
+  },
+  "url": "/muscles/extensor-carpi-radialis-brevis",
+  "status": "published",
+  "description": "Extensor Carpi Radialis Brevis lifts the back of the wrist, lending taut energy to the hand when the knuckles flare.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Extensor Carpi Radialis Brevis"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Extensor Carpi Radialis Brevis Muscle"
+  },
+  "actions": [
+    "Extends the wrist, especially from a flexed position when sketching gripping poses.",
+    "Assists radial deviation to angle the hand toward the thumb side in gestures with Extensor Carpi Radialis Longus.",
+    "Stabilizes the carpals during finger flexion, balancing the force from the digital flexors."
+  ],
+  "origins": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "lateral-epicondyle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "third-metacarpal-bone",
+      "landmark_id": "base-of-third-metacarpal"
+    }
+  ],
+  "tags": [
+    "forearm",
+    "posterior-compartment",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
