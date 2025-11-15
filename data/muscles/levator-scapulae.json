@@ -1,0 +1,59 @@
+{
+  "id": "levator-scapulae-muscle",
+  "name": {
+    "name": "Levator Scapulae",
+    "translations": {
+      "fr": "Élévateur de la scapula",
+      "es": "Elevador de la escápula",
+      "ru": "Мышца, поднимающая лопатку"
+    }
+  },
+  "url": "/muscles/levator-scapulae",
+  "status": "published",
+  "description": "Levator scapulae climbs the side of the neck like a taut strap, tipping the scapula upward while softening the transition from skull to shoulder.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Levator Scapulae"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Levator Scapulae Muscle"
+  },
+  "actions": [
+    "Elevates the scapula, letting the shoulder girdle shrug or brace during expressive poses.",
+    "Assists scapular downward rotation, guiding the glenoid to face the torso when the arm lowers.",
+    "Helps laterally flex the neck toward the same side, creating graceful head tilts in portrait work."
+  ],
+  "origins": [
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "cervical-transverse-processes"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "superior-angle"
+    },
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "medial-border"
+    }
+  ],
+  "tags": [
+    "neck",
+    "shoulder-girdle",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

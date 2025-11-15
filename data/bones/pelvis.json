@@ -124,6 +124,12 @@
             ]
         },
         {
+            "landmark": "iliac-crest",
+            "muscles": [
+                "latissimus-dorsi-muscle"
+            ]
+        },
+        {
             "landmark": "ischial-ramus",
             "muscles": [
                 "adductor-magnus-muscle"

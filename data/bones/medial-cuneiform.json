@@ -1,0 +1,63 @@
+{
+    "id": "medial-cuneiform-bone",
+    "name": {
+        "name": "Medial Cuneiform",
+        "translations": {
+            "fr": "Cunéiforme médial",
+            "es": "Cuneiforme medial",
+            "ru": "Медиальная клиновидная кость"
+        }
+    },
+    "url": "/bones/medial-cuneiform",
+    "status": "published",
+    "description": "The medial cuneiform crowns the first ray of the foot, giving artists a firm wedge to anchor the inner arch and big toe axis.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Medial Cuneiform"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Medial Cuneiform Bone"
+    },
+    "landmarks": [
+        {
+            "id": "medial-cuneiform-medial-face",
+            "name": "Medial face",
+            "desc": "Smooth inner plane that catches light at the instep and receives ligaments from the navicular."
+        },
+        {
+            "id": "medial-cuneiform-dorsal-ridge",
+            "name": "Dorsal ridge",
+            "desc": "Top crest that aligns with the first metatarsal, guiding the contour of the foot's dorsum."
+        },
+        {
+            "id": "medial-cuneiform-plantar-surface",
+            "name": "Plantar surface",
+            "desc": "Broad underside where tendons and ligaments bolster the medial longitudinal arch."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "medial-cuneiform-plantar-surface",
+            "muscles": [
+                "fibularis-longus-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "foot",
+        "tarsal-bone"
+    ],
+    "icon": "bone"
+}

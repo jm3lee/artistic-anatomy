@@ -66,6 +66,12 @@
     ],
     "origins": [
         {
+            "landmark": "sternal-end-clavicle",
+            "muscles": [
+                "pectoralis-major-muscle"
+            ]
+        },
+        {
             "landmark": "lateral-third-clavicle",
             "muscles": [
                 "deltoid-muscle"

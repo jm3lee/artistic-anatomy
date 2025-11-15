@@ -82,13 +82,15 @@
         {
             "landmark": "spinous-processes-c7-t12",
             "muscles": [
-                "trapezius-muscle"
+                "trapezius-muscle",
+                "latissimus-dorsi-muscle"
             ]
         },
         {
             "landmark": "dorsal-sacrum",
             "muscles": [
-                "gluteus-maximus-muscle"
+                "gluteus-maximus-muscle",
+                "latissimus-dorsi-muscle"
             ]
         },
         {

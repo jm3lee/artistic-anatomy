@@ -1,0 +1,59 @@
+{
+  "id": "palmaris-longus-muscle",
+  "name": {
+    "name": "Palmaris Longus",
+    "translations": {
+      "fr": "Long palmaire",
+      "es": "Palmar largo",
+      "ru": "Длинная ладонная мышца"
+    }
+  },
+  "url": "/muscles/palmaris-longus",
+  "status": "published",
+  "description": "Palmaris longus is the slender tendon that springs into view when you pinch your fingertips, threading toward the palm to tension the fascia like a subtle bowstring.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Palmaris Longus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Palmaris Longus Muscle"
+  },
+  "actions": [
+    "Flexes the wrist lightly, helping curl the palm without overpowering delicate gestures.",
+    "Tenses the palmar aponeurosis so the skin of the palm stays taut for confident grips.",
+    "Assists with cupping the hand, complementing flexor carpi radialis and ulnaris for balanced poses."
+  ],
+  "origins": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "medial-epicondyle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "palmar-aponeurosis-structure",
+      "landmark_id": "central-fan"
+    },
+    {
+      "bone_id": "palmar-aponeurosis-structure",
+      "landmark_id": "flexor-retinaculum-blend"
+    }
+  ],
+  "tags": [
+    "forearm",
+    "anterior-compartment",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
