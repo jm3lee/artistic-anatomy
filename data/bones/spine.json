@@ -96,6 +96,12 @@
             "muscles": [
                 "gluteus-maximus-muscle"
             ]
+        },
+        {
+            "landmark": "lumbar-transverse-processes",
+            "muscles": [
+                "iliopsoas-muscle"
+            ]
         }
     ],
     "tags": [

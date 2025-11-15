@@ -1,0 +1,58 @@
+{
+  "id": "iliopsoas-muscle",
+  "name": {
+    "name": "Iliopsoas",
+    "translations": {
+      "fr": "Ilio-psoas",
+      "es": "Iliopsoas",
+      "ru": "Подвздошно-поясничная мышца"
+    }
+  },
+  "url": "/muscles/iliopsoas",
+  "status": "published",
+  "description": "Iliopsoas arcs from the deep pelvis to the lesser trochanter, pulling the thigh forward and lending a sleek frame to high steps and seated poses.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Iliopsoas"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Iliopsoas Muscle"
+  },
+  "actions": [
+    "Flexes the hip powerfully, lifting the thigh in walks, runs, and dramatic kicks.",
+    "Anteriorly tilts the pelvis when the femur is fixed, accenting lumbar curves.",
+    "Stabilizes the lumbar spine during balanced torso bends and extensions."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "iliac-fossa"
+    },
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "lumbar-transverse-processes"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "lesser-trochanter"
+    }
+  ],
+  "tags": [
+    "hip-flexors",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}

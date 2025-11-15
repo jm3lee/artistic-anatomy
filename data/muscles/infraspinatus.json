@@ -1,0 +1,54 @@
+{
+  "id": "infraspinatus-muscle",
+  "name": {
+    "name": "Infraspinatus",
+    "translations": {
+      "fr": "Infraspinatus",
+      "es": "Infraespinoso",
+      "ru": "Подостная мышца"
+    }
+  },
+  "url": "/muscles/infraspinatus",
+  "status": "published",
+  "description": "Infraspinatus fans across the back of the scapula, wrapping to the humerus to spin the arm outward and carve crisp shoulder shadows.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Infraspinatus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Infraspinatus Muscle"
+  },
+  "actions": [
+    "Laterally rotates the humerus, opening the elbow outward in throws and reaches.",
+    "Helps depress and center the humeral head, safeguarding the shoulder joint during elevation.",
+    "Balances the deltoid during abduction, smoothing the back of the shoulder mass."
+  ],
+  "origins": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "infraspinous-fossa"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "greater-tubercle"
+    }
+  ],
+  "tags": [
+    "rotator-cuff",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

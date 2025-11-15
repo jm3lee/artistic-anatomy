@@ -1,0 +1,58 @@
+{
+  "id": "gracilis-muscle",
+  "name": {
+    "name": "Gracilis",
+    "translations": {
+      "fr": "Gracile",
+      "es": "Grácil",
+      "ru": "Тонкая мышца"
+    }
+  },
+  "url": "/muscles/gracilis",
+  "status": "published",
+  "description": "Gracilis draws a slender ribbon down the inner thigh, carrying the groin's gesture toward the knee with a soft, easily observed contour.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Gracilis"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Gracilis Muscle"
+  },
+  "actions": [
+    "Adducts the thigh to steady standing poses and cross-legged gestures.",
+    "Assists hip flexion when the leg swings forward from the waist.",
+    "Flexes and medially rotates the knee, letting the lower leg sweep inward during dramatic stances."
+  ],
+  "origins": [
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "body-of-pubis"
+    },
+    {
+      "bone_id": "pelvis-bone",
+      "landmark_id": "inferior-pubic-ramus"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "tibia-bone",
+      "landmark_id": "pes-anserinus-area"
+    }
+  ],
+  "tags": [
+    "medial-thigh",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
