@@ -1,0 +1,59 @@
+{
+  "id": "flexor-carpi-radialis-muscle",
+  "name": {
+    "name": "Flexor Carpi Radialis",
+    "translations": {
+      "fr": "Fléchisseur radial du carpe",
+      "es": "Flexor radial del carpo",
+      "ru": "Лучевой сгибатель запястья"
+    }
+  },
+  "url": "/muscles/flexor-carpi-radialis",
+  "status": "published",
+  "description": "Flexor Carpi Radialis streaks down the forearm's medial column, guiding the palmar crease toward the thumb side as it flexes the wrist with finesse.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Flexor Carpi Radialis"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Flexor Carpi Radialis Muscle"
+  },
+  "actions": [
+    "Flexes the wrist, curling the palm for relaxed sketchbook holds and rhythmic gesturing.",
+    "Produces radial deviation, drawing the hand toward the thumb to accent elegant s-curve poses.",
+    "Steadies the carpal tunnel, counterbalancing extensor carpi radialis for a poised neutral wrist."
+  ],
+  "origins": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "medial-epicondyle"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "second-metacarpal-bone",
+      "landmark_id": "base-of-second-metacarpal"
+    },
+    {
+      "bone_id": "third-metacarpal-bone",
+      "landmark_id": "base-of-third-metacarpal"
+    }
+  ],
+  "tags": [
+    "forearm",
+    "anterior-compartment",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

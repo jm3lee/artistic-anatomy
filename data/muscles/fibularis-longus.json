@@ -1,0 +1,63 @@
+{
+  "id": "fibularis-longus-muscle",
+  "name": {
+    "name": "Fibularis Longus",
+    "translations": {
+      "fr": "Long fibulaire",
+      "es": "Peroneo largo",
+      "ru": "Длинная малоберцовая мышца"
+    }
+  },
+  "url": "/muscles/fibularis-longus",
+  "status": "published",
+  "description": "Fibularis Longus sweeps from the fibular head under the foot, shaping the lateral calf and lifting the inner arch with each poised step.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Fibularis Longus"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Fibularis Longus Muscle"
+  },
+  "actions": [
+    "Everts and plantarflexes the foot, letting the artist suggest a lively push-off or skating glide.",
+    "Supports the transverse and medial arches by slinging beneath the sole to the first ray.",
+    "Balances tibialis anterior during standing poses so the ankle reads stable yet responsive."
+  ],
+  "origins": [
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "head-of-fibula"
+    },
+    {
+      "bone_id": "fibula-bone",
+      "landmark_id": "fibular-shaft"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "first-metatarsal-bone",
+      "landmark_id": "base-of-first-metatarsal"
+    },
+    {
+      "bone_id": "medial-cuneiform-bone",
+      "landmark_id": "medial-cuneiform-plantar-surface"
+    }
+  ],
+  "tags": [
+    "lateral-leg",
+    "arch-support",
+    "lower-limb"
+  ],
+  "icon": "muscle"
+}
