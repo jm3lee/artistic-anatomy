@@ -112,7 +112,7 @@
             ]
         },
         {
-            "landmark": "acromion",
+            "landmark": "acromion-process",
             "muscles": [
                 "trapezius-muscle"
             ]
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "landmark": "acromion",
+            "landmark": "acromion-process",
             "muscles": [
                 "deltoid-muscle"
             ]
