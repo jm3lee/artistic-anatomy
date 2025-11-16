@@ -1,0 +1,59 @@
+{
+  "id": "pronator-teres-muscle",
+  "name": {
+    "name": "Pronator Teres",
+    "translations": {
+      "fr": "Rond pronateur",
+      "es": "Pronador redondo",
+      "ru": "Круглый пронатор"
+    }
+  },
+  "url": "/muscles/pronator-teres",
+  "status": "published",
+  "description": "Pronator teres slings from the inner elbow to the radius, helping artists show how the forearm wraps as the palm turns down.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Pronator Teres"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Pronator Teres Muscle"
+  },
+  "actions": [
+    "Pronates the forearm, rolling the radius over the ulna so the palm faces the page or gesture reference.",
+    "Assists with gentle elbow flexion, especially when sketching a relaxed bent-arm pose.",
+    "Stabilizes the proximal radius against the ulna, keeping the wrist steady for delicate hand studies."
+  ],
+  "origins": [
+    {
+      "bone_id": "humerus-bone",
+      "landmark_id": "medial-epicondyle"
+    },
+    {
+      "bone_id": "ulna-bone",
+      "landmark_id": "coronoid-process"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "radius-bone",
+      "landmark_id": "pronator-ridge-radius"
+    }
+  ],
+  "tags": [
+    "forearm",
+    "anterior-compartment",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}

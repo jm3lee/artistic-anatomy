@@ -1,0 +1,55 @@
+{
+  "id": "rhomboid-major-muscle",
+  "name": {
+    "name": "Rhomboid Major",
+    "translations": {
+      "fr": "Grand rhomboïde",
+      "es": "Romboide mayor",
+      "ru": "Большая ромбовидная мышца"
+    }
+  },
+  "url": "/muscles/rhomboid-major",
+  "status": "published",
+  "description": "Rhomboid major stretches from the thoracic spine to the scapula's medial edge, creating the planar fold that tethers the shoulder blade to the rib cage.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Rhomboid Major"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Rhomboid Major Muscle"
+  },
+  "actions": [
+    "Retracts the scapula, drawing it toward the spine to square the shoulders in upright poses.",
+    "Downwardly rotates the scapula, letting the glenoid face slightly lower for weight-bearing gestures.",
+    "Pins the scapula against the rib cage, smoothing the costal surface when the arm braces against resistance."
+  ],
+  "origins": [
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "spinous-processes-t2-t5"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "medial-border"
+    }
+  ],
+  "tags": [
+    "back",
+    "shoulder-girdle",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
