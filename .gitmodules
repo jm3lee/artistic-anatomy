@@ -1,3 +1,6 @@
 [submodule "bookcovers"]
 	path = app/bookcovers
 	url = git@github.com:onlyartists/press-bookcovers.git
+[submodule "src/anatomy-quiz"]
+	path = src/anatomy-quiz
+	url = git@github.com:jm3lee/anatomy-quiz.git
