@@ -36,6 +36,11 @@
             "desc": "Distal point that presses against the palmar skin and receives the flexor carpi ulnaris tendon."
         },
         {
+            "id": "pisiform-body",
+            "name": "Body of the pisiform",
+            "desc": "Pea-like core that bulks the hypothenar heel and transmits flexor carpi ulnaris force across the wrist."
+        },
+        {
             "id": "palmar-face-pisiform",
             "name": "Palmar face",
             "desc": "Rounded anterior surface that bulks the hypothenar heel and shields ulnar nerve structures."
@@ -49,6 +54,12 @@
     "insertions": [
         {
             "landmark": "pisiform-apex",
+            "muscles": [
+                "flexor-carpi-ulnaris-muscle"
+            ]
+        },
+        {
+            "landmark": "pisiform-body",
             "muscles": [
                 "flexor-carpi-ulnaris-muscle"
             ]
