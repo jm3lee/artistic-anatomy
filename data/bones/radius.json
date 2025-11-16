@@ -51,6 +51,11 @@
             "desc": "Smooth outer plane where the supinator wraps to turn the palm upward."
         },
         {
+            "id": "pronator-ridge-radius",
+            "name": "Pronator ridge",
+            "desc": "Oblique lateral strip at the midshaft where pronator teres twists across the radius."
+        },
+        {
             "id": "interosseous-border-radius",
             "name": "Interosseous border",
             "desc": "Sharp medial ridge that anchors the interosseous membrane shared with the ulna."
@@ -72,6 +77,12 @@
             "landmark": "proximal-radius-lateral-surface",
             "muscles": [
                 "supinator-muscle"
+            ]
+        },
+        {
+            "landmark": "pronator-ridge-radius",
+            "muscles": [
+                "pronator-teres-muscle"
             ]
         }
     ],

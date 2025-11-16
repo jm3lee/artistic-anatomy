@@ -51,6 +51,16 @@
             "desc": "Posterior spines that step down the thoracic back and catch sharp highlights."
         },
         {
+            "id": "spinous-processes-c7-t1",
+            "name": "Spinous processes C7–T1",
+            "desc": "Transitional spinous tips at the base of the neck that give rhomboid minor its crisp origin."
+        },
+        {
+            "id": "spinous-processes-t2-t5",
+            "name": "Spinous processes T2–T5",
+            "desc": "Upper thoracic spines that root the rhomboid major and echo through the scapular rhythm."
+        },
+        {
             "id": "lumbar-transverse-processes",
             "name": "Lumbar transverse processes",
             "desc": "Sturdy lateral shelves that anchor deep muscles and broaden the waist."
@@ -76,7 +86,8 @@
         {
             "landmark": "ligamentum-nuchae",
             "muscles": [
-                "trapezius-muscle"
+                "trapezius-muscle",
+                "rhomboid-minor-muscle"
             ]
         },
         {
@@ -84,6 +95,18 @@
             "muscles": [
                 "trapezius-muscle",
                 "latissimus-dorsi-muscle"
+            ]
+        },
+        {
+            "landmark": "spinous-processes-c7-t1",
+            "muscles": [
+                "rhomboid-minor-muscle"
+            ]
+        },
+        {
+            "landmark": "spinous-processes-t2-t5",
+            "muscles": [
+                "rhomboid-major-muscle"
             ]
         },
         {

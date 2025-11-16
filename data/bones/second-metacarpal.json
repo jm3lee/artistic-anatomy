@@ -1,0 +1,63 @@
+{
+    "id": "second-metacarpal-bone",
+    "name": {
+        "name": "Second Metacarpal",
+        "translations": {
+            "fr": "Deuxième métacarpien",
+            "es": "Segundo metacarpiano",
+            "ru": "Вторая пястная кость"
+        }
+    },
+    "url": "/bones/second-metacarpal",
+    "status": "published",
+    "description": "The second metacarpal forms the long index column, aligning the hand with the forearm and giving artists a reliable axis when blocking gestures.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Second Metacarpal"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Second Metacarpal Bone"
+    },
+    "landmarks": [
+        {
+            "id": "base-of-second-metacarpal",
+            "name": "Base of the second metacarpal",
+            "desc": "Wedge-shaped proximal expansion that receives major wrist tendons and stacks the index knuckle column."
+        },
+        {
+            "id": "radial-second-metacarpal",
+            "name": "Radial surface",
+            "desc": "Lateral plane facing the thumb column, useful for sighting perspective through the hand."
+        },
+        {
+            "id": "dorsal-second-metacarpal",
+            "name": "Dorsal crest",
+            "desc": "Sharp posterior ridge that creates a subtle highlight under stretched extensor tendons."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "base-of-second-metacarpal",
+            "muscles": [
+                "flexor-carpi-radialis-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "hand",
+        "appendicular-skeleton"
+    ],
+    "icon": "bone"
+}

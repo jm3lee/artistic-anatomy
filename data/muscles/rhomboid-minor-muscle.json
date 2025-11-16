@@ -1,0 +1,59 @@
+{
+  "id": "rhomboid-minor-muscle",
+  "name": {
+    "name": "Rhomboid Minor",
+    "translations": {
+      "fr": "Petit rhomboïde",
+      "es": "Romboide menor",
+      "ru": "Малая ромбовидная мышца"
+    }
+  },
+  "url": "/muscles/rhomboid-minor",
+  "status": "published",
+  "description": "Rhomboid minor forms the narrow band between the nuchal line and scapular spine, a subtle ridge that cues shoulder blade placement in lean models.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Rhomboid Minor"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Rhomboid Minor Muscle"
+  },
+  "actions": [
+    "Retracts the scapula with precise control, sharpening the root of the scapular spine in back views.",
+    "Assists in downward rotation of the scapula, coordinating with levator scapulae for shrugging gestures.",
+    "Helps stabilize the scapula against the thorax, preventing winging when the arms are extended."
+  ],
+  "origins": [
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "spinous-processes-c7-t1"
+    },
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "ligamentum-nuchae"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "scapula-bone",
+      "landmark_id": "medial-border"
+    }
+  ],
+  "tags": [
+    "back",
+    "shoulder-girdle",
+    "upper-limb"
+  ],
+  "icon": "muscle"
+}
