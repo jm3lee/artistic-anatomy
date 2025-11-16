@@ -1,0 +1,55 @@
+{
+  "id": "piriformis-muscle",
+  "name": {
+    "name": "Piriformis",
+    "translations": {
+      "fr": "Piriforme",
+      "es": "Piriforme",
+      "ru": "Грушевидная мышца"
+    }
+  },
+  "url": "/muscles/piriformis",
+  "status": "published",
+  "description": "Piriformis wedges between sacrum and femur, splitting the gluteal mass and steering turnout in compact poses.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Piriformis"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Piriformis Muscle"
+  },
+  "actions": [
+    "Laterally rotates the femur, opening the knee outward for turnout and seated twists.",
+    "Abducts a flexed thigh to reposition the pelvis during side steps or floor transitions.",
+    "Stabilizes the sacroiliac junction so the torso can counter-rotate above the pelvis."
+  ],
+  "origins": [
+    {
+      "bone_id": "vertebrae-bone",
+      "landmark_id": "anterior-sacrum"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "greater-trochanter"
+    }
+  ],
+  "tags": [
+    "posterior-hip",
+    "lateral-rotator",
+    "pelvis"
+  ],
+  "icon": "muscle"
+}
