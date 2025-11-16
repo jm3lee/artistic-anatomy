@@ -1,0 +1,63 @@
+{
+    "id": "pisiform-bone",
+    "name": {
+        "name": "Pisiform",
+        "translations": {
+            "fr": "Os pisiforme",
+            "es": "Pisiforme",
+            "ru": "Гороховидная кость"
+        }
+    },
+    "url": "/bones/pisiform",
+    "status": "published",
+    "description": "The pisiform is a pea-shaped carpal that rides atop the triquetrum, acting as a sesamoid guide for the ulnar side of the wrist.",
+    "doc": {
+        "author": "Seattle Figure Studio",
+        "breadcrumbs": [
+            {
+                "title": "Artistic Anatomy",
+                "url": "/"
+            },
+            {
+                "title": "Bones",
+                "url": "/bones/"
+            },
+            {
+                "title": "Pisiform"
+            }
+        ],
+        "pubdate": "2025-11-07",
+        "title": "Pisiform Bone"
+    },
+    "landmarks": [
+        {
+            "id": "pisiform-apex",
+            "name": "Pisiform apex",
+            "desc": "Distal point that presses against the palmar skin and receives the flexor carpi ulnaris tendon."
+        },
+        {
+            "id": "palmar-face-pisiform",
+            "name": "Palmar face",
+            "desc": "Rounded anterior surface that bulks the hypothenar heel and shields ulnar nerve structures."
+        },
+        {
+            "id": "ulnar-articular-face-pisiform",
+            "name": "Ulnar articular face",
+            "desc": "Posterior facet where the pisiform glides over the triquetrum to maintain wrist alignment."
+        }
+    ],
+    "insertions": [
+        {
+            "landmark": "pisiform-apex",
+            "muscles": [
+                "flexor-carpi-ulnaris-muscle"
+            ]
+        }
+    ],
+    "origins": [],
+    "tags": [
+        "hand",
+        "carpal-bone"
+    ],
+    "icon": "bone"
+}

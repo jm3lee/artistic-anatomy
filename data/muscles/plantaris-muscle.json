@@ -1,0 +1,55 @@
+{
+  "id": "plantaris-muscle",
+  "name": {
+    "name": "Plantaris",
+    "translations": {
+      "fr": "Plantaire grêle",
+      "es": "Plantaris",
+      "ru": "Подошвенная мышца"
+    }
+  },
+  "url": "/muscles/plantaris",
+  "status": "published",
+  "description": "Plantaris trails a slender tendon behind the knee, echoing Achilles as it accents the calf's sweep.",
+  "doc": {
+    "author": "Seattle Figure Studio",
+    "breadcrumbs": [
+      {
+        "title": "Artistic Anatomy",
+        "url": "/"
+      },
+      {
+        "title": "Muscles",
+        "url": "/muscles/"
+      },
+      {
+        "title": "Plantaris"
+      }
+    ],
+    "pubdate": "2025-11-07",
+    "title": "Plantaris Muscle"
+  },
+  "actions": [
+    "Assists gastrocnemius with weak plantar flexion, sharpening the ankle line during relevé.",
+    "Gently flexes the knee, taking slack out of the posterior capsule in kneeling poses.",
+    "Tenses the deep fascia, smoothing transitions between calf bulges and Achilles tendon."
+  ],
+  "origins": [
+    {
+      "bone_id": "femur-bone",
+      "landmark_id": "lateral-epicondyle-femur"
+    }
+  ],
+  "insertions": [
+    {
+      "bone_id": "calcaneus-bone",
+      "landmark_id": "calcaneal-tuberosity"
+    }
+  ],
+  "tags": [
+    "posterior-leg",
+    "plantar-flexor",
+    "calf"
+  ],
+  "icon": "muscle"
+}

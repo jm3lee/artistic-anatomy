@@ -71,6 +71,11 @@
             "desc": "Flaring wings of the sacrum that merge into the pelvis and seat the torso."
         },
         {
+            "id": "anterior-sacrum",
+            "name": "Anterior sacrum",
+            "desc": "Concave pelvic surface of the sacrum perforated by foramina where piriformis fibers emerge."
+        },
+        {
             "id": "dorsal-sacrum",
             "name": "Dorsal sacrum",
             "desc": "Rough midline surface of the sacrum where gluteus maximus fibers root."
